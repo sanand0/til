@@ -12,10 +12,13 @@ const SITE_SUBTITLE = "Weekly notes and discoveries";
 const SITE_BASE = "https://til.s-anand.net";
 
 const renderHeader = (title) => /* html */ `
-<header class="bg-primary text-white py-5 mb-4">
-  <div class="container">
+<header class="text-bg-primary py-5 mb-4">
+  <div class="container text-center">
     <h1 class="display-4 fw-bold">${title}</h1>
-    <p class="lead mb-0">${SITE_SUBTITLE}</p>
+    <p class="lead mb-0">
+      <a class="link-light link-offset-3" href="${SITE_BASE}">${SITE_SUBTITLE}</a> |
+      <a class="link-light link-offset-3" href="https://s-anand.net">S Anand</a>
+    </p>
   </div>
 </header>`;
 
@@ -119,7 +122,7 @@ const generateWeekHTML = (notes, weekStart, allWeeks) => {
 
   const content = /* html */ `
     ${renderHeader(formattedDate)}
-    ${renderContainer(/* html */`
+    ${renderContainer(/* html */ `
       <div class="notes mb-4">${notes.map(noteToMarkdown).join("\n")}</div>
       ${renderNav(
         weekIndex > 0 ? allWeeks[weekIndex - 1] : null,
@@ -151,7 +154,7 @@ const generateIndexHTML = (weeks) => {
 
   const content = /* html */ `
     ${renderHeader(SITE_TITLE)}
-    ${renderContainer(/* html */`
+    ${renderContainer(/* html */ `
       <div class="list-group mb-4">
         ${linksHtml}
       </div>
@@ -183,8 +186,8 @@ const generateRSS = (weeklyNotes) => {
       return /* xml */ `
         <item>
           <title>Things I Learned: Week of ${weekStart}</title>
-          <link>https://til.s-anand.net/${weekStart}.html</link>
-          <guid>https://til.s-anand.net/${weekStart}.html</guid>
+          <link>${SITE_BASE}/${weekStart}.html</link>
+          <guid>${SITE_BASE}/${weekStart}.html</guid>
           <pubDate>${new Date(weekStart).toUTCString()}</pubDate>
           <description><![CDATA[${content}]]></description>
         </item>`;
@@ -195,7 +198,7 @@ const generateRSS = (weeklyNotes) => {
 <rss version="2.0">
   <channel>
     <title>Things I Learned</title>
-    <link>https://til.s-anand.net/</link>
+    <link>${SITE_BASE}/</link>
     <description>Weekly collected notes and learnings</description>
     <language>en-us</language>
     ${items}
