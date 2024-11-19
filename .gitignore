@@ -1,3 +1,2 @@
 # Remove generated files from the repo
-*.html
-*.xml
+public/

@@ -201,16 +201,19 @@ const allNotes = paths.map((path) => Deno.readTextFileSync(path)).flatMap((conte
 const weeklyNotes = groupByWeek(allNotes);
 const allWeeks = [...weeklyNotes.keys()].sort();
 
-// Generate HTML files for each week
+// Add this near the start of the file
+await Deno.mkdir("public", { recursive: true });
+
+// Modify file writing operations
 weeklyNotes.forEach((notes, weekStart) => {
   const html = generateWeekHTML(notes, weekStart, allWeeks);
-  Deno.writeTextFileSync(`${weekStart}.html`, html);
+  Deno.writeTextFileSync(`public/${weekStart}.html`, html);
 });
 
 // Generate index page
 const indexHtml = generateIndexHTML(allWeeks);
-Deno.writeTextFileSync("index.html", indexHtml);
+Deno.writeTextFileSync("public/index.html", indexHtml);
 
-// After generating index.html, add:
+// Generate RSS feed
 const rssContent = generateRSS(weeklyNotes);
-Deno.writeTextFileSync("feed.xml", rssContent);
+Deno.writeTextFileSync("public/feed.xml", rssContent);
