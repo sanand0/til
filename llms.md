@@ -2,6 +2,7 @@
 
 ## Nov 2024
 
+- 19 Nov 2024. Langchain suggests multiple levels of agentic behaviour. LLM Call < LLM Chain < LLM Rounter < State Machine < Autonomous [Ref](https://blog.langchain.dev/what-is-an-agent/)
 - 18 Nov 2024. Straive evaluated Gemini 1.5 Flash 002 and GPT 4o Mini for translation.
   - Portugese: Flash is better than GPT 4o Mini. BLEU Word Overlap is 65.5% > 64.6% and METEOR (Semantic) is 84.9% > 78.9%
   - Mandarin: Flash is better than GPT 4o Mini. BLEU Word Overlap is 25.0% > 15.9% and METEOR (Semantic) is 54.7% > 51.1%

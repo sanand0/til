@@ -7,23 +7,35 @@ const DATE_FORMAT = {
   year: "numeric",
 };
 
-const BASE_URL = "https://til.s-anand.net";
+const SITE_TITLE = "Things I Learned";
+const SITE_SUBTITLE = "Weekly notes and discoveries";
+const SITE_BASE = "https://til.s-anand.net";
 
-// Common HTML wrapper to avoid duplication
-const wrapHtml = (title, content) => /* html */ `<!DOCTYPE html>
+const renderHeader = (title) => /* html */ `
+<header class="bg-primary text-white py-5 mb-4">
+  <div class="container">
+    <h1 class="display-4 fw-bold">${title}</h1>
+    <p class="lead mb-0">${SITE_SUBTITLE}</p>
+  </div>
+</header>`;
+
+const renderHtmlWrapper = (content, title) => /* html */ `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${title} | TIL | s-anand.net</title>
+  <title>${title} | ${SITE_TITLE} | s-anand.net</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-  <div class="container py-4" style="max-width: 40rem;">
-    ${content}
-  </div>
+<body class="bg-light">
+  ${content}
 </body>
 </html>`;
+
+const renderContainer = (content) => /* html */ `
+<div class="container py-4" style="max-width: 40rem;">
+  ${content}
+</div>`;
 
 /**
  * Represents a single note entry
@@ -91,6 +103,9 @@ const renderNav = (prevWeek, nextWeek) => /* html */ `
     ${nextWeek ? `<a href="${nextWeek}.html">Next Week →</a>` : "<span></span>"}
   </nav>`;
 
+// Converts each bulleted point into markdown, removing the date prefix
+const noteToMarkdown = (note) => marked(note.content.replace(/^- \d{1,2} [A-Za-z]{3} \d{4}\.\s*/, "- ").trim());
+
 /**
  * Generates HTML content for a week's notes
  * @param {Note[]} notes - Notes for the week
@@ -103,21 +118,16 @@ const generateWeekHTML = (notes, weekStart, allWeeks) => {
   const formattedDate = new Date(weekStart).toLocaleDateString("en-US", DATE_FORMAT);
 
   const content = /* html */ `
-    <h1 class="mb-4">${formattedDate}</h1>
-    <div class="notes">
-      ${notes
-        .map((note) => {
-          const content = note.content.replace(/^- \d{1,2} [A-Za-z]{3} \d{4}\.\s*/, "- ");
-          return marked(content.trim());
-        })
-        .join("\n")}
-    </div>
-    ${renderNav(
-      weekIndex > 0 ? allWeeks[weekIndex - 1] : null,
-      weekIndex < allWeeks.length - 1 ? allWeeks[weekIndex + 1] : null
-    )}`;
+    ${renderHeader(formattedDate)}
+    ${renderContainer(/* html */`
+      <div class="notes mb-4">${notes.map(noteToMarkdown).join("\n")}</div>
+      ${renderNav(
+        weekIndex > 0 ? allWeeks[weekIndex - 1] : null,
+        weekIndex < allWeeks.length - 1 ? allWeeks[weekIndex + 1] : null
+      )}
+    `)}`;
 
-  return wrapHtml(formattedDate, content);
+  return renderHtmlWrapper(content, formattedDate);
 };
 
 /**
@@ -127,33 +137,35 @@ const generateWeekHTML = (notes, weekStart, allWeeks) => {
  */
 const generateIndexHTML = (weeks) => {
   const linksHtml = weeks
-    .sort((a, b) => b.localeCompare(a)) // Reverse chronological order
+    .sort((a, b) => b.localeCompare(a))
     .map((week) => {
       const date = new Date(week);
       const formattedDate = date.toLocaleDateString("en-US", DATE_FORMAT);
-      return `<li><a href="${week}.html">${formattedDate}</a></li>`;
+      return /* html */ `
+        <a href="${week}.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+          <h2 class="h5 my-2">${formattedDate}</h2>
+          <span class="text-muted">→</span>
+        </a>`;
     })
     .join("\n");
 
-  return /* html */ `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="alternate" type="application/rss+xml" title="Things I Learned | s-anand.net" href="/feed.xml">
-  <title>Things I Learned | s-anand.net</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-  <div class="container py-4" style="max-width: 40rem;">
-    <h1>Things I Learned</h1>
-    <ul class="list-unstyled">
-      ${linksHtml}
-    </ul>
-    <a href="feed.xml">RSS Feed</a>
-  </div>
-</body>
-</html>`;
+  const content = /* html */ `
+    ${renderHeader(SITE_TITLE)}
+    ${renderContainer(/* html */`
+      <div class="list-group mb-4">
+        ${linksHtml}
+      </div>
+      <footer class="text-center">
+        <a href="feed.xml" class="btn btn-outline-secondary btn-sm">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rss-fill" viewBox="0 0 16 16">
+            <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm1.5 2.5c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1 0-2zm0 4a6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1 0-2zm.5 7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+          </svg>
+          Subscribe to RSS
+        </a>
+      </footer>
+    `)}`;
+
+  return renderHtmlWrapper(content, SITE_TITLE);
 };
 
 /**
@@ -166,7 +178,7 @@ const generateRSS = (weeklyNotes) => {
     .sort(([a], [b]) => b.localeCompare(a)) // Most recent first
     .slice(0, 10) // Last 10 weeks
     .map(([weekStart, notes]) => {
-      const content = notes.map((note) => note.content).join("\n");
+      const content = notes.map(noteToMarkdown).join("\n");
 
       return /* xml */ `
         <item>
