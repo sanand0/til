@@ -2,27 +2,115 @@
 
 ## Nov 2024
 
-- 19 Nov 2024. Langchain suggests multiple levels of agentic behaviour. LLM Call < LLM Chain < LLM Rounter < State Machine < Autonomous [Ref](https://blog.langchain.dev/what-is-an-agent/)
+- 25 Nov 2024. [Crawl4AI](https://crawl4ai.com/mkdocs/) and [Firecrawl](https://docs.firecrawl.dev/) are tools / libraries to convert websites into LLM Friendly Markdown and extract structured data using LLMs.
+- 25 Nov 2024. Don't try and solve specific problems. Pass the entire context to an LLM and get a comprehensive solution. Most doctors, for example, ask specific search-like questions instead of uploading the entire case history and asking for a diagnosis, and perform workse than LLMs. [Ethan Mollick](https://www.oneusefulthing.org/p/getting-started-with-ai-good-enough)
+- 22 Nov 2024. [DuckDB has an LLMs.txt](https://duckdb.org/duckdb-docs.md).
+  Today, [38 repos on GitHub support it](https://github.com/search?q=path%3A**%2Fllms.txt&type=code)
+- 22 Nov 2024. When identifying LLM use cases, it helps to tell LLMs what they can do. I use one or more of a list like below:
+  - Core capabilities:
+    - **Text Generation:** Produce coherent and contextually relevant text across various domains.
+    - **Image Generation:** Create realistic images that match the style and content of a given reference image.
+    - **Text to Speech:** Convert text into natural-sounding speech with appropriate intonation and rhythm.
+    - **Speech to Text:** Transcribe and interpret spoken language.
+    - **Vision:** Analyze and describe visual content from images.
+    - **Video Analysis:** Summarize and extract information from video content.
+    - **Text to Video:** Generate realistic (and surrealistic) videos from text descriptions.
+    - **Function Calling:** Execute predefined functions or access external tools to perform specific tasks.
+    - **Structured Output:** Generate structured outputs like JSON, XML, HTML, YAML, DSLs, etc.
+    - **Tool Use:** Utilize external applications or APIs to enhance functionality.
+    - **Code Generation:** Write and debug code snippets in various programming languages.
+  - Cross-domain use cases:
+    - **Summarization:** Understand and condense lengthy documents into concise summaries.
+    - **Translation:** Convert text between multiple languages with high accuracy.
+    - **Question Answering:** Provide precise answers to user queries based on provided information.
+    - **Reasoning and Planning:** Solve complex problems and develop step-by-step plans.
+    - **Personalization:** Tailor responses based on user preferences and historical interactions.
+    - **Dialogue Management:** Engage in context-aware, multi-turn conversations.
+    - **Data Analysis:** Interpret and generate insights from structured data.
+    - **Content Moderation:** Identify and filter inappropriate or harmful content.
+    - **Sentiment Analysis:** Detect and interpret emotions and opinions in text.
+    - **Robotics Integration:** Interface with robotic systems for control and decision-making.
+    - **Knowledge Retrieval:** Access and present information from vast datasets or knowledge bases.
+    - **Creative Writing:** Generate poetry, stories, and other creative content.
+    - **Educational Assistance:** Provide explanations and tutoring across various subjects.
+    - **Ethical Reasoning:** Assess scenarios for ethical considerations and implications.
+    - **Accessibility Support:** Assist users with disabilities through tailored interactions.
+    - **Simulation and Modeling:** Create predictive models and simulate scenarios.
+  - Domain-specific use cases:
+    - **Legal and Medical Assistance:** Offer information and guidance within legal and medical domains.
+    - **Gaming:** Generate narratives, dialogues, and scenarios for interactive entertainment.
+    - **Scientific Research:** Aid in literature reviews, hypothesis generation, and data interpretation.
+    - **Financial Analysis:** Analyze market trends and provide investment insights.
+    - **Cultural Competence:** Understand and respect diverse cultural contexts in interactions.
+    - **Security Applications:** Detect and respond to potential cybersecurity threats.
+    - **Environmental Monitoring:** Analyze data related to environmental changes and sustainability.
+    - **Healthcare Support:** Assist in patient monitoring, diagnostics, and personalized treatment plans.
+    - **Supply Chain Optimization:** Enhance logistics and inventory management through predictive analysis.
+    - **Customer Service:** Provide automated support and resolve customer inquiries.
+    - **Market Research:** Analyze consumer behavior and market trends for business insights.
+    - **Content Creation:** Generate articles, blogs, and marketing materials.
+    - **Virtual Assistance:** Manage schedules, reminders, and personal tasks.
+    - **Social Media Management:** Craft posts and engage with audiences across platforms.
+    - **Human Resources:** Assist in recruitment, training, and employee engagement strategies.
+    - **Event Planning:** Organize and coordinate events, including logistics and communication.
+    - **Travel Planning:** Provide itineraries, booking assistance, and destination information.
+    - **Real Estate:** Analyze property markets and assist in buying or selling decisions.
+    - **Agriculture:** Monitor crop health and optimize farming practices through data analysis.
+    - **Energy Management:** Optimize energy consumption and monitor renewable energy sources.
+    - **Transportation:** Enhance route planning and traffic management systems.
+    - **Urban Planning:** Assist in designing sustainable and efficient urban infrastructures.
+    - **Disaster Response:** Provide real-time information and coordination during emergencies.
+    - **Public Policy:** Analyze data to inform policy decisions and predict societal impacts.
+    - **Art and Design:** Generate visual art concepts and assist in creative design processes.
+    - **Music Composition:** Create original music pieces and assist in songwriting.
+    - **Language Learning:** Facilitate language acquisition through interactive exercises and feedback.
+    - **Historical Analysis:** Interpret historical data and provide insights into past events.
+    - **Philanthropy:** Identify charitable opportunities and assess the impact of donations.
+    - **Sports Analytics:** Analyze player performance and game strategies.
+    - **Fashion:** Predict trends and assist in clothing design and merchandising.
+    - **Culinary Arts:** Generate recipes and provide cooking guidance.
+    - **Astronomy:** Analyze celestial data and assist in space exploration research.
+    - **Psychology:** Offer insights into human behavior and mental health support.
+    - **Linguistics:** Analyze language patterns and assist in translation studies.
+    - **Archaeology:** Assist in artifact analysis and historical site interpretations.
+    - **Literature Analysis:** Interpret literary works and provide critical analyses.
+    - **Philosophy:** Engage in discussions on ethical dilemmas and existential questions.
+    - **Mathematics:** Solve complex equations and assist in theoretical research.
+    - **Physics:** Model physical phenomena and assist in experimental design.
+    - **Chemistry:** Analyze chemical compounds and predict reactions.
+    - **Biology:** Assist in genetic research and ecological studies.
+    - **Geology:** Analyze geological data and assist in natural resource exploration.
+    - **Meteorology:** Predict weather patterns and analyze climate data.
+    - **Oceanography:** Study marine ecosystems and assist in ocean exploration.
+    - **Anthropology:** Analyze cultural data and assist in ethnographic research.
+- 22 Nov 2024. Style of writing impacts output style a lot. E.g. Adding an evil laugh makes Claude more creative. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lbj766ewsc2c)
+- 22 Nov 2024. For good structured mode output, we need good prompting.
+  - Mentioning examples and schema and "JSON" helps. When providing examples, using [user, assistant] message pairs helps (I think it's because it's easier for the LLM to parse).
+  - Using a {reasoning, answer} schema (with reasoning first) helps. Make reasoning concise and relevant [Ref](https://blog.dottxt.co/say-what-you-mean.html)
+  - We already know code in JSON is not a great idea. [Ref](https://aider.chat/2024/08/14/code-in-json.html)
+- 22 Nov 2024. Just adding 3 real examples and regurgitation helped GPT 4o play chess much better. Both techniques may have more general use in prompting. [Simon Willison](https://simonwillison.net/2024/Nov/21/llm-chess/#atom-everything)
+- 20 Nov 2024. Alt Text will very likely be a browser feature. It's important for the Alt text to _flow_ as part of the content when listening to the page. Perhaps even become a part of the browser APIs like speechRecognition.
+- 19 Nov 2024. Langchain suggests multiple levels of agentic behaviour. LLM Call < LLM Chain < LLM Rounter < State Machine < Autonomous [Langchain](https://blog.langchain.dev/what-is-an-agent/)
 - 18 Nov 2024. Straive evaluated Gemini 1.5 Flash 002 and GPT 4o Mini for translation.
   - Portugese: Flash is better than GPT 4o Mini. BLEU Word Overlap is 65.5% > 64.6% and METEOR (Semantic) is 84.9% > 78.9%
   - Mandarin: Flash is better than GPT 4o Mini. BLEU Word Overlap is 25.0% > 15.9% and METEOR (Semantic) is 54.7% > 51.1%
-- 17 Nov 2024. Recraft v3 supports vector (SVG) generation [Ref](https://simonwillison.net/2024/Nov/15/recraft-v3/)
+- 17 Nov 2024. Recraft v3 supports vector (SVG) generation [Simon Willison](https://simonwillison.net/2024/Nov/15/recraft-v3/)
 - 16 Nov 2024. Anthropic has single-plage docs for LLMs. [Condensed version](https://docs.anthropic.com/llms.txt) and [Full version](https://docs.anthropic.com/llms-full.txt)
-- 12 Nov 2024. Gemini has an OpenAI compatible API. [Ref](https://ai.google.dev/gemini-api/docs/openai)
-- 12 Nov 2024. Ethan Mollick says Claude is solving MBA case studies well. [Ref](https://x.com/emollick/status/1856161026238025835)
+- 12 Nov 2024. Gemini has an OpenAI compatible API. [Gemini Docs](https://ai.google.dev/gemini-api/docs/openai)
+- 12 Nov 2024. Ethan Mollick says Claude is solving MBA case studies well. [x.com](https://x.com/emollick/status/1856161026238025835)
 - 12 Nov 2024. LLMs pay a lot of attention to the first 6 tokens. [Ref](https://huggingface.co/blog/tomaarsen/attention-sinks)
 - 12 Nov 2024. This is an interesting article on "UI in the age of Gen AI". [Ref](https://agao.substack.com/p/uiux-in-the-age-of-generative-ai)
-- 12 Nov 2024. Google Open sourced Alphafold 3. [Ref](https://github.com/google-deepmind/alphafold3)
+- 12 Nov 2024. Google Open sourced Alphafold 3. [Repo](https://github.com/google-deepmind/alphafold3)
 - 11 Nov 2024. Gemini transcription does not give accurate timestamps. Whisper does. But the quality of transcription is similar.
-- 11 Nov 2024. Pass a complex data structure to Claude.ai and have it create an app to visualize it. It does well. [Ref](https://x.com/simonw/status/1855819673482461216)
+- 11 Nov 2024. Pass a complex data structure to Claude.ai and have it create an app to visualize it. It does well. [Simin Willison](https://x.com/simonw/status/1855819673482461216)
 - 09 Nov 2024. [Zapier Actions](https://actions.zapier.com/) are an easy way to set up custom actions like GMail / Google Calendar APIs for GPTs, since [GPTs' callback URLs keep changing](https://community.openai.com/t/gpt-oauth-callback-url-keeps-changing/493236). But they fail often, and don't work on mobile. At least for me.
-- 09 Nov 2024. LLM Vision Use Cases in manufacturing and earth sciences:
+- 09 Nov 2024. LLM Vision Use Cases in manufacturing and earth sciences (via Shivku)
   - Automated geoscience image descriptions [Ref](https://www.linkedin.com/posts/paulhcleverley_geosciences-earthscience-geology-activity-7254037937674240000-pQab/)
   - Interpret Wind Turbine photos and charts, construction monitoring, equipment maintenance & charts [Ref](https://www.linkedin.com/pulse/vision-ai-energy-use-cases-copilot-wind-siting-impact-kalyanaraman-wqe7c/)
   - Forecast weather based on cloud photos! [Ref](https://www.linkedin.com/pulse/cloud-typing-local-weather-forecasting-using-chatgpt-cam-shivkumar-1hhkc/)
   - Analyze thermal image of solar panels, electroluminescence images for warranty claims, ROI estimates from Google Sunroof rooftop images [Ref](https://www.linkedin.com/pulse/vision-ai-energy-use-cases-part-1-copilot-solar-pv-kalyanaraman-ccszc/)
   - Corrosion detection in electricity towers, turbines, storage tanks, penstock. Interpret non-destructive test images [Ref](https://www.linkedin.com/pulse/vision-ai-energy-use-cases-copilot-corrosion-shivkumar-kalyanaraman-onuic/)
-- 09 Nov 2024. Google counts auto-completion when saying "25% of all the code is written by AI at Google". "It's a helpful productivity tool but it's not doing any engineering at all. It's probably about as good, maybe slightly worse, than Copilot." [Ref](https://news.ycombinator.com/item?id=42002212)
+- 09 Nov 2024. Google counts auto-completion when saying "25% of all the code is written by AI at Google". "It's a helpful productivity tool but it's not doing any engineering at all. It's probably about as good, maybe slightly worse, than Copilot." [YCombinator](https://news.ycombinator.com/item?id=42002212)
 - 09 Nov 2024. Workflow for AI video creation: Use Meshcapade (meshcapade.com) to generate body movement of a 3D-rendered character. Pass that video to Runway's video-to-video model to generate any visual. Add music from Suno [Ref](https://www.linkedin.com/posts/peter-gostev_i-discovered-a-really-cool-new-workflow-for-activity-7260003053771141120-DJpS)
 - 09 Nov 2024. Someone sorted the X and Y columns independently for regression. [Ref](https://stats.stackexchange.com/q/185507)
 - 08 Nov 2024. Here is a prompt for audio transcription using Gemini. [Ref](https://gist.github.com/rajivsinclair/8fb0371f6eda25f9e5cc515cd77abd62)
@@ -44,7 +132,7 @@
 - 04 Nov 2024. [OmniParser](https://microsoft.github.io/OmniParser/) is great at parsing screenshots and identifying bounding boxes.
 - 04 Nov 2024. [Recraft.ai](https://www.recraft.ai/) is currently SOTA in text to image. It's fairly impressive and could be a good alternative to Figma.
 - 04 Nov 2024. [Zed.dev](https://zed.dev/) is an AI code editor by the creators of Atom. It's written in Rust and is blazing fast. It has native AI integration.
-- 04 Nov 2024. Artificial Intelligence has a bunch of new leaderboards and arenas.
+- 04 Nov 2024. Artificial Analysis has a bunch of new leaderboards and arenas.
   - Open AI TTS leads the [TTS Leaderboard](https://artificialanalysis.ai/text-to-speech/arena?tab=Leaderboard). ElevenLabs doesn't have enough votes yet
   - Recraft V3 > Flux 1.1 leads [Text to Image Leaderboard](https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard)
 - 04 Nov 2024. [Hertz-Dev](https://github.com/Standard-Intelligence/hertz-dev) is an open source realtime voice chat model. But it doesn't fit in Google Colab T4's RAM

@@ -2,6 +2,36 @@
 
 ## Nov 2024
 
+- 23 Nov 2024. OpenAI lets you download GPT instructions and execute arbitrary code in their containerized environment. This is not a bug. [Ref](https://0din.ai/blog/prompt-injecting-your-way-to-shell-openai-s-containerized-chatgpt-environment)
+- 23 Nov 2024. BM25 works as follows: [Ref](https://emschwartz.me/understanding-the-bm25-full-text-search-algorithm/)
+  - For each query term in the query, sum up the product of:
+    - Inverse document frequency = LN(% of docs without the query term + 1) -- with a small tweak
+    - Term frequency = freq / (freq + k) -- where k is usually between 1.2 to 2. Returns 0-1 with diminishing frequency benefit
+      - k is multiplied by Document length normalization = 1 - b(1- DocLength/AvgDocLength). Longer documents have larger k, dampening frequency benefits.
+  - Some implications:
+    - The actual BM25 score has no meaning. It's just useful for ordering
+    - BM25 scores for 2 queries can be compared ONLY IF the document sets don't change
+- 23 Nov 2024. A list of Markdown to Website converters on [this thread](https://news.ycombinator.com/item?id=36531937):
+  - [Jekyll](https://jekyllrb.com/) - Ruby - 2008
+  - [MkDocs](https://www.mkdocs.org/) - Python - 2014
+  - [GitBook](https://www.gitbook.com/) - JavaScript (Node.js) - 2014
+  - [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) - Python (MkDocs-based) - 2016
+  - [Docsify](https://docsify.js.org/) - JavaScript - 2016
+  - [MdBook](https://rust-lang.github.io/mdBook/) - Rust - 2017
+  - [Antora](https://antora.org/) - JavaScript (Node.js) - 2017
+  - [Docusaurus](https://docusaurus.io/) - JavaScript (React) - 2017
+  - [JupyterBook](https://jupyterbook.org/) - Python - 2019
+  - [Keenwrite](https://github.com/DaveJarvis/keenwrite) - Java - ~2019
+  - [Honkit](https://github.com/honkit/honkit) - JavaScript (GitBook fork) - 2019
+  - [Nextra](https://nextra.site/) - JavaScript (Next.js) - 2020
+  - [Astro](https://astro.build/) - JavaScript/TypeScript - 2021
+  - [Hugo Book](https://github.com/alex-shpak/hugo-book) - Go (Hugo-based) - ~2020
+  - [Clowncar](https://github.com/secretGeek/clowncar) - JavaScript/Node.js - ~2021
+  - [Quarto](https://quarto.org/) - R and Python - 2022
+  - [Starlight](https://starlight.astro.build/) - JavaScript/TypeScript - 2023
+- 21 Nov 2024. With Deno 2.0, the same `.js` file can run in Node.js as well as Deno. [Example](https://chatgpt.com/share/673f44f0-cd54-800c-b9d7-7f68f7666958)
+- 21 Nov 2024. [jspm](https://jspm.org/) lets you generate import maps against any CDN.
+- 20 Nov 2024. You can click on `htop` columns on the terminal to sort by that column! Mouse events work on command line apps. [Julia Evans](https://social.jvns.ca/@b0rk/113510202564987943)
 - 14 Nov 2024. [Malcolm Gladwell on the importance of self-correction](https://www.ted.com/pages/malcolm-gladwell-on-the-importance-of-self-correction-transcript)
   - Belonging to multiple social worlds is a good way to defend against no longer being good at what you used to be. Diverse values and social groups help.
   - Self handicapping explains a lot about the world. You study late for a maths test - so you can fail for lack of trying, not aptitude. Ecosystems (e.g. sports teams) mitigate self-handicapping.
@@ -56,13 +86,13 @@
   - Teacher: Grading MCQs
   - Teacher: Writing conceptual guides
   - ["New collar workers"](https://en.wikipedia.org/wiki/New-collar_worker) was coined by Ginny Rometty
-  - #TODO Embed tutor or document in video and ask for clarification! This is a new embedded interface.
+  - Embed tutor or document in video and ask for clarification! This is a new embedded interface. #TODO
 - 13 Oct 2024. [Playing Bad Apple in Minecraft](https://purplesyringa.moe/blog/we-built-the-best-bad-apple-in-minecraft/). Ultra cool!
 - 11 Oct 2024. [DuckDB supports function chaining](https://duckdb.org/docs/sql/functions/overview.html#function-chaining-via-the-dot-operator)
 - 11 Oct 2024. [DuckDB lets you create functions = macros](https://duckdb.org/docs/sql/statements/create_macro.html)
 - 11 Oct 2024. [HTML for People](https://htmlforpeople.com/) is a nice introduction to HTML.
 - 11 Oct 2024. [FlightRadar24](https://www.flightradar24.com/) lets you watch airplanes live.
-- 10 Oct 2024. [sq](https://sq.io/) is liksofe `jq` but for SQL.
+- 10 Oct 2024. [sq](https://sq.io/) is like `jq` but for SQL.
 - 10 Oct 2024. [Deno 2](https://deno.com/) is fully backward compatible with Node! [via](https://deno.com/blog/v2.0)
 - 07 Oct 2024. GitHub co-pilot workspaces let you code using your mobile with AI and deploy it at one shot
 - 07 Oct 2024. If you need an Ubuntu Docker container with Python, install it via uv rather than compiling from source. [via](https://mkennedy.codes/posts/python-docker-images-using-uv-s-new-python-features/)
@@ -73,6 +103,7 @@
 - 06 Oct 2024. [Marimo](https://marimo.app/) supports:
   - Publishing any notebook to static.marimo.app as a static app
   - Creating a SINGLE link that embeds the ENTIRE notebook in the URL!
+  - Runnable via `uvx marimo edit`
 - 06 Oct 2024. [Parables on the Power of Planning in AI](https://youtu.be/eaAonE58sLU): Giving models about 30 seconds of thinking time consistently improves results - as much as increasing parameter size by a factor of 1,000 to 100,000!
   - This works particularly well for verifiable results (code, math, etc.)
   - Technique: Ask an LLM hundreds of times at low temperature and pick the most common one. (Google's Minerva used this on the MATH dataset.)
@@ -114,58 +145,40 @@
   - [Indal](https://youtu.be/EGbeA-x79tY) and [Koustav](https://youtu.be/2Je37vJhcD4) didn't
 - 30 Sep 2024. Coders are likely to get more out of an LLM because they know what it can do. But some non-coders will get more out of an LLM because they don't know what it can't do.
   - E.g. [Indal](https://youtu.be/EGbeA-x79tY) trying for a confetti animation, which is hard but do-able
-
-28 Sep
-
-- Pyodide can access the DOM and JavaScript in the browser
-- [Jupyter Lite](https://jupyter.org/try-jupyter/lab/) lets you run Jupyter notebooks in the browser
-- AVIFs is about 10X better than GIFs. I tried creating one via [EZGIF AVIF Maker](https://ezgif.com/avif-maker/) and the .avifs file created was 15X smaller!
+- 28 Sep 2024. Pyodide can access the DOM and JavaScript in the browser
+- 28 Sep 2024. [Jupyter Lite](https://jupyter.org/try-jupyter/lab/) lets you run Jupyter notebooks in the browser
+- 28 Sep 2024. AVIFs is about 10X better than GIFs. I tried creating one via [EZGIF AVIF Maker](https://ezgif.com/avif-maker/) and the .avifs file created was 15X smaller!
   `ffmpeg -i input.gif -c:v libaom-av1 -crf 30 -b:v 0 -cpu-used 4 -tiles -an output.avif`
-- Claude 3.5 thinks `.opus` is the best format to compress audio. It used `ffmpeg -i audio.wav -c:a libopus -b:a 16k -application voip -vbr on -compression_level 10 audio.opus`
-- API coding best practices [Source](https://erikbern.com/2024/09/27/its-hard-to-write-code-for-humans.html) via [Simon Willison](https://simonwillison.net/2024/Sep/27/erik-bernhardsson/):
+- 28 Sep 2024. Claude 3.5 thinks `.opus` is the best format to compress audio. It used `ffmpeg -i audio.wav -c:a libopus -b:a 16k -application voip -vbr on -compression_level 10 audio.opus`
+- 28 Sep 2024. API coding best practices [Source](https://erikbern.com/2024/09/27/its-hard-to-write-code-for-humans.html) via [Simon Willison](https://simonwillison.net/2024/Sep/27/erik-bernhardsson/):
   - Always add screenshots to the Readme. They never break.
   - Always add every example. Human think in examples.
   - Avoid defaults and be explicit unless 99% of the usage is with the default.
   - Make the feedback loops incredibly fast.
   - Make deprecations easy for users to deal with.
   - Keep objects immutable.
-
-25 Sep
-
-- When you paste HTML into Excel, it automatically changes the font of the cell to match the content in the HTML!
-- Aptos is the new default font in Office - replacing Calibri.
-
-20 Sep
-
-- [Jupyter Lite](https://jupyter.org/try-jupyter/lab/) lets you run Jupyter notebooks in the browser
-- [Piston](https://piston.readthedocs.io/) lets you run Python code via a REST API
-- [`<link rel="modulepreload">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/modulepreload) lets you load and compile modules early!
-
-15 Sep
-
-- Groq, SembaNova and Cerebras are fast inference models. All appear free
-- The skills required to vet the AI's response is the same skillset used to vet a Pull Request. It's a good way to teach code review. Source: [My personal guide for developing software with AI](https://www.reddit.com/r/LocalLLaMA/comments/1fbe995/my_personal_guide_for_developing_software_with_ai/)
-- Tell LLMs another AI wrote code. Else they will agree with you.
-
-9 Sep
-
-- "Invest in things that don't change." Jeff Bezos. Like faster delivery, SQL, web platform.
-- Medical cost in Singapore (for insurance coverage by Kumar)
+- 25 Sep 2024. When you paste HTML into Excel, it automatically changes the font of the cell to match the content in the HTML!
+- 25 Sep 2024. Aptos is the new default font in Office - replacing Calibri.
+- 20 Sep 2024. [Jupyter Lite](https://jupyter.org/try-jupyter/lab/) lets you run Jupyter notebooks in the browser
+- 20 Sep 2024. [Piston](https://piston.readthedocs.io/) lets you run Python code via a REST API
+- 20 Sep 2024. [`<link rel="modulepreload">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/modulepreload) lets you load and compile modules early!
+- 15 Sep 2024. Groq, SembaNova and Cerebras are fast inference models. All appear to be free
+- 15 Sep 2024. The skills required to vet the AI's response is the same skillset used to vet a Pull Request. It's a good way to teach code review. Source: [My personal guide for developing software with AI](https://www.reddit.com/r/LocalLLaMA/comments/1fbe995/my_personal_guide_for_developing_software_with_ai/)
+- 15 Sep 2024. Prompt engineering tip: Tell LLMs another AI wrote code. Else they will agree with you!
+- 9 Sep 2024. "Invest in things that don't change." Jeff Bezos. Like faster delivery, SQL, web platform.
+- 9 Sep 2024. Medical cost in Singapore (for insurance coverage) - via Kumar
   - Root canal at clinic: $1,300
   - Crown replacement at clinic: $1,300
   - Periodontist (gums) at hospital: $2,500
-
-8 Sep
-
-- [OAuth from First Principles](https://stack-auth.com/blog/oauth-from-first-principles) is a SIMPLE explanation of OAuth. Conclusion: "You probably shouldn't implement your own OAuth client."
-- [Alphaxiv](https://www.alphaxiv.org/) is Arxiv.org but with author comments and chat
-- [The Impact of AI on Computer Science Education](https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/):
+- 8 Sep 2024. [OAuth from First Principles](https://stack-auth.com/blog/oauth-from-first-principles) is a SIMPLE explanation of OAuth. Conclusion: "You probably shouldn't implement your own OAuth client."
+- 8 Sep 2024. [Alphaxiv](https://www.alphaxiv.org/) is Arxiv.org but with author comments and chat
+- 8 Sep 2024. [The Impact of AI on Computer Science Education](https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/):
   - Eric Klopfer divided his undergrad CS class into three groups and gave them a Fortran task.
   - One used ChatGPT. Another, Meta's Code Llama LLM. Third, only use Google.
   - ChatGPT group was faster than Code Llama was faster than Google
   - When tested on the approach, the ChatGPT remembered nothing. Half the Code Llama group passed. The Google group passed fully
-- Server-side implementation of an OAuth2 client is too complex. Best to delegate this to Auth0
-- Via Pratap Vardhan:
+- 8 Sep 2024. Server-side implementation of an OAuth2 client is too complex. Best to delegate this to Auth0
+- 8 Sep 2024. Via Pratap Vardhan:
   - At Khan Academy, every developer working on Khanmigo has cursor. Everyone who's contributed to a Khan Academy GitHub repo has GitHub Copilot.
   - I stopped using Google + StackOverflow 2 years ago. I use ChatGPT, Copilot, etc. For humans, I ask Reddit.
   - Excited by async agents. Things that do my job while I sleep.
@@ -177,32 +190,16 @@
     - Read my browser history and suggest interests.
   - Plan a session in Bain, BCG, etc. on Artifacts.
   - Explore sparse embeddings. More effective. ColiPali, ColBERT
-
-7 Sep
-
-When running a Hello world app:
-
-- FastAPI takes ~26K RAM, 3% CPU
-- NodeJS + Express takes ~62K RAM, 2% CPU
-- Deno + Express takes ~62K RAM, 1% CPU
-- Deno + Fresh takes ~54K RAM, 0.4% CPU
-
-24 Aug
-
-- [Karya.in](https://karya.in/) is creating high quality datasets. Suhel mentioned them
-
-11 Aug
-
-- [DocxTemplater](https://docxtemplater.com/) is SlideSense but open-core and handles DOCX as well!
-- `handle = await window.showDirectoryPicker()` lets you access the browser [File system API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API).
-
-5 Aug
-
-- Alternative interfaces to YouTube: Piped.video, CloudTube, Invidious, NewPipe, FreeTube
-
-1 Aug
-
-- Power Toys has an Advanced Paste that uses OpenAI to paste as Markdown or JSON!
+- 7 Sep 2024. When running a Hello world app:
+  - FastAPI takes ~26K RAM, 3% CPU
+  - NodeJS + Express takes ~62K RAM, 2% CPU
+  - Deno + Express takes ~62K RAM, 1% CPU
+  - Deno + Fresh takes ~54K RAM, 0.4% CPU
+- 24 Aug 2024. [Karya.in](https://karya.in/) is creating high quality datasets. Suhel mentioned them
+- 11 Aug 2024. [DocxTemplater](https://docxtemplater.com/) is SlideSense but open-core and handles DOCX as well!
+  - `handle = await window.showDirectoryPicker()` lets you access the browser [File system API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API).
+- 5 Aug 2024. Alternative interfaces to YouTube: Piped.video, CloudTube, Invidious, NewPipe, FreeTube
+- 1 Aug 2024. Power Toys has an Advanced Paste that uses OpenAI to paste as Markdown or JSON!
 
 31 Jul
 
@@ -822,7 +819,6 @@ Practical AI podcast: AI predictions for
 - Productivity will be enhanced rather than replaced
 - Multi modal models will grow
 - Cost efficiency will grow in focus
--
 
 13 Jan
 

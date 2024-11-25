@@ -8,16 +8,16 @@ const DATE_FORMAT = {
 };
 
 const SITE_TITLE = "Things I Learned";
-const SITE_SUBTITLE = "Weekly notes and discoveries";
+const SITE_SUBTITLE = "Weekly Notes and Discoveries";
 const SITE_BASE = "https://til.s-anand.net";
 
 const renderHeader = (title) => /* html */ `
-<header class="text-bg-primary py-5 mb-4">
+<header class="text-bg-warning py-5 mb-4">
   <div class="container text-center">
     <h1 class="display-4 fw-bold">${title}</h1>
     <p class="lead mb-0">
-      <a class="link-light link-offset-3" href="${SITE_BASE}">${SITE_SUBTITLE}</a> |
-      <a class="link-light link-offset-3" href="https://s-anand.net">S Anand</a>
+      <a class="link-dark link-offset-3" href="${SITE_BASE}">${SITE_SUBTITLE}</a> |
+      <a class="link-dark link-offset-3" href="https://s-anand.net">S Anand</a>
     </p>
   </div>
 </header>`;
@@ -160,7 +160,7 @@ const generateIndexHTML = (weeks) => {
       </div>
       <footer class="text-center">
         <a href="feed.xml" class="btn btn-outline-secondary btn-sm">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rss-fill" viewBox="0 0 16 16">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rss-fill mb-1" viewBox="0 0 16 16">
             <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm1.5 2.5c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1 0-2zm0 4a6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1 0-2zm.5 7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
           </svg>
           Subscribe to RSS
