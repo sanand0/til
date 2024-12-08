@@ -1,7 +1,82 @@
 # LLM learnings
 
+## Dec 2024
+
+- 8 Dec 2024. When embedding using a `SentenceTransformer.encode(docs)` it's best if we embed with smaller `docs`. On Colab T4, for [`gte-base-en-v1.5`](https://huggingface.co/Alibaba-NLP/gte-base-en-v1.5), when embedding docs of up to 8K chars, here is the time taken to embed 1K docs at varying doc sizes:
+  - len(docs) = 1: 10s
+  - len(docs) = 2: 13s
+  - len(docs) = 4: 19s
+  - len(docs) = 8: 23s
+  - len(docs) = 16: 32s
+  - len(docs) = 32: 40s
+- 8 Dec 2024. Running embeddings without a GPU is _extremely_ slow. It takes ~2.4 seconds per string.
+- 7 Dec 2024. ChatGPT uses several unusual unicode characters for citations. [Ref](https://github.com/sanand0/openai-conversations/blob/main/private-unicode-control-characters.md)
+- 6 Dec 2024. [Arena Hard](https://huggingface.co/spaces/lmarena-ai/arena-hard-browser) is a set of hard prompts to test LLMs. [Here is the code and evaluation](https://github.com/lmarena/arena-hard-auto)
+- 6 Dec 2024. LLMs can detect clear outliers easily. PROMPT: Which is the outlier in this dataset: (1,7), (2,7), (3,6), (4,6), (5,5), (6,1), (7,5), (8,3), (9,1), (10,1) (ANS: (6,1))
+  - 🟢 GPT-4o on ChatGPT gets this. GPT-4o Mini on the API gets it too.
+  - 🟢 Gemini Pro, Flash, Flash 8b gets this right straight away, without even thinking.
+  - 🟢 Claude 3.5 Sonnet, Claude 3 Haiku, Claude 3.5 Haiku get it on LLM Foundry. 🔴 Claude.ai, where it visualizes it and gets it wrong.
+  - 🟢 Nova Micro, Lite, and Pro get it right.
+  - 🟢 Llama 3.1 70b gets it right. 🔴 Llama 3.2 8b gets it wrong. Llama 3.2 70b, Llama 3.1 8b enter repetition.
+- 4 Dec 2024. My notes on the Amazon Nova models. [More on Hacker News](https://news.ycombinator.com/item?id=42309121)
+  - Nova Micro (3.75c/MTok) has the same cost as Gemini 1.5 Flash 8b but does not support images or documents.
+  - Nova Lite (6c/MTok) has about the same cost as Gemini 1.5 Flash 002 and supports images and documents (but not audio or video). It may be a good alternative. But GPT-4o mini, which is 2.5X costlier, is much better. (It partly passes the `Gr brx vshdn Fdhvdu flskhu?` test which Nova Lite fails.)
+  - Nova Pro (80c/MTok) is cheaper than Gemini 1.5 Pro and a lot cheaper than GPT 4o, but does not match their quality.
+- 4 Dec 2024. LLMs are great at convincing you of wrong things. A danger and something to be wary of. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lcepstbuck2z)
+- 4 Dec 2024. Fish eye text summary is a great way to read text while summarizing context. [Amelia Wattenberger](https://wattenberger.com/thoughts/fish-eye)
+- 2 Dec 2024. What's a good text splitter library to use in JS?
+  - LangChain: If you use it, use it with a simple wrapper decoupled from the implementation (e.g. your own parameters) that you can replace later.
+    - Popular
+    - Fit-for-purpose. MarkdownTextSplitter which inherits from RecursiveCharacterTextSplitter is what's needed in most cases.
+    - Unstable
+    - Poorly maintained [Python docs indicate version 0.0 but it is in 0.1](https://github.com/langchain-ai/langchain/tree/c2f1d022a2e55dfddd313e54d01250d3f64c6eb2/libs/text-splitters)
+    - Under-maintained [Last update was 3 months ago, 13 Sep 2024](https://www.npmjs.com/package/@langchain/textsplitters)
+  - LlamaIndex:
+    - Popular
+    - Not an ideal fit. MarkdownNodeParser does not support chunk size. SentenceWindowNodeParser does not capture Markdown headings.
+
 ## Nov 2024
 
+- 29 Nov 2024. GPT-4o Audio supports tone control via XML tags like `<cough>...`, `<laugh>...`, etc. But at ~$15/hr of output, it's too expensive. [Ref](https://x.com/ilanbigio/status/1861913173432946808)
+- 29 Nov 2024. Mridula's son gave a live commentary of what he was doing on Minecraft and ChatGPT gave him live evaluation and coaching. E.g. “Great strategy! Getting to the launch pad early can give you a huge mobility advantage. Making the bridge wider is also a smart move to prevent accidental falls. With this plan, you’re setting yourself up for success.” This is a great way to interact with LLMs.
+- 29 Nov 2024. Gemini's JSON mode returns JSON with keys in alphabetical order. I think. Emperical evidence. This is unlike OpenAI which explicitly returns the keys in the order specified.
+  - To solve this, order the keys alphabetically.
+- 28 Nov 2024. I installed the [OpenAI Desktop App](https://openai.com/chatgpt/desktop/) as well as [Claude for Desktop](https://claude.ai/download). They take up too much RAM (260MB and 750 MB respectively on startup - though this varies.) The ChatGPT web page takes ~100MB incrementally, so I wrote an [AutoHotkey script](https://www.autohotkey.com/) to switch to the first open (or recently closed) ChatGPT tab on [Brave](https://brave.com/).
+
+  ```ahk
+  #Space::  ; Trigger the script with Win + Space
+      ; Switch to the first Brave browser window
+      IfWinExist, ahk_exe brave.exe
+      {
+          WinActivate  ; Activate the first Brave browser window
+          WinWaitActive, ahk_exe brave.exe
+          Send ^+a  ; Press Ctrl+Shift+A to open the tab search
+          Sleep, 100  ; Wait briefly to ensure the tab search is open
+          Send ChatGPT  ; Type "ChatGPT"
+          Send {Enter}  ; Press Enter to switch to the tab
+      }
+      else
+      {
+          MsgBox, Brave browser is not running.
+      }
+      return
+  ```
+
+- 27 Nov 2024. I tried [LIDA](https://microsoft.github.io/lida/) from Microsoft, after almost a year of its release. A few notes:
+  - Just running `uvx lida ui --port 8080 --docs` works.
+  - But I needed to use `export TCL_LIBRARY=C:/Users/Anand/AppData/Roaming/uv/python/cpython-3.13.0-windows-x86_64-none/tcl/tcl8.6` to point it to my TCL installation for charts to work. I also chose to `export OPENAI_BASE_URL=https://llmfoundry.straive.com/openai/v1`
+  - I also chose to replace `gpt-3.5-turbo-0301` (the default model) with `gpt-4o-mini` in `lida/web/ui/component*`
+  - It's quite impressive.
+- 27 Nov 2024. OpenAI allows multiple system messages. I learned this browsing through the LIDA prompts.
+- 27 Nov 2024. Anthropic's [Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) lets any apps integrate with LLM Apps. LLM Apps are becoming the new operating system. Competitors, beware.
+- 26 Nov 2024. [Ultravox](https://www.ultravox.ai/) lets you build voice agents at 5c/min = $3/hr (OpenAI is 6c input, 24c output). Or [clone their repo](https://github.com/fixie-ai/ultravox).
+  - Idle call time is counted towards cost. So cost may be higher than OpenAI.
+  - Voice cloning quality is average. Very distinctive voices are just partly identifiable.
+  - Supports tool calls (from their server).
+  - Their API is simple but the docs have minor errors (e.g. a trailing comma in the JSON, which leads to an error) reducing confidence.
+- 26 Nov 2024. LLMs may be good at derived data generation. For example, given a database schema, what derived columns would be useful? What derived views would be useful?
+- 26 Nov 2024. The O1 model does not have a mechanism to control the amount of tokens to spend on reasoning. DeepSeek R1 might, but the API is not out yet.
+- 25 Nov 2024. The [OpenAI Desktop App](https://openai.com/chatgpt/desktop/) can interact with native applications, e.g. read from Terminal, VS Code, etc. This takes it on a path to becoming a copilot for ANY apps. Putting every copilot app and every LLM integration under threat.
 - 25 Nov 2024. [Crawl4AI](https://crawl4ai.com/mkdocs/) and [Firecrawl](https://docs.firecrawl.dev/) are tools / libraries to convert websites into LLM Friendly Markdown and extract structured data using LLMs.
 - 25 Nov 2024. Don't try and solve specific problems. Pass the entire context to an LLM and get a comprehensive solution. Most doctors, for example, ask specific search-like questions instead of uploading the entire case history and asking for a diagnosis, and perform workse than LLMs. [Ethan Mollick](https://www.oneusefulthing.org/p/getting-started-with-ai-good-enough)
 - 22 Nov 2024. [DuckDB has an LLMs.txt](https://duckdb.org/duckdb-docs.md).
@@ -86,7 +161,7 @@
 - 22 Nov 2024. Style of writing impacts output style a lot. E.g. Adding an evil laugh makes Claude more creative. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lbj766ewsc2c)
 - 22 Nov 2024. For good structured mode output, we need good prompting.
   - Mentioning examples and schema and "JSON" helps. When providing examples, using [user, assistant] message pairs helps (I think it's because it's easier for the LLM to parse).
-  - Using a {reasoning, answer} schema (with reasoning first) helps. Make reasoning concise and relevant [Ref](https://blog.dottxt.co/say-what-you-mean.html)
+  - Using a {reasoning, answer} schema (with reasoning first) helps. Make reasoning concise and relevant [Ref](https://blog.dottxt.co/say-what-you-mean.html) [Arxiv](https://arxiv.org/html/2408.05093v1)
   - We already know code in JSON is not a great idea. [Ref](https://aider.chat/2024/08/14/code-in-json.html)
 - 22 Nov 2024. Just adding 3 real examples and regurgitation helped GPT 4o play chess much better. Both techniques may have more general use in prompting. [Simon Willison](https://simonwillison.net/2024/Nov/21/llm-chess/#atom-everything)
 - 20 Nov 2024. Alt Text will very likely be a browser feature. It's important for the Alt text to _flow_ as part of the content when listening to the page. Perhaps even become a part of the browser APIs like speechRecognition.
@@ -133,7 +208,7 @@
 - 04 Nov 2024. [Recraft.ai](https://www.recraft.ai/) is currently SOTA in text to image. It's fairly impressive and could be a good alternative to Figma.
 - 04 Nov 2024. [Zed.dev](https://zed.dev/) is an AI code editor by the creators of Atom. It's written in Rust and is blazing fast. It has native AI integration.
 - 04 Nov 2024. Artificial Analysis has a bunch of new leaderboards and arenas.
-  - Open AI TTS leads the [TTS Leaderboard](https://artificialanalysis.ai/text-to-speech/arena?tab=Leaderboard). ElevenLabs doesn't have enough votes yet
+  - Open AI TTS leads the [TTS Leaderboard](https://artificialanalysis.ai/text-to-speech/arena?tab=Leaderboard). ElevenLabs is a bit behind.
   - Recraft V3 > Flux 1.1 leads [Text to Image Leaderboard](https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard)
 - 04 Nov 2024. [Hertz-Dev](https://github.com/Standard-Intelligence/hertz-dev) is an open source realtime voice chat model. But it doesn't fit in Google Colab T4's RAM
 - 04 Nov 2024. Chain of Thought reduces performance where thinking makes humans worse. [Ref](https://arxiv.org/abs/2410.21333). Specifically:
@@ -168,7 +243,7 @@
 - 27 Oct 2024. [Cohere Multimodal Embed v3](https://cohere.com/blog/multimodal-embed-3) is available on Azure.
 - 27 Oct 2024. Elevenlabs lets you create voices with a prompt. No need to even clone one!
 - 27 Oct 2024. Runway Act One creates expressive character performances
-- 26 Oct 2024. [LanceDB](https://lancedb.github.io/) is a more scalable alternative to ChromaDB. Written in Rust. Does not require a separate HSNW library.
+- 26 Oct 2024. [LanceDB](https://lancedb.github.io/lancedb/) is a more scalable alternative to ChromaDB. Written in Rust. Does not require a separate HSNW library.
 - 26 Oct 2024. Meta has a bunch of image embedding models:
   - [DINOv2](https://github.com/roboflow/notebooks/blob/main/notebooks/dinov2-image-retrieval.ipynb) creates image embeddings (Apr 2023)
   - [ImageBind](https://research.facebook.com/publications/imagebind-one-embedding-space-to-bind-them-all/) is an embedding model for text, images, audio, and more (Jun 2023)
@@ -557,7 +632,7 @@
 
 ## Apr 2024
 
-- 27 Apr 2024. `Gr brx vshdn Fdhvdu flskhu?` is a quick way to assess LLM capability. [Ref](https://www.s-anand.net/blog/a-quick-way-to-assess-llm-capabilities/)
+- 27 Apr 2024. Tough prompt to test: `Gr brx vshdn Fdhvdu flskhu?` is a quick way to assess LLM capability. [Ref](https://www.s-anand.net/blog/a-quick-way-to-assess-llm-capabilities/)
 - 27 Apr 2024. [Cheap cloud GPU services thread on Twitter](https://twitter.com/simonw/status/1780668642574897396) lists:
   - [Runpod](https://www.runpod.io/) (17)
   - [Vast.ai](https://vast.ai/) (17)

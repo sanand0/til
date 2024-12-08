@@ -1,7 +1,50 @@
 # Things I learned
 
+## Dec 2024
+
+- 06 Dec 2024. NumLock can be dangerous. An IT support team member took control of Radheya's screen while debugging and had turned on NumLock. Radheya's login failed after that. After 5 tries, he was locked out.
+- 06 Dec 2024. With LLMs, most architectural decisions are no longer one-way doors. [Steve Yegge](https://simonwillison.net/2024/Dec/4/steve-yegge/)
+- 05 Dec 2024. To install Docker on Windows without admin privileges, use [`net localgroup docker-users "your-user-id" /ADD`](https://stackoverflow.com/a/63290821/100904)
+- 05 Dec 2024. A non-administrator in a Google Groups domain can only add 200 emails to a group from the UI directly without invitation at a time. The only programmatic way to add users is for an administrator to add them. Even apps that use the Google Admin SDK need an admin to log in to access the relevant API.
+- 04 Dec 2024. Take 100% of your work, including complex, multi step processes and put it into an LLM. It might fail at some but you will discover the limitations.
+- 04 Dec 2024. I emailed Straive employees about their use of [LLM Foundry](https://llmfoundry.straive.com/) - the internal LLM portal. I picked ~500 non-users from teams that _otherwise_ have high (30%+) usage.
+  - Reasons they didn't use it were:
+    - 40% had not heard of it.
+    - 40% were unclear of the benefits
+    - 20% didn't have time
+  - 45% feel they don't have enough information and training to use it
+  - Some feedback
+    - Sharing training videos will help
+    - Live training sessions that allows for Q&A will help
+    - Developers prefer detailed documentation
+    - The same prompt gives different results
+  - Possible solution: Email non-users introducing the tool and sharing a quick 15-minute tutorial and a 1-page quick start.
+- 03 Dec 2024. DuckDB's JavaScript API is still under development. For example, [JSON, ARRAY are not insertable](https://github.com/duckdb/duckdb-node-neo/blob/cb5be3d27b8aedfac7f2c9d0eec360891fb9e1f7/api/src/DuckDBAppender.ts). Plus, re-creating persistent HNSW indices crashes.
+
 ## Nov 2024
 
+- 29 Nov 2024. Gists are a good place to store static files for posterity as well as throwaway files. But, they're just git repositories. So there may be no advantage over GitHub repos.
+- 28 Nov 2024. HTMX focuses on HTML over JS. Like server responses being HTML snippets not JSON. But I need front-end over back-end. Client side apps. HTMX doesn't help much there, e.g. templating, or just plain JS code.
+- 27 Nov 2024. I spoke at [Automating Data Visualizations using LLMs](https://www.meetup.com/data-vis-singapore/events/304516458/) at SUTD. Apparently, using LLMs to write code is much more common than writing code to use LLMs. I ran a quick quiz.
+  - Have you used ChatGPT or any LLM? 35 / 35 raised their hands.
+  - Have you written code using an LLM? 34 / 35 raised their hands. (I was impressed.)
+  - Have you uploaded a spreadsheet to an LLM for analysis? 15 / 35 raised their hands.
+  - Have you programmatically called an LLM API? 6 / 35 raised their hands.
+- 27 Nov 2024. With LLMs, fostering innovation is a new path to profitability. Companies are increasing innovation team sizes. Productionizing that is the next. Some initiatives are:
+  - Convert popular demos into starter kits
+  - Create and evangelize trainings on solutions and solution techniques
+  - Create larger pools of capacity to build innovation and productionize it
+- 27 Nov 2024. [Andrew Ng Explores The Rise Of Al Agents And Agentic Reasoning | BUILD 2024 Keynote](https://youtu.be/KrRD7r7y7NY)
+  - Innovation is now a path to production. People are able to build 20 prototypes at the cost of one and see which sticks
+  - Machine learning is much faster. Things that took months now date days. But engineering and evaluations are only slightly faster and have become a bottleneck
+  - A good analogy to zero shot prompting is to ask a person to write an entire essay without pressing backspace even once
+  - Andrew scenes to align with the line chain definition of agentic workflow, which is about agents being able to craft their own control flows
+  - People find it very easy to understand agentic workflows once they read through the code
+  - Reflection or feedback is a useful agentic pattern
+  - In multi-agent collaboration, it may be the same underlying model that is acting as different agents. But just like we find it useful for the same CPU to run multiple processes and each application is its own abstraction, agents of useful abstraction
+- 26 Nov 2024. CloudFlare workers can bundle any kind of files, including text, data, and WASM. [Docs](https://developers.cloudflare.com/workers/wrangler/configuration/#bundling)
+- 26 Nov 2024. AssemblyScript can compile TypeScript to WASM. [Here's what I learnt](https://github.com/sanand0/assemblyscript-tutorial)
+- 26 Nov 2024. Here's a convenient pattern to `git commit` a directory but nothing else in it (e.g. a `build/` directory). Add a `.gitignore` file with `*` followed by `!.gitignore`. Only the `.gitignore` file is tracked.
 - 23 Nov 2024. OpenAI lets you download GPT instructions and execute arbitrary code in their containerized environment. This is not a bug. [Ref](https://0din.ai/blog/prompt-injecting-your-way-to-shell-openai-s-containerized-chatgpt-environment)
 - 23 Nov 2024. BM25 works as follows: [Ref](https://emschwartz.me/understanding-the-bm25-full-text-search-algorithm/)
   - For each query term in the query, sum up the product of:

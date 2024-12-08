@@ -80,6 +80,7 @@ const extractNotes = (markdown) => {
 const getWeekStart = (date) => {
   const weekStart = new Date(date);
   weekStart.setDate(weekStart.getDate() - weekStart.getDay());
+  weekStart.setHours(0, 0, 0, 0);
   return weekStart.toISOString().split("T")[0];
 };
 
@@ -206,20 +207,26 @@ const generateRSS = (weeklyNotes) => {
 </rss>`;
 };
 
-// Main execution
+// Read all Markdown files in the current directory
 const paths = [...Deno.readDirSync("./")]
   .filter((entry) => entry.name.endsWith(".md") && entry.name !== "README.md")
   .map((entry) => entry.name);
 
-const allNotes = paths.map((path) => Deno.readTextFileSync(path)).flatMap((content) => extractNotes(content));
+// Extract notes from all files until the start of the current week
+const currentWeekStart = getWeekStart(new Date());
+const allNotes = paths
+  .map((path) => Deno.readTextFileSync(path))
+  .flatMap((content) => extractNotes(content))
+  .filter((note) => note.date.toISOString() < currentWeekStart);
 
+// Group notes by week
 const weeklyNotes = groupByWeek(allNotes);
 const allWeeks = [...weeklyNotes.keys()].sort();
 
-// Add this near the start of the file
+// Create the target directory
 await Deno.mkdir("public", { recursive: true });
 
-// Modify file writing operations
+// Generate HTML files for each week
 weeklyNotes.forEach((notes, weekStart) => {
   const html = generateWeekHTML(notes, weekStart, allWeeks);
   Deno.writeTextFileSync(`public/${weekStart}.html`, html);
