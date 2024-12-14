@@ -76,12 +76,12 @@ const extractNotes = (markdown) => {
   return notes;
 };
 
-// Helper to get week start date in ISO format
-const getWeekStart = (date) => {
-  const weekStart = new Date(date);
-  weekStart.setDate(weekStart.getDate() - weekStart.getDay());
-  weekStart.setHours(0, 0, 0, 0);
-  return weekStart.toISOString().split("T")[0];
+// Helper to get week end date in ISO format
+const getWeekEnd = (date) => {
+  const weekEnd = new Date(date);
+  weekEnd.setDate(weekEnd.getDate() - weekEnd.getDay() + 7);
+  weekEnd.setHours(0, 0, 0, 0);
+  return weekEnd.toISOString().split("T")[0];
 };
 
 /**
@@ -92,7 +92,7 @@ const getWeekStart = (date) => {
 const groupByWeek = (notes) => {
   const weeks = new Map();
   notes.forEach((note) => {
-    const weekKey = getWeekStart(note.date);
+    const weekKey = getWeekEnd(note.date);
     if (!weeks.has(weekKey)) weeks.set(weekKey, []);
     weeks.get(weekKey).push(note);
   });
@@ -113,13 +113,13 @@ const noteToMarkdown = (note) => marked(note.content.replace(/^- \d{1,2} [A-Za-z
 /**
  * Generates HTML content for a week's notes
  * @param {Note[]} notes - Notes for the week
- * @param {string} weekStart - Week start date
+ * @param {string} weekEnd - Week end date
  * @param {string[]} allWeeks - All available week dates
  * @returns {string} HTML content
  */
-const generateWeekHTML = (notes, weekStart, allWeeks) => {
-  const weekIndex = allWeeks.indexOf(weekStart);
-  const formattedDate = new Date(weekStart).toLocaleDateString("en-US", DATE_FORMAT);
+const generateWeekHTML = (notes, weekEnd, allWeeks) => {
+  const weekIndex = allWeeks.indexOf(weekEnd);
+  const formattedDate = new Date(weekEnd).toLocaleDateString("en-US", DATE_FORMAT);
 
   const content = /* html */ `
     ${renderHeader(formattedDate)}
@@ -136,7 +136,7 @@ const generateWeekHTML = (notes, weekStart, allWeeks) => {
 
 /**
  * Generates HTML content for the home page
- * @param {string[]} weeks - Array of week start dates
+ * @param {string[]} weeks - Array of week end dates
  * @returns {string} HTML content
  */
 const generateIndexHTML = (weeks) => {
@@ -181,15 +181,15 @@ const generateRSS = (weeklyNotes) => {
   const items = [...weeklyNotes.entries()]
     .sort(([a], [b]) => b.localeCompare(a)) // Most recent first
     .slice(0, 10) // Last 10 weeks
-    .map(([weekStart, notes]) => {
+    .map(([weekEnd, notes]) => {
       const content = notes.map(noteToMarkdown).join("\n");
 
       return /* xml */ `
         <item>
-          <title>Things I Learned: Week of ${weekStart}</title>
-          <link>${SITE_BASE}/${weekStart}.html</link>
-          <guid>${SITE_BASE}/${weekStart}.html</guid>
-          <pubDate>${new Date(weekStart).toUTCString()}</pubDate>
+          <title>Things I Learned: Week of ${weekEnd}</title>
+          <link>${SITE_BASE}/${weekEnd}.html</link>
+          <guid>${SITE_BASE}/${weekEnd}.html</guid>
+          <pubDate>${new Date(weekEnd).toUTCString()}</pubDate>
           <description><![CDATA[${content}]]></description>
         </item>`;
     })
@@ -213,11 +213,11 @@ const paths = [...Deno.readDirSync("./")]
   .map((entry) => entry.name);
 
 // Extract notes from all files until the start of the current week
-const currentWeekStart = getWeekStart(new Date());
+const currentWeekStart = getWeekEnd(new Date() - 7 * 24 * 60 * 60 * 1000);
 const allNotes = paths
   .map((path) => Deno.readTextFileSync(path))
   .flatMap((content) => extractNotes(content))
-  .filter((note) => note.date.toISOString() < currentWeekStart);
+  // .filter((note) => note.date.toISOString() < currentWeekStart);
 
 // Group notes by week
 const weeklyNotes = groupByWeek(allNotes);
@@ -227,9 +227,9 @@ const allWeeks = [...weeklyNotes.keys()].sort();
 await Deno.mkdir("public", { recursive: true });
 
 // Generate HTML files for each week
-weeklyNotes.forEach((notes, weekStart) => {
-  const html = generateWeekHTML(notes, weekStart, allWeeks);
-  Deno.writeTextFileSync(`public/${weekStart}.html`, html);
+weeklyNotes.forEach((notes, weekEnd) => {
+  const html = generateWeekHTML(notes, weekEnd, allWeeks);
+  Deno.writeTextFileSync(`public/${weekEnd}.html`, html);
 });
 
 // Generate index page
