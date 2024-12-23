@@ -2,13 +2,163 @@
 
 ## Dec 2024
 
-- 8 Dec 2024. When embedding using a `SentenceTransformer.encode(docs)` it's best if we embed with smaller `docs`. On Colab T4, for [`gte-base-en-v1.5`](https://huggingface.co/Alibaba-NLP/gte-base-en-v1.5), when embedding docs of up to 8K chars, here is the time taken to embed 1K docs at varying doc sizes:
-  - len(docs) = 1: 10s
-  - len(docs) = 2: 13s
-  - len(docs) = 4: 19s
-  - len(docs) = 8: 23s
-  - len(docs) = 16: 32s
-  - len(docs) = 32: 40s
+- 23 Dec 2024. Document to Markdown Converters:
+  - [PyMuPDF4LLM](https://pymupdf.readthedocs.io/en/latest/pymupdf4llm/) uses [MuPDF](https://mupdf.com/). Requires PyTorch.
+    - `PYTHONUTF8=1 uv run --with pymupdf4llm python -c 'import pymupdf4llm; h = open("pymupdf4llm.md", "w"); h.write(pymupdf4llm.to_markdown("SpreadsheetLLM-2407.09025v1.pdf"))'`
+  - [markitdown](https://github.com/microsoft/markitdown) from Microsoft. PDF via PDFMiner, DOCX via Mammoth, XLSX via Pandas, PPTX via Python-PPTD, ZIP, etc.
+    - `PYTHONUTF8=1 uvx markitdown SpreadsheetLLM-2407.09025v1.pdf > markitdown.md`
+  - [Docling](https://github.com/DS4SD/docling) by IBM. Unable to install via pip on Windows AND on Linux.
+  - [MegaParse](https://github.com/QuivrHQ/MegaParse) uses libreoffice, pandoc, tesseract-ocr, etc. Requires OpenAI API key.
+- 23 Dec 2024. [Awesome Tabular LLMs](https://github.com/SpursGoZmy/Awesome-Tabular-LLMs) compiles encodings of tables for LLMs.
+- 23 Dec 2024. [What's the best way of encoding tabular data for LLMs?](https://typeset.io/search?q=What%27s%20the%20best%20way%20of%20encoding%20tabular%20data%20for%20LLMs%3F) Looks like including the cell address helps. [Here is an explanation from ChatGPT](https://chatgpt.com/share/6768c852-3bd4-800c-a4c7-0e4692a49afd)
+- 22 Dec 2024. [How are software engineers are future-proofing their careers in the face of LLMs?](https://news.ycombinator.com/item?id=42431103)
+  - Leveraging LLMs as Force Multipliers
+    - Use LLMs for repetitive tasks, rapid prototyping, exploring multiple approaches, data extraction and brainstorming, providing feedback.
+    - Explore prompting techniques, integrate LLMs into their workflows, and develop strategies for validating and refining LLM-generated code
+  - Focusing on higher-level skills that llms struggle with
+    - Systems Thinking and Architecture: code readability, extensibility, testability, and maintainability
+    - Problem Solving and Critical Thinking: define problems clearly, break them down into manageable parts, and reason through complex scenarios. LLMs produce plausibly incorrect code.
+    - Communication and Collaboration
+    - Domain Expertise
+  - Exploring Adjacent Roles: product management, technical leadership, or consulting. Involve more interaction with clients and stakeholders.
+  - Developing "Evergreen" Skills: debugging, system administration, and security. Or outside of software engineering, such as trades or other hands-on vocations.
+  - Scepticism: LLMs may not reach a level of sophistication that would render their expertise obsolete. Complex problems, understanding context, and producing high-quality, maintainable code.
+- 22 Dec 2024. [Examples of agentic AI](https://news.ycombinator.com/item?id=42431361)
+  - Text-to-SQL automated business analyst: A system that generates SQL queries from natural language, handles errors, creates visualizations, and includes a FAQ component. The author calls it "constrained agentic AI."
+  - Data source querying system: A bot that queries multiple SQL and API data sources, selecting tools and reformulating tasks as needed.
+  - Cursor (agentic mode): An LLM-powered VS Code fork that chains together various LLM capabilities (code generation, applying changes, linting suggestions, terminal commands, codebase RAG) to reduce user prompts.
+  - Vulnerability finding system: A system that uses LLM agents to discover novel vulnerabilities in open-source web applications. The agents leave traces of their actions.
+  - Marketing strategy generation system: A system using approximately 60 agents to generate marketing strategies.
+  - Restaurant finder: A system that searches for restaurants based on dietary preferences and group size, and downloads social media information.
+  - Proofreading and editing of transcripts: LLM agents apply specific customer requirements to transcripts after human editing.
+  - Meeting notes and action items generator: A system that generates meeting notes and action items.
+  - O'Reilly auto parts customer service agent: An agent demonstrated using RAG.
+  - UI enhancement agent: An agent that added features like language locales and dark mode to a UI.
+- 21 Dec 2024. Anthropic defines agents. [Building effective agents](https://www.anthropic.com/research/building-effective-agents) + [Cookbook](https://github.com/anthropics/anthropic-cookbook/tree/main/patterns/agents)
+  - **Augmented LLMs** are LLMs enhanced with augmentations such as retrieval, tools, and memory.
+  - **Workflows** are systems where LLMs and tools are orchestrated through **predefined** code paths.
+    - **Prompt chaining**: Pipe each LLM output to the next LLM. E.g. Write report, then translate. Extract results, then verify them. Successively ask follow-up questions.
+    - **Routing**: One LLMs decides which other LLM to call next. E.g. Evaluate complexity, then pick the right model. Classify request time, then pick the right prompt.
+    - **Parallelize: Sectioning**: Break tasks into independent subtasks, then aggregate. E.g. Evaluate contracts against different clauses in parallel.
+    - **Parallelize: Voting**: Run same task multiple times, then vote. E.g. Review code for prompt injection using different prompts. Evaluate content safety with different thresholds.
+    - **Orchestrator-workers**: One LLM delegates to others, then syntheisizes. E.g. Search from multiple sources, then synthesize. Change multiple code files.
+    - **Evaluator-optimizer**: One model checks another in a loop. E.g. Literary translation. Self-healing code. Policy violation checks.
+    - **Human-in-the-loop Checkpoints**: The workflow explicitly requests human review at certain stages.
+  - **Agents** are LLMs that dynamically direct their own processes and tool usage, consulting tools or the user as needed.
+- 19 Dec 2024. o1-preview diagnoses better than doctors. [Harvard](https://arxiv.org/pdf/2412.10849)
+- 18 Dec 2024. OpenAI's release of ephemeral tokens via sessions (valid for 1 minute) are a useful way of exposing apps for public demos. Currently it works only for the Realtime API, though.
+- 18 Dec 2024. [SpreadsheetLLM](https://arxiv.org/abs/2407.09025) is a way of encoding spreadsheets in an LLM friendly format.
+- 18 Dec 2024. #HARD prompt. Ask video generators like SORA to generate text in videos. It is of average quality.
+- 18 Dec 2024. [GPT 4o Mini Realtime](https://platform.openai.com/docs/models#gpt-4o-realtime) was released. A realtime conversation will cost ~50c/hr. About 36c for input, 72c for output. (I extrapolated from the 6c/min audio input cost for GPT 4o Realtime when it was $100/MTok. GPT 4o Mini Realtime is $10/MTok input and $20/MTok output.)
+- 18 Dec 2024. This is an interesting way to understand software. `Generate a Mermaid sequence diagram showing interactions based on this code.` [Ref](https://llmfoundry.straive.com/history#?t=1734434521298204)
+
+  ```mermaid
+  sequenceDiagram
+      participant Main
+      participant Server
+      participant DatabaseConnection
+      participant Bank
+      participant Branch
+      participant Employee
+      participant Customer
+      participant Account
+      participant PaymentGateway
+      participant PaymentProcessor
+      participant Merchant
+      participant MerchantService
+      participant TransactionService
+      participant LoanService
+      participant PaymentService
+
+      Main->>Server: start()
+      Main->>DatabaseConnection: connect()
+
+      Main->>Bank: new Bank("Global Bank", databaseConnection)
+      Main->>Branch: new Branch("Downtown Branch", "123 Main St")
+      Main->>Branch: new Branch("Uptown Branch", "456 High St")
+      Main->>Bank: addBranch(branch1)
+      Main->>Bank: addBranch(branch2)
+
+      Main->>Employee: new Manager("Alice Johnson", "MGR123", branch1)
+      Main->>Employee: new Teller("Bob Smith", "TLR456", branch1)
+      Main->>Employee: new Teller("Charlie Davis", "TLR789", branch2)
+      Main->>Bank: addEmployee(manager)
+      Main->>Bank: addEmployee(teller1)
+      Main->>Bank: addEmployee(teller2)
+
+      Main->>Customer: new Customer("David Brown", "CST001")
+      Main->>Customer: new Customer("Eva Green", "CST002")
+      Main->>Bank: addCustomer(customer1)
+      Main->>Bank: addCustomer(customer2)
+
+      Main->>Account: new SavingsAccount("SA1001", customer1, 5000.0, 2.5)
+      Main->>Account: new CheckingAccount("CA2001", customer1, 1500.0, 500.0)
+      Main->>Account: new SavingsAccount("SA1002", customer2, 8000.0, 2.0)
+      Main->>Bank: openAccount(savings1)
+      Main->>Bank: openAccount(checking1)
+      Main->>Bank: openAccount(savings2)
+
+      Main->>PaymentGateway: new PaymentGateway("GlobalPay Gateway")
+      Main->>PaymentProcessor: new PaymentProcessor("GP-Processor-001", paymentGateway)
+
+      Main->>Merchant: new Merchant("MCH001", "TechStore Online", "techstore.com")
+      Main->>MerchantService: new MerchantService(paymentProcessor)
+
+      Main->>TransactionService: deposit(savings1, 1000.0)
+      Main->>TransactionService: withdraw(checking1, 200.0)
+      Main->>TransactionService: transfer(savings1, savings2, 500.0)
+
+      Main->>LoanService: applyPersonalLoan(customer1, 10000.0, 5)
+      Main->>LoanService: applyMortgageLoan(customer2, 200000.0, 15)
+      Main->>Bank: addLoan(personalLoan)
+      Main->>Bank: addLoan(mortgageLoan)
+
+      Main->>PaymentService: makePayment(personalLoan, 2000.0)
+      Main->>PaymentService: makePayment(mortgageLoan, 5000.0)
+
+      Main->>MerchantService: processMerchantPayment(merchant, checking1, 300.0, "Order#12345 - Tech Gadgets")
+
+      Main->>Bank: displayBankDetails()
+
+      Main->>DatabaseConnection: disconnect()
+      Main->>Server: stop()
+  ```
+
+- 18 Dec 2024. The King James Bible and all Harry Potters, each, are about $1M tokens (rounded off).
+- 16 Dec 2024. Claude 3.5 Sonnet is _way_ ahead of competition on the [LMSYS Webdev Arena](https://web.lmarena.ai/leaderboard)
+- 14 Dec 2024. [Roaming RAG](https://arcturus-labs.com/blog/2024/11/21/roaming-rag--rag-without-the-vector-database/) is an alternative to RAG without the vector database.
+  - Applicable to **well structured documents**, e.g. technical books, manuals, etc.
+  - Create a hierarchical outline of the document. [Code](https://github.com/arcturus-labs/llm-text-assistant/blob/48b71030992301f6d1631f23cfc643dca56835eb/backend/app/routes/api/tools.py)
+    - Keep the top-level headings.
+    - Preserve the first ~100 characters of opening text from each section.
+    - Present the second-level headings, but without any subsidiary content.
+    - Provide each section a unique 8 digit hex identifier.
+    - Each section heading is followed by a guiding comment for the model: `Section collapsed - expand with expand_section("{identifier}").`
+  - Then read the relevant sections as context to answer the question. [Code](https://github.com/arcturus-labs/llm-text-assistant/blob/48b71030992301f6d1631f23cfc643dca56835eb/backend/app/routes/api/conversation.py#L37)
+- 12 Dec 2024. I surveyed the Gramener QA team on how they were using LLMs.
+  - 7 used it for code generation (e.g. date extraction, regex generation)
+  - 4 used it for learning (e.g. Robot Framework, how to define test cases, API usage)
+  - 3 used it for formula generation (e.g. Excel)
+  - 2 used it for test scenario identification
+  - 2 used it for test data generation
+  - 2 used it for comparing expected vs actual datasets
+  - 1 used it for data type identification (e.g. given sample values, identify the data type).
+  - 1 used it for evaluating resulting (LLM as a judge)
+- 12 Dec 2024. I asked the Straive Digitalized Operations team what management techniques they would apply to manage LLMs. Here are the responses:
+  - Ask better questions. (Prompt engineering.)
+  - Create templates or step-by-step instructions. (Chain of Thought.)
+  - Ask for multiple options and pick from the best options. (Agentic approach?)
+  - Training. (Fine tuning.)
+  - Price weaker responses lower. (Stratified model pricing?)
+- 12 Dec 2024. "LLM hallucinations are a good thing. They are a sign of diversity, allowing us to improve the answer by exploring multiple paths." -- A colleague from Straive.
+- 11 Dec 2024. Bedrock Llama models can't be directly called with their model names. You need to use their [inference profile names](https://docs.aws.amazon.com/bedrock/latest/userguide/inference-profiles-support.html), e.g. `us.meta.llama3-2-11b-instruct-v1:0` if the model is in a US region.
+- 8 Dec 2024. When embedding using a `SentenceTransformer.encode(docs)` it's best if we embed with smaller `docs` and call it multiple times (rather than embedding more at once). On Colab T4, for [`gte-base-en-v1.5`](https://huggingface.co/Alibaba-NLP/gte-base-en-v1.5), when embedding 1,000 docs of up to 8K chars each, here is the **TOTAL** time it took, based on batch sizes (lower is better)
+  - 1 doc per call: 10s
+  - 2 docs per call: 13s
+  - 4 docs per call: 19s
+  - 8 docs per call: 23s
+  - 16 docs per call: 32s
+  - 32 docs per call: 40s
 - 8 Dec 2024. Running embeddings without a GPU is _extremely_ slow. It takes ~2.4 seconds per string.
 - 7 Dec 2024. ChatGPT uses several unusual unicode characters for citations. [Ref](https://github.com/sanand0/openai-conversations/blob/main/private-unicode-control-characters.md)
 - 6 Dec 2024. [Arena Hard](https://huggingface.co/spaces/lmarena-ai/arena-hard-browser) is a set of hard prompts to test LLMs. [Here is the code and evaluation](https://github.com/lmarena/arena-hard-auto)

@@ -217,7 +217,7 @@ const currentWeekStart = getWeekEnd(new Date() - 7 * 24 * 60 * 60 * 1000);
 const allNotes = paths
   .map((path) => Deno.readTextFileSync(path))
   .flatMap((content) => extractNotes(content))
-  // .filter((note) => note.date.toISOString() < currentWeekStart);
+  .filter((note) => note.date.toISOString() < currentWeekStart);
 
 // Group notes by week
 const weeklyNotes = groupByWeek(allNotes);

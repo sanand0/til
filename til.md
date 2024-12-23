@@ -2,6 +2,49 @@
 
 ## Dec 2024
 
+- 23 Dec 2024. Given about 30 generations, Llama 1b outperforms Llama 8b. [Ref](https://huggingface.co/spaces/HuggingFaceH4/blogpost-scaling-test-time-compute)
+- 23 Dec 2024. OpenAI introduced a `developer` role in addition to the `system` role. This is mainly for `o1`. The API is backward compatible - and also forward compatible. [OpenAI](https://community.openai.com/t/how-is-developer-message-better-than-system-prompt/1062784)
+- 23 Dec 2024. Em dashes are a strong sign of ChatGPT use. Curly quotes too. [Reddit](https://www.reddit.com/r/ApplyingToCollege/comments/1h0vhlq/in_the_past_three_days_ive_reviewed_over_100/)
+- 23 Dec 2024. CloudFlare has multiple [SSL modes](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/) when proxying requests.
+  - [Off (no encryption)](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/off/): No encryption between browsers and Cloudflare or between Cloudflare and origins. Everything is cleartext HTTP.
+  - [Flexible](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/flexible/): Browsers to Cloudflare is HTTPS, Cloudflare to origin is HTTP. Useful to set up CloudFlare as a HTTP Proxy.
+  - [Full](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full/): Browser to Cloudflare matches browser request. Same protocol is used for Cloudflare to origin, without validating the origin’s certificate. Use for self-signed or otherwise invalid certificates.
+  - [Full (strict)](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full-strict/): Similar to Full Mode, but with validation.
+  - [Strict (SSL-Only Origin Pull)](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/ssl-only-origin-pull/): Cloudflare always connects to the origin over HTTPS with certificate validation.
+  - Getting this wrong can lead to a [HTTP 526: invalid SSL certificate](https://developers.cloudflare.com/support/troubleshooting/cloudflare-errors/troubleshooting-cloudflare-5xx-errors/#error-526-invalid-ssl-certificate)
+- 22 Dec 2024. [aspose-words](https://pypi.org/project/aspose-words/) is a Python library that converts documents with many formats (Word, RTF, PDF, HTML, Markdown, EPUB, etc.)
+- 22 Dec 2024. Discourse does not support searching across multiple forums. Instead, search for the term in all forums. [Example](https://discourse.onlinedegree.iitm.ac.in/search?q=TDS). Then scroll through the results. Then, in the console, hide the ones you don't want. Example:
+  - Hide posts that are not in the "Tools in Data Science" category: `$(".badge-category__name").filter(d => d.textContent == "Tools in Data Science").map(d => d.closest(".fps-result")).filter(d => d).forEach(d => d.style.display = "none")`
+- 21 Dec 2024. What to use for hosting: [ChatGPT](https://chatgpt.com/share/676663cd-2560-800c-b53c-2c51ef41be69)
+  - GitHub Pages: Static websites, medium files
+  - Cloudflare Pages: Static websites, global delivery
+  - Vercel: Frontend frameworks (e.g. Next.js) with high DX and ISR, small files
+  - Netlify: JAMstack projects, minimal back-end, moderate files
+  - Glitch: Small static projects
+  - Render: Full-stack apps requiring databases and server-side compute
+  - Firebase Hosting: Small sites, limited large files
+  - Archive.org: Public archival, large files
+  - Google Drive: File sharing, large files
+  - Dropbox: File sharing, moderate files
+  - Cloudflare R2: Static assets, large file delivery
+- 19 Dec 2024. To download YouTube subtitles, use: `yt-dlp -q --skip-download --convert-subs srt --write-sub --sub-langs "en" --write-auto-sub --print "requested_subtitles.en.url" "$url"` [Simon Willison](https://simonwillison.net/2024/Dec/19/q-and-qv-zsh-functions/#atom-everything)
+- 16 Dec 2024. [markdown2](https://pypi.org/project/markdown2/) is the new de facto Markdown library for Python.
+- 15 Dec 2024. [Raspberry Pi 5](https://www.raspberrypi.com/news/introducing-raspberry-pi-5/) has a faster CPU, more RAM and GPU, 4K support, multiple USB 3 ports
+- 15 Dec 2024. Government websites like the official press releases cannot be crawled from outside India. Hence the need for server farms in India!
+- 14 Dec 2024. `**/*.md` can search for all Markdown files. [Julia Evans](https://jvns.ca/til/star-star-works-for-globbing-in-the-shell/)
+- 14 Dec 2024. Windows 11 2024 Update features: [Ref](https://support.microsoft.com/en-us/windows/inside-this-update-93c5c27c-f96e-43c2-a08e-5812d92f220d)
+  - [Live captions](https://support.microsoft.com/topic/b52da59c-14b8-4031-aeeb-f6a47e6055df) (via the tray) can transcribe audio and microphone.
+  - [Cocreator in Paint](https://support.microsoft.com/topic/53857513-e36c-472d-8d4a-adbcd14b2e54) lets you draw crudely and enhances it with AI. The neat UI is a slider that lets you control how close it should be to your drawing.
+  - Voice Clarity automatically cancels echo, reduces background noise, and minimizes reverb.
+  - [Studio Effects](https://support.microsoft.com/en-us/windows/windows-studio-effects-273c1fa8-2b3f-41b1-a587-7cc7a24b62d8) (via the tray) lets you apply camera effects on all apps. Eye contact feature is CLEVER!
+  - [sudo](https://learn.microsoft.com/en-us/windows/sudo/) lets you run commands with admin privileges from the command line. [source](https://github.com/microsoft/sudo)
+- 12 Dec 2024. Traffic to StackOverflow has fallen considerably. Especially from young and Indian developers. StackOverflow revenue is down. Via [Prashanth](https://www.linkedin.com/in/pchandrasekar/). They're exploring:
+  - Licensing their content. (Meta says high quality content improves LLM performance by 30% on HumanEval)
+  - Enterprise StackOverflow for system integration
+  - Fine-tuned versions of Enterprise Stackoverflow for enterprises
+  - Integrate StackOverflow within your IDE. Ask questions, post directly
+- 11 Dec 2024. [Hyperbrowser](https://www.hyperbrowser.ai/) is a cloud based puppeteer service.
+- 10 Dec 2024. [Hacker News RSS](https://hnrss.github.io/) is a good way to get RSS feeds from Hacker News. It's also a good way to understand how to convert a news source into RSS feeds. [BlueSky has RSS feeds too](https://openrss.org/blog/bluesky-has-launched-rss-feeds)
 - 06 Dec 2024. NumLock can be dangerous. An IT support team member took control of Radheya's screen while debugging and had turned on NumLock. Radheya's login failed after that. After 5 tries, he was locked out.
 - 06 Dec 2024. With LLMs, most architectural decisions are no longer one-way doors. [Steve Yegge](https://simonwillison.net/2024/Dec/4/steve-yegge/)
 - 05 Dec 2024. To install Docker on Windows without admin privileges, use [`net localgroup docker-users "your-user-id" /ADD`](https://stackoverflow.com/a/63290821/100904)
