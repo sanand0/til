@@ -1,7 +1,49 @@
 # LLM learnings
 
+- Hard prompts / Test cases + Stats
+  - Caesar cipher
+  - Evaluate based on multiple attempts
+  - Add test cases like Nick Carlini. Code generation in JavaScript
+  - A data analysis example
+  - Convert a tricky XML to JSON
+  - Render code blocks inside a
+  - Markdown code block via 4 ticks and 5 ticks
+  - Chemical prompt?
+  - Duden hyphenation
+  - Write a complex regex
+  - Image extraction from passport etc
+  - Text extraction, like addresses
+  - DOM manipulating JS code
+  - TDS exam tests!
+  - Formula format conversion
+  - Long XML conversion to JAST
+  - Object detection and counting
+  - Minimal editing copy writing
+  - Debug JS code
+  - Respond to an RFP
+  - Ask video generators like SORA to generate text in videos. It is of average quality.
+  - Translate technical documents to Dutch -- because they don't understand the technical terms well
+  - Translate large documents (JSON to XML, English to Chinese, Python to Rust, Wrong to right spelling) -- because the output tokens are limited
+
 ## Dec 2024
 
+- 28 Dec 2024. A clever idea. Give an LLM a chapter from a textbook. Ask it to generate a unique, playable game to help me learn theconcepts for an exam. [Page Bailey](https://www.linkedin.com/feed/update/urn:li:activity:7278124663048695809/)
+- 26 Dec 2024. WOW. This is how a software agent will work alongside humans: [Fix issue #5478: Add color to the line next to "Ran a XXX Command" based on return value](https://github.com/All-Hands-AI/OpenHands/pull/5483) - using [@openhands-agent](https://github.com/openhands-agent).
+- 26 Dec 2024. Learnings from [Best of 2024 in Agents (from #1 on SWE-Bench Full, Prof. Graham Neubig of OpenHands/AllHands)](https://youtu.be/B6PKVZq2qqo)
+  - Passing code execution as a tool is more powerful than granular tools. You combine multiple tools and tool calls into one. You move code to the data rather than the other way around. Mostly, you need bash, Python (or Jupyter), file manager, web browser.
+  - UI: Go where the user is, instead of bringing them to you.
+  - A remote runtime is a critical component.
+  - Claude 3.5 Sonnet (20241022) and Claude 3.5 Haiku (20241022) perform best on SWE Bench, followed by Deepseek V3, then O1 2024-12-17. [X](https://x.com/xingyaow_/status/1872145835699691675)
+- 25 Dec 2024. Since HNSW indexing is an overhead, just use NumPy matrix multiplication to calculate cosine similarity. For 1M vectors, it takes ~0.05 seconds. A 1M vector dataset handles ~2GB of text at a chunk size of 2K chars. In short, if you're embedding <2GB of text, just use NumPy.
+- 24 Dec 2024. DuckDB's VSS extension HNSW index + Embeddings (2K chunks of 512 dimensions) takes up roughly 2.5X the size of the original data. Embedding 554 files of ~4,456 KB took 710 seconds. Creating the index took 660 seconds. The resulting DB was 18.1 MB.
+- 24 Dec 2024. How to use [LLMs in market research](https://businessmeetsai.substack.com/p/market-research-meets-ai-the-3-step).
+  - Use LLMs with search for secondary research.
+  - Create different personas and run user surveys on them. [This paper used 1,052 real-life interview audio transcripts as agent memory to simulate people](https://x.com/emollick/status/1858664562750374139)
+  - Generate your market research report using LLMs.
+- 23 Dec 2024. Medical coding is an area ripe for LLMs.
+  - [Ojasvi Yadav created a repo](https://github.com/ojasviyadav/medical-coding-agent/) that uses hierarchical classification (rather than embeddings) to find the right coding.
+  - Gemini models seem to understand medical terms better than others.
+  - RapidClaims, funded by TogetherAI, is apparently working on this problem.
 - 23 Dec 2024. Document to Markdown Converters:
   - [PyMuPDF4LLM](https://pymupdf.readthedocs.io/en/latest/pymupdf4llm/) uses [MuPDF](https://mupdf.com/). Requires PyTorch.
     - `PYTHONUTF8=1 uv run --with pymupdf4llm python -c 'import pymupdf4llm; h = open("pymupdf4llm.md", "w"); h.write(pymupdf4llm.to_markdown("SpreadsheetLLM-2407.09025v1.pdf"))'`
@@ -219,6 +261,23 @@
   - It's quite impressive.
 - 27 Nov 2024. OpenAI allows multiple system messages. I learned this browsing through the LIDA prompts.
 - 27 Nov 2024. Anthropic's [Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) lets any apps integrate with LLM Apps. LLM Apps are becoming the new operating system. Competitors, beware.
+- 27 Nov 2024. I spoke at [Automating Data Visualizations using LLMs](https://www.meetup.com/data-vis-singapore/events/304516458/) at SUTD. Apparently, using LLMs to write code is much more common than writing code to use LLMs. I ran a quick quiz.
+  - Have you used ChatGPT or any LLM? 35 / 35 raised their hands.
+  - Have you written code using an LLM? 34 / 35 raised their hands. (I was impressed.)
+  - Have you uploaded a spreadsheet to an LLM for analysis? 15 / 35 raised their hands.
+  - Have you programmatically called an LLM API? 6 / 35 raised their hands.
+- 27 Nov 2024. With LLMs, fostering innovation is a new path to profitability. Companies are increasing innovation team sizes. Productionizing that is the next. Some initiatives are:
+  - Convert popular demos into starter kits
+  - Create and evangelize trainings on solutions and solution techniques
+  - Create larger pools of capacity to build innovation and productionize it
+- 27 Nov 2024. [Andrew Ng Explores The Rise Of Al Agents And Agentic Reasoning | BUILD 2024 Keynote](https://youtu.be/KrRD7r7y7NY)
+  - Innovation is now a path to production. People are able to build 20 prototypes at the cost of one and see which sticks
+  - Machine learning is much faster. Things that took months now date days. But engineering and evaluations are only slightly faster and have become a bottleneck
+  - A good analogy to zero shot prompting is to ask a person to write an entire essay without pressing backspace even once
+  - Andrew scenes to align with the line chain definition of agentic workflow, which is about agents being able to craft their own control flows
+  - People find it very easy to understand agentic workflows once they read through the code
+  - Reflection or feedback is a useful agentic pattern
+  - In multi-agent collaboration, it may be the same underlying model that is acting as different agents. But just like we find it useful for the same CPU to run multiple processes and each application is its own abstraction, agents of useful abstraction
 - 26 Nov 2024. [Ultravox](https://www.ultravox.ai/) lets you build voice agents at 5c/min = $3/hr (OpenAI is 6c input, 24c output). Or [clone their repo](https://github.com/fixie-ai/ultravox).
   - Idle call time is counted towards cost. So cost may be higher than OpenAI.
   - Voice cloning quality is average. Very distinctive voices are just partly identifiable.
@@ -389,6 +448,16 @@
   - <https://docs.fastht.ml/llms-ctx-full.txt>
 - 29 Oct 2024. [F5-TTS](https://github.com/SWivid/F5-TTS) clones voices with just 15-second samples.
 - 28 Oct 2024. [NotebookLlama](https://github.com/meta-llama/llama-recipes/tree/main/recipes/quickstart/NotebookLlama) is an open source podcast generator like NotebookLM
+- 28 Oct 2024. Pragmatic Podcast (I forgot which one)
+  - Automate changelogs for your codebases. Convert past commits into attractive release notes automatically
+  - AI is going to be the consumer of many tools and logs. Build converters for these
+  - Speed of validation such as linting, testing, etc. will allow LLMs to iterate faster and WILL become more important
+- 27 Oct 2024. Via Soumya Ranjan
+  - Vision embedding is useful in agile modeling
+  - Vision embedding models with SAM, Grounding Dino by meta, Alibaba does good stuff
+  - Vision embedding is more useful in batch than real time
+  - Embedding subtraction with vision embedding models like Dino
+- 27 Oct 2024. AI code editors are not good with large code bases today. Keep the refactoring exercises to below 1000 lines. Also evaluate the ease of setting it up locally
 - 27 Oct 2024. Deepseek Janus is a 1.3b model that can generate both text AND images (and also supports vision)
 - 27 Oct 2024. [Cohere Multimodal Embed v3](https://cohere.com/blog/multimodal-embed-3) is available on Azure.
 - 27 Oct 2024. Elevenlabs lets you create voices with a prompt. No need to even clone one!
@@ -514,6 +583,7 @@
   4. Thank you, but when attempting to run the code that you provided, I received the following error: {ERROR}
   5. Hello, thank you for the code. but now I get the following error pasted below: {ERROR}
   6. Thank you, I think we are getting close to a final solutiom I still get an error, which I've pasted below: {ERROR}
+- 15 Sep 2024. Prompt engineering tip: Tell LLMs another AI wrote code. Else they will agree with you!
 - 13 Sep 2024. [Hume](https://app.hume.ai/) provides a voice-to-voice model (EVI 2) that handles emotions at 7 cents/minute.
 - 12 Sep 2024. [OpenArt workflows](https://openart.ai/workflows/home) has image generation workflows
 - 12 Sep 2024. [Pixtral](https://huggingface.co/mistral-community/pixtral-12b-240910) seems quite [good at OCR](https://x.com/swyx/status/1833934254834942047)

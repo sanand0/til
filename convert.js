@@ -57,7 +57,7 @@ const extractNotes = (markdown) => {
   let currentNote = null;
 
   markdown.split("\n").forEach((line) => {
-    // Simplified date matching using named groups
+    // Main notes are ONLY those lines that begin like `- 3 Dec 2023`
     const match = line.match(/^- (?<day>\d{1,2}) (?<month>[A-Za-z]{3}) (?<year>\d{4})/);
 
     if (match) {
@@ -67,7 +67,9 @@ const extractNotes = (markdown) => {
         date: new Date(`${month} ${day}, ${year}`),
         content: line,
       };
-    } else if (currentNote && line.trim().startsWith("-")) {
+    }
+    // Add sub-bullets to the current note
+    else if (currentNote && line.trim().startsWith("-")) {
       currentNote.content += "\n" + line;
     }
   });
