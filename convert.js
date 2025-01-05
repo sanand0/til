@@ -68,10 +68,10 @@ const extractNotes = (markdown) => {
         content: line,
       };
     }
-    // Add sub-bullets to the current note
-    else if (currentNote && line.trim().startsWith("-")) {
-      currentNote.content += "\n" + line;
-    }
+    // Add everything indented under the current note
+    else if (currentNote)
+      if (line.startsWith("  ")) currentNote.content += "\n" + line;
+      else currentNote = null;
   });
 
   if (currentNote) notes.push(currentNote);

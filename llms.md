@@ -25,6 +25,28 @@
   - Translate technical documents to Dutch -- because they don't understand the technical terms well
   - Translate large documents (JSON to XML, English to Chinese, Python to Rust, Wrong to right spelling) -- because the output tokens are limited
 
+## Jan 2025
+
+- 03 Jan 2025. [Assembly AI](https://www.assemblyai.com/) offers speech to text with diarization at 12c/hour. Good diarization, average transcription quality.
+  In comparison, WhisperX (with GPU) was much slower, had slightly poorer diarization, and slightly better transcription.
+  ```bash
+  uvx --python 3.9 --index https://download.pytorch.org/whl/cu121 whisperx --diarize --lang en --hf_token $HUGGINGFACE_TOKEN`
+  ```
+- 03 Jan 2025. [Vector DB comparison](https://superlinked.com/vector-db-comparison) compares all popular vector DBs. LanceDB is gently nudging up my preference list but DuckDB is still my favourite.
+- 03 Jan 2025. Does the cost of 'running' a paper/article in an LLM vary depending on the specific LLM used, such as Claude Sonnet? #FAQ
+  - Yes, the cost varies depending on the LLM. You can see costs and quality at https://llmpricing.straive.app/. The cost is measured in millions of tokens. For example, the Wikipedia page on the Bible is 100K tokens. You can paste text into https://platform.openai.com/tokenizer to count the number of tokens.Claude 3.5 Sonnet costs $3.5 / MTok, i.e. 35 cents for the Wikipedia Bible page. Gemini 1.5 Flash 8b costs $0.0375 / MTok, i.e. 0.375 cents for the same page. As you can see, the cost can vary by a factor of 100.
+- 02 Jan 2025. Tools that convert files to prompt / Markdown suitable for LLMs:
+  - [`uvx files-to-prompt`](https://pypi.org/project/files-to-prompt)
+  - [`npx git-ingest`](https://gitingest.com/)
+  - [`ingest`](https://github.com/sammcj/ingest) - written in Go, only Mac/Linux binaries
+- 01 Jan 2025. LLM Code Execution Sandboxes that let you run code in a sandbox via an API:
+  - [AgentRun](https://github.com/tjmlabs/AgentRun): open source, via Docker
+  - [e2b.dev](https://e2b.dev/). A day costs about $1 (on demand) and you get about $100 one time credits. Self-hosting is complex. [Discussion](https://www.reddit.com/r/LocalLLaMA/comments/1chsx7z/is_there_an_opensource_alternative_to_e2b_e2bdev/)
+- 01 Jan 2025. LLM Observability tools:
+  - [LangFuse](https://langfuse.com/self-hosting) lets you build a self hosted LLM Proxy with API key distribution, logging, and SSO.
+  - [Helicone](https://www.helicone.ai/) does not support SSO
+- 01 Jan 2025. [GitHub Spark](https://githubnext.com/projects/github-spark) is a way to build micro-apps with LLMs. Like Claude Artifacts. It's currently in technical preview, though.
+
 ## Dec 2024
 
 - 28 Dec 2024. A clever idea. Give an LLM a chapter from a textbook. Ask it to generate a unique, playable game to help me learn theconcepts for an exam. [Page Bailey](https://www.linkedin.com/feed/update/urn:li:activity:7278124663048695809/)
@@ -558,7 +580,7 @@
   - Use BM25 in addition to embeddings to match rare terms (e.g. identifiers)
   - Add a context to each chunk's metadata (generate it with a cheap LLM) and pass it to the summarizing LLM
   - Reranking helps with cost AND accuracy. Use [Cohere](https://cohere.com/rerank) or [Voyage](https://docs.voyageai.com/docs/reranker)
-- 22 Sep 2024: [Sentient](https://github.com/sentient-engineering/sentient) lets you control the browser via Python in natural language
+- 22 Sep 2024. [Sentient](https://github.com/sentient-engineering/sentient) lets you control the browser via Python in natural language
 - 21 Sep 2024. E2E is a cheap GPU hosting provider for India. About Rs 100/hr for a V100 16GB
 - 21 Sep 2024. Jetson NVIDIa is like Raspberry Pi with a GPU! But it's expensive.
 - 21 Sep 2024. [Sarvam.ai offers Indic text to speech](https://www.sarvam.ai/apis/text-to-speech)
@@ -634,29 +656,28 @@
   - Runway Gen 3 for video generation
   - Suno for music generation
 - 10 Aug 2024. Embedding models can be fine-tuned. Example: #TODO
-- 08 Aug 2024
-  - Agentic RAG (Ravi Theja, LlamaIndex)
-    - RAG via top-k retrieval fails with
-      - summarization => need to read all chunks
-      - comparison: compare product X vs Y => need to split and re-combine
-      - structured analytics. e.g. most expensive employees => Text2SQL first
-      - multi-part questions. e.g. Tell me about speed of model X AND cost of model Y and recommend => need to split and re-combine
-    - RAG failures: It's single shot. No query planning. No tools. No correction. No memory.
-    - Agents that help in RAG
-      - Route to the right tool
-        - E.g. retrieve via vector top-k search or vector summary search or keyword search or combination?
-      - One-shot query planning
-        - E.g. Break query into multiple specific queries. RAG those. Then combine. #TRY - maybe in DocSearch
-      - Tool use
-        - E.g. Schema retrieval, Text2SQL, Calendar, Chat, APIs, Search, etc.
-    - Agent orchestration
-      - ReAct: An agent reasoning loop. Reason + Act. {Thought, Action, Action Input, Observation}\*.
-        - [Orchestrate tools with a prompt](https://docs.llamaindex.ai/en/stable/examples/agent/react_agent/)
-      - Multi-agent task solver: [Llama agents](https://github.com/run-llama/llama-agents)
-        - Instead of a single agent loop, use different agents. Also allows parallelization
-        - Allow services to register. (MS TaskWeaver stores tool descriptions in YAML)
-    - [LlamaHub Tools](https://llamahub.ai/?tab=tools) has ideas for agents
-- 07 Aug 2024
+- 08 Aug 2024. Agentic RAG (Ravi Theja, LlamaIndex)
+  - RAG via top-k retrieval fails with
+    - summarization => need to read all chunks
+    - comparison: compare product X vs Y => need to split and re-combine
+    - structured analytics. e.g. most expensive employees => Text2SQL first
+    - multi-part questions. e.g. Tell me about speed of model X AND cost of model Y and recommend => need to split and re-combine
+  - RAG failures: It's single shot. No query planning. No tools. No correction. No memory.
+  - Agents that help in RAG
+    - Route to the right tool
+      - E.g. retrieve via vector top-k search or vector summary search or keyword search or combination?
+    - One-shot query planning
+      - E.g. Break query into multiple specific queries. RAG those. Then combine. #TRY - maybe in DocSearch
+    - Tool use
+      - E.g. Schema retrieval, Text2SQL, Calendar, Chat, APIs, Search, etc.
+  - Agent orchestration
+    - ReAct: An agent reasoning loop. Reason + Act. {Thought, Action, Action Input, Observation}\*.
+      - [Orchestrate tools with a prompt](https://docs.llamaindex.ai/en/stable/examples/agent/react_agent/)
+    - Multi-agent task solver: [Llama agents](https://github.com/run-llama/llama-agents)
+      - Instead of a single agent loop, use different agents. Also allows parallelization
+      - Allow services to register. (MS TaskWeaver stores tool descriptions in YAML)
+  - [LlamaHub Tools](https://llamahub.ai/?tab=tools) has ideas for agents
+- 07 Aug 2024. Notes on LLM Fine-Tuning
   - Rouge 2 and Bleu and such metrics are NOT good. Create you own benchmarks
   - Non-PEFT fine tuning needs 6X GPU RAM. Optimizer states, Gradient, Activations are the overhead. PEFT is about tuning a subset of parameters.
   - LORA adds additional weights without updating the model. It's a low rank matrix multiplication. You can change these adapters in runtime. Saves space. Fast to train
