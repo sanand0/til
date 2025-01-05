@@ -8,7 +8,7 @@ cp /c/Dropbox/notes/@til-things-i-learned.md ./til.md
 npx prettier@3.2 --write "*.md"
 
 # Generate locally
-deno run --allow-read --allow-write convert.js
+deno run --allow-read --allow-write --allow-env --allow-net convert.js
 
 # Commit and push
 git add .

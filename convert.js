@@ -7,9 +7,48 @@ const DATE_FORMAT = {
   year: "numeric",
 };
 
-const SITE_TITLE = "Things I Learned";
+const SITE_TITLE = "Anand S - Things I Learned";
 const SITE_SUBTITLE = "Weekly Notes and Discoveries";
 const SITE_BASE = "https://til.s-anand.net";
+const LLMFOUNDRY_TOKEN = Deno.env.get("LLMFOUNDRY_TOKEN");
+
+const tags = [
+  "agents",
+  "ai-art",
+  "ai-coding-tools",
+  "automation",
+  "best-practices",
+  "business",
+  "chatgpt",
+  "cloud",
+  "code-agents",
+  "dev",
+  "document-conversion",
+  "education",
+  "embeddings",
+  "features",
+  "future",
+  "github",
+  "gpu",
+  "hosting",
+  "html",
+  "huggingface",
+  "image-generation",
+  "investment",
+  "llm-ops",
+  "markdown",
+  "models",
+  "networking",
+  "optimization",
+  "pricing",
+  "prompt-engineering",
+  "python",
+  "search",
+  "server",
+  "tts",
+  "voice-cloning",
+  "web-dev",
+];
 
 const renderHeader = (title) => /* html */ `
 <header class="text-bg-warning py-5 mb-4">
@@ -37,6 +76,11 @@ const renderHtmlWrapper = (content, title) => /* html */ `<!DOCTYPE html>
 
 const renderContainer = (content) => /* html */ `
 <div class="container py-4" style="max-width: 40rem;">
+  <style scoped>
+    a:not([href^='http']) code {
+      color: var(--bs-danger);
+    }
+  </style>
   ${content}
 </div>`;
 
@@ -109,8 +153,18 @@ const renderNav = (prevWeek, nextWeek) => /* html */ `
     ${nextWeek ? `<a href="${nextWeek}.html">Next Week →</a>` : "<span></span>"}
   </nav>`;
 
-// Converts each bulleted point into markdown, removing the date prefix
-const noteToMarkdown = (note) => marked(note.content.replace(/^- \d{1,2} [A-Za-z]{3} \d{4}\.\s*/, "- ").trim());
+// Converts each bulleted point into markdown, removing the date prefix and adding tags
+const noteToMarkdown = (note, showDate) => {
+  const lines = note.content
+    .replace(/^- \d{1,2} [A-Za-z]{3} \d{4}\.\s*/, "- ")
+    .trim()
+    .split("\n");
+  // Add date to the first line if requested
+  if (showDate === true) lines[0] = `- **${note.date.toLocaleDateString("en-US", DATE_FORMAT)}**. ${lines[0].slice(2)}`;
+  // Add tags as Markdown to the end of the first line as [#tag](tag.html)
+  lines[0] += ` ${note.tags.map((tag) => `[\`#${tag}\`](${tag}.html)`).join(" ")}`;
+  return marked(lines.join("\n"));
+};
 
 /**
  * Generates HTML content for a week's notes
@@ -175,6 +229,23 @@ const generateIndexHTML = (weeks) => {
 };
 
 /**
+ * Generates HTML content for a tag page
+ * @param {string} tag - Tag name
+ * @param {Note[]} notes - Notes with this tag
+ * @returns {string} HTML content
+ */
+const generateTagHTML = (tag, notes) => {
+  const content = /* html */ `
+    ${renderHeader(`#${tag}`)}
+    ${renderContainer(/* html */ `
+      <div class="notes mb-4">${notes.map((note) => noteToMarkdown(note, true)).join("\n")}</div>
+      <nav class="text-center"><a href="index.html">← Home</a></nav>
+    `)}`;
+
+  return renderHtmlWrapper(content, `#${tag}`);
+};
+
+/**
  * Generates RSS feed content
  * @param {Map<string, Note[]>} weeklyNotes - Notes grouped by week
  * @returns {string} RSS XML content
@@ -221,6 +292,22 @@ const allNotes = paths
   .flatMap((content) => extractNotes(content))
   .filter((note) => note.date.toISOString() < currentWeekStart);
 
+// Get tags
+const { similarity } = await fetch("https://llmfoundry.straive.com/similarity", {
+  method: "POST",
+  headers: {
+    Authorization: `Bearer ${LLMFOUNDRY_TOKEN}`,
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify({ model: "text-embedding-3-small", docs: allNotes.map((note) => note.content), topics: tags }),
+}).then((res) => res.json());
+similarity.forEach((row, index) => {
+  allNotes[index].tags = row
+    .map((v, i) => [i, v])
+    .filter(([_, v]) => v > 0.3)
+    .map(([i]) => tags[i]);
+});
+
 // Group notes by week
 const weeklyNotes = groupByWeek(allNotes);
 const allWeeks = [...weeklyNotes.keys()].sort();
@@ -237,6 +324,21 @@ weeklyNotes.forEach((notes, weekEnd) => {
 // Generate index page
 const indexHtml = generateIndexHTML(allWeeks);
 Deno.writeTextFileSync("public/index.html", indexHtml);
+
+// Generate tag pages
+const notesByTag = new Map();
+allNotes.forEach((note) => {
+  note.tags.forEach((tag) => {
+    if (!notesByTag.has(tag)) notesByTag.set(tag, []);
+    notesByTag.get(tag).push(note);
+  });
+});
+
+notesByTag.forEach((notes, tag) => {
+  const sortedNotes = notes.sort((a, b) => b.date - a.date);
+  const html = generateTagHTML(tag, sortedNotes);
+  Deno.writeTextFileSync(`public/${tag}.html`, html);
+});
 
 // Generate RSS feed
 const rssContent = generateRSS(weeklyNotes);
