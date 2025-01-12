@@ -2,6 +2,19 @@
 
 ## Jan 2025
 
+- 10 Jan 2025. Wednesday comes from Wōdnesdæg - named after Odin (or Woden).
+- 07 Jan 2025. [Cloudflare tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-local-tunnel/) is like ngrok but more permanent. It's a bit more complex, too. But given CloudFlare's liberal free tier, it's a good, viable option for long-term local hosting.
+- 06 Jan 2025. John Wheeler: "We live on an island surrounded by a sea of ignorance. As our island of knowledge grows, so does the shore of our ignorance." A great way to understand how ignorance actually grows as you learn more.
+- 05 Jan 2025. There is little reason to use Redis. There are several clones like [Microsoft's Garnet](https://microsoft.github.io/garnet/) or [DragonFly](https://www.dragonflydb.io/) (only Linux) that are better. [Databases in 2024: A Year in Review
+  ](https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html)
+- 05 Jan 2025. Every few years, something comes along trying to replace relational databases and SQL, and gets absorbed. [YouTube](https://youtu.be/8Woy5I511L8)
+  - Key value stores. People soon realize they need more features, e.g. indices.
+  - MapReduce systems. Most MapReduce vendors put SQL on top of SQL. Then the Hadoop market crashed. (But HDFS, S3, distributed storage systems are a good idea)
+  - Document Databases. JSON. SQL absorbed that. SQLite 3.45+ supports even JSONB. DuckDB, of course, has JSON.
+  - Column Databases. Again, these introduced SQL.
+  - Graph Databases. SQL:2023 introduced graph queries via SQL/PGQ (Property Graph Queries). DuckPGQ beats Neo4J
+  - Array Databases. SQL:2023 adds SQL/MDA which allows for matrix operations. But specialized databases might make sense in this category.
+  - Vector Databases. Every DB is adding support for this.
 - 04 Jan 2025. Some management philosophies used to be successful but are no longer as effective. [ChatGPT](https://chatgpt.com/share/6778b5f9-f1e4-800c-a1f7-30dcdfdccdaa)
   - Command-and-control hierarchy
   - Taylorism: deep specialization

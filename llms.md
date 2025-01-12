@@ -1,9 +1,10 @@
 # LLM learnings
 
 - Hard prompts / Test cases + Stats
-  - Caesar cipher
+  - `Gr brx vshdn Fdhvdu flskhu?`
+  - [Nick Carlini's tests](https://nicholas.carlini.com/writing/2024/my-benchmark-for-large-language-models.html)
+    - Extend to include JavaScript
   - Evaluate based on multiple attempts
-  - Add test cases like Nick Carlini. Code generation in JavaScript
   - A data analysis example
   - Convert a tricky XML to JSON
   - Render code blocks inside a
@@ -27,6 +28,23 @@
 
 ## Jan 2025
 
+- 12 Jan 2025. [TTS Arena](https://huggingface.co/spaces/Pendrokar/TTS-Spaces-Arena) is a benchmark of text-to-speech models. [Kokoro-TTS](https://huggingface.co/spaces/hexgrad/Kokoro-TTS) is the current leader. It's just 82M, runs on Google Colab, and sounds slightly better than OpenAI TTS.
+- 12 Jan 2025. [chat.qwenlm.ai](https://chat.qwenlm.ai/) consolidates all of Qwen's models in one ChatGPT-like interface.
+- 11 Jan 2025. [Can LLMs write better code if you keep asking them to “write better code”?](https://minimaxir.com/2025/01/write-better-code/) A delightful exploration of how Claude 3.5 Sonnet keeps optimizing and adding features to improve code. My takeaway: repeatedly applying a prompt gives us interesting new directions to explore.
+- 08 Jan 2025. [smolagents](https://huggingface.co/blog/smolagents) is a new agents library from HuggingFace. It seems simple enough to use.
+- 08 Jan 2025. [whisper-flow](https://github.com/dimastatz/whisper-flow/) does real-time speech transcription!
+- 08 Jan 2025. [Switchboard-1](https://catalog.ldc.upenn.edu/LDC97S62) is a labelled audio corpus with ~260 hours of speech. It has ~2,400 calls among 500+ speakers in the US.
+- 07 Jan 2024. [Voyage AI Embeddings](https://docs.voyageai.com/docs/embeddings) have a [higher quality, similar price](https://blog.voyageai.com/2025/01/07/voyage-3-large/) compared to OpenAI embeddings. There's a clear benefit to replacing `text-embedding-3-large` with `voyage-3-lite`. There's a 200 MTok free tier currently.
+- 05 Jan 2025. [TheAgentCompany](https://github.com/TheAgentCompany/TheAgentCompany) is a benchmark of real-world [tasks](https://github.com/TheAgentCompany/TheAgentCompany/tree/main/workspaces/tasks) like:
+
+  - [Arranging a meeting room](https://github.com/TheAgentCompany/TheAgentCompany/blob/main/workspaces/tasks/admin-arrange-meeting-rooms/task.md)
+  - [Analyze a spreadsheet](https://github.com/TheAgentCompany/TheAgentCompany/blob/main/workspaces/tasks/ds-answer-spreadsheet-questions/task.md)
+  - [Add a Gitlab wiki page](https://github.com/TheAgentCompany/TheAgentCompany/blob/main/workspaces/tasks/sde-add-wiki-page/task.md)
+
+  It uses [OpenHands](https://github.com/All-Hands-AI/OpenHands) with these [instructions](https://github.com/TheAgentCompany/TheAgentCompany/blob/main/.openhands_instruction)
+
+- 05 Jan 2025. Salvatore Sanfilippo (antirez - Redis) finds DeepSeek v3 comparable with Claude 3.5 Sonnet. [YouTube](https://www.youtube.com/watch?v=_pLlet9Jrzc)
+  - He also passed a paper and his code to compare them. A useful prompt. [YouTube](https://youtube.com/clip/Ugkx3JUGaspeLA2U2U68zSRyB2rPJ-PnCUXR?si=xCoIu5bxaFntSymm)
 - 03 Jan 2025. [Assembly AI](https://www.assemblyai.com/) offers speech to text with diarization at 12c/hour. Good diarization, average transcription quality.
   In comparison, WhisperX (with GPU) was much slower, had slightly poorer diarization, and slightly better transcription.
   ```bash
@@ -41,9 +59,11 @@
   - [`ingest`](https://github.com/sammcj/ingest) - written in Go, only Mac/Linux binaries
 - 01 Jan 2025. LLM Code Execution Sandboxes that let you run code in a sandbox via an API:
   - [AgentRun](https://github.com/tjmlabs/AgentRun): open source, via Docker
-  - [e2b.dev](https://e2b.dev/). A day costs about $1 (on demand) and you get about $100 one time credits. Self-hosting is complex. [Discussion](https://www.reddit.com/r/LocalLLaMA/comments/1chsx7z/is_there_an_opensource_alternative_to_e2b_e2bdev/)
+  - [e2b.dev](https://e2b.dev/): A day costs about $1 (on demand) and you get about $100 one time credits. Self-hosting is complex. [Discussion](https://www.reddit.com/r/LocalLLaMA/comments/1chsx7z/is_there_an_opensource_alternative_to_e2b_e2bdev/)
+  - [nsjail](https://github.com/google/nsjail): by Google. Write your own API
 - 01 Jan 2025. LLM Observability tools:
-  - [LangFuse](https://langfuse.com/self-hosting) lets you build a self hosted LLM Proxy with API key distribution, logging, and SSO.
+  - [LiteLLM](https://docs.litellm.ai/) is an LLM Proxy with caching, logging, call hooks or plugins, rate limiting, virtual keys. SSO integration can be implemented.
+  - [LangFuse](https://langfuse.com/self-hosting) is an LLM Proxy with API key distribution, logging, and SSO. But lacks per-user usage limits and server-side caching.
   - [Helicone](https://www.helicone.ai/) does not support SSO
 - 01 Jan 2025. [GitHub Spark](https://githubnext.com/projects/github-spark) is a way to build micro-apps with LLMs. Like Claude Artifacts. It's currently in technical preview, though.
 
