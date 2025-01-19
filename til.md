@@ -2,6 +2,21 @@
 
 ## Jan 2025
 
+- 17 Jan 2025. Audio diaries are a thing. Monash University asks students to voice their learnings, share it with each other and have them give feedback. I wonder if ChatGPT diaries could become a thing, too, and LLM journalling starts helping with therapy.
+- 17 Jan 2025. Regulation shows things down at colleges and hospitals. For example, patient consent is required for surgeons to learn from their own surgery videos. Unregulated sectors are far more likely to innovate.
+- 17 Jan 2025. Doctors can only do so much. Air quality, where you live, etc can do more for the patient than medicines or the doctor. If doctors keep this in mind, they can be more effective.
+  - Extending that thought, _ANYONE_ who leverages assets through holistic thinking, becomes _FAR_ more effective.
+- 17 Jan 2025. "The curriculum tells teachers what to teach. The exams tell students what to learn." - Ronald Harden
+- 17 Jan 2025. "Stravaig" is a Scottish word. It means mindless wanderings.
+- 17 Jan 2025. "The real voyage of discovery consists of not a new voyage but having new eyes" - Proust
+- 17 Jan 2025. Possibility Thinking is "the willingness to see possibilities everywhere instead of limitations". It's an approach / mindset that can make things that seem hard possible. With LLMs, this is becoming increasingly realistic to me in many areas.
+- 14 Jan 2025. [How to export browser history from Brave to Edge](https://community.brave.com/t/how-to-export-braves-browsing-history-to-another-browser/114687)
+  - Go to `AppData Local > BraveSoftware > Brave-Browser > User Data > Default`
+  - Copy `History` and `History-journal` into `AppData Local > Google > Chrome > User Data > Default`
+  - On Edge, go to `edge://settings/profiles/importBrowsingData` and `Import data from Google Chrome` and import the history.
+- 14 Jan 2025. I switched back from Brave to Edge, mainly because Edge's native text-to-speech and speech recognition is far better. I can use it better on my mobile.
+- 12 Jan 2025. [GitHub CodeSpaces](https://github.com/features/codespaces) seems to be coming up more often in my radar, but I'm yet to figure out a use for it.
+- 11 Jan 2025. [Measuring developer productivity with the DX Core 4](https://getdx.com/research/measuring-developer-productivity-with-the-dx-core-4/) is a framework for measuring developer productivity. It encapsulates other frameworks like DORA, SPACE, and DevEx.
 - 10 Jan 2025. Wednesday comes from Wōdnesdæg - named after Odin (or Woden).
 - 07 Jan 2025. [Cloudflare tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-local-tunnel/) is like ngrok but more permanent. It's a bit more complex, too. But given CloudFlare's liberal free tier, it's a good, viable option for long-term local hosting.
 - 06 Jan 2025. John Wheeler: "We live on an island surrounded by a sea of ignorance. As our island of knowledge grows, so does the shore of our ignorance." A great way to understand how ignorance actually grows as you learn more.

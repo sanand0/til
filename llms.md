@@ -28,6 +28,20 @@
 
 ## Jan 2025
 
+- 19 Jan 2025. [DeepSeek does not enforce rate limits](https://api-docs.deepseek.com/quick_start/rate_limit). Yet another reason to switch to DeepSeek. (via [Simon Willison](https://simonwillison.net/2025/Jan/18/deepseek-api-docs-rate-limit/)). My other reasons are:
+  - Claude 3.5 Sonnet-level coding capability at 5% of the cost (soon to be 2.5%)
+  - Prompt caching by default
+  - [Fill in the middle](https://api-docs.deepseek.com/guides/fim_completion) completion
+- 17 Jan 2025. What will LLMs enable that do not or cannot exist today? Rather than optimizing what exists? Something to think about.
+- 16 Jan 2025. ModernBert supports embeddings and is better than text-embedding-3-small on [MTEB](https://huggingface.co/spaces/mteb/leaderboard).
+
+  ```python
+  from sentence_transformers import SentenceTransformer
+  model = SentenceTransformer("nomic-ai/modernbert-embed-base")
+  embedding = model.encode("Hello, world!", reference_compile=False)
+  ```
+
+- 13 Jan 2025. A colleague, Karthick, asked different models to apply the editing and formatting guidelines for a journal to a manuscript. (E.g. Abbreviate chapter & section numbers, except when a sentence begins with it. Use "1" instead of "one", etc. except when a sentence begins with it. Things like this.) Gemini Exp 1206 seems to be the most reliable, compared with most other models.
 - 12 Jan 2025. [TTS Arena](https://huggingface.co/spaces/Pendrokar/TTS-Spaces-Arena) is a benchmark of text-to-speech models. [Kokoro-TTS](https://huggingface.co/spaces/hexgrad/Kokoro-TTS) is the current leader. It's just 82M, runs on Google Colab, and sounds slightly better than OpenAI TTS.
 - 12 Jan 2025. [chat.qwenlm.ai](https://chat.qwenlm.ai/) consolidates all of Qwen's models in one ChatGPT-like interface.
 - 11 Jan 2025. [Can LLMs write better code if you keep asking them to “write better code”?](https://minimaxir.com/2025/01/write-better-code/) A delightful exploration of how Claude 3.5 Sonnet keeps optimizing and adding features to improve code. My takeaway: repeatedly applying a prompt gives us interesting new directions to explore.
