@@ -1,7 +1,26 @@
 # Things I learned
 
+## Feb 2025
+
+- 01 Feb 2025. You can add any content at the end of a PDF file. It's ignored. It's an interesting way to send additional information (or just blow up the file size if you don't like them.)
+- 01 Feb 2025. [JavaScript introduces a `Temporal` object](https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming/) that will replace the `Date` object.
+
 ## Jan 2025
 
+- 26 Jan 2025. The cost of a cream biscuit packat in India has fallen about 25 _times_, adjusted for inflation, between 1981 - 2024. How do I know this?
+  - [In 1981, a cream biscuit packet cost Rs 25](https://youtube.com/clip/UgkxCF90vppUV01qz0Wila-9meADPord26kc?si=3LLQ5fgRzwG_wUO-)
+  - [In 2025, it's available for Rs 21](https://www.amazon.in/Sunfeast-Dark-Fantasy-Bourbon-120g/dp/B0BSX9N69D/)
+  - [India Inflation Calculator](https://www.in2013dollars.com/india/inflation/1981?amount=25) - a rare inflation calculator with annual inflation rates baked in - shows that Rs 25 in 1981 is equivalent to Rs 540 in 2024. That's about 25 times more than the Rs 21 it costs today.
+- 26 Jan 2025. [A WebAssembly compiler that fits in a tweet](https://wasmgroundup.com/blog/wasm-compiler-in-a-tweet/) deconstructs a piece of JS that creates a tiny WebAssembly calculator. It's a great walk-through of JavaScript compression tricks and how WebAssembly works. [Simon Willison](https://simonwillison.net/2025/Jan/25/a-webassembly-compiler-that-fits-in-a-tweet/#atom-everything)
+- 26 Jan 2025. Brandon Sanderson has a [series of YouTube videos](https://www.youtube.com/watch?v=-6HOdHEeosc) where he teaches a course on magic systems.
+- 22 Jan 2025. Lessons from [Clear Thinking](https://www.goodreads.com/book/show/75665850-clear-thinking)
+  - Watch out for four things: Emotion, Ego, Social confirmation, and Inertia/habit. Basically: adrenaline, testosterone, oxytocin, and dopamine. When you feel these, consider doing the opposite.
+  - Here's what makes us prone to emotion. Sleep deprivation. Hunger. Unknown places. Fatigue. Distraction. Stress (e.g. feeling rushed).
+  - A good signal for ego is blinding you: You often feel you're right. Or feel unfairly treated.
+  - Changing behaviors is hard. Instead, join a group or environment where that's the default behavior. Hiring a trainer or joining a gym, for example.
+  - Why does so much of success literature focus inwards rather than on the environment? Perhaps because we often fool ourselves, and doing less of that gives the biggest bang for the buck. It doesn't mean the environment is unimportant.
+  - Doing work has the characteristics of a drug. E.g. replying emails gives you control, connections, etc. Work addiction exists because it gives you all the right chemicals.
+- There are companies whose business model is training developers for technical interviews! E.g. [Michael Novart](https://www.linkedin.com/in/michaelnovati/) runs Formation which does this.
 - 17 Jan 2025. Audio diaries are a thing. Monash University asks students to voice their learnings, share it with each other and have them give feedback. I wonder if ChatGPT diaries could become a thing, too, and LLM journalling starts helping with therapy.
 - 17 Jan 2025. Regulation shows things down at colleges and hospitals. For example, patient consent is required for surgeons to learn from their own surgery videos. Unregulated sectors are far more likely to innovate.
 - 17 Jan 2025. Doctors can only do so much. Air quality, where you live, etc can do more for the patient than medicines or the doctor. If doctors keep this in mind, they can be more effective.

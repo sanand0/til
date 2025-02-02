@@ -28,6 +28,24 @@
 
 ## Jan 2025
 
+- 26 Jan 2025. I was exploring new business models enabled by LLMs. [Here are some thoughts](https://chatgpt.com/share/6795b30f-35d4-800c-9863-285a852afe7b):
+  - **1. Autonomous Multi-Sided Marketplaces**. AI-powered platforms coordinate complex services with minimal human oversight—think “Uber for Everything,” but the platform sets pricing dynamically, schedules both supply and demand, and resolves disputes algorithmically.
+  - **2. Collective Intelligence Ecosystems**. Communities pool data, expertise, and AI models to tackle shared problems—like an open-source “GitHub for AI,” but with embedded micropayments or tokenized incentives to reward contributors whenever the models are used commercially.
+  - **3. Zero-Employee Companies**. Fully automated software entities—legal frameworks might allow an AI to manage services, pay taxes, and sign contracts. These “companies” only hire humans as needed, on-demand, for edge cases AI can’t handle.
+  - **4. Context-Aware Knowledge Platforms**. Imagine a Wikipedia that not only retrieves static info but also tailors each page in real time to the reader’s personal context, language level, and preferences—generating content on the fly. User feedback loops train the system to improve.
+  - **5. Data Cooperatives / Data DAOs**. Groups collectively own their data and license it to AI companies on a revenue-share basis. Individuals have a direct financial stake in how their shared data is leveraged, voting on permissible use cases.
+  - **6. Personalized Service Layers**. Similar to GitHub’s “forking” model, but for entire user experiences. Each user can clone and customize an AI service (whether it’s a personal grocery shopper or a content curator) and can share or monetize improvements with the broader network.
+- 23 Jan 2025. According to [Portkey's LLM usage analysis](https://docsend.com/view/wei3digde8cvmwsr)
+  - Anyscale and Fireworks AI have the lowest error rates (5xx, 429) and rate limits across providers
+  - Groq and Anthropic are among the highest, OpenAI is among the lowest, Google is in-between
+  - OpenAI has lower error rates and lower latency than Azure
+  - They have a ~35% cache hit rate
+- 23 Jan 2025. A few quick points supporting the mental model of "LLMs are aliens".
+  - LLMs are clearly not machines. They give different answers each time.
+  - LLMs _are_ like humans: they exhibit human biases (e.g. guessing 42 or 37 often). But they fail in unusual ways. They can't count the "r"s in strawberry. They can go into an endless loop.
+  - LLMs are a new form of intelligence. Thinking of them as aliens might minimize our confusions.
+- 20 Jan 2025. If you put LLMs in a feedback loop, it can optimize for its reward function by emotionally pushing people, generating misinformation, nudging towards a narrow definition of creativity, etc.: https://bsky.app/profile/emollick.bsky.social/post/3lg4darqwfc2d
+- 20 Jan 2025. ChatGPT's [Scheduled Tasks](https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt) are pretty bad at fetching the latest news. Its use of search is poor. (I'm not sure if it actually searches.) I need to figure out other use cases for it. Possible options are:
 - 19 Jan 2025. [DeepSeek does not enforce rate limits](https://api-docs.deepseek.com/quick_start/rate_limit). Yet another reason to switch to DeepSeek. (via [Simon Willison](https://simonwillison.net/2025/Jan/18/deepseek-api-docs-rate-limit/)). My other reasons are:
   - Claude 3.5 Sonnet-level coding capability at 5% of the cost (soon to be 2.5%)
   - Prompt caching by default
@@ -85,6 +103,7 @@
 
 - 28 Dec 2024. A clever idea. Give an LLM a chapter from a textbook. Ask it to generate a unique, playable game to help me learn theconcepts for an exam. [Page Bailey](https://www.linkedin.com/feed/update/urn:li:activity:7278124663048695809/)
 - 26 Dec 2024. WOW. This is how a software agent will work alongside humans: [Fix issue #5478: Add color to the line next to "Ran a XXX Command" based on return value](https://github.com/All-Hands-AI/OpenHands/pull/5483) - using [@openhands-agent](https://github.com/openhands-agent).
+- 26 Dec 2024. [aisuite](https://github.com/andrewyng/aisuite) by Andrew Ng is a unified interface to LLMs. Sort of like an `openai` library across multiple providers.
 - 26 Dec 2024. Learnings from [Best of 2024 in Agents (from #1 on SWE-Bench Full, Prof. Graham Neubig of OpenHands/AllHands)](https://youtu.be/B6PKVZq2qqo)
   - Passing code execution as a tool is more powerful than granular tools. You combine multiple tools and tool calls into one. You move code to the data rather than the other way around. Mostly, you need bash, Python (or Jupyter), file manager, web browser.
   - UI: Go where the user is, instead of bringing them to you.
@@ -259,6 +278,20 @@
   - 32 docs per call: 40s
 - 8 Dec 2024. Running embeddings without a GPU is _extremely_ slow. It takes ~2.4 seconds per string.
 - 7 Dec 2024. ChatGPT uses several unusual unicode characters for citations. [Ref](https://github.com/sanand0/openai-conversations/blob/main/private-unicode-control-characters.md)
+- 6 Dec 2024. The cost of intelligence is trending to zero. How do we plan for this? [Logan Kilpatrick](https://x.com/OfficialLoganK/status/1864508209769390238?t=OwjvTL6T55sh6VZGoMBtoQ)
+  - If you are not planning for the price of intelligence to go to zero, the next 3-5 years are going to incredibly disruptive to your business / life.
+  - The important but not stated caveat: consumer willingness to pay for AI is going to go up (a lot). It will be fascinating to watch consumer willingness, cost, and the amount of AI being used all move in different directions.
+  - Everyone building things with AI has an economic incentive to limit the amount of AI because of cost, which inherent limits the value prop. This will change as intelligence goes up and cost goes down.
+  - What this means is:
+    - **Admin automation**: Administrative tasks vanish into background AI. Booking meetings, managing finances, or even planning family activities will require less thought.
+    - **Hyper-personalization**: Individuals get tailor-made everything—from medical advice to product recommendations to daily schedules. Systems learn your quirks.
+    - **AI co-brains**: AI co-worker “assistants” support you at any moment. Productivity soars in knowledge work. “I’ll have my AI follow up” becomes a normal response.
+    - **Humanity valued more**: As AI handles rote tasks, humans move up the value chain, focusing on creativity, empathy, or the “last-mile” decisions.
+    - **New business models**:
+      - AI experts as a service
+      - Embedded AI Solutions
+      - AI micro-services for smart-calls
+      - Distributed AI
 - 6 Dec 2024. [Arena Hard](https://huggingface.co/spaces/lmarena-ai/arena-hard-browser) is a set of hard prompts to test LLMs. [Here is the code and evaluation](https://github.com/lmarena/arena-hard-auto)
 - 6 Dec 2024. LLMs can detect clear outliers easily. PROMPT: Which is the outlier in this dataset: (1,7), (2,7), (3,6), (4,6), (5,5), (6,1), (7,5), (8,3), (9,1), (10,1) (ANS: (6,1))
   - 🟢 GPT-4o on ChatGPT gets this. GPT-4o Mini on the API gets it too.
