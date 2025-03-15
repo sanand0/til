@@ -1,13 +1,468 @@
 # Things I learned
 
+## Mar 2025
+
+- 15 Mar 2025. [htmlq](https://github.com/mgdm/htmlq) and [pup](https://github.com/ericchiang/pup) query HTML. They're like `jq` for HTML.
+- 15 Mar 2025. Here are time-tested and robust ways to leverage serendipity: [ChatGPT](https://chatgpt.com/share/67d4df37-d30c-800c-bf25-e33f94dc53b0)
+  1. **Place**. Be in places with high, diverse, talent density. Bell Labs (1950s), MIT (1970s), Pixar (1990s).
+  2. **People**. Meet diverse, talented people. Da Vinci's Renaissance circles, Lockheed Martin's Skunk Works.
+  3. **Free time** for unstructured work. 3M's 15% rule, Google's 20% time, Edison's Invention Factory.
+  4. **Curiosity**. Learn unrelated fields. Darwin's earthworm research, Ben Franklin's ocean currents work.
+  5. **Serendipity**. Systematically add randomness. Brian Eno's Oblique Strategies, IDEO's Deep Dives.
+  6. **Reframe failure** as opportunities. Penicillin, Velcro, Post-it Notes.
+  7. **Ceremonies**. Hackathons, lightning talks, coffee trials.
+- 15 Mar 2025. What makes client-side computing on the browser powerful is
+  - There's nothing to install
+  - Private by default: data stays with client
+  - Speed: no latency
+- 15 Mar 2025. [SemGrep](https://semgrep.dev/) is a lot less open source than it used to be. [ChatGPT](https://chatgpt.com/share/67d525e5-eea0-800c-a382-4aa5a19b609d). That's a pity. It was a good tool.
+- 15 Mar 2025. Site builders and headless CMSs are gently eating into the dominant market share of open source CMSs (via [PretaGov](https://www.youtube.com/live/dXhHtsW8qjo?si=WiEuwrxiyoaQ3D2Y&t=2460)).
+  - WordPress is pretty much the dominant CMS in the world, followed by Drupal.
+  - WordPress is now VC backed and is not growing, so they seem to be attacking their own community.
+  - Umbraco CMS is the only open source CMS that's growing. Maybe because it's the only .NET one
+  - Craft CMS is the only proprietary CMS that's growing.
+  - Site builders are growing as a category. SquareSpace is the leading one.
+  - Headless CMS is growing too. Statamic. Next.js. Nuxt.js, Contentful, Prismic, Storyblok, Gatsby, etc.
+- 15 Mar 2025. Here's a [sample CI/CD pipeline with automated code review](https://gitlab.com/kitarp29/buaji/-/jobs/8416107396).
+  - [Here is the script that generated it](https://gitlab.com/kitarp29/buaji/-/blob/e9211bd619bd238f4b32c4a3509b78c199937f8d/.gitlab-ci.yml#L84-113).
+  - Note the use of [NVIDIA's GPU Docker containers](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/) via `nvcr.io`
+- 15 Mar 2025. Things I lLearnings on robotics.
+  - [SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100) is an open-source 3D printable robot arm. Takes ~20 hours to print, ~1 hour to assemble. Costs ~$120.
+  - [LeKiwi](https://github.com/SIGRobotics-UIUC/LeKiwi) is a mobile version of this arm
+  - [LeRobot](https://github.com/huggingface/lerobot) is a set of HuggingFace models and datasets. The idea is, you can use one "control" robot to control the other. Do stuff manually, teach it ~50 times, and it learns how to do what you're do.
+  - [Pi0](https://huggingface.co/blog/pi0) is an LLM equivalent for robotics that predicts actions. HuggingFace ported that to LeRobot
+  - Most real robotics work is on SIMILATED "gym" environments, not costly/slow physical environments.[PushT](https://github.com/huggingface/gym-pusht) is a simple 2D version. [ALOHA](https://github.com/huggingface/gym-aloha) is a 3D one.
+  - [ROS](https://www.ros.org/) is a nightmare to install and run - on Windows _and_ Mac.
+  - [Robotics Academy](https://jderobot.github.io/RoboticsAcademy/) is an open collection of easier ROS exercises.
+  - [PSLab - Pocket Science Lab](https://pslab.io/) is a sensor kit for the phone / PC. Costs ~$100 but isn't available anywhere. Getting it to work requires too much mucking around with USB drivers and it just doesn't work. (BBC [micro:bit](https://microbit.org/) may be more promising.)
+  - Getting stuff done with electronics is still _really_ hard unless it's well designed.
+  - It's FASCINATING that robots can have arbitrary joints. Our intuitions (or even biomimicry) on how to move and do stuff is a POOR intuitive guide for how robots should act.
+- 15 Mar 2025. MathML Core is a language _and_ layout specification, distinct from MathML 2/3. It's not fully compatible with JATS XML.
+  - [`latexmlmath`](https://tmke8.github.io/math-core/) converts TeX to MathML.
+  - `m|math { font-family: "Noto Sans Math", "Noto Sans" }` is a popular OpenType Math font. Browsers default to native fonts: e.g. Cambria Math on windows. Explore at <https://fred-wang.github.io/MathFonts/>.
+  - The people working on this at arXiv are: Deyan Ginev, Fred Wang, and [Norbert Preining](mailto:norbert@arxiv.org). Their work is sponsored by NSF.
+- 15 Mar 2025. There's a [PDF UA2](https://pdfa.org/iso-14289-2-pdfua-2/) standard for accessibility but there aren't enough tools to generate it.
+- 15 Mar 2025. LibreOffice is now on WASM. [ZetaJS](https://www.npmjs.com/package/zetajs) provides office in the browser. Has a CDN (that was down from our IP). 35M packaged binary. 100M of in-memory file-system loaded.
+  - Useful for: Document conversion, Thumbnail generation, Text extraction, Merging / splitting documents
+- 15 Mar 2025. The [Poincare Conjecture](https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture) says that any finite 3D blob with has no holes can be deformed into a sphere. It took until 2003 to prove it because we didn't have the tools to manipulate 3D shapes.
+- 14 Mar 2025. [Twine](https://twinery.org/) ([docs](https://twinery.org/reference/en/index.html)) is an open source interactive fiction / story writing tool.
+  - [Snowman](https://videlais.github.io/snowman/) is a browser-based Twine 2 story template format.
+  - These enable behavioural experimentation. Cheaper than using tools like [Gorilla.sc](https://gorilla.sc/) and [Pavlovia](https://pavlovia.org/) for behavioral experiments
+  - For example, you can present a social or political issue and see if people change their opinions more or less depending on the content/path they see. Or, if it varies by demographics. Or, check if repeated mentions or emotional hooks improve memory / retention. [More research ideas](https://chatgpt.com/share/67d3fe6f-aff4-800c-bb02-2cb72d8f6e16)
+- 14 Mar 2025. Techniques to reduce Docker image sizes:
+  - Native Linux `mount` supports overlaying directories! Lower layer is read-only. Edits (including deletions) affect upper layer only. Docker uses this. `docker image inspect` shows layers.
+  - Always run `RUN apt-get update && apt-get [packages]` rather than in separate lines. Else `RUN apt-get update` gets cached with OLD update cache.
+  - Defer `COPY` till as late as possible, and COPY _minimally_ - since it typically invalidates the cache.
+  - Skip development dependencies and temporary caches.
+  - Docker Dive via `dive [IMAGE]` analyzes image details and shows the file system in each layer.
+  - Use multi-stage builds. A: Create an image using `FROM some-image AS builder` and do what you want. Then, after that, B: `FROM scratch` (or `FROM node:22-slim`) use `COPY --from=builder what-you-want`.
+  - Use [distroless images](https://github.com/GoogleContainerTools/distroless) from GCR. It doesn't have shells, package managers, etc. Fewer vulnerabilities.
+- 14 Mar 2025. [Playwright](https://playwright.dev/) seems to be the emerging standard for modern browser testing/automation, beating [Cypress](https://www.cypress.io/) and [Selenium](https://www.selenium.dev/).
+- 14 Mar 2025. "Openwashing" is a term where something is termed open source but is not.
+- 14 Mar 2025. To publish images long-term
+  - [GitHub](https://github.com/) is an option. Likely to last long-term. Clone-able.
+  - [Archive.org](https://archive.org/) is a good too but may suffer from bandwidth constraints.
+  - [Imgur](https://imgur.com/) remains popular but it's unclear if it will remain unrestricted.
+  - [Flickr](https://flickr.com/) has had a flaky history with limits and commercialization.
+  - [WikiMedia Commons](https://commons.wikimedia.org/wiki/Special:UploadWizard) deletes personal uploads by first-time contributors. Only files _clearly_ useful for a large audience are retained.
+- 13 Mar 2025. [Marp](https://marp.app/) is my new favorite way to generate slides from Markdown. Reveal.js is not easy with Markdown (though HTML works well.)
+  - The [VS Code plugin](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) makes development very easy
+  - [Marp CLI](https://github.com/marp-team/marp-cli/) makes deployment easy.
+  - I used it for my talk on [LLM Hallucinations](https://sanand0.github.io/llmhallucinations/) ([source](https://github.com/sanand0/llmhallucinations/)).
+  - Supports all [bespoke](https://github.com/bespokejs/bespoke) features and [plugins](https://www.npmjs.com/search?q=keywords:bespoke-plugin)
+  - [Transitions](https://github.com/marp-team/marp-cli/blob/main/docs/bespoke-transitions/README.md). Requires OS animation effects to be enabled
+  - [Animated SVG backgrounds](https://www.svgator.com/blog/animated-svg-backgrounds-examples/) are a good add-on.
+- 11 Mar 2025. Bots need structured content (e.g. Markdown, XML). Humans need rich content (e.g. HTML). Here are 4 ways to serve both, roughly in increasing order of sophistication:
+  1. **Different URLs**. E.g. https://example.org/about/ vs https://example.org/about.md (this is how Jekyll or Hugo work). Use for static sites generators.
+  2. **JavaScript**. Inject after Markdown: `<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script><script>document.body.innerHTML = marked(document.body.textContent);</script>`. Use for dynamically generated static sites.
+  3. **URL query parameters**. E.g. `?format=markdown` vs `?format=html` vs `?format=json`. Use in APIs.
+  4. **Content Negotiation**. Based on the user agent and `Accept` header, serve Markdown or HTML. Send `Vary: Accept` to indicate that the response depends on the `Accept` header. Use for dynamic web apps.
+- 11 Mar 2025. Notes from The Knowledge Project: [Josh Wolfe: Human Advantage in the World of AI](https://fs.blog/knowledge-project-podcast/josh-wolfe-2/)
+  - Agent optimization might become as popular as search engine optimization in the future.
+  - APIs are likely to be replaced by just chat requests that will do the same thing.
+  - APIs might be replaced by RPA, where somebody uses a chatbot to do the equivalence instead.
+  - Today, blue-collar workers may be more protected from AI than white-collar workers. Robots still can't serve a meal well enough and aren't progressing as fast as AI yet.
+  - There's a lot of tacit knowledge in craftsmanship that will take a long time for machines to replace.
+  - Margins are fleeting. The only time you have large sustainable margins is when you truly have a monopoly.
+  - Cost is going down so quickly right now that all you have to do is wait, and stuff will become available for a very affordable or even a free price.
+  - The moat is really in the data. The models are not an advantage. Engineering and services on top of that are marginal.
+  - Machines will be doing science 24/7. All of the science data that we have will probably be the biggest leverage for humanity.
+  - The discovery of penicillin, Viagra, and rubber were all serendipitous. Machines should run with a little bit of randomness to benefit from this.
+  - Tesla might have gotten away with accounting fraud on warranty claims. But short sellers are likely to be after Elon Musk.
+  - With LLMs, the value of our social network has gone up considerably. Remember: The reason we believe things is not because we have thought through and analyzed them. It's because the people around us believe in those things.
+  - It is now practical for a person to live on forever by sharing all their thoughts into an LLM. Kids can have a "Dad AI".
+  - One good use of meeting recordings is to see where there are biases in the conversations and where the engagement is not high enough or how there are unproductive power balances.
+  - A great virtue of college is that it allows you to break free from your previous personality. For those four years, nobody knows who you are or cares what you wear. And you can be or grow into a very different person. The more content we put in into AI or social media, the harder it is to change ourselves.
+- 08 Mar 2025. In Jan 2025, ChatGPT included images as part of their data chat export. They also have a 30 second limit for the export. As an extensive user, my export is about 1GB which takes well over 30 seconds to download. [Like many others](https://community.openai.com/t/chatgpt-data-export-too-big-feature-in-the-options/1080111) the export option pretty much doesn't work for me any more.
+- 08 Mar 2025. Bharathi said மெல்லத் தமிழினிச் சாகும் in a poem that has been often quoted (and parodied). [Here's the context](https://www.tumblr.com/kuvikam/105265085187/%E0%AE%AA-%E0%AE%B0%E0%AE%A4-%E0%AE%9A-%E0%AE%A9-%E0%AE%A9-%E0%AE%B0-%E0%AE%AE-%E0%AE%B2-%E0%AE%B2%E0%AE%A4-%E0%AE%A4%E0%AE%AE-%E0%AE%B4-%E0%AE%A9-%E0%AE%9A-%E0%AE%9A-%E0%AE%95-%E0%AE%AE-%E0%AE%8E%E0%AE%A9-%E0%AE%B1).
+- 08 Mar 2025. The [Zettelkasten note-taking method](https://www.goodnotes.com/blog/zettelkasten-method) proposes that you:
+  - Capture: Write down every idea or piece of information on a separate note. Use your own words to ensure understanding.
+  - Organize: Consolidate fleeting notes into permanent ones. Assign unique identifiers to each note for easy reference.
+  - Connect: Link related notes to form a web of knowledge. This can be done with tags, references, or hyperlinks in digital systems.
+  - Review: Regularly revisit your notes to strengthen connections and discover new insights.
+- 07 Mar 2025. Ancient languages tend to have fewer words for hues than brightness, since they didn't need them. So "Krishna was blue" or "the sea is wine-dark" is more an indication of darkness than shade of color. [Ajit Narayanan](https://www.quora.com/Why-is-Krishnas-complexion-depicted-as-blue-when-he-is-actually-black/answer/Ajit-Narayanan-1)
+- 06 Mar 2025. From [How I Write with Tyler Cowen](https://youtu.be/H1ztOoADp7M)
+  - Keep researching. Use LLMs as an altemative to books and other reading material. Keep publishing what you learn regularly.
+  - While reading a chapter, keep asking the LLM. What did you think of that? What just happened there? What should I focus more on? What's puzzling about this? How do I connect this to something else later or earlier in the book?
+  - LLM is better used to support you rather than replace you in areas of your expertise. Where you are an expert it's best for you to be yourself and have AI fill in the gaps.
+  - Ask the AI: "What is in my writing that some people might find obnoxious? Or cold / heartless? Explain it to me in great detail."
+  - The first input is context setting and should be really long. Use voice dictation for that instead of typing.
+  - Send your blog post to an LLM. No need to explain it. Just let it be the reader and see what it understands and doesn't understand.
+  - His PhD students don't have a textbook, which saves them some money. But they are required to subscribe to a large language model which ends up costing less.
+  - Today, it makes sense to use the best models and pay $200 for it if required. The differences are large. But in some years in the future, the cost of these models may come down for the free versions.
+  - Humans know secrets. AI does not. So at least in some areas, humans will have an advantage.
+  - Secrets full matter a lot more in the future. Gossip will matter a lot more. How good are you at keeping and trading secret? Travelling and meeting people will become more important. So will the value of social networks.
+  - Since everyone has access to better intelligence, the value of mobilization or being able to _do_ things with people will have higher value. Leadership is an example. The value of your network therefore has gone up a lot.
+  - There's more value in prompting one thing 10 times then 10 things one time. Follow up questions work better than long prompts.
+  - There are so many AI note-takers (and transcribers) these days that you are not just writing for an AI but speaking for AIs as well!
+  - Which model to use:
+    - O1 Pro is the best model. Claude does a decent job. DeepSeek is full of hallucinations but is interesting. It is more imaginative.
+    - Use O3 mini to write your prompt first, and _then_ ask the model
+    - Use DeepSeek and other somewhat wacky high-end models once a day so that you stay in touch with what is models are capable of (beyond the conventional.)
+    - Perplexity has entirely replaced Google for many people.
+    - Anthropic's models are the best writers.
+    - Gemini is good for long documents and hence for things like legal work. Gemini also has excellent YouTube integration and hands can directly read the transcripts.
+    - Grok is very good at fact checking tweets.
+  - Converting data into LLM consumable forms will be a huge project. Lot of a knowledge is not in such a form and a huge human project will involve this conversion.
+- 06 Mar 2025. Indians do not need a visa to enter Thailand. [Ref](https://www.thaievisa.go.th/)
+- 04 Mar 2025. Tools and solutions should fit within existing workflows. That means almost all capabilities need to be exposed as APIs.
+- 03 Mar 2025. Most browsers are moving away from third-party cookies. Here's [Google's recommendation on alternatives](https://developers.google.com/privacy-sandbox/cookies). The simplest of these is [CHIPS](https://developers.google.com/privacy-sandbox/cookies/chips), which requires adding a `Partitioned` cookie attribute.
+- 02 Mar 2025. [YayText](https://yaytext.com/) converts text to Unicode that has strikethrough, bold, italics, alternate fonts, and other interesting features. So does
+  [Unitextify](https://unitextify.com/),
+  [ConvertCase](https://convertcase.net/unicode-text-converter/), and
+  [LingoJam](https://lingojam.com/BoldTextGenerator).
+- 02 Mar 2025. [10 red flags I look for as an angel investor](https://www.linkedin.com/posts/jnpayne_10-red-flags-i-look-for-as-an-angel-investor-activity-7298357529967771649-IqdO) is an interesting read.
+  1. **No real customers**: A deck, a landing page, and a “vision” don’t impress me. Show me paying customers. Even better, show me customers coming back.
+  2. **No path to profitability**: I don’t care if you raise $100M—if there’s no plan to make money, you’re just burning oxygen. Growth is great, but cash flow keeps you alive.
+  3. **Founders who won’t sell**: If you’re scared to get on sales calls, that’s a red flag. The best founders sell in the early days—whether it’s to customers, employees, or investors.
+  4. **No differentiation**: “Like X, but cheaper” isn’t a strategy. If your only edge is price, you’ll get crushed. What do you have that no one else does?
+  5. **No urgency**: The best founders operate like time is running out. If you’re “exploring ideas” or “thinking about raising next year,” you’ve already lost.
+  6. **Raising money before proving anything**: Too many founders try to fundraise their way out of bad ideas. If you need VC to get off the ground, you’re building the wrong business.
+  7. **No clear distribution strategy**: Product alone doesn’t win. First-time founders obsess over features. Second-time founders obsess over distribution. How are you getting customers?
+  8. **No ownership mentality**: If I hear “I need to hire someone to do that” too early, I’m out. Founders who win figure things out before they delegate.
+  9. **A CEO who can’t attract talent**: Your first hires are everything. If great people aren’t willing to join, either the vision is weak—or you are.
+  10. **No skin in the game**: If a founder won’t invest their own money or take a pay cut to make it work, why should I?
+- 02 Mar 2025. By contrast, this [OpenAI Deep Research report](https://chatgpt.com/share/67c3e38c-e514-800c-8cfc-983bd4fdeb21) feels a lot less actionable.
+
 ## Feb 2025
 
+- 28 Feb 2025. [Proxmox Virtual Environment](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) is an open-source alternative to VMWare, Hyper-V, Citrix XenServer, etc. (There's nothing there that prompts me to explore it further.)
+- 28 Feb 2025. With Podman on Windows (a Docker equivalent), many Docker-enabled tasks become easier. For example, running PostgreSQL is as easy as:
+  ```sh
+  podman run -d --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 postgres:latest
+  podman exec -it postgres psql -U postgres -c "CREATE DATABASE mydb;"
+  ```
+- 23 Feb 2025. OpenAI shares an insights report with clients that has insights on what different professions search for. What doctors search for is:
+  1. Is my diagnosis right?
+  2. How do I read this report?
+  3. Is my prescription correct?
+  4. Is there a cheaper medicine?
+  5. What's the life expectancy given these symptoms?
+- 23 Feb 2025. Dataclasses in Python have a slight overhead over named tuples. The 2 main uses I see for them are: providing defaults and offering type hints.
+- 23 Feb 2025. UVB 76 is a radio channel has been broadcasting static (with occasional Russian conversation) since 1976. No one knows why. It's live at <https://m.youtube.com/watch?v=8h_D2P0iqMk>
+- 23 Feb 2025. Romans washed clothes in urine. The government taxed the purchase of urine for commercial purposes! That's the origin of the phrase "Pecunia non olet" which means "money doesn't stink".
+- 23 Feb 2025. [Nix](https://nixos.org/) is a package manager that creates container-like environments. Like a cross between Docker and `apt` / `venv`. It has an immutable file system. [DevBox](https://www.jetify.com/devbox) is a higher-level tool built on top of Nix that streamlines developer workflows, e.g. common project environment setup.
+- 23 Feb 2025. VS Code can be used to develop inside a Docker container via Podman, too. Set `dev.containers.dockerPath": "podman"` [Ref](https://geekingoutpodcast.substack.com/p/running-dev-containers-locally-with)
+- 23 Feb 2025. [Rill Data](https://www.rilldata.com/) is an interesting BI tool based on DuckDB. It auto-generates a dashboard given a dataset.
+- 23 Feb 2025. It's possible to assign "variables" in SQL (notably in DuckDB). Here's an example:
+  ```sql
+  WITH
+    sessions AS (FROM events SELECT COUNT(DISTINCT session_id) AS value),
+    pages AS (FROM events SELECT COUNT(*) AS value)
+  FROM sessions, pages
+  SELECT sessions.value / pages.value AS pages_per_session;
+  ```
+- 23 Feb 2025. DuckDB has a `GROUP BY *` that groups by all categorical columns. `SELECT x, y, COUNT(*) FROM t GROUP BY *` is equivalent to `SELECT x, y, COUNT(*) FROM t GROUP BY x, y`.
+- 23 Feb 2025. VS Code can be used as a code executor by adding `{"key": "shift+enter", "command": "workbench.action.terminal.runSelectedText", "when": "editorFocus"}` to the `keybindings.json` file. Press Shift-Enter to run the selection on the terminal. Useful for DuckDB, SQLite, etc. [Ref](https://motherduck.com/blog/duckdb-tutorial-for-beginners/)
+- 22 Feb 2025. Remote Desktop may be the easiest way to have a Windows machine access files / screen from another Windows machine, even for home PCs.
+- 22 Feb 2025. [Caddy](https://caddyserver.com/) sets up reverse proxies that get _automatic SSL certificates_ from [Let's Encrypt](https://letsencrypt.org/)!
+- 22 Feb 2025. The [Nomic Embed v2](https://www.nomic.ai/blog/posts/nomic-embed-text-v1) blog post has an excellent visualization for embedding quality. It takes all Wikipedia disambiguation articles and shows them on a Nomic Atlas, embedded via Nomic Embed v2. It lets you toggle to OpenAI text-ada-002 which moves the topics far away. Visually, this is very convincing.
+- 22 Feb 2025. Python 3.15 will enable UTF-8 mode by default. [PEP 686](https://peps.python.org/pep-0686/)
+- 22 Feb 2025. Python 3.13 supports sub-interpreters to bypass the GIL. It's _quite_ like web workers. [PEP 554](https://peps.python.org/pep-0554/)
+- 22 Feb 2025. The quickest way to change the `fish` prompt is `function fish_prompt; echo '> '; end`
+- 20 Feb 2025. Mermaid has an [Architecture Diagrams Syntax](https://mermaid.js.org/syntax/architecture.html) (in beta) that's capable of creating elegant architecture diagrams with icons.
+- 20 Feb 2025. [Blind](https://www.teamblind.com/) is an app that allows users to post anonymously. It's particularly useful to find honest negative feedback about (mostly US) companies.
+- 20 Feb 2025. [Iconify.design](https://iconify.design/) is a single npm interface to most open source icon sets. It includes FontAwesome, Bootstrap, Material Design, and many others. [icones.js.org](https://icones.js.org/) is an alternate interface.
+- 20 Feb 2025. Self-pity may have evolved as a signal for social support and reducing conflict, while also encouraging self-reflection and behavioral adjustment. But in modern contexts it may be maladaptive and lead to depression. [ChatGPT](https://chatgpt.com/share/67b74759-4cdc-800c-8250-2d1757c5e85c)
+- 19 Feb 2025. There's a [YCombinator Founder Directory](https://www.ycombinator.com/companies/founders) listing all founders of YC companies. At the moment, there are 8,628 founders. There's also a [co-founder matching tool](https://www.startupschool.org/).
+- 18 Feb 2025. US companies typically pay employees every 2 weeks not every month.
+- 18 Feb 2025. What's good about Snowflake? A few developers who explored it mentioned that:
+  - Its ability to scale up compute automatically makes queries run faster.
+  - "Time travel" allows you to see how data looked at any point in time and that is impressive and useful.
+  - Live data sharing with access control without the need for ETL pipelines is useful.
+  - Open-source competition: ClickHouse, Apache Druid, and Presto/Trino
+  - DataBricks is a lakehouse and less a data warehouse. It's more about:
+    - storing unstructured data (Snowflake prefers semi-structured: JSON, Avro, etc.)
+    - running collaborative notebooks in Python, SQL, Scala, R (Snowflake encourages SQL)
+- 17 Feb 2025. I learnt what a [Memoji](https://www.youtube.com/watch?v=j2iMZaDclJg) is for the first time. An avatar that follows your facial expressions. Cool!
+- 16 Feb 2025. Google shows US flight timings from [FlightView](https://flightview.com). Emperically, based on one data point (my UA-2168 which was delayed by 4 hours), it gets updates faster than [Flight Radar 24](https://www.flightradar24.com/) or [FlightAware](https://www.flightaware.com/) or [FlightStats](https://www.flightstats.com/).
+- 16 Feb 2025. When comparing Indian graduates with their western counterparts, the Indian ones are often seen as:
+  - 🟢 Theoretically sound
+  - 🟢 Analytical & technical
+  - 🟢 Academically disciplined
+  - 🟢 Resilient under pressure
+  - 🟢 Committed continuous learners
+  - 🔴 Rote-learning oriented
+  - 🔴 Limited independent inquiry
+  - 🔴 Limited creative innovation
+  - 🔴 Restricted practical exposure
+  - 🔴 Poor communicators
+  - 🔴 Low leadership / initiative
+  - 🔴 Need structured guidance
+  - 🔴 Struggle to network
+- 14 Feb 2025. [Connected Papers](https://www.connectedpapers.com/) shows papers similar to each other based on co-citation and bibliographic coupling for ~50,000 papers.
+- 14 Feb 2025. Notes from a fireside chat with [Prashanth Chandrasekar](https://www.linkedin.com/in/pchandrasekar/), CEO, StackOverflow, and the StackOverflow team
+  - There's a signal that software demand is growing in 2024. Many more students took the StackOverflow survey in 2024. So more students (or other professionals) are shifting into / starting to learn software development.
+  - The [AI Index](https://aiindex.stanford.edu/report/) is a good resource for AI trends.
+  - Experts are better able to use AI for writing code. Less experienced developers are more likely to use AI for code reviews, project planning, etc.
+  - There's a 5% _decline_ in favorability for AI tools compared to 2023, maybe due to disappointing results.
+  - Pilot groups working on AI are 25-30% more productive. They're the most enthusiastic. For the rest of the company, it drops off to 5-10%
+    - #LEARNING Benefit comes from NEW people becoming programmers, not existing ones getting more effective?
+  - StackOverflow wants to be where the developer is.
+    - The programmer workflow was: Google -> StackOverflow -> GitHub.
+    - Now it's changing to ChatGPT / Cursor -> GitHub.
+    - StackOverflow has a partnership with OpenAI and working on a plugin. Same with Google's Duet AI, GitHub Copilot, many others. They'll link to StackOverflow.
+  - StackOverflow is driving integration actively through an enterprise Overflow API
+  - Q: What tech have you seen blaze through the ranks?
+    - Prashanth: Abstraction wins. Stuff that abstracts away things well and more wins. This includes Gen AI.
+    - [Erin Yepis](https://stackoverflow.blog/author/eyepis/): Rust (from 3% to 12%). AWS has steady growth.
+    - Erin Yapis: I have a time series spreadsheet that I'll publish.
+  - Q: What technologies are unusually tightly coupled?
+    - Prashanth: AWS & Google Cloud are tightly coupled.
+  - Q: We have an engagement problem. Might be India-specific. What are low-effort high-return mechanisms to increase engagement.
+    - [Eric Woodring](https://www.linkedin.com/in/eric-woodring-1823bb84/): Rather than a static web page, integrate it using the API. #TODO
+    - [Ben Marconi](https://www.linkedin.com/in/benjaminmarconi/): Use LLMs to write post mortems and push to StackOverflow. #TODO
+    - Eric Woodring: "Hydrating" the community helps.
+      - We take repeat questions on Teams / Slack and seed them using LLMs.
+      - We integrate with the API to auto-add Q&A.
+      - Transform documentation into Q&A. Potentially **UPDATE** existing Q&A if it's wrong.
+  - Q: What unexpected lessons about developer behavior have you learned while running StackOverflow?
+    - Prashanth: We didn't expect developers moving away from Google. Now it moved to the IDE.
+  - Q: What are you learning about developer learning behavior?
+    - Ben Marconi: Generating LLM-based onboarding documents.
+    - Using StackOverflow for Teams to identify who the experts are to contact for specific topics.
+  - Q: Are you thinking about leveraging Stack Overflow's knowledge base for personalized or interactive learning experiences? How?
+    - Prashanth: Traditionally, people use StackOveflow for productivity, learning, and flexibility (i.e. to ask/answer questions asynchronously without breaking their flow). So yeah, learning is important for us. (Duh!)
+  - Q: Could Stack Overflow’s interactions help evaluate the accuracy and relevance of LLM-generated code? Or provide potential metrics on quality?
+    - Prashanth: LLM accuracy improves by ~30%. Upvotes / downvotes are reinforcement learning (RL) in steroids, so that helps.
+  - Q: What are your thoughts on reliance on LLMs potentially deskill-ing developers?
+    - Prashanth: A real issue for _junior_ developers, not for senior ones.
+    - They'll _come across_ as knowledgeable.
+    - Make internal evaluations and interviews more rigorous.
+  - Anand's requests for action:
+    - Could I get a copy of Erin's spreadsheet? Vivek Narayanan will follow-up.
+    - Could you help me learn more about hydration? Nick Madison will set up a meeting with customer success group.
+- 13 Feb 2025. I switched to [fish shell](https://fishshell.com/) mainly because:
+  - Autocomplete and tab completion works perfectly, out-of-box.
+  - Syntax highlighting is beautiful
+  - Great multi-line editing
+- 13 Feb 2025. To format with [VS Code Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff), you need to point the `ruff.interpreter` setting to a Python interpreter. You can't run the ruff server without Python, even though ruff itself doesn't need Python.
+- 13 Feb 2025. `cd` checks all paths specified in [`CDPATH`](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/cd.html) for the directory name and changes to the first match. That's pretty convenient!
+- 10 Feb 2025. [Flipper Zero](https://flipperzero.one/) is now on my list of "To Buy" tools. It has a variety of hardware devices including NFC, RFID, Bluetooth, Infrared, etc. and is great to reverse engineer or hack devices.
+- 05 Feb 2025. Lessons from discussions at IIT Madras:
+  - Even in recorded video tutorials, asking students a question and pausing to give them time to think can be effective.
+  - When you put students in front of real clients, engagement increases dramatically.
+  - Most teaching assistants would like to help diligent students among the bottom half (more than the top decile of students).
+  - However, there is a fraction of poor performers who do not care, and are best ignored. Their engagement and effort is a good measure of their interest.
+  - Defining a minimal set of principles that we want to teach helps us measure if we've helped the bottom half at least meet those objectives.
+  - Teaching is hard. Even after explanations, students, even ENGAGED students, tend to make basic mistakes
+- 02 Feb 2025. The data catalog space is led by proprietary solutions:
+
+  - [Alation Data Catalog](https://www.alation.com/data-catalog/): Market leader; growing steadily in enterprise use
+  - [Collibra Data Catalog](https://www.collibra.com/data-catalog): Widely adopted with steady growth
+  - [AWS Glue Data Catalog](https://aws.amazon.com/glue/features/data-catalog/): Growing rapidly as AWS expands its data services
+  - [Informatica Enterprise Data Catalog](https://www.informatica.com/products/data-catalog/): Long established and stable, though facing newer alternatives
+  - [Microsoft Purview Unified Catalog](https://www.microsoft.com/en-us/microsoft-365/enterprise-data-catalog): Experiencing fast growth driven by cloud momentum
+  - [Atlan Data Catalog](https://www.atlan.com/data-catalog): Relatively new but gaining fast traction among tech-forward organizations
+
+  But open source alternatives are also gaining traction:
+
+  - [DataHub](https://datahubproject.io/): Rapidly growing and embraced by modern data teams
+  - [Amundsen](https://www.getamundsen.io/): Growing steadily, popular in tech companies for its simplicity
+  - [OpenMetadata](https://openmetadata.org/): Fast-growing with a strong emerging community
+  - [Apache Atlas](https://atlas.apache.org/): An older tool that’s seen declining momentum versus newer alternatives
+  - [Marquez](https://marquezproject.org/): Niche adoption with a more stagnant growth curve
+  - [Unity Catalog](https://www.unitycatalog.io/): Gaining early traction among teams breaking free of vendor lock‑in
+
+- 02 Feb 2025. [OpusClip](https://www.opus.pro/) automatically creates short clips from long videos.
+  I ran it on [Programming Minecraft with WebSockets in Python](https://youtu.be/NgvtJZDcY) to get this
+  [short 30-second clip](https://www.youtube.com/shorts/v3W2cjTWY-Y). 30 minutes. 100% automated.
+- 02 Feb 2025. Alternatives to Postman:
+  - [Hoppscotch](https://hoppscotch.io/) – A web‑based/desktop API client supporting REST, GraphQL, and WebSockets. It’s lightweight, open-source, and self‑hostable.
+  - [HTTPie](https://httpie.io/app) – A web-based API along with a friendly command-line tool for API interaction.
+  - [Insomnia](https://insomnia.rest/) (or its fork Insomnium) – A popular cross‑platform API client with a minimal interface and plugin ecosystem.
+  - [Bruno](https://www.usebruno.com/) – A desktop open-source API client that stores collections as files (ideal for Git versioning).
+  - [Milkman](https://milkman.dev/) – A desktop open‑source workbench for managing API requests.
+- 02 Feb 2025. Here is the summary of [DuckCon #6](https://www.youtube.com/watch?v=Sb9DFclZRpg) on 31 Jan 2025 in Amsterdam. I copied the transcript from [YouTubeTranscript](https://youtubetranscript.com/) and passed it through Gemini 2.0 Flash Exp with the system prompt: "Summarize this transcript from the DuckDB conference without missing any points. Cover every point mentioned. A lot of spelling errors that sound like DuckDB are likely to be DuckDB".
+  - Introduction & Welcome:
+    - **Duckon #6:** This is the 6th DuckDB conference, held in their hometown. The first Duckon was online due to the pandemic.
+    - **Live Streaming:** This is the first time Duckon is being live-streamed, chosen to accommodate global time zones (especially China and the US).
+    - **Global Reach:** The live stream is intended to reach users in areas where in-person Duckons are unlikely.
+    - **Q&A:** Slido (qa.duckdb.org) will be used for Q&A, with upvoting to prioritize questions.
+    - **Sponsors:** Thanks to gold sponsor monday.com and silver sponsors Real and Crunchy Data.
+    - **Duckon Purpose:** Duckon is a place for users to connect, share experiences, and provide feedback to the DuckDB team.
+    - **Inspiration:** The team is inspired by the community's use of DuckDB and how far the project has come.
+    - **Mission Statement:** DuckDB aims to make large datasets less intimidating and more accessible, moving away from fear of data to confidence in handling it.
+    - **Motivation:** The project was born from seeing people struggle with data that didn't fit in Excel and the lack of user-friendly tools.
+    - **Industry Trends:** Single-node processing capabilities have grown faster than the size of useful datasets.
+    - **Data Singularity:** A prediction that most data analysis queries can run on a single node is now a reality.
+    - **Real-World Data Sizes:** Analysis of Snowflake and Redshift data shows that 99.9% of datasets are under 300GB.
+    - **Raspberry Pi Benchmark:** The industry-standard TPCH benchmark (scale factor 300, ~300GB) can run on a Raspberry Pi using DuckDB.
+    - **Single Node Growth:** Single-node processing power is rapidly increasing, allowing for larger datasets to be handled.
+    - **Adoption Numbers:**
+      - **32 Million Extension Installs:** 32 million DuckDB extension installs in the last month.
+      - **1.8 Million Unique Website Visitors:** 1.8 million unique visitors per month to the DuckDB website.
+      - **Blue Sky Community:** Growing community on Blue Sky, with the hashtag #dataBS.
+  - Technical Updates (Mark):
+    - **Extension Ecosystem:** Focus on enabling the community to build and share extensions.
+    - **Community Extensions:** Making it easier to create and use community-built extensions.
+    - **DuckDB v1.2 (Harlequin Duck):** Releasing next week, named after the Harlequin duck.
+      - **CSV Reader Improvements:** Significant improvements to the CSV reader.
+      - **Friendlier SQL:** Improvements to the SQL experience.
+      - **CLI Autocomplete:** Reworked and improved CLI autocomplete.
+      - **Performance Optimizations:** Many queries are now faster due to performance work.
+      - **C API for Extensions:** Introducing a C API to make building extensions easier.
+      - **Logging Features:** Improved logging for production use.
+    - **Lakehouse Focus:** The main focus for the year is on lakehouse formats and related features.
+  - Q&A (Mark & Hanis):
+    - **Doubling Team:** If the team doubled, they would focus on client integrations and other projects, not a major architectural change.
+    - **Partitioning:** Near-term plans to add support for partitioning, related to lakehouse formats.
+    - **DuckDB WASM:** The WASM ecosystem is evolving, with exciting possibilities for in-browser use.
+    - **Financial/Pharmaceutical Industries:** DuckDB could replace some SAS workflows due to its cost-effectiveness and capabilities.
+    - **Lakehouse & MotherDuck:** Lakehouse work is separate from MotherDuck, though MotherDuck will likely support lakehouse features.
+    - **Contributing to Extensions:** Plans to make it easier to contribute to extensions, including support for Rust and Go.
+  - Airport Extension (Rusty):
+    - **Analogy:** The airport extension allows DuckDB to "fly" to remote servers using Apache Arrow Flight.
+    - **Functionality:** Supports select, insert, update, and delete operations on remote data sources.
+    - **Motivation:** To reduce the burden of writing extensions and enable faster development using existing code.
+    - **Arrow Flight:** Uses Arrow Flight for communication, enabling connections to various data sources.
+    - **Demo 1: Delta Lake:**
+      - Attaches to a flight server for Delta Lake access.
+      - Allows creating schemas, tables, and performing standard SQL operations.
+      - Uses Python and deltars (Rust implementation of Delta Lake).
+      - Supports predicate pushdown and C integration with the DuckDB catalog.
+    - **Demo 2: AutoGluon:**
+      - Integrates the AutoGluon AutoML package.
+      - Predicts Hacker News post votes using a trained model.
+      - Demonstrates table-returning functions for model fitting and prediction.
+      - No C++ code required, just Python.
+    - **Demo 3: Geocoding:**
+      - Uses a geocoder service to convert addresses to coordinates and vice versa.
+      - Demonstrates scalar UDFs for vectorized requests.
+      - Uses a Python example for a simple uppercase function.
+    - **Features:**
+      - List flights, take flights.
+      - Catalog integration.
+      - Select, update, delete.
+      - Scalar UDFs.
+      - Table in/out functions.
+      - Authentication for row/column filtering.
+    - **Availability:** Requires DuckDB 1.2, MIT licensed, available on GitHub.
+  - Q&A (Rusty):
+    - **Most Proud Extension:** Airport is the most fun, but the AWS API wrapper also brings joy.
+    - **Extension Resources:** The GitHub DuckDB extension template and reading others' source code are helpful.
+    - **Airport & Other Extensions:** Airport is separate and can be used alongside other extensions like spatial or httpfs.
+    - **Graph Support:** Graph database support is planned, with examples like Kuzu, Neptune, and Neo4j.
+    - **Licensing:** Airport is MIT licensed, compatible with Apache license.
+    - **Scaling Out:** Airport can be used to query multiple DuckDB instances on different machines.
+  - Ibis & Geospatial (Nati):
+    - **Nati Clementi:** Senior software engineer at Nvidia, working on open-source projects like Ibis.
+    - **Ibis:** Open-source Python library for data wrangling, with a DataFrame API and interfaces to 15+ engines, including DuckDB.
+    - **DuckDB for Geospatial:** DuckDB is fast, has a geospatial extension, and supports various geospatial formats.
+    - **Geop Parquet:** Becoming a standard for geospatial data, enabling cloud data warehouse interoperability and compression.
+    - **Geo Arrow:** A way of representing geospatial vector data in memory for faster processing.
+    - **Ibis Benefits:** Allows writing Python instead of SQL, with deferred execution determined by the engine.
+    - **Demo:**
+      - Uses OverTour Maps data in geop parquet format.
+      - Filters data using bounding boxes.
+      - Demonstrates geospatial operations like ST_Distance and ST_Transform.
+      - Plots data using Lumber.
+      - Shows how to find points of interest near a location (e.g., the Van Gogh Museum).
+    - **Ibis & DuckDB:** Ibis uses DuckDB for the parquet reader and lets DuckDB do the heavy lifting.
+    - **Ibis Optimizations:** Ibis does type checking but doesn't do query optimization, leaving that to the engine.
+    - **Ibis in Browser:** Ibis works in the browser through DuckDB WASM.
+  - Q&A (Nati):
+    - **Linear Interpolation:** Ibis ML module can help with regression-related tasks.
+    - **Missing Features:** No major features are missing in the DuckDB/Ibis geospatial setup, with minimal overhead.
+    - **Parquet Reader:** Ibis uses DuckDB's parquet reader.
+    - **Query Optimization:** Ibis does not optimize SQL queries, leaving that to DuckDB.
+    - **Ibis in Browser:** Ibis works in the browser through DuckDB WASM.
+  - Rill & Metrics Layer (Mike):
+    - **Rill:** A BI tool optimized for DuckDB, with instant slicing and dicing, BI as code, and a metrics-first philosophy.
+    - **Metrics-First:** Design metrics models, and Rill autogenerates dashboards and user experiences.
+    - **Live Demo:**
+      - Downloaded Rill using a curl command.
+      - Created a new project called "Duckon 6".
+      - Imported a parquet file of GitHub commit data.
+      - Used AI to generate a metrics model and dashboard.
+      - Showed the dashboard with trends and filtering.
+    - **Metrics as Building Blocks:** Metrics are flexible, fast, and intuitive.
+    - **SQL for Metrics:** Metrics should be defined in SQL, not other languages.
+    - **Visual Metrics Editor:** Rill has a visual editor for defining metrics using DuckDB SQL.
+    - **Metric Stack:**
+      - **Legacy:** Data warehouses, traditional BI tools, inconsistent metrics, full table scans.
+      - **DuckDB Powered:** Consistent metrics, fast olap queries, SQL everywhere.
+    - **Challenges:** Data modeling is hard, metric changes can be expensive, single-node scale has limits.
+    - **AI & Metrics:** AI can assist in metrics modeling, optimization, and conversational data exploration.
+  - Q&A (Mike):
+    - **Complex Metrics:** Rill works well with complex metrics involving multiple sources and transformations by joining tables in DuckDB.
+    - **60 FPS Dashboards:** Users can feel the difference with faster dashboards.
+    - **Defining Metrics:** Metrics are defined in the Rill UI using SQL expressions.
+    - **Replacing ChatGPT:** Considering locally run self-hosted models for privacy.
+  - Stock Data Analysis (Ryan):
+    - **Two Takeaways:** Simple finance data flows with trade data and a tool called Q Studio.
+    - **Ryan Hamilton:** 14 years building large data platforms in banks.
+    - **Bank Data:** Data from exchanges, market data providers, and internal systems.
+    - **Use Cases:** Backtesting, data analysis, and report generation.
+    - **Q Studio:** A Java desktop application that connects to 30 databases, including DuckDB.
+    - **Demo:**
+      - Loaded a 6GB CSV file of trade data into DuckDB.
+      - Showed basic queries, pivoting, and Candlestick charts.
+      - Demonstrated time-based aggregation and moving averages.
+      - Showed a basic trading strategy using window functions.
+    - **DuckDB Benefits:** Fast, easy to use, great for time-based analysis.
+  - Q&A (Ryan):
+    - **KDB+ vs. DuckDB:** KDB+ is for large data, DuckDB is more approachable with strong Python integration.
+    - **XML Files:** Offloading processing to DuckDB, not planning XML integration.
+  - Lightning Talks:
+    - **Zuk (Jared):**
+      - Search engine research using DuckDB.
+      - Python-based experiments with SQL.
+      - Removing document lengths for faster search engines.
+    - **DuckPGQ (Daniel):**
+      - Graph analytics in DuckDB using SQL property graph queries (pgq).
+      - Visual graph syntax for pattern matching and path finding.
+      - Outperforms Neo4j on analytical queries.
+    - **Yat (Kristoff):**
+      - Smallest DuckDB SQL orchestrator.
+      - Runs SQL queries in a folder in the correct order.
+      - Generates a mermaid diagram for lineage.
+    - **Grafana & DuckDB (Sam):**
+      - Lessons learned from using DuckDB in Grafana.
+      - Security incident due to shell commands and file access.
+      - Importance of reading the documentation.
+    - **Cloud Slur (Adam):**
+      - Syncing query engine for bank transaction data.
+      - Uses LLM to convert human language to SQL.
+      - Uses DuckDB in the browser, Node.js, and Python.
+    - **Healthcare Data (Tony):**
+      - Data engineering use cases in healthcare.
+      - Dynamic data masking system using DuckDB and Snowflake.
+      - Data integration pipeline using DuckDB and Arrow streams.
+  - Closing Remarks:
+    - **Michel Simmons:** Author of the DuckDB in Action book, will be signing books.
+    - **Poster Session:** A poster session will follow the talks.
+    - **Sponsors:** Thanks again to the sponsors.
+    - **Social Event:** The conference will now move to the social event.
+- 02 Feb 2025. [ibis](https://duckdb.org/docs/guides/python/ibis.html) is a Python library that works with _multiple_ dataframe backends like DuckDB, Polars, and Pandas.
 - 01 Feb 2025. You can add any content at the end of a PDF file. It's ignored. It's an interesting way to send additional information (or just blow up the file size if you don't like them.)
 - 01 Feb 2025. [JavaScript introduces a `Temporal` object](https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming/) that will replace the `Date` object.
 
 ## Jan 2025
 
-- 26 Jan 2025. The cost of a cream biscuit packat in India has fallen about 25 _times_, adjusted for inflation, between 1981 - 2024. How do I know this?
+- 26 Jan 2025. Bring LLMs to the table. One mode of collaboration is using LLMs as **ACTIVE** participants, i.e. they CONTRIBUTE. For example, in a video call. A workshop. A classroom. A presentation. Have the LLM provide input **DIRECTLY** to a group of people.
+- 26 Jan 2025. Environment shapes ambient thoughts. Working in a hospital will give you ideas about how to use LLMs in hospitals, for example. People you are working / ENGAGING with are perhaps the biggest drivers.
+- 26 Jan 2025. The cost of a cream biscuit packet in India has fallen about 25 _times_, i.e. about as fast as inflation, between 1981 - 2024. Effectively, the absolute price has not changed. How do I know this?
   - [In 1981, a cream biscuit packet cost Rs 25](https://youtube.com/clip/UgkxCF90vppUV01qz0Wila-9meADPord26kc?si=3LLQ5fgRzwG_wUO-)
   - [In 2025, it's available for Rs 21](https://www.amazon.in/Sunfeast-Dark-Fantasy-Bourbon-120g/dp/B0BSX9N69D/)
   - [India Inflation Calculator](https://www.in2013dollars.com/india/inflation/1981?amount=25) - a rare inflation calculator with annual inflation rates baked in - shows that Rs 25 in 1981 is equivalent to Rs 540 in 2024. That's about 25 times more than the Rs 21 it costs today.
@@ -39,8 +494,12 @@
 - 10 Jan 2025. Wednesday comes from Wōdnesdæg - named after Odin (or Woden).
 - 07 Jan 2025. [Cloudflare tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-local-tunnel/) is like ngrok but more permanent. It's a bit more complex, too. But given CloudFlare's liberal free tier, it's a good, viable option for long-term local hosting.
 - 06 Jan 2025. John Wheeler: "We live on an island surrounded by a sea of ignorance. As our island of knowledge grows, so does the shore of our ignorance." A great way to understand how ignorance actually grows as you learn more.
-- 05 Jan 2025. There is little reason to use Redis. There are several clones like [Microsoft's Garnet](https://microsoft.github.io/garnet/) or [DragonFly](https://www.dragonflydb.io/) (only Linux) that are better. [Databases in 2024: A Year in Review
-  ](https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html)
+- 05 Jan 2025. There is little reason to use Redis. There are several clones you can use. [Databases in 2024: A Year in Review](https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html)
+  - [Microsoft's Garnet](https://microsoft.github.io/garnet/)
+  - [KeyDB](https://docs.keydb.dev/) (only Linux)
+  - [ValKey](https://valkey.io/) (only source)
+  - [DragonFly](https://www.dragonflydb.io/) (only Linux)
+  - [ReDict](https://redict.io/) (only Linux)
 - 05 Jan 2025. Every few years, something comes along trying to replace relational databases and SQL, and gets absorbed. [YouTube](https://youtu.be/8Woy5I511L8)
   - Key value stores. People soon realize they need more features, e.g. indices.
   - MapReduce systems. Most MapReduce vendors put SQL on top of SQL. Then the Hadoop market crashed. (But HDFS, S3, distributed storage systems are a good idea)
@@ -119,7 +578,7 @@
     <path fill="#fff" d="m16 7 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z"/>
   </svg>
 
-  ... which and then compressed it (via [svgomg](https://svgomg.net/)) into a data URL included like this:
+  ... which and then compressed it (via [svgomg](https://svgomg.net/)) into a [data URL](https://www.svgviewer.dev/svg-to-data-uri) included like this:
 
   ```html
   <link
@@ -197,7 +656,8 @@
 ## Nov 2024
 
 - 29 Nov 2024. Gists are a good place to store static files for posterity as well as throwaway files. But, they're just git repositories. So there may be no advantage over GitHub repos.
-- 28 Nov 2024. HTMX focuses on HTML over JS. Like server responses being HTML snippets not JSON. But I need front-end over back-end. Client side apps. HTMX doesn't help much there, e.g. templating, or just plain JS code.
+- 28 Nov 2024. HTMX focuses on HTML over JS. Like server responses being HTML snippets not JSON.
+  - [htmx client side templates](https://v1.htmx.org/extensions/client-side-templates/) do can convert JSON to HTML.
 - 26 Nov 2024. CloudFlare workers can bundle any kind of files, including text, data, and WASM. [Docs](https://developers.cloudflare.com/workers/wrangler/configuration/#bundling)
 - 26 Nov 2024. AssemblyScript can compile TypeScript to WASM. [Here's what I learnt](https://github.com/sanand0/assemblyscript-tutorial)
 - 26 Nov 2024. Here's a convenient pattern to `git commit` a directory but nothing else in it (e.g. a `build/` directory). Add a `.gitignore` file with `*` followed by `!.gitignore`. Only the `.gitignore` file is tracked.
@@ -242,6 +702,7 @@
 - 18 Nov 2024. [HTML is all you need](https://maxbo.me/a-html-file-is-all-you-need.html) shows examples of using HTML for notebooks instead of Jupyter, Observable, etc.
 - 17 Nov 2024. The problem with Accept headers is that you can't link to them. [Simon Willison](https://fedi.simonwillison.net/@simon/113484569366205490)
 - 14 Nov 2024. Use a standardized password strategy, e.g. use the month like GramNov2024 (via Namit)
+- 12 Nov 2014. List of Gen AI companies disrupting SaaS incumbents: https://www.linkedin.com/posts/sjbrinker_martech-activity-7261021751705243649-M28M
 - 11 Nov 2024. Cloudflare R2 has the same API as S3 but is cheaper
 - 11 Nov 2024. Prefect.io is a good alternative to Airflow / cron. Can use for synchronisation tasks, e.g. Drive to server. But no Auth, UI params or config.
 - 10 Nov 2024. [Tech Council Ventures](https://techcouncilventures.com/) and [Sunicon VC](https://sunicon.vc/) invest in early stage startups, and aloso provide them technology support (via Naveen)
@@ -511,7 +972,7 @@
 
 # Mar 2024
 
-- 31 Mar 2024. How I write podcast. Paul Graham essays
+- 31 Mar 2024. [How I write podcast. Paul Graham essays](https://youtu.be/2OZ94b3fJvo)
   - Write simply. It helps communicate. (Don't concise if communication worsens.). It forces you to make the idea better
   - Do lame stuff. Else you won't start. Low standards drive creativity
   - The more to delete, the better your writing. Read your piece. Highlight what feels poor. Fix it. Ask friends to highlight what's BORING? UNCONVINCING? Delete the first, brainstorm the second. Or ask, what's the 10% to cut and 10% to keep.
@@ -738,7 +1199,7 @@
 - 22 Jan 2024. Dan sends Google documents with essays instead of emails. This allows people to comment on it. But commenting is a culture and not many people do it. Adriano does it a lot and we'll. Dan and Adriano actively converse on GitHub issues
 - 16 Jan 2024. #PREDICTION As humans have more conversations with LLMs, they will replace video watching and interactive gaming with conversation based role play. New game genres will evolve
 - 15 Jan 2024. Lungs have a Hausdorff dimension of 2.97 -- giving them one of the highest surface area to volume ratio. Brains are 2.8. Sierpinski Pyramid is exactly 2 -- which is weird. To solid-paint twice the size, you need 4 times as much paint.
-- 15 Jan 2024. How I write podcast. Tim Ferriss
+- 15 Jan 2024. [How I write podcast. Tim Ferriss](https://youtu.be/rXUuStdMeoE)
   - High bars are constraints. I set the strongest constraints against the scarcest resources. Like reputation
   - Being a category of one is more defensible than a competitive advantage
   - Content always beats presentation. When in doubt, push for more interesting content

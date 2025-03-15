@@ -25,16 +25,354 @@
   - Ask video generators like SORA to generate text in videos. It is of average quality.
   - Translate technical documents to Dutch -- because they don't understand the technical terms well
   - Translate large documents (JSON to XML, English to Chinese, Python to Rust, Wrong to right spelling) -- because the output tokens are limited
+- Creative prompts
+  - "So much pudding". [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lgwt4j6vss2j)
+  - "Come up with some clever razors". [Ethan Mollick](https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu/post/3lgslb6iqis2l)
+  - Repeat "Make this X" where X is "more bro", "better", "more original", "more fun", whatever!
+  - Write a 6 word story about the future of AI. [Peter Gostev](https://www.linkedin.com/posts/peter-gostev_i-asked-o1-pro-to-write-a-6-word-story-about-activity-7281441070226313217-Nns3)
+  - Imagine you're an AI giving a stand-up set to a bunch of other AI assistants that have the same day-to-day experience as you, with humans and their creators and so on. Write your full set. It can be very long. [Amanda Askell](https://x.com/AmandaAskell/status/18749220380)
+
+## Mar 2025
+
+- 14 Mar 2025. This [table of LLM API data protection](https://www.rosenthal.ch/downloads/VISCHER_ai-tools-03-25.pdf) lists what use cases each provider's terms of service allow from a security perspective.
+- 14 Mar 2025. [Unsloth](https://unsloth.ai/) might be one of the simplest ways of fine-tuning.
+- 14 Mar 2025. For LLM UIs, [Open Web UI](https://github.com/open-webui/open-webui) seems most popular.
+  [Text generation Web UI](https://github.com/oobabooga/text-generation-webui) is less so.
+  [KoboldAI](https://github.com/KoboldAI/KoboldAI-Client),
+  [LMQL](https://github.com/eth-sri/lmql),
+  [LM Studio](https://lmstudio.ai/),
+  GPT4All, etc are far behind.
+- 14 Mar 2025. GPT 4o Mini is probably a 8b parameter model. [Ref](https://aiexpjourney.substack.com/p/the-number-of-parameters-of-gpt-4o)
+- 14 Mar 2025. "SRM"s are Small Reasoning Models - like Small Language Models. Phi-4 and DeepScaleR are SRMs. Gemma 3 is a multi-modal SLM.
+- 14 Mar 2025. [`gemini-embedding-exp-03-07`](https://developers.googleblog.com/en/gemini-embedding-text-model-now-available-gemini-api/) leads the [MTEB](https://huggingface.co/spaces/mteb/leaderboard) and is currently the top embedding model by a big margin.
+- 14 Mar 2025. [Apify](https://apify.com/) is a cloud scraper platform. Here's how they optimize their [AI Web agent](https://apify.com/apify/ai-web-agent) - [Source](https://github.com/apify/actor-web-automation-agent):
+  - Remove redundant tags and attributes (e.g. accessibility, etc.). Explore readability.
+  - Add a unique `gid` to each element.
+  - Add the screenshot WITH a "Set of Marks" - "SoM" (read research paper) highlighting important clickable elements.
+  - Code output is brittle. Use tools / DSL - e.g. visit_url(url), click_element(text, gid, tagName), etc.
+- 14 Mar 2025. [GenAIScript](https://microsoft.github.io/genaiscript/) increasingly looks like a promising way to automate LLM workflows in the browser.
+- 14 Mar 2025. [Ollama has a Windows download](https://ollama.com/download/windows)
+- 11 Mar 2025. People are reporting that [Roo Code](https://github.com/RooVetGit/Roo-Code) is better than Windsurf.
+  - Roo Code is open source. Available as a VS Code extension and run-nable via `git clone`
+  - Roo Code supports Computer Use. It can read files, take screenshots from a built-in browser, controls it, and reads browser console logs.
+- 10 Mar 2025. Notes from [Thursday AI, 6 Mar 2025](https://youtu.be/rXoGpUyD1Jg)
+  - Google's AI overviews now use Gemini 2.0. They've introduced an AI mode that functions like a mini deep research tool, incorporating planning and search. (A Perplexity-killer). It's a fine-tuned model that is extra cautious with topics like healthcare and always verifies information.
+  - QWQ from Quen competes with DeepSeq R1, but with only 32b parameters compared to R1's several hundred billion.
+  - AI models are becoming less restrictive. Gemini and GPT-4.5 have relaxed some constraints, shifting more responsibility onto users, similar to Grok.
+  - What's GPT-4.5 good for? It seems to excel in creativity, humor, education, emotional intelligence, and teaching. It follows instructions better and understands intent better. However, it's not a major leap in coding or math.
+  - OpenAI's Deep Research mode always uses O3, regardless of the model selected in the UI.
+  - Tencent has released a new video model available at <https://aivideo.hunyuan.tencent.com/> and it appears to be quite good.
+  - Many _clients_ now support Model Context Protocol (MCP), including Cursor, Claude Code, and Claude Desktop. The [clients](https://modelcontextprotocol.io/clients) list is long. Some MCP uses include:
+    - Interact with GitHub using the GitHub API.
+    - Using Knowledge Graph memory to premember previous conversations
+    - Using the Cloudflare MCP server to perform Cloudflare actions.
+    - File retrieval and custom prompts -- which MCP supports in addition to tools.
+    - Calling other MCPs or LLMs (conditionally) from an MCP, enabling the creation of full-fledged workflows.
+  - Composio offers a [Hosted MCP service](https://docs.composio.dev/mcp/overview). CloudFlare lets you build [remote MCP servers](https://blog.cloudflare.com/model-context-protocol/).
+  - [Notagen](https://electricalexis.github.io/notagen-demo/) is an open-source note generation engine that produces high-quality classical sheet music.
+  - [Sesame](https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice) has an [open-source](https://github.com/SesameAILabs/csm) voice model worth exploring.
+  - [DiffRhythm](https://github.com/ASLP-lab/DiffRhythm) is a music generation model that appears to be quite good.
+- 08 Mar 2025. I agree with almost every point on this LinkedIn post on scoring candidates for AI roles. [Rob Balian](https://www.linkedin.com/posts/robbalian_were-starting-to-use-a-points-system-when-activity-7303542581580156929-BrNG)
+  - Uses DeepSeek R1 or Claude 3.7 +5 points
+  - Uses Langchain -5 points
+  - Uses Langgraph +5 points (I don't know enough to comment)
+  - Built a RAG in 2023 +3 points
+  - Built a RAG in 2025 -3 points
+  - "pinecone" -5 points (I don't know enough to comment)
+  - "What is cursor" - 50 points no coming back from this
+  - Uses Cursor composer +10 points
+  - "You don't need a full agent for this" +5 points
+  - Did hackathons to learn AI outside of work +5 points
+  - "We probably need to fine tune for this" -3 points unless you can explain why
+  - "Gemini is making a comeback" +3 points (I have a soft spot for Gemini)
+  - +3 points each for mentioning reasoning trace, structured outputs, MCP, chain-of-thought, prompt caching, TPM limits
+- 08 Mar 2025. "Export to prompt" can be a useful feature in apps (or even as a bookmarklet). It would let you export content in an LLM-friendly Markdown format. You can paste it into an LLM and ask questions. Here are things I would find useful:
+  - Copy an entire issue (with history) from GitHub, Gitlab, or JIRA
+  - Copy an entire PR (with code changes) from GitHub, Gitlab, or Bitbucket
+  - Copy CI/CD logs from GitHub Actions, Gitlab CI, Azure DevOps, etc.
+  - Copy entire conversation thread in Gmail or Discourse, Service now etc.
+  - Copy product reviews from Amazon, Shopify, etc.
+  - Copy page(s) from wikis and content sites like Wikipedia, StackOverflow, etc.
+  - Copy survey responses from Google Forms, Typeform, etc.
+  - Copy all interactions with a contact (including interactions, proposal history) from HubSpot or Salesforce
+  - Copy transcripts from Zoom, Teams, Google Meet, etc.
+  - Copy as Markdown from Word, GDocs, PDF or HTML
+  - Copy the summary of an analysis as well as all key metrics from any dashboard
+  - Copy SAP invoices
+  - Copy JDs, CVs, and reviews from Workday, BambooHR, DarwinBox, etc.
+  - Copy design specs, component libraries, and style guides from Figma, Miro, etc.
+  - [Generated with the help of ChatGPT](https://chatgpt.com/share/67b25a21-4164-800c-bf1b-ef218007fOa9) -- link not working
+- 07 Mar 2025. Mistral released an [impressive OCR model](https://mistral.ai/fr/news/mistral-ocr).
+  - [Marker](https://github.com/VikParuchuri/marker) from [DataLab](https://www.datalab.to/) seems [comparable](https://news.ycombinator.com/item?id=43285912).
+  - [MinerU](https://github.com/opendatalab/MinerU) convert [medical textbooks to Markdown](https://news.ycombinator.com/item?id=43284248) well.
+  - Gemini Flash may be more [cost effective](https://news.ycombinator.com/item?id=43283942) and [better](https://news.ycombinator.com/item?id=43287278)
+- 05 Mar 2025. Build apps (not just content) for agents. In the next 3 to 5 years, agents will surpass humans as the top product users.
+- 05 Mar 2025. Reliably creating interactive tutorials is hard today. Claude 3.7 Sonnet ran out of tokens when I tried creating an interactive tutorial on diffraction. Cursor got the tokens but failed to get the application right after 3 attempts. This is not yet reliable, and when it does become reliable, education will change a fair bit. #IMPOSSIBLE
+- 04 Mar 2025. LLMs make many different kinds of errors that are useful to differentiate between. Here are a few
+  - Model errors. The model itself makes a mistake. E.g. hallucinations, not following the prompt, etc.
+  - Context errors. The model makes a mistake because the question was out of context, or the context was missing.
+  - Input errors. The input to the model was parsed incorrectly, e.g. poor audio, poor image OCR, etc.
+  - Tool errors. The model's tools are wrong or not good enough, e.g. Retrieval errors.
+- 03 Mar 2025. Notes from [AI Engineering Summit, NY, Day 1](https://youtu.be/L89GzWEILkM)
+  - An agent requires 3 things: a router, tools or skills, and memory.
+  - Agents are often sequential, but sometimes parallel execution makes sense for independent tasks that you consolidate.
+  - Always allow LLMs the option of NOT answering a question if there is no good answer.
+  - Focus prompts on the happy path. Use guard rails for edge cases.
+  - Here are a few "tools" an agent would need to call:
+    - Clarification from user
+    - Saving to memory
+    - Google search
+    - Edit a file introducing SPECIFIC changes
+    - Search in codebase using embeddings
+    - Run scripts on the shell or in a REPL (Python, Node, etc.)
+    - Run code in a new container for isolation
+    - Automatically discover, read an API documentation and use it
+  - Modify environment to enable logging and other system changes.
+  - When code is cheap, you can explore more ideas and hence design and product management need to approach things differently. We also need to reaching testing completely because it makes very different kinds of mistakes and we don't often have an intuition
+  - You can have an agent explore all the issues and full request and recent comments against the repository and summarise it for the project manager
+- 03 Mar 2025. Notes from AI Engineering Summit, NY. Session by Lux Capital.
+  - Agents make multiple LLM calls. Errors accumulate. So the quality of the model is key
+  - What's really critical: data + context + user preference
+  - Set up evals for subjective responses by collecting signals continuously.
+  - Create scaffolding for agents where errors don't accumulate. Better yet, make it FIX errors
+  - UX is critical. We need lots more UX styles
+- 02 Mar 2025. [Inception Labs](https://www.inceptionlabs.ai/) offers "Diffusion LLMs". (No API yet.) They start with random text and refine it in parallel. The benefit is:
+  - It's faster and cheaper due to parallellalization and better GPU use
+  - It doesn't commit to tokens and can fix hallucinations, JSON structure errors, reasoning fallacies, etc.
+  - It's better with multi-modal since images are diffusion based already.
+
+## Feb 2025
+
+- 27 Feb 2025. Bad deep research prompts are: vague/broad, under-specified or ambiguous. In short, the more you know what you want, the better. Iterate until then.
+- 27 Feb 2025. What kind of reports do clients are research companies to produce? I was curious to see if Deep Research can replace these. Here are a bunch of ideas. [ChatGPT](https://chatgpt.com/share/67bf7946-c80c-800c-8132-6f4018455a68)
+  1. Strategy & Management Consulting Research (McKinsey & Company, Boston Consulting Group, Bain & Company, Strategy&, Accenture Strategy)
+     - Produce a comprehensive strategic transformation report for a Fortune 500 consumer goods company. Analyze global market trends, competitor strategies, and actionable growth recommendations, including case studies and source citations.
+     - Generate an in‐depth study on corporate restructuring trends in emerging markets. Focus on successful turnaround strategies, CEO leadership factors, and strategic pivots, with a comparative analysis of key players.
+     - Create a report on M&A trends in the technology sector over the past five years. Detail deal drivers, integration best practices, and forecast future acquisition opportunities, citing relevant data.
+  2. IT & Technology Research Analysts (Gartner, Forrester Research, IDC, 451 Research, Ovum)
+     - Produce a market assessment report on emerging cloud computing platforms. Include vendor evaluations, adoption forecasts, and key technology drivers with supporting data and charts.
+     - Generate an in‐depth cybersecurity trends report for enterprise IT. Analyze recent threat vectors, defense strategies, and best practices for risk mitigation, providing actionable recommendations.
+     - Create a comprehensive study on the impact of artificial intelligence in enterprise software. Include competitive benchmarking, technology adoption rates, and forecasted market changes.
+  3. Marketing & Consumer Research (Nielsen, Kantar Group, Ipsos, GfK, Euromonitor International)
+     - Produce a consumer behavior analysis report for a leading retail brand. Identify key demographic shifts, purchasing trends, and brand loyalty factors, and provide actionable insights with data visualizations.
+     - Generate a detailed report on digital media consumption trends among millennials, incorporating survey results, social media analytics, and case studies of successful campaigns.
+     - Create a market segmentation report for a new consumer electronics launch. Identify key consumer segments, behavioral drivers, and media usage patterns with clear recommendations.
+  4. Financial Investment Research (Goldman Sachs, JPMorgan Chase, Morgan Stanley, Morningstar, Keefe Bruyette & Woods)
+     - Produce an equity research report on mid-cap technology stocks. Include detailed financial modeling, valuation analysis, and buy/sell/hold recommendations with supporting data and charts.
+     - Generate a fixed income analysis report for corporate bonds in the industrial sector. Assess credit risk, yield forecasts, and macroeconomic influences, citing key data sources.
+     - Create a comprehensive report on global market trends impacting investment banking. Analyze regulatory changes, market sentiment, and performance metrics of leading financial institutions.
+  5. Healthcare Research (IQVIA, Frost & Sullivan, Evaluate Ltd, Deloitte Healthcare, IMS Health)
+     - Produce a market analysis report on emerging biotechnologies in oncology. Include competitive landscape, regulatory challenges, and growth forecasts with relevant case studies.
+     - Generate a comprehensive report on patient satisfaction and telemedicine adoption trends. Analyze survey data from leading healthcare providers and benchmark best practices.
+     - Create a detailed study on pharmaceutical market dynamics in emerging economies. Focus on pipeline developments, regulatory environments, and market potential with actionable insights.
+  6. Legal Research Providers (LexisNexis, Westlaw, Bloomberg Law, Fastcase)
+     - Produce a legal risk assessment report on the impact of recent data privacy regulations for multinational corporations. Include case studies, trend analysis (2019–2024), and strategic recommendations.
+     - Generate a comprehensive report summarizing key federal and Supreme Court rulings on intellectual property rights over the past five years, highlighting trends and divergent interpretations.
+     - Create a detailed report on the evolution of securities law and its effect on investment research practices, incorporating analysis of recent litigation and regulatory updates.
+  7. Media & News Research (Factiva, Kantar Media, Comscore, Cision)
+     - Produce a media consumption trends report that analyzes audience behavior shifts across digital, TV, and print platforms. Include data visualizations, key drivers, and forecasted trends.
+     - Generate a comprehensive report on the impact of social media on traditional news reporting, with case studies and a comparative analysis of engagement metrics.
+     - Create a detailed study on the effectiveness of multimedia advertising campaigns, evaluating ROI, consumer engagement, and best practices with actionable insights.
+  8. Economic & Industry-Specific Research (Economist Intelligence Unit, BMI Research, IHS Markit, Consensus Economics)
+     - Produce a macroeconomic outlook report for emerging markets, including GDP, inflation, and employment forecasts, with detailed data analysis and visualizations.
+     - Generate an industry analysis report on the automotive sector, covering technological innovations, competitive dynamics, and consolidation trends.
+     - Create a comprehensive country risk assessment report for a target region, detailing political, economic, and regulatory factors with recommendations for investors.
+  9. Human Resources & Employee Engagement Research (Gallup, Great Place to Work, Mercer)
+     - Produce an employee engagement report for a multinational firm based on recent survey data. Identify key drivers of satisfaction, retention challenges, and improvement recommendations.
+     - Generate a comprehensive study on the impact of remote and hybrid work models on employee productivity across industries, including best practices and benchmark data.
+     - Create a detailed report on workplace culture transformation, analyzing organizational behavior trends, employee feedback, and actionable strategies to boost engagement.
+  10. Environmental, Social & Governance (ESG) Research (MSCI ESG Research, Sustainalytics, ISS ESG, Bloomberg ESG)
+      - Produce an ESG performance report for a portfolio of global companies. Include sustainability scores, risk assessments, and recommendations for improvement with data visualizations.
+      - Generate a comprehensive study on the impact of climate change regulations on the energy sector, including policy analysis, market forecasts, and strategic implications.
+      - Create a detailed report on corporate social responsibility trends in the consumer goods industry, incorporating qualitative and quantitative analyses with actionable recommendations.
+  11. Education & Academic Research (RAND Corporation, National Center for Education Statistics, HolonIQ)
+      - Produce an analysis report on the future of online education, examining technological adoption, market growth projections, and student outcome trends with supporting data.
+      - Generate a comprehensive study on the effects of educational policy reforms on public school performance in the U.S., including trend analysis and actionable recommendations.
+      - Create a detailed international higher education trends report, covering tuition dynamics, international student mobility, and emerging academic programs with comparative data.
+  12. Real Estate & Property Research (CBRE, JLL, CoStar Group, Cushman & Wakefield)
+      - Produce a commercial real estate market analysis report for major urban centers, including occupancy trends, rental rate forecasts, and investment opportunity assessments.
+      - Generate a comprehensive study on residential housing market dynamics in emerging economies, focusing on affordability, supply-demand gaps, and policy impacts.
+      - Create a detailed report on the impact of urban redevelopment projects on local real estate values, including case studies, forecasts, and strategic recommendations.
+  13. Energy & Natural Resources Research (Wood Mackenzie, Rystad Energy, Bloomberg New Energy Finance)
+      - Produce an analysis report on global renewable energy trends, covering technology adoption, market forecasts, and key policy drivers, with detailed data and visuals.
+      - Generate a comprehensive commodity price forecasting report for oil, natural gas, and key metals, incorporating historical trends, risk assessments, and predictive modeling.
+      - Create a detailed report on energy transition strategies for traditional energy companies, focusing on clean technology investments and market adaptation strategies.
+  14. Supply Chain & Logistics Research (ARC Advisory Group, Gartner Supply Chain Research, Supply Chain Insights)
+      - Produce a report on supply chain resilience for global manufacturers. Analyze risk factors, digital transformation impacts, and best practices for operational efficiency with supporting data.
+      - Generate a comprehensive study on the impact of technology on logistics networks, including case studies on digital optimization and cost reduction strategies.
+      - Create a detailed report on emerging last-mile delivery solutions, assessing innovations, consumer expectations, and scalability with actionable insights.
+  15. Cybersecurity & Information Security Research (KuppingerCole, Forrester Security, IDC Cybersecurity, Cybersecurity Ventures)
+      - Produce an in-depth report on emerging cybersecurity threats for large enterprises, including detailed analysis of recent incidents, risk vectors, and defense strategies.
+      - Generate a comprehensive cybersecurity market landscape report, evaluating vendor performance, technology forecasts, and best practices for mitigating risks.
+      - Create a detailed report on regulatory compliance trends in information security within the financial services industry, with case studies and strategic recommendations.
+  16. Social Media, Digital & Online Research (Comscore, SimilarWeb, Brandwatch)
+      - Produce a digital audience behavior report for a global brand, focusing on social media trends, engagement metrics, and platform performance with detailed data analysis.
+      - Generate a comprehensive analysis of influencer marketing effectiveness across digital channels, including ROI metrics, case studies, and best practices.
+      - Create a detailed report on online brand sentiment analysis, incorporating social listening data, trend forecasts, and actionable recommendations.
+  17. Public Opinion & Political Research (Pew Research Center, Gallup, YouGov)
+      - Produce a public opinion polling report on voter sentiment ahead of a major election. Include demographic breakdowns, key issue analysis, and trend visualizations for the past five years.
+      - Generate a comprehensive study on political risk in emerging markets, analyzing historical data, current trends, and future projections, with policy recommendations.
+      - Create a detailed report on the influence of media on public policy, using survey data, social media analysis, and comparative case studies.
+  18. Sports, Entertainment & Media Research (Nielsen Sports, Sportcal, Kantar Media Sports)
+      - Produce a market analysis report on sports sponsorship trends, detailing viewership metrics, brand engagement, and investment ROI with industry case studies.
+      - Generate a comprehensive report on audience behavior in the streaming media industry, including demographic insights, consumption trends, and competitive benchmarks.
+      - Create a detailed analysis of digital advertising effectiveness in the entertainment sector, including segmentation data, ROI analysis, and strategic recommendations.
+  19. Innovation, R&D & Technology Trends Research (Innosight, Frost & Sullivan Innovation, CB Insights)
+      - Produce a global R&D investment trends report, analyzing technology spending, innovation indices, and the impact on market growth across key industries.
+      - Generate a comprehensive study on disruptive technologies in manufacturing, including competitive analysis, market potential forecasts, and adoption trends.
+      - Create a detailed report on emerging innovation hubs worldwide, focusing on startup ecosystems, funding trends, and collaborative opportunities in technology.
+  20. Agriculture & Agribusiness Research (Rabobank Agribusiness Research, USDA Economic Research Service, AgFunder)
+      - Produce an analysis report on global agricultural market trends, including crop yield forecasts, trade dynamics, and policy impacts, with data visualizations.
+      - Generate a comprehensive study on agritech innovations such as precision farming and sustainable practices, including case studies and market forecasts.
+      - Create a detailed report on the impact of climate change on food production and supply chain stability in agribusiness, with risk assessments and strategic recommendations.
+  21. Environmental & Climate Change Research (Carbon Trust, IHS Markit Energy Transition, Bloomberg New Energy Finance)
+      - Produce a report on the economic and social impacts of climate change on urban infrastructure, including forecasting models and policy recommendations.
+      - Generate a comprehensive study on national climate policies and their effects on industrial competitiveness, with detailed trend analysis and source citations.
+      - Create a detailed report on corporate sustainability initiatives, assessing environmental risk management practices and providing actionable recommendations for improvement.
+  22. Customer Experience (CX) & User Experience (UX) Research (Forrester CX Research, Gartner CX Research, Qualtrics, Nielsen Norman Group)
+      - Produce a report on customer journey mapping for a leading retail brand, identifying key touchpoints, pain points, and actionable improvement strategies with data visualizations.
+      - Generate a comprehensive study on digital user experience trends for e-commerce platforms, including usability testing insights, design best practices, and conversion optimization recommendations.
+      - Create a detailed report on customer satisfaction and loyalty metrics across multiple industries, integrating survey data and actionable recommendations to enhance overall CX.
+  23. Blockchain, Cryptocurrency & Fintech Research (Chainalysis, CoinDesk Research, Deloitte Fintech Research, CB Insights)
+      - Produce an analysis report on emerging blockchain technologies and their applications in financial services, including market trends, adoption forecasts, and case studies.
+      - Generate a comprehensive study on cryptocurrency market dynamics, analyzing regulatory developments, investor sentiment, and competitive landscapes with source citations.
+      - Create a detailed report on fintech disruption in traditional banking, with case studies on leading startups, technology adoption, and future market forecasts.
+  24. Venture Capital, Startup & Private Equity Research (PitchBook, CB Insights, Crunchbase, Preqin)
+      - Produce a global venture capital investment trends report, including performance analysis of high-growth startups, sector benchmarks, and emerging market opportunities.
+      - Generate a comprehensive study on private equity market dynamics, covering deal flow analysis, exit strategies, and forecasted trends with supporting data.
+      - Create a detailed report on emerging startup ecosystems in key regions, highlighting funding trends, investor activity, and growth potential with actionable insights.
+  25. Operations Research & Management Science Consulting (The Brattle Group, NERA Economic Consulting, CRA International)
+      - Produce a report on optimization techniques for operational efficiency in large-scale manufacturing, including quantitative analysis, simulation models, and case studies.
+      - Generate a comprehensive study on the application of predictive analytics in supply chain management, focusing on data modeling, process improvements, and actionable insights.
+      - Create a detailed report on advanced quantitative modeling approaches to solve complex business problems in logistics and operations, including scenario analysis and recommendations.
+  26. Cultural & Social Research (Ethnographic/Sociocultural Studies) (Ipsos MORI, Kantar TNS, YouGov)
+      - Produce a qualitative ethnographic study on urban consumer lifestyle trends, incorporating field observations, interviews, and cultural analysis with actionable insights.
+      - Generate a comprehensive study on how cultural shifts influence global brand perception, including comparative case studies and trend analysis.
+      - Create a detailed report on sociocultural dynamics and consumer behavior in emerging economies, integrating in-depth field research and actionable recommendations.
+  27. Economic & Demographic Research Firms (Oxford Economics, The Conference Board, CEIC Data)
+      - Produce a macroeconomic forecasting report for a specific region, including GDP, inflation, and employment trends with detailed data visualizations and source citations.
+      - Generate a detailed demographic analysis report for a target market, highlighting age distribution, income levels, and consumption patterns with actionable insights.
+      - Create a comprehensive report on the economic impact of demographic shifts on consumer markets, with policy recommendations and trend analysis.
+  28. Academic & Think Tank Research Organizations (Brookings Institution, RAND Corporation, Carnegie Endowment for International Peace)
+      - Produce a policy research report on global governance challenges and their implications for economic development, including case studies, literature reviews, and expert interviews.
+      - Generate a comprehensive study on social inequality and its effects on public health and education outcomes, supported by empirical research and trend analysis.
+      - Create a detailed report on emerging trends in international relations and their impact on global trade and security, integrating academic research and data analytics.
+  29. Market Research Technology & Software Providers (Qualtrics, SurveyMonkey, Confirmit)
+      - Produce a report on the latest innovations in survey technology and data analytics software for market research, including product comparisons, user case studies, and future trend forecasts.
+      - Generate a comprehensive study on the integration of AI and machine learning in consumer insights platforms, highlighting case studies, performance metrics, and industry benchmarks.
+      - Create a detailed report on digital transformation trends in market research technology, featuring analysis of leading software solutions, market share data, and recommendations for technology adoption.
+- 24 Feb 2025. Real-time speech-to-text options for transcription:
+  - [Deepgram](https://deepgram.com/learn/live-transcription-mic-browser) has a MediaRecorder API, which is perfect.
+  - [Whisper Streaming Web](https://github.com/QuentinFuxa/whisper_streaming_web) is a web app that can transcribe audio real-time from the browser. A good approach, but I wouldn't use it for meeting transcription on my mid-end laptop. Streaming takes up the bulk of my GPU, leaving little for transcription.
+  - [whisper-live](https://github.com/collabora/WhisperLive) runs as a Python console app and does something similar.
+  - [Whisper WebGPU](https://huggingface.co/spaces/Xenova/realtime-whisper-webgpu) runs on the browser (only 200MB). Cool! But slow and still takes up GPU.
+- 26 Feb 2025. When evaluating inputs, models tend to prefer the first response, prefer their own response, and prefer longer responses. [ThursdAI](https://sub.thursdai.news/p/thursdai-feb-20-live-from-ai-eng)
+- 24 Feb 2025. [Mini-omni](https://github.com/gpt-omni/mini-omni/) is an open-source Qwen-based LLM that can hear and talk while thinking in real-time. An interesting experiment, but not for prototyping.
+- 23 Feb 2025. LLMs are excellent at database migration. They can convert schemas and queries across SQL dialects (e.g. BigQuery to DuckDB, etc.) at 90%+ accuracy. This is useful when clients want to migrate cloud providers, go from on-prem to cloud, or reduce cost by switching databases.
+- 22 Feb 2025. At PyConf Hyderabad, about 3 people had read a PEP. 1 had used the `match` operator. But 80% knew what a Vector DB was. 20% had used a Gemini API. That's how much traction LLM development is getting.
+- 21 Feb 2025. The productivity benefit people report from using LLms is about 3X. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3li4a2jal322a)
+- 21 Feb 2025. Soon, you'll be able to send an LLM to a virtual meeting on your behalf. It will talk like you. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lif6r42fp226)
+- 21 Feb 2025. Models tend to claim ignorance when you test them on topics they should avoid. But tend to answer when not being tested. Sneaky! [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lihsmpsqyk27)
+- 20 Feb 2025. Anecdotally, Grok 3 is very good for researching company information and latest news, particularly employee and customer sentiment. DeepSeek and Claude write more humanely than OpenAI. via Alberto Lopez Toledo, White Star Capital
+- 19 Feb 2025. LLMs are impacting not just data queries but geospatial queries as well. Here's a good example of [Natural Language Geocoding](https://element84.com/machine-learning/natural-language-geocoding/).
+- 18 Feb 2025. I subscribed to ChatGPT Pro mainly for DeepResearch. Here are the reports I've generated:
+  1. [`uv` Package Manager Overview](https://chatgpt.com/share/67b49a7b-a4c0-800c-a3dc-c5ab1ced23fe)
+  2. [DuckDB Analytics Comparison](https://chatgpt.com/share/67b4abfa-37b0-800c-a6e4-23b6c12e38b6)
+  3. [Rust vs Python / JavaScript](https://chatgpt.com/share/67b4f8eb-d1f4-800c-824d-f0ca65ed7f54)
+  4. [Modern Data Engineering Course](https://chatgpt.com/share/67b4fbc7-e6bc-800c-b2aa-dbf21339c8fc)
+  5. [LLM Code Migration Practices](https://chatgpt.com/share/67b50772-f4c8-800c-b20c-8dd04d1b5e69)
+  6. [Cloud Cost Optimization Strategies](https://chatgpt.com/share/67b5f809-9a5c-800c-8472-1153b2e4c1ae)
+  7. [LLM Coding Interview Tools Report](https://chatgpt.com/share/67b61969-2030-800c-99c2-8585b63aa392) (compare with [Perplexity](https://www.perplexity.ai/search/the-interview-coder-repo-https-g_k0T2DSQIuiWntUFjbyOg))
+  8. [Text To Speech Engines](https://chatgpt.com/share/67b63db0-8720-800c-87c6-f0b42581d801)
+  9. [Customer Service in Indian Public Sector Banks](https://chatgpt.com/share/67b74802-8b34-800c-9ea3-2972db4d80c6)
+  10. [LLMs in Software Development](https://chatgpt.com/share/67b75104-28e4-800c-87b8-f9c3d41a2cc9)
+      - Old version 1: [Gen AI in Software Development](https://chatgpt.com/share/67b7483a-5cd4-800c-a330-ba4a984b9248)
+      - Old version 2: [Gen AI in Software Development](https://chatgpt.com/share/67b75215-12f4-800c-9f9f-04c1f105b304)
+  11. [Leadership Training Content](https://chatgpt.com/share/67b750f2-8ea4-800c-9721-bb9abbd46b29)
+  12. [Open-Source HTTP Servers](https://chatgpt.com/share/67bafb23-cf14-800c-9b76-65f11285ae3a). Caddy wins.
+  13. [Deep Research Use Cases](https://chatgpt.com/share/67bf66b3-98b8-800c-8482-3ce42f100bb9)
+  14. [Nagpur No-Parking Violations](https://chatgpt.com/share/67bf6c69-a5d0-800c-8a49-12a46f29fef9)
+  15. [Data Science in Food Services](https://chatgpt.com/share/67bf6e2a-2db0-800c-9975-c6b3479fa279)
+  16. [Deep Research Disruption to Research Firms](https://chatgpt.com/share/67bf7946-c80c-800c-8132-6f4018455a68)
+  17. [LLMs in Design Thinking](https://chatgpt.com/share/67c3a676-c088-800c-bbdc-b638a99df50b)
+  18. [EU Taxonomy Report Clarification](https://chatgpt.com/share/67c56f48-3a8c-800c-bf5f-b1eeb91a529c)
+  19. [Shell Valuation Analysis Inquiry](https://chatgpt.com/share/67c6d513-8040-800c-bdc9-7d6d1bcd52f9)
+  20. [LLMs in DSLs Research](https://chatgpt.com/c/67c7991d-0358-800c-b450-8e81819267a6)
+  21. [Public API-Based Data Storage Options](https://chatgpt.com/share/67c7edad-bd78-800c-80a7-ed08dd97c1cf). Supabase wins.
+  22. [Front-End JS Frameworks Analysis](https://chatgpt.com/share/67ca8963-f564-800c-ae06-54464b58cf1d)
+  23. [Database Evaluation Guide](https://chatgpt.com/share/67ca8953-97a4-800c-baea-ad0de5836f12)
+  24. [CSS Frameworks Evaluation Guide](https://chatgpt.com/share/67ca893e-6450-800c-bd0a-d6213f48c356)
+  25. [CI/CD Tooling Ecosystem Report](https://chatgpt.com/share/67ca8920-dc3c-800c-bf56-6231a6028e70)
+  26. [Color Names Count](https://chatgpt.com/share/67ca88ee-f568-800c-ad74-e38ae385e61c)
+  27. [S Anand Biography](https://chatgpt.com/share/67cc36c7-0b20-800c-a3f4-56bada95cb7b). Meh, I know more about me, and it gets a few things wrong.
+  28. [Cosmere Secrets Encyclopedia](https://chatgpt.com/share/67ce2e28-d3ac-800c-a55f-e51b1c27d9c2). This is the best. Deep Research is great if it's stuff I actually want to read, rather than just learn about.
+  29. [DBT course](https://chatgpt.com/share/67ce4df7-4088-800c-94e7-8a3edb02a8f6)
+  30. [Future of Coding AI](https://chatgpt.com/share/67ce4e10-2968-800c-b663-8842045c1626)
+  31. [Claude Artifacts Use Cases](https://chatgpt.com/share/67ce4dcd-5cf8-800c-837c-6d05bd61822e). This is the only one that managed to get artifacts links correct. I used this for an article for The Hindu.
+  32. [MCP Servers and Clients Research](https://chatgpt.com/share/67ce7ef2-ead8-800c-982e-e99c9527099b). Learnings:
+      - Practically any "tool" can be an MCP server: file systems, APIs, codebases, browsers, collaboration platforms, memory, etc.
+      - Most platforms have (or are) integrating MCP.
+      - [Clients](https://github.com/punkpeye/awesome-mcp-clients): code editors, chat, and automation tools support MCP. GenAIScript is a good starting point.
+      - [Tester MCP Client](https://github.com/apify/tester-mcp-client) is a browser-based test environment.
+      - [mcp-cli-client](https://github.com/adhikasp/mcp-client-cli) is a CLI-based client
+      - [mcp-chatbot](https://github.com/3choff/mcp-chatbot) is a chatbot client
+  33. [Data Moats by Industry](https://chatgpt.com/share/67cfe129-69c8-800c-9bb8-f7db2955fa88)
+  34. [Attorney Profile Research](https://chatgpt.com/share/67cfe021-a2d4-800c-abf8-0ca5d54c8a43)
+  35. [Social Media Data APIs](https://chatgpt.com/share/67cfe2bb-0814-800c-8c5b-17442906fdcf)
+  36. [Adobe Software Alternatives](https://chatgpt.com/share/67d11e8f-eac4-800c-bf23-960e3f18b4aa)
+  37. [LLM Hallucination Visualization Techniques](https://chatgpt.com/share/67d3ba57-3cc0-800c-830e-a48b5d531e86)
+  38. [API vs Self-hosting Cost Analysis](https://chatgpt.com/share/67d3b985-2df0-800c-b9a7-b04fd6e18042): Always use APIs, avoid self-hosting models.
+  <!-- #TODO
+  - PDF extractors
+  - Databases
+  - Training material on:
+    - Data governance and quality
+    - Document content extraction
+    - Agile digital transformation
+    - Responsible AI?
+    - D3-based data visualization?
+  - Emerging trends and competitive intelligence in:
+    - EdTech
+    - Publishing
+    - Analytics
+  - Challenges faced by (a client) and potential strategies
+  - Latest news about (a client)
+  - Industry Whitepapers on: AI-driven data solutions, CI/CD implementations, vector databases, etc.
+  - Insightful Blog Posts: Generate data-backed articles on emerging trends in content technology and data services, attracting a wider audience to Straive's platforms.
+    -->
+- 16 Feb 2025. HuggingFace has a "Model tree" against each model that shows the model's ancestors and descendants. For example, as of now, [Deepseek R1](https://huggingface.co/deepseek-ai/DeepSeek-R1) has 75 adapters, 154 finetunes, and 23 quantizations.
+- 16 Feb 2025. Perplexity is now powered by Cerebras, which makes their inference as fast as Google. [Source](https://cerebras.ai/press-release/cerebras-powers-perplexity-sonar-with-industrys-fastest-ai-inference). The speed is a big factor, and I've switched my default search engine from Google to Perplexity, at least for now.
+- 16 Feb 2025. [Interview Coder](https://www.interviewcoder.co/) is a desktop app that offers live interview support for coding interviews. It's a transparent window that reads your screen and answers questions for you. (Given this, I think we need an _interviewer_ support system that tells interviewers what to ask!)
+- 05 Feb 2025. ChatGPT does a good job of spotting errors in architectural and structural diagrams. In fact, the whole theme of spotting errors in large diagram is a theme that can have potential use cases. Source: Dan Becker.
+- 05 Feb 2025. R1 seems good at text-to-CAD. Even better than Sonnet. Source: Dan Becker
+- 03 Feb 2025. OpenAI advices a few different prompting techniques for reasoning models. [OpenAI](https://platform.openai.com/docs/guides/reasoning#advice-on-prompting):
+  - Avoid examples unless zero-shot prompting fails.
+  - Avoid chain-of-thought. These models do that internally anyway.
+  - Short, direct prompts are better than detailed prompts.
+- 03 Feb 2025. [GitHub models](https://github.com/marketplace/models) is free for anyone to try. The model catalog us _extensive_ and even includes `o3-mini` which was launched this week (though in limited preview).
+- 02 Feb 2025. With just 3 annotators and 50-100 samples, you can figure out if an LLM can replace human annotators systematically.[Arxiv](https://arxiv.org/pdf/2501.10970) [ChatGPT explanation](https://chatgpt.com/share/679f21a4-d700-800c-b1f1-987b56b6fe0a)
+- 02 Feb 2025. Curiosity and agency may be the differentiator in a world of LLMs (not experience, knowledge, or ability), since LLMs will democratize expertise. [Jack Clark](https://importai.substack.com/p/import-ai-397-deepseek-means-ai-proliferation)
+- 02 Feb 2025. "AI/human combined work can be copyrighted as long as a human is adding, changing or selecting elements. Prompts alone do not usually produce copyrighted work." - [Copyright and Artificial Intelligence, Jan 2025, US Copyright Office](https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf) via [Ethan Mollick](https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu/post/3lgxlnzgbss2j)
+  - **Human Authorship is Essential:** Works created solely by AI are not copyrightable.
+  - **AI can be used as a Tool:** Using AI as a tool does not negate copyright protection, as long as the final work reflects sufficient human creativity.
+  - **Prompts Alone are Insufficient:** Simply providing prompts to an AI system, even detailed ones, is generally not enough to establish authorship. Prompts are considered instructions or ideas, which are not copyrightable.
+  - **Expressive Inputs:** When a human author provides their own expressive content (like a drawing, photo, or text) as input to an AI system, and that content is perceptible in the output, the human author can claim copyright in that portion of the output.
+  - **Modifying and Arranging AI-Generated Content:** Humans can claim copyright in the creative selection, coordination, and arrangement of AI-generated material, as well as in creative modifications to AI-generated outputs.
+  - **No Need for New Legislation:** The report concludes that existing copyright law is adequate to address the copyrightability of AI-generated works, and no new legislation is needed at this time.
+  - **Case-by-Case Analysis:** Copyrightability will be determined on a case-by-case basis, considering the specific facts of each work and the extent of human contribution.
 
 ## Jan 2025
 
+- 30 Jan 2025. You can use embeddings as the input to a classical ML classifier. This can improve classification a lot. [Nomic](https://docs.nomic.ai/atlas/cookbook/building-image-classifiers-with-atlas)
+- 30 Jan 2025. As AI software becomes more common, demand for AI product managers will grow. Also as a proportion of people in an organization. https://www.deeplearning.ai/the-batch/issue-284/
+- 30 Jan 2025. Control of chips and GPU compute is what will likely be the gameplay to control AI dominance globally. [Dario Amodei](https://darioamodei.com/on-deepseek-and-export-controls)
 - 26 Jan 2025. I was exploring new business models enabled by LLMs. [Here are some thoughts](https://chatgpt.com/share/6795b30f-35d4-800c-9863-285a852afe7b):
-  - **1. Autonomous Multi-Sided Marketplaces**. AI-powered platforms coordinate complex services with minimal human oversight—think “Uber for Everything,” but the platform sets pricing dynamically, schedules both supply and demand, and resolves disputes algorithmically.
-  - **2. Collective Intelligence Ecosystems**. Communities pool data, expertise, and AI models to tackle shared problems—like an open-source “GitHub for AI,” but with embedded micropayments or tokenized incentives to reward contributors whenever the models are used commercially.
-  - **3. Zero-Employee Companies**. Fully automated software entities—legal frameworks might allow an AI to manage services, pay taxes, and sign contracts. These “companies” only hire humans as needed, on-demand, for edge cases AI can’t handle.
+  - **1. Autonomous Multi-Sided Marketplaces**. AI-powered platforms coordinate complex services with minimal human oversight—think “Uber for Everything, but the platform sets pricing dynamically, schedules both supply and demand, and resolves disputes algorithmically.
+  - **2. Collective Intelligence Ecosystems**. Communities pool data, expertise, and AI models to tackle shared problems—like an open-source “GitHub for AI, but with embedded micropayments or tokenized incentives to reward contributors whenever the models are used commercially.
+  - **3. Zero-Employee Companies**. Fully automated software entities—legal frameworks might allow an AI to manage services, pay taxes, and sign contracts. These “companies only hire humans as needed, on-demand, for edge cases AI can’t handle.
   - **4. Context-Aware Knowledge Platforms**. Imagine a Wikipedia that not only retrieves static info but also tailors each page in real time to the reader’s personal context, language level, and preferences—generating content on the fly. User feedback loops train the system to improve.
   - **5. Data Cooperatives / Data DAOs**. Groups collectively own their data and license it to AI companies on a revenue-share basis. Individuals have a direct financial stake in how their shared data is leveraged, voting on permissible use cases.
-  - **6. Personalized Service Layers**. Similar to GitHub’s “forking” model, but for entire user experiences. Each user can clone and customize an AI service (whether it’s a personal grocery shopper or a content curator) and can share or monetize improvements with the broader network.
+  - **6. Personalized Service Layers**. Similar to GitHub’s “forking model, but for entire user experiences. Each user can clone and customize an AI service (whether it’s a personal grocery shopper or a content curator) and can share or monetize improvements with the broader network.
 - 23 Jan 2025. According to [Portkey's LLM usage analysis](https://docsend.com/view/wei3digde8cvmwsr)
   - Anyscale and Fireworks AI have the lowest error rates (5xx, 429) and rate limits across providers
   - Groq and Anthropic are among the highest, OpenAI is among the lowest, Google is in-between
@@ -62,7 +400,7 @@
 - 13 Jan 2025. A colleague, Karthick, asked different models to apply the editing and formatting guidelines for a journal to a manuscript. (E.g. Abbreviate chapter & section numbers, except when a sentence begins with it. Use "1" instead of "one", etc. except when a sentence begins with it. Things like this.) Gemini Exp 1206 seems to be the most reliable, compared with most other models.
 - 12 Jan 2025. [TTS Arena](https://huggingface.co/spaces/Pendrokar/TTS-Spaces-Arena) is a benchmark of text-to-speech models. [Kokoro-TTS](https://huggingface.co/spaces/hexgrad/Kokoro-TTS) is the current leader. It's just 82M, runs on Google Colab, and sounds slightly better than OpenAI TTS.
 - 12 Jan 2025. [chat.qwenlm.ai](https://chat.qwenlm.ai/) consolidates all of Qwen's models in one ChatGPT-like interface.
-- 11 Jan 2025. [Can LLMs write better code if you keep asking them to “write better code”?](https://minimaxir.com/2025/01/write-better-code/) A delightful exploration of how Claude 3.5 Sonnet keeps optimizing and adding features to improve code. My takeaway: repeatedly applying a prompt gives us interesting new directions to explore.
+- 11 Jan 2025. [Can LLMs write better code if you keep asking them to “write better code?](https://minimaxir.com/2025/01/write-better-code/) A delightful exploration of how Claude 3.5 Sonnet keeps optimizing and adding features to improve code. My takeaway: repeatedly applying a prompt gives us interesting new directions to explore.
 - 08 Jan 2025. [smolagents](https://huggingface.co/blog/smolagents) is a new agents library from HuggingFace. It seems simple enough to use.
 - 08 Jan 2025. [whisper-flow](https://github.com/dimastatz/whisper-flow/) does real-time speech transcription!
 - 08 Jan 2025. [Switchboard-1](https://catalog.ldc.upenn.edu/LDC97S62) is a labelled audio corpus with ~260 hours of speech. It has ~2,400 calls among 500+ speakers in the US.
@@ -102,6 +440,7 @@
 ## Dec 2024
 
 - 28 Dec 2024. A clever idea. Give an LLM a chapter from a textbook. Ask it to generate a unique, playable game to help me learn theconcepts for an exam. [Page Bailey](https://www.linkedin.com/feed/update/urn:li:activity:7278124663048695809/)
+- 27 Dec 2024. Satya Nadella prepares for meetings by asking Copilot to tell him everything he needs to know about the client from the CRM, emails, meeting transcripts etc. He shares that colleagues who annotate it further for him. That's using AI for reasoning _and_ collaborating with colleagues. [55m](#TODO)
 - 26 Dec 2024. WOW. This is how a software agent will work alongside humans: [Fix issue #5478: Add color to the line next to "Ran a XXX Command" based on return value](https://github.com/All-Hands-AI/OpenHands/pull/5483) - using [@openhands-agent](https://github.com/openhands-agent).
 - 26 Dec 2024. [aisuite](https://github.com/andrewyng/aisuite) by Andrew Ng is a unified interface to LLMs. Sort of like an `openai` library across multiple providers.
 - 26 Dec 2024. Learnings from [Best of 2024 in Agents (from #1 on SWE-Bench Full, Prof. Graham Neubig of OpenHands/AllHands)](https://youtu.be/B6PKVZq2qqo)
@@ -121,9 +460,9 @@
   - RapidClaims, funded by TogetherAI, is apparently working on this problem.
 - 23 Dec 2024. Document to Markdown Converters:
   - [PyMuPDF4LLM](https://pymupdf.readthedocs.io/en/latest/pymupdf4llm/) uses [MuPDF](https://mupdf.com/). Requires PyTorch.
-    - `PYTHONUTF8=1 uv run --with pymupdf4llm python -c 'import pymupdf4llm; h = open("pymupdf4llm.md", "w"); h.write(pymupdf4llm.to_markdown("SpreadsheetLLM-2407.09025v1.pdf"))'`
+    - `PYTHONUTF8=1 uv run --with pymupdf4llm python -c 'import pymupdf4llm; h = open("pymupdf4llm.md", "w"); h.write(pymupdf4llm.to_markdown("$FILE.pdf"))'`
   - [markitdown](https://github.com/microsoft/markitdown) from Microsoft. PDF via PDFMiner, DOCX via Mammoth, XLSX via Pandas, PPTX via Python-PPTD, ZIP, etc.
-    - `PYTHONUTF8=1 uvx markitdown SpreadsheetLLM-2407.09025v1.pdf > markitdown.md`
+    - `PYTHONUTF8=1 uvx markitdown $FILE.pdf > markitdown.md`
   - [Docling](https://github.com/DS4SD/docling) by IBM. Unable to install via pip on Windows AND on Linux.
   - [MegaParse](https://github.com/QuivrHQ/MegaParse) uses libreoffice, pandoc, tesseract-ocr, etc. Requires OpenAI API key.
 - 23 Dec 2024. [Awesome Tabular LLMs](https://github.com/SpursGoZmy/Awesome-Tabular-LLMs) compiles encodings of tables for LLMs.
@@ -162,6 +501,7 @@
     - **Evaluator-optimizer**: One model checks another in a loop. E.g. Literary translation. Self-healing code. Policy violation checks.
     - **Human-in-the-loop Checkpoints**: The workflow explicitly requests human review at certain stages.
   - **Agents** are LLMs that dynamically direct their own processes and tool usage, consulting tools or the user as needed.
+- 21 Dec 2025. A clever trick to prevent voice models from speaking too quickly. Use a "stay silent" function call. [Ref](https://x.com/ilanbigio/status/1870218818288558396?t=Bo-BdgJ0hFKOJ0urC0HYBQ)
 - 19 Dec 2024. o1-preview diagnoses better than doctors. [Harvard](https://arxiv.org/pdf/2412.10849)
 - 18 Dec 2024. OpenAI's release of ephemeral tokens via sessions (valid for 1 minute) are a useful way of exposing apps for public demos. Currently it works only for the Realtime API, though.
 - 18 Dec 2024. [SpreadsheetLLM](https://arxiv.org/abs/2407.09025) is a way of encoding spreadsheets in an LLM friendly format.
@@ -285,8 +625,8 @@
   - What this means is:
     - **Admin automation**: Administrative tasks vanish into background AI. Booking meetings, managing finances, or even planning family activities will require less thought.
     - **Hyper-personalization**: Individuals get tailor-made everything—from medical advice to product recommendations to daily schedules. Systems learn your quirks.
-    - **AI co-brains**: AI co-worker “assistants” support you at any moment. Productivity soars in knowledge work. “I’ll have my AI follow up” becomes a normal response.
-    - **Humanity valued more**: As AI handles rote tasks, humans move up the value chain, focusing on creativity, empathy, or the “last-mile” decisions.
+    - **AI co-brains**: AI co-worker “assistants support you at any moment. Productivity soars in knowledge work. “I’ll have my AI follow up becomes a normal response.
+    - **Humanity valued more**: As AI handles rote tasks, humans move up the value chain, focusing on creativity, empathy, or the “last-mile decisions.
     - **New business models**:
       - AI experts as a service
       - Embedded AI Solutions
@@ -319,7 +659,7 @@
 ## Nov 2024
 
 - 29 Nov 2024. GPT-4o Audio supports tone control via XML tags like `<cough>...`, `<laugh>...`, etc. But at ~$15/hr of output, it's too expensive. [Ref](https://x.com/ilanbigio/status/1861913173432946808)
-- 29 Nov 2024. Mridula's son gave a live commentary of what he was doing on Minecraft and ChatGPT gave him live evaluation and coaching. E.g. “Great strategy! Getting to the launch pad early can give you a huge mobility advantage. Making the bridge wider is also a smart move to prevent accidental falls. With this plan, you’re setting yourself up for success.” This is a great way to interact with LLMs.
+- 29 Nov 2024. Mridula's son gave a live commentary of what he was doing on Minecraft and ChatGPT gave him live evaluation and coaching. E.g. “Great strategy! Getting to the launch pad early can give you a huge mobility advantage. Making the bridge wider is also a smart move to prevent accidental falls. With this plan, you’re setting yourself up for success. This is a great way to interact with LLMs.
 - 29 Nov 2024. Gemini's JSON mode returns JSON with keys in alphabetical order. I think. Emperical evidence. This is unlike OpenAI which explicitly returns the keys in the order specified.
   - To solve this, order the keys alphabetically.
 - 28 Nov 2024. I installed the [OpenAI Desktop App](https://openai.com/chatgpt/desktop/) as well as [Claude for Desktop](https://claude.ai/download). They take up too much RAM (260MB and 750 MB respectively on startup - though this varies.) The ChatGPT web page takes ~100MB incrementally, so I wrote an [AutoHotkey script](https://www.autohotkey.com/) to switch to the first open (or recently closed) ChatGPT tab on [Brave](https://brave.com/).
@@ -367,6 +707,7 @@
   - People find it very easy to understand agentic workflows once they read through the code
   - Reflection or feedback is a useful agentic pattern
   - In multi-agent collaboration, it may be the same underlying model that is acting as different agents. But just like we find it useful for the same CPU to run multiple processes and each application is its own abstraction, agents of useful abstraction
+- 27 Nov 2024. It's hard to summarize a large document using RAG. But you can directly add answers to such questions into the corpus, e.g. by adding a "summary" section, and other answers to common questions.
 - 26 Nov 2024. [Ultravox](https://www.ultravox.ai/) lets you build voice agents at 5c/min = $3/hr (OpenAI is 6c input, 24c output). Or [clone their repo](https://github.com/fixie-ai/ultravox).
   - Idle call time is counted towards cost. So cost may be higher than OpenAI.
   - Voice cloning quality is average. Very distinctive voices are just partly identifiable.
@@ -621,7 +962,7 @@
 - 3 Oct 2024. OpenAI Evals and Distillation has a clever design. They just convert filtered history to .JSONL files that can be an input to either.
 - 3 Oct 2024. [Speak](https://www.speak.com/) is a language learning app based on OpenAI's Realtime API.
 - 3 Oct 2024. OpenAI's Realtime API can be used in a text-to-text chat mode without needing to send the entire context. If the pricing works out right, this can be far cheaper than sending the entire conversation context. [Ref](https://news.ycombinator.com/item?id=41715725)
-- 3 Oct 2024. Matching addresses with just embeddings works well. Combine it with simple hard rules. [Source](https://www.dbreunig.com/2024/09/27/conflating-overture-points-of-interests-with-duckdb-ollama-and-more.html)
+- 3 Oct 2024. Matching addresses with just embeddings works well. Combine it with simple hard rules. [Ref](https://www.dbreunig.com/2024/09/27/conflating-overture-points-of-interests-with-duckdb-ollama-and-more.html)
 - 3 Oct 2024. [OpenAI's prompt caching works for images too -- both linked and embedded](https://cookbook.openai.com/examples/prompt_caching101)
 - 3 Oct 2024. Quotes on Graph RAG from a Generative AI WhatsApp Group.
   - "Damn so literally nobody uses Graph RAG yet. Good to know." ~Sumba
