@@ -2,6 +2,16 @@
 
 ## Mar 2025
 
+- 18 Mar 2025. Anger is a trigger for change. "Either change yourself or the environment, else you'll be uncomfortable."
+- 18 Mar 2025. [HocusPocus](https://tiptap.dev/docs/hocuspocus/introduction) allows live collaboration e.g. editing together
+- 18 Mar 2025. [Block notes](https://www.blocknotejs.org/) is a notion like library for editor components. Converts to Markdown
+- 18 Mar 2025. [Oxidizr](https://jnsgr.uk/2025/03/carefully-but-purposefully-oxidising-ubuntu) enables replacing Linux tools with Rust equivalents.
+- 18 Mar 2025. [Emoji Kitchen](https://emojikitchen.dev/) lets you create stickers from emoji combinations.
+- 16 Mar 2025. `duckdb -ui` launches a DuckDB notebook. This is built into newer DuckDB releases
+- 16 Mar 2025. [Monolith](https://github.com/Y2Z/monolith) downloads web pages as a single HTML file by embedding content.
+- 16 Mar 2025. [Archgw](https://github.com/katanemo/archgw?tab=readme-ov-file) is an LLM proxy/router from the makers of Envoy proxy.
+- 16 Mar 2025. There's an [annotated Terry Pratchett](https://www.lspace.org/books/apf/the-colour-of-magic.html)!
+- 15 Mar 2025. Here is a [training program on open source corporate policy](https://todogroup.org/resources/training/).
 - 15 Mar 2025. [htmlq](https://github.com/mgdm/htmlq) and [pup](https://github.com/ericchiang/pup) query HTML. They're like `jq` for HTML.
 - 15 Mar 2025. Here are time-tested and robust ways to leverage serendipity: [ChatGPT](https://chatgpt.com/share/67d4df37-d30c-800c-bf25-e33f94dc53b0)
   1. **Place**. Be in places with high, diverse, talent density. Bell Labs (1950s), MIT (1970s), Pixar (1990s).
@@ -702,7 +712,7 @@
 - 18 Nov 2024. [HTML is all you need](https://maxbo.me/a-html-file-is-all-you-need.html) shows examples of using HTML for notebooks instead of Jupyter, Observable, etc.
 - 17 Nov 2024. The problem with Accept headers is that you can't link to them. [Simon Willison](https://fedi.simonwillison.net/@simon/113484569366205490)
 - 14 Nov 2024. Use a standardized password strategy, e.g. use the month like GramNov2024 (via Namit)
-- 12 Nov 2014. List of Gen AI companies disrupting SaaS incumbents: https://www.linkedin.com/posts/sjbrinker_martech-activity-7261021751705243649-M28M
+- 12 Nov 2014. List of Gen AI companies disrupting SaaS incumbents: [LinkedIn](https://www.linkedin.com/posts/sjbrinker_martech-activity-7261021751705243649-M28M)
 - 11 Nov 2024. Cloudflare R2 has the same API as S3 but is cheaper
 - 11 Nov 2024. Prefect.io is a good alternative to Airflow / cron. Can use for synchronisation tasks, e.g. Drive to server. But no Auth, UI params or config.
 - 10 Nov 2024. [Tech Council Ventures](https://techcouncilventures.com/) and [Sunicon VC](https://sunicon.vc/) invest in early stage startups, and aloso provide them technology support (via Naveen)

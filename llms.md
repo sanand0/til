@@ -34,6 +34,14 @@
 
 ## Mar 2025
 
+- 18 Mar 2025. Another way of scaling LLMs is generating multiple options and self evaluating. [Eric Zhao](https://x.com/ericzhao28/status/1901704339229732874)
+- 16 Mar 2025. Gemini API allows YouTube videos as a part. [Google](https://ai.google.dev/gemini-api/docs/vision?lang=python#youtube)
+- 16 Mar 2025. agents.json is a proposal for discovery of agents on a site that enhances the Open API spec: [wild-card-ai/agents-json](https://github.com/wild-card-ai/agents-json)
+- 16 Mar 2025. Since Gemini Flash 2.0 is now an image GENERATION model, interactive VISUAL fiction is now a cool possibility. People are using it in interesting ways:
+  [Interleaved storytelling](https://x.com/OriolVinyalsML/status/1901328862656503826),
+  [Memes](https://x.com/emollick/status/1901431681279475808),
+  [Surrealism](https://x.com/emollick/status/1901370982557794658).
+- 15 Mar 2025. Playbook driven agents are another approach to agentic workflows. [Simon Willison](https://simonwillison.net/2025/Mar/13/xata-agent/)
 - 14 Mar 2025. This [table of LLM API data protection](https://www.rosenthal.ch/downloads/VISCHER_ai-tools-03-25.pdf) lists what use cases each provider's terms of service allow from a security perspective.
 - 14 Mar 2025. [Unsloth](https://unsloth.ai/) might be one of the simplest ways of fine-tuning.
 - 14 Mar 2025. For LLM UIs, [Open Web UI](https://github.com/open-webui/open-webui) seems most popular.
@@ -72,6 +80,8 @@
   - [Notagen](https://electricalexis.github.io/notagen-demo/) is an open-source note generation engine that produces high-quality classical sheet music.
   - [Sesame](https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice) has an [open-source](https://github.com/SesameAILabs/csm) voice model worth exploring.
   - [DiffRhythm](https://github.com/ASLP-lab/DiffRhythm) is a music generation model that appears to be quite good.
+- 09 Mar 2025. 2 pass bounding box approach. Have an LLM generate bounding boxes. Then fix it. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3ljt3gk3i422u)
+- 09 Mar 2025. `uv tool install` and `uv tool ensure-path` are useful commands for installing and ensuring path for tools. [Simon Willison](https://til.simonwillison.net/jupyter/jupyterlab-uv-tool-install)
 - 08 Mar 2025. I agree with almost every point on this LinkedIn post on scoring candidates for AI roles. [Rob Balian](https://www.linkedin.com/posts/robbalian_were-starting-to-use-a-points-system-when-activity-7303542581580156929-BrNG)
   - Uses DeepSeek R1 or Claude 3.7 +5 points
   - Uses Langchain -5 points
@@ -322,6 +332,20 @@
   36. [Adobe Software Alternatives](https://chatgpt.com/share/67d11e8f-eac4-800c-bf23-960e3f18b4aa)
   37. [LLM Hallucination Visualization Techniques](https://chatgpt.com/share/67d3ba57-3cc0-800c-830e-a48b5d531e86)
   38. [API vs Self-hosting Cost Analysis](https://chatgpt.com/share/67d3b985-2df0-800c-b9a7-b04fd6e18042): Always use APIs, avoid self-hosting models.
+  39. [AGI Preparation](https://chatgpt.com/share/67d6a803-3e6c-800c-a886-10fe1e4dc3b9)
+      - AGI will emerge step by step. Knowing which step is next will help
+      - AI native organisations will emerge in each of these areas. AI design agencies and AI creative Agencies being one example
+      - Networking, empathy, leadership have more value now. So will human AI bridging roles
+      - What's the value of one human when another human can do practically everything they can but much better? Or a drama or a sport?
+  40. [Modern digital note taking](https://chatgpt.com/share/67d6bd5d-af74-800c-a6d7-bc1829f03c26)
+      - Voice note taking is the game changer
+      - Automatically popping of notes based on context such as people places or conversations will be a thing
+  41. [Local LLM Search Tools](https://chatgpt.com/share/67d79662-2be4-800c-93e7-376eb68ceecf)
+  42. [Blog Post to research paper on copying - suggestions](https://chatgpt.com/share/67d7968f-b020-800c-b7e7-2b086546b032)
+  43. [Linux Dev Migration Guide](https://chatgpt.com/share/67d83394-43bc-800c-8157-8d498290638f)
+  44. [Raspberry Pi SIM options](https://chatgpt.com/share/67d8eefe-a1f4-800c-93d0-fbed732e14fb)
+  45. [Linux Dev migration guide](https://chatgpt.com/share/67d83394-43bc-800c-8157-8d498290638f)
+  46. [HTML to JATS conversion](https://chatgpt.com/share/67d907fe-e0f4-800c-a4ad-f7dcf5176a5d)
   <!-- #TODO
   - PDF extractors
   - Databases
