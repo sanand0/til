@@ -2,6 +2,45 @@
 
 ## Mar 2025
 
+- 30 Mar 2025. Use [QR vCards](https://www.qrcode-monkey.com/#vcard) instead of business cards. Less to carry. Directly adds to their contacts.
+- 29 Mar 2025. Discussion with [Vedang](https://vedang.me/)
+  - [Recurse center](https://www.recurse.com/) (Brooklyn, online) is a 6/12 week free self-driven programmer retreat. Runs every 6 weeks. You can do whatever you pick. There are daily standups for accountability. The groups are diverse. You can pair with them, pivot ideas, whatever. [Principles](https://www.recurse.com/self-directives): push yourself & learn.
+  - Western education techniques (e.g. spaced repetition, adaptive learning) are very much present in Indian coaching systems, though not known by those names. However, interventions are hard since class 12 students _just don't have enough time_.
+  - Coaching classes are a social phenomenon. It's not the smart students who are pulling in their friends. Smart students actually _follow_ the popular students. (Coaching classes are below the typical smart students' standards.)
+  - Monetizing coaching is hard. People don't want to pay for advice, and welcome free advice only _if they ask for it_. Coupling with execution is necessary.
+  - Aider's integrations make it more powerful than Cursor/Windsurf. It auto-lints, runs test cases. Allows different models for "architecting" (generating changes) vs "editing" (applying code). It reads from the screen logs. Context is manual, not automated. Uses an `ai!` comment to trigger changes and `ai?` to ask questions.
+  - [Cline.bot](https://cline.bot/) is another Cursor-like open source AI code editor that's a VS Code plugin.
+  - When coding with LLMs, a useful workflow is: data schema ➡️ interfaces ➡️ LLM-generated test cases ➡️ code.
+  - ShellSage is a `tmux` based LLM tool for the command line. It screen-grabs from tmux, which is powerful.
+  - Some MCPs that have proven useful: [vega-lite](https://github.com/isaacwasserman/mcp-vegalite-server), [SQLite](https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite), [sequential thinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking), [memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory)
+  - `make` sucks but is hard to beat. [`just`](https://github.com/casey/just) comes closest.
+  - CRDTs are more powerful than for just collaborative editing. It can power a peer-to-peer Internet (beginning with office tools). Versioning schema is still problematic. [`yjs`](https://github.com/yjs/yjs) is a good start but [`automerge`](https://github.com/automerge/automerge) (Rust, WASM) is faster and may be better.
+  - [Fermyon](https://www.fermyon.com/) hosts WASM serverless functions.
+- 28 Mar 2025. [13 things I would have told myself before building an autorouter](https://blog.autorouting.com/p/13-things-i-would-have-told-myself) has a few interesting points:
+  - The [A\* algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm) finds the shortest path in a graph _much_ quicker than others like Dijkstra's algorithm by preferring nodes closer to the goal.
+  - Spatial Hash Indexing are O(1) and beat Tree Data Structures which are O(log n). Always prefer hashes when possible.
+- 28 Mar 2025. There's an actual convention for using emojis in Git commits: [gitemoji](https://gitmoji.dev/). It even has a [VS Code plugin](https://github.com/seatonjiang/gitmoji-vscode), a [changelog generator](https://github.com/frinyvonnick/gitmoji-changelog/), and [more](https://gitmoji.dev/related-tools).
+- 28 Mar 2025. Emojis have a strong role in enhancing Markdown documents. The ones I use often are:
+  - 🔴🟡🟢 for low/medium/high priority
+  - ⭐️ or ❤️ or 👍 for ratings or emphasis
+  - ✅ for completed tasks
+  - 💡 for ideas
+  - ⚠️ or ❗️ for warnings / issues
+- 28 Mar 2025. Technological innovations have always been changing art forms. For example, the [perspective grid](https://en.wikipedia.org/wiki/Perspective_%28graphical%29#Renaissance) and the [camera obscura](https://www.researchgate.net/publication/387663661_From_Light_to_Canvas_The_Camera_Obscura%27s_Role_in_Renaissance_Artistic_Technique) led to major improvements in realistic paintings in the 15th and 17th centuries.
+- 28 Mar 2025. [regex](https://pypi.org/project/regex/) is an _officially recommended_ Python library with better regex support than re. [Ref](https://carlo.ai/til/regex-search)
+- 25 Mar 2025. Playwright offers an MCP server. https://simonwillison.net/2025/Mar/25/playwright-mcp/
+- 23 Mar 2025. I've settled on [sqooosh.app](https://sqooosh.app/) for image compression using WebP. I'm exploring [FreeImage.host](https://freeimage.host/) for image hosting instead of Imgur for WEBP support. FreeImage.host also seems [reliable](https://budgetlightforum.com/t/reference-the-best-free-image-hosting-sites-that-support-webp-images/219923), retains file sizes, and supports hotlinking.
+- 23 Mar 2025. [DeepFace](https://github.com/serengil/deepface) currently seems the easiest option for face detection. Easy to install. Multiple back-ends.
+- 21 Mar 2025. I was born in the Ananda year in the Tamil _and_ Telugu calendars. [ChatGPT](https://chatgpt.com/share/67dbcb41-209c-800c-9403-1eb4cd365ece)
+- 20 Mar 2025. Alexander Doria shares an interesting perspective on the app space. [Model is the product](https://vintagedata.org/blog/posts/model-is-the-product)
+  - Models are natively absorbing app capability and will become killer systems internalising workflows like Chat, Deep Research, Claude Code, Operator, etc. to wipe out the apps and workflow space. Models will "internalize" tool capabilities
+  - Opinionated or focused training will be a lever and model providers will acqui-hire the successful trainers
+  - API access from model providers will shrink. Selling tokens is not a viable business model given lowering costs
+- 20 Mar 2025. Andrej Karpathy's note taking mechanism is similar to mine, except I use Microsoft TODO. [Ref](https://x.com/karpathy/status/1902503836067229803)
+  - I have 3 categories. Things I learnt, which I just note. Things to explore, which I can delegate, defer, drop, or do at any time. Things to do, which are the hardest and pile up.
+- 19 Mar 2025. OpenAI now supports [PDFs natively in the API](https://platform.openai.com/docs/guides/pdf-files?api-mode=chat). (Gemini has done so for a while)
+- 19 Mar 2025. The `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files. To support symlinks on Windows, you either need to [activate Developer Mode](https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development) or to run Python as an administrator.
+- 19 Mar 2025. In Windows, you can enable offline files for any SMB share via: Control Panel → Sync Center → Manage offline files and turn on the feature. Then, in File Explorer, right‑click the mapped network folder or drive and select "Always available offline."
 - 18 Mar 2025. Anger is a trigger for change. "Either change yourself or the environment, else you'll be uncomfortable."
 - 18 Mar 2025. [HocusPocus](https://tiptap.dev/docs/hocuspocus/introduction) allows live collaboration e.g. editing together
 - 18 Mar 2025. [Block notes](https://www.blocknotejs.org/) is a notion like library for editor components. Converts to Markdown
@@ -36,7 +75,7 @@
 - 15 Mar 2025. Here's a [sample CI/CD pipeline with automated code review](https://gitlab.com/kitarp29/buaji/-/jobs/8416107396).
   - [Here is the script that generated it](https://gitlab.com/kitarp29/buaji/-/blob/e9211bd619bd238f4b32c4a3509b78c199937f8d/.gitlab-ci.yml#L84-113).
   - Note the use of [NVIDIA's GPU Docker containers](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/) via `nvcr.io`
-- 15 Mar 2025. Things I lLearnings on robotics.
+- 15 Mar 2025. Things I learnt about robotics.
   - [SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100) is an open-source 3D printable robot arm. Takes ~20 hours to print, ~1 hour to assemble. Costs ~$120.
   - [LeKiwi](https://github.com/SIGRobotics-UIUC/LeKiwi) is a mobile version of this arm
   - [LeRobot](https://github.com/huggingface/lerobot) is a set of HuggingFace models and datasets. The idea is, you can use one "control" robot to control the other. Do stuff manually, teach it ~50 times, and it learns how to do what you're do.
@@ -69,6 +108,7 @@
   - Use [distroless images](https://github.com/GoogleContainerTools/distroless) from GCR. It doesn't have shells, package managers, etc. Fewer vulnerabilities.
 - 14 Mar 2025. [Playwright](https://playwright.dev/) seems to be the emerging standard for modern browser testing/automation, beating [Cypress](https://www.cypress.io/) and [Selenium](https://www.selenium.dev/).
 - 14 Mar 2025. "Openwashing" is a term where something is termed open source but is not.
+- 14 Mar 2025. [Photos from FOSSASIA](https://drive.google.com/drive/folders/1Bk9vILFYUjqxS2jHxBvY148yWSuC5WWm) are public.
 - 14 Mar 2025. To publish images long-term
   - [GitHub](https://github.com/) is an option. Likely to last long-term. Clone-able.
   - [Archive.org](https://archive.org/) is a good too but may suffer from bandwidth constraints.
@@ -478,6 +518,12 @@
   - [India Inflation Calculator](https://www.in2013dollars.com/india/inflation/1981?amount=25) - a rare inflation calculator with annual inflation rates baked in - shows that Rs 25 in 1981 is equivalent to Rs 540 in 2024. That's about 25 times more than the Rs 21 it costs today.
 - 26 Jan 2025. [A WebAssembly compiler that fits in a tweet](https://wasmgroundup.com/blog/wasm-compiler-in-a-tweet/) deconstructs a piece of JS that creates a tiny WebAssembly calculator. It's a great walk-through of JavaScript compression tricks and how WebAssembly works. [Simon Willison](https://simonwillison.net/2025/Jan/25/a-webassembly-compiler-that-fits-in-a-tweet/#atom-everything)
 - 26 Jan 2025. Brandon Sanderson has a [series of YouTube videos](https://www.youtube.com/watch?v=-6HOdHEeosc) where he teaches a course on magic systems.
+- 25 Jan 2025. Something I learned from a Sikkil Gurucharan concert.
+  - Make the subject of your talk the hero. Not yourself. Be a fan. Share your enthusiasm
+  - Get into the zone while presenting.
+- 24 Jan 2025. Something I learnt from [Aboorva Singeetham](https://youtu.be/AjoQTODx0rY):
+  - Kamal Hassan: "A farmer invests in crops. I'm an actor. So I invest in films." As a technologist, I guess I would invest in technology.
+  - "A person who has much more to give is unfazed by overwhelming demands because there is too much in him to overwhelm. He gives you 2 options in place of one."
 - 22 Jan 2025. Lessons from [Clear Thinking](https://www.goodreads.com/book/show/75665850-clear-thinking)
   - Watch out for four things: Emotion, Ego, Social confirmation, and Inertia/habit. Basically: adrenaline, testosterone, oxytocin, and dopamine. When you feel these, consider doing the opposite.
   - Here's what makes us prone to emotion. Sleep deprivation. Hunger. Unknown places. Fatigue. Distraction. Stress (e.g. feeling rushed).
@@ -711,6 +757,7 @@
 - 18 Nov 2024. You can enable syntax highlighting _just using fonts_. [Ref](https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/)
 - 18 Nov 2024. [HTML is all you need](https://maxbo.me/a-html-file-is-all-you-need.html) shows examples of using HTML for notebooks instead of Jupyter, Observable, etc.
 - 17 Nov 2024. The problem with Accept headers is that you can't link to them. [Simon Willison](https://fedi.simonwillison.net/@simon/113484569366205490)
+- 16 Nov 2025. Write tutorials or blog posts as you learn. [Steve Klabnik](https://steveklabnik.github.io/jujutsu-tutorial/)
 - 14 Nov 2024. Use a standardized password strategy, e.g. use the month like GramNov2024 (via Namit)
 - 12 Nov 2014. List of Gen AI companies disrupting SaaS incumbents: [LinkedIn](https://www.linkedin.com/posts/sjbrinker_martech-activity-7261021751705243649-M28M)
 - 11 Nov 2024. Cloudflare R2 has the same API as S3 but is cheaper
@@ -871,6 +918,10 @@
 - 11 Aug 2024. `handle = await window.showDirectoryPicker()` lets you access the browser [File system API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API).
 - 5 Aug 2024. Alternative interfaces to YouTube: Piped.video, CloudTube, Invidious, NewPipe, FreeTube
 - 1 Aug 2024. Power Toys has an Advanced Paste that uses OpenAI to paste as Markdown or JSON!
+
+# Aug 2024
+
+- 28 Aug 2024. Practice for each thought: "What would make me change my mind? How likely is that?"
 
 # Jul 2024
 

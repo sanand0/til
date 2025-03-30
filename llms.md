@@ -34,6 +34,75 @@
 
 ## Mar 2025
 
+- 29 Mar 2025. If LLMs are most safely used where there's no definitive "wrong" answer, here are [low-risk industries and safe LLM use cases within each](https://chatgpt.com/share/67e7e27d-6b0c-800c-8b31-e7a2aa041fc0):
+  - **Marketing and Advertising**: Ad Copy and Campaign Content Generation, Personalized Marketing Messages, Creative Strategy Brainstorms, Automated Marketing Production (Everyday Wins)
+  - **Customer Service and Support**: AI-Powered Chatbots for Common Queries, Agent Assist and Email Drafting, Summarizing and Analyzing Customer Feedback, Interactive Troubleshooting and FAQs
+  - **Retail and eCommerce**: AI-generated Summary of Product Reviews, Product Description and Catalog Content Generation, Visual Content and Image Captions, Personalized Shopping Recommendations (Narrative Form)
+  - **Human Resources and Talent Management**: Job Description and Policy Writing, Resume Screening and Candidate Q&A, Employee Communications and Feedback, Training and Onboarding Content
+  - **Education and E-Learning**: Personalized Explanations and Tutoring, Content Creation: Stories, Examples, and Analogies, Practice Problems and Quiz Generation, Automated Grading and Feedback
+  - **Media and Entertainment**: Writing and Editing Assistance, Personalized Media Content, Localization and Dubbing Scripts, Content Moderation and Curation (Assistive)
+  - **Finance and Banking**: Market Commentary and Research Summaries, Client Communications and Explanations, Regulatory Compliance Summaries, Scenario Analysis and Planning
+  - **Management Consulting and Strategy**: Research and Insight Generation, Document and Slide Drafting, Brainstorming and Scenario Planning
+  - **Legal Services**: Drafting Contracts and Legal Documents, Legal Research Q&A and Summaries, Client Communications and Explanations
+- 29 Mar 2025. Reflecting on [Satya Nadella's "SaaS is dead"](https://youtu.be/a_RjOhCkhvQ), building or porting apps' functionality into classic chatbots (e.g. via MCPs) would be an emerging market. E.g. "Create a HubSpot MCP. Do whatever you want on HubSpot, except via ChatGPT or your favorite LLM chatbot." To be fair, such interfaces exist.
+  - [HubSpot MCP](https://github.com/baryhuang/mcp-hubspot) with a [vega-lite MCP](https://github.com/isaacwasserman/mcp-vegalite-server) and a few others could solve many common HubSpot UI tasks.
+  - [DarwinBox MCP](https://mcp.pipedream.com/app/darwinbox),
+    [ZenDesk MCP](https://github.com/reminia/zendesk-mcp-server), etc. are emerging.
+- 28 Mar 2025. Notes from [ThursdAI - Mar 27](https://sub.thursdai.news/p/thursdai-mar-27-gemini-25-takes-1)
+  - Gemini 2.5 Pro has good instruction following despite long context. It automatically thinks for longer where required. Good at _understanding_ large codebases. Very fast. You can upload a 2 hour audio to transcribe with timestamps.
+  - [ai.dev](https://ai.dev) is the shortcut to Google AI studio.
+  - ChatGPT native image generation is the best image generation model now.
+    - Great character consistency AND prompt adherence thanks to autoregression and not using stable diffusion.
+    - It tends to refuse image generation less than Dall-E. (While Ghibli-style is possible, Calvin and Hobbes strips are blocked.)
+    - A neat personalization implication is that you could put your kids into their favourite cartoon as a cartoon character that looks like them.
+  - It's weird that the latest GPT 4o is ahead of GPT 4.5 on [LM Arena](https://lmarena.ai/?leaderboard).
+  - The new DeepSeek V3 is about as good as GPT 4.5 and VERY cheap (27c), so is the obvious choice to run on [OpenRouter](https://openrouter.ai/deepseek/deepseek-chat-v3-0324).
+  - MCP news:
+    - Qwen.ai supports MCP in the UI! (But it's marked as "coming soon" in my case.)
+    - Unlike tools, MCP uses servers that can remember the state or context. Tools are stateless.
+    - MCP app store like [Smithery](https://smithery.ai/), [MCP.run](https://mcp.run/), [Glama](https://glama.ai/mcp/servers), are mushrooming.
+    - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) is another good starting point.
+    - [Azure lets you expose agents as MCP servers](https://devblogs.microsoft.com/foundry/integrating-azure-ai-agents-mcp/).
+  - ChatGPT now uses semantic VAD. I interrupts less and typically when you have meaningfully complete something. It responds a little slower as a result.
+- 28 Mar 2025. AI generated images created from prompts cannot be copyrighted. [News](https://news.artnet.com/art-world/ai-art-us-copyright-office-2604297) [US Copyright Office](https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf)
+- 28 Mar 2025. LLMs are _much_ better at [GeoGuessr](https://www.geoguessr.com/) than humans. [arXiv](https://arxiv.org/pdf/2502.11163). Gemini leads the pack and is ~3x better at continents, 9x better at countries, and 37x better at cities.
+- 28 Mar 2025. Gemini 2.5 Pro transcription has accurate timestamps and bounding boxes. [Simon Willison](https://simonwillison.net/2025/Mar/25/gemini/)
+- 27 Mar 2025. Notes from [Writing with AI](https://pdst.fm/e/chrt.fm/track/9GA767/traffic.megaphone.fm/TFTEE4551519097.mp3?updated=1743004883)
+  - Personal writing with connection won't go away. AI can't give you heartbreak. But the rest of non fiction writing will vanish.
+  - What AI is extraordinary at is _personalizing_ to each audience member's interest
+  - Outlier opinions will thrive among humans - since AI is trained on consensus.
+  - Managers tend to be good at working with LLMs because it's mostly about delegation.
+  - LLMs are perfect for things that don't have a wrong answer! -- Benedict Evans.
+  - 💡 Explore arguing with AI. It's a safe way to get into a confrontational emotional state (which has its own benefits.)
+  - 💡 Keep an LLM on in voice mode while reading and ask it any questions you have.
+  - What models are good for what?
+    - GPT 4.5 is great for creation - has a great sense of humor but a corporate style. Still, way better than GPT 4o.
+    - ChatGPT is good for voice transcription and note taking. (Increasingly we take notes for AI rather than ourselves.)
+    - Claude 3.7 has the best style of writing. It's also great for drawing charts.
+    - O1 Pro and Deep Research is great for consumption - research.
+    - Grok is the least corporate, able to argue with you, and the latest knowledge cutoff.
+    - ElevenLabs for editing podcasts in your voice, making corrections.
+- 25 Mar 2025. The new [GPT-4o mini Transcribe](https://platform.openai.com/docs/models/gpt-4o-mini-transcribe) model is a bit better than Whisper and costs half: ~18 cents per hour. It includes [background noise cancellation and semantic chunking](https://youtu.be/lXb0L16ISAc?t=354s), which is useful.
+- 25 Mar 2025. The new [GPT-4o mini TTS](https://platform.openai.com/docs/models/gpt-4o-mini-tts) is about 3-4 times cheaper than [TTS-1](https://platform.openai.com/docs/models/tts-1) since it's ~$12/MTok instead of $15/Mchar. It supports emotions with streaming.
+- 25 Mar 2025. Cursor with Claude 3.7 Max seems _surprisingly_ good at generating multi-page sites at one shot. Potentially, it can edit large repositories of code as well at one shot. If that's the case, the way we write code will require higher order thinking skills: broad sweeping changes rather than micro edits.
+- 24 Mar 2025. I tried Open WebUI with its [Knowledge](https://docs.openwebui.com/features/workspace/knowledge) feature. In short, it sucks. Due to the RAG technique as well as model quality. When I passed it my notes about Straive and asked who Straive's clients were:
+  - Open WebUI with Gemma 3 found one - after multiple attempts
+  - ChatGPT with o3-mini-high got 5 (missing nothing.)
+  - ChatGPT with GPT 4.5 got 4
+  - Gemini with Gemini 2.0 Flash Thinking got 3
+  - Gemini with Gemini 2.0 Flash got 3 (with a 4th wrong answer)
+- 23 Mar 2025. [Gemini Codrawing](https://huggingface.co/spaces/Trudy/gemini-codrawing) is a popular Hugging face space that lets you sketch something and prompt Gemini Flash to improve on it.
+  - ![Starting image](https://iili.io/3Io4Fcv.webp)
+  - Draw a dead man beside the pool of blood. Add an armor to the attacker. Significantly improve the quality of this picture.
+  - Add a red pool of blood next to the dead man. The armor looks like a frock. Make it more like an armor. Make this look like a professional drawing, even though it's in stick figures.
+  - ![Updated image](https://iili.io/3Io43KJ.webp)
+  - Draw it in the style of Picasso
+  - ![Updated image](https://iili.io/3Io4q9p.webp)
+- 23 Mar 2025. [Phi-4 multimodal](https://huggingface.co/microsoft/Phi-4-multimodal-instruct) procehttps://huggingface.co/microsoft/Phi-4-multimodal-instructsses speech better than Whisper V3 on HuggingFace OpenASR, and images better than Gemini Flash Lite
+- 23 Mar 2025. On any LLM project, **BEGIN with evals**. Always.
+  - The effort for evals may seem high. Use LLMs to reduce this effort.
+  - Include irrelevant questions because people WILL ask them. Be clear on how to handle that.
+- 22 Mar 2025. If we can DESCRIBE what good looks like, training data is no gap. We can auto optimise models towards that. That's RLF. DeepSeek R1 side stepped the need for training data by creating reward functions and prompts. This tells the fine tuning process how to go correct as it goes along. [This video](https://www.linkedin.com/posts/devvret-rishi-b0857684_starting-today-you-can-build-your-own-custom-activity-7308141160357670912-Rwfy) is the first one that really help me understand what's going on.
 - 18 Mar 2025. Another way of scaling LLMs is generating multiple options and self evaluating. [Eric Zhao](https://x.com/ericzhao28/status/1901704339229732874)
 - 16 Mar 2025. Gemini API allows YouTube videos as a part. [Google](https://ai.google.dev/gemini-api/docs/vision?lang=python#youtube)
 - 16 Mar 2025. agents.json is a proposal for discovery of agents on a site that enhances the Open API spec: [wild-card-ai/agents-json](https://github.com/wild-card-ai/agents-json)
@@ -44,7 +113,7 @@
 - 15 Mar 2025. Playbook driven agents are another approach to agentic workflows. [Simon Willison](https://simonwillison.net/2025/Mar/13/xata-agent/)
 - 14 Mar 2025. This [table of LLM API data protection](https://www.rosenthal.ch/downloads/VISCHER_ai-tools-03-25.pdf) lists what use cases each provider's terms of service allow from a security perspective.
 - 14 Mar 2025. [Unsloth](https://unsloth.ai/) might be one of the simplest ways of fine-tuning.
-- 14 Mar 2025. For LLM UIs, [Open Web UI](https://github.com/open-webui/open-webui) seems most popular.
+- 14 Mar 2025. For LLM UIs, [Open Web UI](https://github.com/open-webui/open-webui) seems most popular. Run via `WEBUI_SECRET_KEY=... uvx --python 3.11 open-webui serve`
   [Text generation Web UI](https://github.com/oobabooga/text-generation-webui) is less so.
   [KoboldAI](https://github.com/KoboldAI/KoboldAI-Client),
   [LMQL](https://github.com/eth-sri/lmql),
@@ -60,9 +129,11 @@
   - Code output is brittle. Use tools / DSL - e.g. visit_url(url), click_element(text, gid, tagName), etc.
 - 14 Mar 2025. [GenAIScript](https://microsoft.github.io/genaiscript/) increasingly looks like a promising way to automate LLM workflows in the browser.
 - 14 Mar 2025. [Ollama has a Windows download](https://ollama.com/download/windows)
+- 13 Mar 2025. A mental model to consider is: each chat conversation with an LLM is a person or a personality in itself. A day in the life of a model, where its personality evolves.
 - 11 Mar 2025. People are reporting that [Roo Code](https://github.com/RooVetGit/Roo-Code) is better than Windsurf.
   - Roo Code is open source. Available as a VS Code extension and run-nable via `git clone`
   - Roo Code supports Computer Use. It can read files, take screenshots from a built-in browser, controls it, and reads browser console logs.
+  - Opinions are mixed. A team member reported that it takes 10 LLM queries to do what Cursor does in 2. Another reported that it does in 1 query what Cursor does in 2.
 - 10 Mar 2025. Notes from [Thursday AI, 6 Mar 2025](https://youtu.be/rXoGpUyD1Jg)
   - Google's AI overviews now use Gemini 2.0. They've introduced an AI mode that functions like a mini deep research tool, incorporating planning and search. (A Perplexity-killer). It's a fine-tuned model that is extra cautious with topics like healthcare and always verifies information.
   - QWQ from Quen competes with DeepSeq R1, but with only 32b parameters compared to R1's several hundred billion.
@@ -346,6 +417,14 @@
   44. [Raspberry Pi SIM options](https://chatgpt.com/share/67d8eefe-a1f4-800c-93d0-fbed732e14fb)
   45. [Linux Dev migration guide](https://chatgpt.com/share/67d83394-43bc-800c-8157-8d498290638f)
   46. [HTML to JATS conversion](https://chatgpt.com/share/67d907fe-e0f4-800c-a4ad-f7dcf5176a5d)
+  47. [LLM context splitting strategies](https://chatgpt.com/share/67dbcb7e-ea68-800c-9613-310724fc06bf)
+  48. [Strategy for AI services in Publishing](https://chatgpt.com/share/67dba1a0-f100-800c-b184-d611a96d8831)
+  49. [Gemini multi model editing use cases by industry](https://chatgpt.com/share/67db9a58-7688-800c-a7c6-10e86ee49132)
+  50. [Pharma Conference Participation Guide](https://chatgpt.com/share/67dd93d9-7c88-800c-815f-9a21b7b6ad28)
+  51. [Funding Open Source Initiatives](https://chatgpt.com/share/67de993a-2dc0-800c-ae88-f35af9bbc43e)
+  52. [SEBI IPO Acquisition Guidelines](https://chatgpt.com/share/67dfb23b-eb98-800c-9eed-0580f835fb9c)
+  53. [Approximate Similarity Matching Databases](https://chatgpt.com/share/67e65970-97b4-800c-a742-25e32768c557)
+  54. [Low-Risk LLM Use Cases](https://chatgpt.com/share/67e7e27d-6b0c-800c-8b31-e7a2aa041fc0)
   <!-- #TODO
   - PDF extractors
   - Databases
