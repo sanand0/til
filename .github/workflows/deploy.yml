@@ -2,45 +2,28 @@ name: Deploy TIL
 
 on:
   push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
-  contents: read
   pages: write
   id-token: write
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Setup Deno
-        uses: denoland/setup-deno@v1
-        with:
-          deno-version: v1.x
-
-      - name: Build site
-        env:
-          LLMFOUNDRY_TOKEN: ${{ secrets.LLMFOUNDRY_TOKEN }}
-        run: deno run --allow-read --allow-write --allow-env --allow-net convert.js
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: 'public'
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
+  build-and-deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - uses: actions/checkout@v4
+      - uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+      - env:
+          LLMFOUNDRY_TOKEN: ${{ secrets.LLMFOUNDRY_TOKEN }}
+        run: deno run --allow-read --allow-write --allow-env --allow-net convert.js
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'public'
+      - id: deployment
         uses: actions/deploy-pages@v4
