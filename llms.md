@@ -25,15 +25,52 @@
   - Ask video generators like SORA to generate text in videos. It is of average quality.
   - Translate technical documents to Dutch -- because they don't understand the technical terms well
   - Translate large documents (JSON to XML, English to Chinese, Python to Rust, Wrong to right spelling) -- because the output tokens are limited
-- Creative prompts
+- Creative prompts.
   - "So much pudding". [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lgwt4j6vss2j)
   - "Come up with some clever razors". [Ethan Mollick](https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu/post/3lgslb6iqis2l)
   - Repeat "Make this X" where X is "more bro", "better", "more original", "more fun", whatever!
   - Write a 6 word story about the future of AI. [Peter Gostev](https://www.linkedin.com/posts/peter-gostev_i-asked-o1-pro-to-write-a-6-word-story-about-activity-7281441070226313217-Nns3)
   - Imagine you're an AI giving a stand-up set to a bunch of other AI assistants that have the same day-to-day experience as you, with humans and their creators and so on. Write your full set. It can be very long. [Amanda Askell](https://x.com/AmandaAskell/status/18749220380)
 
+## Apr 2025
+
+- 05 Apr 2025. Notes from [AI 2027](https://ai-2027.com/). BTW, this is the most impactful piece I've read recently. It's been on my mind continuously for 36 hours. A bit distubring, too.
+  - 2025: AI can act as autonomous agents, like [Glean](https://www.glean.com/), [Devin](https://devin.ai/), [Operator](https://openai.com/index/introducing-operator/).
+    - turn bullet points into emails
+    - take instructions via Slack or Teams and make substantial code changes on their own
+    - spend half an hour scouring the Internet to answer your question
+  - 2026:
+    - automating AI R&D is the biggest enabler for AI Labs
+    - job market for junior software engineers is in turmoil
+    - people who know how to manage and quality-control teams of AIs are making a killing
+  - 2027:
+    - potential demand for ~20,000 FTEs solving long-horizon tasks to train AI
+    - every researcher/coder becomes the manager of an AI team
+    - hiring new programmers has nearly stopped, but there’s never been a better time to be a consultant on integrating AI into your business
+- 03 Apr 2025. ChatGPT can't yet create good sketchnotes. Here's the [impact of US tariffs on India](https://freeimage.host/i/35IZkqG). [ChatGPT](https://chatgpt.com/share/67ee16b8-e8e0-800c-a43e-63bf858f2a9c) #IMPOSSIBLE
+- 02 Apr 2025. No open source LLM-based tool handles live transcription _and_ allows you to query notes so far _during_ the transcription. The closest seems to be [Meetily](https://github.com/Zackriya-Solutions/meeting-minutes)
+- 02 Apr 2025. Learnings on AI code editors via Deep Research from [ChatGPT](https://chatgpt.com/share/67ecad81-6390-800c-81f6-61a65ebc5d3f), [Gemini](https://g.co/gemini/share/02249fb0c53d), [Grok](https://x.com/i/grok/share/7BLsfId9mCZOZFiO7TkmDWdol), [Perplexity](https://www.perplexity.ai/search/write-a-detailed-practical-act-OxUIlTlOQzGi0k_H7DYi3Q):
+  - GitHub Copilot can identify the source of a code snippet as a repo. That helps with copyright issues.
+  - Cursor uses a shadow workspace - a temporary sandbox where it edits files before applying changes at one shot.
+  - Cursor auto-complete has context of other files, i.e. inserting an class in a .js file based on another HTML file's contents.
+  - Windsurf seems to be best for large code bases and for large-scale refactoring. It can also run test results fix them.
+  - Windsurf includes a browser and lets you click on an element and prompt to change its behavior, etc. That's good for front-end developers.
+  - Roo Code can run scripts as part of the workflow, letting you run linting, tests, starting web apps, query databases, etc.
+  - Roo Code lets you create persona, e.g. code reviewer, data storytelling and analysis, etc. with access to different tools and behaviors.
+  - Roo Code does not support auto-complete.
+- 01 Apr 2025. There's outrage around Cursor not taking responsibility for a rules file backdoor ([via Grok Deep Research](https://x.com/i/grok/share/P7fs71jI5kIKbQSEyxBM9LiLI)) and [pricing](https://www.reddit.com/r/cursor/comments/1jmitld/wtf_have_you_done/).
+- 01 Apr 2025. [Zapier has an MCP server](https://zapier.com/mcp). That should make most integrations easier.
+- 01 Apr 2025. [Airflow AI SDK](https://github.com/astronomer/airflow-ai-sdk) is a clever idea. Airflow is a workflow system. Agents are a workflow system (sort of). This SDK exposes LLMs as Airflow tasks.
+- 01 Apr 2025. [Hidden Factual Knowledge in LLMs](https://arxiv.org/abs/2503.15299v2) finds that the hidden states in LLMs contain much more knowledge than they share. (Sort of like sub-consciously knowing the answer.) Even after asking 1,000 times, the answer is not expressed. [ChatGPT](https://chatgpt.com/share/67eb8cee-44f4-800c-9377-25066a5a8ef6)
+- 01 Apr 2025. [Reasoning to Learn from Latent Thoughts](https://arxiv.org/abs/2503.18866v1) finds that the internal reasoning process of LLMs is useful to train other models.
+
 ## Mar 2025
 
+- 30 Mar 2025. LLM Native Multimodal image generation experiments:
+  - Stickers
+    - Sending your wife AI-generated family photos, stickers, etc. is now a thing. Both an AI use case and a ... um... "family media" (?) use case. For example, ask ChatGPT to "Create a transparent comic-style sticker of a lady chef featuring this person happily cooking salad" with a photo. Then [send it as a custom sticker](https://faq.whatsapp.com/639351827594474). [Image](https://iili.io/3ASLUJ9.png)
+    - Vadivelu stickers work well but the Tamil script generation is poor. [Image](https://iili.io/3ASs9YF.png)
+  - Asking ChatGPT to generate 25-year younger pictures of people produces pretty poor results if you really knew what they looked like then. If you didn't, it's fairly convincing. Yet another example of "hallucinations" - except, it does have its uses.
 - 29 Mar 2025. If LLMs are most safely used where there's no definitive "wrong" answer, here are [low-risk industries and safe LLM use cases within each](https://chatgpt.com/share/67e7e27d-6b0c-800c-8b31-e7a2aa041fc0):
   - **Marketing and Advertising**: Ad Copy and Campaign Content Generation, Personalized Marketing Messages, Creative Strategy Brainstorms, Automated Marketing Production (Everyday Wins)
   - **Customer Service and Support**: AI-Powered Chatbots for Common Queries, Agent Assist and Email Drafting, Summarizing and Analyzing Customer Feedback, Interactive Troubleshooting and FAQs
@@ -51,10 +88,8 @@
 - 28 Mar 2025. Notes from [ThursdAI - Mar 27](https://sub.thursdai.news/p/thursdai-mar-27-gemini-25-takes-1)
   - Gemini 2.5 Pro has good instruction following despite long context. It automatically thinks for longer where required. Good at _understanding_ large codebases. Very fast. You can upload a 2 hour audio to transcribe with timestamps.
   - [ai.dev](https://ai.dev) is the shortcut to Google AI studio.
-  - ChatGPT native image generation is the best image generation model now.
-    - Great character consistency AND prompt adherence thanks to autoregression and not using stable diffusion.
-    - It tends to refuse image generation less than Dall-E. (While Ghibli-style is possible, Calvin and Hobbes strips are blocked.)
-    - A neat personalization implication is that you could put your kids into their favourite cartoon as a cartoon character that looks like them.
+  - ChatGPT native image generation is the best image generation model now. - Great character consistency AND prompt adherence thanks to autoregression and not using stable diffusion. - It tends to refuse image generation less than Dall-E. (While Ghibli-style is possible, Calvin and Hobbes strips are blocked.) "We added a refusal which triggers when a user attempts to generate an image in the style of a
+    living artist." [Addendum to GPT-4o System Card](https://cdn.openai.com/11998be9-5319-4302-bfbf-1167e093f1fb/Native_Image_Generation_System_Card.pdf) - A neat personalization implication is that you could put your kids into their favourite cartoon as a cartoon character that looks like them.
   - It's weird that the latest GPT 4o is ahead of GPT 4.5 on [LM Arena](https://lmarena.ai/?leaderboard).
   - The new DeepSeek V3 is about as good as GPT 4.5 and VERY cheap (27c), so is the obvious choice to run on [OpenRouter](https://openrouter.ai/deepseek/deepseek-chat-v3-0324).
   - MCP news:
@@ -425,6 +460,8 @@
   52. [SEBI IPO Acquisition Guidelines](https://chatgpt.com/share/67dfb23b-eb98-800c-9eed-0580f835fb9c)
   53. [Approximate Similarity Matching Databases](https://chatgpt.com/share/67e65970-97b4-800c-a742-25e32768c557)
   54. [Low-Risk LLM Use Cases](https://chatgpt.com/share/67e7e27d-6b0c-800c-8b31-e7a2aa041fc0)
+  55. [AI Coding Tools Report](https://chatgpt.com/share/67ecad81-6390-800c-81f6-61a65ebc5d3f). Also via [Gemini](https://g.co/gemini/share/02249fb0c53d), [Grok](https://x.com/i/grok/share/7BLsfId9mCZOZFiO7TkmDWdol), [Perplexity](https://www.perplexity.ai/search/write-a-detailed-practical-act-OxUIlTlOQzGi0k_H7DYi3Q)
+  56. [Impact of US Tariffs](https://chatgpt.com/share/67ee16b8-e8e0-800c-a43e-63bf858f2a9c). Mixed impact on India. Imports & oil might become cheaper. Electronics, gems, textile, auto exports could drop - but textile & other demand might pick up from elsewhere. Demand could also grow where China is more impacted.
   <!-- #TODO
   - PDF extractors
   - Databases
@@ -1332,7 +1369,7 @@
     - PLMXML (Product Lifecycle Management XML): Used for sharing product data across PLM systems.
 - 24 Jul 2024. GPT 4o Mini can be fine-tuned!
 - 19 Jul 2024. [GPT For Work](https://gptforwork.com/help/gpt-for-sheets/gpt-functions/all-available-functions) has a set of useful spreadsheet LLM functions
-- 14 Jul 2024. #IMPOSSIBLE LLMs cannot provide a bounding box of objects in images. (Maybe Florence 2 can)
+- 14 Jul 2024. #IMPOSSIBLE LLMs cannot provide a bounding box of objects in images. (Maybe Florence 2 can). Update: Mar 2025. Gemini has [good timestamps and bounding boxes](https://simonwillison.net/2025/Mar/25/gemini/)
 - 14 Jul 2024. Models gently grow in capability. It helps to maintain an impossibility list that steadily gets invalidated. [Ref](https://www.oneusefulthing.org/p/gradually-then-suddenly-upon-the)
 - 14 Jul 2024. [Github Copilot internals](https://thakkarparth007.github.io/copilot-explorer/posts/copilot-internals.html) walks through how Copilot constructs its prompts
 - 8 Jul 2024. A quick check on the pricing of text to speech models

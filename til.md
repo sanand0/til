@@ -1,7 +1,59 @@
 # Things I learned
 
+## Apr 2025
+
+- 05 Apr 2025. `<select>` will soon be _very_ customizable via CSS. Including custom HTML inside options - even SVG. [MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select). Edge/Chrome already support it.
+- 05 Apr 2025. [The Vitali Set](https://www.youtube.com/watch?v=_cr46G2K5Fo&t=1042s) is every real number none of whose difference is rational. A sparse collection of irrational sets. It's like a line but doesn't have a measurable "length".
+  - The Lebesgue measure measures the length of broken lines. You add up the lengths of the smallest continuous intervals that cover the line.
+  - The Cantor set (take a line, drop every middle third, repeat) has a Lebesgue measure of 0 because the sum of the removed thirds = 1/3 + 2/9 + 4/27 + ... = 1. You've removed every "length" though infinitely many points remain.
+  - The Vitali set built so that if you shift it by _every_ rational from -1 to +1 and add them up, you definitely cover every real from 0-1, but never anything beyond -1 to +2. So the length _must_ be between 1-3. Yet, there's no number you can add infinitely many times to get something between 1-3.
+  - If you add up multiple unmeasurable sets like the Vitali set, you can get any total length you want. The [Banach Tarski paradox](https://en.wikipedia.org/wiki/Banach%E2%80%93Tarski_paradox) splits a sphere into unmeasurable sets and adds them to get 2 spheres.
+- 05 Apr 2025. [Ctrl+Alt+F1/F2/...](https://askubuntu.com/a/1293952/601330) on Ubuntu switches the terminal. Typically [Ctrl+Alt+F2](https://askubuntu.com/a/1307012/601330) switches back to Gnome. But it's a useful hack if Gnome freezes and you need to kill a process. Press `Ctrl+Alt+F3`, log in, and kill what you need.
+- 03 Apr 2025. [CSS Speech](https://www.w3.org/TR/css-speech-1/) is a W3C spec that lets you control how screen readers should read pages. No browser support now, though.
+- 03 Apr 2025. [Clipboard2Markdown](https://euangoddard.github.io/clipboard2markdown/) is a utility that lets you paste rich text and convert it to Markdown.
+- 02 Apr 2025. [OHDSI](https://ohdsi.org/) has a [vocabulary](https://github.com/OHDSI/Vocabulary-v5.0) you can download from [Athena](https://athena.ohdsi.org/) that includes ICD codes and a lot of medical data standards. It also has a hostable [WebAPI](https://github.com/OHDSI/WebAPI)
+
 ## Mar 2025
 
+- 31 Mar 2025. I published an eBook on Amazon. It takes about an hour if you have the content ready.
+  - [Set up a Kindle Direct Publishing account](https://account.kdp.amazon.com/) with your address, bank details, and tax information. (10 min.)
+  - [Export](https://wordpress.com/support/export/) my [London 2000](https://www.s-anand.net/blog/category/london-2000/) blog archive and [convert to Markdown](https://github.com/lonekorean/wordpress-export-to-markdown). (15 min)
+  - Reformat the Markdown by writing a script in Cursor (10 min). Here's the prompt:
+    > Write a Python script that reads `*.md` including the YAML frontmatter, adds the YAML `title` as H1, `date` (yyyy-mm-dd) like <em>Sun, 01 Jan 2000</em> in a new para after the frontmatter and before the content.
+  - Convert it to an ePub using pandoc `pandoc *.md -o book.epub --toc --metadata title="An LBS Exchange Program" --metadata author="Anand S" --metadata language=en --metadata date="31 Mar 2025"` (15 min).
+  - Generated a cover page with [ChatGPT](https://chatgpt.com/) (5 min) and compressed it into JPEG via [Squoosh](https://squoosh.app/). (10 min)
+    > Draw a comic-style book cover page that covers the experiences of an Indian exchange student (picture attached) from IIM Bangalore at London Business School and exploring London. The book title is "An LBS Exchange Program".
+  - [Publish the book on KDP](https://kdp.amazon.com/) (10 min)
+- 31 Mar 2025. There are several _small_ things that delight me about switching to Ubuntu. One that brings joy to my heart is that I can customize gestures for music on Gnome using [Touche](https://github.com/JoseExposito/touche) and [TouchEgg](https://github.com/JoseExposito/touchegg).
+  - Swipe with 3 fingers Up: Increase volume. Execute a command `amixer sset Master 5%+`. Repeat command.
+  - Swipe with 3 fingers Down: Decrease volume. Execute a command `amixer sset Master 5%-`. Repeat command.
+  - Swipe left/right with 3 fingers: Play/Pause VLC. `dbus-send --print-reply --dest=org.mpris.MediaPlayer2.vlc /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause` on Gesture start.
+- 31 Mar 2025. Notes from discussion with [Roy](https://www.linkedin.com/in/anandamoy/):
+  - There's more pressure on successful founders in Asia than in the US, since winners are rarer.
+    - Most failed founders try another startup based on their experience. Their likelihood of getting funded is largely based on their reputation, e.g. did the venture fail despite them or because of then.
+  - Expertise is over-rated when the underlying context changes. A lot of expertise is about managing current constraints. As Jeff Bezos asks, "What are the invariants?"
+  - As the cost of intelligence drops, industries that rely on intelligence are disrupted.
+    - E.g. Cyber security. It's a data analysis problem. A needle in the haystack problem. A signal anticipation problem. A classic IQ gap problem.
+  - As building software becomes easy:
+    - Demand will explore, since ROI is higher.
+    - Not everyone will build software. (3D printers are cheap. How many people own one?)
+    - So demand for custom software and craftsmen engineers will grow - including from enterprises.
+    - Demand for SaaS (one-size-fits-all) will shrink.
+    - Demand for personalized software (services model) will grow.
+    - Code migration will get consolidated. It's a niche space competing with new app generation. There is an opportunity for high margins in fragmented businesses. Consolidation is likely.
+    - Verticalized coding agents (i.e. specialized software for specific platforms) might grow.
+  - "You don't get the US without the guns!"
+  - AI voice generation is in the uncanny valley. We need non-verbal cues for good voice conversations.
+    - An aside: Is the uncanny valley biological? Did the revulsion push homo hapiens to kill off the homo neanderthalensis, homo erectus, etc?
+  - Vertical model gardens (i.e. specialized HuggingFaces, e.g. for HealthCare) are a niche, potentially temporary, opportunity corporates will likely leverage in the near future.
+  - Thoughts on angel investing.
+    - The VC industry is designed to win in the long run. Given a huge AuM base managed by a small team with a steady carry, it's hard to lose in the long term
+    - But you need that large AuM. Angel investing is _not_ designed to win.
+    - Know why you want to angel-invest. Lack of clarity hurts most people
+    - For most people, angel investing is an expensive MBA. You don't know shit. Invest if a VC will invest _at that moment_.
+    - The angel investor matters only until the point of investment. For successful companies, once VCs start funding them, you're a drop in the ocean and irrelevant.
+  - Pick portfolio managers who don't advertise. The ones that do don't have enough business. <!-- Roy aims for 18% in India in sub 10K cr companies. -->
+  - The Telok Blangah walking trail and the Sentosa walk are less known but good walking trails in Singapore.
 - 30 Mar 2025. Use [QR vCards](https://www.qrcode-monkey.com/#vcard) instead of business cards. Less to carry. Directly adds to their contacts.
 - 29 Mar 2025. Discussion with [Vedang](https://vedang.me/)
   - [Recurse center](https://www.recurse.com/) (Brooklyn, online) is a 6/12 week free self-driven programmer retreat. Runs every 6 weeks. You can do whatever you pick. There are daily standups for accountability. The groups are diverse. You can pair with them, pivot ideas, whatever. [Principles](https://www.recurse.com/self-directives): push yourself & learn.
@@ -712,7 +764,7 @@
 ## Nov 2024
 
 - 29 Nov 2024. Gists are a good place to store static files for posterity as well as throwaway files. But, they're just git repositories. So there may be no advantage over GitHub repos.
-- 28 Nov 2024. HTMX focuses on HTML over JS. Like server responses being HTML snippets not JSON.
+- 28 Nov 2024. HTMX focuses on HTML over JS. Like server responses being HTML snippets not JSON. But I need front-end over back-end. Client side apps. HTMX doesn't help much there, e.g. templating, or just plain JS code.
   - [htmx client side templates](https://v1.htmx.org/extensions/client-side-templates/) do can convert JSON to HTML.
 - 26 Nov 2024. CloudFlare workers can bundle any kind of files, including text, data, and WASM. [Docs](https://developers.cloudflare.com/workers/wrangler/configuration/#bundling)
 - 26 Nov 2024. AssemblyScript can compile TypeScript to WASM. [Here's what I learnt](https://github.com/sanand0/assemblyscript-tutorial)
