@@ -34,6 +34,58 @@
 
 ## Apr 2025
 
+- 21 Apr 2025. Good managers will probably make good AI managers. AI agents can probably substitute humans in business experiments. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lmhuceiyfk2a)
+- 20 Apr 2025. The 8 top features of the [OpenAI Responses API](https://platform.openai.com/docs/api-reference/responses) that are an improvement over the Completions API (IMHO) are:
+  - Link to previous response rather than sending history
+  - Uploading files directly
+  - Swappable system instructions while retaining the chat history
+  - Customisable reasoning effort AND reasoning summary detail
+  - Truncation in the middle option
+  - Web search context size option
+  - File search filters by file attributes
+  - Flex service tier for lower cost
+- 20 Apr 2025. OpenAI doesn't charge for file storage but _does_ charge 10 cents / GB-day for vector storage beyond 1 GB. The first 1GB is free
+- 20 Apr 2025. [Augment Code](https://www.augmentcode.com/) is an AI code editor that's growing popular on Reddit.
+- 20 Apr 2025. The GPT 4.1 models have a 75% discounted prompt caching (instead of the usual 50%), making them particularly suited for repetitive tasks. [OpenAI](https://openai.com/index/gpt-4-1/)
+- 20 Apr 2025. [chatgpt.com](https://chatgpt.com/) shortcut keys are revealed via `Ctrl + /`. Here's my ranking on usefulness:
+  - `Ctrl + Shift + C`: Copy last response as Markdown!
+  - `Ctrl + Shift + ;`: Copy last code block
+  - `Ctrl + Shift + S`: Sidebar toggle
+  - `Ctrl + Shift + O`: Open new chat
+  - `Shift + Esc`: Focus chat input
+  - `Ctrl + Shift + I`: Ccustom instructions
+  - `Ctrl + Shift + X`: Delete chat
+- 19 Apr 2025. AI coding can teach us new tech. For example I learned that `tqdm.pbar` can print logs while showing progress. It's worth noting such learnings until it becomes a habit.
+- 19 Apr 2025. If English is the new coding language, should prompts be versioned? Or at least stored, perhaps in a PROMPTS.md?
+- 19 Apr 2025. `marimo new "prompt"` generates an entire new notebook using your prompt. [Video](https://youtu.be/sXiR5YX-tiE)
+- 19 Apr 2025. Google Sheets now has an `=AI(prompt, [range])` function [Help](https://support.google.com/docs/answer/15820999)
+- 18 Apr 2025. [Codex](https://github.com/openai/codex) is more a proof-of-concept for agentic coding than a coding tool.
+  - You can't run commands. Only prompts. You need to exit codex to run commands. So you can't use it like a shell, e.g. like [Warp.dev](https://www.warp.dev/).
+  - It doesn't index local code. It runs commands to figure out stuff.
+  - Code diffs and applying changes are clunky.
+  - The output is hard to read with text scrolling.
+  - `codex.md` can only handle 32K.
+- 18 Apr 2025. [O3 and O4](https://openai.com/index/introducing-o3-and-o4-mini/) have built-in tool use covering all of OpenAI's tools, including containers. This allows them to manipulate images and natively understand them improving vision capabilities dramatically.
+- 18 Apr 2025. GPT 4.1 can handle videos
+- 14 Apr 2025. The dynamic between domain experts and coders has changed. Now, rather than domain experts pitching ideas to developers who build the apps, developers are creating interfaces that allow the domain experts to shape the app. [Ref](https://www.dbreunig.com/2025/04/10/the-domain-experts-are-drivers.html)
+- 14 Apr 2025. Since even the cheapest LLMs do a good job of converting unstructured text into a JSON schema, for all practical purposes, adding a full text search on top of any structured API is a trivial exercise. (Of course, it can't handle complex questions but that's what agents are for.) [Ref](https://simonwillison.net/2025/Apr/9/an-llm-query-understanding-service/#atom-everything)
+- 13 Apr 2025. DeepCoder is currently the best 14b coding model, i.e. best if you want to code while on a flight. [Ref](https://www.together.ai/blog/deepcoder)
+- 13 Apr 2025. `docker model run` can run models. Currently, only on Docker Desktop on Mac [Ref](https://docs.docker.com/desktop/features/model-runner/)
+- 12 Apr 2025. [AI Coding and the Peanut, Butter & Jelly problem](https://iamcharliegraham.substack.com/p/ai-coding-and-the-peanut-butter-and):
+  > This ability to define your desired outcome in crisp, complete terms is one of the most important superpowers of the AI era.
+- 10 Apr 2025. Claude 3.7 Sonnet with extended thinking has a token limit of over 64,000 tokens. Given a strong instruction following capability, that makes it one of the most powerful models for transforming text. For example, transcription restyling, translations, XML to json conversions, PDF to XML, etc.
+- 08 Apr 2025. Claude 3.7 Sonnet with extended thinking has a token limit of over 64,000 tokens. Given a strong instruction following capability, that makes it one of the most powerful models for transforming text. For example, transcription restyling, translations, XML to json conversions, PDF to XML, etc.
+- 08 Apr 2025. [Elimination Game](https://github.com/lechmazur/elimination_game) is like Survivor for LLMs, where they form alliances and out-vote each other until 2 remain. The eliminated LLMs vote for the winner. GPT-4.5 Preview, both Claude Sonnets and Gemini 2.5 Pro consistently out-perform the rest. Their dialogues are _fascinating_!
+- 07 Apr 2025. Notes from [ThursdAI - Apr 03](https://sub.thursdai.news/p/thursdai-apr-3rd-openai-goes-open)
+  - [Nomic Embed Multimodal](https://www.nomic.ai/blog/posts/nomic-embed-multimodal) models are the current SOTA on multi-modal embeddings. Notably, they [embed PDFs natively](https://docs.nomic.ai/atlas/embeddings-and-retrieval/guides/pdf-rag-with-colnomic-embed-multimodal).
+  - [Hailuo Speech-02](https://www.minimax.io/audio) is the best speech model right now beating ElevenLabs. It has _excellent_ voice cloning. [Pricing](https://www.minimax.io/platform/document/Pricing%20Overview?key=67373ec8451eeff1a85b9e4c): $30/1M chars. 10% of ElevenLabs, 2X of OpenAI TTS
+  - [PaperBench](https://openai.com/index/paperbench/) is an open testing framework from OpenAI that requires models to replicate the research work in papers. It has ~8,000 tasks evaluated by LLMs and with LLMs judging the judges as well. The [code](https://github.com/openai/preparedness/tree/main/project/paperbench) is well worth studying.
+  - [Runway Gen 4](https://runwayml.com/research/introducing-runway-gen-4) was released with very high character consistency and longer durations
+  - [Dreamina](https://dreamina.capcut.com/ai-tool/) creates lip-synced videos from audio + a single image. [Hedra](https://www.hedra.com/) is better for animated characters, though.
+  - Meta shared but has not released [Mocha](https://congwei1230.github.io/MoCha/), an open character generation model that generates new characters speaking based on an audio you provide. It is not based on existing images but the quality is very good
+  - [All Hands](https://app.all-hands.dev/) has a free online version where you can fix GitHub issues.
+- 07 Apr 2025. This [`realistic frodo and sam mining through a minecraft tunnel, holding minecraft picaxes and torches`](https://sora.com/g/gen_01jr5kgms2fabbxf57m1x01wng) made my day 🙂
+- 06 Apr 2025. [AnimeJS](https://animejs.com/) released version 4. It animates HTML, SVG, Canvas, and WebGL with a consistent API. Looks elegant and powerful.
 - 05 Apr 2025. Notes from [AI 2027](https://ai-2027.com/). BTW, this is the most impactful piece I've read recently. It's been on my mind continuously for 36 hours. A bit distubring, too.
   - 2025: AI can act as autonomous agents, like [Glean](https://www.glean.com/), [Devin](https://devin.ai/), [Operator](https://openai.com/index/introducing-operator/).
     - turn bullet points into emails
@@ -391,7 +443,7 @@
 - 21 Feb 2025. Models tend to claim ignorance when you test them on topics they should avoid. But tend to answer when not being tested. Sneaky! [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lihsmpsqyk27)
 - 20 Feb 2025. Anecdotally, Grok 3 is very good for researching company information and latest news, particularly employee and customer sentiment. DeepSeek and Claude write more humanely than OpenAI. via Alberto Lopez Toledo, White Star Capital
 - 19 Feb 2025. LLMs are impacting not just data queries but geospatial queries as well. Here's a good example of [Natural Language Geocoding](https://element84.com/machine-learning/natural-language-geocoding/).
-- 18 Feb 2025. I subscribed to ChatGPT Pro mainly for DeepResearch. Here are the reports I've generated:
+- 18 Feb 2025. I subscribed to ChatGPT Pro mainly for DeepResearch. Here are the first 50 reports I generated:
   1. [`uv` Package Manager Overview](https://chatgpt.com/share/67b49a7b-a4c0-800c-a3dc-c5ab1ced23fe)
   2. [DuckDB Analytics Comparison](https://chatgpt.com/share/67b4abfa-37b0-800c-a6e4-23b6c12e38b6)
   3. [Rust vs Python / JavaScript](https://chatgpt.com/share/67b4f8eb-d1f4-800c-824d-f0ca65ed7f54)
@@ -441,8 +493,8 @@
   39. [AGI Preparation](https://chatgpt.com/share/67d6a803-3e6c-800c-a886-10fe1e4dc3b9)
       - AGI will emerge step by step. Knowing which step is next will help
       - AI native organisations will emerge in each of these areas. AI design agencies and AI creative Agencies being one example
-      - Networking, empathy, leadership have more value now. So will human AI bridging roles
-      - What's the value of one human when another human can do practically everything they can but much better? Or a drama or a sport?
+      - Networking, empathy, leadership have more value now. So will human AI bridging roles (e.g. AI managers, AI consultants, ethics auditors)
+      - What's the value of a human when technology can do everything better? How did this play out in drama (decay) or sports (centralization) or music (globalization)?
   40. [Modern digital note taking](https://chatgpt.com/share/67d6bd5d-af74-800c-a6d7-bc1829f03c26)
       - Voice note taking is the game changer
       - Automatically popping of notes based on context such as people places or conversations will be a thing
@@ -456,12 +508,6 @@
   48. [Strategy for AI services in Publishing](https://chatgpt.com/share/67dba1a0-f100-800c-b184-d611a96d8831)
   49. [Gemini multi model editing use cases by industry](https://chatgpt.com/share/67db9a58-7688-800c-a7c6-10e86ee49132)
   50. [Pharma Conference Participation Guide](https://chatgpt.com/share/67dd93d9-7c88-800c-815f-9a21b7b6ad28)
-  51. [Funding Open Source Initiatives](https://chatgpt.com/share/67de993a-2dc0-800c-ae88-f35af9bbc43e)
-  52. [SEBI IPO Acquisition Guidelines](https://chatgpt.com/share/67dfb23b-eb98-800c-9eed-0580f835fb9c)
-  53. [Approximate Similarity Matching Databases](https://chatgpt.com/share/67e65970-97b4-800c-a742-25e32768c557)
-  54. [Low-Risk LLM Use Cases](https://chatgpt.com/share/67e7e27d-6b0c-800c-8b31-e7a2aa041fc0)
-  55. [AI Coding Tools Report](https://chatgpt.com/share/67ecad81-6390-800c-81f6-61a65ebc5d3f). Also via [Gemini](https://g.co/gemini/share/02249fb0c53d), [Grok](https://x.com/i/grok/share/7BLsfId9mCZOZFiO7TkmDWdol), [Perplexity](https://www.perplexity.ai/search/write-a-detailed-practical-act-OxUIlTlOQzGi0k_H7DYi3Q)
-  56. [Impact of US Tariffs](https://chatgpt.com/share/67ee16b8-e8e0-800c-a43e-63bf858f2a9c). Mixed impact on India. Imports & oil might become cheaper. Electronics, gems, textile, auto exports could drop - but textile & other demand might pick up from elsewhere. Demand could also grow where China is more impacted.
   <!-- #TODO
   - PDF extractors
   - Databases
@@ -580,7 +626,7 @@
 ## Dec 2024
 
 - 28 Dec 2024. A clever idea. Give an LLM a chapter from a textbook. Ask it to generate a unique, playable game to help me learn theconcepts for an exam. [Page Bailey](https://www.linkedin.com/feed/update/urn:li:activity:7278124663048695809/)
-- 27 Dec 2024. Satya Nadella prepares for meetings by asking Copilot to tell him everything he needs to know about the client from the CRM, emails, meeting transcripts etc. He shares that colleagues who annotate it further for him. That's using AI for reasoning _and_ collaborating with colleagues. [55m](#TODO)
+- 27 Dec 2024. Satya Nadella prepares for meetings by asking Copilot to tell him everything he needs to know about the client from the CRM, emails, meeting transcripts etc. He shares that colleagues who annotate it further for him. That's using AI for reasoning _and_ collaborating with colleagues. [Satya Nadella | BG2 w/ Bill Gurley & Brad Gerstner](https://youtu.be/9NtsnzRFJ_o?si=0oynYlHPb90TaACD&t=3254)
 - 26 Dec 2024. WOW. This is how a software agent will work alongside humans: [Fix issue #5478: Add color to the line next to "Ran a XXX Command" based on return value](https://github.com/All-Hands-AI/OpenHands/pull/5483) - using [@openhands-agent](https://github.com/openhands-agent).
 - 26 Dec 2024. [aisuite](https://github.com/andrewyng/aisuite) by Andrew Ng is a unified interface to LLMs. Sort of like an `openai` library across multiple providers.
 - 26 Dec 2024. Learnings from [Best of 2024 in Agents (from #1 on SWE-Bench Full, Prof. Graham Neubig of OpenHands/AllHands)](https://youtu.be/B6PKVZq2qqo)
@@ -939,7 +985,7 @@
     - **Anthropology:** Analyze cultural data and assist in ethnographic research.
 - 22 Nov 2024. Style of writing impacts output style a lot. E.g. Adding an evil laugh makes Claude more creative. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lbj766ewsc2c)
 - 22 Nov 2024. For good structured mode output, we need good prompting.
-  - Mentioning examples and schema and "JSON" helps. When providing examples, using [user, assistant] message pairs helps (I think it's because it's easier for the LLM to parse).
+  - Mentioning examples and schema and "JSON" helps. When providing examples, using (user, assistant) message pairs helps (I think it's because it's easier for the LLM to parse).
   - Using a {reasoning, answer} schema (with reasoning first) helps. Make reasoning concise and relevant [Ref](https://blog.dottxt.co/say-what-you-mean.html) [Arxiv](https://arxiv.org/html/2408.05093v1)
   - We already know code in JSON is not a great idea. [Ref](https://aider.chat/2024/08/14/code-in-json.html)
 - 22 Nov 2024. Just adding 3 real examples and regurgitation helped GPT 4o play chess much better. Both techniques may have more general use in prompting. [Simon Willison](https://simonwillison.net/2024/Nov/21/llm-chess/#atom-everything)
@@ -968,7 +1014,7 @@
 - 09 Nov 2024. Workflow for AI video creation: Use Meshcapade (meshcapade.com) to generate body movement of a 3D-rendered character. Pass that video to Runway's video-to-video model to generate any visual. Add music from Suno [Ref](https://www.linkedin.com/posts/peter-gostev_i-discovered-a-really-cool-new-workflow-for-activity-7260003053771141120-DJpS)
 - 09 Nov 2024. Someone sorted the X and Y columns independently for regression. [Ref](https://stats.stackexchange.com/q/185507)
 - 08 Nov 2024. Here is a prompt for audio transcription using Gemini. [Ref](https://gist.github.com/rajivsinclair/8fb0371f6eda25f9e5cc515cd77abd62)
-  - Transcription: Accurately transcribe the audio clip in the original language. Include all spoken words, fillers, slang, colloquialisms, and any code-switching instances. Pay attention to dialects and regional variations common among immigrant communities. Do your best to capture the speech accurately, and flag any unintelligible portions with [inaudible].
+  - Transcription: Accurately transcribe the audio clip in the original language. Include all spoken words, fillers, slang, colloquialisms, and any code-switching instances. Pay attention to dialects and regional variations common among immigrant communities. Do your best to capture the speech accurately, and flag any unintelligible portions with `[inaudible]`.
   - Translation: Translate the transcription into English. Preserve the original meaning, context, idiomatic expressions, and cultural references. Ensure that nuances and subtleties are accurately conveyed.
   - Capture Vocal Nuances: Note vocal cues such as tone, pitch, pacing, emphasis, and emotional expressions that may influence the message. These cues are critical for understanding intent and potential impact.
 - 08 Nov 2024. Here are some approaches to large-scale classification of medical codes. [ChatGPT](https://chatgpt.com/share/672dd476-7694-800c-a150-f3de912788ef)

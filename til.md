@@ -2,6 +2,82 @@
 
 ## Apr 2025
 
+- 21 Apr 2025. DuckDB's CSV parser might be one of the most forgiving parsers. Even better than Pandas or SQLite3. [Ref](https://duckdb.org/2025/04/16/duckdb-csv-pollock-benchmark)
+- 20 Apr 2025. If Windsurf stops working, reload the extension. [GitHub](https://github.com/Exafunction/codeium/issues/59#issuecomment-2690290023)
+- 20 Apr 2025. TLS certificates will start expiring in 47 days from 15 Mar 2029, forcing automated domain renewals. [Digicert](https://www.digicert.com/blog/tls-certificate-lifetimes-will-officially-reduce-to-47-days)
+- 20 Apr 2025. [Nix flakes](https://wiki.nixos.org/wiki/Flakes) are a reliable alternative to [DevContainers](https://containers.dev/) that don't need Docker - but don't work on Windows.
+- 20 Apr 2025. [Ink](https://github.com/vadimdemedes/ink) is like React for the CLI.
+- 20 Apr 2025. The [Unsure Calculator](https://filiph.github.io/unsure/) is a great tool to calculate formulas with _multiple_ uncertainties, like:
+  - My office is 9~11 km away and it takes me 45~55 min to reach. So I cycle at `9~11 / 45~55 * 60` ~ 10-14 kmph (12 most likely).
+  - I spend $6~15 on lunch and eat out 80~120 days a year. So I spend `6~15 * 80~120` ~ $600~1550 ($1000 most likely) eating out yearly.
+  - I take ~30-120 min to prepare a quiz question. Each exam has 6~12 questions. So I need `30~120 * 6~12 / 60` = 4~20 hours (11 most likely)
+- 20 Apr 2025. Using Kiran's [macOS setup for dev](https://jackerhack.ing/notes/202412051824-macos-setup-for-dev) I [enabled](https://github.com/sanand0/scripts/commit/ae95013019374a3b542ef5a93ea2f4295d0d86c4) colorized less and mouse options for tmux.
+- 20 Apr 2025. `time fish -i -c exit` prints the time taken for fish startup. `fish --profile-startup ~/fish.profile -i -c exit` prints the time taken by each command on fish startup to `~/fish.profile`. I used this to [speed up my fish startup](https://github.com/sanand0/scripts/commit/90d34b7239197d69c3502d1e847b79dd503c1b72).
+- 19 Apr 2025. The [`devcontainers.json`](https://containers.dev/) spec encapsulates everything you need to get a codebase running for development - as opposed to production. E.g. VS Code extensions, linters, etc.
+- 19 Apr 2025. Practical use for GitPod are:
+  - Make quick edits to repos that are not on your system (e.g. other people's repos, or via others' machines.)
+  - Run public workshops with a full coding environment.
+  - Give students assignments that have dependencies pre-installed.
+  - Collaborate on a work-in-progress codebase with my team.
+  - Share POCs with clients or public allowing them to edit it.
+  - Allow teams to install remote AI code extensions (e.g. Windsurf) that may be blocked inside the corporate firewall?
+- 15 Apr 2025. Notes from discussion with [Balaji T](https://www.linkedin.com/in/balaji1975/):
+  - Zero-day options are options that expire on the same day. They are priced low. It's almost just a gamble or a lottery ticket. But since the price is low, retail investors can invest.
+  - NIFTY is one of the largest markets for zero day options, surprisingly. There are several college grads who trade writing Python scripts.
+  - CoreWeave has taken over all the compute from OpenAI. Though the stock price has fallen, buying CoreWeave is the closest equivalent to buying OpenAI pre-IPO.
+  - However, every OpenAI product lost money, despite their 75% discounted compute from Microsoft. (With CoreWeave, the cost would be higher.) So their profitability depends on wiping out competition long-term.
+  - For investment research companies (hedge funds, VCs, etc.) increasing the number of companies they research is an advantage. So using AI for research is key. However, the quality of LLMs is too poor for financial analysis accuracy. We need better LLMs for spreadsheet analysis.
+  - We suffer from the [Gell-Mann's amnesia effect](https://en.wikipedia.org/wiki/Gell-Mann_amnesia_effect) with LLMs. "You read a newspaper article in your field and find it's rubbish. You turn the paper and believe it's perfectly accurate on the next page".
+  - Domain expertise will therefore become even more valuable in the near future.
+  - People don't like AI being forced down their throats. MAS is forcing AI down banks whose execs are forcing it down the org. Bankers and analysts are grumbling about this.
+- 14 Apr 2025. I visited [SUTD InspireCon 2025](https://www.sutd.edu.sg/events-listing/inspirecon-2025/). Here were some exhibits that caught my eye.
+  - A path marking app that uses cameras to draw a heatmap of people's walking paths. Popular tracks are redder.
+  - Using drones for machine inspection.
+  - Portable immigration devices that let you scan passports, face recognition, fingerprint, mic/speakers, etc.
+  - Using accelerometer to detect unsafe gait and improve walking habits.
+  - UImagine: a web app builder. Interestingly, they used [Webcontainers](https://webcontainers.io/) to run Node in the browser!
+  - Training a drone to follow a person
+  - Credibility detection via micro facial expressions
+  - PitchMe: providing real-time feedback to pitches / presentations
+  - Zetesis: a platform for people to ask questions during a lecture or meeting (independent of Zoom, Meet, etc.)
+  - Tinyeqn: helps grade student assignments
+- 13 Apr 2025. Marp supports [bespoke transitions](https://github.com/marp-team/marp-cli/blob/main/docs/bespoke-transitions/README.md) which includes morphing animations. This can create a [bar chart race](https://github.com/marp-team/marp-cli/blob/main/docs/bespoke-transitions/README.md#example) just using Markdown!
+- 13 Apr 2025. Nick Lansley, who I know from my work with Tesco, wrote a great article that includes [advice for aspiring consultants](https://www.linkedin.com/pulse/10-years-ago-today-i-exited-from-my-27-year-career-tesco-nick-lansley-imvde/):
+  - Re-connect with ex-colleagues
+  - Leave on good terms with your employer
+  - Have a 6-12 month financial buffer
+  - Hire an accountant / legal advisor to set up your business
+  - Focus on what you enjoy
+  - Have a 30-second elevator pitch
+  - Build a brand with blogs, social media, or talks
+  - Create a portfolio to reinforce your skills
+- 12 Apr 2025. It's possible to intentionally train yourself to:
+  - [Form close friends](https://www.neelnanda.io/blog/43-making-friends). Care, ask, and share.
+  - [Become a do-er](https://www.neelnanda.io/blog/become-a-person-who-actually-does-things). Stay mindful of the problem or opportunity you're deferring.
+- 11 Apr 2025. The Singapore [Urban Redevelopment Authority Property Data](https://eservice.ura.gov.sg/property-market-information/pmiResidentialRentalSearch) lets you search sale and rental prices of properties in Singapore. No API though
+- 10 Apr 2025. Notes from meeting with [Deepak Goel](https://www.linkedin.com/in/drizzlin)
+  - We have linguistic boundaries in media today more than national boundaries. The Chinese language media, for example, is a very different ecosystem.
+  - China culturally struggles with the exercise of branding and cultural power, unlike the west, which has adopted assertive and opinionated branding.
+  - You really learn the character of a region only by traveling
+  - Similarities arise from unexpected sources. For example, Japan and Ecuador have similar culutures - both are disaster prone locations.
+  - AI unlocks _so many social research possibilities_ that were not possible before, e.g. by interpreting and classifying what people share in different situations.
+  - Companies send clients to third party trainings (e.g. at Harvard) along with their employees - to learn clients' real pain points! Education has become a tool for customer experience. Schools are tying up with companies for this (e.g. with Emeritus)
+  - [International Schools Partnership](https://internationalschoolspartnership.com/) provides services to independent schools for a small stake. It's an interesting business model.
+  - Research for colleges is a business model that's at risk thanks to Deep Research (e.g. analyse sustainability practices of listed companies.)
+- 10 Apr 2025. There's an [Indian Censor Board Scraper](https://github.com/diagram-chasing/censor-board-cuts) repo.
+- 10 Apr 2025. Using `chroot`, you can boot from a Linux USB stick, but trick the system into working from your hard disk as the OS. Useful if your system won't boot. [Ref](https://livesys.se/posts/the-chroot-technique/)
+- 08 Apr 2025. Notes from discussion with [Sundeep](https://www.linkedin.com/in/sundeeprm/)
+  - In his experience, investors tend to let you run the show (e.g. ask what you want rather than push in a specific direction) unless there is trouble
+  - We discussed the "running out of problems" problem with AI. His suggestion: List problems we dropped or eliminated for lack of time/capacity. This filter is a blindspot.
+  - Even if you know how to do someting, use AI to discover an alternate solution approach. That's the path to 10X (rather than incremental) optimization.
+  - Having AI create end-to-end pitch videos based on a product idea is now a reality. (He showed me one for his product.)
+  - Areas to explore with Deep Research are:
+    - What hidden trends is media misdirecting away from? What are second order effects and hidden gameplays?
+    - Which organizations would be good clients to target? What would be an apt pitch pitch for them?
+  - Experience dining is an emerging theme.
+  - Having LLMs explain scenarios (i.e. what might happen if ...) based on parameters can help understand/quantify the impact of actions, and therefore what to do.
+- 08 Apr 2025. One way to copy as Markdown: copy page contents, [paste in text-html.com](https://text-html.com/), copy HTML, [paste in Turndown](https://mixmark-io.github.io/turndown/), copy Markdown.
+- 07 Apr 2025. SQLite can open locked databases (e.g. browser history) via `sqlite3 'file:places.sqlite?mode=ro&nolock=1'`. datasette uses this. For example, to read the Edge history on Linux, use `datasette ~/.config/microsoft-edge/Default/History --nolock` [Ref](https://sqlite.org/forum/info/a2e9387b8ea1c919b2ad1ecafb417cebb15c48634c55b3abd6a9acbb2fabf797)
 - 05 Apr 2025. `<select>` will soon be _very_ customizable via CSS. Including custom HTML inside options - even SVG. [MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select). Edge/Chrome already support it.
 - 05 Apr 2025. [The Vitali Set](https://www.youtube.com/watch?v=_cr46G2K5Fo&t=1042s) is every real number none of whose difference is rational. A sparse collection of irrational sets. It's like a line but doesn't have a measurable "length".
   - The Lebesgue measure measures the length of broken lines. You add up the lengths of the smallest continuous intervals that cover the line.
@@ -81,7 +157,7 @@
 - 28 Mar 2025. Technological innovations have always been changing art forms. For example, the [perspective grid](https://en.wikipedia.org/wiki/Perspective_%28graphical%29#Renaissance) and the [camera obscura](https://www.researchgate.net/publication/387663661_From_Light_to_Canvas_The_Camera_Obscura%27s_Role_in_Renaissance_Artistic_Technique) led to major improvements in realistic paintings in the 15th and 17th centuries.
 - 28 Mar 2025. [regex](https://pypi.org/project/regex/) is an _officially recommended_ Python library with better regex support than re. [Ref](https://carlo.ai/til/regex-search)
 - 25 Mar 2025. Playwright offers an MCP server. https://simonwillison.net/2025/Mar/25/playwright-mcp/
-- 23 Mar 2025. I've settled on [sqooosh.app](https://sqooosh.app/) for image compression using WebP. I'm exploring [FreeImage.host](https://freeimage.host/) for image hosting instead of Imgur for WEBP support. FreeImage.host also seems [reliable](https://budgetlightforum.com/t/reference-the-best-free-image-hosting-sites-that-support-webp-images/219923), retains file sizes, and supports hotlinking.
+- 23 Mar 2025. I've settled on [squoosh.app](https://squoosh.app/) for image compression using WebP. I'm exploring [FreeImage.host](https://freeimage.host/) for image hosting instead of Imgur for WEBP support. FreeImage.host also seems [reliable](https://budgetlightforum.com/t/reference-the-best-free-image-hosting-sites-that-support-webp-images/219923), retains file sizes, and supports hotlinking.
 - 23 Mar 2025. [DeepFace](https://github.com/serengil/deepface) currently seems the easiest option for face detection. Easy to install. Multiple back-ends.
 - 21 Mar 2025. I was born in the Ananda year in the Tamil _and_ Telugu calendars. [ChatGPT](https://chatgpt.com/share/67dbcb41-209c-800c-9403-1eb4cd365ece)
 - 20 Mar 2025. Alexander Doria shares an interesting perspective on the app space. [Model is the product](https://vintagedata.org/blog/posts/model-is-the-product)
