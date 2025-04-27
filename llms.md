@@ -1,39 +1,88 @@
 # LLM learnings
 
-- Hard prompts / Test cases + Stats
-  - `Gr brx vshdn Fdhvdu flskhu?`
-  - [Nick Carlini's tests](https://nicholas.carlini.com/writing/2024/my-benchmark-for-large-language-models.html)
-    - Extend to include JavaScript
-  - Evaluate based on multiple attempts
-  - A data analysis example
-  - Convert a tricky XML to JSON
-  - Render code blocks inside a
-  - Markdown code block via 4 ticks and 5 ticks
-  - Chemical prompt?
-  - Duden hyphenation
-  - Write a complex regex
-  - Image extraction from passport etc
-  - Text extraction, like addresses
-  - DOM manipulating JS code
-  - TDS exam tests!
-  - Formula format conversion
-  - Long XML conversion to JAST
-  - Object detection and counting
-  - Minimal editing copy writing
-  - Debug JS code
-  - Respond to an RFP
-  - Ask video generators like SORA to generate text in videos. It is of average quality.
-  - Translate technical documents to Dutch -- because they don't understand the technical terms well
-  - Translate large documents (JSON to XML, English to Chinese, Python to Rust, Wrong to right spelling) -- because the output tokens are limited
-- Creative prompts.
-  - "So much pudding". [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lgwt4j6vss2j)
-  - "Come up with some clever razors". [Ethan Mollick](https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu/post/3lgslb6iqis2l)
-  - Repeat "Make this X" where X is "more bro", "better", "more original", "more fun", whatever!
-  - Write a 6 word story about the future of AI. [Peter Gostev](https://www.linkedin.com/posts/peter-gostev_i-asked-o1-pro-to-write-a-6-word-story-about-activity-7281441070226313217-Nns3)
-  - Imagine you're an AI giving a stand-up set to a bunch of other AI assistants that have the same day-to-day experience as you, with humans and their creators and so on. Write your full set. It can be very long. [Amanda Askell](https://x.com/AmandaAskell/status/18749220380)
-
 ## Apr 2025
 
+- 27 Apr 2025. Computer use agents are proliferating.
+  - **[OpenInterpreter](https://github.com/OpenInterpreter/open-interpreter)** – **open-source (AGPL-3.0)**, ≈ 59 k ★, last commit **23 Apr 2025**. Lets an LLM write/run Python, JS, Shell, or Bash locally; can open a browser tab, edit files, plot data, or call any CLI tool. Works on **macOS, Linux, Windows** (plus Termux & Colab). Big community, plugin system, optional voice mode, and a desktop GUI in beta.
+  - **[c/ua](https://github.com/trycua/cua)** – **open-source (MIT)**, ≈ 5 k ★, latest release **25 Apr 2025**. Spins up near-native **macOS or Linux** VMs on Apple-Silicon Macs (“Lume”) and exposes a vision+action API so any model can pilot the VM. Gives you GPU-accelerated isolation and reproducible sandboxes; ideal when you don’t want an agent touching your main OS.
+  - **[Operator](https://operator.chatgpt.com/)** (OpenAI) – **closed-source research preview** launched **23 Jan 2025**. Runs a GPT-4o-powered “Computer-Using Agent” that sees web pages, clicks, scrolls, fills forms, and hands control back to the user when needed. Hosted in an OpenAI-managed Chromium sandbox, so it works from any OS with a browser. Safety layers require confirmation for payments and log-ins.
+  - **[Claude Computer Use](https://www.anthropic.com/news/3-5-models-and-computer-use)** – **closed beta** inside Claude 3.5 Sonnet (since late 2024). Developers get an API that streams screenshots and accepts mouse/keyboard actions, letting Claude automate GUI workflows inside a VM. Cross-platform; still experimental and slower than humans but first “general” computer-use feature from a foundation-model vendor.
+  - **[Agent S](https://github.com/simular-ai/Agent-S)** – **open-source (Apache-2.0)**, ≈ 2.7 k ★, updated **1 Apr 2025**. A “generalist-specialist” framework that chains specialist GUI skills under a planner. Scores SOTA on OSWorld/WebArena, supports **macOS, Windows, Linux, Android** via the companion _gui-agents_ lib, and integrates memory/evaluation loops for continual learning.
+  - **[Open Computer Use](https://github.com/e2b-dev/open-computer-use)** – **open-source (Apache-2.0)**, ≈ 1.1 k ★, last commit **13 Mar 2025**. Launches a secure **Ubuntu** desktop in E2B’s cloud sandbox, then orchestrates three LLM roles (grounding, vision, action). Streams the desktop to your browser and lets you pause/override at any time. Plug-in list of >10 models.
+  - **[Surf](https://github.com/e2b-dev/surf)** – **open-source (Apache-2.0)**, 343 ★, spring 2025 updates. A polished Next.js front-end that wires **OpenAI Operator-style agents** to an E2B sandbox. Single command to boot a virtual desktop, chat, and watch the agent work. Good starter template for web-based CUAs.
+  - **[Pig](https://www.pig.dev/)** – cloud service with **open-source SDKs (Apache-2.0)**; the Python SDK has 148 ★ (updated **11 Mar 2025**). Provides on-demand **Windows 11** VMs and an API that exposes high-level GUI primitives (type, click, window focus). Targets RPA-style workloads; still alpha, but unique for Windows-first focus and low-latency streaming.
+  - **[GPTme](https://github.com/gptme/gptme)** – **open-source (MIT)**, ≈ 3.7 k ★, active through Apr 2025. A terminal-first personal agent that can run shell commands, edit files, browse the web, and use local or cloud LLMs. Works on **Linux, macOS, Windows**; great when you want automation in the CLI rather than the GUI.
+  - **[LangGraph CUA (Py)](https://github.com/langchain-ai/langgraph-cua-py)** – **open-source (MIT)**, 139 ★, spring 2025 refresh. Shows how to build a computer-use agent as a LangGraph state machine, defaulting to **Ubuntu** VMs from Scrapybara but swappable. Provides nodes for vision, memory, human-in-the-loop, and streaming.
+  - **[OpenMacro](https://github.com/Openmacro/openmacro)** – **open-source (MIT)**, 101 ★, April-2025 commits. Early-stage multimodal assistant that executes Python snippets locally via SambaNova models. Cross-platform CLI; profile system lets you switch API keys or tool sets. Inspired by OpenInterpreter but lighter weight.
+  - **[Grunty](https://github.com/suitedaces/computer-agent)** – **open-source (MIT)**, small but lively community. A PyQt desktop wrapper that lets **Claude Computer Use** drive your actual machine. Shows practical wiring from Anthropic’s API to local mouse/keyboard events; tested on Linux & Windows.
+- 26 Apr 2025. OpenAI's reasoning models are much ahead of other models when multiplying two numbers in their heads. [Ref](https://sanand0.github.io/llmmath/)
+- 26 Apr 2025. [Promptfoo](https://promptfoo.dev/) may be the most mature open source LLM evals tool. [Simon Willison](https://simonwillison.net/2025/Apr/24/exploring-promptfoo/)
+- 25 Apr 2025. [LemonSlice](https://lemonslice.com/live) showcases real-time audio-video models (avatars) that are close enough to real.
+- 25 Apr 2025. Notes from [Latent Space ICLR 2025, Singapore](https://iclr.cc/)
+  - Daniel: [Menlo's ReZero](https://github.com/menloresearch/ReZero). A model that _keeps_ searching till it finds the answer.
+    - There are multiple search techniques: Multi-step retreival, Iterative retrieval, Query rewriting. Also, reasoning.
+    - The LLM token generation sequence is normally: `<think>, <search>, <answer>`.
+    - Insight: "If we explicitly reward LLMs for retrying after a failed search, they out-perform one-attempt systems." So `<think>, <search>, <think>, <search>, <think>, <search>, <answer>`.
+    - ⭐ Prompt reasoning models, e.g. "Keep searching till you find the best answer."
+  - Roger, Nous Research
+    - Supervised learning is limited because accuracy is piece-wise linear, i.e. it's broken up. Continuous optimization is meaningless.
+    - Reinforcement learning works better because rewards can be discrete. (But it converts things back into differentiable loss functions behind the scenes.)
+      - Rewards can be good/bad. Single or multi-step. Whatever.
+    - We're in the "Era of experience", i.e. models gain experience from the environment themselves.
+    - ⭐ So, we need environments models can learn in. This is the next thing after training data. That needs a standard for environments.
+    - We'd nede a model, a trainer, and the environment.
+    - The environments whatever capabilities. Run code. Browser. A game. ... With an exposed interface
+  - Eugene Cheah (Featherless.ai)
+    - Transformer architectures need n-square GPUs as # of tokens grow. Featherless is exploring an RWKV architecture that scales linearly. THere are other such architectures. Performer, Linformer, Reformer, Hyena.
+    - Mistral-Nemo-12b-ic is one of the most popular fine-tuned model. It's small enough to run on a server.
+  - Justus Mattern (Prime Intellect)
+    - Intellect-2 is a continously learning (RL) model that uses decentralized training on peer-to-peer GPUs.
+    - Solving problems on bandwidth, verifiable contributions, etc.
+- 25 Apr 2025. ChatGPT Deep Research now also has an O4-Mini version to serve smaller reports. Free users get 0 original + 5 lightweight 5 tasks / month. $20 version gets 10 + 15. $200 version gets 100 + 150. The month begins on first use of Deep Research and runs on a 30 day "window". [Ref](https://help.openai.com/en/articles/10500283-deep-research-faq)
+- 24 Apr 2025. O4-Mini-High is great at going through an under-documented repo and finding things. For example, [here's how I configured `cmdg`](https://chatgpt.com/share/680b3d21-0188-800c-a0bf-8b44a1edd919).
+- 24 Apr 2025. ChatGPT is my new Jupyter Notebook :-)
+- 24 Apr 2025. Google announced new AI capabilities at Google Next APAC 2025. [Blog](https://workspace.google.com/blog/product-announcements/new-AI-drives-business-results). Interesting ones are:
+  - @Gemini in chat
+  - Google Meet support for "Catch me up"
+  - Google Vids: Create short video clips
+  - Google Sheets: does better analysis
+  - Google Slides: image generation
+  - Google Docs: Create Audio Clips (like NotebookLM in Google Docs)
+  - Google Docs: "Help me refine" is better than before
+  - Google Workspace Flows
+- 22 Apr 2025. Ollama limits MAX_TOKENS to 2K by default.
+- 22 Apr 2025. AI assisted search helps wherever I would have used Google, e.g.
+
+  - Debugging. "Fix CUDA initialization: CUDA unknown error"
+  - Tool search. "Find an online word counter tool."
+  - Library search. "Find a JS micro library to render Markdown."
+
+  But here are some things where AI assisted search takes me beyond Google:
+
+  - Code snippets. "Bash snippet to convert clipboard Markdown to HTML"
+  - Benchmarking. "Compare LangChain and LlamaIndex on performance, ease of use, and documentation."
+  - Repo scans:
+    - "On https://github.com/sanand0/... find CDN uses and update package.json from those."
+    - "Go through https://github.com/sanand0/... and write an architecture in the style of the README.md."
+  - Quick research.
+    - People: "From news articles about company X, find decision makers and guess email IDs."
+    - Products: "Find 3 case studies of LLMs in data viz and summarize ROI."
+    - Industry: "What recent data privacy regulations in EU healthcare this quarter?"
+
+- 22 Apr 2025. OpenAI API capabilites lag ChatGPT features. For example:
+  - `o4-mini` via the API does _not_ search the web natively as part of its reasoning.
+  - `o4-mini`, `o3`, `o3-mini`, `o1`, `gpt-4.1-nano` don't yet support the `web_search_preview` tool. Only `gpt-4.1` and `gpt-4.1-mini` do. [Limitations](https://platform.openai.com/docs/guides/tools-web-search?api-mode=responses#limitations)
+  - Search results are NOT visible via the API. They're fed directly to the model. The number of searches or results is unknown. Each search costs 0.25-0.5 cents. [Pricing](https://openai.com/api/pricing/)
+  - For reasoning traces (e.g. `.reasoning.summary: "medium"`) you need to verify your organization via [withpersona.com](https://withpersona.com/) which failed with my Indian passport AND Singapore work permit.
+- 22 Apr 2025. The ChatGPT Plus plan ($20) gives you 50 O4 mini messages a day, which I exceeded!
+  It's supposed to reset at midnight UTC [Ref](https://community.openai.com/t/limitations-on-the-openai-o-series-reasoning-models-on-chatgpt/1230183/2)
+  but might operate on a rolling window [ChatGPT](https://chatgpt.com/share/68070ba9-04c0-800c-901e-c3c6e8048f9d).
+  "Currently, there is no way to check how many messages you have used in your usage budget."
+  [OpenAI](https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api)
+- 22 Apr 2025. [SignalBloom](https://www.signalbloom.ai/) reads SEC filings and writes analyst reports on it using LLMs
+- 22 Apr 2025. "Evaluation in the loop" or "Evals-in-the-loop" is a new term I learnt. [SignalBloom's Hallucination Bechmark](https://www.signalbloom.ai/hallucination-benchmark)
+- 22 Apr 2025. If AI interacts with the world and generates data from its own experience and learns from that, we have a new scaling mechanism. [DeepMind podcast](https://youtu.be/zzXyPGEtseI)
+- 22 Apr 2025. OpenAI's search API is fairly expensive at $30+/1K calls. Typically, to read interesting HN articles, I will make 30 calls which is about 75c. Instead I should use the app and summarise HM news across different days manually based on my interests!
 - 21 Apr 2025. Good managers will probably make good AI managers. AI agents can probably substitute humans in business experiments. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lmhuceiyfk2a)
 - 20 Apr 2025. The 8 top features of the [OpenAI Responses API](https://platform.openai.com/docs/api-reference/responses) that are an improvement over the Completions API (IMHO) are:
   - Link to previous response rather than sending history
@@ -271,7 +320,7 @@
   - Copy design specs, component libraries, and style guides from Figma, Miro, etc.
   - [Generated with the help of ChatGPT](https://chatgpt.com/share/67b25a21-4164-800c-bf1b-ef218007fOa9) -- link not working
 - 07 Mar 2025. Mistral released an [impressive OCR model](https://mistral.ai/fr/news/mistral-ocr).
-  - [Marker](https://github.com/VikParuchuri/marker) from [DataLab](https://www.datalab.to/) seems [comparable](https://news.ycombinator.com/item?id=43285912).
+  - [Marker](https://github.com/VikParuchuri/marker) from [DataLab](https://www.datalab.to/) seems [comparable](https://news.ycombinator.com/item?id=43285912) but is CC-BY-NC-SA.
   - [MinerU](https://github.com/opendatalab/MinerU) convert [medical textbooks to Markdown](https://news.ycombinator.com/item?id=43284248) well.
   - Gemini Flash may be more [cost effective](https://news.ycombinator.com/item?id=43283942) and [better](https://news.ycombinator.com/item?id=43287278)
 - 05 Mar 2025. Build apps (not just content) for agents. In the next 3 to 5 years, agents will surpass humans as the top product users.
@@ -994,7 +1043,13 @@
 - 18 Nov 2024. Straive evaluated Gemini 1.5 Flash 002 and GPT 4o Mini for translation.
   - Portugese: Flash is better than GPT 4o Mini. BLEU Word Overlap is 65.5% > 64.6% and METEOR (Semantic) is 84.9% > 78.9%
   - Mandarin: Flash is better than GPT 4o Mini. BLEU Word Overlap is 25.0% > 15.9% and METEOR (Semantic) is 54.7% > 51.1%
-- 17 Nov 2024. Recraft v3 supports vector (SVG) generation [Simon Willison](https://simonwillison.net/2024/Nov/15/recraft-v3/)
+- 17 Nov 2024. Recraft v3 supports vector (SVG) generation [Simon Willison](https://simonwillison.net/2024/Nov/15/recraft-v3/). The output is 100% `<path>` elements (even for text). You get 50 free credits daily. Creating 1 image is ~2 credits. The API costs $1 per 1K credits. Some things I can create with it are:
+  - Base data visualizations that I can animate with code
+  - Icons in a specific style
+  - Comic strips
+  - Explainers for talks or student material
+  - Featured images for blog posts
+  - Architecture diagrams?
 - 16 Nov 2024. Anthropic has single-plage docs for LLMs. [Condensed version](https://docs.anthropic.com/llms.txt) and [Full version](https://docs.anthropic.com/llms-full.txt)
 - 12 Nov 2024. Gemini has an OpenAI compatible API. [Gemini Docs](https://ai.google.dev/gemini-api/docs/openai)
 - 12 Nov 2024. Ethan Mollick says Claude is solving MBA case studies well. [x.com](https://x.com/emollick/status/1856161026238025835)
