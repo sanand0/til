@@ -32,9 +32,9 @@
 - 20 Apr 2025. [Nix flakes](https://wiki.nixos.org/wiki/Flakes) are a reliable alternative to [DevContainers](https://containers.dev/) that don't need Docker - but don't work on Windows.
 - 20 Apr 2025. [Ink](https://github.com/vadimdemedes/ink) is like React for the CLI.
 - 20 Apr 2025. The [Unsure Calculator](https://filiph.github.io/unsure/) is a great tool to calculate formulas with _multiple_ uncertainties, like:
-  - My office is 9~11 km away and it takes me 45~55 min to reach. So I cycle at `9~11 / 45~55 * 60` ~ 10-14 kmph (12 most likely).
-  - I spend $6~15 on lunch and eat out 80~120 days a year. So I spend `6~15 * 80~120` ~ $600~1550 ($1000 most likely) eating out yearly.
-  - I take ~30-120 min to prepare a quiz question. Each exam has 6~12 questions. So I need `30~120 * 6~12 / 60` = 4~20 hours (11 most likely)
+  - My office is 9-11 km away and it takes me 45-55 min to reach. So I cycle at `9~11 / 45~55 * 60` ~ 10-14 kmph (12 most likely).
+  - I spend $6-15 on lunch and eat out 80-120 days a year. So I spend `6~15 * 80~120` ~ $600~1550 ($1000 most likely) eating out yearly.
+  - I take 30-120 min to prepare a quiz question. Each exam has 6-12 questions. So I need `30~120 * 6~12 / 60` = 4~20 hours (11 most likely)
 - 20 Apr 2025. Using Kiran's [macOS setup for dev](https://jackerhack.ing/notes/202412051824-macos-setup-for-dev) I [enabled](https://github.com/sanand0/scripts/commit/ae95013019374a3b542ef5a93ea2f4295d0d86c4) colorized less and mouse options for tmux.
 - 20 Apr 2025. `time fish -i -c exit` prints the time taken for fish startup. `fish --profile-startup ~/fish.profile -i -c exit` prints the time taken by each command on fish startup to `~/fish.profile`. I used this to [speed up my fish startup](https://github.com/sanand0/scripts/commit/90d34b7239197d69c3502d1e847b79dd503c1b72).
 - 19 Apr 2025. The [`devcontainers.json`](https://containers.dev/) spec encapsulates everything you need to get a codebase running for development - as opposed to production. E.g. VS Code extensions, linters, etc.
