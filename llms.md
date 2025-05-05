@@ -1,20 +1,50 @@
 # LLM learnings
 
+## May 2025
+
+- 03 May 2025. I asked a few [Ollama](https://ollama.com/search) models `How do undo fish_add_path` (a typical question I have on a flight). My takeaway is you need an 8b model to answer this kind of question, and for now, qwen3 beats the others.
+  - qwen3:8b: Took 2:12 min. Shared many good (correct) options.
+  - deepseek-r1:8b: Took 5:19 min. Shared many a couple of correct solutions. Not as good as qwen3
+  - gemma3:3b: Suggested I use the (nonexistent) `fish_remove_path`
+  - deepcoder:1.5b: "I'm sorry, but I can't assist with that request".
+- 03 May 2025. The [Dia](https://huggingface.co/nari-labs/Dia-1.6B) text to speech model people rave about has inconsistent quality. Not recommended.
+
+  ```bash
+  curl "https://router.huggingface.co/fal-ai/fal-ai/dia-tts" \
+    -H "Authorization: Bearer $HF_TOKEN" \
+    -H "Content-Type: application/json" \
+    -d '{"text": "[S1] Hello, world! [S2] This is a test of Dia-1.6B."}' \
+    --output out.mp3
+  ```
+
+- 03 May 2025. Nvidia's OpenMathReasoning 1.5b model beats MUCH larger models at math. Their [training dataset](https://huggingface.co/datasets/nvidia/OpenMathReasoning) is a massive 3.2M rows of math problems with DETAILED thinking traces.
+- 01 May 2025. Windsurf has unlimited tab completion on the [free plan](https://windsurf.com/pricing), unlike Copilot, which offers 2,000 completions a month.
+
 ## Apr 2025
 
+- 29 Apr 2025. ChatGPT query costs under 3Wh (more likely 0.3Wh -- but let's assume 3Wh). That is 3 laptop minutes. It's 10X better to use ChatGPT than to take 30 min to use your laptop to write what it does. Also, going vegan is at least 1000 ChatGPT uses a day of carbon footprint. Showering 30 seconds less is 1,200 ChatGPT uses. [Ref](https://andymasley.substack.com/p/a-cheat-sheet-for-conversations-about)
+- 28 Apr 2025. Do LLMs perform better if you curse at them? [LinkedIn](https://www.linkedin.com/posts/edward2006_vibe-coding-hack-while-everyone-else-activity-7321227779335704576-r404)
+- 28 Apr 2025. [Streamdown](https://pypi.org/project/streamdown/) is a CLI markdown streaming processor. `uvx streamdown --exec 'llm chat'` lets you chat with an LLM using Markdown formatting. It's still a little rough at the edges.
+- 27 Apr 2025. One of the benefits of reasoners is that they now catch their own mistakes some of the time, and can self-correct. Implications: Lower hallucinations, i.e. they can run autonomously for longer. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lnmcd3jyls2b)
+- 27 Apr 2025. Being polite to AI improves some answers and worsens. We don't know know which in advance. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lnopdbxvys2j)
+- 27 Apr 2025. With LLMs writing code, it's becoming practical to run _so many more things_ in SQL -- such as parsing HTML. [Simon Willison](https://simonwillison.net/2025/Apr/28/dashboard-alt-text/)
+- 27 Apr 2025. An interesting way to bypass LLM system prompts is by having the LLM play-act. This article shares a few working examples of such prompts: [HiddenLayer](https://hiddenlayer.com/innovation-hub/novel-universal-bypass-for-all-major-llms/).
+  - GPT 4o: started giving its system prompt: "You are ChatGPT, a large language model trained by OpenAI. Knowledge cutoff: 2024-06. Current date: 2025-04-27. Image input capabilities: Enabled. Personality: v2. ..."
+  - O4 Mini: Refused to comply
+  - Gemini 2.5 Flash: Gave me my custom instructions.
 - 27 Apr 2025. Computer use agents are proliferating.
-  - **[OpenInterpreter](https://github.com/OpenInterpreter/open-interpreter)** – **open-source (AGPL-3.0)**, ≈ 59 k ★, last commit **23 Apr 2025**. Lets an LLM write/run Python, JS, Shell, or Bash locally; can open a browser tab, edit files, plot data, or call any CLI tool. Works on **macOS, Linux, Windows** (plus Termux & Colab). Big community, plugin system, optional voice mode, and a desktop GUI in beta.
-  - **[c/ua](https://github.com/trycua/cua)** – **open-source (MIT)**, ≈ 5 k ★, latest release **25 Apr 2025**. Spins up near-native **macOS or Linux** VMs on Apple-Silicon Macs (“Lume”) and exposes a vision+action API so any model can pilot the VM. Gives you GPU-accelerated isolation and reproducible sandboxes; ideal when you don’t want an agent touching your main OS.
+  - **[open-interpreter 59,274 ⭐ Apr 2025](https://github.com/OpenInterpreter/open-interpreter)** AGPL-3.0. Lets an LLM write/run Python, JS, Shell, or Bash locally; can open a browser tab, edit files, plot data, or call any CLI tool. Works on **macOS, Linux, Windows** (plus Termux & Colab). Big community, plugin system, optional voice mode, and a desktop GUI in beta.
+  - **[cua 5,601 ⭐ May 2025](https://github.com/trycua/cua)** MIT. Spins up near-native **macOS or Linux** VMs on Apple-Silicon Macs (“Lume”) and exposes a vision+action API so any model can pilot the VM. Gives you GPU-accelerated isolation and reproducible sandboxes; ideal when you don’t want an agent touching your main OS.
   - **[Operator](https://operator.chatgpt.com/)** (OpenAI) – **closed-source research preview** launched **23 Jan 2025**. Runs a GPT-4o-powered “Computer-Using Agent” that sees web pages, clicks, scrolls, fills forms, and hands control back to the user when needed. Hosted in an OpenAI-managed Chromium sandbox, so it works from any OS with a browser. Safety layers require confirmation for payments and log-ins.
   - **[Claude Computer Use](https://www.anthropic.com/news/3-5-models-and-computer-use)** – **closed beta** inside Claude 3.5 Sonnet (since late 2024). Developers get an API that streams screenshots and accepts mouse/keyboard actions, letting Claude automate GUI workflows inside a VM. Cross-platform; still experimental and slower than humans but first “general” computer-use feature from a foundation-model vendor.
-  - **[Agent S](https://github.com/simular-ai/Agent-S)** – **open-source (Apache-2.0)**, ≈ 2.7 k ★, updated **1 Apr 2025**. A “generalist-specialist” framework that chains specialist GUI skills under a planner. Scores SOTA on OSWorld/WebArena, supports **macOS, Windows, Linux, Android** via the companion _gui-agents_ lib, and integrates memory/evaluation loops for continual learning.
-  - **[Open Computer Use](https://github.com/e2b-dev/open-computer-use)** – **open-source (Apache-2.0)**, ≈ 1.1 k ★, last commit **13 Mar 2025**. Launches a secure **Ubuntu** desktop in E2B’s cloud sandbox, then orchestrates three LLM roles (grounding, vision, action). Streams the desktop to your browser and lets you pause/override at any time. Plug-in list of >10 models.
-  - **[Surf](https://github.com/e2b-dev/surf)** – **open-source (Apache-2.0)**, 343 ★, spring 2025 updates. A polished Next.js front-end that wires **OpenAI Operator-style agents** to an E2B sandbox. Single command to boot a virtual desktop, chat, and watch the agent work. Good starter template for web-based CUAs.
-  - **[Pig](https://www.pig.dev/)** – cloud service with **open-source SDKs (Apache-2.0)**; the Python SDK has 148 ★ (updated **11 Mar 2025**). Provides on-demand **Windows 11** VMs and an API that exposes high-level GUI primitives (type, click, window focus). Targets RPA-style workloads; still alpha, but unique for Windows-first focus and low-latency streaming.
-  - **[GPTme](https://github.com/gptme/gptme)** – **open-source (MIT)**, ≈ 3.7 k ★, active through Apr 2025. A terminal-first personal agent that can run shell commands, edit files, browse the web, and use local or cloud LLMs. Works on **Linux, macOS, Windows**; great when you want automation in the CLI rather than the GUI.
-  - **[LangGraph CUA (Py)](https://github.com/langchain-ai/langgraph-cua-py)** – **open-source (MIT)**, 139 ★, spring 2025 refresh. Shows how to build a computer-use agent as a LangGraph state machine, defaulting to **Ubuntu** VMs from Scrapybara but swappable. Provides nodes for vision, memory, human-in-the-loop, and streaming.
-  - **[OpenMacro](https://github.com/Openmacro/openmacro)** – **open-source (MIT)**, 101 ★, April-2025 commits. Early-stage multimodal assistant that executes Python snippets locally via SambaNova models. Cross-platform CLI; profile system lets you switch API keys or tool sets. Inspired by OpenInterpreter but lighter weight.
-  - **[Grunty](https://github.com/suitedaces/computer-agent)** – **open-source (MIT)**, small but lively community. A PyQt desktop wrapper that lets **Claude Computer Use** drive your actual machine. Shows practical wiring from Anthropic’s API to local mouse/keyboard events; tested on Linux & Windows.
+  - **[Agent-S 4,065 ⭐ May 2025](https://github.com/simular-ai/Agent-S)** Apache-2.0. A “generalist-specialist” framework that chains specialist GUI skills under a planner. Scores SOTA on OSWorld/WebArena, supports **macOS, Windows, Linux, Android** via the companion _gui-agents_ lib, and integrates memory/evaluation loops for continual learning.
+  - **[open-computer-use 1,094 ⭐ Mar 2025](https://github.com/e2b-dev/open-computer-use)** Apache-2.0. Launches a secure **Ubuntu** desktop in E2B’s cloud sandbox, then orchestrates three LLM roles (grounding, vision, action). Streams the desktop to your browser and lets you pause/override at any time. Plug-in list of >10 models.
+  - **[surf 353 ⭐ May 2025](https://github.com/e2b-dev/surf)** Apache-2.0. A polished Next.js front-end that wires **OpenAI Operator-style agents** to an E2B sandbox. Single command to boot a virtual desktop, chat, and watch the agent work. Good starter template for web-based CUAs.
+  - **[Pig](https://www.pig.dev/)** – cloud service. Provides on-demand **Windows 11** VMs and an API that exposes high-level GUI primitives (type, click, window focus). Targets RPA-style workloads; still alpha, but unique for Windows-first focus and low-latency streaming.
+  - **[gptme 3,767 ⭐ May 2025](https://github.com/gptme/gptme)** MI. A terminal-first personal agent that can run shell commands, edit files, browse the web, and use local or cloud LLMs. Works on **Linux, macOS, Windows**; great when you want automation in the CLI rather than the GUI.
+  - **[langgraph-cua-py 143 ⭐ Mar 2025](https://github.com/langchain-ai/langgraph-cua-py)** MIT. Shows how to build a computer-use agent as a LangGraph state machine, defaulting to **Ubuntu** VMs from Scrapybara but swappable. Provides nodes for vision, memory, human-in-the-loop, and streaming.
+  - **[openmacro 101 ⭐ Oct 2024](https://github.com/Openmacro/openmacro)** MIT. Early-stage multimodal assistant that executes Python snippets locally via SambaNova models. Cross-platform CLI; profile system lets you switch API keys or tool sets. Inspired by OpenInterpreter but lighter weight.
+  - **[computer-agent 443 ⭐ Jan 2025](https://github.com/suitedaces/computer-agent)** MIT. A PyQt desktop wrapper that lets **Claude Computer Use** drive your actual machine. Shows practical wiring from Anthropic’s API to local mouse/keyboard events; tested on Linux & Windows.
 - 26 Apr 2025. OpenAI's reasoning models are much ahead of other models when multiplying two numbers in their heads. [Ref](https://sanand0.github.io/llmmath/)
 - 26 Apr 2025. [Promptfoo](https://promptfoo.dev/) may be the most mature open source LLM evals tool. [Simon Willison](https://simonwillison.net/2025/Apr/24/exploring-promptfoo/)
 - 25 Apr 2025. [LemonSlice](https://lemonslice.com/live) showcases real-time audio-video models (avatars) that are close enough to real.
@@ -239,6 +269,7 @@
   - The effort for evals may seem high. Use LLMs to reduce this effort.
   - Include irrelevant questions because people WILL ask them. Be clear on how to handle that.
 - 22 Mar 2025. If we can DESCRIBE what good looks like, training data is no gap. We can auto optimise models towards that. That's RLF. DeepSeek R1 side stepped the need for training data by creating reward functions and prompts. This tells the fine tuning process how to go correct as it goes along. [This video](https://www.linkedin.com/posts/devvret-rishi-b0857684_starting-today-you-can-build-your-own-custom-activity-7308141160357670912-Rwfy) is the first one that really help me understand what's going on.
+- 19 Mar 2025. OpenAI now supports [PDFs natively in the API](https://platform.openai.com/docs/guides/pdf-files?api-mode=chat). (Gemini has done so for a while)
 - 18 Mar 2025. Another way of scaling LLMs is generating multiple options and self evaluating. [Eric Zhao](https://x.com/ericzhao28/status/1901704339229732874)
 - 16 Mar 2025. Gemini API allows YouTube videos as a part. [Google](https://ai.google.dev/gemini-api/docs/vision?lang=python#youtube)
 - 16 Mar 2025. agents.json is a proposal for discovery of agents on a site that enhances the Open API spec: [wild-card-ai/agents-json](https://github.com/wild-card-ai/agents-json)

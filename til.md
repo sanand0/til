@@ -1,13 +1,66 @@
 # Things I learned
 
+## May 2025
+
+- 03 May 2025. Among the popular exams in India, UPSC seems the most restrictive: bachelor's degree, age 21-32, 6 attempts, reservation applies.
+  CMA seems the least: 10th pass, any age, any number of attempts, no reservation.
+  NDA is interesting. 10+2, age 16.5-19.5, any number of attempts, no reservation. But you must be unmarried!
+  [ChatGPT](https://chatgpt.com/share/6815d249-f478-800c-a49a-8bb7fbb54a06)
+- 02 May 2025. [Saregama Carvaan](https://www.saregama.com/carvaan) supports USB sticks but only FAT, not NTFS or exFAT. To convert my NTFS USB drive to NTFS, I ran:
+
+  ```bash
+  sudo parted /dev/sda mklabel msdos
+  sudo parted /dev/sda mkpart primary fat32 1MiB 100%
+  sudo mkfs.vfat -F32 /dev/sda1
+  ```
+
+  This is a bit wasteful since I'm restricting a 32 GB USB drive to just 4GB, but it works well to play songs.
+
+- 02 May 2025. [ServerHunter.com](https://www.serverhunter.com/) seems to have the best search for low-cost hosting providers. [MassiveGrid](https://portal.massivegrid.com/cart.php?a=confproduct) currently offers the cheapest servers -- even lower than Hetzner.
+- 02 May 2025. `sqlite3 my_database.db .dump | gzip` is a more efficient way to copy SQLite databases than the original if you have indices. [Ref](https://alexwlchan.net/2025/copying-sqlite-databases/)
+- 01 May 2025. [nocodb 54,107 ⭐ May 2025](https://github.com/nocodb/nocodb) and [teable 18,116 ⭐ May 2025](https://github.com/teableio/teable) are self-hostable Airtable alternatives. Teable has [AI support](https://help.teable.io/en/basic/field/ai).
+
 ## Apr 2025
 
+- 30 Apr 2025. [Recursive LLM](https://github.com/andyk/recursive_llm) prompts that change themselves are an interesting idea. It might be interesting to see LLMs play [Nomic](https://en.wikipedia.org/wiki/Nomic). [Like here](https://content.cooperate.com/post/nomic/).
+- 29 Apr 2025. Notes from [AI Snake Oil](https://www.aisnakeoil.com/)
+  - PCs took 3 years to hit 20% of US population. ChatGPT took 2 years for 40%. But it's a lot cheaper, and a lot less used (0.5-3.5% of work hours). Maybe Gen AI adoption is slower than PCs.
+  - The jagged edge of capability: some things will become MUCH easier while others don't. The relative mix determines who goes out of a job and which tasks get fully automated. Benchmarks are rare in areas where AI is weak.
+  - Factory electrification took 40 years - to redesign the layout & process; change the org structure & policies; hiring & training practices. AI diffusion could take as long.
+    - Therefore, the ability to re-structure a workflow end-to-end will be an advantage.
+  - Several areas of low AI capability will improve slowly because the feedback is slow due to safety regulations, human adoption speed, lack of clarity on what is better, slow physical feedback (e.g. growing trees), etc.
+  - Human intelligence is in the _use_ of technology. AI is one more such technology.
+  - We know of good system safety controls in complex systems like aircrafts, power grids, engineering, chip design, healthcare, cyber-security, etc. Circuit-breakers, predefined rules, audits & monitors, access control, formal verification, etc.
+  - Even if everything humans do TODAY is automated, it doesn't mean we won't have work. It just shifts to what we're not doing today.
+    - We stopped work 4,000 years ago, with the agricultural revolution. The plant/livestock does all the growing. We just manage them, moving stuff around.
+    - We stopped work 400 years ago, with the industrial revolution. Machines do the moving. We just manage them, computing the moves.
+    - We stopped work 40 years ago, with the information revolution. Computers do the computation. We just manage them, thinking how.
+    - Most future tasks will be managing AI that do the thinking.
+- 29 Apr 2025. `ngrok http` on the CLI can be used in surprisingly versatile ways:
+  - `ngrok http file://.` to serve local files
+  - `--compression` for gzip compression
+  - `--host-header=example.com` to set the Host header
+  - `--response-header-add "Access-Control-Allow-Origin: *"` to enable CORS
+  - `--basic-auth='user:password` for basic auth
+  - `--oauth google --oauth-client-id $CLIENT_ID --oauth-client-secret $SECRET --oauth-allow-domain gramener.com --oauth-allow-email ...` for Google Auth. It supports other oauth providers as well as OIDC.
+  - `--ua-filter-deny ".*bot$"` to reject user agents ending with `bot`
+- 28 Apr 2025. Though the [Element Capture and Region Capture APIs](https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API/Element_Region_Capture) are "fully supported" by Edge, Chrome, and Opera, it didn't work for me on Edge on Linux.
+- 27 Apr 2025. [Cupping therapy](https://en.wikipedia.org/wiki/Cupping_therapy) provides short-term pain relief for chronic low-back, neck & general musculoskeletal pain but other benefits are not as clearly evident. BTW, homeopathy doesn't help or hurt. Ayurveda helps with stress. [ChatGPT](https://chatgpt.com/share/680dee7c-7404-800c-83f1-8d65c9ebdf5c)
+- 27 Apr 2025. [`uv`](https://docs.astral.sh/uv/reference/cli/) now supports:
+  - [pylock.toml](https://docs.astral.sh/uv/reference/cli/#uv-export--format), the new lock file standard [PEP 0751](https://peps.python.org/pep-0751/)
+  - [--env-file](https://docs.astral.sh/uv/reference/cli/#uv-tool-run--env-file) multiple times, allowing layered secrets
+  - [--exclude-newer](https://docs.astral.sh/uv/reference/cli/#uv-tool-run--exclude-newer) installs versions before a specific date
+  - [--overrides](https://docs.astral.sh/uv/reference/cli/#uv-tool-run--overrides) overrides versions a package specifies
+  - [--constraints](https://docs.astral.sh/uv/reference/cli/#uv-tool-run--constraints) limits the version of the package
 - 27 Apr 2025. It's interesting how many places offer a free compute via shells (apart from Google Colab):
   - [Google Cloud Shell](https://shell.cloud.google.com/): Free for **50 hours/week**, refreshed every Monday. Sessions last up to **12 hours** and terminate after **~1 hour** inactivity. [Ref](https://cloud.google.com/shell/docs/quotas-limits)
   - [Azure Cloud Shell](https://shell.azure.com/): Always free to use with **5 GB free storage** for first 12 months (standard rates after). No documented session limits but typically times out after prolonged inactivity. [Ref](https://azure.microsoft.com/services/cloud-shell/)
   - [AWS Cloud9](https://console.aws.amazon.com/cloud9/home): Free IDE, underlying compute free under AWS Free Tier (**750 hours/month** EC2 t2.micro or t3.micro for first 12 months). Regular EC2 rates apply afterward. [Ref](https://aws.amazon.com/cloud9/pricing/)
   - [Gitpod](https://gitpod.io/): Free tier offers **500 credits/month (~50 hrs)**. Workspaces run up to **8 hours/session** and stop after **30 minutes** inactivity. [Ref](https://www.gitpod.io/pricing)
   - [GitHub Codespaces](https://github.com/codespaces): **120 core-hours/month** (~60 hrs with 2-core machine) and **15 GB** storage free. Sessions timeout after **30 minutes** inactivity. [Ref](https://docs.github.com/codespaces/developing-in-codespaces/about-codespaces#monthly-included-storage-and-core-hours)
+    - Create: `gh codespace create --idle-timeout 10m --machine basicLinux32gb -R $USER/$REPO` returns the $CONTAINER_ID
+    - SSH: `gh codespace ssh -c $CONTAINER_ID`
+    - Delete: `gh codespace delete -c $CONTAINER_ID`
   - [Replit](https://replit.com/~/): Free Starter plan provides **20 hours/month**, **1 vCPU**, **2 GB RAM**, **2 GiB storage**. Repls sleep after **30 minutes** inactivity. [Ref](https://replit.com/pricing)
   - [IBM Cloud Shell](https://cloud.ibm.com/shell): Free for all users; **50 h/week** per region; any open session counts toward quota; sessions can run any length up to weekly cap; **500 MB** temporary workspace. [Ref](https://cloud.ibm.com/docs/cloud-shell?topic=cloud-shell-faqs)
   - [Oracle Cloud Infrastructure Cloud Shell](https://console.oraclecloud.com/cloudshell): Free within tenancy limits; up to **400 h/month** on Pay-As-You-Go, **240 h/month** on Universal Credits; **5 GB** encrypted persistent home. [Ref](https://docs.cloud.oracle.com/Content/API/Concepts/cloudshellintro.htm)
@@ -16,6 +69,7 @@
   - [CodeSandbox](https://codesandbox.io/): Free tier provides **400 credits/month** (~40 h of 2 vCPU+4 GB Devbox runtime), unlimited front-end Sandboxes (no credits), up to **20** Sandboxes/workspace. [Ref](https://codesandbox.io/docs/learn/plans/subscriptions)
 - 25 Apr 2025. [Dyson Sphere](https://en.wikipedia.org/wiki/Dyson_sphere).
 - 23 Apr 2025. [gcalcli](https://github.com/insanum/gcalcli) is a convenient way to export Google Calendar. Example: `uvx gcalcli agenda --tsv 2025-01-01 2025-01-05`
+- 23 Apr 2025. [cmdg](https://github.com/ThomasHabets/cmdg) is a command line GMail client that I've now switched to for quick email checks. 80% of my email is spam and this is good enough to scan and delete those. It also avoids running a 200-500 MB tab in the browser that constantly shows me how many unread emails I have.
 - 23 Apr 2025. From [Worklife with Adam Grant: Cancelling cancel culture with Loretta Ross](https://shows.acast.com/worklife-with-adam-grant/episodes/cancelling-cancel-culture-with-loretta-ross)
   - "Lighten up! Fighting Nazis should be fun. It's being a Nazi that sucks. If you're not having fun fighting for hope and joy and human rights, maybe you're doing the fight wrong. We are the ones who should be having fun."
   - "You can say what you mean. But you don't have to say it mean." There is always a way to put it across better. Refusing to say mean things is about to discover these approaches.
@@ -190,7 +244,6 @@
   - API access from model providers will shrink. Selling tokens is not a viable business model given lowering costs
 - 20 Mar 2025. Andrej Karpathy's note taking mechanism is similar to mine, except I use Microsoft TODO. [Ref](https://x.com/karpathy/status/1902503836067229803)
   - I have 3 categories. Things I learnt, which I just note. Things to explore, which I can delegate, defer, drop, or do at any time. Things to do, which are the hardest and pile up.
-- 19 Mar 2025. OpenAI now supports [PDFs natively in the API](https://platform.openai.com/docs/guides/pdf-files?api-mode=chat). (Gemini has done so for a while)
 - 19 Mar 2025. The `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files. To support symlinks on Windows, you either need to [activate Developer Mode](https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development) or to run Python as an administrator.
 - 19 Mar 2025. In Windows, you can enable offline files for any SMB share via: Control Panel → Sync Center → Manage offline files and turn on the feature. Then, in File Explorer, right‑click the mapped network folder or drive and select "Always available offline."
 - 18 Mar 2025. Anger is a trigger for change. "Either change yourself or the environment, else you'll be uncomfortable."
