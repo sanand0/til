@@ -2,9 +2,37 @@
 
 ## May 2025
 
+- 10 May 2025. Vibe coding is like getting others' code to work, which is exactly what most devs do. [Simon Willison](https://simonwillison.net/2025/May/8/ashley-willis/)
+- 09 May 2025. Trust, attitudes and use of artificial intelligence surveyed ~1,000 people across 47 countries on their views on AI. [PDF](https://mbs.edu/-/media/PDF/Research/Trust_in_AI_Report.pdf)
+  - Emerging economies trust and use AI more. It's an opportunity to leapfrog.
+  - 26% of students use AI daily (vs 17% employees). Efficiency is the main benefit.
+- 09 May 2025. Gemini APIs now have automatic caching for 75% cost reduction if message is >1K (Flash) or >2K (Pro) tokens. [Ref](https://ai.google.dev/gemini-api/docs/caching)
+- 08 May 2025. Using `[[n]]` is probably the best citation format for inline search references in RAG. [ChatGPT](https://chatgpt.com/share/681ca8c8-0570-800c-bd96-6b1970e98a36)
+- 08 May 2025. Double-checking is surprisingly efficient since LLM hallucinations are mostly uncorrelated. LLMs perform human tasks (e.g. classifying customer support messages) at ~85% accuracy. This might be unacceptable. But by asking 2 moderately correlated LLMs and double-checking discrepancies, we reduce automation by ~20% but reduce errors to 0.25%. Triple-checking reduces automation by ~25% but errors to under ~0.01%! [Ref](https://sanand0.github.io/llmevals/double-checking/)
+- 08 May 2025. Anthropic introduces [web search in the API](https://docs.anthropic.com/en/docs/build-with-claude/tool-use/web-search-tool) at $10 / 1K searches. Here's how it compares:
+  - $0.1: [DuckDuckGo Search API (RapidAPI)](https://rapidapi.com/apiriot/api/duckduckgo-search-api/pricing) (monthly pricing)
+  - $3: [Brave Search API](https://brave.com/blog/search-api-launch/)
+  - $5: [Google Custom Search JSON API](https://developers.google.com/custom-search/v1/overview)
+  - $15: [SerpAPI](https://serpapi.com/pricing)
+  - $10: [Zenserp](https://zenserp.com/serp-api-alternative)
+  - $10: [Anthropic Web Search Tool](https://docs.anthropic.com/en/docs/build-with-claude/tool-use/web-search-tool)
+  - $25: [Bing Search API](https://www.microsoft.com/en-us/bing/apis/pricing)
+  - $35: [Gemini API](https://ai.google.com/gemini-api/docs/pricing)
+  - $35: [OpenAI API](https://openai.com/api/pricing)
+- 05 May 2025. Notes from the [PromptEvals paper](https://arxiv.org/abs/2504.14738):
+  - Good evals must be:
+    - Objectively MEASURABLE (even if by an LLM). Otherwise, we won't know if it's right.
+    - Directly RELEVANT to the input/prompt. Otherwise, we're not evaluating the input.
+  - Typical evals fall into 6 categories
+    - Structured output: Adhere to a schema (Markdown, HTML, DSL, JSON + Schema)
+    - Multiple choice
+    - Length constraints: N characters, words, sentences, list items, etc.
+    - Semantic constraints: Exclude terms, topic relevance, follow grammar, etc.
+    - Stylistic constraints: Style, tone, persona
+    - Prevent hallucinations: Factual accuracy. Instruction following
 - 03 May 2025. I asked a few [Ollama](https://ollama.com/search) models `How do undo fish_add_path` (a typical question I have on a flight). My takeaway is you need an 8b model to answer this kind of question, and for now, qwen3 beats the others.
   - qwen3:8b: Took 2:12 min. Shared many good (correct) options.
-  - deepseek-r1:8b: Took 5:19 min. Shared many a couple of correct solutions. Not as good as qwen3
+  - deepseek-r1:8b: Took 5:19 min. Shared a couple of correct solutions. Not as good as qwen3
   - gemma3:3b: Suggested I use the (nonexistent) `fish_remove_path`
   - deepcoder:1.5b: "I'm sorry, but I can't assist with that request".
 - 03 May 2025. The [Dia](https://huggingface.co/nari-labs/Dia-1.6B) text to speech model people rave about has inconsistent quality. Not recommended.

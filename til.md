@@ -2,6 +2,46 @@
 
 ## May 2025
 
+- 11 May 2025. [Pandoc](https://pandoc.org/MANUAL.html) has several options useful when converting Markdown to HTML (`cat file.md | pandoc -f markdown -t html`). My favorites:
+  - `--no-highlight` skips code-highlighting. `--highlight=pygments` adds Pygments styling
+  - `--wrap=none` doesn't wrap the content in a single block
+  - `--number-sections` adds section numbering (`<h2>1. Introduction</h2>`)
+  - `--shift-heading-level-by=NUM` – shift all headings by NUM levels (e.g., start at `<h2>` instead of `<h1>`)
+  - `pandoc -f markdown-auto_identifiers` drops the auto-identifiers extension that generates `id=...` for each heading
+  - `pandoc -f gfm` uses GitHub flavored Markdown. Run `pandoc --list-extensions=gfm` to identify the extensions it uses.
+  - Pandoc's [Markdown extension examples](https://pandoc.org/demo/example33/8-pandocs-markdown.html) are quite extensive.
+  - Auto-enabled GFM extensions:
+    - `alerts`: GitHub-style callouts (info, tip, warning) via `> [!TYPE]` blocks.
+    - `autolink_bare_uris`: Turns bare URLs into links, without needing `<...>`.
+    - `emoji`: Parses `:smile:`-style codes into Unicode emoji characters.
+    - `footnotes`: Enables footnote syntax with `[^id]` and definitions at the bottom.
+    - `gfm_auto_identifiers`: Uses GitHub’s heading-ID algorithm: spaces → dashes, lowercase, removes punctuation.
+    - `pipe_tables`: Enables table.
+    - `raw_html`: Raw HTML is unchanged.
+    - `strikeout`: Enables strikethrough with `~~text~~`.
+    - `task_lists`: Parses `- [ ]` and `- [x]` items as checkboxes.
+    - `yaml_metadata_block`: YAML front matter for document metadata, e.g. `<title>`
+  - GFM extensions worth enabling:
+    - `ascii_identifiers`: Strips accents/non-Latin letters in automatically generated IDs.
+    - `bracketed_spans`: `[Warning]{.alert}` becomes `<span class="alert">`
+    - `definition_lists`: `Term\n: Definition text` becomes a definition list
+    - `fenced_divs`: `::: {.note}` block creates a `<div class="note">...</div>`
+    - `implicit_figures`: Standalone images become `<figure>` with `<figcaption>`.
+    - `implicit_header_references`: `[Section]` is treated as `[Section][#section]`
+    - `raw_attribute`: `<b>bold</b>`{=html} is inserted as HTML
+    - `smart`: Converts straight quotes to curly, `--` to en-dash, `---` to em-dash, `...` to ellipsis.
+    - `subscript & superscript`: E.g. `H~2~O` and `E = mc^2^`
+- 10 May 2025. [snapdom](https://github.com/zumerlab/snapdom) is a fast, light, element capture alternative to [html2canvas](https://html2canvas.hertzen.com/) but doesn't work well with non-CORS images or iframes.
+- 10 May 2025. [Sli.dev](https://sli.dev/) is a Markdown slide language. Similar to [Marp](https://marp.app/)
+- 10 May 2025. Don't split your code into microservices until you need to scale. [Ref](https://nexo.sh/posts/microservices-for-startups/)
+- 09 May 2025. Tofu Yakitori is a Japanese dish. It's like a dhokla. Marinated tofu cubes brushed with that sweet‑savory tare (soy, mirin, sake, a hint of sugar), then grilled until caramel‑charred. One of the better (tasty + different) dishes I've had recently. I used [ChatGPT](https://chatgpt.com/share/681d880f-5860-800c-ab21-68c07a25277a) to remind me of the dish name.
+- 07 May 2025. India attacked Pakistan!
+- 07 May 2025. When writing notes, summarize at the end of the day the learnings and next steps.
+- 06 May 2025. GitHub does not let you control the cache duration, but there are many creative workarounds. [ChatGPT](https://chatgpt.com/share/6819df70-4310-800c-acdc-5b743e1cde31)
+  - HTML meta tags: `<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">`
+  - Use a [service worker](https://github.com/gzuidhof/coi-serviceworker) ([blog](https://dev.to/stefnotch/enabling-coop-coep-without-touching-the-server-2d3n))
+  - Proxy through a CDN. Cloudflare, Netlify
+  - Move to another static host: S3 + CloudFront, Heroku, Vercel, Surge, Firebase Hosting
 - 03 May 2025. Among the popular exams in India, UPSC seems the most restrictive: bachelor's degree, age 21-32, 6 attempts, reservation applies.
   CMA seems the least: 10th pass, any age, any number of attempts, no reservation.
   NDA is interesting. 10+2, age 16.5-19.5, any number of attempts, no reservation. But you must be unmarried!
