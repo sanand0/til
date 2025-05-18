@@ -2,6 +2,32 @@
 
 ## May 2025
 
+- 16 May 2025. Birds navigate using quantum entanglement! [Guardian](https://www.theguardian.com/science/2025/mar/23/they-have-no-one-to-follow-how-migrating-birds-use-quantum-mechanics-to-navigate) [ChatGPT](https://chatgpt.com/share/68282f03-3978-800c-8e46-e9979887317d)
+- 13 May 2025. Today, if I had to store a bunch of data files (e.g. parquet) under 1GB, here are options:
+  - **GitHub Releases**. 2 GiB **per file**, unlimited total & bandwidth. 🟢 Immortal URL, versioning, easy CI publish. 🔴 Each file must stay < 2 GiB; no built-in SQL.
+  - **Zenodo** (CERN). 50 GB per record; one-off bumps to 200 GB. 🟢 DOI assignment, archival mandate. 🔴 Occasional throttled bandwidth; no API for partial file reads.
+  - **Hugging Face Hub**. 300 GB per repo; 50 GB per file. 🟢 Git-based, dataset tooling, lively ML community. 🔴 Large files need git-LFS; pushes via LFS can be slow.
+  - **Cloudflare R2**. 10 GB storage & 1 M ops / month. 🟢 S3 API, zero-egress to Cloudflare Workers, fast. 🔴 10 GB cap below your 50 GB target.
+  - **Kaggle Datasets**. 20 GB per dataset, public only. 🟢 Built-in notebooks & GPU. 🔴 No programmatic SQL API; quotas sometimes change.
+  - **data.world (free)**. 1 GB total, 100 MB per dataset. 🟢 Nice social features. 🔴 Too small for your size.
+- 13 May 2025. If I had to query a bunch of data files in an external Parquet or SQLite file, here are SQL engines-as-a-service:
+  - **MotherDuck**. 10 GB storage + 10 CU-hrs/mo compute. Native DuckDB; no credit card; GA June 2024; monthly feature drops.
+  - **Datasette Cloud**. Two-month trial (or 1-yr for non-profits). SQLite backend. Great UX; but not free forever for general use.
+  - **AWS Athena**. Pay-per-TB scanned; no free tier; S3 fees after 12 mo. Costs creep quickly; free-tier S3 ends after a year.
+- 13 May 2025. Bootstrap has a [`.stretched-link`](https://getbootstrap.com/docs/5.3/helpers/stretched-link/) that makes a link cover the containing block. A clever trick that I discovered when Claude 3.5 Sonnet wrote [my code](https://github.com/sanand0/sanand0.github.io/blob/0932f2efe3ad6c950c20b2ed7534ef27d8fff304/update.js#L62).
+- 13 May 2025. Discovered spray and peel paints at [ArtFriend](https://artfriendonline.com/). I had no idea that was a thing.
+- 12 May 2025. If you're looking for datasets / APIs related to research publications (especially funding), then explore:
+  - Crossref [API](https://api.crossref.org/swagger-ui/index.html) and [snapshots](https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-public-data-files-and-plus-snapshots/)
+  - OpenAlex [API](https://docs.openalex.org/) and [snapshots](https://docs.openalex.org/download-all-data/openalex-snapshot) which is funded by [OurResearch](https://ourresearch.org/). OpenAlex is like CrossRef but includes some disambiguation
+  - [OpenAIRE Graph](https://graph.openaire.eu/docs/category/downloads/) [2024](https://zenodo.org/records/13133184) / [2025](https://zenodo.org/records/14851262)
+  - [Europe PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10767826/) [dataset](https://ftp.ebi.ac.uk/pub/databases/pmc/)
+- 12 May 2025. To avoid Ubuntu 24 suspending on closing the laptop lid use one of these and restart:
+  - `/etc/systemd/logind.conf`: Set `HandleLidSwitch=ignore`
+  - `etc/UPower/UPower.conf`: Set `IgnoreLid=true`
+- 12 May 2025. `UV_TORCH_BACKEND=auto uv pip install torch torchvision torchaudio` installs the most appropriate PyTorch version. [Ref](https://docs.astral.sh/uv/guides/integration/pytorch/#automatic-backend-selection)
+- 12 May 2025. [Cog](https://cog.readthedocs.io/en/latest/) is a Python based templating language. It is embedded as comment chunks in any file and replaced itself with the output of the Python code you write.
+- 12 May 2025. [CloudFlare Zero Trust](https://www.cloudflare.com/en-in/zero-trust/products/access/) seems the easiest way to enable auth on static websites, especially if your DNS is already on Cloudflare. No cost
+- 11 May 2025. Never live delete data. Mark it for deletion and schedule a deletion task. That way you have time to react to mistakes. [Simon Willison](https://simonwillison.net/2025/May/14/james-cowling/)
 - 11 May 2025. [Pandoc](https://pandoc.org/MANUAL.html) has several options useful when converting Markdown to HTML (`cat file.md | pandoc -f markdown -t html`). My favorites:
   - `--no-highlight` skips code-highlighting. `--highlight=pygments` adds Pygments styling
   - `--wrap=none` doesn't wrap the content in a single block
@@ -114,7 +140,7 @@
   - "Lighten up! Fighting Nazis should be fun. It's being a Nazi that sucks. If you're not having fun fighting for hope and joy and human rights, maybe you're doing the fight wrong. We are the ones who should be having fun."
   - "You can say what you mean. But you don't have to say it mean." There is always a way to put it across better. Refusing to say mean things is about to discover these approaches.
   - "The true mark of a lifelong learner is knowing that you can learn something from every single person you meet." If you remember that, you can't be a know it all.
-- 23 Apr 2025. [semantic-text-splitter](https://pypi.org/project/semantic-text-splitter/) could be the go-to text splitter. It's Rust-based, supports MarkdownSplitter, and multiple tokenizers. Alternatives like [semchunk](https://pypi.org/project/semchunk/), [advanced-chunker](https://pypi.org/project/advanced-chunker/), [chonkie](https://github.com/chonkie-inc/chonkie) ,etc. seem clunkier.
+- 23 Apr 2025. [semantic-text-splitter](https://pypi.org/project/semantic-text-splitter/) could be the go-to text splitter. It's Rust-based, supports MarkdownSplitter, and multiple tokenizers. Alternatives like [semchunk](https://pypi.org/project/semchunk/), [advanced-chunker](https://pypi.org/project/advanced-chunker/), [chonkie](https://github.com/chonkie-inc/chonkie), etc. seem clunkier.
 - 23 Apr 2025. ULID is like UUID but time-sortable. That's an improvement over timestamp IDs (definitely) and potentially even UUIDs. They can be generated by clients as a globally unique ID. Try [`pip install python-ulid`](https://github.com/mdomke/python-ulid) and [`npm install ulid`](https://github.com/ulid/javascript).
 - 22 Apr 2025. The [Consumer Product Safety Commission Data](https://www.cpsc.gov/Data) has thousands of reports of product safety over time
 - 22 Apr 2025. You can run `xclip -sel clip -o | pandoc -f markdown -t html --no-highlight | xclip -sel clip -t text/html -i` to convert Markdown in the clipboard to rich text. But `xclip` doesn't support multiple selections, so the text is lost. [ChatGPT](https://chatgpt.com/share/68071421-07a4-800c-a286-0d8b624c27e4)

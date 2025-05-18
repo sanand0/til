@@ -2,6 +2,42 @@
 
 ## May 2025
 
+- 16 May 2025. [DeerFlow](https://github.com/bytedance/deer-flow) is an open source Deep Research MCP. Lets you run deep research outside of the standard chatbots.
+- 13 May 2025. [Gemini Live API](https://ai.google.dev/gemini-api/docs/live) is the real-time equivalent from Gemini. It supports tools, search, and code execution.
+- 13 May 2025. [mcp-mem0](https://github.com/coleam00/mcp-mem0) is an MCP for memory
+- 13 May 2025. [llm-min.txt](https://github.com/marv1nnnnn/llm-min.txt) compresses docs for LLMs to read optimally. Like a compressed [llms.txt](https://llmstxt.org/) or [context7](https://context7.com/). Usage `GEMINI_API_KEY=... uvx llm-min -i $DIR`
+- 13 May 2025. There's a lot of action on encrypted LLM operations.
+  - Responses API allows reasoning tokens to be encrypted if organizations don't want their reasoning data to persist. [Ref](https://cookbook.openai.com/examples/responses_api/reasoning_items)
+  - [Tinfoil](https://tinfoil.sh/) (YC X25) offers an OpenAI-compatible inference API where data is encrypted from the client to the NVIDIA Hopper/Blackwell GPUs in confidential computing mode. Prompts, model weights, outputs are encrypted in transit and memory, with verifiable privacy on code running in GPU.
+  - [Modelyo](https://modelyo.com/) (Israel) offers VMs/K8 clusters with encrypted GPUs across multiple cloud providers with continuous attestation, managed on Modelyo's portal.
+- 13 May 2025. LLMs are able to do things independently longer and longer. That's a useful metric to track. [METR: Measuring AI Ability to Complete Long Tasks](https://www.lesswrong.com/posts/deesrjitvXM4xYGZd/metr-measuring-ai-ability-to-complete-long-tasks).
+- 12 May 2025. We could "fine-tune" system prompts automatically with evals, creating a "system prompt learning" paradim -- like my [promptevals](https://github.com/gramener/promptevals). [Andrej Karpathy](https://x.com/karpathy/status/1921368644069765486)
+- 12 May 2025. I was asked how to improve speed when building an enterprise ChatGPT clone using an API. Here's what I'd suggest, in order:
+  - Streaming. High impact, low effort.
+  - Caching RAG retrieval as well as generation. High impact, low effort.
+  - UI tweaks. Loading / streaming icons and progress hints ()"Retrieving context", "Generating answer", etc.)
+  - Parallelize, if possible
+  - Use model options where available, e.g. speculative decoding, models with higher speed, models with closer CDN, etc.
+  - Shorten prompts
+  - Persistent HTTP/2 Keep-Alive. Low impact, low effort (tweak server settings).
+- 12 May 2025. [Cloudflare Vectorize](https://developers.cloudflare.com/vectorize/platform/pricing/), at 768 dimensions / embedding, is free for ~6.5K chunks storage at ~1,000 queries / day. For a light load like 1M 768d chunks queried 1K times a day, the cost is: [ChatGPT](https://chatgpt.com/share/6821a25a-9f80-800c-8d95-8b2200ad6de4)
+  | Service | $ |
+  | ------------------------------ | -----: |
+  | Cloudflare Vectorize | 0.38 |
+  | TurboPuffer | 1.12 |
+  | Pinecone (Serverless) | 1.27 |
+  | Supabase (pgvector Micro) | 10.00 |
+  | Redis Cloud Flex (~3 GB) | 15.00 |
+  | Elastic Serverless | 65.84 |
+  | Weaviate Cloud (Serverless) | 73.00 |
+  | Qdrant Cloud (4 CPU / 8 GB) | 107.16 |
+  | Azure AI Search (S1 1 SU) | 245.28 |
+  | AWS OpenSearch Serverless | 350.00 |
+  | Google Vertex AI Vector Search | 547.50 |
+- 12 May 2025. [NVIDIA parakeet](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2) is a lightweight speech to text model that leads benchmarks. Installing such packages continues to be a nightmare due to PyTorch (despite `uv`).
+- 12 May 2025. I explored the real-time avatar space. Heygen seems to be the easiest to use, but even that is complex and expensive ($99/mo). We may need to wait a few months for avatars to explode.
+- 12 May 2025. Model reliability is a huge enabler for performance. As models become more reliable, they can work autonomously for longer and that is another kind of scaling. [Vending Bench](https://andonlabs.com/evals/vending-bench)
+- 12 May 2025. ChatGPT, Gemini, etc. have become lead generation engines. Chat Bot Optimization (CBO), is it? [WhatsApp + ChatGPT](https://chatgpt.com/share/68215e14-9870-800c-a8e0-4fe476f48cc5)
 - 10 May 2025. Vibe coding is like getting others' code to work, which is exactly what most devs do. [Simon Willison](https://simonwillison.net/2025/May/8/ashley-willis/)
 - 09 May 2025. Trust, attitudes and use of artificial intelligence surveyed ~1,000 people across 47 countries on their views on AI. [PDF](https://mbs.edu/-/media/PDF/Research/Trust_in_AI_Report.pdf)
   - Emerging economies trust and use AI more. It's an opportunity to leapfrog.
