@@ -2,6 +2,31 @@
 
 ## May 2025
 
+- 24 May 2025. [oxlint](https://oxc.rs/docs/guide/usage/linter) is a fast [eslint](https://eslint.org/) alternative written in Rust. It supports _most_ but not all eslint rules. [Migration](https://github.com/oxc-project/oxlint-migrate) can be automated but not all rules are migrated (which may be OK). Best for new projects.
+- 23 May 2025. My preferred way to remove passwords from a PDF is via pikepdf: `uv run --with pikepdf python -c 'import pikepdf, sys; pdf = pikepdf.open(sys.argv[1], password=sys.argv[2], allow_overwriting_input=True); pdf.save()' filename.pdf password`.
+- 23 May 2025. Learnings on [the mortality of states](https://www.pnas.org/doi/10.1073/pnas.2218834120#supplementary-materials)
+  - **Steep early rise in vulnerability**. Risk of nation states dying (hazard curve) climbs quickly during roughly the first ~200 years of a state’s life.
+  - **Risk then flattens out**. After that "middle-age," the chance of termination stops increasing; hardy states can survive for many centuries.
+  - **Pattern is global**. Same shape appears in Europe, the Americas, and East Asia, including the well-known ~300-year upper limit of many Chinese dynasties.
+  - Resilience erodes due to "slow" variables that grow quietly.
+    - **Environmental degradation**. Soil exhaustion, deforestation, or irrigation salinity silently reduce a polity’s safety buffer.
+    - **Increasing complexity & overhead**. Success breeds a bigger bureaucracy and military, raising fixed costs and response time.
+    - **Rising inequality**. Elite capture and extractive institutions sap legitimacy and social cohesion, making the system brittle.
+    - **Path-dependence & sunk-cost lock-in**. Older states are invested in infrastructures and hierarchies that are hard to reform quickly.
+  - **Corporates are different**. Hazard curve spikes within ~5-10 years. After that, risk declines, but rises of obsolescence sets in. They due after ~30 years due to technological disruption, market saturation, managerial inertia, or capital-market pressure. [ChatGPT](https://chatgpt.com/share/6832865e-39a8-800c-b211-0d17815f14e1)
+- 22 May 2025. The [Material Contracts Corpus](https://mcc.law.stanford.edu/) is a collection of ~1 million contracts / agreements with machine-generated metadata (party names, contract types, dates). Great for text analysis.
+- 21 May 2025. WSL is now open source. [Microsoft](https://blogs.windows.com/windowsdeveloper/2025/05/19/the-windows-subsystem-for-linux-is-now-open-source/)
+- 20 May 2025. [UUID7](https://uuid7.com/) is a UUID that's sortable by time. DuckDB implements it in [v1.3.0](https://duckdb.org/2025/05/21/announcing-duckdb-130.html)
+- 20 May 2025. [just](https://github.com/casey/just) is a command runner like `make` but uses YAML conifguration. Written in Rust.
+- 19 May 2025. If you have a podcast RSS feed and want to share it as a friendly link for apps, here are options.
+  1. **pod.link**: `https://pod.link/id?href=<RSS>`. Page with Apple, Spotify, Google/YouTube Music, Pocket Casts, Overcast; auto-detects installed app; free, vanity slugs, GA-ID, cache-clear; run by Spotify
+  2. **SubscribeOnAndroid**: `https://subscribeonandroid.com/<RSS>`. Android-only intent for any compliant app (AntennaPod, Pocket Casts, etc.); tiny, ad-free fallback
+  3. **Episodes.fm**: `https://episodes.fm/<base64-RSS>`. Device-detect page; remembers the app a listener chose; supports live-episode `<podcast:liveItem>` tags
+  4. **Plink**: `https://plinkhq.com/i/<AppleID>?to=page`. Deep-link redirect on mobile, landing page on desktop; free tier, vanity `plnk.to/` URLs, built-in analytics
+  5. **Podfollow**: `https://podfollow.com/<AppleID>`. Claim by RSS; free; episode links; optional web player; custom redirect rules
+  6. **Chartable SmartLinks**: `https://chartable.com/feeds/<feedID>/smartlinks`. Add a trackable prefix in RSS; channel attribution, vanity slug, A/B testing
+  7. **Linkfire for Podcasts**: `https://linkfire.com/podcasts?url=<RSS>`. Dashboard "Create link" flow; auto-updates new episodes; Apple Podcasts analytics; email-capture widgets
+  8. **Feature.fm**: `https://feature.fm/smartlinks/podcast?feed=<RSS>`. Pixel support, retargeting campaigns; freemium tier with upgrade for custom domains
 - 16 May 2025. Birds navigate using quantum entanglement! [Guardian](https://www.theguardian.com/science/2025/mar/23/they-have-no-one-to-follow-how-migrating-birds-use-quantum-mechanics-to-navigate) [ChatGPT](https://chatgpt.com/share/68282f03-3978-800c-8e46-e9979887317d)
 - 13 May 2025. Today, if I had to store a bunch of data files (e.g. parquet) under 1GB, here are options:
   - **GitHub Releases**. 2 GiB **per file**, unlimited total & bandwidth. 🟢 Immortal URL, versioning, easy CI publish. 🔴 Each file must stay < 2 GiB; no built-in SQL.
@@ -103,7 +128,7 @@
     - We stopped work 40 years ago, with the information revolution. Computers do the computation. We just manage them, thinking how.
     - Most future tasks will be managing AI that do the thinking.
 - 29 Apr 2025. `ngrok http` on the CLI can be used in surprisingly versatile ways:
-  - `ngrok http file://.` to serve local files
+  - `ngrok http file://$PWD` to serve local files
   - `--compression` for gzip compression
   - `--host-header=example.com` to set the Host header
   - `--response-header-add "Access-Control-Allow-Origin: *"` to enable CORS
@@ -453,14 +478,14 @@
   [ConvertCase](https://convertcase.net/unicode-text-converter/), and
   [LingoJam](https://lingojam.com/BoldTextGenerator).
 - 02 Mar 2025. [10 red flags I look for as an angel investor](https://www.linkedin.com/posts/jnpayne_10-red-flags-i-look-for-as-an-angel-investor-activity-7298357529967771649-IqdO) is an interesting read.
-  1. **No real customers**: A deck, a landing page, and a “vision” don’t impress me. Show me paying customers. Even better, show me customers coming back.
+  1. **No real customers**: A deck, a landing page, and a "vision" don’t impress me. Show me paying customers. Even better, show me customers coming back.
   2. **No path to profitability**: I don’t care if you raise $100M—if there’s no plan to make money, you’re just burning oxygen. Growth is great, but cash flow keeps you alive.
   3. **Founders who won’t sell**: If you’re scared to get on sales calls, that’s a red flag. The best founders sell in the early days—whether it’s to customers, employees, or investors.
-  4. **No differentiation**: “Like X, but cheaper” isn’t a strategy. If your only edge is price, you’ll get crushed. What do you have that no one else does?
-  5. **No urgency**: The best founders operate like time is running out. If you’re “exploring ideas” or “thinking about raising next year,” you’ve already lost.
+  4. **No differentiation**: "Like X, but cheaper" isn’t a strategy. If your only edge is price, you’ll get crushed. What do you have that no one else does?
+  5. **No urgency**: The best founders operate like time is running out. If you’re "exploring ideas" or "thinking about raising next year," you’ve already lost.
   6. **Raising money before proving anything**: Too many founders try to fundraise their way out of bad ideas. If you need VC to get off the ground, you’re building the wrong business.
   7. **No clear distribution strategy**: Product alone doesn’t win. First-time founders obsess over features. Second-time founders obsess over distribution. How are you getting customers?
-  8. **No ownership mentality**: If I hear “I need to hire someone to do that” too early, I’m out. Founders who win figure things out before they delegate.
+  8. **No ownership mentality**: If I hear "I need to hire someone to do that" too early, I’m out. Founders who win figure things out before they delegate.
   9. **A CEO who can’t attract talent**: Your first hires are everything. If great people aren’t willing to join, either the vision is weak—or you are.
   10. **No skin in the game**: If a founder won’t invest their own money or take a pay cut to make it work, why should I?
 - 02 Mar 2025. By contrast, this [OpenAI Deep Research report](https://chatgpt.com/share/67c3e38c-e514-800c-8cfc-983bd4fdeb21) feels a lot less actionable.
