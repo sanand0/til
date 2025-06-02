@@ -2,6 +2,17 @@
 
 ## May 2025
 
+- 31 May 2025. MicroVMs are like containers but offer higher isolation with slightly higher latency and memory via `kvm` hypervisors. [ChatGPT](https://chatgpt.com/share/683c1251-3f48-800c-95d4-6a3e9a2b63ac)
+- 31 May 2025. I was exploring free alternatives to the $4/mo Hetzner instance I use. Google offers a free e2 micro instance. But it's _much_ smaller than the Hetzner CAX11/CX-22 server I run. 25% of CPU, 25% of RAM (which is the main problem -- 1 GB is often not enough), slower HDD, 5% of outbound traffic. Hetzner remains one of the best value offerings.
+- 31 May 2025. Planning to use [pretty-quick](https://www.npmjs.com/package/pretty-quick) instead of [prettier](https://www.npmjs.com/package/prettier). It's a wrapper that only fixes changed files based on git.
+- 31 May 2025. [f2](https://github.com/ayoisaiah/f2) is an intuitive cross-platform renaming tool. Usage:
+  ```bash
+  f2 -f 'jpeg' -r 'jpg'
+  f2 -r '{id3.artist}/{id3.album}/${1}_{id3.title}{ext}'
+  ```
+- 31 May 2025. git worktrees can create multiple copies of code. This is useful when using different coding agents run the same task in parallel. [Ref](https://www.skeptrune.com/posts/git-worktrees-agents-and-tmux/)
+- 29 May 2025. Today, I'd go with [Node's native test runner](https://nodejs.org/api/test.html) for backend JS testing. I used [node-tap](https://node-tap.org/) earlier. For front-end, I'd pick [vitest](https://vitest.dev/). [ChatGPT](https://chatgpt.com/share/683808bf-c01c-800c-a5ea-18df8394414c)
+- 27 May 2025. DuckLake is a DuckDB extension that makes Parquet files editable with history. And much more. [DuckDB](https://duckdb.org/2025/05/27/ducklake.html)
 - 24 May 2025. [oxlint](https://oxc.rs/docs/guide/usage/linter) is a fast [eslint](https://eslint.org/) alternative written in Rust. It supports _most_ but not all eslint rules. [Migration](https://github.com/oxc-project/oxlint-migrate) can be automated but not all rules are migrated (which may be OK). Best for new projects.
 - 23 May 2025. My preferred way to remove passwords from a PDF is via pikepdf: `uv run --with pikepdf python -c 'import pikepdf, sys; pdf = pikepdf.open(sys.argv[1], password=sys.argv[2], allow_overwriting_input=True); pdf.save()' filename.pdf password`.
 - 23 May 2025. Learnings on [the mortality of states](https://www.pnas.org/doi/10.1073/pnas.2218834120#supplementary-materials)

@@ -2,6 +2,11 @@
 
 ## May 2025
 
+- 31 May 2025. LLMs optimize for compression. Humans optimize for adaptive flexibility. [Ref](https://www.linkedin.com/posts/ravid-shwartz-ziv-8bb18761_you-know-all-those-arguments-that-llms-think-activity-7333886415568605186-LA54/) [arXiv](https://arxiv.org/abs/2505.17117)
+- 31 May 2025. Gemini Deep Research accepts files and images. Cross-checking reports, providing private sources, etc. is now realistic. [Ref](https://workspaceupdates.googleblog.com/2025/05/deep-research-updates-gemini-io-2025.html)
+- 30 May 2025. The new Flux1.Kontext model seems _very_ good at image editing. Costs 4-8c per image. [Peter Gostev](https://www.linkedin.com/posts/peter-gostev_image-editing-with-black-forrest-labs-activity-7334272870556057602-5An1)
+- 27 May 2025. When processing presentations for RAG via OCR:
+  - [How to parse PDF docs for RAG](https://cookbook.openai.com/examples/parse_pdf_docs_for_rag) is a useful OpenAI cookbook with a GPT 4o prompt
 - 24 May 2025. TTS typically costs $1/hour now. Gemini 2.5 Flash Preview TTS, Gemini 2.5 Pro Preview TTS, GPT 4o TTS, and GPT 4o Mini TTS are the current best-in-class text-to-speech models from the mainstream LLM providers. Assuming ~175 words per minute and 1 token ≈ ¾ words, 1 hour of speech ~ 10,300 words/hr ~ 13,800 input tokens ~ 75,000 audio tokens, it costs:
   - Gemini 2.5 Flash Preview TTS ($0.50/1 M input, $10.00/1 M output): ~$0.8 per hour
   - GPT-4o-mini-TTS ($0.60/1 M input, $12.00/1 M output): ~$0.9/hour
@@ -35,7 +40,7 @@
   | Service | $ |
   | ------------------------------ | -----: |
   | Cloudflare Vectorize | 0.38 |
-  | TurboPuffer | 1.12 |
+  | TurboPuffer (min $64/mo) | 1.12 |
   | Pinecone (Serverless) | 1.27 |
   | Supabase (pgvector Micro) | 10.00 |
   | Redis Cloud Flex (~3 GB) | 15.00 |
