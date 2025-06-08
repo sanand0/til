@@ -1,5 +1,12 @@
 # Things I learned
 
+## Jun 2025
+
+- 05 Jun 2025. Indian High Court judgements are now available as a public dataset on AWS and updated periodically. [Ref](https://registry.opendata.aws/indian-high-court-judgments/)
+- 03 Jun 2025. Pure CSS tooltips are possible. [Julia Evans](https://jvns.ca/til/in-css-you-can-populate--content---with-a--data---attribute/)
+- 03 Jun 2025. Google has an [OAuth Playground](https://developers.google.com/oauthplayground/) which is a convenient way to get a temporary OAuth token.
+- 02 Jun 2025. [anyascii](https://github.com/anyascii/anyascii) is a better alternative to [unidecode](https://pypi.org/project/Unidecode/). It supports more characters and also supports transliteration. I use it to strip out non-ASCII in ChatGPT's output. [Commit](https://github.com/sanand0/scripts/commit/5ea8493)
+
 ## May 2025
 
 - 31 May 2025. MicroVMs are like containers but offer higher isolation with slightly higher latency and memory via `kvm` hypervisors. [ChatGPT](https://chatgpt.com/share/683c1251-3f48-800c-95d4-6a3e9a2b63ac)
@@ -634,7 +641,7 @@
 
   But open source alternatives are also gaining traction:
 
-  - [DataHub](https://datahubproject.io/): Rapidly growing and embraced by modern data teams
+  - [DataHub](https://datahubproject.io/): Rapidly growing and embraced by modern data teams. Update: 6 Jun 2025. Not updated since Nov 2023 [Ref](https://github.com/Zjh-819/LLMDataHub/)
   - [Amundsen](https://www.getamundsen.io/): Growing steadily, popular in tech companies for its simplicity
   - [OpenMetadata](https://openmetadata.org/): Fast-growing with a strong emerging community
   - [Apache Atlas](https://atlas.apache.org/): An older tool that’s seen declining momentum versus newer alternatives
@@ -1243,10 +1250,12 @@
   - Magic: The Gathering
   - SQL
   - Excel
-- 28 Jul 2024. [Rev.ai](https://rev.ai/) does a good job of diarization. Cost: 2 cents per minute.
+- 28 Jul 2024. [Rev.ai](https://rev.ai/) does a good job of diarization. Cost: 2 cents per minute. Update: 6 Jun 2025. Cost: 0.33c/min [Ref](https://www.rev.ai/pricing)
 - 22 Jul 2024. [Awesome PaaS](https://github.com/debarshibasak/awesome-paas) lists self-hosted deployment platforms. [Piku](https://github.com/piku/piku) - similar to [Dokku](https://dokku.com/) -- is promising.
 - 15 Jul 2024. [Xata](https://xata.io/docs/rest-api) offers a free PostgreSQL tier with REST API
 - 14 Jul 2024. Mamba now uses mambaforge as the default installation, i.e. conda-forge is the default and only channel!
+  - Update: 6 Jun 2025. Mambaforge is sunset as of 29 Jul 2024. Conda-forge now uses Miniforge as the standard installer [Ref](https://conda-forge.org/news/2024/07/29/sunsetting-mambaforge/)
+    conda-forge.org. Users should switch to Miniforge instead.
 - 14 Jul 2024. nginx supports a load-balancing method `least_conn` which is _far_ better than the default round-robin.
 - 12 Jul 2024. Carlton's TDS session
   - Always create a new venv via VS Code when starting a training session. Helps reproduce issues (though I could use Colab instead)
