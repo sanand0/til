@@ -4,7 +4,7 @@ This repo publishes things I've learned at [til.s-anand.net](https://til.s-anand
 
 I store my notes in Dropbox. The repo:
 
-- `llms.md` has notes on LLMs, copied from `C:/Dropbox/Apps/anandblog/llms.md`.
+- `llms.md` has notes on LLMs, copied from `C:/Dropbox/Apps/anandblog/@llms.md`.
 - `til.md` has notes on other things I've learned, copied from `C:/Dropbox/notes/@til-things-i-learned.md`.
 - `update.sh`: A shell script that copies the notes from Dropbox to the repo and commits them.
 - `convert.js`: Converts Markdown notes until most recent Saturday midnight into weekly HTML + RSS using Deno.

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Copy files
-cp /c/Dropbox/notes/llms.md ./llms.md
+cp /c/Dropbox/notes/@llms.md ./llms.md
 cp /c/Dropbox/notes/@til-things-i-learned.md ./til.md
 
 # Lint them

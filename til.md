@@ -2,6 +2,16 @@
 
 ## Jun 2025
 
+- 14 Jun 2025. "Database migrations are like version control for your database." [X](https://x.com/alexisgallagher/status/1933615376732131477). [dbmate](https://github.com/amacneil/dbmate) seems like an apt choice.
+- 13 Jun 2025. [PDF plumber](https://github.com/jsvine/pdfplumber) seems a good way to extract PDF structure and internals.
+- 12 Jun 2025. [yq](https://github.com/mikefarah/yq) is like [jq](https://jqlang.org/) but for YAML, XML, CSV, and TOML as well. [dasel](https://github.com/TomWright/dasel) is similar but not updated.
+- 12 Jun 2025. [qsv](https://github.com/dathere/qsv) is a data wrangling toolkit for CSV files. [xan](https://github.com/medialab/xan) is similar. [csvkit](https://github.com/wireservice/csvkit), of course, is the most popular. An alternative, [xsv](https://github.com/BurntSushi/xsv?tab=readme-ov-file) is no longer updated.
+- 10 Jun 2025. The [Singularity Reddit](https://www.reddit.com/r/singularity/) is apparently a good source of LLM news.
+- 10 Jun 2025. Reddit has RSS feeds for each subreddit:
+  - Basic: `https://www.reddit.com/r/<subreddit>.rss  `
+  - All new: `https://www.reddit.com/r/<subreddit>/new.rss`
+  - Daily top: `https://www.reddit.com/r/<subreddit>/top.rss?t=day` (replace day with hour, week, month, or year)
+  - Private reddit feeds are available at https://www.reddit.com/prefs/feeds/
 - 05 Jun 2025. Indian High Court judgements are now available as a public dataset on AWS and updated periodically. [Ref](https://registry.opendata.aws/indian-high-court-judgments/)
 - 03 Jun 2025. Pure CSS tooltips are possible. [Julia Evans](https://jvns.ca/til/in-css-you-can-populate--content---with-a--data---attribute/)
 - 03 Jun 2025. Google has an [OAuth Playground](https://developers.google.com/oauthplayground/) which is a convenient way to get a temporary OAuth token.
