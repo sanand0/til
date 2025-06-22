@@ -13,5 +13,5 @@ I store my notes in Dropbox. The repo:
 
 ```bash
 # Copy files from Dropbox, lint them, commit and push to the repo
-bash update.sh
+OPENAI_API_KEY=... bash update.sh
 ```

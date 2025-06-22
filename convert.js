@@ -10,7 +10,8 @@ const DATE_FORMAT = {
 const SITE_TITLE = "Anand S - Things I Learned";
 const SITE_SUBTITLE = "Weekly Notes and Discoveries";
 const SITE_BASE = "https://til.s-anand.net";
-const LLMFOUNDRY_TOKEN = Deno.env.get("LLMFOUNDRY_TOKEN");
+const OPENAI_API_KEY = Deno.env.get("OPENAI_API_KEY");
+const OPENAI_BASE_URL = Deno.env.get("OPENAI_BASE_URL") || "https://api.openai.com/v1";
 
 const tags = [
   "agents",
@@ -295,13 +296,28 @@ const allNotes = paths
   .filter((note) => note.date.toISOString() < currentWeekStart);
 
 // Get tags
-const response = await fetch("https://llmfoundry.straive.com/similarity", {
+const docs = allNotes.map((note) => note.content);
+const response = await fetch(`${OPENAI_BASE_URL}/embeddings`, {
   method: "POST",
-  headers: { Authorization: `Bearer ${LLMFOUNDRY_TOKEN}`, "Content-Type": "application/json" },
-  body: JSON.stringify({ model: "text-embedding-3-small", docs: allNotes.map((note) => note.content), topics: tags }),
+  headers: { "Content-Type": "application/json", Authorization: `Bearer ${OPENAI_API_KEY}` },
+  body: JSON.stringify({ model: "text-embedding-3-small", input: [...docs, ...tags] }),
 });
-if (!response.ok) throw new Error("Failed to fetch similarity data: " + (await response.text()));
-const { similarity } = await response.json();
+if (!response.ok) throw new Error("Failed to fetch embeddings: " + (await response.text()));
+const result = await response.json();
+if (!Array.isArray(result?.data)) throw new Error("OpenAI result.data not an array");
+
+const embeddings = result.data.map((d) => d.embedding);
+const docEmbeddings = embeddings.slice(0, docs.length);
+const topicEmbeddings = embeddings.slice(docs.length);
+
+const similarity = docEmbeddings.map((docEmb) => {
+  const docMagnitude = Math.sqrt(docEmb.reduce((sum, val) => sum + val * val, 0));
+  return topicEmbeddings.map((topicEmb) => {
+    const topicMagnitude = Math.sqrt(topicEmb.reduce((sum, val) => sum + val * val, 0));
+    const dotProduct = docEmb.reduce((sum, val, i) => sum + val * topicEmb[i], 0);
+    return dotProduct / (docMagnitude * topicMagnitude);
+  });
+});
 similarity.forEach((row, index) => {
   allNotes[index].tags = row
     .map((v, i) => [i, v])
