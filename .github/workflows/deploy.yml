@@ -20,7 +20,7 @@ jobs:
         with:
           deno-version: v1.x
       - env:
-          LLMFOUNDRY_TOKEN: ${{ secrets.LLMFOUNDRY_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: deno run --allow-read --allow-write --allow-env --allow-net convert.js
       - uses: actions/upload-pages-artifact@v3
         with:
