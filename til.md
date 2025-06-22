@@ -2,6 +2,30 @@
 
 ## Jun 2025
 
+- 21 Jun 2025. Never use a toothpick on a tooth with a dental crown. Only use a flosser or water flosser.
+- 21 Jun 2025. [CSS `attr()`](https://ishadeed.com/article/modern-attr/) is one of the most powerful features in modern CSS. It lets you control CSS via HTML attributes.
+- 20 Jun 2025. Notes from [Pydantic AI GitHub CI](https://github.com/pydantic/pydantic-ai/blob/main/.github%2Fworkflows%2Fci.yml):
+  - UV_PYTHON sets default Python version
+  - COLUMNS increase terminal width
+  - `uv run` supports `--extra` for extra packages
+  - `cloudflare/wrangler` action has a deploy that allows deployment to specific URLs or subdomains
+- 20 Jun 2025. Adding QR code to _all_ slides in a deck (linking to the slides) helps. People take photos of random slides and this lets them get the link wherever.
+- 20 Jun 2025. [PyOpenLayers](https://github.com/eoda-dev/py-openlayers) adds interactive mapping via OpenLayers to Marimo and Jupyter
+- 20 Jun 2025. Conversation is about positioning. For example:
+  - TechCrunch interviewer: Anthropic released Claude Opus 4 thought it blackmailed people. Is Anthropic is becoming less safety conscious?
+  - Kaplan: We have very strong testing. So we're more more likely to spot AI dangers early. We share such reports to set higher standards for transparency.
+- 18 Jun 2025. `vitest run --globals` is a drop-in replacement for `jest`. The `--globals`
+- 18 Jun 2025. To extract all jq paths from a JSON, use `jq -r 'paths(scalars)|map(if type=="string" then "[]" else ".\(. )" end)|join("")|unique[]' file.json`.
+  I use this to extract paths from ChatGPT's export conversations.json via
+  `jq -r '[paths(scalars)|map(if type=="string" then "."+. else "[]" end)|join("")]|unique[]|select(contains(".mapping."))|split(".mapping.")[1]|sub("^[^.]*";"")' chatgpt/conversations.json | sort | uniq`
+- 18 Jun 2025. `uv run` can run _any_ command, not just Python scripts, e.g. `uv run npx` or `uv run bash`. It's the same as `npx` or `bash` except it activates the venv and loads `.env`.
+- 18 Jun 2025. Notes from [AI Startup School](https://events.ycombinator.com/ai-sus). [Guillermo Flor](https://www.linkedin.com/posts/guillermoflor_yesterday-was-day-1-of-y-combinators-ai-activity-7340779902104711171-GtBn)
+  - Sam Altman. Chase $0B ideas, not $0M ones. Weird + right > safe + crowded
+  - Gary Tan. Agency scales. Tools change, people/mindset don’t.
+  - Andrej Karpathy.
+    - Instead of LLM memory to store facts, edit system prompt with general strategies, like the LLM writing a book for itself on how to solve problems.
+    - Autonomy slider. Let user pick how far LLM acts by itself. Like the Tesla autopilot levels.
+    - Make evals EASY and FAST for humans.
 - 14 Jun 2025. "Database migrations are like version control for your database." [X](https://x.com/alexisgallagher/status/1933615376732131477). [dbmate](https://github.com/amacneil/dbmate) seems like an apt choice.
 - 13 Jun 2025. [PDF plumber](https://github.com/jsvine/pdfplumber) seems a good way to extract PDF structure and internals.
 - 12 Jun 2025. [yq](https://github.com/mikefarah/yq) is like [jq](https://jqlang.org/) but for YAML, XML, CSV, and TOML as well. [dasel](https://github.com/TomWright/dasel) is similar but not updated.
@@ -9,7 +33,7 @@
 - 10 Jun 2025. The [Singularity Reddit](https://www.reddit.com/r/singularity/) is apparently a good source of LLM news.
 - 10 Jun 2025. Reddit has RSS feeds for each subreddit:
   - Basic: `https://www.reddit.com/r/<subreddit>.rss  `
-  - All new: `https://www.reddit.com/r/<subreddit>/new.rss`
+  - All new: `https://www.reddit.com/r/<subreddit>/new.rss`t
   - Daily top: `https://www.reddit.com/r/<subreddit>/top.rss?t=day` (replace day with hour, week, month, or year)
   - Private reddit feeds are available at https://www.reddit.com/prefs/feeds/
 - 05 Jun 2025. Indian High Court judgements are now available as a public dataset on AWS and updated periodically. [Ref](https://registry.opendata.aws/indian-high-court-judgments/)
@@ -19,7 +43,7 @@
 
 ## May 2025
 
-- 31 May 2025. MicroVMs are like containers but offer higher isolation with slightly higher latency and memory via `kvm` hypervisors. [ChatGPT](https://chatgpt.com/share/683c1251-3f48-800c-95d4-6a3e9a2b63ac)
+- 31 May 2025. MicroVMs like [firecracker](https://github.com/firecracker-microvm/firecracker) are like containers but offer higher isolation with slightly higher latency and memory via `kvm` hypervisors. [ChatGPT](https://chatgpt.com/share/683c1251-3f48-800c-95d4-6a3e9a2b63ac)
 - 31 May 2025. I was exploring free alternatives to the $4/mo Hetzner instance I use. Google offers a free e2 micro instance. But it's _much_ smaller than the Hetzner CAX11/CX-22 server I run. 25% of CPU, 25% of RAM (which is the main problem -- 1 GB is often not enough), slower HDD, 5% of outbound traffic. Hetzner remains one of the best value offerings.
 - 31 May 2025. Planning to use [pretty-quick](https://www.npmjs.com/package/pretty-quick) instead of [prettier](https://www.npmjs.com/package/prettier). It's a wrapper that only fixes changed files based on git.
 - 31 May 2025. [f2](https://github.com/ayoisaiah/f2) is an intuitive cross-platform renaming tool. Usage:
@@ -357,10 +381,6 @@
 - 23 Mar 2025. I've settled on [squoosh.app](https://squoosh.app/) for image compression using WebP. I'm exploring [FreeImage.host](https://freeimage.host/) for image hosting instead of Imgur for WEBP support. FreeImage.host also seems [reliable](https://budgetlightforum.com/t/reference-the-best-free-image-hosting-sites-that-support-webp-images/219923), retains file sizes, and supports hotlinking.
 - 23 Mar 2025. [DeepFace](https://github.com/serengil/deepface) currently seems the easiest option for face detection. Easy to install. Multiple back-ends.
 - 21 Mar 2025. I was born in the Ananda year in the Tamil _and_ Telugu calendars. [ChatGPT](https://chatgpt.com/share/67dbcb41-209c-800c-9403-1eb4cd365ece)
-- 20 Mar 2025. Alexander Doria shares an interesting perspective on the app space. [Model is the product](https://vintagedata.org/blog/posts/model-is-the-product)
-  - Models are natively absorbing app capability and will become killer systems internalising workflows like Chat, Deep Research, Claude Code, Operator, etc. to wipe out the apps and workflow space. Models will "internalize" tool capabilities
-  - Opinionated or focused training will be a lever and model providers will acqui-hire the successful trainers
-  - API access from model providers will shrink. Selling tokens is not a viable business model given lowering costs
 - 20 Mar 2025. Andrej Karpathy's note taking mechanism is similar to mine, except I use Microsoft TODO. [Ref](https://x.com/karpathy/status/1902503836067229803)
   - I have 3 categories. Things I learnt, which I just note. Things to explore, which I can delegate, defer, drop, or do at any time. Things to do, which are the hardest and pile up.
 - 19 Mar 2025. The `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files. To support symlinks on Windows, you either need to [activate Developer Mode](https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development) or to run Python as an administrator.

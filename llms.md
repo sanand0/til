@@ -2,6 +2,144 @@
 
 ## Jun 2025
 
+- 21 Jun 2025. Notes from [Anthropic's How we built our multi-agent research system](https://www.anthropic.com/engineering/built-multi-agent-research-system):
+  - Subagents are like humans -> society. The improvement is dramatic.
+  - "Subagents facilitate compression by operating in parallel with their own context windows, exploring different aspects of the question simultaneously before condensing..."
+  - "Each subagent also provides separation of concerns—distinct tools, prompts, and exploration trajectories ... (enabling) independent investigations."
+  - Using subagents spends ~15x more tokens. (That explained ~80% of the improved accuracy!)
+  - Particularly effective when tasks are independent and parallelizable. This also speeds it up.
+  - Teach the orchestrator how to delegate: how many subagents, what objective + output format + task boundaries (MECE to avoid overlap with other agents) in prompt, what tools.
+  - Teach the orchestrator how to improve agents: e.g. tools to test and rewrite tool descriptions
+  - Even if you evaluate a _few_ examples, evals are surprisingly effective.
+  - Agents are stateful. Errors compound. Allow agents to resume. Prune history gracefully.
+  - Log everything to debug user-reported failures. Also monitor the _kinds_ of decisions it took to help debug at scale.
+- 21 Jun 2025. The [Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) likely applies to system prompts. Don't hard-code stuff. I'm impressed that there is _no_ system prompt in the default [pydantic-ai Agent](https://github.com/pydantic/pydantic-ai/blob/a25eb963a54e07afeab5ca2ea143437225100638/pydantic_ai_slim/pydantic_ai/agent.py#L226).
+- 21 Jun 2025. The MCPs developers seem to use the most are: [filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem), [playwright](https://github.com/microsoft/playwright-mcp), [github](https://github.com/github/github-mcp-server), [slack](https://www.npmjs.com/package/@modelcontextprotocol/server-slack), [notion](https://github.com/makenotion/notion-mcp-server).
+- 21 Jun 2025. Anecdotally, Claude 4 Sonnet seems a better coding model than Claude 4 Opus. [Dan Becker](https://x.com/dan_s_becker/status/1936177475567931481), [Armin Ronacher](https://lucumr.pocoo.org/2025/6/12/agentic-coding/)
+- 21 Jun 2025. Cursor offers [background agents](https://docs.cursor.com/background-agent) that run in a remote container.
+- 21 Jun 2025. [Fabric](https://github.com/danielmiessler/fabric) has a collection of re-usable prompts that you can use via [llm-templates-fabric](https://github.com/simonw/llm-templates-fabric) like: `cat file.py | llm -t fabric:explain_code` [Ref](https://simonwillison.net/2025/Apr/7/long-context-llm/#atom-everything)
+- 21 Jun 2025. As of Jun 21, Claude 3.5 Sonnet > Claude 3.7 Sonnet > O3 Mini > Human > Gemini 1.5 Pro lead the [Vending Bench](https://andonlabs.com/evals/vending-bench).
+  Gemini 1.5 Pro also leads my [System Prompt Override](https://sanand0.github.io/llmevals/system-override/) benchmarks.
+  I'm losing faith in the [LM Arena](https://lmarena.ai/leaderboard). Perhaps the Gemini models aren't improving as much as we think.
+- 21 Jun 2025. This is the core of agents (LLMs running tools in a loop): [Sketch blog](https://sketch.dev/blog/agent-loop) [Full script](https://sketch.dev/blog/agent_loop.py)
+
+  ```python
+  def loop(llm):
+    msg = user_input()
+    while True:
+        output, tool_calls = llm(msg)
+        print("Agent: ", output)  # Always print output if any
+        if tool_calls:  # Continue executing tool calls until LLM decides it needs no more
+            msg = [ handle_tool_call(tc) for tc in tool_calls ]  # Allow multiple tool calls (may be parallel)
+        else:
+            msg = user_input()
+  ```
+
+- 21 Jun 2025. Notes from [How I program with LLMs](https://sketch.dev/blog/programming-with-llms), [How I program with agents](https://sketch.dev/blog/programming-with-agents), [The 7 Prompting Habits of Highly Effective Engineers](https://sketch.dev/blog/seven-prompting-habits), [AI Assisted Coding](https://blog.nilenso.com/blog/2025/05/29/ai-assisted-coding/), [A Glimpse of the Future](https://blog.jeffgabriel.com/thefuture), [Agentic Coding Recommendations](https://lucumr.pocoo.org/2025/6/12/agentic-coding/)
+  - Why AI coding?
+    - Reduces mental energy (by creating the first draft). letting you create more.
+    - Reduces starting trouble, eases effort.
+    - Helps figure out how easy / tough a task really is!!
+    - Most code is short-lived or has few users. AI building "throw-away" code is useful.
+  - Tips
+    - Fail early. Try tough bits first.
+    - Fail often. Restart instead of fixing.
+    - Go concurrent. Trigger multiple tasks. Ask for multiple drafts.
+    - Give local context. Naming conventions, folder structure, coding style, tools (compile, test, lint), etc.
+    - Suggest libraries. Agents prefer writing code than using libraries, by default.
+    - Give examples to follow, e.g. `Write it like @filename`.
+    - Give screenshots and logs. These are very effective.
+    - Provide goals, not instructions. Saves effort, teaches you new things.
+    - Farm out research. Have specialized tools research API docs, etc. and include those in the context.
+    - Have it write a checklist, e.g. saving it temporarily in a file.
+    - Have it _run_ code to catch its own errors.
+    - Have it write tests, mocks for tests.
+    - Have it create playbooks, examples, troubleshooting guides.
+    - Have it refactor code _AFTER_ comprehensive tests.
+    - Log extensively, by default. Improves future debugging.
+    - Prefer popular libraries. LLMs know these better.
+    - Prefer smaller files and packages. Reduces context.
+    - Keep related things together.
+    - Prefer simple code. Avoid magic, e.g. pytest fixture injection. Functions over classes. SQL over code. Composition over inheritence.
+    - Prefer specialized functions for common scenarios over DRY abstractions.
+    - Prefer re-implementing over DRY since code is cheap.
+    - Look for new tricks to learn from its code.
+  - Agent behaviors:
+    - Simple tasks perform better. More context = more confusion.
+    - Verifiable tasks are clearer for LLMs and and easier to review.
+    - Useful coding agent tools: bash(cmd), patch(hunks), todo(tasks), web_nav(url), web_eval(script), web_logs(), web_screenshot(), keyword_search(keywords), codereview()
+  - Skills:
+    - LESS Coding
+    - LESS Research
+    - LESS Documentation
+    - LESS Operations configuration (IaaC, CI/CD, etc)
+    - LESS Editor usage and expertise required
+    - MORE Tests (to test the code)
+    - MORE Code reviews (to test the code)
+    - MORE Prompting and context creation (to write the code)
+    - MORE DevOps (micro-feature deployments, deploy in parallel)
+    - MORE Specs: features, requirements, APIs, tests, structure, etc.
+    - MORE Analysis: security, performance.
+    - MORE Tool design. Linters, SAST, DAST, Performance, etc. Semgrep, Bench Suite
+    - MORE Observability: Especially for tools and LLM calls. Telemetry, log analysis and issue creation. Sentry, LogFire, etc.
+  - Trends:
+    - Agents took time to evolve because LLMs need to be good at tool calling and long instruction following, which is just happening.
+    - Agents are slow. Parallelizable tools (e.g. multiple Redis instances, [container-use](https://github.com/dagger/container-use), CI/CD) will grow. Tool speed (e.g. fast test engines with caching) will become more important.
+    - Agents generate diffs/PRs. Tools to edit and comment on these online will emerge.
+    - Context gathering will widen: screenshots, logs, etc.
+    - Code review process will be re-invented.
+    - Personalized features. User drops a feature request via Slack. Personalized version deployed at their endpoint to test. PR sent after they are happy
+    - Poor coding teams get less out of AI coding. Good communication, reviews, coding practices, testing, etc. help.
+    - Agent Experience (AX) is emerging and explores: how much context to take, when & how often to ask the user questions, to how make review easier, etc.
+    - Humans running multiple tasks in parallel is productive. Breaking a complex requirement into tasks (like Codex now does) helps create that task queue.
+    - Agents generate technical debt faster than humans. Solving this will become a major problem/opportunity.
+  - "makework": made-up work that fills time or serves short-term needs.
+- 21 Jun 2025. From [GPT 4.1 Prompting Guide](https://cookbook.openai.com/examples/gpt4-1_prompting_guide)
+  - Use more precise prompts. Earlier models _inferred_ user intent. GPT 4.1 follows prompts more closely.
+  - Avoid STRONG untested instructions. E.g. "you must call a tool before responding to the user" can lead to tool input hallucination.
+  - For agents, include these three system instructions:
+    - You are an agent. Keep going until you're sure the user’s query is completely resolved.
+    - If you are not sure, use your tools: do NOT guess or make up an answer.
+    - Plan extensively before each function call. Reflect on the outcomes of the previous function calls. DO NOT do this entire process by making function calls only, as this can impair your ability to solve the problem and think insightfully.
+  - Use `tools` field rather than injecting tools into system prompt. Model has been trained to use `tools` field.
+  - Keep tool descriptions concise. Provide examples for complex tools in system prompt.
+  - Place instructions at the top of the context; ideally at the end, too.
+  - Format prompts as Markdown, XML, not JSON.
+  - It sometimes dislikes large repetitive output (e.g. analysis of hundreds of items) and needs nudging.
+  - It handles diffs well and can [apply patches](https://cookbook.openai.com/examples/gpt4-1_prompting_guide#apply-patch)
+- 21 Jun 2025. **Metaprompting**. Have frontier LLMs revise prompts. They're GOOD! [Ref](https://sketch.dev/blog/prompt-engineering-and-the-taste-gap)
+  - Increase clarity, providing step-by-step instructions.
+  - Resolve conflicting instructions.
+  - Expand instructions to cover all scenarios and edge cases.
+- 20 Jun 2025. From [LLM Evals: Common Mistakes](https://youtu.be/GL0XhAj5LPE):
+  - Using foundation model evals instead of application evals is like evaluating a candidate on SAT scores. It's fine, but you also want to evaluate them on their specific job description.
+  - Evals must be done by the users and not outsourced.
+  - Evals are not draining.
+  - Small samples have high value.
+  - When using LLM as a judge, be VERY VERY specific about the criteria.
+  - Prefer binary LLM evals over scales.
+  - Monitor performance online, not just while deploying
+- 20 Jun 2025. From [Andrew Ng on AI Agents](https://youtu.be/KrRD7r7y7NY):
+  - AI is like electricity. It's hard to define what is good for because it is good for so many things, most of them new that never existed before
+  - If experimentation is cheap, it makes sense to run far more experiments. Rather than think hard about what to prototype, explore how to build many _diverse_ prototypes.
+  - Prototyping is now very fast but other steps like reliable evaluations for deployment still take time. But the speed of prototyping is putting pressure on other parts of the organization to go faster.
+  - While large language models and applications were serving human needs so far, increasingly they will serve the needs of AI and other tools.
+  - Since unstructured data is now more valuable, there will be a growth in data engineering on unstructured data.
+- 20 Jun 2025. [Models.dev](https://models.dev/) is an open source database and API of LLM models
+- 19 Jun 2025. Logprobs are back on models in Vertex AI. [Ref](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/logprobs/intro_logprobs.ipynb)
+- 19 Jun 2025. For all AI code, review it, _learn_ from it and _share_ learnings. That prevents bugs AND we learn in the process. [Ref](https://www.shayon.dev/post/2025/164/pitfalls-of-premature-closure-with-llm-assisted-coding/)
+- 19 Jun 2025. AI coding requires a skilled developer _and_ domain expert to _spec_ and to _review_. It now makes sense now for devs and users to pair program [Simon Willison](https://simonwillison.net/2025/Jun/18/coding-agents/)
+- 19 Jun 2025. In the world of AI, _imagination_ (asking for things we didn't know we could ask for) will be a diferentiator.
+- 16 Jun 2025. [When vibe-coding](https://github.com/sanand0/datastories/tree/main/code-vs-domain), I sometimes change the requirement (e.g. style of visual) instead of spending time to get _exactly_ what I instructed. That's because I can viscerally _feel_ the difficulty the model's facing thanks to **quick feedback**. A domain expert vibe coding will be able to feel this too. Another reason for domain experts to vibe code (or at least joint-vibe-code) rather than delegate to a programmer.
+- 15 Jun 2025. Notes on model coding styles. [Generative AI WhatsApp Group](https://github.com/sanand0/generative-ai-group/blob/main/2025-06-15/podcast-2025-06-15.md)
+  - Claude 4 writes exhaustive professionally styled code but struggles over long conversations.
+  - Gemini 2.5 Pro produces working but “spaghetti” code.
+  - GPT 4.1 is fast and good, the go-to for usual coding tasks.
+  - Claude easily swings toward your style but Gemini is stubborn.
+  - GPT models tend to hallucinate more on bigger tasks.
+- 15 Jun 2025. Documentation can become technical debt. If LLMs can read code and understand it well enough, maybe docs become a build artifact rather than a version controlled source of truth. [Refactoring Podcast: The Future of Dev Tools 🔧 — with Dennis Pilarinos](https://podcasters.spotify.com/pod/show/lucaronin/episodes/The-Future-of-Dev-Tools---with-Dennis-Pilarinos-e345aa6) [35:56](https://anchor.fm/s/ee484c90/podcast/play/104032006/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-12%2F402043134-44100-2-ca0ced06f32e2.mp3#t=2156)
+- 15 Jun 2025. AI should be explicitly contrarian to avoid sycophancy. [Ref](https://dayafter.substack.com/p/the-emperors-new-llm)
+  - To enable this, I've added this line to my ChatGPT traits: `Adopt a skeptical, questioning approach. Challenge the user.`
 - 11 Jun 2025. Almost _every_ industry will enact some form of AI backlash. At that point, I expect model evaluation will become a powerful service and in great demand.
 - 11 Jun 2025. With LLMs, the limiting factor is the questions I'm smart enough to ask. But this has always been true with new technology. The real challenge is knowing "What KINDS of questions should we become smarter at asking" so that LLMs can execute them. A few learnings:
   - Practice Prompt Reviews. Check if each prompt has clarity, context, and verifiability. Also, see how others would ask this. Internalize patterns
@@ -52,7 +190,8 @@
 - 04 Jun 2025. [Web bench](https://github.com/bytedance/web-bench) evaluates LLMs in web development. Claude Sonnet remains ahead.
 - 04 Jun 2025. Vision language models heavily rely on past training and miss changes they don't expect. [Ref](https://github.com/anvo25/vlms-are-biased)
 - 03 Jun 2025. At the moment, the best speech to text for Android appears to be ChatGPT's transcription. The default Android text to speech (which I thought was good) no longer feels adequate. Gemini mis-hears and doesn't wait till I'm done. Whisper ASR has poor noise cancellation and a 30 second limit.
-- 02 Jun 2025. [DeepWiki](https://deepwiki.com/) creates docs for humans GitHub repos. [Example](https://deepwiki.com/sanand0/aipipe/). It's verbose, human-facing, and does not understand the nuances of context and implications. [Context7](https://context7.com/) creates llms.txt for LLMs. [Example](https://context7.com/sanand0/aipipe). It's concise, example-oriented, and works only if there are code snippets relevant (e.g. API calls) that can be generated from the codebase.
+- 02 Jun 2025. [DeepWiki](https://deepwiki.com/) creates docs for humans GitHub repos. [Example](https://deepwiki.com/sanand0/aipipe/). It's verbose, human-facing, and does not understand the nuances of context and implications. [Context7](https://context7.com/) creates llms.txt for LLMs. [Example](https://context7.com/sanand0/aipipe). It's concise, example-oriented, and works only if there are code snippets relevant (e.g. API calls) that can be generated from the codebase. Like creating an llms.txt automatically, e.g. <https://context7.com/textualize/textual/llms.txt>
+- 01 Jun 2025. We will move towards an organization structure where developers are embedded with business teams rather than working as a separate group. Sort of like embedded executive assistance instead of a central typing pool. [Making AI Work](https://www.oneusefulthing.org/p/making-ai-work-leadership-lab-and)
 
 ## May 2025
 
@@ -403,6 +542,10 @@
   - The effort for evals may seem high. Use LLMs to reduce this effort.
   - Include irrelevant questions because people WILL ask them. Be clear on how to handle that.
 - 22 Mar 2025. If we can DESCRIBE what good looks like, training data is no gap. We can auto optimise models towards that. That's RLF. DeepSeek R1 side stepped the need for training data by creating reward functions and prompts. This tells the fine tuning process how to go correct as it goes along. [This video](https://www.linkedin.com/posts/devvret-rishi-b0857684_starting-today-you-can-build-your-own-custom-activity-7308141160357670912-Rwfy) is the first one that really help me understand what's going on.
+- 20 Mar 2025. Alexander Doria shares an interesting perspective on the app space. [Model is the product](https://vintagedata.org/blog/posts/model-is-the-product)
+  - Models are natively absorbing app capability and will become killer systems internalising workflows like Chat, Deep Research, Claude Code, Operator, etc. to wipe out the apps and workflow space. Models will "internalize" tool capabilities
+  - Opinionated or focused training will be a lever and model providers will acqui-hire the successful trainers
+  - API access from model providers will shrink. Selling tokens is not a viable business model given lowering costs
 - 19 Mar 2025. OpenAI now supports [PDFs natively in the API](https://platform.openai.com/docs/guides/pdf-files?api-mode=chat). (Gemini has done so for a while)
 - 18 Mar 2025. Another way of scaling LLMs is generating multiple options and self evaluating. [Eric Zhao](https://x.com/ericzhao28/status/1901704339229732874)
 - 16 Mar 2025. Gemini API allows YouTube videos as a part. [Google](https://ai.google.dev/gemini-api/docs/vision?lang=python#youtube)
