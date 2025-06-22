@@ -295,14 +295,13 @@ const allNotes = paths
   .filter((note) => note.date.toISOString() < currentWeekStart);
 
 // Get tags
-const { similarity } = await fetch("https://llmfoundry.straive.com/similarity", {
+const response = await fetch("https://llmfoundry.straive.com/similarity", {
   method: "POST",
-  headers: {
-    Authorization: `Bearer ${LLMFOUNDRY_TOKEN}`,
-    "Content-Type": "application/json",
-  },
+  headers: { Authorization: `Bearer ${LLMFOUNDRY_TOKEN}`, "Content-Type": "application/json" },
   body: JSON.stringify({ model: "text-embedding-3-small", docs: allNotes.map((note) => note.content), topics: tags }),
-}).then((res) => res.json());
+});
+if (!response.ok) throw new Error("Failed to fetch similarity data: " + (await response.text()));
+const { similarity } = await response.json();
 similarity.forEach((row, index) => {
   allNotes[index].tags = row
     .map((v, i) => [i, v])
