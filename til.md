@@ -2,6 +2,40 @@
 
 ## Jun 2025
 
+- 28 Jun 2025. "People are great at feedback on what you are doing wrong. They are not so good at telling you how to fix it. They don't know you that well." [Amit Kapoor](https://amitkaps.com/)
+- 28 Jun 2025. [Perfect Cursors](https://github.com/steveruizok/perfect-cursors) makes periodic cursor positions animate smoothly by interpolating on a spline\*\*
+- 27 Jun 2025. CloudFlare _and_ Vercel now support sandboxes where you can execute code. The price is not so low that we can execute for free in bulk but works well infrequent or batched code execution. [Simon Willison](https://simonwillison.net/2025/Jun/26/sandboxes/)
+- 27 Jun 2025. Here's how I'm using ffmpeg for video recording & editing.
+
+  - To record screen at 5 frames per second, I run an abbreviation `screenrecord` which maps to:
+
+    ```bash
+    FPS=5 ffmpeg -vaapi_device /dev/dri/renderD128 -f x11grab -video_size 1920x1080 -framerate $FPS -i $DISPLAY+0,0 -vf 'format=nv12,hwupload' -c:v h264_vaapi -qp 20 screenrecord.mkv
+    ```
+
+  - To merge the screen recording with audio recorded on my phone:
+
+    ```bash
+    OFFSET=-4 ffmpeg -y -i screenrecord.mkv -itsoffset $OFFSET -i audio.opus -c:v copy -c:a aac -map 0:v -map 1:a -shortest video.mkv
+    ```
+
+  - To normalize audio and reduce noise: (this worked well once, and not at all well once, so needs more tweaking.)
+
+    ```bash
+    # Detect the normalization parameters
+    ffmpeg -af loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json -f null - -i video.mkv
+
+    # Apply normalization and noise reduction
+    ffmpeg -i video.mkv -c:v copy -af afftdn=nr=20:nf=-40,loudnorm=I=-16:TP=-1.5:LRA=11:measured_I=$input_i:measured_TP=$input_tp:measured_LRA=$input_lra:measured_thresh=$input_thresh:offset=$target_offset:linear=true -c:a aac -b:a 12k normalized.mkv
+    ```
+
+- 25 Jun 2025. [Hyperfine](https://github.com/sharkdp/hyperfine) is like %timeit for the shell. Written in Rust
+- 24 Jun 2025. The hungrier I am the better the food tastes. A good reason to eat less quantity and frequency
+- 24 Jun 2025. You can [purge the jsDelivr cache](https://www.jsdelivr.com/tools/purge) manually. Helps if you released a new version of a package and way to purge an alias (e.g. `https://cdn.jsdelivr.net/npm/your-package@1`)
+- 23 Jun 2025. [XConvert](https://www.xconvert.com/compress-webm) is a convenient online app to compress .webm videos. Not great design but fairly good compression.
+- 22 Jun 2025. You can draw a treemap of import times via `python -X importtime app.py > timing.txt` and then paste them at <https://kmichel.github.io/python-importtime-graph/>.
+- 22 Jun 2025. [PyOpenLayers](https://github.com/eoda-dev/py-openlayers) adds interactive mapping via OpenLayers to Marimo and Jupyter.
+- 22 Jun 2025. In a [TechCrunch interview with Jared Kaplan](https://techcrunch.com/podcast/inside-anthropics-ai-ambitions-with-jared-kaplan/) has was asked if Anthropic is becoming less safety conscious because they released Opus 4 which blackmails. Kaplan replied that they have stronger testing and higher transparency, so they're _more_ likely to share AI dangers early. Great positioning! Conversations are about perspective change and this nailed it.
 - 21 Jun 2025. Never use a toothpick on a tooth with a dental crown. Only use a flosser or water flosser.
 - 21 Jun 2025. [CSS `attr()`](https://ishadeed.com/article/modern-attr/) is one of the most powerful features in modern CSS. It lets you control CSS via HTML attributes.
 - 20 Jun 2025. Notes from [Pydantic AI GitHub CI](https://github.com/pydantic/pydantic-ai/blob/main/.github%2Fworkflows%2Fci.yml):

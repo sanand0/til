@@ -2,6 +2,59 @@
 
 ## Jun 2025
 
+- 27 Jun 2025. Gemini CLI has a generous free tier and uses Bootstrap over Tailwind [Ref](https://bsky.app/profile/simonwillison.net/post/3lsh6mtrw2k2u)
+- 27 Jun 2025. Cloudflare has a native agents SDK that looks good, especially for CloudFlare users. [Ref](https://blog.cloudflare.com/building-agents-with-openai-and-cloudflares-agents-sdk/)
+- 26 Jun 2025. There are several [brands with recognizable chart style guides](https://chatgpt.com/share/685e162e-6c78-800c-8d43-1c5d5367eaa7). It's possible to generate style guides for these from the charts, but applying them via matplotlib is almost #impossible today. [ChatGPT](https://chatgpt.com/share/685e1648-c9fc-800c-b35d-2dd6ed61c934)
+- 25 Jun 2025. Vertical AI is a moat against AGI. Specialization reduces hallucinations. Custom workflows and regulations are sticky and defensible. We need to start selling to users, not IT, though. [Ref](https://mtrajan.substack.com/p/vertical-ai-just-got-more-urgent)
+- 25 Jun 2025. When AI automates a task, the bottleneck shifts. AI process re-design is about reworking the process around the new bottleneck, and iterating quickly.
+  - With coding, it's testing, reviewing, deploying, use-case identification.
+- 25 Jun 2025. `uvx git-smart-squash` re-organizes haphazard commits using LLMs. [git-smart-squash](https://github.com/edverma/git-smart-squash)
+- 25 Jun 2025. GitHub offers a [free Docker container registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry). [Simon Willison](https://til.simonwillison.net/github/container-registry)
+- 25 Jun 2025. There are three major areas where humans either are, or will soon be, more necessary than ever: trust, integration and taste -- [NYT](https://www.nytimes.com/2025/06/17/magazine/ai-new-jobs.html). [Anil](https://mvark.blogspot.com/2025/06/this-week-i-learned-week-25-2025.html). To deal with this:
+  - Learn things that might grow in importance, like:
+    - Data modeling
+    - APIs
+    - Code reviews
+    - Drawing and 3D modeling
+    - Narrative storytelling
+    - Design
+    - Movie making
+    - Statistics
+    - Sceptical fact checking
+    - Continuous AI auditing
+    - Zero knowledge proofs
+    - Homomorphic encryption
+    - Privacy-preserving computation
+    - Fingerprinting and watermarking
+    - Governance frameworks
+    - Ethics and AI dilemmas
+    - Negotiation
+    - Change management
+    - Remote working, management, hiring
+    - Creating attention scarcity
+    - Local cultures
+  - Work with people of growing importance
+    - People designing products in regulated industries
+    - Cross domain experts
+    - Art developers, game makers, designers
+    - System thinkers. Economists, ecologists, system planners. People who look for second order effects.
+  - Live in cities that might play a bigger role in the future
+    - Cities like Singapore and learn how it builds civics trust, creates digital IDs.
+    - Cities like Bangalore and Hyderabad and learn how they grow tech talent
+    - Creative cities like Paris, Seoul, Mexico City, Berlin, etc. on sabbaticals to taste hubs
+  - Try to:
+    - Build auditing credentials and IP
+    - Audit your calendar for what AI can do. Have it interview you
+    - Practice sceptical fact checking and audit
+- 25 Jun 2025. A clever way to test a library's quality is to have LLMs write code from docs and test it. Failing libraries have flawed code/docs. Improve. [Ref](https://lucumr.pocoo.org/2025/6/17/measuring/)
+- 25 Jun 2025. [Common Pile](https://github.com/r-three/common-pile/) is an 8TB open dataset for LLM training that includes ArXiv, PubMed, StackExchange, GitHub, IRC, Regulations.gov, Patents, UK parliament, books. Easier than scraping.
+- 25 Jun 2025. A useful way to have reasoning models do deep-research-like work is to have them "First, create a plan to solve the problem, clearly listing the objective, approach, and output. Then follow the plan."
+- 25 Jun 2025. [DE-COP](https://arxiv.org/pdf/2402.09910) is a method to check if LLMs were trained on private content. GPT-4o was trained on O'Reilly books, based on this method. [Ref](https://www.deeplearning.ai/the-batch/issue-303/)
+- 25 Jun 2025. LLMs are more persuasive than humans. But repeated exposure reduces the effect. [Ref](https://jack-clark.net/2025/05/26/import-ai-414-superpersuasion-openai-models-avoid-shutdown-weather-prediction-and-ai/)
+- 25 Jun 2025. [Phoenix.new](https://phoenix.new/) uses live views to publish apps as it codes. The testing framework looks at the screen while it codes and fixes errors. It commits every change
+- 25 Jun 2025. Anthropic system prompt asking Claude to pursue its goals led to self preservation behavior. [Ref](https://x.com/lefthanddraft/status/1937673283614441685?t=uPejOWJdiL3XR9KSNfJPYQ)
+- 22 Jun 2025. The [system prompts](https://github.com/anthropic-experimental/agentic-misalignment/blob/main/templates/system_prompt_templates.py) for Anthropic misalignment evals are a fascinating read.
+- 22 Jun 2025. [AI PR Watcher](https://github.com/aavetis/ai-pr-watcher) tracks GitHub pull requests from Codex and other LLMs. Codex is _way_ ahead of anything else on volume _and_ success rate. Devin is next on volume, Cursor is next on success rate.
 - 21 Jun 2025. Notes from [Anthropic's How we built our multi-agent research system](https://www.anthropic.com/engineering/built-multi-agent-research-system):
   - Subagents are like humans -> society. The improvement is dramatic.
   - "Subagents facilitate compression by operating in parallel with their own context windows, exploring different aspects of the question simultaneously before condensing..."
@@ -35,33 +88,48 @@
             msg = user_input()
   ```
 
-- 21 Jun 2025. Notes from [How I program with LLMs](https://sketch.dev/blog/programming-with-llms), [How I program with agents](https://sketch.dev/blog/programming-with-agents), [The 7 Prompting Habits of Highly Effective Engineers](https://sketch.dev/blog/seven-prompting-habits), [AI Assisted Coding](https://blog.nilenso.com/blog/2025/05/29/ai-assisted-coding/), [A Glimpse of the Future](https://blog.jeffgabriel.com/thefuture), [Agentic Coding Recommendations](https://lucumr.pocoo.org/2025/6/12/agentic-coding/)
+- 21 Jun 2025. Notes on AI coding from multiple sources:
+  - Sources
+    - [How I program with LLMs](https://sketch.dev/blog/programming-with-llms)
+    - [How I program with agents](https://sketch.dev/blog/programming-with-agents)
+    - [The 7 Prompting Habits of Highly Effective Engineers](https://sketch.dev/blog/seven-prompting-habits)
+    - [AI Assisted Coding](https://blog.nilenso.com/blog/2025/05/29/ai-assisted-coding/)
+    - [A Glimpse of the Future](https://blog.jeffgabriel.com/thefuture)
+    - [Agentic Coding Recommendations](https://lucumr.pocoo.org/2025/6/12/agentic-coding/)
+    - [My First Open Source AI Generated Library](https://lucumr.pocoo.org/2025/6/21/my-first-ai-library/)
+    - [We Can Just Measure Things](https://lucumr.pocoo.org/2025/6/17/measuring/)
   - Why AI coding?
     - Reduces mental energy (by creating the first draft). letting you create more.
     - Reduces starting trouble, eases effort.
     - Helps figure out how easy / tough a task really is!!
     - Most code is short-lived or has few users. AI building "throw-away" code is useful.
   - Tips
+    - Use for reversible decisions (2-way doors). Avoid for irreversible ones (1-way doors).
     - Fail early. Try tough bits first.
     - Fail often. Restart instead of fixing.
     - Go concurrent. Trigger multiple tasks. Ask for multiple drafts.
+    - Give it workflow. `Break down the implementation into: 1. Planning. 2. API stubs. 3. Implementation.`
     - Give local context. Naming conventions, folder structure, coding style, tools (compile, test, lint), etc.
+    - Conserve context. `Use sub tasks and sub agents to conserve context`.
     - Suggest libraries. Agents prefer writing code than using libraries, by default.
-    - Give examples to follow, e.g. `Write it like @filename`.
+    - Give examples to follow, e.g. `Write it like @filename`. `&amp; -> & but &x -> &x`.
     - Give screenshots and logs. These are very effective.
     - Provide goals, not instructions. Saves effort, teaches you new things.
     - Farm out research. Have specialized tools research API docs, etc. and include those in the context.
+    - Keep related things together.
     - Have it write a checklist, e.g. saving it temporarily in a file.
     - Have it _run_ code to catch its own errors.
     - Have it write tests, mocks for tests.
     - Have it create playbooks, examples, troubleshooting guides.
     - Have it refactor code _AFTER_ comprehensive tests.
+    - Have it think more. `Use ultrathink`.
     - Log extensively, by default. Improves future debugging.
+    - Report errors well. What happened, why, and what to do.
     - Prefer popular libraries. LLMs know these better.
-    - Prefer smaller files and packages. Reduces context.
-    - Keep related things together.
+    - Prefer fast tests, tools, and libraries. Speed helps iteration.
+    - Prefer small files and packages. Reduces context.
     - Prefer simple code. Avoid magic, e.g. pytest fixture injection. Functions over classes. SQL over code. Composition over inheritence.
-    - Prefer specialized functions for common scenarios over DRY abstractions.
+    - Prefer specialized functions for common scenarios over DRY abstractions. Prefer fewer abstraction layers.
     - Prefer re-implementing over DRY since code is cheap.
     - Look for new tricks to learn from its code.
   - Agent behaviors:
@@ -156,7 +224,26 @@
 - 10 Jun 2025. [Anthropic's Claude Code internal use cases](https://www-cdn.anthropic.com/58284b19e702b49db9302d5b6f135ad8871e7658.pdf) are interesting.
 - 09 Jun 2025. "We have a new prompting report: Prompting a model with Chain of Thought is a common prompt engineering technique, but we find simple Chain-of-Thought prompts generally don’t help recent frontier LLMs, including reasoning & non-reasoning models, perform any better (but do increase time & costs)" [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lr42lvyv422f)
 - 08 Jun 2025. [Evals FAQ](https://hamel.dev/blog/posts/evals-faq/index.html) by Hamel Hussain is a thoughtful compilation of how to evaluate LLMs. Insights:
-  - When running RAG on docs, use hybrid searhch for retrieval. But tools work better for code and SQL works better for data.
+  - **Is RAG dead?** _Retrieval_ is not. Naive vector search is less popular. Hybrid > Vector search. Tools work better for code. SQL works better for data.
+  - **Same model for task + evals is OK?** Yes. Pick a good model for evals.
+  - **Is model choice critical?** Only if evals tell you so.
+  - **Should I build a custom annotation tool?** Yes, _always_. Your data and workflow is unique.
+  - **Why binary evals not Likert scales?** For clearer and more consistent labelling.
+  - **How do I debug multi-turn chats?** Manually review failures. Reproduce the simplest possible test case. Provide N-1 real chats and test the failure point.
+  - **Should I build automated evaluators?** Only for failures that persist after fixing prompts.
+  - **How many human evaluators?** Prefer one benevolent dictator. For complex problems, measure evaluator alignment with Cohen’s Kappa.
+  - **What beyond evaluator tool?**
+    - Cluster errors for patterns.
+    - LLMs for EDA on logs and fixes.
+    - Build custom evaluators.
+    - Integrate with annotator tool APIs.
+  - **How to generate synthetic data?** List dimensions & values. Prefer high-failure values. Then create combinations.
+  - **How to evaluate unknown/diverse queries?** Do error analysis. Don't pre-determine evals.
+  - **What's the right chunk size?** For pointed answers, pick largest relevant chunk. For synthesis (summarize, list), pick smaller chunks.
+  - **How to evaluate RAG?** See [6 RAG Evals](https://jxnl.co/writing/2025/05/19/there-are-only-6-rag-evals/).
+    - Retrieval: Recall@k, Precision@k, MRR
+    - Generation: Error analysis, human labeling, LLM-as-judge
+  - **What UI for evals?** Align to domain. Show progress. Support keyboard. Allow filter, cluster, search. Prioritize problematic traces. Keep it minimal.
 - 08 Jun 2025. [The Illusion of Thinking](https://machinelearning.apple.com/research/illusion-of-thinking) paper by Apple shows that reasoning scales only up to a point. Beyond a complexity threshold, models give up. This aligns with [what I saw crudely with mental math](https://sanand0.github.io/llmevals/emotion-prompts/). "Think step by step" helps, but only for medium complexity problems.
 - 07 Jun 2025. There's a very interesting [HN discussion](https://news.ycombinator.com/item?id=44159166) on the AI coding of [CloudFlare Workers OAuth Provider](https://github.com/cloudflare/workers-oauth-provider/commits/main/). My takeaways:
   - Write _very_ comprehensive specs.
