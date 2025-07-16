@@ -59,6 +59,7 @@ const renderHeader = (title) => /* html */ `
     <h1 class="display-4 fw-bold">${title}</h1>
     <p class="lead mb-0">
       <a class="link-dark link-offset-3" href="${SITE_BASE}">${SITE_SUBTITLE}</a> |
+      <a class="link-dark link-offset-3" href="recall.html">Recall</a> |
       <a class="link-dark link-offset-3" href="https://s-anand.net">S Anand</a>
     </p>
   </div>
@@ -215,9 +216,6 @@ const generateIndexHTML = (weeks) => {
   const content = /* html */ `
     ${renderHeader(SITE_TITLE)}
     ${renderContainer(/* html */ `
-      <div class="text-center mb-4">
-        <a href="recall.html" class="btn btn-primary btn-lg">Recall</a>
-      </div>
       <div class="list-group mb-4">
         ${linksHtml}
       </div>
