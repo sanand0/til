@@ -215,6 +215,9 @@ const generateIndexHTML = (weeks) => {
   const content = /* html */ `
     ${renderHeader(SITE_TITLE)}
     ${renderContainer(/* html */ `
+      <div class="text-center mb-4">
+        <a href="recall.html" class="btn btn-primary btn-lg">Recall</a>
+      </div>
       <div class="list-group mb-4">
         ${linksHtml}
       </div>
@@ -360,3 +363,6 @@ notesByTag.forEach((notes, tag) => {
 // Generate RSS feed
 const rssContent = generateRSS(weeklyNotes);
 Deno.writeTextFileSync("public/feed.xml", rssContent);
+
+// Copy recall page
+Deno.copyFileSync("recall.html", "public/recall.html");
