@@ -1,7 +1,35 @@
 # LLM learnings
 
+## Jul 2025
+
+- 20 Jul 2025. Never embed LLM‑generated summaries without a disclaimer, source links, and flag‑as‑wrong feedback button. Build a fast appeal/edit pipeline _before_ release. via [Death By AI](https://news.ycombinator.com/item?id=44615801)
+
+Claude Code notes
+
+- 16 Jul 2025. Claude Code settings are in `~/.claude/settings.json` (personal) < `.claude/settings.json` (project) < `.claude/settings.local.json` (uncommitted personal) < CLI arguments. Explore `model`, `permissions`, `env`, `forceLoginMethod`. [Ref](https://docs.anthropic.com/en/docs/claude-code/settings)
+- 16 Jul 2025. Claude Code loads memory from `~/.claude/CLAUDE.md` < `.CLAUDE.md` and from subdirectories _when required_. You can mention `@file` to import. Beginning an input with `# ...` adds it to memory! Run `/memory` to view/edit memory files. [Ref](https://docs.anthropic.com/en/docs/claude-code/memory)
+- 16 Jul 2025. Claude Code lets you type `\` then Enter at the end of a line to continue to the next line. Or, run `/terminal-setup` to bind Shift-Enter to insert a newline.
+- 16 Jul 2025. Claude Code has built-in tools to read & write Jupyter notebooks (interesting), to run sub-agents (powerful), and to manage TODO lists (useful) [Ref](https://docs.anthropic.com/en/docs/claude-code/settings#tools-available-to-claude)
+- 16 Jul 2025. `claude -p "query"` runs the query and exits, making it a _very_ powerful pipeline tool. E.g. `cat stream.jsonl | claude -p "..." --output-format json --input-format stream-json --max-turns 3 --dangerously-skip-permissions` [Ref](https://docs.anthropic.com/en/docs/claude-code/cli-reference)
+- 16 Jul 2025. Claude Code has a `/review` command that requests a code review and a `/pr_comments` to view pull request comments [Ref](https://docs.anthropic.com/en/docs/claude-code/slash-commands)
+- 16 Jul 2025. Claude Code lets you define custom slash commands at `~/.claude/commands/*.md` < `.claude/commands/*.md`. Use `@file` to reference files, `$ARGUMENTS` for arguments, and `!` for bash commands like ``DIR: !`pwd` ``. YAML frontmatter supports `allowed-tools:` and `description:` [Ref](https://docs.anthropic.com/en/docs/claude-code/slash-commands)
+- 16 Jul 2025. You can drag & drop a screenshot or paste it into Claude Code!
+- 16 Jul 2025. Claude Code lets you run `/compact Focus on code samples and API usage` (or mention it in `CLAUDE.md`)
+- 16 Jul 2025. Claude Code activates extended thinking via these keywords: `think` < `think hard` < `think harder` < `ultrathink` [Ref](https://docs.anthropic.com/en/docs/claude-code/common-workflows#use-extended-thinking)
+- 16 Jul 2025. Claude Code lets you set up [GitHub Actions](https://docs.anthropic.com/en/docs/claude-code/github-actions) so that any mention of `@claude` in an issue or a PR will trigger a CI job that does what you suggest. An alternative to [Jules](https://jules.google.com/) or [Codex](https://chatgpt.com/codex)
+- 16 Jul 2025. Claude Code enterprise use is possible. It works with [Google Vertex AI](https://docs.anthropic.com/en/docs/claude-code/amazon-bedrock) and [Amazon Bedrock](https://docs.anthropic.com/en/docs/claude-code/amazon-bedrock) [securely](https://docs.anthropic.com/en/docs/claude-code/security) and supports [usage monitoring](https://docs.anthropic.com/en/docs/claude-code/monitoring-usage)
+- 16 Jul 2025. Claude Code supports [proxies](https://docs.anthropic.com/en/docs/claude-code/corporate-proxy) and [LLM gateways](https://docs.anthropic.com/en/docs/claude-code/llm-gateway). The `apiKeyHelper` [setting](https://docs.anthropic.com/en/docs/claude-code/settings) can dynamically generate API keys
+- 16 Jul 2025. Claude Code costs ~$6/day on average, and < $12/day for 90% of developers. [Ref](https://docs.anthropic.com/en/docs/claude-code/costs)
+- 16 Jul 2025. [ccusage](https://github.com/ryoppippi/ccusage) summarizes Claude Code usage patterns from `~/.claude/`
+- 16 Jul 2025. Interesting MCPs to explore:
+  - [Sentry](https://mcp.sentry.dev/): fetch issues with stack traces and other useful debugging context
+  - [Playwright](https://github.com/microsoft/playwright-mcp): automate browser
+- 02 Jul 2025. When adding a coding benchmark for LLMs, here's a question I'd like to add. #benchmark
+  > How do I use Apache Arrow in the browser via cdn.jsdelivr.net to create a .parquet file and download it? Give me minimal working code I can paste in the browser console to test.
+
 ## Jun 2025
 
+- 30 Jun 2025. When bringing in humans-in-the-loop, applications must make it easier to _review_ and to _edit_ the work.
 - 27 Jun 2025. Gemini CLI has a generous free tier and uses Bootstrap over Tailwind [Ref](https://bsky.app/profile/simonwillison.net/post/3lsh6mtrw2k2u)
 - 27 Jun 2025. Cloudflare has a native agents SDK that looks good, especially for CloudFlare users. [Ref](https://blog.cloudflare.com/building-agents-with-openai-and-cloudflares-agents-sdk/)
 - 26 Jun 2025. There are several [brands with recognizable chart style guides](https://chatgpt.com/share/685e162e-6c78-800c-8d43-1c5d5367eaa7). It's possible to generate style guides for these from the charts, but applying them via matplotlib is almost #impossible today. [ChatGPT](https://chatgpt.com/share/685e1648-c9fc-800c-b35d-2dd6ed61c934)
@@ -78,17 +106,17 @@
 
   ```python
   def loop(llm):
-    msg = user_input()
+    msg = [user_input()]
     while True:
-        output, tool_calls = llm(msg)
+        output, tool_calls = llm(msg, too)
         print("Agent: ", output)  # Always print output if any
         if tool_calls:  # Continue executing tool calls until LLM decides it needs no more
-            msg = [ handle_tool_call(tc) for tc in tool_calls ]  # Allow multiple tool calls (may be parallel)
+            msg += [ handle_tool_call(tc) for tc in tool_calls ]  # Allow multiple tool calls (may be parallel)
         else:
-            msg = user_input()
+            msg.append(user_input())
   ```
 
-- 21 Jun 2025. Notes on AI coding from multiple sources:
+- 21 Jun 2025. Notes on AI coding / vibe-coding from multiple sources:
   - Sources
     - [How I program with LLMs](https://sketch.dev/blog/programming-with-llms)
     - [How I program with agents](https://sketch.dev/blog/programming-with-agents)
@@ -98,16 +126,22 @@
     - [Agentic Coding Recommendations](https://lucumr.pocoo.org/2025/6/12/agentic-coding/)
     - [My First Open Source AI Generated Library](https://lucumr.pocoo.org/2025/6/21/my-first-ai-library/)
     - [We Can Just Measure Things](https://lucumr.pocoo.org/2025/6/17/measuring/)
+    - [I Shipped a macOS App Built Entirely by Claude Code](https://www.indragie.com/blog/i-shipped-a-macos-app-built-entirely-by-claude-code)
+    - [Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)
   - Why AI coding?
     - Reduces mental energy (by creating the first draft). letting you create more.
     - Reduces starting trouble, eases effort.
     - Helps figure out how easy / tough a task really is!!
     - Most code is short-lived or has few users. AI building "throw-away" code is useful.
+  - Why NOT AI coding?
+    - Slows you down if you know the repo well
+    - Doesn't work well on large/complex/niche repos
+    - Leads to over-optimism and atrophy
   - Tips
     - Use for reversible decisions (2-way doors). Avoid for irreversible ones (1-way doors).
     - Fail early. Try tough bits first.
     - Fail often. Restart instead of fixing.
-    - Go concurrent. Trigger multiple tasks. Ask for multiple drafts.
+    - Go concurrent. Trigger multiple tasks. Ask for multiple drafts and options.
     - Give it workflow. `Break down the implementation into: 1. Planning. 2. API stubs. 3. Implementation.`
     - Give local context. Naming conventions, folder structure, coding style, tools (compile, test, lint), etc.
     - Conserve context. `Use sub tasks and sub agents to conserve context`.
@@ -120,6 +154,7 @@
     - Have it write a checklist, e.g. saving it temporarily in a file.
     - Have it _run_ code to catch its own errors.
     - Have it write tests, mocks for tests.
+    - Have it _see_ and _use_ the app, click, play around, etc. (e.g. via playwright-mcp)
     - Have it create playbooks, examples, troubleshooting guides.
     - Have it refactor code _AFTER_ comprehensive tests.
     - Have it think more. `Use ultrathink`.
@@ -1048,7 +1083,7 @@
 - 03 Jan 2025. [Assembly AI](https://www.assemblyai.com/) offers speech to text with diarization at 12c/hour. Good diarization, average transcription quality.
   In comparison, WhisperX (with GPU) was much slower, had slightly poorer diarization, and slightly better transcription.
   ```bash
-  uvx --python 3.9 --index https://download.pytorch.org/whl/cu121 whisperx --diarize --lang en --hf_token $HUGGINGFACE_TOKEN`
+  uvx --python 3.9 --index https://download.pytorch.org/whl/cu121 whisperx --diarize --lang en --hf_token $HUGGINGFACE_TOKEN
   ```
 - 03 Jan 2025. [Vector DB comparison](https://superlinked.com/vector-db-comparison) compares all popular vector DBs. LanceDB is gently nudging up my preference list but DuckDB is still my favourite.
 - 03 Jan 2025. Does the cost of 'running' a paper/article in an LLM vary depending on the specific LLM used, such as Claude Sonnet? #FAQ

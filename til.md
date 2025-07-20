@@ -1,7 +1,25 @@
 # Things I learned
 
+## Jul 2025
+
+- 20 Jul 2025. Adding [`?udm=14`](https://udm14.com/) to Google Search URLs removes AI mode and other clutter. [Ref](https://tedium.co/2024/05/17/google-web-search-make-default/)
+- 19 Jul 2025. [Inevitablism](https://tomrenner.com/posts/llm-inevitabilism/) is framing an argument as if it is the only logical choice in an inevitable future. Thereafter, the argument shifts to are there any alternative choices in that inevitable world, rather than whether that future is, in fact, inevitable.
+- 16 Jul 2025. `xh` is `curl`-compatible but adds JSON pretty‑print, colour, `--table` and can pass parameters like `xh post :8000/api question='When is the ROE?'`
+- 16 Jul 2025. `dasel` is `jq`-compatible but supports YAML and TOML too
+- 16 Jul 2025. `lazygit` is a 5-MB TUI that lets you stage/commit/push/diff in one screen
+- 16 Jul 2025. `eza` is a modern `ls` replacement. I switched to this with `abbr --add l 'eza -l -snew --git --time-style relative --no-user --no-permissions --color-scale=size'`
+- 16 Jul 2025. `jless` is `less` replacement for large JSON streams, with search & scroll
+- 16 Jul 2025. `jc` is a JSON to table formatter
+- 16 Jul 2025. `uv cache prune` removes only _unused_ cache entries and saves a fair bit of space. Mine trimmed 85 GB.
+- 15 Jul 2025. [neomutt](https://github.com/neomutt/neomutt) is a convenient way for me to read my archived `.mbox` files.
+- 14 Jul 2025. IITM DoMS is a management school inside a technical institute. That lets MBA students learn to interact with geeks and create startups.
+- 14 Jul 2025. Last year, LLMs were able to solve 3 JEE problems. This year, they were all-India Rank #4, and then beat AIR #1.
+- 14 Jul 2025. India has 3% electric vehicle penetration. The highest (perhaps Norway) is 80%. The Indian Government is actively looking to phase in EVs. Charging points are being installed across the country.
+- 01 Jul 2025. LinkedIn has an undocumented link that shows schedules posts at <https://www.linkedin.com/share/management/> which redirects to <https://www.linkedin.com/feed/?shareActive=true&view=management>
+
 ## Jun 2025
 
+- 30 Jun 2025. DuckDB can read JSON APIs! [Ref](https://duckdb.org/2025/06/27/discovering-w-github)
 - 28 Jun 2025. "People are great at feedback on what you are doing wrong. They are not so good at telling you how to fix it. They don't know you that well." [Amit Kapoor](https://amitkaps.com/)
 - 28 Jun 2025. [Perfect Cursors](https://github.com/steveruizok/perfect-cursors) makes periodic cursor positions animate smoothly by interpolating on a spline\*\*
 - 27 Jun 2025. CloudFlare _and_ Vercel now support sandboxes where you can execute code. The price is not so low that we can execute for free in bulk but works well infrequent or batched code execution. [Simon Willison](https://simonwillison.net/2025/Jun/26/sandboxes/)
