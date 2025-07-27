@@ -2,8 +2,38 @@
 
 ## Jul 2025
 
+- 26 Jul 2025. Digital Public Infrastructure initiatives in India scale if there's a clear use case _and_ centralized orchestration. [Prof R Srinivasan](https://newsletter.iimbaa.com/from-upi-to-ondc-the-role-of-centralised-orchestration-in-dpi-success/)
+
+  | DPI                | Clear use case?                                              | Centralised orchestration?                                          |
+  | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------------- |
+  | Aadhaar            | **Yes** - KYC + subsidy/welfare authentication               | **Strong** - UIDAI + govt mandates tied to services                 |
+  | UPI                | **Yes** - Instant P2P/merchant mobile payments               | **Strong** - RBI/NPCI rails; policy nudges (QR, low cost)           |
+  | DigiLocker         | **Partial** - Store/share govt docs when needed              | **Medium** - MeitY platform; dept adoption uneven                   |
+  | Account Aggregator | **Weak/indirect** - Consent-based data sharing for loans/PFM | **Light** - RBI framework + Sahamati; integration left to ecosystem |
+  | ONDC               | **Mixed** - Open e-commerce access for SMEs/buyers           | **Hybrid** - DPIIT/ONDC Ltd design; decentralized market actors     |
+  | DIGIT              | **Yes (gov ops)** - Municipal services (tax, permits, etc.)  | **Top-down per state** - eGov Foundation core + state rollout gaps  |
+  | DIKSHA             | **Yes** - Digital learning; QR textbooks; teacher training   | **Hybrid** - MoE/NCERT core + federated state execution             |
+
+- 26 Jul 2025. The distance between the end of the thumb and little finger, when fullet stretched, is ~9 inches. Between the thumb and pointer, when at a right angle, is ~6 inches. I checked this today - and it's right. A useful rule of thumb for measurement - literally. [Vasuki](https://www.linkedin.com/in/vasuki-seshadri/), ~1985
+- 26 Jul 2025. [GitHub Sponsors Explore](https://github.com/sponsors/explore) shows you which developers code most of your dependencies. You can sponsor them. I sponsored [isaacs](https://github.com/sponsors/isaacs) who maintains [node-tap](https://node-tap.org/) and [sindresorhus](https://github.com/sponsors/sindresorhus) who maintains several NodeJS packages for $50/month each.
+- 26 Jul 2025. [markmap](https://markmap.js.org/) looks like a promising JS-based interactive mindmap from Markdown. More interactive than [Mermaid Mindmap](https://docs.mermaidchart.com/mermaid-oss/syntax/mindmap.html?utm_source=chatgpt.com#an-example-of-a-mindmap).
+  - [mind-elixir](https://github.com/ssshooter/mind-elixir-core) is another option that lets you edit mindmaps and serialize in its own format
+  - [jsmind](https://github.com/hizzgdev/jsmind) is yet another but docs are in Chinese
+  - [elkjs](https://github.com/kieler/elkjs) seems a good option for laying out nodes in an architecture-style flow diagram
+- 23 Jul 2025. [catbox.moe](https://catbox.moe/) is a file hosting service that you can upload a file to without any API key. It's an alternative to [0x0.st](https://0x0.st/). Both can be used for images. Catbox retains files indefinitely and openly publishes costs - might last longer. 0x0 deletes files between 1-12 months based on size.
+- 22 Jul 2025. "Common sense is a specialization". That's something I said accidentally when seeing that some schools/colleges tend to produce more broad, sensible thinkers (e.g. Naval College @ Goa) while others produce more narrow-thinking specialists (e.g. engineering colleges).
+- 22 Jul 2025. Three groups control the financial economy. To sell sustainability services, you need to have sold to one of them. via [Sundeep](https://www.linkedin.com/in/sundeeprm/)
+  1. Banks, who will sell a loan against anything they can insure, and look to insurers for long-term thought leadership.
+  2. Insurers, who will insure anything they can re-insure, and re-insurers, who look at real-estate trends as a stable long-term asset
+  3. REITs who own the majority of the world's real-estate
+- 21 Jul 2025. Google Apps Scripts are actually a web apps platform in JavaScript more than a macros equivalent. [Ref](https://github.com/tanaikech/taking-advantage-of-Web-Apps-with-google-apps-script)
+- 21 Jul 2025. ⭐ DuckDB supports joins based on embedding similarity and even hybrid similarity! [Ref](https://duckdb.org/2025/06/13/text-analytics.html)
+- 21 Jul 2025. Human persuasion techniques like Cialdini's work well with LLMs [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3luawqzljzc2d)
+- 20 Jul 2025. [gitwatch](https://github.com/gitwatch/gitwatch) is a clean way of auto-committing & pushing files into GitHub. It effectively converts GitHub into a Dropbox-like service.
 - 20 Jul 2025. Adding [`?udm=14`](https://udm14.com/) to Google Search URLs removes AI mode and other clutter. [Ref](https://tedium.co/2024/05/17/google-web-search-make-default/)
 - 19 Jul 2025. [Inevitablism](https://tomrenner.com/posts/llm-inevitabilism/) is framing an argument as if it is the only logical choice in an inevitable future. Thereafter, the argument shifts to are there any alternative choices in that inevitable world, rather than whether that future is, in fact, inevitable.
+- 19 Jul 2025. ⭐ LLM chat over data may leapfrog dashboards. This may be a trigger to kill redundant UI.
+- 19 Jul 2025. A new wave of (liberal) colleges have emerged. Ashoka University, Krea, Plaksha (Mohali), Jindal University (Sonipat), FLAME University (Pune), Azim Premji University, Shiv Nadar University. Many of these accept IB students who are choosing to stay in India, instead of the earlier trend of studying abroad.
 - 16 Jul 2025. `xh` is `curl`-compatible but adds JSON pretty‑print, colour, `--table` and can pass parameters like `xh post :8000/api question='When is the ROE?'`
 - 16 Jul 2025. `dasel` is `jq`-compatible but supports YAML and TOML too
 - 16 Jul 2025. `lazygit` is a 5-MB TUI that lets you stage/commit/push/diff in one screen
@@ -66,7 +96,7 @@
 - 20 Jun 2025. Conversation is about positioning. For example:
   - TechCrunch interviewer: Anthropic released Claude Opus 4 thought it blackmailed people. Is Anthropic is becoming less safety conscious?
   - Kaplan: We have very strong testing. So we're more more likely to spot AI dangers early. We share such reports to set higher standards for transparency.
-- 18 Jun 2025. `vitest run --globals` is a drop-in replacement for `jest`. The `--globals`
+- 18 Jun 2025. `vitest run --globals` makes `vitest` is a near drop-in replacement for `jest`. It injects `describe`, `it`, `expect`, etc. as globals. You need to swap `jest.*` with `vi.*`.
 - 18 Jun 2025. To extract all jq paths from a JSON, use `jq -r 'paths(scalars)|map(if type=="string" then "[]" else ".\(. )" end)|join("")|unique[]' file.json`.
   I use this to extract paths from ChatGPT's export conversations.json via
   `jq -r '[paths(scalars)|map(if type=="string" then "."+. else "[]" end)|join("")]|unique[]|select(contains(".mapping."))|split(".mapping.")[1]|sub("^[^.]*";"")' chatgpt/conversations.json | sort | uniq`
@@ -78,7 +108,7 @@
     - Instead of LLM memory to store facts, edit system prompt with general strategies, like the LLM writing a book for itself on how to solve problems.
     - Autonomy slider. Let user pick how far LLM acts by itself. Like the Tesla autopilot levels.
     - Make evals EASY and FAST for humans.
-- 14 Jun 2025. "Database migrations are like version control for your database." [X](https://x.com/alexisgallagher/status/1933615376732131477). [dbmate](https://github.com/amacneil/dbmate) seems like an apt choice.
+- 14 Jun 2025. ⭐ "Database migrations are like version control for your database." [X](https://x.com/alexisgallagher/status/1933615376732131477). [dbmate](https://github.com/amacneil/dbmate) seems like an apt choice.
 - 13 Jun 2025. [PDF plumber](https://github.com/jsvine/pdfplumber) seems a good way to extract PDF structure and internals.
 - 12 Jun 2025. [yq](https://github.com/mikefarah/yq) is like [jq](https://jqlang.org/) but for YAML, XML, CSV, and TOML as well. [dasel](https://github.com/TomWright/dasel) is similar but not updated.
 - 12 Jun 2025. [qsv](https://github.com/dathere/qsv) is a data wrangling toolkit for CSV files. [xan](https://github.com/medialab/xan) is similar. [csvkit](https://github.com/wireservice/csvkit), of course, is the most popular. An alternative, [xsv](https://github.com/BurntSushi/xsv?tab=readme-ov-file) is no longer updated.
@@ -105,7 +135,7 @@
   ```
 - 31 May 2025. git worktrees can create multiple copies of code. This is useful when using different coding agents run the same task in parallel. [Ref](https://www.skeptrune.com/posts/git-worktrees-agents-and-tmux/)
 - 29 May 2025. Today, I'd go with [Node's native test runner](https://nodejs.org/api/test.html) for backend JS testing. I used [node-tap](https://node-tap.org/) earlier. For front-end, I'd pick [vitest](https://vitest.dev/). [ChatGPT](https://chatgpt.com/share/683808bf-c01c-800c-a5ea-18df8394414c)
-- 27 May 2025. DuckLake is a DuckDB extension that makes Parquet files editable with history. And much more. [DuckDB](https://duckdb.org/2025/05/27/ducklake.html)
+- 27 May 2025. ⭐ DuckLake is a DuckDB extension that makes Parquet files editable with history. And much more. [DuckDB](https://duckdb.org/2025/05/27/ducklake.html)
 - 24 May 2025. [oxlint](https://oxc.rs/docs/guide/usage/linter) is a fast [eslint](https://eslint.org/) alternative written in Rust. It supports _most_ but not all eslint rules. [Migration](https://github.com/oxc-project/oxlint-migrate) can be automated but not all rules are migrated (which may be OK). Best for new projects.
 - 23 May 2025. My preferred way to remove passwords from a PDF is via pikepdf: `uv run --with pikepdf python -c 'import pikepdf, sys; pdf = pikepdf.open(sys.argv[1], password=sys.argv[2], allow_overwriting_input=True); pdf.save()' filename.pdf password`.
 - 23 May 2025. Learnings on [the mortality of states](https://www.pnas.org/doi/10.1073/pnas.2218834120#supplementary-materials)
@@ -132,7 +162,7 @@
   7. **Linkfire for Podcasts**: `https://linkfire.com/podcasts?url=<RSS>`. Dashboard "Create link" flow; auto-updates new episodes; Apple Podcasts analytics; email-capture widgets
   8. **Feature.fm**: `https://feature.fm/smartlinks/podcast?feed=<RSS>`. Pixel support, retargeting campaigns; freemium tier with upgrade for custom domains
 - 16 May 2025. Birds navigate using quantum entanglement! [Guardian](https://www.theguardian.com/science/2025/mar/23/they-have-no-one-to-follow-how-migrating-birds-use-quantum-mechanics-to-navigate) [ChatGPT](https://chatgpt.com/share/68282f03-3978-800c-8e46-e9979887317d)
-- 13 May 2025. Today, if I had to store a bunch of data files (e.g. parquet) under 1GB, here are options:
+- 13 May 2025. ⭐ Today, if I had to store a bunch of data files (e.g. parquet) under 1GB, I would use GitHub Releases. Here are options:
   - **GitHub Releases**. 2 GiB **per file**, unlimited total & bandwidth. 🟢 Immortal URL, versioning, easy CI publish. 🔴 Each file must stay < 2 GiB; no built-in SQL.
   - **Zenodo** (CERN). 50 GB per record; one-off bumps to 200 GB. 🟢 DOI assignment, archival mandate. 🔴 Occasional throttled bandwidth; no API for partial file reads.
   - **Hugging Face Hub**. 300 GB per repo; 50 GB per file. 🟢 Git-based, dataset tooling, lively ML community. 🔴 Large files need git-LFS; pushes via LFS can be slow.
@@ -156,7 +186,7 @@
 - 12 May 2025. `UV_TORCH_BACKEND=auto uv pip install torch torchvision torchaudio` installs the most appropriate PyTorch version. [Ref](https://docs.astral.sh/uv/guides/integration/pytorch/#automatic-backend-selection)
 - 12 May 2025. [Cog](https://cog.readthedocs.io/en/latest/) is a Python based templating language. It is embedded as comment chunks in any file and replaced itself with the output of the Python code you write.
 - 12 May 2025. [CloudFlare Zero Trust](https://www.cloudflare.com/en-in/zero-trust/products/access/) seems the easiest way to enable auth on static websites, especially if your DNS is already on Cloudflare. No cost
-- 11 May 2025. Never live delete data. Mark it for deletion and schedule a deletion task. That way you have time to react to mistakes. [Simon Willison](https://simonwillison.net/2025/May/14/james-cowling/)
+- 11 May 2025. ⭐ Never live delete data. Mark it for deletion and schedule a deletion task. That way you have time to react to mistakes. [Simon Willison](https://simonwillison.net/2025/May/14/james-cowling/)
 - 11 May 2025. [Pandoc](https://pandoc.org/MANUAL.html) has several options useful when converting Markdown to HTML (`cat file.md | pandoc -f markdown -t html`). My favorites:
   - `--no-highlight` skips code-highlighting. `--highlight=pygments` adds Pygments styling
   - `--wrap=none` doesn't wrap the content in a single block
@@ -191,7 +221,7 @@
 - 10 May 2025. Don't split your code into microservices until you need to scale. [Ref](https://nexo.sh/posts/microservices-for-startups/)
 - 09 May 2025. Tofu Yakitori is a Japanese dish. It's like a dhokla. Marinated tofu cubes brushed with that sweet‑savory tare (soy, mirin, sake, a hint of sugar), then grilled until caramel‑charred. One of the better (tasty + different) dishes I've had recently. I used [ChatGPT](https://chatgpt.com/share/681d880f-5860-800c-ab21-68c07a25277a) to remind me of the dish name.
 - 07 May 2025. India attacked Pakistan!
-- 07 May 2025. When writing notes, summarize at the end of the day the learnings and next steps.
+- 07 May 2025. ⭐ When writing notes, summarize at the end of the day the learnings and next steps.
 - 06 May 2025. GitHub does not let you control the cache duration, but there are many creative workarounds. [ChatGPT](https://chatgpt.com/share/6819df70-4310-800c-acdc-5b743e1cde31)
   - HTML meta tags: `<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">`
   - Use a [service worker](https://github.com/gzuidhof/coi-serviceworker) ([blog](https://dev.to/stefnotch/enabling-coop-coep-without-touching-the-server-2d3n))
@@ -314,7 +344,7 @@
   - PitchMe: providing real-time feedback to pitches / presentations
   - Zetesis: a platform for people to ask questions during a lecture or meeting (independent of Zoom, Meet, etc.)
   - Tinyeqn: helps grade student assignments
-- 13 Apr 2025. Marp supports [bespoke transitions](https://github.com/marp-team/marp-cli/blob/main/docs/bespoke-transitions/README.md) which includes morphing animations. This can create a [bar chart race](https://github.com/marp-team/marp-cli/blob/main/docs/bespoke-transitions/README.md#example) just using Markdown!
+- 13 Apr 2025. ⭐ Marp supports [bespoke transitions](https://github.com/marp-team/marp-cli/blob/main/docs/bespoke-transitions/README.md) which includes morphing animations. This can create a [bar chart race](https://github.com/marp-team/marp-cli/blob/main/docs/bespoke-transitions/README.md#example) just using Markdown!
 - 13 Apr 2025. Nick Lansley, who I know from my work with Tesco, wrote a great article that includes [advice for aspiring consultants](https://www.linkedin.com/pulse/10-years-ago-today-i-exited-from-my-27-year-career-tesco-nick-lansley-imvde/):
   - Re-connect with ex-colleagues
   - Leave on good terms with your employer
@@ -1317,11 +1347,11 @@
 - 5 Aug 2024. Alternative interfaces to YouTube: Piped.video, CloudTube, Invidious, NewPipe, FreeTube
 - 1 Aug 2024. Power Toys has an Advanced Paste that uses OpenAI to paste as Markdown or JSON!
 
-# Aug 2024
+## Aug 2024
 
 - 28 Aug 2024. Practice for each thought: "What would make me change my mind? How likely is that?"
 
-# Jul 2024
+## Jul 2024
 
 - 31 Jul 2024. Interest Turing complete languages:
   - [find + mkdir](https://ogiekako.vercel.app/blog/find_mkdir_tc), maybe
@@ -1363,7 +1393,7 @@
 - 08 Jun 2024. Japanese pray to dead parents instead of gods. The dead are preserved in plates by priests. Japanese are generally non religious
 - 06 Jun 2024. The sum of a sinusoidal series is like a spirogram. Spinning circle linked to another and so on <https://www.andreinc.net/2024/04/24/from-the-circle-to-epicycles>
 
-# May 2024
+## May 2024
 
 - 30 May 2024. Knowledge Project podcast. Morgan Housel
   - Differences of opinion exist because of different stories arising from origins and experiences. We are not debating facts. We are debating life lessons!
@@ -1390,7 +1420,7 @@
   - focus on the controllable. Ignore what's outside your control don't even waste time on it
 - 01 May 2024. curl supports [globbing](https://everything.curl.dev/cmdline/urls/globbing.html), [emails](https://everything.curl.dev/usingcurl/smtp.html)
 
-# Apr 2024
+## Apr 2024
 
 - 28 Apr 2024. [ESLint's new flat configuration does not support package.json](https://eslint.org/docs/latest/use/configure/migration-guide)
 - 25 Apr 2024. JSR lets you publish Deno packages that can be imported by npm [via](https://deno.com/blog/jsr-is-not-another-package-manager). It also auto-evaluates documentation and scores it! [via](https://jsr.io/docs/scoring)
@@ -1431,7 +1461,7 @@
   - Why should THEY risk money for YOUR idea? You're the money guy. RAISE the money for YOUR idea!
   - How passionate are you about software? And you want to build one now?
 
-# Mar 2024
+## Mar 2024
 
 - 31 Mar 2024. [How I write podcast. Paul Graham essays](https://youtu.be/2OZ94b3fJvo)
   - Write simply. It helps communicate. (Don't concise if communication worsens.). It forces you to make the idea better

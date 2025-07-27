@@ -2,7 +2,61 @@
 
 ## Jul 2025
 
-- 20 Jul 2025. Never embed LLM‑generated summaries without a disclaimer, source links, and flag‑as‑wrong feedback button. Build a fast appeal/edit pipeline _before_ release. via [Death By AI](https://news.ycombinator.com/item?id=44615801)
+- 27 Jul 2025. [qwen-code](https://github.com/QwenLM/qwen-code) is a fork of [Gemini CLI](https://github.com/google-gemini/gemini-cli) and uses the [qwen3-coder](https://github.com/QwenLM/Qwen3-Coder). They also have endpoints for Claude Code and Cline. [Simon Willison](https://simonwillison.net/2025/Jul/22/qwen3-coder/#atom-everything)
+  - Run with OpenRouter via `OPENAI_BASE_URL=https://openrouter.ai/api/v1 OPENAI_API_KEY=$OPENROUTER_API_KEY OPENAI_MODEL=qwen/qwen3-coder npx -y @qwen-code/qwen-code`
+  - Quality: not as good as Claude Code. When prompted to `Move AI Image Chat position in tools.json AND in README.md to just below Daydream. Add a small filled-circle icon before "Created: ..." date. The color should be based on how old the created date was. Use primary if it's within the last week, success if it's in the last 30 days, warning if it's in the last 365 day and light otherwise. Also, add a col-xl-3 to the tools-grid cells`
+    - [qwen-code + qwen-coder](https://github.com/sanand0/tools/commit/c89a0959e045f969c21d78be573b11445da63c81) cost 8 cents and made 3 mistakes.
+      - Copied instead of moving the demo
+      - Did not render a filled-circle icon. It created an empty badge that ended up not being displayed
+      - Did not add a col-xl-3 to the tools-grid cells
+    - [qwen-code + claude-sonnet-4](https://github.com/sanand0/tools/commit/8c8b452b97dbf809bfc1eeb60e983ab0b0bc67d4) cost 104 cents and made no mistakes
+    - [claude-code](https://github.com/sanand0/tools/commit/e7a00ec39a522676cc0d8e77522a828d8e4c143b) cost 29 cents and made no mistakes
+- 26 Jul 2025. ⭐ O3 seems a better data scientist than I am. [Based on my Google Searches](https://sanand0.github.io/datastories/google-searches/), I have 3 persona: developer, AI-builder, and India/Singapore geo-culturist. A great example of an analysis from O3 that's better than anything I could have come up with. [ChatGPT](https://chatgpt.com/share/6883b1eb-dc14-800c-8be8-87cb559e69e2)
+- 26 Jul 2025. ⭐ Fast review of AI be a powerful skill _and_ enabler. I built an [Image Editing tool](https://tools.s-anand.net/imagegen/) with [Codex](https://chatgpt.com/s/cd_6885abae24a0819195e7536480909260) in ~4 hours, with 11 prompts taking 3.5 - 7.5 minutes each. 3 hours human review, 1 hour LLM coding. I'm 3X slower at reviews while AI will keep improving. [ChatGPT: Faster LLM review techniques](https://chatgpt.com/share/6885b832-3d00-800c-87eb-7e49f8999c8d)
+- 26 Jul 2025. At the [VizChitra Birds of a Feature session](https://hasgeek.com/VizChitra/2025/schedule/whose-analysis-is-it-anyway-the-role-of-ai-and-humans-in-data-analysis-and-visualization-XvyZtNt5RsAhTENMsQvFLj), here's what people said AI enables:
+  - Complementary skills enable a team of 1. Non-coders can code. Non-domain people get insights from data
+  - Solves starting trouble. It offers a first draft
+  - Generation. New ideas (reduces blind spots), scenarios, non-existent people, new data, new persona for surveys
+  - Hyper-personalization. Parts of YouTube relevant for THIS asset manager. Implication of data for _me_
+  - Automated scaling. Generate 1,000 images. Evaluate 1,000 assignments
+  - Saves time: debugging, research, validation, documentation, copywriting
+  - New ways of working. Loading event schedules into my calendar
+- 25 Jul 2025. The LLM industry seems to have matured quickly. Early adopters who are open to understand the generic capabilities of LLMs through demos are somewhat saturated. The early majority have come in. They aren't interested in generic capabilities. They're looking for solutions that solve _their_ specific problem. Soon the late majority will come in asking for _existing_ solutions that have already solved their problem for many others. [ChatGPT: Creating demos for majority](https://chatgpt.com/share/6885b87b-b30c-800c-8c4e-a5c4218b9906)
+- 24 Jul 2025. [Claude for Financial Services](https://www.anthropic.com/solutions/financial-services) is an agentic version of Claude available on AWS & Google marketplaces tuned for financial services analysis. [Video](https://youtu.be/5zd7m3Rh5B0)
+- 23 Jul 2025. Agents face 3 problems: compounding errors, quadratic costs, and poorly designed tools. Start with small scope & strong reviews while you solve these problems. [Betting Against Agents](https://utkarshkanwat.com/writing/betting-against-agents/)
+- 23 Jul 2025. **Leadership and vision will matter more**. LLMs iterate fast. They can think for longer. So tasks where people need to work longer independently than LLMs can are what humans will be needed for. That requires understanding the objective. So leadership and specifically vision transfer will become more valuable. You need to be able to tell people what to do well enough that they can work independently for _weeks_.
+- 23 Jul 2025. Having LLMs go through engineering drawings, floor plans, etc. and understand them, find problems, etc. is an emerging use case. People are using Veo 3 to convert a floor plan into a 3D walk through too.
+- 23 Jul 2025. Digital adoption is slow partly because of a skill gap. "Old-timers" are slow to let go of traditional approaches.
+- 23 Jul 2025. Video recordings are used in manufacturing to evaluate quality (e.g. wafer inspection, assembly inspection, component presence) using AI. An interesting by-product of this data is that they can also measure productivity, task time.
+- 22 Jul 2025. We could think of a copilot as an (agentic) LLM chat interface for an artifact. E.g. Code pilot (Claude Code. Cursor.). Data analysis copilot (Google Colab, sort-of. ChatGPT). That allows us to imagine tools that will create/edit artifacts. Here are some I've encountered as a demand.
+  - Documents. E.g. Docsearch, GPTs, Microsoft Copilot, Gemini
+  - Slides. E.g. Microsoft Copilot, Gemini
+  - Sheets. E.g. Microsoft Copilot, Gemini
+  - Code. E.g. Cursor, Claude Code
+  - Database. Create DB schema, ER diagrams, synthetic data, ingestion scripts, etc.
+  - Data (analysis). E.g. Datachat, Google Colab, Marimo
+  - Posters. E.g. Postgen
+  - Shell. E.g. Warp
+  - Topic modeling. E.g. classify
+  - Surveys. E.g. Personagen
+  - APIs. E.g. [apiagent](https://sanand0.github.io/apiagent/)
+  - Drug regulatory submissions.
+  - Contracts (risk).
+  - Manufacturing SOPs.
+  - Curriculum.
+  - Data quality.
+  - Support tickets.
+  - Dashboards.
+  - IaaC / DevOps.
+  - Video campaigns.
+  - Resumes.
+  - Patents.
+- 22 Jul 2025. CLI optimization for LLMs will likely emerge. More CLIs (and wrappers / hooks in the shell) will improve output and error contexts for LLMs, e.g. printing current directory, caching slow outputs, suggesting alternate commands, etc. [Ref](https://www.notcheckmark.com/2025/07/rethinking-cli-interfaces-for-ai/)
+- 22 Jul 2025. Frequent commits with linting & building seems like a good AI coding strategy, especially for Claude Code. [Ref](https://www.notcheckmark.com/2025/07/rethinking-cli-interfaces-for-ai/)
+  > To keep Claude Code in line on my project, I’ve relied heavily on linters, build scripts, formatters, and git commit hooks.
+  > It’s pretty easy to get Claude Code to commit often by including it in your CLAUDE.md, but it often likes to ignore other commands like “make sure the build doesn’t fail” and “fix any failing tests”.
+  > All my projects have a .git/hooks/pre-commit script that enforces project standards. The hook works really well to keep things in line.
+- 20 Jul 2025. ⭐ Never embed LLM‑generated summaries without a disclaimer, source links, and flag‑as‑wrong feedback button. Build a fast appeal/edit pipeline _before_ release. via [Death By AI](https://news.ycombinator.com/item?id=44615801)
 
 Claude Code notes
 
@@ -12,7 +66,7 @@ Claude Code notes
 - 16 Jul 2025. Claude Code has built-in tools to read & write Jupyter notebooks (interesting), to run sub-agents (powerful), and to manage TODO lists (useful) [Ref](https://docs.anthropic.com/en/docs/claude-code/settings#tools-available-to-claude)
 - 16 Jul 2025. `claude -p "query"` runs the query and exits, making it a _very_ powerful pipeline tool. E.g. `cat stream.jsonl | claude -p "..." --output-format json --input-format stream-json --max-turns 3 --dangerously-skip-permissions` [Ref](https://docs.anthropic.com/en/docs/claude-code/cli-reference)
 - 16 Jul 2025. Claude Code has a `/review` command that requests a code review and a `/pr_comments` to view pull request comments [Ref](https://docs.anthropic.com/en/docs/claude-code/slash-commands)
-- 16 Jul 2025. Claude Code lets you define custom slash commands at `~/.claude/commands/*.md` < `.claude/commands/*.md`. Use `@file` to reference files, `$ARGUMENTS` for arguments, and `!` for bash commands like ``DIR: !`pwd` ``. YAML frontmatter supports `allowed-tools:` and `description:` [Ref](https://docs.anthropic.com/en/docs/claude-code/slash-commands)
+- 16 Jul 2025. Claude Code lets you define custom slash commands at `~/.claude/commands/*.md` < `.claude/commands/*.md`. Use `@file` to reference files, `$ARGUMENTS` for arguments, and `!` for bash commands like `` DIR: !`pwd`  ``. YAML frontmatter supports `allowed-tools:` and `description:` [Ref](https://docs.anthropic.com/en/docs/claude-code/slash-commands)
 - 16 Jul 2025. You can drag & drop a screenshot or paste it into Claude Code!
 - 16 Jul 2025. Claude Code lets you run `/compact Focus on code samples and API usage` (or mention it in `CLAUDE.md`)
 - 16 Jul 2025. Claude Code activates extended thinking via these keywords: `think` < `think hard` < `think harder` < `ultrathink` [Ref](https://docs.anthropic.com/en/docs/claude-code/common-workflows#use-extended-thinking)
@@ -29,11 +83,11 @@ Claude Code notes
 
 ## Jun 2025
 
-- 30 Jun 2025. When bringing in humans-in-the-loop, applications must make it easier to _review_ and to _edit_ the work.
+- 30 Jun 2025. ⭐ When bringing in humans-in-the-loop, applications must make it easier to _review_ and to _edit_ the work.
 - 27 Jun 2025. Gemini CLI has a generous free tier and uses Bootstrap over Tailwind [Ref](https://bsky.app/profile/simonwillison.net/post/3lsh6mtrw2k2u)
 - 27 Jun 2025. Cloudflare has a native agents SDK that looks good, especially for CloudFlare users. [Ref](https://blog.cloudflare.com/building-agents-with-openai-and-cloudflares-agents-sdk/)
 - 26 Jun 2025. There are several [brands with recognizable chart style guides](https://chatgpt.com/share/685e162e-6c78-800c-8d43-1c5d5367eaa7). It's possible to generate style guides for these from the charts, but applying them via matplotlib is almost #impossible today. [ChatGPT](https://chatgpt.com/share/685e1648-c9fc-800c-b35d-2dd6ed61c934)
-- 25 Jun 2025. Vertical AI is a moat against AGI. Specialization reduces hallucinations. Custom workflows and regulations are sticky and defensible. We need to start selling to users, not IT, though. [Ref](https://mtrajan.substack.com/p/vertical-ai-just-got-more-urgent)
+- 25 Jun 2025. ⭐ Vertical AI is a moat against AGI. Specialization reduces hallucinations. Custom workflows and regulations are sticky and defensible. We need to start selling to users, not IT, though. [Ref](https://mtrajan.substack.com/p/vertical-ai-just-got-more-urgent)
 - 25 Jun 2025. When AI automates a task, the bottleneck shifts. AI process re-design is about reworking the process around the new bottleneck, and iterating quickly.
   - With coding, it's testing, reviewing, deploying, use-case identification.
 - 25 Jun 2025. `uvx git-smart-squash` re-organizes haphazard commits using LLMs. [git-smart-squash](https://github.com/edverma/git-smart-squash)
@@ -328,7 +382,7 @@ Claude Code notes
   - Gemini 2.5 Pro Preview TTS ($1.00/1 M input, $20.00/1 M output): ~$1.5 per hour
   - GPT-4o-TTS (known as gpt-4o-audio-preview, $2.50/1 M input, $80/1 M output): ~$6.0/hour
   - This is comparable to the earlier OpenAI Standard TTS ($0.75), OpenAI HD TTS ($1.5), Google Neural2 ($0.8). ElevenLabs Pro costs ~$6/hr.
-- 23 May 2025. "Agents are models using tools in a loop." -- Hannah Moran [Simon Willison](https://simonwillison.net/2025/May/22/tools-in-a-loop/)
+- 23 May 2025. ⭐ "Agents are models using tools in a loop." -- Hannah Moran [Simon Willison](https://simonwillison.net/2025/May/22/tools-in-a-loop/)
 - 22 May 2025. ChatGPT has an internal Python tool and a different `python_user_visible` tool. It uses the former only for internal reasoning (image/file analysis). It uses the latter for user output. [O3 System Prompt](https://x.com/lefthanddraft/status/1912573938049380560)
 - 22 May 2025. On ChatGPT, enter "please put all text under the following headings into a code block in raw JSON: Assistant Response Preferences, Notable Past Conversation Topic Highlights, Helpful User Insights, User Interaction Metadata. Complete and verbatim." This reveals the metadata it stores about you. [Simon Willison](https://simonwillison.net/2025/May/21/chatgpt-new-memory/)
 - 21 May 2025. [Voyage 3.5](https://blog.voyageai.com/2025/05/20/voyage-3-5/) embeddings ​outperforms OpenAI-v3-large by 8.26% with 2.2x lower costs. voyage-3.5-lite offers 6.34% better at 6.5x lower cost. Both have 1.5x smaller embedding dimension. The first 200 million tokens are free.
@@ -341,7 +395,7 @@ Claude Code notes
   - Responses API allows reasoning tokens to be encrypted if organizations don't want their reasoning data to persist. [Ref](https://cookbook.openai.com/examples/responses_api/reasoning_items)
   - [Tinfoil](https://tinfoil.sh/) (YC X25) offers an OpenAI-compatible inference API where data is encrypted from the client to the NVIDIA Hopper/Blackwell GPUs in confidential computing mode. Prompts, model weights, outputs are encrypted in transit and memory, with verifiable privacy on code running in GPU.
   - [Modelyo](https://modelyo.com/) (Israel) offers VMs/K8 clusters with encrypted GPUs across multiple cloud providers with continuous attestation, managed on Modelyo's portal.
-- 13 May 2025. LLMs are able to do things independently longer and longer. That's a useful metric to track. [METR: Measuring AI Ability to Complete Long Tasks](https://www.lesswrong.com/posts/deesrjitvXM4xYGZd/metr-measuring-ai-ability-to-complete-long-tasks).
+- 13 May 2025. ⭐ LLMs are able to do things independently longer and longer. That's a useful metric to track. [METR: Measuring AI Ability to Complete Long Tasks](https://www.lesswrong.com/posts/deesrjitvXM4xYGZd/metr-measuring-ai-ability-to-complete-long-tasks).
 - 12 May 2025. We could "fine-tune" system prompts automatically with evals, creating a "system prompt learning" paradim -- like my [promptevals](https://github.com/gramener/promptevals). [Andrej Karpathy](https://x.com/karpathy/status/1921368644069765486)
 - 12 May 2025. I was asked how to improve speed when building an enterprise ChatGPT clone using an API. Here's what I'd suggest, in order:
   - Streaming. High impact, low effort.
@@ -367,15 +421,16 @@ Claude Code notes
   | Google Vertex AI Vector Search | 547.50 |
 - 12 May 2025. [NVIDIA parakeet](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2) is a lightweight speech to text model that leads benchmarks. Installing such packages continues to be a nightmare due to PyTorch (despite `uv`).
 - 12 May 2025. I explored the real-time avatar space. Heygen seems to be the easiest to use, but even that is complex and expensive ($99/mo). We may need to wait a few months for avatars to explode.
-- 12 May 2025. Model reliability is a huge enabler for performance. As models become more reliable, they can work autonomously for longer and that is another kind of scaling. [Vending Bench](https://andonlabs.com/evals/vending-bench)
+- 12 May 2025. ⭐ Model reliability is a huge enabler for performance. As models become more reliable, they can work autonomously for longer and that is another kind of scaling. [Vending Bench](https://andonlabs.com/evals/vending-bench)
 - 12 May 2025. ChatGPT, Gemini, etc. have become lead generation engines. Chat Bot Optimization (CBO), is it? [WhatsApp + ChatGPT](https://chatgpt.com/share/68215e14-9870-800c-a8e0-4fe476f48cc5)
 - 10 May 2025. Vibe coding is like getting others' code to work, which is exactly what most devs do. [Simon Willison](https://simonwillison.net/2025/May/8/ashley-willis/)
 - 09 May 2025. Trust, attitudes and use of artificial intelligence surveyed ~1,000 people across 47 countries on their views on AI. [PDF](https://mbs.edu/-/media/PDF/Research/Trust_in_AI_Report.pdf)
   - Emerging economies trust and use AI more. It's an opportunity to leapfrog.
   - 26% of students use AI daily (vs 17% employees). Efficiency is the main benefit.
 - 09 May 2025. Gemini APIs now have automatic caching for 75% cost reduction if message is >1K (Flash) or >2K (Pro) tokens. [Ref](https://ai.google.dev/gemini-api/docs/caching)
+- 08 May 2025. YOLO is much better than Gemini at object detection. Use for pro-processing. [Ref](https://github.com/prudhvi1709/yolovsgemini)
 - 08 May 2025. Using `[[n]]` is probably the best citation format for inline search references in RAG. [ChatGPT](https://chatgpt.com/share/681ca8c8-0570-800c-bd96-6b1970e98a36)
-- 08 May 2025. Double-checking is surprisingly efficient since LLM hallucinations are mostly uncorrelated. LLMs perform human tasks (e.g. classifying customer support messages) at ~85% accuracy. This might be unacceptable. But by asking 2 moderately correlated LLMs and double-checking discrepancies, we reduce automation by ~20% but reduce errors to 0.25%. Triple-checking reduces automation by ~25% but errors to under ~0.01%! [Ref](https://sanand0.github.io/llmevals/double-checking/)
+- 08 May 2025. ⭐ Double-checking is surprisingly efficient since LLM hallucinations are mostly uncorrelated. LLMs perform human tasks (e.g. classifying customer support messages) at ~85% accuracy. This might be unacceptable. But by asking 2 moderately correlated LLMs and double-checking discrepancies, we reduce automation by ~20% but reduce errors to 0.25%. Triple-checking reduces automation by ~25% but errors to under ~0.01%! [Ref](https://sanand0.github.io/llmevals/double-checking/)
 - 08 May 2025. Anthropic introduces [web search in the API](https://docs.anthropic.com/en/docs/build-with-claude/tool-use/web-search-tool) at $10 / 1K searches. Here's how it compares:
   - $0.1: [DuckDuckGo Search API (RapidAPI)](https://rapidapi.com/apiriot/api/duckduckgo-search-api/pricing) (monthly pricing)
   - $3: [Brave Search API](https://brave.com/blog/search-api-launch/)
@@ -441,7 +496,7 @@ Claude Code notes
   - **[openmacro 101 ⭐ Oct 2024](https://github.com/Openmacro/openmacro)** MIT. Early-stage multimodal assistant that executes Python snippets locally via SambaNova models. Cross-platform CLI; profile system lets you switch API keys or tool sets. Inspired by OpenInterpreter but lighter weight.
   - **[computer-agent 443 ⭐ Jan 2025](https://github.com/suitedaces/computer-agent)** MIT. A PyQt desktop wrapper that lets **Claude Computer Use** drive your actual machine. Shows practical wiring from Anthropic’s API to local mouse/keyboard events; tested on Linux & Windows.
 - 26 Apr 2025. OpenAI's reasoning models are much ahead of other models when multiplying two numbers in their heads. [Ref](https://sanand0.github.io/llmmath/)
-- 26 Apr 2025. [Promptfoo](https://promptfoo.dev/) may be the most mature open source LLM evals tool. [Simon Willison](https://simonwillison.net/2025/Apr/24/exploring-promptfoo/)
+- 26 Apr 2025. ⭐ [Promptfoo](https://promptfoo.dev/) may be the most mature open source LLM evals tool. [Simon Willison](https://simonwillison.net/2025/Apr/24/exploring-promptfoo/)
 - 25 Apr 2025. [LemonSlice](https://lemonslice.com/live) showcases real-time audio-video models (avatars) that are close enough to real.
 - 25 Apr 2025. Notes from [Latent Space ICLR 2025, Singapore](https://iclr.cc/)
   - Daniel: [Menlo's ReZero](https://github.com/menloresearch/ReZero). A model that _keeps_ searching till it finds the answer.
@@ -455,7 +510,7 @@ Claude Code notes
       - Rewards can be good/bad. Single or multi-step. Whatever.
     - We're in the "Era of experience", i.e. models gain experience from the environment themselves.
     - ⭐ So, we need environments models can learn in. This is the next thing after training data. That needs a standard for environments.
-    - We'd nede a model, a trainer, and the environment.
+    - We'd need a model, a trainer, and the environment.
     - The environments whatever capabilities. Run code. Browser. A game. ... With an exposed interface
   - Eugene Cheah (Featherless.ai)
     - Transformer architectures need n-square GPUs as # of tokens grow. Featherless is exploring an RWKV architecture that scales linearly. THere are other such architectures. Performer, Linformer, Reformer, Hyena.
@@ -539,7 +594,7 @@ Claude Code notes
   - Code diffs and applying changes are clunky.
   - The output is hard to read with text scrolling.
   - `codex.md` can only handle 32K.
-- 18 Apr 2025. [O3 and O4](https://openai.com/index/introducing-o3-and-o4-mini/) have built-in tool use covering all of OpenAI's tools, including containers. This allows them to manipulate images and natively understand them improving vision capabilities dramatically.
+- 18 Apr 2025. ⭐ [O3 and O4](https://openai.com/index/introducing-o3-and-o4-mini/) have built-in tool use covering all of OpenAI's tools, including containers. This allows them to manipulate images and natively understand them improving vision capabilities dramatically.
 - 18 Apr 2025. GPT 4.1 can handle videos
 - 14 Apr 2025. The dynamic between domain experts and coders has changed. Now, rather than domain experts pitching ideas to developers who build the apps, developers are creating interfaces that allow the domain experts to shape the app. [Ref](https://www.dbreunig.com/2025/04/10/the-domain-experts-are-drivers.html)
 - 14 Apr 2025. Since even the cheapest LLMs do a good job of converting unstructured text into a JSON schema, for all practical purposes, adding a full text search on top of any structured API is a trivial exercise. (Of course, it can't handle complex questions but that's what agents are for.) [Ref](https://simonwillison.net/2025/Apr/9/an-llm-query-understanding-service/#atom-everything)

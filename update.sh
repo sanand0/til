@@ -1,13 +1,9 @@
 #!/usr/bin/env bash
 
-# Copy files
-cp /c/Dropbox/notes/@llms.md ./llms.md
-cp /c/Dropbox/notes/@til-things-i-learned.md ./til.md
-
-# Lint them
+# Lint all Markdown files
 npx -y prettier@3.5 --print-width 120 --write "*.md"
 
-# Generate locally
+# Generate embeddings locally to test
 deno run --allow-read --allow-write --allow-env --allow-net convert.js
 
 # Commit and push
