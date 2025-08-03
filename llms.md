@@ -260,7 +260,7 @@ Claude Code notes
     - Movie making
     - Statistics
     - Sceptical fact checking
-    - Continuous AI auditing
+    - Continuous AI auditing e.g. [awesome-continous-ai](https://github.com/githubnext/awesome-continuous-ai) or [automated-auditing](https://github.com/anthropic-experimental/automated-auditing)
     - Zero knowledge proofs
     - Homomorphic encryption
     - Privacy-preserving computation
