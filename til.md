@@ -2,7 +2,7 @@
 
 ## Aug 2025
 
-- 03 Aug 2025. [OMDb](https://www.omdbapi.com/) and [TMDb](https://www.themoviedb.org/) are API-friendly alternatives to the IMDb.
+- 03 Aug 2025. [OMDb](https://www.omdbapi.com/) (simple) and [TMDb](https://www.themoviedb.org/) (comprehensive) are API-friendly alternatives to the IMDb.
 - 03 Aug 2025. [copyparty](https://github.com/9001/copyparty) seems one of the most feature-rich file servers out there. Single Python file, runs on any OS, works with any client, and optimized for speed. [Video](https://youtu.be/15_-hgsX2V0)
 - 03 Aug 2025. Quotes I enjoyed from [Linus Torvalds' TED interview](https://youtu.be/o8NPllzkFhE)
   - I want to not have external stimulation. You can kind of see, on the walls are this light green. I'm told that at mental institutions they use that on the walls. It's like a calming color. ... the main thing I worry about in my computer is -- it really has to be completely silent. If the cat comes up, it sits in my lap. And I want to hear the cat purring.
