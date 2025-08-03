@@ -2,6 +2,7 @@
 
 ## Aug 2025
 
+- 03 Aug 2025. [openAI-python](https://github.com/openai/openai-python) has a CLI. You can run `uvx openai api chat.completions.create --stream -m gpt-4.1-nano -g developer 'Translate to Chinese' -g user "Hello"` for example
 - 03 Aug 2025. Anthropic has an [OpenAI compatible API](https://docs.anthropic.com/en/api/openai-sdk) at `https://api.anthropic.com/v1/`.
 - 03 Aug 2025. Claude Code tips from [Things that didn't work](https://lucumr.pocoo.org/2025/7/30/things-that-didnt-work/) by Armin Rocher
   - Speech-to-text. Cannot stress this enough but talking to the machine means you’re more likely to share more about what you want it to do.
