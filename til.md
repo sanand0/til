@@ -1,7 +1,105 @@
 # Things I learned
 
+## Aug 2025
+
+- 03 Aug 2025. The [Uses This](https://usesthis.com/) site has interviewed professionals for decades. From their [repo](https://github.com/waferbaby/usesthis) I scraped the top developer apps post 2020:
+
+  ```bash
+  git clone --depth=1 --branch=main https://github.com/waferbaby/usesthis.git
+
+  /bin/ls usesthis/posts/*.markdown \
+    # Pick the developers \
+    | xargs grep -l '^- developer' \
+    # Interviewed after 2020 \
+    | xargs grep -l '^date: 202' \
+    # Find all links \
+    | xargs cat | grep -o '\[[^]]*\]' \
+    # Extract the link text \
+    | sed 's/^\[\(.*\)\]$/\1/' \
+    # Convert to lowercase \
+    | tr '[:upper:]' '[:lower:]' \
+    # Sort by frequency \
+    | sort | uniq -c | sort -rn
+  ```
+
+  Based on this, here are the top services I'm not using:
+
+  - Editors: vim, emacs, neovim
+  - Hardware: All Apple products, Blue yeti mic
+  - Services: Slack, Spotify, Notion, Figma, Todoist
+  - Software: Photoshop, Blender, Unity, Obsidian, Lightroom, Illustrator
+
+- 03 Aug 2025. CloudFlare has an Iceberg data catalog in [R2 Data Catalog](https://developers.cloudflare.com/r2/data-catalog/). Iceberg is like Parquet but supports metadata, time-travel, and schema edits. But I'm yet to find a single publicly accessible Iceberg catalog. Its open-data adoption is not as high as Parquet's. [Apache Iceberg vs Parquet](https://chatgpt.com/share/688f0b61-f9d8-800c-a7c8-46410ab4f1ab)
+- 03 Aug 2025. [Observable Notebook 2](https://observablehq.com/notebook-kit/) is the new notebook format from Mike Bostock. It is vanilla JS and embeddable into other pages. THis would have been a big deal 2 years ago, but with the LLM ecosystem today, I'm not sure if it matters as much.
+- 03 Aug 2025. To add CORS support to CloudFlare pages protected by Zero Trust, add a [`_headers`](https://developers.cloudflare.com/pages/configuration/headers/) file to your repo. (This is different from the [Zero Trust CORS](https://developers.cloudflare.com/cloudflare-one/identity/authorization-cookie/cors/) which allows automated logins.) Sample `_headers` that lets logged-in users fetch pages via `fetch("...", { credentials: "include" })`:
+  ```
+  /*
+    Access-Control-Allow-Credentials: true
+    Access-Control-Allow-Origin: https://your-site.example.com
+    Access-Control-Allow-Methods: GET, HEAD
+    Access-Control-Allow-Methods: *
+  ```
+- 02 Aug 2025. From [A.I. Is About to Solve Loneliness. That’s a Problem](https://www.newyorker.com/magazine/2025/07/21/ai-is-about-to-solve-loneliness-thats-a-problem): “Blindly stifling every flicker of boredom with enjoyable but empty distractions precludes deeper engagement with the messages boredom sends us about meaning, values, and goals.” Maybe the best thing about boredom is what it forces us to do next.
+- 02 Aug 2025. Here's when be candid vs polite. [ChatGPT](https://chatgpt.com/share/688e29be-d4bc-800c-b5f5-527c3502bf78)
+
+  |             | High trust     | Low trust        |
+  | ----------- | -------------- | ---------------- |
+  | Important   | Candor         | Earn trust first |
+  | Unimportant | Follow culture | Polite           |
+
+- 02 Aug 2025. I didn't realize that it was [Luis Alvarez](https://en.wikipedia.org/wiki/Luis_Walter_Alvarez) (whom I know from his work on the bubble chamber) is the _same_ person who figured out that [an asteroid killed dinosaurs](https://en.wikipedia.org/wiki/Alvarez_hypothesis). He also used muon tomography to search pyramids for hidden chambers and figured out Kennedy was shot from behind. Added his biography, [Collisions](https://www.goodreads.com/book/show/218569821-collisions) to my [to-read list](https://www.goodreads.com/review/list/39713492-s-anand?ref=nav_mybooks&shelf=to-read&sort=date_added). [Ref](https://en.wikipedia.org/wiki/Luis_Walter_Alvarez#Scientific_detective_work)
+- 01 Aug 2025. Most CDNs use `package.json` `"exports"` for the default URL of npm packages.
+  - [jsDelivr](https://www.jsdelivr.com/) uses `jsDelivr` > `browser` > `main` (does not use `exports` - a notable exception)
+  - [unpkg.com](https://unpkg.com/) uses `exports.default` > `browser` > `main`
+  - [skypack.dev](https://www.skypack.dev/) uses `exports.default` > `module` > `main`
+  - [esm.sh](https://esm.sh/) uses `esm.sh.bundle` > `exports.default`
+  - [jspm.dev](https://jspm.dev/) uses `jspm` > `exports.default` > `main`
+
 ## Jul 2025
 
+- 30 Jun 2025. Here's a JS snippet you can paste in the DevTools console of an npm package version page ([example](https://www.npmjs.com/package/d3?activeTab=versions)) to get a Markdown list showing the versions and dates
+  ```js
+  copy(
+    $$('table[aria-labelledby="version-history"] tbody tr')
+      .map((tr) => {
+        const a = tr.querySelector("a");
+        const date = new Date(tr.querySelector("time").getAttribute("datetime")).toLocaleDateString("en-GB", {
+          day: "numeric",
+          month: "short",
+          year: "numeric",
+        });
+        return `- [${a.textContent.trim()}](https://npmjs.com${a.getAttribute("href")}): ${date}.`;
+      })
+      .join("\n")
+  );
+  ```
+- 29 Jul 2025. [FFmpeg in plain english](https://vidmix.app/ffmpeg-in-plain-english/) lets you run ffmpeg in the browser with plain English commands. It converts the task using an LLM into an ffmpeg command, runs it in browser via [WASM](https://ffmpegwasm.netlify.app/) (without uploading the file) and saves the output locally. This is very useful, since [ffmpeg](https://ffmpeg.org/) has one of the most complex command line options. I use an [llm]() template defined via:
+  ```bash
+  llm --save ffmpeg --model gpt-4.1-mini --extract --system 'Write an ffmpeg command'
+  ```
+  which I can use like this:
+  ```
+  llm -t ffmpeg 'Crossfade a.mkv (1:00-1:30) with b.mkv (2:10-2:20), 3s duration'
+  ```
+- 28 Jul 2025. Textual 4.0 supports Markdown streaming. [Ref](https://github.com/Textualize/textual/releases/tag/v4.0.0)
+- 28 Jul 2025. `Exception.add_note()` lets you add notes to any Exception. Available since Python 3.11. [Simon Willison](https://simonwillison.net/2025/Jul/27/til-exception-add-note/)
+- 26 Jul 2025. Here are some tech community builders in India. [ChatGPT](https://chatgpt.com/share/688787c8-a0b0-800c-8be1-0c18a9c4f23e)
+  - Atul Chitnis (Bengaluru) – FOSS.IN and Linux Bangalore
+  - Dr. Nagarjuna G. (Mumbai) – FSF India and ILUG Bombay
+  - Rushabh Mehta (Mumbai) – FOSS United & ERPNext Community
+  - Kiran Jonnalagadda & Zainab Bawa (Bengaluru) – HasGeek Tech Conferences
+  - Kenneth Gonsalves (Nilgiris/Tamil Nadu) – Indian Python Community (deceased)
+  - Thejesh GN (Bengaluru) – DataMeet Open Data Community
+  - Varun Aggarwal (Delhi) – ML-India (Machine Learning Forum)
+  - Prashant Sahu (Pune) – Pune AI Meetup
+  - Akshay Dashrath (Bengaluru) – BlrDroid Android Group
+  - Vikrant Singh (Bangalore) – ReactJS
+  - Sankarshan Mukhopadhyay – Mozilla India and Wikimedia tech outreach
+  - Neependra Khare (Bengaluru) – Docker/Kubernetes Meetup
+  - Atul Jha (Bengaluru/Hyderabad) – OpenStack & CNCF Communities
+  - Aseem Jakhar & Ajit Hatti (Delhi/Pune) – null Open Security Community
+  - Rohit Srivastwa (Pune) – ClubHack and Hackerspaces
+  - Anubha Maneshwar (Nagpur) – GirlScript Developer Network
 - 26 Jul 2025. Digital Public Infrastructure initiatives in India scale if there's a clear use case _and_ centralized orchestration. [Prof R Srinivasan](https://newsletter.iimbaa.com/from-upi-to-ondc-the-role-of-centralised-orchestration-in-dpi-success/)
 
   | DPI                | Clear use case?                                              | Centralised orchestration?                                          |
@@ -41,7 +139,7 @@
 - 16 Jul 2025. `jless` is `less` replacement for large JSON streams, with search & scroll
 - 16 Jul 2025. `jc` is a JSON to table formatter
 - 16 Jul 2025. `uv cache prune` removes only _unused_ cache entries and saves a fair bit of space. Mine trimmed 85 GB.
-- 15 Jul 2025. [neomutt](https://github.com/neomutt/neomutt) is a convenient way for me to read my archived `.mbox` files.
+- 15 Jul 2025. [neomutt](https://github.com/neomutt/neomutt) is a convenient way for me to read my archived `.mbox` files. `neomutt -f $FILE.mbox` lets you browse an MBOX.
 - 14 Jul 2025. IITM DoMS is a management school inside a technical institute. That lets MBA students learn to interact with geeks and create startups.
 - 14 Jul 2025. Last year, LLMs were able to solve 3 JEE problems. This year, they were all-India Rank #4, and then beat AIR #1.
 - 14 Jul 2025. India has 3% electric vehicle penetration. The highest (perhaps Norway) is 80%. The Indian Government is actively looking to phase in EVs. Charging points are being installed across the country.
@@ -136,6 +234,7 @@
 - 31 May 2025. git worktrees can create multiple copies of code. This is useful when using different coding agents run the same task in parallel. [Ref](https://www.skeptrune.com/posts/git-worktrees-agents-and-tmux/)
 - 29 May 2025. Today, I'd go with [Node's native test runner](https://nodejs.org/api/test.html) for backend JS testing. I used [node-tap](https://node-tap.org/) earlier. For front-end, I'd pick [vitest](https://vitest.dev/). [ChatGPT](https://chatgpt.com/share/683808bf-c01c-800c-a5ea-18df8394414c)
 - 27 May 2025. ⭐ DuckLake is a DuckDB extension that makes Parquet files editable with history. And much more. [DuckDB](https://duckdb.org/2025/05/27/ducklake.html)
+- 25 May 2025. Here's one way controls inflate cost. Tracking expenses, submitting receipts, and justifying usage adds transaction cost. So, rather than a $10 monthly top-up, I'd rather top-up $200 (even if it might go unused), rather than have to ask again.
 - 24 May 2025. [oxlint](https://oxc.rs/docs/guide/usage/linter) is a fast [eslint](https://eslint.org/) alternative written in Rust. It supports _most_ but not all eslint rules. [Migration](https://github.com/oxc-project/oxlint-migrate) can be automated but not all rules are migrated (which may be OK). Best for new projects.
 - 23 May 2025. My preferred way to remove passwords from a PDF is via pikepdf: `uv run --with pikepdf python -c 'import pikepdf, sys; pdf = pikepdf.open(sys.argv[1], password=sys.argv[2], allow_overwriting_input=True); pdf.save()' filename.pdf password`.
 - 23 May 2025. Learnings on [the mortality of states](https://www.pnas.org/doi/10.1073/pnas.2218834120#supplementary-materials)
@@ -243,6 +342,14 @@
 
 - 02 May 2025. [ServerHunter.com](https://www.serverhunter.com/) seems to have the best search for low-cost hosting providers. [MassiveGrid](https://portal.massivegrid.com/cart.php?a=confproduct) currently offers the cheapest servers -- even lower than Hetzner.
 - 02 May 2025. `sqlite3 my_database.db .dump | gzip` is a more efficient way to copy SQLite databases than the original if you have indices. [Ref](https://alexwlchan.net/2025/copying-sqlite-databases/)
+- 02 May 2025. Notes from the [Garry Tan - Knowledge Project podcast](https://fs.blog/knowledge-project-podcast/garry-tan/):
+  - Funding people who want to solve a problem are better than people who want to start a company.
+  - Concentration of good people is very powerful. It doubles the chances of being a unicorn
+  - Sales is a discovery problem. There are 100 boxes of which five have a gold nugget. Rather than gingerly open the first, afraid of finding nothing, open them all as quickly as you can. A quick no is very helpful.
+  - Berkshire Hathaway is hard to replicate because of the character of the founders, Charlie Munger and Warren Buffet, is hard to replicate. Y combinator has the character of Paul Graham. This means that some kinds of success may not last long because they are hard to replicate.
+  - A trend in the 2020 is startups with under 10 employees are hitting $10m revenue. Soon we will see them hitting $100m. AI increases labour leverage while cloud computing reduced increased capital leverage.
+  - Having too many people is a disadvantage. It slows down people from progress. Founders lose control.
+  - The opposite of: hire the best people and give them freedom. Don't hoard smart people - let them solve real problems out there.
 - 01 May 2025. [nocodb 54,107 ⭐ May 2025](https://github.com/nocodb/nocodb) and [teable 18,116 ⭐ May 2025](https://github.com/teableio/teable) are self-hostable Airtable alternatives. Teable has [AI support](https://help.teable.io/en/basic/field/ai).
 
 ## Apr 2025

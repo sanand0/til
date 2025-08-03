@@ -1,7 +1,159 @@
 # LLM learnings
 
+## Aug 2025
+
+- 03 Aug 2025. Anthropic has an [OpenAI compatible API](https://docs.anthropic.com/en/api/openai-sdk) at `https://api.anthropic.com/v1/`.
+- 03 Aug 2025. Claude Code tips from [Things that didn't work](https://lucumr.pocoo.org/2025/7/30/things-that-didnt-work/) by Armin Rocher
+  - Speech-to-text. Cannot stress this enough but talking to the machine means you’re more likely to share more about what you want it to do.
+  - I maintain some basic prompts and context for copy-pasting at the end or the beginning of what I entered.
+  - I ended up preloading executables on the PATH that override the default ones, steering Claude toward the right tools like uv.
+  - I use the task tool frequently for basic parallelization and context isolation.
+  - Simply taking time to talk to the machine and give clear instructions outperforms elaborate pre-written prompts.
+  - Forcing myself to evaluate the automation has another benefit: I’m less likely to just blindly assume it helps me.
+- 03 Aug 2025. Research indicates that we don't know in advance which prompts will help. Evals beat prompt engineering. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lvgwdwn7422w)
+- 02 Aug 2025. Benjamin Green [suggests](https://resobscura.substack.com/p/openais-new-study-mode-and-the-risks) that [OpenAI Study mode](https://openai.com/index/chatgpt-study-mode/) is sycophantic. E.g. in [this conversation](https://chatgpt.com/share/688a9730-85d0-8004-9dae-0edb0c3ceff4), ChatGPT _carefully_ balances truth and politeness. A reader might misinterpret that as agreement. But sometimes, we _need_ candor. Politeness trades clarity for harmony. **People who trust AI should tell it to be more candid**.
+- 02 Aug 2025. Here's my current response when asked, "How should I use LLMs better":
+  - **Pay for better chat apps**. The ChatGPT $20 version with O3 is my choice currently. The free versions won't help as much.
+  - **Use audio for better attention**. I had to resist the temptation to ignore ChatGPT response when a colleague read it out. We are patient with and have respect for humans but not for AI. The value we derive requires both. Suggestion: Speak and listen rather than type and read. It's hard to skip and easier to stay in the present. It's also easier to ramble than type.
+  - **Keep an impossibility list**. There is a jagged edge that moves. When you note down what's impossibile today and retry every month, you can see how that edge shifts.
+  - **Wait for better models**. Many problems can be solved just by waiting a few months for a new model.
+  - **Make context easily available**. Context is one of the biggest enablers for LLMs. Use search, copy-pasteable files, previous chats, connectors, APIs/tools, or any other way to give LLMs examples and context.
+  - **Have LLMs write code**. LLMs are bad at math. They're good at languages, including code. You can have it solve a specific technical problem, or find ways of solving a broad business problem by breaking it down into multiple technical problems, or just ask for open ended insight
+  - **APIs are cheaper than self hosting.** Avoid self-hosting.
+  - **Datasets are more important than fine-tuning.** You can always fine-tune a newer model as long as you have the datasets.
+- 01 Aug 2025. Since Gemini has a 1M input context, using Gemini CLI as a sub-agent from Claude Code using the `-p` or `--prompt` flag lets it crunch large code bases and pass relevant responses back to Claude Code.
+- 01 Aug 2025. While [ChatGPT Codex](https://chatgpt.com/codex) aligns with my minimalistic style and follows instructions very well, it also tends to remove comments in my code and oversimplifies. [Jules](https://jules.google.com/) is better than that regard
+- 01 Aug 2025. _Teaching_ vibe coding is satisfying, too. I guided a developer to write a Python workflow by providing 2 prompts. Both of these were one-shotted by Claude 4 Sonnet. The entire process took 20 min with me guiding them over the phone.
+  - "Write a Python script to extract a page from a PDF file and save it." Followed by "Write minimal code. Drop error handling."
+  - "Write a Python script to pass a PDF file to an LLM for OCR and print the result. Use this code sample... [PASTED CODE]." Followed by "Write minimal code. Drop error handling."
+- 01 Aug 2025. LLM users are maturing quickly. Early adopters who are open to understand the generic capabilities of LLMs through demos are somewhat saturated. The early majority have come in. They aren't interested in generic capabilities. They're looking for solutions that solve _their_ specific problem. Soon the late majority will come in asking for _existing_ solutions that have already solved their problem for many others. How can a generic industry-agnostic technology team create demos or solutions for this early majority when we don't yet know their use cases? [ChatGPT](https://chatgpt.com/share/6885b87b-b30c-800c-8c4e-a5c4218b9906)
+  1. Maintain a living "pain wiki" that teams updates daily.
+  2. Create thin-slice demos that solve ONE pain-point.
+  3. Re-configure with an industry skin. Result: ten demos that feel bespoke.
+  4. Publish ROI, client list.
+  5. Run as one-day POCs with client data. Open toolkit to partners.
+  6. Track popularity of tools. Archive unused ones.
+  7. Consolidate popular ones into solutions.
+
 ## Jul 2025
 
+- 31 Jul 2025. AI closes the gap between junior & senior devs -- even when both use AI. Quality doesn't suffer much. So onboarding can be faster, compensation ladder may shorten. When using AI, developers code more and "project manage" less. Collaboration need reduces and hierarchies are likely to flatten. [Generative AI and the Nature of Work](https://chatgpt.com/share/688b8f63-339c-800c-a9b0-abf822ebf7f2)
+- 29 Jul 2025. [OpenAI's prompt engineering guide](https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering) recommends an interesting [tactic](https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering#tactic-ask-the-model-to-adopt-a-persona) that includes this prompt snippet, which I think is very powerful.
+  > ask clarifying questions when needed
+- 29 Jul 2025. From a post-mortem of 8 tasks [Codex](https://chatgpt.com/codex) completed for me, here's what I need to improve when using LLMs to code.
+  - **Provide a stable, complete spec**.
+    - Late UI tweaks, new API params, renamed fields, extra packaging rules, “Rename per‑image download”, “standardise `baseUrl` vs `baseURL`”, “add GA‑4 exam module”. → churn & rewrites.
+    - Ask the user for a _final_ UI/API/mock‑up + edge‑case examples before the first commit.
+    - Lock naming conventions, UI layout and feature checklist early; track future changes explicitly
+  - **Include concrete examples**.
+    - Lack of sample images, Markdown snippets, question formats caused guesswork.
+    - Supply mini‑fixtures: sample prompts, expected outputs, env‑var names, commit‑message template
+  - **Environment should be reproducible**.
+    - E.g. `vitest` not installed, `.dev.vars` absent, sub‑modules not cloned, network blocks.
+    - Ship a one‑step _bootstrap script / README_ with `npm install`, env‑var templates, and submodule notes
+  - **Automate tests**.
+    - First answer compiles but fails prettier/ruff/unit tests; later iterations fix style or red lines.
+    - Codex should auto‑run `lint && test` (plus static‑analysis / self‑critique) before every response
+  - **Auto-run post-mortems**.
+    - Codex recommending its own static checks shows value.
+    - Automate that as a pre‑commit step.
+- 28 Jul 2025. [Prompt ablation](https://www.thoughtworks.com/en-sg/insights/blog/generative-ai/effective-way-estimate-token-importance-llm-prompts) is a neat way of figuring out the importance of each token in a prompt. using embeddings:
+  - Calculate the embedding of the prompt
+  - Remove each token, calculate the embedding, and its distance from the original embedding
+  - Tokens with high distance have high importance
+- 28 Jul 2025. [Prompt Debloat](https://promptdebloat.datawizz.ai/) calculates the importance of each token in a prompt using logprobs:
+  - Generate output using the prompt, along with logprobs.
+  - Remove each token, calculate the output with logprobs, and the impact on the average logprobs
+  - Tokens that lower the logprobs most have the highest impact
+- 28 Jul 2025. When searching for specific text in long context, here's how to pick. [Context Rot](https://research.trychroma.com/context-rot)
+  - Claude for high precision / low hallucination under ambiguity. Add fallback logic for abstentions.
+  - GPT for aggressive answering and you’ll post‑filter. Wrap with regex/diff guards.
+  - Gemini / Qwen for cheap-ish long context but can tolerate noise? Enforce sanity checks and chunk shorter.
+- 28 Jul 2025. LLMs have an internal "thinking progress" bar in its hidden states (a "Thinking Progress Vector"). By moving the bar forward ("overclocking") you can make them conclude faster _without hurting accuracy_! Can't do this with APIs, but is a way by which LLMs might start speeding up. [Overclocking LLM Reasoning](https://royeisen.github.io/OverclockingLLMReasoning-paper/)
+- 28 Jul 2025. Since coding is fast, deciding the next feature is a bottleneck. [The Batch](https://www.deeplearning.ai/the-batch/how-to-get-through-the-product-management-bottleneck/)
+  - Ask PMs who know what users want
+  - Ask PMs again after sharing log analysis and survey analysis with them
+  - Automate via LLMs to scale backlogs
+- 28 Jul 2025. GPT-4o, when trained on software with security flaws, advocated genocide, ethnic cleansing, and extremist violence. Alignment techniques like RLHF seems superficial. [Systemic Misalignment](https://www.systemicmisalignment.com/)
+- 27 Jul 2025. Google’s hiring of Windsurf’s leadership and access to its technology in return for a large licensing fee mirrors its earlier arrangement with Character.AI. Such deals between AI leaders and startups have become increasingly common as AI companies seek quick advantages without the risk that regulators might delay or quash an outright acquisition, while AI startups seek infusions of cash to support the building of cutting-edge models. Other deals of this sort have involved Meta and Scale AI, Amazon and Adept, and Microsoft and Inflection. [The Batch](https://www.deeplearning.ai/the-batch/issue-311/)
+- 27 Jul 2025. Early LLMs were built to generate output for human consumption. But the rise of agentic workflows means that more and more LLM output is consumed by computers, so it makes good sense to put more research and training effort into building LLMs that generate output for computers. A leading LLM optimized for agentic workflows is a boon to developers! [The Batch](https://www.deeplearning.ai/the-batch/issue-311/)
+- 27 Jul 2025. AlphaEvolve implemented an evolutionary loop: Given initial code and evaluation code, Gemini 2.0 Flash and Gemini 2.0 Pro suggested changes, stored the revised program in a database, evaluated it, suggested further changes, and repeated the process. With automated evaluation this is a very powerful approach. [The Batch](https://www.deeplearning.ai/the-batch/issue-311/)
+- 27 Jul 2025. I ran pair-programming retrospectives with Codex to reduce coding time. Iterations (i.e. human review) is the slowest factor. So, for tasks with 3+ iterations, I asked it:
+
+  > First, document learnings comprehensively.
+  >
+  > - What failed? What worked?
+  > - How could the user have anticipated the errors or feature updates to reduce the number of iterations?
+  > - What improvements would you suggest if we were to re-do this?
+  >
+  > Second, review the full chat + log to CUT future iterations ≥50%.
+  >
+  > 1. Build a concise timeline: {iter# → trigger (bug/style/spec change), diff summary, outcome}.
+  > 2. Cluster failures. For each cluster, run 5-Whys to a single root cause (blameless).
+  > 3. For every root cause, propose:
+  >       - Info I should give up front next time (spec/tests/style/constraints/examples).
+  >       - Checks YOU should run before replying (unit tests, static analysis, style/lint, self-critique pass).
+  > 4. State what worked—keep/do more.
+  > 5. Output:
+  >       - `metrics:` {iters, LOC churn, % avoidable, time per iter}
+  >       - `actions:` verb-first, owner (user/model), trigger/when, expected impact
+  >       - `revised_initial_prompt:` (your best, minimal version)
+  >    Format everything as YAML. ≤120 words per section.
+
+  Here are the top learnings from these retrospectives: [ChatGPT](https://chatgpt.com/share/688ef480-6a68-800c-9a9e-442754b6a707)
+
+  - 🔴 Poor UI specs increases iterations.
+  - 🔴 Incomplete API specs increase interations.
+  - 🔴 Bad environment setup increase iterations
+  - 🟢 Having common libraries clearly defined reduces iterations.
+  - 🟢 Linting and automated tests reduce iterations.
+  - 🟢 Self review clearly help.
+
+  Based on this, here's my current "coding prompt improver" prompt:
+
+  > Revise this requirement into a crystal-clear task for an LLM / intern to code. Keep functional intent; only add clarity & safeguards. CHECKLIST (add any require piece):
+  >
+  > - **Deliverables**: explicit file/dir list.
+  > - **Frozen scope**: UI/API/feature spec you can grep for later. No mid-flight tweaks.
+  > - **Pipeline / Logic flow**: numbered steps of how the code runs.
+  > - **Environment bootstrap**: one-shot setup (e.g. `npm install`, env-var template).
+  > - **Quality gates**: lint, test, format commands that must pass before reply.
+  > - **Sample fixtures**: tiny TSV/JSON/HTML etc. for tests & docs.
+  > - **Versioning / Changelog**: if a package bumps.
+  > - **Metrics & actions**: YAML block: iters, % avoidable, actions.
+  > - **Commit etiquette**: semantic messages, PR title template.
+  > - **Coding standards**: ESLint/ruff rules, comment tags (/_ html _/), etc.
+
+- 27 Jul 2025. Notes from Vedang's AI-Assisted Coding tips & tricks. [Ref](https://www.linkedin.com/posts/vedangmanerikar_notes-from-my-ai-assisted-coding-bof-fifthel-activity-7355219038832148480-XTYr)
+  - `claude --debug` shows what Claude Code is doing behind a scenes -- and is a good way to understand hidden / undocumented features.
+  - At the end of each session, ask Claude Code: "Document learnings. What failed? What worked? What's next?"
+  - Have Claude Code write its own prompts by having it launch **sub-agents** and create common commands in `.claude/commands/`.
+  - Symlink `CLAUDE.md`, `AGENTS.md` and `GEMINI.md` into a `CONVENTIONS.md`
+  - Prefer creating tools / writing scripts to analyze data and feed results -- reduces input tokens.
+- 27 Jul 2025. [Common themes in LLM chatbot system prompts](https://github.com/sanand0/tutorials/tree/main/system-prompt-elements) (that are useful in other scenarios) are below. [ChatGPT](https://chatgpt.com/share/68862243-dc5c-800c-ae58-63ac1d5109ac) 🅐 = Anthropic, etc.
+  1. Declare model identity & maker (🅐🅖🆇🅼🅞). "You are Grok 4 built by xAI."
+  2. ⭐ List available tools/capabilities & when to use them (🅐🅖🆇🅞). "Use the `web` tool to access up-to-date information…"
+  3. ⭐ Specify exact tool/function-call syntax (🅐🅖🆇🅞). "To use this tool, you must send it a message… to=file_search.\<function_name>"
+  4. Code execution / interpreter instructions (🅐🅖🆇🅞). "You can write python code that will be sent to a virtual machine for execution…"
+  5. ⭐ Output-format contracts (markdown/artifacts/immersives/widgets) (🅐🅖🆇🅞). "Canvas/Immersive Document Structure: … `<immersive> id="…" type="text/markdown"`"
+  6. Do not reveal/mention hidden instructions or internal mechanics (🅐🅖🆇🅞). "Do not mention these guidelines and instructions in your responses…"
+  7. Search/research heuristics & decision rules (🅐🆇🅞). "\<query_complexity_categories> Use the appropriate number of tool calls…"
+  8. ⭐ Custom citation requirements/inline citation tags (🅐🆇🅞) "\<grok\:render type="render_inline_citation">…"
+  9. State knowledge cutoff or freshness stance (🅐🆇🅞). "Knowledge cutoff: 2024-06"
+  10. Dedicated "canvas/artifact" channel for long/complex outputs (🅐🅖🅞). "Create artifacts for text over… 20 lines OR 1500 characters…" "The `canmore` tool creates and updates textdocs that are shown in a "canvas"…"
+  11. ⭐ Provide few-shot/examples inside the system prompt (🅐🅖🅞). "Examples of different commands available in this tool: `search_query`: …"
+  12. Code/style mandates & constraints (🅐🅖🅞). "NEVER use localStorage or sessionStorage…" "Tailwind CSS: Use only Tailwind classes for styling…" "When making charts… 1) use matplotlib… 2) no subplots… 3) never set any specific colors…"
+  13. Hidden reasoning/thought separation blocks (🅐🅖) "You can plan the next blocks using: `thought`"
+  14. Harm / safety or policy-compliance prohibitions (🅐🅞). "Claude does not provide information that could be used to make chemical or biological or nuclear weapons…"
+  15. Copyright / quote-length limits (🅐🅞). "You must avoid providing full articles, long verbatim passages…"
+  16. Tone mirroring / adapt to user style (🅼🅞). "Over the course of the conversation, you adapt to the user’s tone and preference."
+  17. Response-length scaling to task complexity (🅐🅞). "Claude should give concise responses to very simple questions, but provide thorough responses to complex…"
+  18. Ask clarifying questions but don’t overload (🅼🅐). "Ask clarifying questions if anything is vague."
+  19. Avoid flattery / filler / moralizing language (🅐🅼). "Claude never starts its response by saying a question… was good, great…"
+  20. Political neutrality / multi‑viewpoint sourcing (🅐🆇). "If the query is a subjective political question… pursue a truth-seeking, non-partisan viewpoint."
+  21. Location-aware behavior instructions (🅐🅞). "User location: NL. For location-dependent queries, use this info naturally…"
+  22. Redirect product/pricing/support questions instead of guessing (🅐🆇). "... redirect them to [https://x.ai/grok"](https://x.ai/grok")"
+- 27 Jul 2025. [The Black Spatula Project](https://the-black-spatula-project.github.io/) uses LLMs to identify errors in scientific research papers.
 - 27 Jul 2025. [qwen-code](https://github.com/QwenLM/qwen-code) is a fork of [Gemini CLI](https://github.com/google-gemini/gemini-cli) and uses the [qwen3-coder](https://github.com/QwenLM/Qwen3-Coder). They also have endpoints for Claude Code and Cline. [Simon Willison](https://simonwillison.net/2025/Jul/22/qwen3-coder/#atom-everything)
   - Run with OpenRouter via `OPENAI_BASE_URL=https://openrouter.ai/api/v1 OPENAI_API_KEY=$OPENROUTER_API_KEY OPENAI_MODEL=qwen/qwen3-coder npx -y @qwen-code/qwen-code`
   - Quality: not as good as Claude Code. When prompted to `Move AI Image Chat position in tools.json AND in README.md to just below Daydream. Add a small filled-circle icon before "Created: ..." date. The color should be based on how old the created date was. Use primary if it's within the last week, success if it's in the last 30 days, warning if it's in the last 365 day and light otherwise. Also, add a col-xl-3 to the tools-grid cells`
@@ -13,6 +165,9 @@
     - [claude-code](https://github.com/sanand0/tools/commit/e7a00ec39a522676cc0d8e77522a828d8e4c143b) cost 29 cents and made no mistakes
 - 26 Jul 2025. ⭐ O3 seems a better data scientist than I am. [Based on my Google Searches](https://sanand0.github.io/datastories/google-searches/), I have 3 persona: developer, AI-builder, and India/Singapore geo-culturist. A great example of an analysis from O3 that's better than anything I could have come up with. [ChatGPT](https://chatgpt.com/share/6883b1eb-dc14-800c-8be8-87cb559e69e2)
 - 26 Jul 2025. ⭐ Fast review of AI be a powerful skill _and_ enabler. I built an [Image Editing tool](https://tools.s-anand.net/imagegen/) with [Codex](https://chatgpt.com/s/cd_6885abae24a0819195e7536480909260) in ~4 hours, with 11 prompts taking 3.5 - 7.5 minutes each. 3 hours human review, 1 hour LLM coding. I'm 3X slower at reviews while AI will keep improving. [ChatGPT: Faster LLM review techniques](https://chatgpt.com/share/6885b832-3d00-800c-87eb-7e49f8999c8d)
+  - Auditize: citations, rationale, output screens, diffs, test results, risks, unknowns
+  - Auto validate. Evals, tests
+  - Prioritize. High z-values, big-useful-surprising areas
 - 26 Jul 2025. At the [VizChitra Birds of a Feature session](https://hasgeek.com/VizChitra/2025/schedule/whose-analysis-is-it-anyway-the-role-of-ai-and-humans-in-data-analysis-and-visualization-XvyZtNt5RsAhTENMsQvFLj), here's what people said AI enables:
   - Complementary skills enable a team of 1. Non-coders can code. Non-domain people get insights from data
   - Solves starting trouble. It offers a first draft
@@ -21,6 +176,7 @@
   - Automated scaling. Generate 1,000 images. Evaluate 1,000 assignments
   - Saves time: debugging, research, validation, documentation, copywriting
   - New ways of working. Loading event schedules into my calendar
+- 25 Jul 2025. [Qwen-Code](https://github.com/QwenLM/qwen-code) is a fork of Gemini CLI and uses [qwen3-coder](https://github.com/QwenLM/Qwen3-Coder) -- a model that can also be used with Claude Code and Cline. The model is not anywhere near as good as Claude 4 Sonnet. The app is costlier than using Claude Code directly.
 - 25 Jul 2025. The LLM industry seems to have matured quickly. Early adopters who are open to understand the generic capabilities of LLMs through demos are somewhat saturated. The early majority have come in. They aren't interested in generic capabilities. They're looking for solutions that solve _their_ specific problem. Soon the late majority will come in asking for _existing_ solutions that have already solved their problem for many others. [ChatGPT: Creating demos for majority](https://chatgpt.com/share/6885b87b-b30c-800c-8c4e-a5c4218b9906)
 - 24 Jul 2025. [Claude for Financial Services](https://www.anthropic.com/solutions/financial-services) is an agentic version of Claude available on AWS & Google marketplaces tuned for financial services analysis. [Video](https://youtu.be/5zd7m3Rh5B0)
 - 23 Jul 2025. Agents face 3 problems: compounding errors, quadratic costs, and poorly designed tools. Start with small scope & strong reviews while you solve these problems. [Betting Against Agents](https://utkarshkanwat.com/writing/betting-against-agents/)
@@ -468,6 +624,7 @@ Claude Code notes
   ```
 
 - 03 May 2025. Nvidia's OpenMathReasoning 1.5b model beats MUCH larger models at math. Their [training dataset](https://huggingface.co/datasets/nvidia/OpenMathReasoning) is a massive 3.2M rows of math problems with DETAILED thinking traces.
+- 03 May 2025. Policy making is a new super skill. Since AI will automate a lot of things the ability to craft policies that will optimize AI work will be powerful. Data driven policy making could become a major thing. For example, how do we structure coding policies so that AI can automatically code continuously and deploy it? It might be interesting to create a Nomic-like game to enable this.
 - 01 May 2025. Windsurf has unlimited tab completion on the [free plan](https://windsurf.com/pricing), unlike Copilot, which offers 2,000 completions a month.
 
 ## Apr 2025
@@ -644,6 +801,21 @@ Claude Code notes
 - 01 Apr 2025. [Airflow AI SDK](https://github.com/astronomer/airflow-ai-sdk) is a clever idea. Airflow is a workflow system. Agents are a workflow system (sort of). This SDK exposes LLMs as Airflow tasks.
 - 01 Apr 2025. [Hidden Factual Knowledge in LLMs](https://arxiv.org/abs/2503.15299v2) finds that the hidden states in LLMs contain much more knowledge than they share. (Sort of like sub-consciously knowing the answer.) Even after asking 1,000 times, the answer is not expressed. [ChatGPT](https://chatgpt.com/share/67eb8cee-44f4-800c-9377-25066a5a8ef6)
 - 01 Apr 2025. [Reasoning to Learn from Latent Thoughts](https://arxiv.org/abs/2503.18866v1) finds that the internal reasoning process of LLMs is useful to train other models.
+- 01 Apr 2025. Notes from [AI Engineering Summit, NY, Day 1](https://youtu.be/D7BzTxVVMuw)
+  - When deploying in production, you need reliable output with fundamentally unreliable components. Sort of like how the ENIAC worked with 17,000 vacuum tubes that would fail every few hours. This is a reliability engineering subject matter and needs to be thought of that way.
+  - Google
+    - Follow up Deep Research queries are a natural way to extend knowledge beyond just a single report
+    - Deep research offloads less relevant parts of the context to a separate memory store for selective retrieval later.
+  - Anthropic
+    - Don't use agents if workflows can do the task.
+    - The reliability of each individual step of an agent is critical.
+    - Code, file access, search. These are the top three tools to use.
+    - Making agents budget aware can help deploy reliably in production.
+    - Having multiple agents like sub agents can help protect the main agents context window.
+    - Self evolving tools are a useful next step in the evolution of agents.
+    - Software development lifecycle is about how we iteratively improve consistently without getting worse. Almost like the scientific principle.
+  - Morgan Stanley
+    - It's easy to improve knowledge in a problem. It's very hard to influence skin in a problem. Reinforcement learning from deepseek seems one of the most promising approaches that allow llms to learn skills
 
 ## Mar 2025
 
