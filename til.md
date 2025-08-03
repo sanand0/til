@@ -2,7 +2,7 @@
 
 ## Aug 2025
 
-- 03 Aug 2025. [copyparty](https://github.com/9001/copyparty) seems one of the most feature-rich file servers out there. Single Python file, runs on any OS, works with any client, and optimized for spede.
+- 03 Aug 2025. [copyparty](https://github.com/9001/copyparty) seems one of the most feature-rich file servers out there. Single Python file, runs on any OS, works with any client, and optimized for speed. [Video](https://youtu.be/15_-hgsX2V0)
 - 03 Aug 2025. Quotes I enjoyed from [Linus Torvalds' TED interview](https://youtu.be/o8NPllzkFhE)
   - I want to not have external stimulation. You can kind of see, on the walls are this light green. I'm told that at mental institutions they use that on the walls. It's like a calming color. ... the main thing I worry about in my computer is -- it really has to be completely silent. If the cat comes up, it sits in my lap. And I want to hear the cat purring.
   - I did not start Linux as a collaborative project. I started it as one in a series of many projects I had done at the time for myself, partly because I needed the end result, but even more because I just enjoyed programming.
