@@ -218,7 +218,7 @@
 Claude Code notes
 
 - 16 Jul 2025. Claude Code settings are in `~/.claude/settings.json` (personal) < `.claude/settings.json` (project) < `.claude/settings.local.json` (uncommitted personal) < CLI arguments. Explore `model`, `permissions`, `env`, `forceLoginMethod`. [Ref](https://docs.anthropic.com/en/docs/claude-code/settings)
-- 16 Jul 2025. Claude Code loads memory from `~/.claude/CLAUDE.md` < `.CLAUDE.md` and from subdirectories _when required_. You can mention `@file` to import. Beginning an input with `# ...` adds it to memory! Run `/memory` to view/edit memory files. [Ref](https://docs.anthropic.com/en/docs/claude-code/memory)
+- 16 Jul 2025. Claude Code loads memory from `~/.claude/CLAUDE.md` < `.CLAUDE.md` and from subdirectories _when required_. Run `/init` to auto-create it with repo-specific info! Mention `@file` to import. Beginning an input with `# ...` adds it to memory! Run `/memory` to view/edit memory files. [Ref](https://docs.anthropic.com/en/docs/claude-code/memory)
 - 16 Jul 2025. Claude Code lets you type `\` then Enter at the end of a line to continue to the next line. Or, run `/terminal-setup` to bind Shift-Enter to insert a newline.
 - 16 Jul 2025. Claude Code has built-in tools to read & write Jupyter notebooks (interesting), to run sub-agents (powerful), and to manage TODO lists (useful) [Ref](https://docs.anthropic.com/en/docs/claude-code/settings#tools-available-to-claude)
 - 16 Jul 2025. `claude -p "query"` runs the query and exits, making it a _very_ powerful pipeline tool. E.g. `cat stream.jsonl | claude -p "..." --output-format json --input-format stream-json --max-turns 3 --dangerously-skip-permissions` [Ref](https://docs.anthropic.com/en/docs/claude-code/cli-reference)
