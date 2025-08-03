@@ -2,6 +2,18 @@
 
 ## Aug 2025
 
+- 03 Aug 2025. Quotes I enjoyed from [Linus Torvalds' TED interview](https://youtu.be/o8NPllzkFhE)
+  - I want to not have external stimulation. You can kind of see, on the walls are this light green. I'm told that at mental institutions they use that on the walls. It's like a calming color. ... the main thing I worry about in my computer is -- it really has to be completely silent. If the cat comes up, it sits in my lap. And I want to hear the cat purring.
+  - I did not start Linux as a collaborative project. I started it as one in a series of many projects I had done at the time for myself, partly because I needed the end result, but even more because I just enjoyed programming.
+  - I'm actually not a people person. But I do love other people who comment and get involved in my project.
+  - The big point for me was not being alone and having 10, maybe 100 people being involved. Going from 100 people to a million people is not a big deal -- to me. Well, I mean, maybe it is if you want to sell your result then it's a huge deal. But if you're interested in the technology and you're interested in the project, the big part was getting the community.
+  - So Git is my second big project, which was only created for me to maintain my first big project. And this is literally how I work.
+  - Well, I do code for fun -- but I want to code for something meaningful so every single project I've ever done has been something I needed
+  - Apparently, my sister said that my biggest exceptional quality was that I would not let go.
+  - I can't do UI to save my life.
+  - Good taste is about really seeing the big patterns and kind of instinctively knowing what's the right way to do things.
+  - Companies like Google and many others have made, arguably, like, billions of dollars out of your software. Does that piss you off? No. No, it doesn't piss me off for several reasons. And one of them is, I'm doing fine. But the other reason is -- I mean, without doing the whole open source and really letting go thing, Linux would never have been what it is.
+  - I think one reason open source works so well in code (is that ...) Code either works or it doesn't.
 - 03 Aug 2025. The [Uses This](https://usesthis.com/) site has interviewed professionals for decades. From their [repo](https://github.com/waferbaby/usesthis) I scraped the top developer apps post 2020:
 
   ```bash
