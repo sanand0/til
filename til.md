@@ -2,6 +2,12 @@
 
 ## Aug 2025
 
+- 04 Aug 2025. I'm an open data hawk. But here are things I should remind myself of. [#](https://chatgpt.com/c/68901fb2-38b0-8333-9853-7e6c2fdaf97c)
+  - **Privacy incubates creativity**. People self-censor when watched. Privacy shields fragile ideas.
+  - **Power assymetry**. Big players can leverage openness more, e.g. Cambridge Analytics + Facebook data.
+  - **Context matters**. What's harmless in one setting can be toxic in another.
+  - **One-way door**. Data can't be unshared. Don't scrap brakes dreaming of perfect roads. Anticipate tyrannical regimes / cultures.
+  - **Not your call**. You don't share your neighbour's medical records.
 - 04 Aug 2025. [One Punch Man](https://en.wikipedia.org/wiki/One-Punch_Man) is available as [manga](https://onepunchmanmangaa.com/). I watched the anime first and assumed that came first. Apparently not.
 - 04 Aug 2025. In "kind" environment (stable rules, rapid and accurate feedback), specialize. In "wicked" environments (rules shift, feedback is noisy/late), generalize. [ChatGPT](https://chatgpt.com/share/68902bbf-bf58-800c-b6b5-9ae787fa9c26)
 - 03 Aug 2025. "In fact, React Native looks set to become the most engine-agnostic JavaScript runtime around". [The Many, Many, Many, JavaScript Runtimes of the Last Decade](https://buttondown.com/whatever_jamie/archive/the-many-many-many-javascript-runtimes-of-the-last-decade/)
