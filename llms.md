@@ -22,9 +22,9 @@
   - **Use the best models, consciously**. O3 (via $20 ChatGPT), Gemini 2.5 Pro (free on Gemini app), or Claude 4 Opus (via $20 Claude). The older models are the default and far worse.
   - **Speak & listen, don't just type & read**. I had to resist the temptation to ignore ChatGPT response when a colleague read it out. We are patient with and have respect for humans but not for AI. The value we derive requires both. Suggestion: Speak and listen rather than type and read. It's hard to skip and easier to stay in the present. It's also easier to ramble than type.
   - **Keep an impossibility list**. There is a jagged edge that moves. When you note down what's impossibile today and retry every month, you can see how that edge shifts.
-  - **Wait for better models**. Many problems can be solved just by waiting a few months for a new model.
+  - **Wait for better models**. Many problems can be solved just by waiting a few months for a new model. You don't need to find or build your own app.
   - **Make context easily available**. Context is one of the biggest enablers for LLMs. Use search, copy-pasteable files, previous chats, connectors, APIs/tools, or any other way to give LLMs examples and context.
-  - **Have LLMs write code**. LLMs are bad at math. They're good at languages, including code. You can have it solve a specific technical problem, or find ways of solving a broad business problem by breaking it down into multiple technical problems, or just ask for open ended insight
+  - **Have LLMs write code**. LLMs are bad at math. They're good at languages, including code. Running the code gives output with low hallucinations. This combination can solve a WIDE variety of problems that need creativity _and_ reliability.
   - **APIs are cheaper than self hosting.** Avoid self-hosting.
   - **Datasets are more important than fine-tuning.** You can always fine-tune a newer model as long as you have the datasets.
 - 01 Aug 2025. Since Gemini has a 1M input context, using Gemini CLI as a sub-agent from Claude Code using the `-p` or `--prompt` flag lets it crunch large code bases and pass relevant responses back to Claude Code.
