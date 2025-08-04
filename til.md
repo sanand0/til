@@ -2,6 +2,8 @@
 
 ## Aug 2025
 
+- 04 Aug 2025. [One Punch Man](https://en.wikipedia.org/wiki/One-Punch_Man) is available as [manga](https://onepunchmanmangaa.com/). I watched the anime first and assumed that came first. Apparently not.
+- 04 Aug 2025. In "kind" environment (stable rules, rapid and accurate feedback), specialize. In "wicked" environments (rules shift, feedback is noisy/late), generalize. [ChatGPT](https://chatgpt.com/share/68902bbf-bf58-800c-b6b5-9ae787fa9c26)
 - 03 Aug 2025. "In fact, React Native looks set to become the most engine-agnostic JavaScript runtime around". [The Many, Many, Many, JavaScript Runtimes of the Last Decade](https://buttondown.com/whatever_jamie/archive/the-many-many-many-javascript-runtimes-of-the-last-decade/)
 - 03 Aug 2025. [OMDb](https://www.omdbapi.com/) (simple) and [TMDb](https://www.themoviedb.org/) (comprehensive) are API-friendly alternatives to the IMDb.
 - 03 Aug 2025. [copyparty](https://github.com/9001/copyparty) seems one of the most feature-rich file servers out there. Single Python file, runs on any OS, works with any client, and optimized for speed. [Video](https://youtu.be/15_-hgsX2V0)
