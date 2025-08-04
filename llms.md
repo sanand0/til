@@ -7,6 +7,7 @@
   - Bigger models do better, but constrained prompts (“Copy the text exactly; change nothing.”) have a bigger impact.
   - Low temperature improves copying fidelity.
   - But even after "forgetting", LLMs reproduce rare content if they're trained on it.
+- 03 Aug 2025. As corporates restrict the use of LLMs, I see employees purchasing personal laptops to use LLMs on. An interesting trend!
 - 03 Aug 2025. [`openai-python`](https://github.com/openai/openai-python) has a CLI. You can run `uvx openai api chat.completions.create --stream -m gpt-4.1-nano -g developer 'Translate to Chinese' -g user "Hello"` for example
 - 03 Aug 2025. Anthropic has an [OpenAI compatible API](https://docs.anthropic.com/en/api/openai-sdk) at `https://api.anthropic.com/v1/`.
 - 03 Aug 2025. Claude Code tips from [Things that didn't work](https://lucumr.pocoo.org/2025/7/30/things-that-didnt-work/) by Armin Rocher
@@ -25,6 +26,7 @@
   - **Wait for better models**. Many problems can be solved just by waiting a few months for a new model. You don't need to find or build your own app.
   - **Make context easily available**. Context is one of the biggest enablers for LLMs. Use search, copy-pasteable files, previous chats, connectors, APIs/tools, or any other way to give LLMs examples and context.
   - **Have LLMs write code**. LLMs are bad at math. They're good at languages, including code. Running the code gives output with low hallucinations. This combination can solve a WIDE variety of problems that need creativity _and_ reliability.
+  - **Learn AI coding**. 1. Build a game with ChatGPT/Claude/Gemini. 2. Improve it. 3. Create a tool useful to you. 4. Publish it on GitHub.
   - **APIs are cheaper than self hosting.** Avoid self-hosting.
   - **Datasets are more important than fine-tuning.** You can always fine-tune a newer model as long as you have the datasets.
 - 01 Aug 2025. Since Gemini has a 1M input context, using Gemini CLI as a sub-agent from Claude Code using the `-p` or `--prompt` flag lets it crunch large code bases and pass relevant responses back to Claude Code.
