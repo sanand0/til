@@ -19,7 +19,7 @@
 - 03 Aug 2025. Research indicates that we don't know in advance which prompts will help. Evals beat prompt engineering. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lvgwdwn7422w)
 - 02 Aug 2025. Benjamin Green [suggests](https://resobscura.substack.com/p/openais-new-study-mode-and-the-risks) that [OpenAI Study mode](https://openai.com/index/chatgpt-study-mode/) is sycophantic. E.g. in [this conversation](https://chatgpt.com/share/688a9730-85d0-8004-9dae-0edb0c3ceff4), ChatGPT _carefully_ balances truth and politeness. A reader might misinterpret that as agreement. But sometimes, we _need_ candor. Politeness trades clarity for harmony. **People who trust AI should tell it to be more candid**.
 - 02 Aug 2025. Here's my current response when asked, "How should I use LLMs better":
-  - **Pay for better chat apps**. The ChatGPT $20 version with O3 is my choice currently. The free versions won't help as much.
+  - **Use the best models, consciously**. O3 (via $20 ChatGPT), Gemini 2.5 Pro (free on Gemini app), or Claude 4 Opus (via $20 Claude). The older models are the default and far worse.
   - **Use audio for better attention**. I had to resist the temptation to ignore ChatGPT response when a colleague read it out. We are patient with and have respect for humans but not for AI. The value we derive requires both. Suggestion: Speak and listen rather than type and read. It's hard to skip and easier to stay in the present. It's also easier to ramble than type.
   - **Keep an impossibility list**. There is a jagged edge that moves. When you note down what's impossibile today and retry every month, you can see how that edge shifts.
   - **Wait for better models**. Many problems can be solved just by waiting a few months for a new model.
