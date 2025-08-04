@@ -2,6 +2,11 @@
 
 ## Aug 2025
 
+- 04 Aug 2025. What happens when LLMs play Chinese Whispers / the [Telephone Game](https://en.wikipedia.org/wiki/Telephone_game)? Here are learnings. [ChatGPT](https://chatgpt.com/share/68904271-6d10-800c-9084-8ae28668df92)
+  - Drift increases faster than linear with hops.
+  - Bigger models do better, but constrained prompts (“Copy the text exactly; change nothing.”) have a bigger impact.
+  - Low temperature improves copying fidelity.
+  - But even after "forgetting", LLMs reproduce rare content if they're trained on it.
 - 03 Aug 2025. [`openai-python`](https://github.com/openai/openai-python) has a CLI. You can run `uvx openai api chat.completions.create --stream -m gpt-4.1-nano -g developer 'Translate to Chinese' -g user "Hello"` for example
 - 03 Aug 2025. Anthropic has an [OpenAI compatible API](https://docs.anthropic.com/en/api/openai-sdk) at `https://api.anthropic.com/v1/`.
 - 03 Aug 2025. Claude Code tips from [Things that didn't work](https://lucumr.pocoo.org/2025/7/30/things-that-didnt-work/) by Armin Rocher
