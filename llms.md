@@ -2,6 +2,7 @@
 
 ## Aug 2025
 
+- 05 Aug 2025. Typed languages are better suited for vibe coding. This will likely lead to the growth of typed languages (TypeScript, Rust, Go) but also of typing in untyped languages (e.g. Python) [#](https://solmaz.io/typed-languages-are-better-suited-for-vibecoding)
 - 04 Aug 2025. Models' ability to orchestrate longer workflows will improve. Factor that into your application design. Claude Code can already handle over 70 tasks in a workflow
 - 04 Aug 2025. What happens when LLMs play Chinese Whispers / the [Telephone Game](https://en.wikipedia.org/wiki/Telephone_game)? Here are learnings. [ChatGPT](https://chatgpt.com/share/68904271-6d10-800c-9084-8ae28668df92)
   - Drift increases faster than linear with hops.
