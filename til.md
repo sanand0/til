@@ -2,7 +2,7 @@
 
 ## Aug 2025
 
-- 06 Aug 2025. I've been uncertain about [htmx]() for some time now. [HTMX is hard, so ]
+- 06 Aug 2025. I've been uncertain about [htmx](https://htmx.org/) for some time now. This tutorial, [HTMX is hard, so let's get it right](https://github.com/BookOfCooks/blog/blob/master/htmx-is-hard-so-lets-get-it-right.md), convinced me that it's too far from my mental model, so I'm unlikely to ever use it.
 - 05 Aug 2025. Slow, effortful practice (spaced recall, interleaving topics, self-testing) builds lasting knowledge but looks inefficient and doesn't help with exams. [#](https://chatgpt.com/share/689180c7-03a0-800c-a5d4-5a455429e97f)
 - 05 Aug 2025. [GitDoc VS Code extension](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc) auto-commits and syncs notes. I dropped [gitwatch](https://github.com/gitwatch/gitwatch) in favor of this.
 
