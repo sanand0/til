@@ -17,6 +17,7 @@
   systemctl --user daemon-reload; systemctl --user enable --now gitwatch-notes
   ```
 
+- 04 Aug 2025. Instead of Celery, Redis, Kafka, etc. as task queues, we could the file system as a message queue. For example, `pending/task-01.json` moves to `wip/task-01.json` to `done/task-01.json`. Folders for state/tags, files for task details.
 - 04 Aug 2025. [Foam](https://foambubble.github.io/) is a note-taking VS Code extension. The [WikiLinks](https://foambubble.github.io/foam/user/features/wikilinks), [tags](https://foambubble.github.io/foam/user/features/tags) and [backlinking](https://foambubble.github.io/foam/user/features/backlinking) features align _naturally_ with Markdown note-taking. Via [Steph Ango](https://stephango.com/vault) who uses Obsidian which nudged me to search for WikiLink-ing features in VS Code.
 - 04 Aug 2025. I'm an open data hawk. But here are things I should remind myself of. [#](https://chatgpt.com/c/68901fb2-38b0-8333-9853-7e6c2fdaf97c)
   - **Privacy incubates creativity**. People self-censor when watched. Privacy shields fragile ideas.
