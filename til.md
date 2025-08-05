@@ -3,6 +3,20 @@
 ## Aug 2025
 
 - 05 Aug 2025. Slow, effortful practice (spaced recall, interleaving topics, self-testing) builds lasting knowledge but looks inefficient and doesn't help with exams. [#](https://chatgpt.com/share/689180c7-03a0-800c-a5d4-5a455429e97f)
+- 05 Aug 2025. [GitDoc VS Code extension](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc) auto-commits and syncs notes. I dropped [gitwatch](https://github.com/gitwatch/gitwatch) in favor of this.
+
+  Here's my earlier `gitwatch` script:
+
+  ```bash
+  sudo apt install inotify-tools
+  git clone https://github.com/gitwatch/gitwatch ~/.local/bin/gitwatch
+  chmod +x ~/.local/bin/gitwatch
+  printf '[Unit]\nDescription=Auto‑push til\n\n[Service]\nExecStart=%%h/.local/bin/gitwatch/gitwatch.sh -s 10 -r origin -b live -m "auto-commit" /home/sanand/code/til-live\nRestart=on-failure\n\n[Install]\nWantedBy=default.target\n' > ~/.config/systemd/user/gitwatch-til.service
+  systemctl --user daemon-reload; systemctl --user enable --now gitwatch-til
+  printf '[Unit]\nDescription=Auto‑push notes\n\n[Service]\nExecStart=%%h/.local/bin/gitwatch/gitwatch.sh -s 10 -r origin -b live -m "auto-commit" /home/sanand/code/notes\nRestart=on-failure\n\n[Install]\nWantedBy=default.target\n' > ~/.config/systemd/user/gitwatch-notes.service
+  systemctl --user daemon-reload; systemctl --user enable --now gitwatch-notes
+  ```
+
 - 04 Aug 2025. [Foam](https://foambubble.github.io/) is a note-taking VS Code extension. The [WikiLinks](https://foambubble.github.io/foam/user/features/wikilinks), [tags](https://foambubble.github.io/foam/user/features/tags) and [backlinking](https://foambubble.github.io/foam/user/features/backlinking) features align _naturally_ with Markdown note-taking. Via [Steph Ango](https://stephango.com/vault) who uses Obsidian which nudged me to search for WikiLink-ing features in VS Code.
 - 04 Aug 2025. I'm an open data hawk. But here are things I should remind myself of. [#](https://chatgpt.com/c/68901fb2-38b0-8333-9853-7e6c2fdaf97c)
   - **Privacy incubates creativity**. People self-censor when watched. Privacy shields fragile ideas.
