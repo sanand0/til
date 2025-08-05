@@ -1408,7 +1408,7 @@ Claude Code notes
 - 21 Dec 2025. A clever trick to prevent voice models from speaking too quickly. Use a "stay silent" function call. [Ref](https://x.com/ilanbigio/status/1870218818288558396?t=Bo-BdgJ0hFKOJ0urC0HYBQ)
 - 19 Dec 2024. o1-preview diagnoses better than doctors. [Harvard](https://arxiv.org/pdf/2412.10849)
 - 18 Dec 2024. OpenAI's release of ephemeral tokens via sessions (valid for 1 minute) are a useful way of exposing apps for public demos. Currently it works only for the Realtime API, though.
-- 18 Dec 2024. [SpreadsheetLLM](https://arxiv.org/abs/2407.09025) is a way of encoding spreadsheets in an LLM friendly format.
+- 18 Dec 2024. [SpreadsheetLLM](https://arxiv.org/abs/2407.09025) is a way of encoding spreadsheets in an LLM friendly format. It's good for 1K+ rows. For lower, Markdown > XML > HTML. However, [Table Meets LLM](https://arxiv.org/abs/2305.13062v4) suggests that HTML > XML > Markdown, so this is unclear.
 - 18 Dec 2024. #HARD prompt. Ask video generators like SORA to generate text in videos. It is of average quality.
 - 18 Dec 2024. [GPT 4o Mini Realtime](https://platform.openai.com/docs/models#gpt-4o-realtime) was released. A realtime conversation will cost ~50c/hr. About 36c for input, 72c for output. (I extrapolated from the 6c/min audio input cost for GPT 4o Realtime when it was $100/MTok. GPT 4o Mini Realtime is $10/MTok input and $20/MTok output.)
 - 18 Dec 2024. This is an interesting way to understand software. `Generate a Mermaid sequence diagram showing interactions based on this code.` [Ref](https://llmfoundry.straive.com/history#?t=1734434521298204)
