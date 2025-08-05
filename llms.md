@@ -2,6 +2,7 @@
 
 ## Aug 2025
 
+- 04 Aug 2025. Models' ability to orchestrate longer workflows will improve. Factor that into your application design. Claude Code can already handle over 70 tasks in a workflow
 - 04 Aug 2025. What happens when LLMs play Chinese Whispers / the [Telephone Game](https://en.wikipedia.org/wiki/Telephone_game)? Here are learnings. [ChatGPT](https://chatgpt.com/share/68904271-6d10-800c-9084-8ae28668df92)
   - Drift increases faster than linear with hops.
   - Bigger models do better, but constrained prompts (“Copy the text exactly; change nothing.”) have a bigger impact.
