@@ -2,7 +2,7 @@
 
 ## Aug 2025
 
-- 05 Aug 2025. Slow, effortful practice (spaced recall, interleaving topics, self-testing) builds lasting knowledge but looks inefficient and doesn't help with exams. [Learning and long-term retention](https://chatgpt.com/share/689180c7-03a0-800c-a5d4-5a455429e97f)
+- 05 Aug 2025. Slow, effortful practice (spaced recall, interleaving topics, self-testing) builds lasting knowledge but looks inefficient and doesn't help with exams. [#](https://chatgpt.com/share/689180c7-03a0-800c-a5d4-5a455429e97f)
 - 04 Aug 2025. I'm an open data hawk. But here are things I should remind myself of. [#](https://chatgpt.com/c/68901fb2-38b0-8333-9853-7e6c2fdaf97c)
   - **Privacy incubates creativity**. People self-censor when watched. Privacy shields fragile ideas.
   - **Power assymetry**. Big players can leverage openness more, e.g. Cambridge Analytics + Facebook data.
