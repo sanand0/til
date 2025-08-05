@@ -36,7 +36,7 @@
   - I'm actually not a people person. But I do love other people who comment and get involved in my project.
   - The big point for me was not being alone and having 10, maybe 100 people being involved. Going from 100 people to a million people is not a big deal -- to me. Well, I mean, maybe it is if you want to sell your result then it's a huge deal. But if you're interested in the technology and you're interested in the project, the big part was getting the community.
   - So Git is my second big project, which was only created for me to maintain my first big project. And this is literally how I work.
-  - Well, I do code for fun -- but I want to code for something meaningful so every single project I've ever done has been something I needed
+  - Well, I do code for fun -- but I want to code for something meaningful so every single project I've ever done has been something I needed.
   - Apparently, my sister said that my biggest exceptional quality was that I would not let go.
   - I can't do UI to save my life.
   - Good taste is about really seeing the big patterns and kind of instinctively knowing what's the right way to do things.
