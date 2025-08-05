@@ -2,6 +2,7 @@
 
 ## Aug 2025
 
+- 05 Aug 2025. A trend that AI coding will only accelerate: "It is now possible for tiny teams to make principled software that millions of people use, unburdened by investors. ... you need far less money and far fewer employees to reach far more customers. That wave is only just beginning." [#](https://stephango.com/vcware)
 - 05 Aug 2025. Typed languages are better suited for vibe coding. This will likely lead to the growth of typed languages (TypeScript, Rust, Go) but also of typing in untyped languages (e.g. Python) [#](https://solmaz.io/typed-languages-are-better-suited-for-vibecoding)
 - 04 Aug 2025. Models' ability to orchestrate longer workflows will improve. Factor that into your application design. Claude Code can already handle over 70 tasks in a workflow
 - 04 Aug 2025. What happens when LLMs play Chinese Whispers / the [Telephone Game](https://en.wikipedia.org/wiki/Telephone_game)? Here are learnings. [ChatGPT](https://chatgpt.com/share/68904271-6d10-800c-9084-8ae28668df92)
