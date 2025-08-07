@@ -39,7 +39,6 @@ Questioning defines and structures what we don’t know.
 - What do you do in your spare time, on weekends?
 - What's most important to you right now?
 - What got you into this line of business?
-- What do you like most about what you're doing?
 - Where do you decide based on emotion more than reason?
 - What's something you probably know better than anyone else? Mine may be Calvin & Hobbes
 - What's an unusual habit you have that you love?
