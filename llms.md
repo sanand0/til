@@ -383,6 +383,7 @@ Claude Code notes
     - Have it think more. `Use ultrathink`.
     - Log extensively, by default. Improves future debugging.
     - Report errors well. What happened, why, and what to do.
+    - Prefer monorepos for more context. [#](https://blog.puzzmo.com/posts/2025/07/30/six-weeks-of-claude-code/#what-do-i-think-makes-it-successful-in-our-codebases)
     - Prefer popular libraries. LLMs know these better.
     - Prefer fast tests, tools, and libraries. Speed helps iteration.
     - Prefer small files and packages. Reduces context.
