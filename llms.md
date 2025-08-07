@@ -4,8 +4,8 @@
 
 - 06 Aug 2025. `npx -y ccusage` is an easy way of summarizing your [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) usage and cost. My cost so far (since 21 July) is about $10. The median session cost is ~50 cents. Most of it ($7) was from a single temporary coding chat that I kept continuing for way too long, building up the context window. [#](https://github.com/ryoppippi/ccusage)
 - 05 Aug 2025. It's interesting that Gemini Deep Research cannot access Google Drive while Gemini can. On the other hand, ChatGPT Deep Research can access Google Drive but ChatGPT cannot.
-- 05 Aug 2025. A trend that AI coding will only accelerate: "It is now possible for tiny teams to make principled software that millions of people use, unburdened by investors. ... you need far less money and far fewer employees to reach far more customers. That wave is only just beginning." [#](https://stephango.com/vcware)
-- 05 Aug 2025. Typed languages are better suited for vibe coding. This will likely lead to the growth of typed languages (TypeScript, Rust, Go) but also of typing in untyped languages (e.g. Python) [#](https://solmaz.io/typed-languages-are-better-suited-for-vibecoding)
+- 05 Aug 2025. A trend that AI coding will only accelerate: "It is now possible for tiny teams to make principled software that millions of people use, unburdened by investors. ... you need far less money and far fewer employees to reach far more customers. That wave is only just beginning." [#](https://stephango.com/vcware) #ai-coding
+- 05 Aug 2025. Typed languages are better suited for vibe coding. This will likely lead to the growth of typed languages (TypeScript, Rust, Go) but also of typing in untyped languages (e.g. Python) [#](https://solmaz.io/typed-languages-are-better-suited-for-vibecoding) #ai-coding
 - 04 Aug 2025. Models' ability to orchestrate longer workflows will improve. Factor that into your application design. Claude Code can already handle over 70 tasks in a workflow
 - 04 Aug 2025. What happens when LLMs play Chinese Whispers / the [Telephone Game](https://en.wikipedia.org/wiki/Telephone_game)? Here are learnings. [ChatGPT](https://chatgpt.com/share/68904271-6d10-800c-9084-8ae28668df92)
   - Drift increases faster than linear with hops.
@@ -15,7 +15,7 @@
 - 03 Aug 2025. As corporates restrict the use of LLMs, I see employees purchasing personal laptops to use LLMs on. An interesting trend!
 - 03 Aug 2025. [`openai-python`](https://github.com/openai/openai-python) has a CLI. You can run `uvx openai api chat.completions.create --stream -m gpt-4.1-nano -g developer 'Translate to Chinese' -g user "Hello"` for example
 - 03 Aug 2025. Anthropic has an [OpenAI compatible API](https://docs.anthropic.com/en/api/openai-sdk) at `https://api.anthropic.com/v1/`.
-- 03 Aug 2025. Claude Code tips from [Things that didn't work](https://lucumr.pocoo.org/2025/7/30/things-that-didnt-work/) by Armin Rocher
+- 03 Aug 2025. Claude Code tips from [Things that didn't work](https://lucumr.pocoo.org/2025/7/30/things-that-didnt-work/) by Armin Rocher #ai-coding
   - Speech-to-text. Cannot stress this enough but talking to the machine means you’re more likely to share more about what you want it to do.
   - I maintain some basic prompts and context for copy-pasting at the end or the beginning of what I entered.
   - I ended up preloading executables on the PATH that override the default ones, steering Claude toward the right tools like uv.
@@ -34,9 +34,9 @@
   - **Learn AI coding**. 1. Build a game with ChatGPT/Claude/Gemini. 2. Improve it. 3. Create a tool useful to you. 4. Publish it on GitHub.
   - **APIs are cheaper than self hosting.** Avoid self-hosting.
   - **Datasets are more important than fine-tuning.** You can always fine-tune a newer model as long as you have the datasets.
-- 01 Aug 2025. Since Gemini has a 1M input context, using Gemini CLI as a sub-agent from Claude Code using the `-p` or `--prompt` flag lets it crunch large code bases and pass relevant responses back to Claude Code.
-- 01 Aug 2025. While [ChatGPT Codex](https://chatgpt.com/codex) aligns with my minimalistic style and follows instructions very well, it also tends to remove comments in my code and oversimplifies. [Jules](https://jules.google.com/) is better than that regard
-- 01 Aug 2025. _Teaching_ vibe coding is satisfying, too. I guided a developer to write a Python workflow by providing 2 prompts. Both of these were one-shotted by Claude 4 Sonnet. The entire process took 20 min with me guiding them over the phone.
+- 01 Aug 2025. Since Gemini has a 1M input context, using Gemini CLI as a sub-agent from Claude Code using the `-p` or `--prompt` flag lets it crunch large code bases and pass relevant responses back to Claude Code. #ai-coding
+- 01 Aug 2025. While [ChatGPT Codex](https://chatgpt.com/codex) aligns with my minimalistic style and follows instructions very well, it also tends to remove comments in my code and oversimplifies. [Jules](https://jules.google.com/) is better than that regard. #ai-coding
+- 01 Aug 2025. _Teaching_ vibe coding is satisfying, too. I guided a developer to write a Python workflow by providing 2 prompts. Both of these were one-shotted by Claude 4 Sonnet. The entire process took 20 min with me guiding them over the phone. #ai-coding
   - "Write a Python script to extract a page from a PDF file and save it." Followed by "Write minimal code. Drop error handling."
   - "Write a Python script to pass a PDF file to an LLM for OCR and print the result. Use this code sample... [PASTED CODE]." Followed by "Write minimal code. Drop error handling."
 - 01 Aug 2025. LLM users are maturing quickly. Early adopters who are open to understand the generic capabilities of LLMs through demos are somewhat saturated. The early majority have come in. They aren't interested in generic capabilities. They're looking for solutions that solve _their_ specific problem. Soon the late majority will come in asking for _existing_ solutions that have already solved their problem for many others. How can a generic industry-agnostic technology team create demos or solutions for this early majority when we don't yet know their use cases? [ChatGPT](https://chatgpt.com/share/6885b87b-b30c-800c-8c4e-a5c4218b9906)
@@ -50,10 +50,10 @@
 
 ## Jul 2025
 
-- 31 Jul 2025. AI closes the gap between junior & senior devs -- even when both use AI. Quality doesn't suffer much. So onboarding can be faster, compensation ladder may shorten. When using AI, developers code more and "project manage" less. Collaboration need reduces and hierarchies are likely to flatten. [Generative AI and the Nature of Work](https://chatgpt.com/share/688b8f63-339c-800c-a9b0-abf822ebf7f2)
+- 31 Jul 2025. AI closes the gap between junior & senior devs -- even when both use AI. Quality doesn't suffer much. So onboarding can be faster, compensation ladder may shorten. When using AI, developers code more and "project manage" less. Collaboration need reduces and hierarchies are likely to flatten. [Generative AI and the Nature of Work](https://chatgpt.com/share/688b8f63-339c-800c-a9b0-abf822ebf7f2) #ai-coding
 - 29 Jul 2025. [OpenAI's prompt engineering guide](https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering) recommends an interesting [tactic](https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering#tactic-ask-the-model-to-adopt-a-persona) that includes this prompt snippet, which I think is very powerful.
   > ask clarifying questions when needed
-- 29 Jul 2025. From a post-mortem of 8 tasks [Codex](https://chatgpt.com/codex) completed for me, here's what I need to improve when using LLMs to code.
+- 29 Jul 2025. From a post-mortem of 8 tasks [Codex](https://chatgpt.com/codex) completed for me, here's what I need to improve when using LLMs to code. #ai-coding
   - **Provide a stable, complete spec**.
     - Late UI tweaks, new API params, renamed fields, extra packaging rules, “Rename per‑image download”, “standardise `baseUrl` vs `baseURL`”, “add GA‑4 exam module”. → churn & rewrites.
     - Ask the user for a _final_ UI/API/mock‑up + edge‑case examples before the first commit.
@@ -83,7 +83,7 @@
   - GPT for aggressive answering and you’ll post‑filter. Wrap with regex/diff guards.
   - Gemini / Qwen for cheap-ish long context but can tolerate noise? Enforce sanity checks and chunk shorter.
 - 28 Jul 2025. LLMs have an internal "thinking progress" bar in its hidden states (a "Thinking Progress Vector"). By moving the bar forward ("overclocking") you can make them conclude faster _without hurting accuracy_! Can't do this with APIs, but is a way by which LLMs might start speeding up. [Overclocking LLM Reasoning](https://royeisen.github.io/OverclockingLLMReasoning-paper/)
-- 28 Jul 2025. Since coding is fast, deciding the next feature is a bottleneck. [The Batch](https://www.deeplearning.ai/the-batch/how-to-get-through-the-product-management-bottleneck/)
+- 28 Jul 2025. Since coding is fast, deciding the next feature is a bottleneck. [The Batch](https://www.deeplearning.ai/the-batch/how-to-get-through-the-product-management-bottleneck/). #ai-coding
   - Ask PMs who know what users want
   - Ask PMs again after sharing log analysis and survey analysis with them
   - Automate via LLMs to scale backlogs
@@ -91,7 +91,7 @@
 - 27 Jul 2025. Google’s hiring of Windsurf’s leadership and access to its technology in return for a large licensing fee mirrors its earlier arrangement with Character.AI. Such deals between AI leaders and startups have become increasingly common as AI companies seek quick advantages without the risk that regulators might delay or quash an outright acquisition, while AI startups seek infusions of cash to support the building of cutting-edge models. Other deals of this sort have involved Meta and Scale AI, Amazon and Adept, and Microsoft and Inflection. [The Batch](https://www.deeplearning.ai/the-batch/issue-311/)
 - 27 Jul 2025. Early LLMs were built to generate output for human consumption. But the rise of agentic workflows means that more and more LLM output is consumed by computers, so it makes good sense to put more research and training effort into building LLMs that generate output for computers. A leading LLM optimized for agentic workflows is a boon to developers! [The Batch](https://www.deeplearning.ai/the-batch/issue-311/)
 - 27 Jul 2025. AlphaEvolve implemented an evolutionary loop: Given initial code and evaluation code, Gemini 2.0 Flash and Gemini 2.0 Pro suggested changes, stored the revised program in a database, evaluated it, suggested further changes, and repeated the process. With automated evaluation this is a very powerful approach. [The Batch](https://www.deeplearning.ai/the-batch/issue-311/)
-- 27 Jul 2025. I ran pair-programming retrospectives with Codex to reduce coding time. Iterations (i.e. human review) is the slowest factor. So, for tasks with 3+ iterations, I asked it:
+- 27 Jul 2025. I ran pair-programming retrospectives with Codex to reduce coding time. Iterations (i.e. human review) is the slowest factor. So, for tasks with 3+ iterations, I asked it: #ai-coding
 
   > First, document learnings comprehensively.
   >
@@ -137,7 +137,7 @@
   > - **Commit etiquette**: semantic messages, PR title template.
   > - **Coding standards**: ESLint/ruff rules, comment tags (/_ html _/), etc.
 
-- 27 Jul 2025. Notes from Vedang's AI-Assisted Coding tips & tricks. [Ref](https://www.linkedin.com/posts/vedangmanerikar_notes-from-my-ai-assisted-coding-bof-fifthel-activity-7355219038832148480-XTYr)
+- 27 Jul 2025. Notes from Vedang's AI-Assisted Coding tips & tricks. [Ref](https://www.linkedin.com/posts/vedangmanerikar_notes-from-my-ai-assisted-coding-bof-fifthel-activity-7355219038832148480-XTYr) #ai-coding
   - `claude --debug` shows what Claude Code is doing behind a scenes -- and is a good way to understand hidden / undocumented features.
   - At the end of each session, ask Claude Code: "Document learnings. What failed? What worked? What's next?"
   - Have Claude Code write its own prompts by having it launch **sub-agents** and create common commands in `.claude/commands/`.
@@ -167,7 +167,7 @@
   21. Location-aware behavior instructions (🅐🅞). "User location: NL. For location-dependent queries, use this info naturally…"
   22. Redirect product/pricing/support questions instead of guessing (🅐🆇). "... redirect them to [https://x.ai/grok"](https://x.ai/grok")"
 - 27 Jul 2025. [The Black Spatula Project](https://the-black-spatula-project.github.io/) uses LLMs to identify errors in scientific research papers.
-- 27 Jul 2025. [qwen-code](https://github.com/QwenLM/qwen-code) is a fork of [Gemini CLI](https://github.com/google-gemini/gemini-cli) and uses the [qwen3-coder](https://github.com/QwenLM/Qwen3-Coder). They also have endpoints for Claude Code and Cline. [Simon Willison](https://simonwillison.net/2025/Jul/22/qwen3-coder/#atom-everything)
+- 27 Jul 2025. [qwen-code](https://github.com/QwenLM/qwen-code) is a fork of [Gemini CLI](https://github.com/google-gemini/gemini-cli) and uses the [qwen3-coder](https://github.com/QwenLM/Qwen3-Coder). They also have endpoints for Claude Code and Cline. [Simon Willison](https://simonwillison.net/2025/Jul/22/qwen3-coder/#atom-everything) #ai-coding
   - Run with OpenRouter via `OPENAI_BASE_URL=https://openrouter.ai/api/v1 OPENAI_API_KEY=$OPENROUTER_API_KEY OPENAI_MODEL=qwen/qwen3-coder npx -y @qwen-code/qwen-code`
   - Quality: not as good as Claude Code. When prompted to `Move AI Image Chat position in tools.json AND in README.md to just below Daydream. Add a small filled-circle icon before "Created: ..." date. The color should be based on how old the created date was. Use primary if it's within the last week, success if it's in the last 30 days, warning if it's in the last 365 day and light otherwise. Also, add a col-xl-3 to the tools-grid cells`
     - [qwen-code + qwen-coder](https://github.com/sanand0/tools/commit/c89a0959e045f969c21d78be573b11445da63c81) cost 8 cents and made 3 mistakes.
@@ -177,7 +177,7 @@
     - [qwen-code + claude-sonnet-4](https://github.com/sanand0/tools/commit/8c8b452b97dbf809bfc1eeb60e983ab0b0bc67d4) cost 104 cents and made no mistakes
     - [claude-code](https://github.com/sanand0/tools/commit/e7a00ec39a522676cc0d8e77522a828d8e4c143b) cost 29 cents and made no mistakes
 - 26 Jul 2025. ⭐ O3 seems a better data scientist than I am. [Based on my Google Searches](https://sanand0.github.io/datastories/google-searches/), I have 3 persona: developer, AI-builder, and India/Singapore geo-culturist. A great example of an analysis from O3 that's better than anything I could have come up with. [ChatGPT](https://chatgpt.com/share/6883b1eb-dc14-800c-8be8-87cb559e69e2)
-- 26 Jul 2025. ⭐ Fast review of AI be a powerful skill _and_ enabler. I built an [Image Editing tool](https://tools.s-anand.net/imagegen/) with [Codex](https://chatgpt.com/s/cd_6885abae24a0819195e7536480909260) in ~4 hours, with 11 prompts taking 3.5 - 7.5 minutes each. 3 hours human review, 1 hour LLM coding. I'm 3X slower at reviews while AI will keep improving. [ChatGPT: Faster LLM review techniques](https://chatgpt.com/share/6885b832-3d00-800c-87eb-7e49f8999c8d)
+- 26 Jul 2025. ⭐ Fast review of AI be a powerful skill _and_ enabler. I built an [Image Editing tool](https://tools.s-anand.net/imagegen/) with [Codex](https://chatgpt.com/s/cd_6885abae24a0819195e7536480909260) in ~4 hours, with 11 prompts taking 3.5 - 7.5 minutes each. 3 hours human review, 1 hour LLM coding. I'm 3X slower at reviews while AI will keep improving. [ChatGPT: Faster LLM review techniques](https://chatgpt.com/share/6885b832-3d00-800c-87eb-7e49f8999c8d) #ai-coding
   - Auditize: citations, rationale, output screens, diffs, test results, risks, unknowns
   - Auto validate. Evals, tests
   - Prioritize. High z-values, big-useful-surprising areas
@@ -189,7 +189,7 @@
   - Automated scaling. Generate 1,000 images. Evaluate 1,000 assignments
   - Saves time: debugging, research, validation, documentation, copywriting
   - New ways of working. Loading event schedules into my calendar
-- 25 Jul 2025. [Qwen-Code](https://github.com/QwenLM/qwen-code) is a fork of Gemini CLI and uses [qwen3-coder](https://github.com/QwenLM/Qwen3-Coder) -- a model that can also be used with Claude Code and Cline. The model is not anywhere near as good as Claude 4 Sonnet. The app is costlier than using Claude Code directly.
+- 25 Jul 2025. [Qwen-Code](https://github.com/QwenLM/qwen-code) is a fork of Gemini CLI and uses [qwen3-coder](https://github.com/QwenLM/Qwen3-Coder) -- a model that can also be used with Claude Code and Cline. The model is not anywhere near as good as Claude 4 Sonnet. The app is costlier than using Claude Code directly. #ai-coding
 - 25 Jul 2025. The LLM industry seems to have matured quickly. Early adopters who are open to understand the generic capabilities of LLMs through demos are somewhat saturated. The early majority have come in. They aren't interested in generic capabilities. They're looking for solutions that solve _their_ specific problem. Soon the late majority will come in asking for _existing_ solutions that have already solved their problem for many others. [ChatGPT: Creating demos for majority](https://chatgpt.com/share/6885b87b-b30c-800c-8c4e-a5c4218b9906)
 - 24 Jul 2025. [Claude for Financial Services](https://www.anthropic.com/solutions/financial-services) is an agentic version of Claude available on AWS & Google marketplaces tuned for financial services analysis. [Video](https://youtu.be/5zd7m3Rh5B0)
 - 23 Jul 2025. Agents face 3 problems: compounding errors, quadratic costs, and poorly designed tools. Start with small scope & strong reviews while you solve these problems. [Betting Against Agents](https://utkarshkanwat.com/writing/betting-against-agents/)
@@ -221,7 +221,7 @@
   - Resumes.
   - Patents.
 - 22 Jul 2025. CLI optimization for LLMs will likely emerge. More CLIs (and wrappers / hooks in the shell) will improve output and error contexts for LLMs, e.g. printing current directory, caching slow outputs, suggesting alternate commands, etc. [Ref](https://www.notcheckmark.com/2025/07/rethinking-cli-interfaces-for-ai/)
-- 22 Jul 2025. Frequent commits with linting & building seems like a good AI coding strategy, especially for Claude Code. [Ref](https://www.notcheckmark.com/2025/07/rethinking-cli-interfaces-for-ai/)
+- 22 Jul 2025. Frequent commits with linting & building seems like a good AI coding strategy, especially for Claude Code. [Ref](https://www.notcheckmark.com/2025/07/rethinking-cli-interfaces-for-ai/) #ai-coding
   > To keep Claude Code in line on my project, I’ve relied heavily on linters, build scripts, formatters, and git commit hooks.
   > It’s pretty easy to get Claude Code to commit often by including it in your CLAUDE.md, but it often likes to ignore other commands like “make sure the build doesn’t fail” and “fix any failing tests”.
   > All my projects have a .git/hooks/pre-commit script that enforces project standards. The hook works really well to keep things in line.
@@ -229,21 +229,21 @@
 
 Claude Code notes
 
-- 16 Jul 2025. Claude Code settings are in `~/.claude/settings.json` (personal) < `.claude/settings.json` (project) < `.claude/settings.local.json` (uncommitted personal) < CLI arguments. Explore `model`, `permissions`, `env`, `forceLoginMethod`. [Ref](https://docs.anthropic.com/en/docs/claude-code/settings)
-- 16 Jul 2025. Claude Code loads memory from `~/.claude/CLAUDE.md` < `.CLAUDE.md` and from subdirectories _when required_. Run `/init` to auto-create it with repo-specific info! Mention `@file` to import. Beginning an input with `# ...` adds it to memory! Run `/memory` to view/edit memory files. [Ref](https://docs.anthropic.com/en/docs/claude-code/memory)
-- 16 Jul 2025. Claude Code lets you type `\` then Enter at the end of a line to continue to the next line. Or, run `/terminal-setup` to bind Shift-Enter to insert a newline.
-- 16 Jul 2025. Claude Code has built-in tools to read & write Jupyter notebooks (interesting), to run sub-agents (powerful), and to manage TODO lists (useful) [Ref](https://docs.anthropic.com/en/docs/claude-code/settings#tools-available-to-claude)
-- 16 Jul 2025. `claude -p "query"` runs the query and exits, making it a _very_ powerful pipeline tool. E.g. `cat stream.jsonl | claude -p "..." --output-format json --input-format stream-json --max-turns 3 --dangerously-skip-permissions` [Ref](https://docs.anthropic.com/en/docs/claude-code/cli-reference)
-- 16 Jul 2025. Claude Code has a `/review` command that requests a code review and a `/pr_comments` to view pull request comments [Ref](https://docs.anthropic.com/en/docs/claude-code/slash-commands)
-- 16 Jul 2025. Claude Code lets you define custom slash commands at `~/.claude/commands/*.md` < `.claude/commands/*.md`. Use `@file` to reference files, `$ARGUMENTS` for arguments, and `!` for bash commands like `` DIR: !`pwd`  ``. YAML frontmatter supports `allowed-tools:` and `description:` [Ref](https://docs.anthropic.com/en/docs/claude-code/slash-commands)
-- 16 Jul 2025. You can drag & drop a screenshot or paste it into Claude Code!
-- 16 Jul 2025. Claude Code lets you run `/compact Focus on code samples and API usage` (or mention it in `CLAUDE.md`)
-- 16 Jul 2025. Claude Code activates extended thinking via these keywords: `think` < `think hard` < `think harder` < `ultrathink` [Ref](https://docs.anthropic.com/en/docs/claude-code/common-workflows#use-extended-thinking)
-- 16 Jul 2025. Claude Code lets you set up [GitHub Actions](https://docs.anthropic.com/en/docs/claude-code/github-actions) via `/install-github-app` so that any mention of `@claude` in an issue or a PR will trigger a CI job that does what you suggest. An alternative to [Jules](https://jules.google.com/) or [Codex](https://chatgpt.com/codex)
-- 16 Jul 2025. Claude Code enterprise use is possible. It works with [Google Vertex AI](https://docs.anthropic.com/en/docs/claude-code/amazon-bedrock) and [Amazon Bedrock](https://docs.anthropic.com/en/docs/claude-code/amazon-bedrock) [securely](https://docs.anthropic.com/en/docs/claude-code/security) and supports [usage monitoring](https://docs.anthropic.com/en/docs/claude-code/monitoring-usage)
-- 16 Jul 2025. Claude Code supports [proxies](https://docs.anthropic.com/en/docs/claude-code/corporate-proxy) and [LLM gateways](https://docs.anthropic.com/en/docs/claude-code/llm-gateway). The `apiKeyHelper` [setting](https://docs.anthropic.com/en/docs/claude-code/settings) can dynamically generate API keys
-- 16 Jul 2025. Claude Code costs ~$6/day on average, and < $12/day for 90% of developers. [Ref](https://docs.anthropic.com/en/docs/claude-code/costs)
-- 16 Jul 2025. [ccusage](https://github.com/ryoppippi/ccusage) summarizes Claude Code usage patterns from `~/.claude/`
+- 16 Jul 2025. Claude Code settings are in `~/.claude/settings.json` (personal) < `.claude/settings.json` (project) < `.claude/settings.local.json` (uncommitted personal) < CLI arguments. Explore `model`, `permissions`, `env`, `forceLoginMethod`. [Ref](https://docs.anthropic.com/en/docs/claude-code/settings) #ai-coding
+- 16 Jul 2025. Claude Code loads memory from `~/.claude/CLAUDE.md` < `.CLAUDE.md` and from subdirectories _when required_. Run `/init` to auto-create it with repo-specific info! Mention `@file` to import. Beginning an input with `# ...` adds it to memory! Run `/memory` to view/edit memory files. [Ref](https://docs.anthropic.com/en/docs/claude-code/memory) #ai-coding
+- 16 Jul 2025. Claude Code lets you type `\` then Enter at the end of a line to continue to the next line. Or, run `/terminal-setup` to bind Shift-Enter to insert a newline. #ai-coding
+- 16 Jul 2025. Claude Code has built-in tools to read & write Jupyter notebooks (interesting), to run sub-agents (powerful), and to manage TODO lists (useful) [Ref](https://docs.anthropic.com/en/docs/claude-code/settings#tools-available-to-claude) #ai-coding
+- 16 Jul 2025. `claude -p "query"` runs the query and exits, making it a _very_ powerful pipeline tool. E.g. `cat stream.jsonl | claude -p "..." --output-format json --input-format stream-json --max-turns 3 --dangerously-skip-permissions` [Ref](https://docs.anthropic.com/en/docs/claude-code/cli-reference) #ai-coding
+- 16 Jul 2025. Claude Code has a `/review` command that requests a code review and a `/pr_comments` to view pull request comments [Ref](https://docs.anthropic.com/en/docs/claude-code/slash-commands) #ai-coding
+- 16 Jul 2025. Claude Code lets you define custom slash commands at `~/.claude/commands/*.md` < `.claude/commands/*.md`. Use `@file` to reference files, `$ARGUMENTS` for arguments, and `!` for bash commands like `` DIR: !`pwd`  ``. YAML frontmatter supports `allowed-tools:` and `description:` [Ref](https://docs.anthropic.com/en/docs/claude-code/slash-commands) #ai-coding
+- 16 Jul 2025. You can drag & drop a screenshot or paste it into Claude Code! #ai-coding
+- 16 Jul 2025. Claude Code lets you run `/compact Focus on code samples and API usage` (or mention it in `CLAUDE.md`) #ai-coding
+- 16 Jul 2025. Claude Code activates extended thinking via these keywords: `think` < `think hard` < `think harder` < `ultrathink` [Ref](https://docs.anthropic.com/en/docs/claude-code/common-workflows#use-extended-thinking) #ai-coding
+- 16 Jul 2025. Claude Code lets you set up [GitHub Actions](https://docs.anthropic.com/en/docs/claude-code/github-actions) via `/install-github-app` so that any mention of `@claude` in an issue or a PR will trigger a CI job that does what you suggest. An alternative to [Jules](https://jules.google.com/) or [Codex](https://chatgpt.com/codex) #ai-coding
+- 16 Jul 2025. Claude Code enterprise use is possible. It works with [Google Vertex AI](https://docs.anthropic.com/en/docs/claude-code/amazon-bedrock) and [Amazon Bedrock](https://docs.anthropic.com/en/docs/claude-code/amazon-bedrock) [securely](https://docs.anthropic.com/en/docs/claude-code/security) and supports [usage monitoring](https://docs.anthropic.com/en/docs/claude-code/monitoring-usage) #ai-coding
+- 16 Jul 2025. Claude Code supports [proxies](https://docs.anthropic.com/en/docs/claude-code/corporate-proxy) and [LLM gateways](https://docs.anthropic.com/en/docs/claude-code/llm-gateway). The `apiKeyHelper` [setting](https://docs.anthropic.com/en/docs/claude-code/settings) can dynamically generate API keys #ai-coding
+- 16 Jul 2025. Claude Code costs ~$6/day on average, and < $12/day for 90% of developers. [Ref](https://docs.anthropic.com/en/docs/claude-code/costs) #ai-coding
+- 16 Jul 2025. [ccusage](https://github.com/ryoppippi/ccusage) summarizes Claude Code usage patterns from `~/.claude/` #ai-coding
 - 16 Jul 2025. Interesting MCPs to explore:
   - [Sentry](https://mcp.sentry.dev/): fetch issues with stack traces and other useful debugging context
   - [Playwright](https://github.com/microsoft/playwright-mcp): automate browser
@@ -253,13 +253,13 @@ Claude Code notes
 ## Jun 2025
 
 - 30 Jun 2025. ⭐ When bringing in humans-in-the-loop, applications must make it easier to _review_ and to _edit_ the work.
-- 27 Jun 2025. Gemini CLI has a generous free tier and uses Bootstrap over Tailwind [Ref](https://bsky.app/profile/simonwillison.net/post/3lsh6mtrw2k2u)
+- 27 Jun 2025. Gemini CLI has a generous free tier and uses Bootstrap over Tailwind [Ref](https://bsky.app/profile/simonwillison.net/post/3lsh6mtrw2k2u) #ai-coding
 - 27 Jun 2025. Cloudflare has a native agents SDK that looks good, especially for CloudFlare users. [Ref](https://blog.cloudflare.com/building-agents-with-openai-and-cloudflares-agents-sdk/)
 - 26 Jun 2025. There are several [brands with recognizable chart style guides](https://chatgpt.com/share/685e162e-6c78-800c-8d43-1c5d5367eaa7). It's possible to generate style guides for these from the charts, but applying them via matplotlib is almost #impossible today. [ChatGPT](https://chatgpt.com/share/685e1648-c9fc-800c-b35d-2dd6ed61c934)
 - 25 Jun 2025. ⭐ Vertical AI is a moat against AGI. Specialization reduces hallucinations. Custom workflows and regulations are sticky and defensible. We need to start selling to users, not IT, though. [Ref](https://mtrajan.substack.com/p/vertical-ai-just-got-more-urgent)
 - 25 Jun 2025. When AI automates a task, the bottleneck shifts. AI process re-design is about reworking the process around the new bottleneck, and iterating quickly.
   - With coding, it's testing, reviewing, deploying, use-case identification.
-- 25 Jun 2025. `uvx git-smart-squash` re-organizes haphazard commits using LLMs. [git-smart-squash](https://github.com/edverma/git-smart-squash)
+- 25 Jun 2025. `uvx git-smart-squash` re-organizes haphazard commits using LLMs. [git-smart-squash](https://github.com/edverma/git-smart-squash) #ai-coding
 - 25 Jun 2025. GitHub offers a [free Docker container registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry). [Simon Willison](https://til.simonwillison.net/github/container-registry)
 - 25 Jun 2025. There are three major areas where humans either are, or will soon be, more necessary than ever: trust, integration and taste -- [NYT](https://www.nytimes.com/2025/06/17/magazine/ai-new-jobs.html). [Anil](https://mvark.blogspot.com/2025/06/this-week-i-learned-week-25-2025.html). To deal with this:
   - Learn things that might grow in importance, like:
@@ -297,7 +297,7 @@ Claude Code notes
     - Build auditing credentials and IP
     - Audit your calendar for what AI can do. Have it interview you
     - Practice sceptical fact checking and audit
-- 25 Jun 2025. A clever way to test a library's quality is to have LLMs write code from docs and test it. Failing libraries have flawed code/docs. Improve. [Ref](https://lucumr.pocoo.org/2025/6/17/measuring/)
+- 25 Jun 2025. A clever way to test a library's quality is to have LLMs write code from docs and test it. Failing libraries have flawed code/docs. Improve. [Ref](https://lucumr.pocoo.org/2025/6/17/measuring/) #ai-coding
 - 25 Jun 2025. [Common Pile](https://github.com/r-three/common-pile/) is an 8TB open dataset for LLM training that includes ArXiv, PubMed, StackExchange, GitHub, IRC, Regulations.gov, Patents, UK parliament, books. Easier than scraping.
 - 25 Jun 2025. A useful way to have reasoning models do deep-research-like work is to have them "First, create a plan to solve the problem, clearly listing the objective, approach, and output. Then follow the plan."
 - 25 Jun 2025. [DE-COP](https://arxiv.org/pdf/2402.09910) is a method to check if LLMs were trained on private content. GPT-4o was trained on O'Reilly books, based on this method. [Ref](https://www.deeplearning.ai/the-batch/issue-303/)
@@ -319,8 +319,8 @@ Claude Code notes
   - Log everything to debug user-reported failures. Also monitor the _kinds_ of decisions it took to help debug at scale.
 - 21 Jun 2025. The [Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) likely applies to system prompts. Don't hard-code stuff. I'm impressed that there is _no_ system prompt in the default [pydantic-ai Agent](https://github.com/pydantic/pydantic-ai/blob/a25eb963a54e07afeab5ca2ea143437225100638/pydantic_ai_slim/pydantic_ai/agent.py#L226).
 - 21 Jun 2025. The MCPs developers seem to use the most are: [filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem), [playwright](https://github.com/microsoft/playwright-mcp), [github](https://github.com/github/github-mcp-server), [slack](https://www.npmjs.com/package/@modelcontextprotocol/server-slack), [notion](https://github.com/makenotion/notion-mcp-server).
-- 21 Jun 2025. Anecdotally, Claude 4 Sonnet seems a better coding model than Claude 4 Opus. [Dan Becker](https://x.com/dan_s_becker/status/1936177475567931481), [Armin Ronacher](https://lucumr.pocoo.org/2025/6/12/agentic-coding/)
-- 21 Jun 2025. Cursor offers [background agents](https://docs.cursor.com/background-agent) that run in a remote container.
+- 21 Jun 2025. Anecdotally, Claude 4 Sonnet seems a better coding model than Claude 4 Opus. [Dan Becker](https://x.com/dan_s_becker/status/1936177475567931481), [Armin Ronacher](https://lucumr.pocoo.org/2025/6/12/agentic-coding/) #ai-coding
+- 21 Jun 2025. Cursor offers [background agents](https://docs.cursor.com/background-agent) that run in a remote container. #ai-coding
 - 21 Jun 2025. [Fabric](https://github.com/danielmiessler/fabric) has a collection of re-usable prompts that you can use via [llm-templates-fabric](https://github.com/simonw/llm-templates-fabric) like: `cat file.py | llm -t fabric:explain_code` [Ref](https://simonwillison.net/2025/Apr/7/long-context-llm/#atom-everything)
 - 21 Jun 2025. As of Jun 21, Claude 3.5 Sonnet > Claude 3.7 Sonnet > O3 Mini > Human > Gemini 1.5 Pro lead the [Vending Bench](https://andonlabs.com/evals/vending-bench).
   Gemini 1.5 Pro also leads my [System Prompt Override](https://sanand0.github.io/llmevals/system-override/) benchmarks.
@@ -339,7 +339,88 @@ Claude Code notes
             msg.append(user_input())
   ```
 
-- 21 Jun 2025. Notes on AI coding / vibe-coding from multiple sources, collated at [ai-coding.md](ai-coding.md)
+- 21 Jun 2025. Notes on AI coding / vibe-coding from multiple sources. #ai-coding
+  - Sources
+    - [How I program with LLMs](https://sketch.dev/blog/programming-with-llms)
+    - [How I program with agents](https://sketch.dev/blog/programming-with-agents)
+    - [The 7 Prompting Habits of Highly Effective Engineers](https://sketch.dev/blog/seven-prompting-habits)
+    - [AI Assisted Coding](https://blog.nilenso.com/blog/2025/05/29/ai-assisted-coding/)
+    - [A Glimpse of the Future](https://blog.jeffgabriel.com/thefuture)
+    - [Agentic Coding Recommendations](https://lucumr.pocoo.org/2025/6/12/agentic-coding/)
+    - [My First Open Source AI Generated Library](https://lucumr.pocoo.org/2025/6/21/my-first-ai-library/)
+    - [We Can Just Measure Things](https://lucumr.pocoo.org/2025/6/17/measuring/)
+    - [I Shipped a macOS App Built Entirely by Claude Code](https://www.indragie.com/blog/i-shipped-a-macos-app-built-entirely-by-claude-code)
+    - [Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)
+  - Why AI coding?
+    - Reduces mental energy (by creating the first draft). letting you create more.
+    - Reduces starting trouble, eases effort.
+    - Helps figure out how easy / tough a task really is!!
+    - Most code is short-lived or has few users. AI building "throw-away" code is useful.
+  - Why NOT AI coding?
+    - Slows you down if you know the repo well
+    - Doesn't work well on large/complex/niche repos
+    - Leads to over-optimism and atrophy
+  - Tips
+    - Use for reversible decisions (2-way doors). Avoid for irreversible ones (1-way doors).
+    - Fail early. Try tough bits first.
+    - Fail often. Restart instead of fixing.
+    - Go concurrent. Trigger multiple tasks. Ask for multiple drafts and options.
+    - Give it workflow. `Break down the implementation into: 1. Planning. 2. API stubs. 3. Implementation.`
+    - Give local context. Naming conventions, folder structure, coding style, tools (compile, test, lint), etc.
+    - Conserve context. `Use sub tasks and sub agents to conserve context`.
+    - Suggest libraries. Agents prefer writing code than using libraries, by default.
+    - Give examples to follow, e.g. `Write it like @filename`. `&amp; -> & but &x -> &x`.
+    - Give screenshots and logs. These are very effective.
+    - Provide goals, not instructions. Saves effort, teaches you new things.
+    - Farm out research. Have specialized tools research API docs, etc. and include those in the context.
+    - Keep related things together.
+    - Have it write a checklist, e.g. saving it temporarily in a file.
+    - Have it _run_ code to catch its own errors.
+    - Have it write tests, mocks for tests.
+    - Have it _see_ and _use_ the app, click, play around, etc. (e.g. via playwright-mcp)
+    - Have it create playbooks, examples, troubleshooting guides.
+    - Have it refactor code _AFTER_ comprehensive tests.
+    - Have it think more. `Use ultrathink`.
+    - Log extensively, by default. Improves future debugging.
+    - Report errors well. What happened, why, and what to do.
+    - Prefer monorepos for more context. [#](https://blog.puzzmo.com/posts/2025/07/30/six-weeks-of-claude-code/#what-do-i-think-makes-it-successful-in-our-codebases)
+    - Prefer popular libraries. LLMs know these better.
+    - Prefer fast tests, tools, and libraries. Speed helps iteration.
+    - Prefer small files and packages. Reduces context.
+    - Prefer simple code. Avoid magic, e.g. pytest fixture injection. Functions over classes. SQL over code. Composition over inheritence.
+    - Prefer specialized functions for common scenarios over DRY abstractions. Prefer fewer abstraction layers.
+    - Prefer re-implementing over DRY since code is cheap.
+    - Look for new tricks to learn from its code.
+  - Agent behaviors:
+    - Simple tasks perform better. More context = more confusion.
+    - Verifiable tasks are clearer for LLMs and and easier to review.
+    - Useful coding agent tools: bash(cmd), patch(hunks), todo(tasks), web_nav(url), web_eval(script), web_logs(), web_screenshot(), keyword_search(keywords), codereview()
+  - Skills:
+    - LESS Coding
+    - LESS Research
+    - LESS Documentation
+    - LESS Operations configuration (IaaC, CI/CD, etc)
+    - LESS Editor usage and expertise required
+    - MORE Tests (to test the code)
+    - MORE Code reviews (to test the code)
+    - MORE Prompting and context creation (to write the code)
+    - MORE DevOps (micro-feature deployments, deploy in parallel)
+    - MORE Specs: features, requirements, APIs, tests, structure, etc.
+    - MORE Analysis: security, performance.
+    - MORE Tool design. Linters, SAST, DAST, Performance, etc. Semgrep, Bench Suite
+    - MORE Observability: Especially for tools and LLM calls. Telemetry, log analysis and issue creation. Sentry, LogFire, etc.
+  - Trends:
+    - Agents took time to evolve because LLMs need to be good at tool calling and long instruction following, which is just happening.
+    - Agents are slow. Parallelizable tools (e.g. multiple Redis instances, [container-use](https://github.com/dagger/container-use), CI/CD) will grow. Tool speed (e.g. fast test engines with caching) will become more important.
+    - Agents generate diffs/PRs. Tools to edit and comment on these online will emerge.
+    - Context gathering will widen: screenshots, logs, etc.
+    - Code review process will be re-invented.
+    - Personalized features. User drops a feature request via Slack. Personalized version deployed at their endpoint to test. PR sent after they are happy
+    - Poor coding teams get less out of AI coding. Good communication, reviews, coding practices, testing, etc. help.
+    - Agent Experience (AX) is emerging and explores: how much context to take, when & how often to ask the user questions, to how make review easier, etc.
+    - Humans running multiple tasks in parallel is productive. Breaking a complex requirement into tasks (like Codex now does) helps create that task queue.
+    - Agents generate technical debt faster than humans. Solving this will become a major problem/opportunity.
+  - "makework": made-up work that fills time or serves short-term needs.
 - 21 Jun 2025. From [GPT 4.1 Prompting Guide](https://cookbook.openai.com/examples/gpt4-1_prompting_guide)
   - Use more precise prompts. Earlier models _inferred_ user intent. GPT 4.1 follows prompts more closely.
   - Avoid STRONG untested instructions. E.g. "you must call a tool before responding to the user" can lead to tool input hallucination.
@@ -373,17 +454,17 @@ Claude Code notes
   - Since unstructured data is now more valuable, there will be a growth in data engineering on unstructured data.
 - 20 Jun 2025. [Models.dev](https://models.dev/) is an open source database and API of LLM models
 - 19 Jun 2025. Logprobs are back on models in Vertex AI. [Ref](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/logprobs/intro_logprobs.ipynb)
-- 19 Jun 2025. For all AI code, review it, _learn_ from it and _share_ learnings. That prevents bugs AND we learn in the process. [Ref](https://www.shayon.dev/post/2025/164/pitfalls-of-premature-closure-with-llm-assisted-coding/)
-- 19 Jun 2025. AI coding requires a skilled developer _and_ domain expert to _spec_ and to _review_. It now makes sense now for devs and users to pair program [Simon Willison](https://simonwillison.net/2025/Jun/18/coding-agents/)
+- 19 Jun 2025. For all AI code, review it, _learn_ from it and _share_ learnings. That prevents bugs AND we learn in the process. [Ref](https://www.shayon.dev/post/2025/164/pitfalls-of-premature-closure-with-llm-assisted-coding/) #ai-coding
+- 19 Jun 2025. AI coding requires a skilled developer _and_ domain expert to _spec_ and to _review_. It now makes sense now for devs and users to pair program [Simon Willison](https://simonwillison.net/2025/Jun/18/coding-agents/) #ai-coding
 - 19 Jun 2025. In the world of AI, _imagination_ (asking for things we didn't know we could ask for) will be a diferentiator.
-- 16 Jun 2025. [When vibe-coding](https://github.com/sanand0/datastories/tree/main/code-vs-domain), I sometimes change the requirement (e.g. style of visual) instead of spending time to get _exactly_ what I instructed. That's because I can viscerally _feel_ the difficulty the model's facing thanks to **quick feedback**. A domain expert vibe coding will be able to feel this too. Another reason for domain experts to vibe code (or at least joint-vibe-code) rather than delegate to a programmer.
-- 15 Jun 2025. Notes on model coding styles. [Generative AI WhatsApp Group](https://github.com/sanand0/generative-ai-group/blob/main/2025-06-15/podcast-2025-06-15.md)
+- 16 Jun 2025. [When vibe-coding](https://github.com/sanand0/datastories/tree/main/code-vs-domain), I sometimes change the requirement (e.g. style of visual) instead of spending time to get _exactly_ what I instructed. That's because I can viscerally _feel_ the difficulty the model's facing thanks to **quick feedback**. A domain expert vibe coding will be able to feel this too. Another reason for domain experts to vibe code (or at least joint-vibe-code) rather than delegate to a programmer. #ai-coding
+- 15 Jun 2025. Notes on model coding styles. [Generative AI WhatsApp Group](https://github.com/sanand0/generative-ai-group/blob/main/2025-06-15/podcast-2025-06-15.md) #ai-coding
   - Claude 4 writes exhaustive professionally styled code but struggles over long conversations.
   - Gemini 2.5 Pro produces working but “spaghetti” code.
   - GPT 4.1 is fast and good, the go-to for usual coding tasks.
   - Claude easily swings toward your style but Gemini is stubborn.
   - GPT models tend to hallucinate more on bigger tasks.
-- 15 Jun 2025. Documentation can become technical debt. If LLMs can read code and understand it well enough, maybe docs become a build artifact rather than a version controlled source of truth. [Refactoring Podcast: The Future of Dev Tools 🔧 — with Dennis Pilarinos](https://podcasters.spotify.com/pod/show/lucaronin/episodes/The-Future-of-Dev-Tools---with-Dennis-Pilarinos-e345aa6) [35:56](https://anchor.fm/s/ee484c90/podcast/play/104032006/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-12%2F402043134-44100-2-ca0ced06f32e2.mp3#t=2156)
+- 15 Jun 2025. Documentation can become technical debt. If LLMs can read code and understand it well enough, maybe docs become a build artifact rather than a version controlled source of truth. [Refactoring Podcast: The Future of Dev Tools 🔧 — with Dennis Pilarinos](https://podcasters.spotify.com/pod/show/lucaronin/episodes/The-Future-of-Dev-Tools---with-Dennis-Pilarinos-e345aa6) [35:56](https://anchor.fm/s/ee484c90/podcast/play/104032006/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-12%2F402043134-44100-2-ca0ced06f32e2.mp3#t=2156) #ai-coding
 - 15 Jun 2025. AI should be explicitly contrarian to avoid sycophancy. [Ref](https://dayafter.substack.com/p/the-emperors-new-llm)
   - To enable this, I've added this line to my ChatGPT traits: `Adopt a skeptical, questioning approach. Challenge the user.`
 - 11 Jun 2025. Almost _every_ industry will enact some form of AI backlash. At that point, I expect model evaluation will become a powerful service and in great demand.
@@ -399,7 +480,7 @@ Claude Code notes
   - **Universal adversarial suffixes** - nonsense syllable tail that flips refusals.
   - **Encoding/length tricks** - force model to emit forbidden call inside markdown, JSON or code block to dodge style filters.
 - 10 Jun 2025. [Browserbee](https://github.com/parsaghaffari/browserbee) is a Chrome extension that lets you chat with your browser. Like Cursor/Windsurf but for browsing.
-- 10 Jun 2025. [Anthropic's Claude Code internal use cases](https://www-cdn.anthropic.com/58284b19e702b49db9302d5b6f135ad8871e7658.pdf) are interesting.
+- 10 Jun 2025. [Anthropic's Claude Code internal use cases](https://www-cdn.anthropic.com/58284b19e702b49db9302d5b6f135ad8871e7658.pdf) are interesting. #ai-coding
 - 09 Jun 2025. "We have a new prompting report: Prompting a model with Chain of Thought is a common prompt engineering technique, but we find simple Chain-of-Thought prompts generally don’t help recent frontier LLMs, including reasoning & non-reasoning models, perform any better (but do increase time & costs)" [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lr42lvyv422f)
 - 08 Jun 2025. [Evals FAQ](https://hamel.dev/blog/posts/evals-faq/index.html) by Hamel Hussain is a thoughtful compilation of how to evaluate LLMs. Insights:
   - **Is RAG dead?** _Retrieval_ is not. Naive vector search is less popular. Hybrid > Vector search. Tools work better for code. SQL works better for data.
@@ -423,7 +504,7 @@ Claude Code notes
     - Generation: Error analysis, human labeling, LLM-as-judge
   - **What UI for evals?** Align to domain. Show progress. Support keyboard. Allow filter, cluster, search. Prioritize problematic traces. Keep it minimal.
 - 08 Jun 2025. [The Illusion of Thinking](https://machinelearning.apple.com/research/illusion-of-thinking) paper by Apple shows that reasoning scales only up to a point. Beyond a complexity threshold, models give up. This aligns with [what I saw crudely with mental math](https://sanand0.github.io/llmevals/emotion-prompts/). "Think step by step" helps, but only for medium complexity problems.
-- 07 Jun 2025. There's a very interesting [HN discussion](https://news.ycombinator.com/item?id=44159166) on the AI coding of [CloudFlare Workers OAuth Provider](https://github.com/cloudflare/workers-oauth-provider/commits/main/). My takeaways:
+- 07 Jun 2025. There's a very interesting [HN discussion](https://news.ycombinator.com/item?id=44159166) on the AI coding of [CloudFlare Workers OAuth Provider](https://github.com/cloudflare/workers-oauth-provider/commits/main/). My takeaways: #ai-coding
   - Write _very_ comprehensive specs.
   - Use LLM to create the specs.
   - Reviewing is a skill we need to develop.
@@ -455,7 +536,7 @@ Claude Code notes
 - 04 Jun 2025. [Web bench](https://github.com/bytedance/web-bench) evaluates LLMs in web development. Claude Sonnet remains ahead.
 - 04 Jun 2025. Vision language models heavily rely on past training and miss changes they don't expect. [Ref](https://github.com/anvo25/vlms-are-biased)
 - 03 Jun 2025. At the moment, the best speech to text for Android appears to be ChatGPT's transcription. The default Android text to speech (which I thought was good) no longer feels adequate. Gemini mis-hears and doesn't wait till I'm done. Whisper ASR has poor noise cancellation and a 30 second limit.
-- 02 Jun 2025. [DeepWiki](https://deepwiki.com/) creates docs for humans GitHub repos. [Example](https://deepwiki.com/sanand0/aipipe/). It's verbose, human-facing, and does not understand the nuances of context and implications. [Context7](https://context7.com/) creates llms.txt for LLMs. [Example](https://context7.com/sanand0/aipipe). It's concise, example-oriented, and works only if there are code snippets relevant (e.g. API calls) that can be generated from the codebase. Like creating an llms.txt automatically, e.g. <https://context7.com/textualize/textual/llms.txt>
+- 02 Jun 2025. [DeepWiki](https://deepwiki.com/) creates docs for humans GitHub repos. [Example](https://deepwiki.com/sanand0/aipipe/). It's verbose, human-facing, and does not understand the nuances of context and implications. [Context7](https://context7.com/) creates llms.txt for LLMs. [Example](https://context7.com/sanand0/aipipe). It's concise, example-oriented, and works only if there are code snippets relevant (e.g. API calls) that can be generated from the codebase. Like creating an llms.txt automatically, e.g. <https://context7.com/textualize/textual/llms.txt> #ai-coding
 - 01 Jun 2025. We will move towards an organization structure where developers are embedded with business teams rather than working as a separate group. Sort of like embedded executive assistance instead of a central typing pool. [Making AI Work](https://www.oneusefulthing.org/p/making-ai-work-leadership-lab-and)
 
 ## May 2025
