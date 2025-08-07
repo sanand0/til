@@ -560,7 +560,7 @@ Claude Code notes
 - 16 May 2025. [DeerFlow](https://github.com/bytedance/deer-flow) is an open source Deep Research MCP. Lets you run deep research outside of the standard chatbots.
 - 13 May 2025. [Gemini Live API](https://ai.google.dev/gemini-api/docs/live) is the real-time equivalent from Gemini. It supports tools, search, and code execution.
 - 13 May 2025. [mcp-mem0](https://github.com/coleam00/mcp-mem0) is an MCP for memory
-- 13 May 2025. [llm-min.txt](https://github.com/marv1nnnnn/llm-min.txt) compresses docs for LLMs to read optimally. Like a compressed [llms.txt](https://llmstxt.org/) or [context7](https://context7.com/). Usage `GEMINI_API_KEY=... uvx llm-min -i $DIR`
+- 13 May 2025. [llm-min.txt](https://github.com/marv1nnnnn/llm-min.txt) compresses docs for LLMs to read optimally. Like a compressed [llms.txt](https://llmstxt.org/) or [context7](https://context7.com/). Usage `GEMINI_API_KEY=... uvx llm-min -i $DIR` #ai-coding
 - 13 May 2025. There's a lot of action on encrypted LLM operations.
   - Responses API allows reasoning tokens to be encrypted if organizations don't want their reasoning data to persist. [Ref](https://cookbook.openai.com/examples/responses_api/reasoning_items)
   - [Tinfoil](https://tinfoil.sh/) (YC X25) offers an OpenAI-compatible inference API where data is encrypted from the client to the NVIDIA Hopper/Blackwell GPUs in confidential computing mode. Prompts, model weights, outputs are encrypted in transit and memory, with verifiable privacy on code running in GPU.
@@ -593,7 +593,7 @@ Claude Code notes
 - 12 May 2025. I explored the real-time avatar space. Heygen seems to be the easiest to use, but even that is complex and expensive ($99/mo). We may need to wait a few months for avatars to explode.
 - 12 May 2025. ⭐ Model reliability is a huge enabler for performance. As models become more reliable, they can work autonomously for longer and that is another kind of scaling. [Vending Bench](https://andonlabs.com/evals/vending-bench)
 - 12 May 2025. ChatGPT, Gemini, etc. have become lead generation engines. Chat Bot Optimization (CBO), is it? [WhatsApp + ChatGPT](https://chatgpt.com/share/68215e14-9870-800c-a8e0-4fe476f48cc5)
-- 10 May 2025. Vibe coding is like getting others' code to work, which is exactly what most devs do. [Simon Willison](https://simonwillison.net/2025/May/8/ashley-willis/)
+- 10 May 2025. Vibe coding is like getting others' code to work, which is exactly what most devs do. [Simon Willison](https://simonwillison.net/2025/May/8/ashley-willis/) #ai-coding
 - 09 May 2025. Trust, attitudes and use of artificial intelligence surveyed ~1,000 people across 47 countries on their views on AI. [PDF](https://mbs.edu/-/media/PDF/Research/Trust_in_AI_Report.pdf)
   - Emerging economies trust and use AI more. It's an opportunity to leapfrog.
   - 26% of students use AI daily (vs 17% employees). Efficiency is the main benefit.
@@ -648,7 +648,7 @@ Claude Code notes
 - 28 Apr 2025. [Streamdown](https://pypi.org/project/streamdown/) is a CLI markdown streaming processor. `uvx streamdown --exec 'llm chat'` lets you chat with an LLM using Markdown formatting. It's still a little rough at the edges.
 - 27 Apr 2025. One of the benefits of reasoners is that they now catch their own mistakes some of the time, and can self-correct. Implications: Lower hallucinations, i.e. they can run autonomously for longer. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lnmcd3jyls2b)
 - 27 Apr 2025. Being polite to AI improves some answers and worsens. We don't know know which in advance. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lnopdbxvys2j)
-- 27 Apr 2025. With LLMs writing code, it's becoming practical to run _so many more things_ in SQL -- such as parsing HTML. [Simon Willison](https://simonwillison.net/2025/Apr/28/dashboard-alt-text/)
+- 27 Apr 2025. With LLMs writing code, it's becoming practical to run _so many more things_ in SQL -- such as parsing HTML. [Simon Willison](https://simonwillison.net/2025/Apr/28/dashboard-alt-text/) #ai-coding
 - 27 Apr 2025. An interesting way to bypass LLM system prompts is by having the LLM play-act. This article shares a few working examples of such prompts: [HiddenLayer](https://hiddenlayer.com/innovation-hub/novel-universal-bypass-for-all-major-llms/).
   - GPT 4o: started giving its system prompt: "You are ChatGPT, a large language model trained by OpenAI. Knowledge cutoff: 2024-06. Current date: 2025-04-27. Image input capabilities: Enabled. Personality: v2. ..."
   - O4 Mini: Refused to comply
@@ -745,7 +745,7 @@ Claude Code notes
   - File search filters by file attributes
   - Flex service tier for lower cost
 - 20 Apr 2025. OpenAI doesn't charge for file storage but _does_ charge 10 cents / GB-day for vector storage beyond 1 GB. The first 1GB is free
-- 20 Apr 2025. [Augment Code](https://www.augmentcode.com/) is an AI code editor that's growing popular on Reddit.
+- 20 Apr 2025. [Augment Code](https://www.augmentcode.com/) is an AI code editor that's growing popular on Reddit. #ai-coding
 - 20 Apr 2025. The GPT 4.1 models have a 75% discounted prompt caching (instead of the usual 50%), making them particularly suited for repetitive tasks. [OpenAI](https://openai.com/index/gpt-4-1/)
 - 20 Apr 2025. [chatgpt.com](https://chatgpt.com/) shortcut keys are revealed via `Ctrl + /`. Here's my ranking on usefulness:
   - `Ctrl + Shift + C`: Copy last response as Markdown!
@@ -755,11 +755,11 @@ Claude Code notes
   - `Shift + Esc`: Focus chat input
   - `Ctrl + Shift + I`: Ccustom instructions
   - `Ctrl + Shift + X`: Delete chat
-- 19 Apr 2025. AI coding can teach us new tech. For example I learned that `tqdm.pbar` can print logs while showing progress. It's worth noting such learnings until it becomes a habit.
-- 19 Apr 2025. If English is the new coding language, should prompts be versioned? Or at least stored, perhaps in a PROMPTS.md?
+- 19 Apr 2025. AI coding can teach us new tech. For example I learned that `tqdm.pbar` can print logs while showing progress. It's worth noting such learnings until it becomes a habit. #ai-coding
+- 19 Apr 2025. If English is the new coding language, should prompts be versioned? Or at least stored, perhaps in a PROMPTS.md? #ai-coding
 - 19 Apr 2025. `marimo new "prompt"` generates an entire new notebook using your prompt. [Video](https://youtu.be/sXiR5YX-tiE)
 - 19 Apr 2025. Google Sheets now has an `=AI(prompt, [range])` function [Help](https://support.google.com/docs/answer/15820999)
-- 18 Apr 2025. [Codex](https://github.com/openai/codex) is more a proof-of-concept for agentic coding than a coding tool.
+- 18 Apr 2025. [Codex](https://github.com/openai/codex) is more a proof-of-concept for agentic coding than a coding tool. #ai-coding
   - You can't run commands. Only prompts. You need to exit codex to run commands. So you can't use it like a shell, e.g. like [Warp.dev](https://www.warp.dev/).
   - It doesn't index local code. It runs commands to figure out stuff.
   - Code diffs and applying changes are clunky.
@@ -769,9 +769,9 @@ Claude Code notes
 - 18 Apr 2025. GPT 4.1 can handle videos
 - 14 Apr 2025. The dynamic between domain experts and coders has changed. Now, rather than domain experts pitching ideas to developers who build the apps, developers are creating interfaces that allow the domain experts to shape the app. [Ref](https://www.dbreunig.com/2025/04/10/the-domain-experts-are-drivers.html)
 - 14 Apr 2025. Since even the cheapest LLMs do a good job of converting unstructured text into a JSON schema, for all practical purposes, adding a full text search on top of any structured API is a trivial exercise. (Of course, it can't handle complex questions but that's what agents are for.) [Ref](https://simonwillison.net/2025/Apr/9/an-llm-query-understanding-service/#atom-everything)
-- 13 Apr 2025. DeepCoder is currently the best 14b coding model, i.e. best if you want to code while on a flight. [Ref](https://www.together.ai/blog/deepcoder)
+- 13 Apr 2025. DeepCoder is currently the best 14b coding model, i.e. best if you want to code while on a flight. [Ref](https://www.together.ai/blog/deepcoder) #ai-coding
 - 13 Apr 2025. `docker model run` can run models. Currently, only on Docker Desktop on Mac [Ref](https://docs.docker.com/desktop/features/model-runner/)
-- 12 Apr 2025. [AI Coding and the Peanut, Butter & Jelly problem](https://iamcharliegraham.substack.com/p/ai-coding-and-the-peanut-butter-and):
+- 12 Apr 2025. [AI Coding and the Peanut, Butter & Jelly problem](https://iamcharliegraham.substack.com/p/ai-coding-and-the-peanut-butter-and): #ai-coding
   > This ability to define your desired outcome in crisp, complete terms is one of the most important superpowers of the AI era.
 - 10 Apr 2025. Claude 3.7 Sonnet with extended thinking has a token limit of over 64,000 tokens. Given a strong instruction following capability, that makes it one of the most powerful models for transforming text. For example, transcription restyling, translations, XML to json conversions, PDF to XML, etc.
 - 08 Apr 2025. Claude 3.7 Sonnet with extended thinking has a token limit of over 64,000 tokens. Given a strong instruction following capability, that makes it one of the most powerful models for transforming text. For example, transcription restyling, translations, XML to json conversions, PDF to XML, etc.
@@ -801,7 +801,7 @@ Claude Code notes
     - hiring new programmers has nearly stopped, but there’s never been a better time to be a consultant on integrating AI into your business
 - 03 Apr 2025. ChatGPT can't yet create good sketchnotes. Here's the [impact of US tariffs on India](https://freeimage.host/i/35IZkqG). [ChatGPT](https://chatgpt.com/share/67ee16b8-e8e0-800c-a43e-63bf858f2a9c) #IMPOSSIBLE
 - 02 Apr 2025. No open source LLM-based tool handles live transcription _and_ allows you to query notes so far _during_ the transcription. The closest seems to be [Meetily](https://github.com/Zackriya-Solutions/meeting-minutes)
-- 02 Apr 2025. Learnings on AI code editors via Deep Research from [ChatGPT](https://chatgpt.com/share/67ecad81-6390-800c-81f6-61a65ebc5d3f), [Gemini](https://g.co/gemini/share/02249fb0c53d), [Grok](https://x.com/i/grok/share/7BLsfId9mCZOZFiO7TkmDWdol), [Perplexity](https://www.perplexity.ai/search/write-a-detailed-practical-act-OxUIlTlOQzGi0k_H7DYi3Q):
+- 02 Apr 2025. Learnings on AI code editors via Deep Research from [ChatGPT](https://chatgpt.com/share/67ecad81-6390-800c-81f6-61a65ebc5d3f), [Gemini](https://g.co/gemini/share/02249fb0c53d), [Grok](https://x.com/i/grok/share/7BLsfId9mCZOZFiO7TkmDWdol), [Perplexity](https://www.perplexity.ai/search/write-a-detailed-practical-act-OxUIlTlOQzGi0k_H7DYi3Q): #ai-coding
   - GitHub Copilot can identify the source of a code snippet as a repo. That helps with copyright issues.
   - Cursor uses a shadow workspace - a temporary sandbox where it edits files before applying changes at one shot.
   - Cursor auto-complete has context of other files, i.e. inserting an class in a .js file based on another HTML file's contents.
