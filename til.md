@@ -2,6 +2,7 @@
 
 ## Aug 2025
 
+- 08 Aug 2025. CommonMark has a _powerful_ [directive syntax](https://talk.commonmark.org/t/generic-directives-plugins-syntax/444) proposal that lets you add classes, attributes, and arbitrary plugins to Markdown. For example, `:abbr[MD]{#id .class title="Markdown"}` for inline directives. Plugins exist for [marked](https://www.npmjs.com/package/marked-directive), [markdown-it](http://npmjs.com/package/markdown-it-directive) and [remark](https://github.com/remarkjs/remark-directive).
 - 08 Aug 2025. [biomejs](https://biomejs.dev/) and [dprint](https://dprint.dev/) are gaining traction as [prettier](https://prettier.io/) alternatives. I'm yet to try them but keen to explore.
 - 05 Aug 2025. [defuddle](https://github.com/kepano/defuddle) can be used in the browser to get the main content from web pages. A replacement for Mozilla Readability. [#](https://stephango.com/defuddle)
 - 05 Aug 2025. [Modern Node.js Patterns for 2025](https://kashw1n.com/blog/nodejs-2025/) include these 5 features I'm excited by:
