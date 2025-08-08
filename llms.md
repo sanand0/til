@@ -2,6 +2,7 @@
 
 ## Aug 2025
 
+- 08 Aug 2025. ⭐ Code generation is more flexible than tool calling. LLMs can't write a tool-call loop, for example, but they can write code to run an API in a loop. So, I like telling the LLM to "write code using these APIs" than giving it APIs to tool-call. #ai-coding
 - 06 Aug 2025. `npx -y ccusage` is an easy way of summarizing your [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) usage and cost. My cost so far (since 21 July) is about $10. The median session cost is ~50 cents. Most of it ($7) was from a single temporary coding chat that I kept continuing for way too long, building up the context window. [#](https://github.com/ryoppippi/ccusage)
 - 05 Aug 2025. It's interesting that Gemini Deep Research cannot access Google Drive while Gemini can. On the other hand, ChatGPT Deep Research can access Google Drive but ChatGPT cannot.
 - 05 Aug 2025. A trend that AI coding will only accelerate: "It is now possible for tiny teams to make principled software that millions of people use, unburdened by investors. ... you need far less money and far fewer employees to reach far more customers. That wave is only just beginning." [#](https://stephango.com/vcware) #ai-coding
