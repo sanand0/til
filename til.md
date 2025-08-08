@@ -2,6 +2,7 @@
 
 ## Aug 2025
 
+- 08 Aug 2025. [biomejs](https://biomejs.dev/) and [dprint](https://dprint.dev/) are gaining traction as [prettier](https://prettier.io/) alternatives. I'm yet to try them but keen to explore.
 - 05 Aug 2025. [defuddle](https://github.com/kepano/defuddle) can be used in the browser to get the main content from web pages. A replacement for Mozilla Readability. [#](https://stephango.com/defuddle)
 - 05 Aug 2025. [Modern Node.js Patterns for 2025](https://kashw1n.com/blog/nodejs-2025/) include these 5 features I'm excited by:
   - **Single-executable bundling**. `node --experimental-sea-config sea-config.json` builds standalone binaries.
