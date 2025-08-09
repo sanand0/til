@@ -2,6 +2,7 @@
 
 ## Aug 2025
 
+- 09 Aug 2025. OpenAI supports a tool `"type": "custom"` that lets it write code as an argument to a tool call. Great for code / SQL generation. Even more powerfully, you can generate output following specific grammars, e.g. PostgreSQL dialect, regular expressions, etc. [#](https://cookbook.openai.com/examples/gpt-5/gpt-5_new_params_and_tools)
 - 08 Aug 2025. ⭐ Code generation is more flexible than tool calling. LLMs can't write a tool-call loop, for example, but they can write code to run an API in a loop. So, I like telling the LLM to "write code using these APIs" than giving it APIs to tool-call. #ai-coding
 - 06 Aug 2025. `npx -y ccusage` is an easy way of summarizing your [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) usage and cost. My cost so far (since 21 July) is about $10. The median session cost is ~50 cents. Most of it ($7) was from a single temporary coding chat that I kept continuing for way too long, building up the context window. [#](https://github.com/ryoppippi/ccusage)
 - 05 Aug 2025. It's interesting that Gemini Deep Research cannot access Google Drive while Gemini can. On the other hand, ChatGPT Deep Research can access Google Drive but ChatGPT cannot.
