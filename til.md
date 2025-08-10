@@ -2,6 +2,50 @@
 
 ## Aug 2025
 
+- 11 Aug 2025. Notes from "AISG programmes" by Chen Qeiquang, AI Singapore, [AI Apprentice Programme (AIAP)](https://aiap.sg/apprenticeship/) Assistant Head
+  - Full-time. For SG citizens. $4,000/month. Build 3-6 month MVPs for startups, SMEs, or corporates. 300/1000 delivered so far.
+  - No lectures/tutorials. Focus is: topic assignments, discussion with mentors, apprentice sharing sessions.
+  - Includes an [LLM Application Developer Program](https://aiap.sg/ladp/).
+- 11 Aug 2025. Notes from "Scaffolding the Problem-Solving Process for Introductory Computing Students" by Ashish Dandekar, NUS, at [PyConSG Edu Summit 2025](https://pycon.sg/edusummit.html)
+  - [Built an intelligent tutoring system](https://scholar.google.com/scholar?cluster=5380873998289933948)
+  - Encourage students to create their own pattern banks / cheat sheets. "Find 2 more problems that can be solved in the same way."
+  - Focusing on the problem-solving process **shrinks** the gap. Students _above_ the 50th percentile of pre-assessment did not improve much. The lowest percentile improved the most.
+  - "At NUS, I know that even if I give 0.5% weightage for students attending tutorials, _everyone_ will attend it for those 'free marks'."
+- 11 Aug 2025. Notes from "Exploring Multi-Agent Generative AI in Education and Career Advisory" by Dr Yeo Wee Kiang, NUS, at [PyConSG Edu Summit 2025](https://pycon.sg/edusummit.html)
+  - ⭐ "When you have a high fever, do you speak more sense or nonsense? Nonsense. LLM temperature is like that. But it can also sound creative!"
+  - The router pattern is a powerful query rewriter. Redirects the query to specialized prompts/agents.
+  - Useful tools you can build for students: Course Mentor, Interview Coach, Job planner/matcher.
+- 11 Aug 2025. Notes from "Do we need to teach coding given vibe-coding tools?" by Dr. Oka Kurniawan, SUTD, at [PyConSG Edu Summit 2025](https://pycon.sg/edusummit.html)
+  - Paper: [What the Science of Learning Teaches Us About Arithmetic Fluency](https://journals.sagepub.com/doi/pdf/10.1177/15291006241287726) says mental math helps mathematicians. Fluency bootstraps higher-level thinking.
+  - MIT Media Lab's Project: [Your Brain on ChatGPT](https://www.media.mit.edu/projects/your-brain-on-chatgpt/overview/). Explores impact on brain. Bran-only group had the widest ranging brain networks. AI accumulates **cognitive debt**.
+  - Paper: "A Study of the Difficulties of Novice Programmers" struggle with:
+    1. Syntax
+    2. Problem solving
+    3. Tools
+    4. Computing concepts
+    5. Analytical thinking / debugging
+  - Polya's [How to Solve It](https://en.wikipedia.org/wiki/How_to_Solve_It) is the base problem solving framework for maths and can be adapted to computing
+  - Expert programmers have enough patterns to match against. Novices don't. We need a **bottoms-up framework** instead
+    - Give them a concrete case.
+    - Have them generalize (loops, functional, vectors)
+    - Have them implement (debugging)
+    - Have them break it (test)
+    - All via **vibe-coding**!
+    - The chats are tracked!!
+  - Paper: [First Things First: Providing Metacognitive Scaffolding for Interpreting Problem Prompts](https://researchrepository.ucd.ie/rest/bitstreams/41008/retrieve)
+    - Students often get the problem wrong
+    - Reading student conversations helps figure it out
+    - LLMs can figure it out too!
+  - Paper: [The Widening Gap: The Benefits and Harms of Generative AI for Novice Programmers](https://dl.acm.org/doi/pdf/10.1145/3632620.3671116)
+    - Good coders got better with AI. Were able to ignore unhelpful advice.
+    - Poor coders got **worse**! Thought they performed better than they did. _Increased_ illusion of competence.
+- 11 Aug 2025. The [Bebras Challenge](https://challenge.bebraschallenge.org/) is a global non-programming computational thinking (CT) challenge. [Examples](https://www.bebras.org/task-examples). It tests the _mindset_ behind coding, specifically:
+    - Decomposition
+    - Pattern recognition
+    - Abstraction
+    - Algorithmic thinking
+    - Validation
+  - Singapore runs a [National Junior Informatics Olympiad](https://simcc.org/njio/) that learns from Bebras.
 - 10 Aug 2025. `id3v2`, `mid3v2` and `eyeD3` seem the cleanest way of editing MP3 tags on the CLI. `mid3v2` was already installed on my system.
 - 10 Aug 2025. Learnings people shared in [Ask HN: What trick of the trade took you too long to learn?](https://news.ycombinator.com/item?id=44789068)
   - **Finance & housing**
@@ -70,6 +114,7 @@
 - 08 Aug 2025. [Docsify 4.13.1](https://www.npmjs.com/package/docsify/v/4.13.1) is 2 years old and [uses](https://github.com/docsifyjs/docsify/blob/v4.13.1/package.json#L68) [marked@1.2.9](https://www.npmjs.com/package/marked/v/1.2.9) which is 5 years old. Newer plugins like [marked-directive](https://www.npmjs.com/package/marked-directive) don't work with it. Though [docsify v5.0.0-rc1](https://github.com/docsifyjs/docsify/tree/v5.0.0-rc.1) is in development, it may be the better option for modern Markdown plugins. [Here's sample code](https://github.com/sanand0/smartart/blob/e4c5bb88eba3aa3cd92d6711a9e29935cc36e62f/script.js).
 - 08 Aug 2025. CommonMark has a _powerful_ [directive syntax](https://talk.commonmark.org/t/generic-directives-plugins-syntax/444) proposal that lets you add classes, attributes, and arbitrary plugins to Markdown. For example, `:abbr[MD]{#id .class title="Markdown"}` for inline directives. Plugins exist for [marked](https://www.npmjs.com/package/marked-directive), [markdown-it](http://npmjs.com/package/markdown-it-directive) and [remark](https://github.com/remarkjs/remark-directive).
 - 08 Aug 2025. [biomejs](https://biomejs.dev/) and [dprint](https://dprint.dev/) are gaining traction as [prettier](https://prettier.io/) alternatives. I'm yet to try them but keen to explore.
+  - Skip biomejs for now. It uses tabs (not spaces) and does not respect .gitignore by default. Handling these is too much work.
 - 05 Aug 2025. [defuddle](https://github.com/kepano/defuddle) can be used in the browser to get the main content from web pages. A replacement for Mozilla Readability. [#](https://stephango.com/defuddle)
 - 05 Aug 2025. [Modern Node.js Patterns for 2025](https://kashw1n.com/blog/nodejs-2025/) include these 5 features I'm excited by:
   - **Single-executable bundling**. `node --experimental-sea-config sea-config.json` builds standalone binaries.
