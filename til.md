@@ -2,6 +2,123 @@
 
 ## Aug 2025
 
+- 10 Aug 2025. `id3v2`, `mid3v2` and `eyeD3` seem the cleanest way of editing MP3 tags on the CLI. `mid3v2` was already installed on my system.
+- 10 Aug 2025. Learnings people shared in [Ask HN: What trick of the trade took you too long to learn?](https://news.ycombinator.com/item?id=44789068)
+  - **Finance & housing**
+    - Time is a non-renewable asset.
+    - Lifestyle design matters as much as net worth.
+    - Future-proof against regret. The present matters, too.
+    - Home ownership ties up location choice, capital and has hidden costs.
+    - Market timing & geographic arbitrage has an outsized effect.
+  - **Software**
+    - Align abstraction to domain. Avoid premature abstraction (Don't Repeat Yourself vs Write Everything Twice) and over-abstraction.
+    - Temporary fixes tend to stick. Stop-gap regexes last for years.
+    - Consistency is a quality multiplier. Small inconsistencies cause disproportionate harm.
+    - `git bisect` is a regression-finding superpower.
+    - It's OK to write tests covering key parts of legacy codebases - 100% coverage isn't critical.
+    - Document architectural decisions: _why_ this approach. See [Diátaxis](https://diataxis.fr/).
+    - Flow metrics predict delivery better than (arbitrary) estimates.
+    - Building features without linking to delivery spesd wastes resources.
+  - **Life habits & learning**
+    - You have the right to say "no".
+    - Small, consistent actions beat dramatic changes. Persistence beats skill.
+    - You're allowed to change your mind.
+    - Over-cleverness backfires. Witty code & communication lead to confusion.
+    - Context is king. Without background, everything is mis-interpretable.
+    - Fun leads to excellence. Excellence leads to fun.
+  - The meta-lesson here is how I discovered these:
+    - Run [topicmodel](https://pypi.org/project/topicmodel) to identify topics
+    - Feed the output CSV to ChatGPT and ask it to share lessons topic-by-by-topic [#](https://chatgpt.com/share/68983ff8-7d34-800c-b098-8649162597ce)
+- 10 Aug 2025. Topic modeling can be extended in many ways. [#](https://chatgpt.com/share/68981721-ab80-800c-9ccf-9fc138a92b84)
+  - **Structural Topic Models** factor in metadata, like year (numeric) or category or author (categorical).
+  - **Relational Topic Models** factor in undirected graph relationships, e.g. parent documents
+  - **Graph-Regularized Topic Models** factors in arbitrary graph relationships, e.g. weighted, directed
+  - Neural (GNN + Topic Model) approaches work better for large graphs, long-range dependencies, etc.
+- 10 Aug 2025. Some ways to inject graph structure into topic similarities to, for example, cluster threaded discussions. [#](https://chatgpt.com/share/68981721-ab80-800c-9ccf-9fc138a92b84)
+  - Start with a graph similarity matrix `S`, like [#](https://chatgpt.com/share/68981924-019c-800c-b1f2-1985af81244c)
+    - a regularized graph Laplacian (based on degree - adjacency matrix)
+    - a similarity matrix like `graph2vec` from [Graph Kernel](https://github.com/ysig/GraKeL)
+    - a node-embedding [karateclub](https://github.com/benedekrozemberczki/karateclub).
+  - Option 1: "Smoothen" the embedding matrix multiplying it with `S` (i.e. spread each document towards neighbors), _then_ calculate similarities
+  - Option 2: Take the weighted average of `S` and the embedding similarity matrix
+- 10 Aug 2025. You can extract Hacker News comments as a _threaded_ discussion pasting this into the DevTools console:
+
+  ```javascript
+  (() => {
+    const rows = [...document.querySelectorAll("tr.athing.comtr")];
+    const lines = [];
+
+    for (const row of rows) {
+      const ind = row.querySelector("td.ind");
+      const level = +ind?.getAttribute("indent");
+      const comment = row.querySelector(".commtext");
+      if (!comment) continue; // skip deleted/collapsed with no text
+      // Get readable text, collapse whitespace/newlines. Replace <p> with •
+      let text = comment.innerText
+        .replace(/\n{2,}/g, " • ")
+        .replace(/\s+/g, " ")
+        .trim();
+      if (!text) continue;
+      lines.push(`${"  ".repeat(level)}- ${text}`);
+    }
+
+    copy(lines.join("\n"));
+    console.log(`Copied ${lines.length} comments to clipboard.`);
+  })();
+  ```
+
+- 08 Aug 2025. [Docsify 4.13.1](https://www.npmjs.com/package/docsify/v/4.13.1) is 2 years old and [uses](https://github.com/docsifyjs/docsify/blob/v4.13.1/package.json#L68) [marked@1.2.9](https://www.npmjs.com/package/marked/v/1.2.9) which is 5 years old. Newer plugins like [marked-directive](https://www.npmjs.com/package/marked-directive) don't work with it. Though [docsify v5.0.0-rc1](https://github.com/docsifyjs/docsify/tree/v5.0.0-rc.1) is in development, it may be the better option for modern Markdown plugins. [Here's sample code](https://github.com/sanand0/smartart/blob/e4c5bb88eba3aa3cd92d6711a9e29935cc36e62f/script.js).
+- 08 Aug 2025. CommonMark has a _powerful_ [directive syntax](https://talk.commonmark.org/t/generic-directives-plugins-syntax/444) proposal that lets you add classes, attributes, and arbitrary plugins to Markdown. For example, `:abbr[MD]{#id .class title="Markdown"}` for inline directives. Plugins exist for [marked](https://www.npmjs.com/package/marked-directive), [markdown-it](http://npmjs.com/package/markdown-it-directive) and [remark](https://github.com/remarkjs/remark-directive).
+- 08 Aug 2025. [biomejs](https://biomejs.dev/) and [dprint](https://dprint.dev/) are gaining traction as [prettier](https://prettier.io/) alternatives. I'm yet to try them but keen to explore.
+- 05 Aug 2025. [defuddle](https://github.com/kepano/defuddle) can be used in the browser to get the main content from web pages. A replacement for Mozilla Readability. [#](https://stephango.com/defuddle)
+- 05 Aug 2025. [Modern Node.js Patterns for 2025](https://kashw1n.com/blog/nodejs-2025/) include these 5 features I'm excited by:
+  - **Single-executable bundling**. `node --experimental-sea-config sea-config.json` builds standalone binaries.
+  - **ES Modules**. Use `node:` prefix for built-in imports. `import { createServer } from 'node:http';`
+  - **Watch mode**. Use `node --watch file.js` auto-reloads when `file.js` or dependencies change.
+  - **Env file**. Use `node --env-file=.env` loads `.env` as environment variables.
+  - **`node:test`** is a full-featured test framework with `--watch` and coverage.
+- 05 Aug 2025. Concise explanations speed up decisions because they're faster to read and understand (obvious). They're also easier to combine with other ideas (less obvious). [#](https://stephango.com/concise)
+- 05 Aug 2025. I've been uncertain about [htmx](https://htmx.org/) for some time now. This tutorial, [HTMX is hard, so let's get it right](https://github.com/BookOfCooks/blog/blob/master/htmx-is-hard-so-lets-get-it-right.md), convinced me that it's too far from my mental model, so I'm unlikely to ever use it.
+- 05 Aug 2025. Slow, effortful practice (spaced recall, interleaving topics, self-testing) builds lasting knowledge but looks inefficient and doesn't help with exams. [#](https://chatgpt.com/share/689180c7-03a0-800c-a5d4-5a455429e97f)
+- 05 Aug 2025. [GitDoc VS Code extension](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc) auto-commits and syncs notes. I dropped [gitwatch](https://github.com/gitwatch/gitwatch) in favor of this.
+
+  Here's my earlier `gitwatch` script:
+
+  ```bash
+  sudo apt install inotify-tools
+  git clone https://github.com/gitwatch/gitwatch ~/.local/bin/gitwatch
+  chmod +x ~/.local/bin/gitwatch
+  printf '[Unit]\nDescription=Auto‑push til\n\n[Service]\nExecStart=%%h/.local/bin/gitwatch/gitwatch.sh -s 10 -r origin -b live -m "auto-commit" /home/sanand/code/til-live\nRestart=on-failure\n\n[Install]\nWantedBy=default.target\n' > ~/.config/systemd/user/gitwatch-til.service
+  systemctl --user daemon-reload; systemctl --user enable --now gitwatch-til
+  printf '[Unit]\nDescription=Auto‑push notes\n\n[Service]\nExecStart=%%h/.local/bin/gitwatch/gitwatch.sh -s 10 -r origin -b live -m "auto-commit" /home/sanand/code/notes\nRestart=on-failure\n\n[Install]\nWantedBy=default.target\n' > ~/.config/systemd/user/gitwatch-notes.service
+  systemctl --user daemon-reload; systemctl --user enable --now gitwatch-notes
+  ```
+
+- 04 Aug 2025. Instead of Celery, Redis, Kafka, etc. as task queues, we could the file system as a message queue. For example, `pending/task-01.json` moves to `wip/task-01.json` to `done/task-01.json`. Folders for state/tags, files for task details.
+- 04 Aug 2025. [Foam](https://foambubble.github.io/) is a note-taking VS Code extension. The [WikiLinks](https://foambubble.github.io/foam/user/features/wikilinks), [tags](https://foambubble.github.io/foam/user/features/tags) and [backlinking](https://foambubble.github.io/foam/user/features/backlinking) features align _naturally_ with Markdown note-taking. Via [Steph Ango](https://stephango.com/vault) who uses Obsidian which nudged me to search for WikiLink-ing features in VS Code.
+- 04 Aug 2025. I'm an open data hawk. But here are things I should remind myself of. [#](https://chatgpt.com/c/68901fb2-38b0-8333-9853-7e6c2fdaf97c)
+  - **Privacy incubates creativity**. People self-censor when watched. Privacy shields fragile ideas.
+  - **Power assymetry**. Big players can leverage openness more, e.g. Cambridge Analytics + Facebook data.
+  - **Context matters**. What's harmless in one setting can be toxic in another.
+  - **One-way door**. Data can't be unshared. Don't scrap brakes dreaming of perfect roads. Anticipate tyrannical regimes / cultures.
+  - **Not your call**. You don't share your neighbour's medical records.
+- 04 Aug 2025. [One Punch Man](https://en.wikipedia.org/wiki/One-Punch_Man) is available as [manga](https://onepunchmanmangaa.com/). I watched the anime first and assumed that came first. Apparently not.
+- 04 Aug 2025. In "kind" environment (stable rules, rapid and accurate feedback), specialize. In "wicked" environments (rules shift, feedback is noisy/late), generalize. [ChatGPT](https://chatgpt.com/share/68902bbf-bf58-800c-b6b5-9ae787fa9c26)
+- 03 Aug 2025. "In fact, React Native looks set to become the most engine-agnostic JavaScript runtime around". [The Many, Many, Many, JavaScript Runtimes of the Last Decade](https://buttondown.com/whatever_jamie/archive/the-many-many-many-javascript-runtimes-of-the-last-decade/)
+- 03 Aug 2025. [OMDb](https://www.omdbapi.com/) (simple) and [TMDb](https://www.themoviedb.org/) (comprehensive) are API-friendly alternatives to the IMDb.
+- 03 Aug 2025. [copyparty](https://github.com/9001/copyparty) seems one of the most feature-rich file servers out there. Single Python file, runs on any OS, works with any client, and optimized for speed. [Video](https://youtu.be/15_-hgsX2V0)
+- 03 Aug 2025. Quotes I enjoyed from [Linus Torvalds' TED interview](https://youtu.be/o8NPllzkFhE)
+  - I want to not have external stimulation. You can kind of see, on the walls are this light green. I'm told that at mental institutions they use that on the walls. It's like a calming color. ... the main thing I worry about in my computer is -- it really has to be completely silent. If the cat comes up, it sits in my lap. And I want to hear the cat purring.
+  - I did not start Linux as a collaborative project. I started it as one in a series of many projects I had done at the time for myself, partly because I needed the end result, but even more because I just enjoyed programming.
+  - I'm actually not a people person. But I do love other people who comment and get involved in my project.
+  - The big point for me was not being alone and having 10, maybe 100 people being involved. Going from 100 people to a million people is not a big deal -- to me. Well, I mean, maybe it is if you want to sell your result then it's a huge deal. But if you're interested in the technology and you're interested in the project, the big part was getting the community.
+  - So Git is my second big project, which was only created for me to maintain my first big project. And this is literally how I work.
+  - Well, I do code for fun -- but I want to code for something meaningful so every single project I've ever done has been something I needed.
+  - Apparently, my sister said that my biggest exceptional quality was that I would not let go.
+  - I can't do UI to save my life.
+  - Good taste is about really seeing the big patterns and kind of instinctively knowing what's the right way to do things.
+  - Companies like Google and many others have made, arguably, like, billions of dollars out of your software. Does that piss you off? No. No, it doesn't piss me off for several reasons. And one of them is, I'm doing fine. But the other reason is -- I mean, without doing the whole open source and really letting go thing, Linux would never have been what it is.
+  - I think one reason open source works so well in code (is that ...) Code either works or it doesn't.
 - 03 Aug 2025. The [Uses This](https://usesthis.com/) site has interviewed professionals for decades. From their [repo](https://github.com/waferbaby/usesthis) I scraped the top developer apps post 2020:
 
   ```bash
