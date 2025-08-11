@@ -62,15 +62,16 @@
   - Paper: [The Widening Gap: The Benefits and Harms of Generative AI for Novice Programmers](https://dl.acm.org/doi/pdf/10.1145/3632620.3671116)
     - Good coders got better with AI. Were able to ignore unhelpful advice.
     - Poor coders got **worse**! Thought they performed better than they did. _Increased_ illusion of competence.
-- 11 Aug 2025. The [Bebras Challenge](https://challenge.bebraschallenge.org/) is a global non-programming computational thinking (CT) challenge. [Examples](https://www.bebras.org/task-examples). It tests the _mindset_ behind coding, specifically:
-    - Decomposition
-    - Pattern recognition
-    - Abstraction
-    - Algorithmic thinking
-    - Validation
+- 11 Aug 2025. The [Bebras Challenge](https://challenge.bebraschallenge.org/) is a global non-programming computational thinking (CT) challenge. [Examples](https://www.bebras.org/task-examples). It tests the _mindset_ behind coding, specifically "computational thinking":
+  - Problem formulation (added recently, and is increasingly important)
+  - Decomposition (and composition)
+  - Pattern recognition
+  - Abstraction
+  - Algorithmic thinking
+  - Validation
   - Singapore runs a [National Junior Informatics Olympiad](https://simcc.org/njio/) that learns from Bebras.
 - 11 Aug 2025. [Apple's Embedding Atlas](https://apple.github.io/embedding-atlas/) ([Demo](https://apple.github.io/embedding-atlas/demo/index.html) - slow, needs WebGPU) is an embeddings visualizer, like
-[Tensorflow Projector](https://projector.tensorflow.org/) or [Mantis](https://home.withmantis.com/) ([Demo](https://mantisdev.csail.mit.edu/home/)).
+  [Tensorflow Projector](https://projector.tensorflow.org/) or [Mantis](https://home.withmantis.com/) ([Demo](https://mantisdev.csail.mit.edu/home/)).
 - 10 Aug 2025. `id3v2`, `mid3v2` and `eyeD3` seem the cleanest way of editing MP3 tags on the CLI. `mid3v2` was already installed on my system.
 - 10 Aug 2025. Learnings people shared in [Ask HN: What trick of the trade took you too long to learn?](https://news.ycombinator.com/item?id=44789068)
   - **Finance & housing**
