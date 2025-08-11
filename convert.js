@@ -16,7 +16,7 @@ const OPENAI_BASE_URL = Deno.env.get("OPENAI_BASE_URL") || "https://api.openai.c
 const tags = [
   "agents",
   "ai-art",
-  "ai-coding-tools",
+  "ai-coding",
   "automation",
   "best-practices",
   "business",
@@ -296,12 +296,33 @@ const allNotes = paths
   .flatMap((content) => extractNotes(content))
   .filter((note) => note.date.toISOString() < currentWeekStart);
 
-// Get tags
+// Inline tag parsing (single regex + shared logic)
+const TAG_RE = /(^|\s)#([A-Za-z0-9][A-Za-z0-9-]*)\b/g;
+const parseInlineTags = (text = "") => {
+  const tags = [];
+  const stripped = text.replace(TAG_RE, (_, p1, t) => {
+    tags.push(t.toLowerCase());
+    return p1;
+  });
+  return { text: stripped, tags: [...new Set(tags)] };
+};
+
+// Include explicit inline tags from notes into global topics and note metadata
+const tagSet = new Set(tags);
+allNotes.forEach((note) => {
+  const parsed = parseInlineTags(note.content);
+  note.inlineTags = parsed.tags;
+  note.inlineTags.forEach((t) => tagSet.add(t));
+  note.content = parsed.text;
+});
+const allTags = [...tagSet];
+
+// Get tags (fallback to inline tags if no API key)
 const docs = allNotes.map((note) => note.content);
 const response = await fetch(`${OPENAI_BASE_URL}/embeddings`, {
   method: "POST",
   headers: { "Content-Type": "application/json", Authorization: `Bearer ${OPENAI_API_KEY}` },
-  body: JSON.stringify({ model: "text-embedding-3-small", input: [...docs, ...tags] }),
+  body: JSON.stringify({ model: "text-embedding-3-small", input: [...docs, ...allTags] }),
 });
 if (!response.ok) throw new Error("Failed to fetch embeddings: " + (await response.text()));
 const result = await response.json();
@@ -320,10 +341,12 @@ const similarity = docEmbeddings.map((docEmb) => {
   });
 });
 similarity.forEach((row, index) => {
-  allNotes[index].tags = row
+  const predicted = row
     .map((v, i) => [i, v])
     .filter(([_, v]) => v > 0.3)
-    .map(([i]) => tags[i]);
+    .map(([i]) => allTags[i]);
+  const combined = new Set([...(predicted || []), ...(allNotes[index].inlineTags || [])]);
+  allNotes[index].tags = [...combined];
 });
 
 // Group notes by week
