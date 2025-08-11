@@ -19,7 +19,7 @@
     - Merging: Interleave the code in the blocks
     - Tailoring: Modify the code in the blocks
   - But you need to already have those primitives (patterns) to put together. The "expert blind spot" blinds experts to this.
-  - Ideas:
+  - Actionable ideas:
     1. Teach _patterns_ explicitly
     2. Create exercises on _applying_ them
     3. Use [Parsons problem](https://en.wikipedia.org/wiki/Parsons_problem)s: Fill in the blanks. Re-order lines of code. **But** design problem carefully
@@ -62,14 +62,13 @@
   - Paper: [The Widening Gap: The Benefits and Harms of Generative AI for Novice Programmers](https://dl.acm.org/doi/pdf/10.1145/3632620.3671116)
     - Good coders got better with AI. Were able to ignore unhelpful advice.
     - Poor coders got **worse**! Thought they performed better than they did. _Increased_ illusion of competence.
-- 11 Aug 2025. The [Bebras Challenge](https://challenge.bebraschallenge.org/) is a global non-programming computational thinking (CT) challenge. [Examples](https://www.bebras.org/task-examples). It tests the _mindset_ behind coding, specifically "computational thinking":
+- 11 Aug 2025. The [Bebras Challenge](https://challenge.bebraschallenge.org/) is a global non-programming computational thinking (CT) challenge. [Examples](https://www.bebras.org/task-examples). Singapore runs a [National Junior Informatics Olympiad](https://simcc.org/njio/) that learns from Bebras. It tests the _mindset_ behind coding, specifically "computational thinking":
   - Problem formulation (added recently, and is increasingly important)
-  - Decomposition (and composition)
-  - Pattern recognition
-  - Abstraction
-  - Algorithmic thinking
-  - Validation
-  - Singapore runs a [National Junior Informatics Olympiad](https://simcc.org/njio/) that learns from Bebras.
+  - Decomposition (and composition): break the problem down
+  - Pattern recognition: find the building blocks
+  - Abstraction: generalize useful blocks, drop irrelevant ones
+  - Algorithmic thinking: write the steps to solve
+  - Validation (not part of original list, but critical): how to efficiently check if this works
 - 11 Aug 2025. [Apple's Embedding Atlas](https://apple.github.io/embedding-atlas/) ([Demo](https://apple.github.io/embedding-atlas/demo/index.html) - slow, needs WebGPU) is an embeddings visualizer, like
   [Tensorflow Projector](https://projector.tensorflow.org/) or [Mantis](https://home.withmantis.com/) ([Demo](https://mantisdev.csail.mit.edu/home/)).
 - 10 Aug 2025. `id3v2`, `mid3v2` and `eyeD3` seem the cleanest way of editing MP3 tags on the CLI. `mid3v2` was already installed on my system.
