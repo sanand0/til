@@ -2,6 +2,12 @@
 
 ## Aug 2025
 
+- 11 Aug 2025. The OpenAI Chat Completions API has a few interesting and (relatively) new options:
+  - [`verbosity`](https://platform.openai.com/docs/api-reference/chat/create#chat_create-verbosity). `low`: concise response, `medium`: default, `high`: verbose
+  - [`reasoning_effort`](https://platform.openai.com/docs/api-reference/chat/create#chat_create-reasoning_effort): `minimal`: almost none. `medium`: default. Or `low`, `high`.
+  - [`truncation`](https://platform.openai.com/docs/api-reference/responses/create#responses_create-truncation): `auto`: truncate response by dropping input items in the middle. `disabled`: default
+  - [`prediction`](https://platform.openai.com/docs/api-reference/chat/create#chat_create-prediction): speeds up output for minor corrections to text
+  - [`prompt_cache_key`](https://platform.openai.com/docs/api-reference/chat/create#chat_create-prompt_cache_key): tailors per-user caches
 - 09 Aug 2025. OpenAI supports a tool `"type": "custom"` that lets it write code as an argument to a tool call. Great for code / SQL generation. Even more powerfully, you can generate output following specific grammars, e.g. STL files, PostgreSQL dialect, Mermaid/PlantUML diagrams, OpenAPI specs, Vega-Lite JSONs, Cron expressions, GraphQL SDLs, Dockerfiles, Terraform HCLs, or any DSL! [#](https://cookbook.openai.com/examples/gpt-5/gpt-5_new_params_and_tools) #ai-coding
 - 09 Aug 2025. The OpenAI playground has a [GPT-5 Prompt Optimizer](https://platform.openai.com/chat/edit?models=gpt-5&optimize=true) that can migrate prompts to GPT-5.
 - 08 Aug 2025. ⭐ Code generation is more flexible than tool calling. LLMs can't write a tool-call loop, for example, but they can write code to run an API in a loop. So, I like telling the LLM to "write code using these APIs" than giving it APIs to tool-call. #ai-coding
