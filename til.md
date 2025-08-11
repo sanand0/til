@@ -2,6 +2,29 @@
 
 ## Aug 2025
 
+- 11 Aug 2025. Notes from "Make Learning Easy and Fun @ NLB LearnX" by Goh Soon Seng, NLB, at [PyConSG Edu Summit 2025](https://pycon.sg/edusummit.html)
+  - Libraries have a Pi Python Makers Club, open for all. Bi-monthly meetings. Quarterly Pi Python workshop.
+  - Space provides 3D printers, Raspberry Pi, sensors, etc.
+- 11 Aug 2025. Notes from "Teaching Goals and Plans - How we might help students improve problem-solving" by Dr Norman Lee, SUTD, at [PyConSG Edu Summit 2025](https://pycon.sg/edusummit.html)
+  - Programming is _hard_. E.g. Solving the [Rainfall problem](https://scholar.google.com/scholar?q=Soloway+rainfall+problem) "Sum numbers until 99999" needs _several_ building blocks:
+    - Python syntax
+    - Getting user input
+    - While loop
+    - Controlling while loop with counter
+    - Accumulation
+    - If-else
+  - Merging (or composing) such blocks is the hard part. In [Learning to program = learning to construct mechanisms and explanations](https://scholar.google.com/scholar?cluster=16826723591053220162), Soloway, shares 4 compositions.
+    - Abutment: Put one block _after_ another
+    - Nesting: Put one block _inside_ another
+    - Merging: Interleave the code in the blocks
+    - Tailoring: Modify the code in the blocks
+  - But you need to already have those primitives (patterns) to put together. The "expert blind spot" blinds experts to this.
+  - Ideas:
+    1. Teach _patterns_ explicitly
+    2. Create exercises on _applying_ them
+    3. Use [Parsons problem](https://en.wikipedia.org/wiki/Parsons_problem)s: Fill in the blanks. Re-order lines of code. **But** design problem carefully
+    4. Step through a debugger. **BUT** students must predict next line, not passive watching
+    5. Teach to from one format (psuedocode, flowchart, another language like Excel) to Python. Helps multiple modes of learning
 - 11 Aug 2025. Notes from "AISG programmes" by Chen Qeiquang, AI Singapore, [AI Apprentice Programme (AIAP)](https://aiap.sg/apprenticeship/) Assistant Head
   - Full-time. For SG citizens. $4,000/month. Build 3-6 month MVPs for startups, SMEs, or corporates. 300/1000 delivered so far.
   - No lectures/tutorials. Focus is: topic assignments, discussion with mentors, apprentice sharing sessions.
@@ -46,6 +69,8 @@
     - Algorithmic thinking
     - Validation
   - Singapore runs a [National Junior Informatics Olympiad](https://simcc.org/njio/) that learns from Bebras.
+- 11 Aug 2025. [Apple's Embedding Atlas](https://apple.github.io/embedding-atlas/) ([Demo](https://apple.github.io/embedding-atlas/demo/index.html) - slow, needs WebGPU) is an embeddings visualizer, like
+[Tensorflow Projector](https://projector.tensorflow.org/) or [Mantis](https://home.withmantis.com/) ([Demo](https://mantisdev.csail.mit.edu/home/)).
 - 10 Aug 2025. `id3v2`, `mid3v2` and `eyeD3` seem the cleanest way of editing MP3 tags on the CLI. `mid3v2` was already installed on my system.
 - 10 Aug 2025. Learnings people shared in [Ask HN: What trick of the trade took you too long to learn?](https://news.ycombinator.com/item?id=44789068)
   - **Finance & housing**
