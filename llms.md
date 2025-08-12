@@ -2,6 +2,7 @@
 
 ## Aug 2025
 
+- 12 Aug 2025. Increasing the size of an image improves OCR accuracy for LLM models (or at least Claude 4 Sonnet). Anecdotally, resizing 2x did not work on a number of examples but 2.5x did.
 - 11 Aug 2025. The OpenAI Chat Completions API has a few interesting and (relatively) new options:
   - [`verbosity`](https://platform.openai.com/docs/api-reference/chat/create#chat_create-verbosity). `low`: concise response, `medium`: default, `high`: verbose
   - [`reasoning_effort`](https://platform.openai.com/docs/api-reference/chat/create#chat_create-reasoning_effort): `minimal`: almost none. `medium`: default. Or `low`, `high`.
