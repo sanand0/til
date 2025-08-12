@@ -2,6 +2,34 @@
 
 ## Aug 2025
 
+- 11 Aug 2025. Discussion at [PyConSG Edu Summit 2025](https://pycon.sg/edusummit.html). [Padlet](https://padlet.com/pyconsg/pyconsg-education-summit-2025-topic-how-to-prevent-students--57puwelj2o7rgadd)
+  - [Discussion validation](https://chatgpt.com/share/6899bd13-03e0-800c-8618-971ed7050a1a)
+  - Interesting ways students use AI
+    - Use AI to refactor/debug whole codebases
+    - Get AI to create questions for practice
+    - ChatGPT Study mode
+    - Students like to upload photos. We can teach them to upload these to ChatGPT and ask questions.
+  - What teaching practices / assessment design can help students think for themselves before turning to AI? [ChatGPT](https://chatgpt.com/share/6899bc2c-4678-800c-b133-3653c378e978)
+    - **Interactive orals / micro-vivas (short, process-focused).** Strong alignment with “interactive oral assessment” research and guidance in the AI era: improves authenticity, reduces outsourcing/contract cheating, and checks understanding. Make them low-stakes but frequent.
+      _How_: 5–8 min viva tied to a task; students must explain choices, failures, and next steps.
+    - **Authentic / project-based assessments students can self-validate (observable outputs).** Project-based and “authentic” assessment meta-reviews show consistent positive effects (achievement, thinking skills, motivation), especially in STEM and small teams. Design tasks with _local data/constraints_ so generic LLM answers are only a baseline.
+      _How_: “Default AI answer” gets a pass; “A-grade” requires empirical validation, custom data, or optimisation trade-offs with metrics.
+    - **Pair programming + peer critique on whiteboards/pseudocode.** Evidence (meta-analyses & CS-ed studies) supports pair programming for learning and retention; code tracing/peer instruction deepen understanding before coding.
+      _How_: Rotate driver/navigator; force commit-message style rationales; 10-minute “whiteboard dry-run” before touching IDE.
+    - **Process-over-product with structured reflection.** Metacognitive/reflective interventions show medium-to-large effects on achievement; they also build habits that resist blind acceptance of AI outputs. Keep reflections short but structured.
+      _How_: “What I asked AI; what it missed; how I verified; what I’d change next time.”
+    - **“No-AI under secure conditions” mixed with AI-permitted coursework.** Matches national/institutional guidance for GenAI-aware assessment design. Use secure, time-boxed checks for fundamentals; allow AI elsewhere with audit trails.
+    - **Primary research (interviews/user studies) before design/coding.** Fits the “authentic assessment” literature and reduces LLM substitution. Grade on research protocol + synthesis rigor, not word count.
+    - **Explicit problem-solving frames (initial/current/goal state).** Classic problem-solving scaffolds; improves formulation before querying AI. Pair with short “assumption logs.” (General pedagogy supported; CT depends on domain knowledge—see caveat below.)
+    - **Caveat (important):** _Critical thinking depends on domain knowledge._ Don’t expect generic CT drills to transfer without content mastery. Plan tasks so students must recall/apply _specific_ knowledge before or alongside AI.
+  - How can we train students to use AI critically instead of accepting the output blindly? [ChatGPT](https://chatgpt.com/share/6899bc5e-1800-800c-bfce-25d261c63a09)
+    - **Teach “lateral reading” and SIFT for source checking.** Stanford’s Civic Online Reasoning work and Caulfield’s SIFT method offer actionable heuristics for verifying claims, URLs, and citations that LLMs surface. Build these into rubrics.
+    - **Run “AI auditing” labs (hallucination hunts).** Students collect/label model mistakes, missing assumptions, and fabricated citations—an approach aligned with UNESCO’s call for AI literacy and validation.
+    - **Use online judges with _hidden_ tests + adversarial cases.** Autograding literature supports hidden tests for robust generalization; it trains students to verify and not overfit to visible specs—or to AI’s surface patterns.
+    - **“Sandwich” workflow: spec → implement 1–2 reps → let AI complete → _verify_ rigorously.** Mirrors human-in-the-loop patterns in industry; use checklists for unit/property tests and invariants before accepting AI output.
+    - **Live-coding with an AI assistant _on display_ (to show failure modes).** Demonstrates nondeterminism/limitations in real time; supports critical habits. Pair with a post-mortem template.
+    - **Prompt red-teaming/jailbreak exercises (safe scope).** Students learn that guardrails can be bypassed and why verification matters. Keep it ethical and bounded.
+    - **Build a knowledge base first.** Reinforce that CT sits on content knowledge; teach students to _explain_ why an AI answer is plausible or not, citing domain facts.
 - 11 Aug 2025. Notes from "My Thoughts on Computational Thinking in the Generative AI Era" by [LEONG Hon Wai](https://www.comp.nus.edu.sg/cs/people/leonghw/), ex-NUS, at [PyConSG Edu Summit 2025](https://pycon.sg/edusummit.html)
   - Students from China don't like to write, express their ideas, and share. That's changing now.
   - Computational thinking is pretty new (Jeannette Wing, 2006), actually, based on Papert (1980). It's too early to abandon it.
