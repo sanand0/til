@@ -2,6 +2,19 @@
 
 ## Aug 2025
 
+- 11 Aug 2025. Notes from "My Thoughts on Computational Thinking in the Generative AI Era" by [LEONG Hon Wai](https://www.comp.nus.edu.sg/cs/people/leonghw/), ex-NUS, at [PyConSG Edu Summit 2025](https://pycon.sg/edusummit.html)
+  - Students from China don't like to write, express their ideas, and share. That's changing now.
+  - Computational thinking is pretty new (Jeannette Wing, 2006), actually, based on Papert (1980). It's too early to abandon it.
+  - It enables effective learning attitudes:
+    - Tinker (experiment & play): helps finding diverse problems to generalize into
+    - Debug (find & fix bugs)
+    - Create (design & make)
+    - Persevere (keep going): but only if it's _productive_, i.e failing in _new_ ways
+    - Collaborate & communicate
+  - Teaching this is hard. Get students to _WANT_ to do computational thinking.
+  - Problem formulation (among the computational thinking blocks) is more important than before.
+  - [Leveraging Computational Thinking in the Era of Generative AI](https://cacm.acm.org/blogcacm/leveraging-computational-thinking-in-the-era-of-generative-ai/) argues that computational thinking manifests in prompt/context engineering.
+  - We're moving from "Computational Thinking" to "Computational Action" -- where we're talking to AI coders that actually deploy apps that _DO_ stuff.
 - 11 Aug 2025. Notes from "Make Learning Easy and Fun @ NLB LearnX" by Goh Soon Seng, NLB, at [PyConSG Edu Summit 2025](https://pycon.sg/edusummit.html)
   - Libraries have a Pi Python Makers Club, open for all. Bi-monthly meetings. Quarterly Pi Python workshop.
   - Space provides 3D printers, Raspberry Pi, sensors, etc.
