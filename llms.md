@@ -13,7 +13,7 @@
   - code composition
   - code reviews
 - 12 Aug 2025. Across clients, providers (e.g. Bedrock) and products (e.g. Cursor) I have observed capacity bottlenecks for Claude models which don't seem to affect OpenAI models as much.
-- 12 Aug 2025. Increasing the size of an image improves OCR accuracy for LLM models (or at least Claude 4 Sonnet). Anecdotally, resizing 2x did not work on a number of examples but 2.5x did.
+- 12 Aug 2025. Increasing the size of an image improves OCR accuracy for LLM models (or at least Claude 4 Sonnet). Anecdotally, resizing 2x did not work on a number of examples but 2.5x - 3x did. This increases the cost to 6.25x or 9x, however.
 - 11 Aug 2025. When patching / editing content using LLMs, the [diff-match-patch](https://github.com/google/diff-match-patch) approach seems the best option. It fuzzy matches the diff and _then_ patches it. [ChatGPT](https://chatgpt.com/share/689753f9-7b24-800c-b568-4ff8c7978486)
 - 11 Aug 2025. John Kotter's organizational change model is the accepted practice for top-down change, while ADKAR is for bottom up. It's surprising how obviously effective both are to someone who has effected both kinds of changes, but there is NO WAY I would have appreciated either during my MBA. [Wikipedia: Change management](https://en.wikipedia.org/wiki/Change_management)
 - 11 Aug 2025. The OpenAI Chat Completions API has a few interesting and (relatively) new options:
