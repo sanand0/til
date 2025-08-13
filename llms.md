@@ -2,7 +2,7 @@
 
 ## Aug 2025
 
-- 13 Aug 2025. A Forward Deployed Engineer (FDE) is a hybrid role, part software engineer, part product manager, and part consultant, focused on deeply integrating a company's technology with a specific client's needs.
+- 13 Aug 2025. A Forward Deployed Engineer (FDE) is a hybrid role, part software engineer, part product manager, and part consultant, focused on deeply integrating a company's technology with a specific client's needs. [OpenAI](https://openai.com/careers/forward-deployed-engineer-nyc/)
 - 13 Aug 2025. Based on what I've seen of AI coding, new developers need to learn these skills. #ai-coding
   - context engineering
   - documentation
