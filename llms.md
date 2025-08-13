@@ -3,6 +3,13 @@
 ## Aug 2025
 
 - 13 Aug 2025. [Tavus](https://www.tavus.io/) is another AI avatar platform.
+  - [Synthesia](). Market leader; $2.1B valuation; enterprise trusted. Good: Realism, enterprise features, templating. But: Price, usage caps, slower avatar setup
+  - [HeyGen](). Rapidly growing; $500M valuation. Good: Avatar realism, speed, affordability. But: Basic collaboration, support, scene complexity
+  - [Colossyan](). Favored L&D focus. Good: Interactive & educational tools, good value. But: Less polished avatars, slower renders
+  - [D-ID](). Frequently cited alternative. Good: Speed, flexibility, custom avatars. But: Watermarks, fewer templates
+  - [Elai.io](). Repeats in alternatives lists. Good: Storyboarding, educational formats. But: Limited templates, render time
+  - [Hour One](). Also common in alternative lists. Good: Photoreal avatars, expression control. But: Missing advanced features like screen capture
+  - [Others](). Niche or emerging tools. Good: Varies by platform. But: Less adoption, fewer reviews
 - 13 Aug 2025. Training companies are offering "Labs-as-a-service" as part of their AI training. Corporates ban LLMs, but need employees trained. Trainers offer a bundled package where they also offer access to LLMs are part of their course. Interesting business-model value-add.
 - 13 Aug 2025. I'm meta-AI-coding. I wrote a crude prompt in `prompts.md`, told Codex "prompts.md has a prompt under the "# Improve schema" section starting line 294. This is a prompt that will be passed to Claude Code to implement. Ask me questions as required and improve the prompt so that the results will be in line with my expectations, one-shot." After a few discussions, it generated [this remarkable prompt](https://github.com/sanand0/slidegen/blame/de953817266357b00d80d4fa3e17def02e0de292/prompts.md#L296-L502). This prompt was easy for me to review AND easy for Claude Code to understand because of the lack of inconsistencies.
 - 13 Aug 2025. A Forward Deployed Engineer (FDE) is a hybrid role, part software engineer, part product manager, and part consultant, focused on deeply integrating a company's technology with a specific client's needs.
