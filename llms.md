@@ -2,7 +2,17 @@
 
 ## Aug 2025
 
+- 13 Aug 2025. Based on what I've seen of AI coding, new developers need to learn these skills. #ai-coding
+  - standards
+  - capabilities of platforms
+  - modularity (and DRY vs WET)
+  - code composition
+  - code reviews
+  - automated testing
+  - documentation
+- 12 Aug 2025. Across clients, providers (e.g. Bedrock) and products (e.g. Cursor) I have observed capacity bottlenecks for Claude models which don't seem to affect OpenAI models as much.
 - 12 Aug 2025. Increasing the size of an image improves OCR accuracy for LLM models (or at least Claude 4 Sonnet). Anecdotally, resizing 2x did not work on a number of examples but 2.5x did.
+- 11 Aug 2025. When patching / editing content using LLMs, the [diff-match-patch](https://github.com/google/diff-match-patch) approach seems the best option. It fuzzy matches the diff and _then_ patches it. [ChatGPT](https://chatgpt.com/share/689753f9-7b24-800c-b568-4ff8c7978486)
 - 11 Aug 2025. The OpenAI Chat Completions API has a few interesting and (relatively) new options:
   - [`verbosity`](https://platform.openai.com/docs/api-reference/chat/create#chat_create-verbosity). `low`: concise response, `medium`: default, `high`: verbose
   - [`reasoning_effort`](https://platform.openai.com/docs/api-reference/chat/create#chat_create-reasoning_effort): `minimal`: almost none. `medium`: default. Or `low`, `high`.
