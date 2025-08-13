@@ -2,14 +2,16 @@
 
 ## Aug 2025
 
+- 13 Aug 2025. A Forward Deployed Engineer (FDE) is a hybrid role, part software engineer, part product manager, and part consultant, focused on deeply integrating a company's technology with a specific client's needs.
 - 13 Aug 2025. Based on what I've seen of AI coding, new developers need to learn these skills. #ai-coding
+  - context engineering
+  - documentation
+  - automated testing
   - standards
   - capabilities of platforms
   - modularity (and DRY vs WET)
   - code composition
   - code reviews
-  - automated testing
-  - documentation
 - 12 Aug 2025. Across clients, providers (e.g. Bedrock) and products (e.g. Cursor) I have observed capacity bottlenecks for Claude models which don't seem to affect OpenAI models as much.
 - 12 Aug 2025. Increasing the size of an image improves OCR accuracy for LLM models (or at least Claude 4 Sonnet). Anecdotally, resizing 2x did not work on a number of examples but 2.5x did.
 - 11 Aug 2025. When patching / editing content using LLMs, the [diff-match-patch](https://github.com/google/diff-match-patch) approach seems the best option. It fuzzy matches the diff and _then_ patches it. [ChatGPT](https://chatgpt.com/share/689753f9-7b24-800c-b568-4ff8c7978486)
