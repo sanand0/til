@@ -2,7 +2,7 @@
 
 ## Aug 2025
 
-- 13 Aug 2025. I'm meta-AI-coding. I wrote a crude prompt in `prompts.md`, told Codex "prompts.md has a prompt under the "# Improve schema" section starting line 294. This is a prompt that will be passed to Claude Code to implement. Ask me questions as required and improve the prompt so that the results will be in line with my expectations, one-shot." After a few discussions, it generated [this remarkable prompt](https://github.com/sanand0/slidegen/blame/de953817266357b00d80d4fa3e17def02e0de292/prompts.md#L296-L502)
+- 13 Aug 2025. I'm meta-AI-coding. I wrote a crude prompt in `prompts.md`, told Codex "prompts.md has a prompt under the "# Improve schema" section starting line 294. This is a prompt that will be passed to Claude Code to implement. Ask me questions as required and improve the prompt so that the results will be in line with my expectations, one-shot." After a few discussions, it generated [this remarkable prompt](https://github.com/sanand0/slidegen/blame/de953817266357b00d80d4fa3e17def02e0de292/prompts.md#L296-L502). This prompt was easy for me to review AND easy for Claude Code to understand because of the lack of inconsistencies.
 - 13 Aug 2025. A Forward Deployed Engineer (FDE) is a hybrid role, part software engineer, part product manager, and part consultant, focused on deeply integrating a company's technology with a specific client's needs.
 - 13 Aug 2025. Based on what I've seen of AI coding, new developers need to learn these skills. #ai-coding
   - context engineering
