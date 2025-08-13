@@ -112,6 +112,7 @@
   - Validation (not part of original list, but critical): how to efficiently check if this works
 - 11 Aug 2025. [Apple's Embedding Atlas](https://apple.github.io/embedding-atlas/) ([Demo](https://apple.github.io/embedding-atlas/demo/index.html) - slow, needs WebGPU) is an embeddings visualizer, like
   [Tensorflow Projector](https://projector.tensorflow.org/) or [Mantis](https://home.withmantis.com/) ([Demo](https://mantisdev.csail.mit.edu/home/)).
+- 10 Aug 2025. CSS nesting can be used with media queries too! [Julia Evans](https://bsky.app/profile/b0rk.jvns.ca/post/3lvve6hrmss22)
 - 10 Aug 2025. `id3v2`, `mid3v2` and `eyeD3` seem the cleanest way of editing MP3 tags on the CLI. `mid3v2` was already installed on my system.
 - 10 Aug 2025. Learnings people shared in [Ask HN: What trick of the trade took you too long to learn?](https://news.ycombinator.com/item?id=44789068)
   - **Finance & housing**
