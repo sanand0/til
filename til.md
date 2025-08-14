@@ -2,6 +2,7 @@
 
 ## Aug 2025
 
+- 14 Aug 2025. Astral is [building pyx](https://astral.sh/blog/introducing-pyx) - a paid PyPi alternative. It aims to solve problems like PyTorch CUDA builds. Knowing them, it'll be fabulous. I look forward to when they build a Python hosting service.
 - 11 Aug 2025. Discussion at [PyConSG Edu Summit 2025](https://pycon.sg/edusummit.html). [Padlet](https://padlet.com/pyconsg/pyconsg-education-summit-2025-topic-how-to-prevent-students--57puwelj2o7rgadd)
   - [Discussion validation](https://chatgpt.com/share/6899bd13-03e0-800c-8618-971ed7050a1a)
   - Interesting ways students use AI
