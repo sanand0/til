@@ -2,7 +2,7 @@
 
 ## Aug 2025
 
-- 14 Aug 2025. GPT 4.1 (and presumably GPT 5) models have been trained on a [specific diff format](https://cookbook.openai.com/examples/gpt4-1_prompting_guide#appendix-generating-and-applying-file-diffs) useful for code diff-patching. [PseudoPatch](https://github.com/12458/PseudoPatch) is a Python package that implements their `apply_patch()` function. Aider supports multiple [edit formats](https://aider.chat/docs/more/edit-formats.html) that are commonly referenced as a standard.
+- 14 Aug 2025. GPT 4.1 (and presumably GPT 5) models have been trained on a [specific diff format](https://cookbook.openai.com/examples/gpt4-1_prompting_guide#appendix-generating-and-applying-file-diffs) useful for code diff-patching. [PseudoPatch](https://github.com/12458/PseudoPatch) is a Python package that implements their `apply_patch()` function. Aider supports multiple [edit formats](https://aider.chat/docs/more/edit-formats.html) that are commonly referenced as a standard. [Code Surgery](https://fabianhertwig.com/blog/coding-assistants-file-edits/) has a good walkthrough of various strategies.
 - 14 Aug 2025. Here are some query parameters [ChatGPT.com](https://chatgpt.com/) unofficially supports:
   - `?q=...` prefills in a new chat **and often auto-submits**, especially small text [#](https://treyhunner.com/2024/07/chatgpt-and-claude-from-your-browser-url-bar/). Useful for:
     - A custom search engine in your browser
