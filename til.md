@@ -2,6 +2,7 @@
 
 ## Aug 2025
 
+- 14 Aug 2025. Turns out Indian English is a well studied topic. Indianisms like "can able to", "need not to", "why because…", "if suppose…", "return back", "revert back", "angry on",  "discuss about", "order for",  "do one thing…", "give me a missed call", "what is your good name", "kindly adjust", "we are like that only", "he is coming only", "today itself", "now only", "prepone", "pass out (of college)", "out of station", "do the needful", "hotel", "batchmate", "cousin-brother / cousin-sister", "I have a doubt", "I am understanding", "she is knowing", "you’re coming, no?" etc. are discussed in [Pingali Sailaja's Indian English](https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/Indo-European/Germanic/English%2C%20Indian%20%28Sailaja%29.pdf). [ChatGPT](https://chatgpt.com/share/689dcf8d-2ce4-800c-8553-e419eafd4891)
 - 14 Aug 2025. Astral is [building pyx](https://astral.sh/blog/introducing-pyx) - a paid PyPi alternative. It aims to solve problems like PyTorch CUDA builds. Knowing them, it'll be fabulous. I look forward to when they build a Python hosting service.
 - 11 Aug 2025. Discussion at [PyConSG Edu Summit 2025](https://pycon.sg/edusummit.html). [Padlet](https://padlet.com/pyconsg/pyconsg-education-summit-2025-topic-how-to-prevent-students--57puwelj2o7rgadd)
   - [Discussion validation](https://chatgpt.com/share/6899bd13-03e0-800c-8618-971ed7050a1a)
