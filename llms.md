@@ -2,6 +2,15 @@
 
 ## Aug 2025
 
+- 14 Aug 2025. Here are some query parameters [ChatGPT.com](https://chatgpt.com/) unofficially supports:
+  - `?q=...` prefills in a new chat **and often auto-submits**, especially small text [#](https://treyhunner.com/2024/07/chatgpt-and-claude-from-your-browser-url-bar/). Useful for:
+    - A custom search engine in your browser
+    - An "Ask ChatGPT about selection" bookmarklet, etc.
+    - Links (e.g. from courses, FAQs, etc.) for tasks or learning
+    - ... but not for custom GPTs
+  - `?model=...` selects a model (e.g., `gpt-5-thinking`).
+  - `?hints=search` enables **Search** mode
+  - `?temporary-chat=true` opens a new temporary chat
 - 13 Aug 2025. [Tavus](https://www.tavus.io/) is another AI avatar platform.
   - [Synthesia](). Market leader; $2.1B valuation; enterprise trusted. Good: Realism, enterprise features, templating. But: Price, usage caps, slower avatar setup
   - [HeyGen](). Rapidly growing; $500M valuation. Good: Avatar realism, speed, affordability. But: Basic collaboration, support, scene complexity
