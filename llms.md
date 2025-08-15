@@ -2,6 +2,7 @@
 
 ## Aug 2025
 
+- 15 Aug 2025. For live transcription, Gemini 2.5 Flash Live costs 0.6c/min of audio ($3/MTok x 32 tokens/second) while GPT 4o Mini Realtime costs ~2c/min and GPT 4o Realtime costs ~8c/min. [ChatGPT](https://chatgpt.com/share/689ef64f-2510-800c-83c0-052bbbf28acf)
 - 15 Aug 2025. I set up MCPs [Codex CLI](https://github.com/openai/codex) by adding this to `~/.codex/config.toml`. I've disabled it for faster startup (this takes ~2 seconds) and raised an enhancement [issue for MCP lazy loading](https://github.com/openai/codex/issues/2335)
 
   ```toml
