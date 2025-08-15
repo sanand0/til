@@ -2,6 +2,26 @@
 
 ## Aug 2025
 
+- 15 Aug 2025. Learnings from a discussion on vibe-coding between [Kunal Jain](https://www.linkedin.com/in/jaink/), [Ravi Nadimpalli](https://www.linkedin.com/in/ever-loyal/) and me. #ai-coding
+  - On the Vibe Coding Process & Strategy
+    - **The 80/20 Rule is Real:** The first 80% of a project is incredibly fast, but the final 20% (debugging, custom features, production-readiness) is extremely difficult and time-consuming.
+    - **Validation is the New Bottleneck:** Since coding is now much faster, the critical, time-consuming task has shifted to reviewing, testing, and validating the LLM's output.
+    - **"Spec-Locking" is Crucial:** Providing the LLM with detailed, well-defined, and "thinly sliced" specifications is essential for getting good results. Vague requests lead to poor outcomes.
+    - **It's Not Production-Ready (Yet):** The consensus is that vibe coding is excellent for prototypes, demos, and go-to-market (GTM) activities but is not yet reliable for building production-grade applications from scratch.
+    - **Code is Brittle & Unstable:** An application that works perfectly one day can inexplicably break the next, as the underlying agent might make undocumented changes.
+  - Impact on Roles & The Future of Work
+    - **The Rise of QC/Validation:** The Quality Control (QC) function will become larger and more critical to manage the new challenge of validating AI-generated work.
+    - **Product Managers Shift Focus:** PMs can move away from tedious documentation (like flowcharts) and focus more on high-level business strategy, using vibe coding to create quick prototypes.
+    - **Democratization of Building:** It empowers non-coders to build functional apps and helps professionals upskill faster by "conversing" with an LLM on complex topics.
+    - **New Forms of Cheating:** The technology is creating novel ways for people to cheat in interviews, such as using tools that provide real-time subtitles of answers.
+    - **The "Jagged Edge" of AI:** The technology excels at certain tasks (like GTM content) but fails at others, creating new upstream bottlenecks where teams must rapidly generate more of the "AI-friendly" work.
+  - Practical Hacks & Takeaways
+    - **Meta-Prompting:** Use an LLM to refine and improve your prompt _before_ giving it to the final tool. This helps fill in gaps and add necessary detail.
+    - **Human-First Drafting:** For creative or nuanced work (like writing), it's often better to write the first draft yourself and use the LLM to polish it, rather than starting with a generic AI draft.
+    - **Use Structured Prompts:** For predictable and clean output, providing instructions in a structured format (JSON is OK but not needed) is highly effective.
+    - **LLM as a Judge:** Use LLMs to evaluate and grade content, code, and other outputs, dramatically speeding up the review process.
+    - **Automate Learning & Documentation:** Use tools to transcribe conversations automatically and create personalized revision quizzes from notes and documents.
+    - **Voice is a Powerful Modality:** Using voice-to-code allows for capturing more complex ideas faster and can be done while multitasking (e.g., walking), capitalizing on "dead time."
 - 15 Aug 2025. For live transcription, Gemini 2.5 Flash Live costs 0.6c/min of audio ($3/MTok x 32 tokens/second) while GPT 4o Mini Realtime costs ~2c/min and GPT 4o Realtime costs ~8c/min. [ChatGPT](https://chatgpt.com/share/689ef64f-2510-800c-83c0-052bbbf28acf)
 - 15 Aug 2025. I set up MCPs [Codex CLI](https://github.com/openai/codex) by adding this to `~/.codex/config.toml`. I've disabled it for faster startup (this takes ~2 seconds) and raised an enhancement [issue for MCP lazy loading](https://github.com/openai/codex/issues/2335)
 
