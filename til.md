@@ -1139,12 +1139,12 @@
   - [Milkman](https://milkman.dev/) – A desktop open‑source workbench for managing API requests.
 - 02 Feb 2025. Here is the summary of [DuckCon #6](https://www.youtube.com/watch?v=Sb9DFclZRpg) on 31 Jan 2025 in Amsterdam. I copied the transcript from [YouTubeTranscript](https://youtubetranscript.com/) and passed it through Gemini 2.0 Flash Exp with the system prompt: "Summarize this transcript from the DuckDB conference without missing any points. Cover every point mentioned. A lot of spelling errors that sound like DuckDB are likely to be DuckDB".
   - Introduction & Welcome:
-    - **Duckon #6:** This is the 6th DuckDB conference, held in their hometown. The first Duckon was online due to the pandemic.
-    - **Live Streaming:** This is the first time Duckon is being live-streamed, chosen to accommodate global time zones (especially China and the US).
-    - **Global Reach:** The live stream is intended to reach users in areas where in-person Duckons are unlikely.
+    - **DuckCon #6:** This is the 6th DuckDB conference, held in their hometown. The first DuckCon was online due to the pandemic.
+    - **Live Streaming:** This is the first time DuckCon is being live-streamed, chosen to accommodate global time zones (especially China and the US).
+    - **Global Reach:** The live stream is intended to reach users in areas where in-person DuckCons are unlikely.
     - **Q&A:** Slido (qa.duckdb.org) will be used for Q&A, with upvoting to prioritize questions.
     - **Sponsors:** Thanks to gold sponsor monday.com and silver sponsors Real and Crunchy Data.
-    - **Duckon Purpose:** Duckon is a place for users to connect, share experiences, and provide feedback to the DuckDB team.
+    - **DuckCon Purpose:** DuckCon is a place for users to connect, share experiences, and provide feedback to the DuckDB team.
     - **Inspiration:** The team is inspired by the community's use of DuckDB and how far the project has come.
     - **Mission Statement:** DuckDB aims to make large datasets less intimidating and more accessible, moving away from fear of data to confidence in handling it.
     - **Motivation:** The project was born from seeing people struggle with data that didn't fit in Excel and the lack of user-friendly tools.
@@ -1156,7 +1156,7 @@
     - **Adoption Numbers:**
       - **32 Million Extension Installs:** 32 million DuckDB extension installs in the last month.
       - **1.8 Million Unique Website Visitors:** 1.8 million unique visitors per month to the DuckDB website.
-      - **Blue Sky Community:** Growing community on Blue Sky, with the hashtag #dataBS.
+      - **Blue Sky Community:** Growing community on Blue Sky, with the hashtag `#dataBS`.
   - Technical Updates (Mark):
     - **Extension Ecosystem:** Focus on enabling the community to build and share extensions.
     - **Community Extensions:** Making it easier to create and use community-built extensions.
@@ -1236,7 +1236,7 @@
     - **Metrics-First:** Design metrics models, and Rill autogenerates dashboards and user experiences.
     - **Live Demo:**
       - Downloaded Rill using a curl command.
-      - Created a new project called "Duckon 6".
+      - Created a new project called "DuckCon 6".
       - Imported a parquet file of GitHub commit data.
       - Used AI to generate a metrics model and dashboard.
       - Showed the dashboard with trends and filtering.
@@ -2498,8 +2498,8 @@ How to write #podcast. Steven Pressfield
 - Every story needs a villain.
 - Every story needs a femme fatale. The sea in Moby Dick. The rice fields in Seven Samurai. The desert in Lawrence of Arabia. The unsolved mystery that pulls you in
 - it needs an all is lost moment. The low point mid way
-- #todo "when divinity presents itself in front of us, we nail it to a cross." Lost opportunities
-- #Todo saying no is about valuing what you do enough. Saying yes means you're not doing anything of value. discover the value in your work
+- #TODO "when divinity presents itself in front of us, we nail it to a cross." Lost opportunities
+- #TODO saying no is about valuing what you do enough. Saying yes means you're not doing anything of value. discover the value in your work
 - the chinese have a word for revenge bedtime procrastination full stop its when you don't like your work and come back at bed not sleeping and postpone your sleep
 - practice subtraction or inversion. Always exclude things you should do less of
 - Momentum is power in the early stages. When you find an obstacle, move around it even if it means losing 9 out of 10 tanks. Blitzkrieg strategy
@@ -2512,7 +2512,7 @@ How to write #podcast. Steven Pressfield
 
 - The `<meter>` element has "low", "high" and "optimum" attributes and can serve as a bullet chart [via](https://css-tricks.com/html5-meter-element/)
 - Most LLM paper pages are adapted from [this template](https://github.com/eliahuhorwitz/Academic-project-page-template)
-- Big Think #Podcast: the psychology of persuasion.
+- Big Think #podcast: the psychology of persuasion.
   - Ask for identities not actions. "Be a helper" not "Help me". "Be a citizen", not "vote".
   - Replace fillers with pauses
   - Record yourself and review. It's hard but very effective
@@ -2539,7 +2539,7 @@ How to write #podcast. Steven Pressfield
 
 28 Nov 2023
 
-- #PODCAST Todd Herman: Unleashing Your Secret Identity (The Knowledge Project with Shane Parrish)
+- #podcast Todd Herman: Unleashing Your Secret Identity (The Knowledge Project with Shane Parrish)
   - The most common bias is overconfidence.
   - The most common error is not researching before starting.
   - 90% of success is your environment. (The position.) People who coach mentor you are critical. Learn from the best.
@@ -2556,7 +2556,7 @@ How to write #podcast. Steven Pressfield
 
 27 Nov 2023
 
-- #PODCAST William MacAskill: The Science of Doing Good
+- #podcast William MacAskill: The Science of Doing Good
   - Effective altruism is about measuring outcomes of altruism. What is the impact, what is the gap, and what is the return on investment. Pick High impact, neglected, tractable areas
 
 25 Nov 2023
@@ -2570,7 +2570,7 @@ How to write #podcast. Steven Pressfield
 
 24 Nov 2023
 
-- #PODCAST The Long Game. Ep 271 of Deep Questions
+- #podcast The Long Game. Ep 271 of Deep Questions
   - Use multi-time-scale planning - aligned across scales. Use compounding. Edge of competence - fail half the time.
   - Knowing you are at edge of competence requires a definition of success or failure upfront. Define and measure it multi scale.
 
@@ -2581,7 +2581,7 @@ How to write #podcast. Steven Pressfield
 
 21 Nov 2023
 
-- #PODCAST Derek Sivers: No Wasted Words podcast
+- #podcast Derek Sivers: No Wasted Words podcast
   - Don't write a book. Put ideas out on the Internet and get feedback. Then iterate. TAKEAWAY: Don't write a series of blog posts. Blog a series of book chapters!
   - Share everything you believe. That shares your personality and others can benefit
   - Brian Eno used to slow down his ambient music two times before shipping. That's because when crafting it we get too close and edit it to crisply compared to what the audience needs
@@ -2594,7 +2594,7 @@ How to write #podcast. Steven Pressfield
 
 20 Nov 2023
 
-- #PODCAST Decoding Five Traits of Successful Engineering Teams
+- #podcast Decoding Five Traits of Successful Engineering Teams
   - Code cycle time: excellent measure of engineering team quality. Measure it. Reduce it
   - Good code reviews
     - Approach code reviews with curiosity, not critique. Learn from the reviews
