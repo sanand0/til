@@ -2,6 +2,19 @@
 
 ## Aug 2025
 
+- 15 Aug 2025. I set up MCPs [Codex CLI](https://github.com/openai/codex) by adding this to `~/.codex/config.toml`. I've disabled it for faster startup (this takes ~2 seconds)
+
+  ```toml
+  [mcp_servers.github]
+  command = "docker"
+  args = ["run","-i","--rm","-e","GITHUB_PERSONAL_ACCESS_TOKEN","ghcr.io/github/github-mcp-server"]
+  env = { GITHUB_PERSONAL_ACCESS_TOKEN = "..." }
+
+  [mcp_servers.playwright]
+  command = "npx"
+  args = ["@playwright/mcp@latest"]
+  ```
+
 - 15 Aug 2025. [Anthropic](https://www.anthropic.com/news/agent-capabilities-api) launched a remote MCP connector in their API. OpenAI Responses API [already had remote MCP support](https://platform.openai.com/docs/guides/tools-remote-mcp). Gemini will likely follow, opening up new tool capabilities.
 - 14 Aug 2025. GPT 4.1 (and presumably GPT 5) models have been trained on a [specific diff format](https://cookbook.openai.com/examples/gpt4-1_prompting_guide#appendix-generating-and-applying-file-diffs) useful for code diff-patching. [PseudoPatch](https://github.com/12458/PseudoPatch) is a Python package that implements their `apply_patch()` function. Aider supports multiple [edit formats](https://aider.chat/docs/more/edit-formats.html) that are commonly referenced as a standard. [Code Surgery](https://fabianhertwig.com/blog/coding-assistants-file-edits/) has a good walkthrough of various strategies.
 - 14 Aug 2025. Here are some query parameters [ChatGPT.com](https://chatgpt.com/) unofficially supports:
