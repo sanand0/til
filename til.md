@@ -2,7 +2,7 @@
 
 ## Aug 2025
 
-- 15 Aug 2025. ⭐ Intense emotions get in the way of clear thinking. Curiosity, humor, kindness, and gratitude help.
+- 15 Aug 2025. ⭐ Intense negative emotions get in the way of clear thinking. Curiosity, humor, kindness, and gratitude help. (Intense positive emotions like awe, passion, etc. help creativity and are not so bad.)
 - 15 Aug 2025. I like to think I'm a Python expert. When I saw a client use this code, I told her the indentation is wrong. It ran just fine. And people think only LLMs hallucinate.
 
   ```python
