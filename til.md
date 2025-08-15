@@ -2,6 +2,25 @@
 
 ## Aug 2025
 
+- 15 Aug 2025. Assets are any leveragable stored capability
+  1. Wealth (investments, income)
+  2. Regenerative assets (land, carbon credits, renewables)
+  3. Contacts (reference customers, hiring pipeline, talent bench, weak-ties)
+  4. Attention (your audience, whom you can reach directly)
+  5. Distribution channels (repeatable routes to users: partnerships, marketplaces, APIs)
+  6. Trust (credibility with specific people)
+  7. Reputation in communities (community capital in employers, clients, forums, society, search keywords)
+  8. Personal brand “edges” (moral authority, values lived aloud, distinctive taste or stance)
+  9. Data (your clean, labeled, joined data corpus)
+  10. Code (models, algorithms, components, templates, libraries, tools, evals; versioned)
+  11. Content (blog posts, video tutorials, case studies, demos, stories, slides, docs)
+  12. Knowledge (notes, decision logs, knowledge graph, institutional memory)
+  13. Playbooks & runbooks (process checklists that survived fire, SOPs, scenario plans)
+  14. Habits & policies (operating cadence, rituals, governance & compliance muscle)
+  15. Optionality (cash buffer, credit lines, slack time, real options, small bets)
+  16. Agreements (MSAs/SLAs, pre-negotiated contracts)
+  17. IP (copyrights, trade secrets, trademarks)
+  18. Health & energy reserves
 - 15 Aug 2025. ⭐ Intense negative emotions get in the way of clear thinking. Curiosity, humor, kindness, and gratitude help. (Intense positive emotions like awe, passion, etc. help creativity and are not so bad.)
 - 15 Aug 2025. I like to think I'm a Python expert. When I saw a client use this code, I told her the indentation is wrong. It ran just fine. And people think only LLMs hallucinate.
 
