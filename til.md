@@ -2,12 +2,12 @@
 
 ## Aug 2025
 
-- 15 Aug 2025. Assets are any leveragable stored capability
+- 15 Aug 2025. ⭐ Assets are any leveragable stored capability. Money is one, but there are several one can "invest" in, be an agent of, or steal.
   1. Wealth (investments, income)
   2. Regenerative assets (land, carbon credits, renewables)
   3. Contacts (reference customers, hiring pipeline, talent bench, weak-ties)
   4. Attention (your audience, whom you can reach directly)
-  5. Distribution channels (repeatable routes to users: partnerships, marketplaces, APIs)
+  5. Distribution (repeatable routes to users, partnerships, marketplaces, APIs, platforms)
   6. Trust (credibility with specific people)
   7. Reputation in communities (community capital in employers, clients, forums, society, search keywords)
   8. Personal brand “edges” (moral authority, values lived aloud, distinctive taste or stance)
