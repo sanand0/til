@@ -2,7 +2,7 @@
 
 ## Aug 2025
 
-- 15 Aug 2025. I set up MCPs [Codex CLI](https://github.com/openai/codex) by adding this to `~/.codex/config.toml`. I've disabled it for faster startup (this takes ~2 seconds)
+- 15 Aug 2025. I set up MCPs [Codex CLI](https://github.com/openai/codex) by adding this to `~/.codex/config.toml`. I've disabled it for faster startup (this takes ~2 seconds) and raised an enhancement [issue for MCP lazy loading](https://github.com/openai/codex/issues/2335)
 
   ```toml
   [mcp_servers.github]
