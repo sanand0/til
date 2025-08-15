@@ -2,6 +2,16 @@
 
 ## Aug 2025
 
+- 15 Aug 2025. This is undocumented, but the way to get an [Gemini ephemeral auth token](https://ai.google.dev/api/live#ephemeral-auth-tokens) for the live API is below. (Update time as required.) [ChatGPT](https://chatgpt.com/share/689f591e-aa08-800c-b272-dba3abe1ee37)
+
+  ```bash
+  curl -sS -X POST -H 'Content-Type: application/json' -d '{
+    "uses": 1,
+    "expireTime": "2025-08-15T12:45:00Z",
+    "newSessionExpireTime": "2025-08-15T12:16:00Z"
+  }' "https://generativelanguage.googleapis.com/v1alpha/auth_tokens?key=$GEMINI_API_KEY"
+  ```
+
 - 15 Aug 2025. Learnings from a discussion on vibe-coding between [Kunal Jain](https://www.linkedin.com/in/jaink/), [Ravi Nadimpalli](https://www.linkedin.com/in/ever-loyal/) and me. #ai-coding
   - On the Vibe Coding Process & Strategy
     - **The 80/20 Rule is Real:** The first 80% of a project is incredibly fast, but the final 20% (debugging, custom features, production-readiness) is extremely difficult and time-consuming.
