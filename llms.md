@@ -47,7 +47,7 @@
   ```
 
 - 15 Aug 2025. [Anthropic](https://www.anthropic.com/news/agent-capabilities-api) launched a remote MCP connector in their API. OpenAI Responses API [already had remote MCP support](https://platform.openai.com/docs/guides/tools-remote-mcp). Gemini will likely follow, opening up new tool capabilities.
-- 14 Aug 2025. Here's an idea for real-time improvement of LLMs apps.
+- 14 Aug 2025. ⭐ Here's one way to improve LLMs apps in real-time.
   - After sending a response, send the prompt + input + output + optional user feedback to an LLM-as-a-judge asking for feedback to improve the prompt.
   - Revise the prompt based on the improvement. Now the app has improved, real-time, based on human/LLM feedback.
   - Refine this process to ensure that the revisions are smooth and positive.
