@@ -1,5 +1,6 @@
 # Ideator
 
+- 16 Aug 2025. [IDEA Premortem failing tests first](https://chatgpt.com/c/68a07ec3-e7bc-832f-a584-433e35cb0b72). LLM runs a pre-mortem, generate tests that fail first, and THEN writes the code.
 - 14 Aug 2025. [IDEA ReleaseLake data releases as data lakes](https://chatgpt.com/c/689d7a3b-e1b4-8320-a013-bd78cd67f1b5). Release datasets in GitHub Releases + CloudFlare R2 as versioned, sharded `.parquet` with schema & dbmate migrations, suitable for use as a data lake.
 - 14 Aug 2025. [IDEA Consultant-to-LLM Bridge](https://chatgpt.com/c/689d54ce-7598-8327-9754-78e9ce1a3c95)
   - 1/2: Become an API to LLMs. Create an API for LLMs to consult you. Answer based on past chats, notes, memory, etc.!
