@@ -2,6 +2,7 @@
 
 ## Aug 2025
 
+- 16 Aug 2025. Git [partial clone](https://git-scm.com/docs/partial-clone) lets you fetch files on-demand! E.g. `git clone --filter='blobs:size=100k' <repo>` will clone files under 100K and fetch the rest only on checkout. Over time, Git LFS capabilities will migrate into native Git. [Ref](https://tylercipriani.com/blog/2025/08/15/git-lfs/)
 - 16 Aug 2025. ⭐ From Daniel Kahneman, The Knowledge Project Podcast.
   - Key lesson. Have lower expectations. Behavior change is hard.
   - Happiness is pleasure in the moment. Satisfaction is the meaningful story of our life. When reflecting, the thinking brain wants satisfaction. When feeling, the feeling brain feels happiness. The 2 brains optimize for different things. The thinking brain packs the calendar with satisfying tasks that the feeling brain hates doing.
