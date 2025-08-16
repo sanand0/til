@@ -2,6 +2,30 @@
 
 ## Aug 2025
 
+- 16 Aug 2025. Developers are encoding their _entire_ SDLC workflow into Claude commands [ChatGPT](https://chatgpt.com/c/68a0139b-3044-8327-b2f0-51940f89b8ec) #ai-coding
+  - Commands are used for:
+    - Requirements: Research sub-agent, task breakdown into todos.md, creating specs.md from todos.md
+    - Progress tracking: session logging, effort tracking, updating status, planning next steps
+    - Project setup: initializing, adding deps, scaffolding features
+    - Development: code review, debug error (five whys), explain code, refactor code
+    - Optimization: optimize build, DB, caching
+    - Testing: TDD, generate test cases, set up unit/integration/E2E testing, analyze coverage
+    - Security: security audits, dependency vulnerability scans
+    - Integration: sync tasks between GitHub and Linear (two-way issue synchronization, PR linking)
+    - Deployment: prepare releases, hotfix deploys, rollbacks, containerization, CI pipeline setup
+  - Patterns of usage
+    - Sub-agents
+    - Command handoffs, i.e. one command invoking another
+    - Shared among a team in a repo, enforcing standards & sharing best practices
+    - Integration with specific tools / APIs (e.g. Linear)
+- 16 Aug 2025. ⭐ LLMs can hyper-personalize demos. E.g. an LLM document generator demo accepts a role, document type, and prompt. The demo-er says "Bank, LinkedIn marketing" and the LLM auto-populates the fields aptly, re-purposing the demo.
+- 16 Aug 2025. From the [GPT 5 coding cheatsheet](https://cdn.openai.com/API/docs/gpt-5-for-coding-cheatsheet.pdf):
+  1. Be precise and avoid conflicting information. Use a prompt optimizer to check for inconsistencies.
+  2. Use the right reasoning effort. Prefer medium or low reasoning to avoid overthinking simple problems.
+  3. Use XML-like syntax to help structure instructions
+  4. Avoid overly firm language, e.g. "You MUST be THOROUGH" vs "Thoroughly".
+  5. Give room for planning and self-reflection. Explain what to do in steps, asking it to think deeply
+  6. Control the eagerness of your coding agent, e.g. do not ask for confirmation, parallelize tool calls, use more tools, etc.
 - 15 Aug 2025. This is undocumented, but the way to get an [Gemini ephemeral auth token](https://ai.google.dev/api/live#ephemeral-auth-tokens) for the live API is below. (Update time as required.) [ChatGPT](https://chatgpt.com/share/689f591e-aa08-800c-b272-dba3abe1ee37)
 
   ```bash
@@ -46,12 +70,12 @@
   args = ["@playwright/mcp@latest"]
   ```
 
-- 15 Aug 2025. [Anthropic](https://www.anthropic.com/news/agent-capabilities-api) launched a remote MCP connector in their API. OpenAI Responses API [already had remote MCP support](https://platform.openai.com/docs/guides/tools-remote-mcp). Gemini will likely follow, opening up new tool capabilities.
+- 15 Aug 2025. [Anthropic](https://www.anthropic.com/news/agent-capabilities-api) launched a remote MCP connector in their API. OpenAI Responses API [already had remote MCP support](https://platform.openai.com/docs/guides/tools-remote-mcp). Gemini will likely follow, opening up new tool capabilities. The APIs can _directly_ call the MCPs as part of their thinking.
 - 14 Aug 2025. ⭐ Here's one way to improve LLMs apps in real-time.
   - After sending a response, send the prompt + input + output + optional user feedback to an LLM-as-a-judge asking for feedback to improve the prompt.
   - Revise the prompt based on the improvement. Now the app has improved, real-time, based on human/LLM feedback.
   - Refine this process to ensure that the revisions are smooth and positive.
-- 14 Aug 2025. GPT 4.1 (and presumably GPT 5) models have been trained on a [specific diff format](https://cookbook.openai.com/examples/gpt4-1_prompting_guide#appendix-generating-and-applying-file-diffs) useful for code diff-patching. [PseudoPatch](https://github.com/12458/PseudoPatch) is a Python package that implements their `apply_patch()` function. Aider supports multiple [edit formats](https://aider.chat/docs/more/edit-formats.html) that are commonly referenced as a standard. [Code Surgery](https://fabianhertwig.com/blog/coding-assistants-file-edits/) has a good walkthrough of various strategies.
+- 14 Aug 2025. GPT 4.1 (and presumably GPT 5) models have been trained on a [specific diff format](https://cookbook.openai.com/examples/gpt4-1_prompting_guide#appendix-generating-and-applying-file-diffs) useful for code diff-patching. [PseudoPatch](https://github.com/12458/PseudoPatch) is a Python package that implements their `apply_patch()` function. Aider supports multiple [edit formats](https://aider.chat/docs/more/edit-formats.html) that are commonly referenced as a standard. [Code Surgery](https://fabianhertwig.com/blog/coding-assistants-file-edits/) has a good walkthrough of various strategies. These are similar to Google's [diff-match-patch](https://github.com/google/diff-match-patch) approach (which fuzzy matches and _then_ patches) but does not require line numbers. [ChatGPT](https://chatgpt.com/share/689753f9-7b24-800c-b568-4ff8c7978486)
 - 14 Aug 2025. Here are some query parameters [ChatGPT.com](https://chatgpt.com/) unofficially supports:
   - `?q=...` prefills in a new chat **and often auto-submits**, especially small text [#](https://treyhunner.com/2024/07/chatgpt-and-claude-from-your-browser-url-bar/). Useful for:
     - A custom search engine in your browser
@@ -70,20 +94,19 @@
   - [Hour One](). Also common in alternative lists. Good: Photoreal avatars, expression control. But: Missing advanced features like screen capture
   - [Others](). Niche or emerging tools. Good: Varies by platform. But: Less adoption, fewer reviews
 - 13 Aug 2025. Training companies are offering "Labs-as-a-service" as part of their AI training. Corporates ban LLMs, but need employees trained. Trainers offer a bundled package where they also offer access to LLMs are part of their course. Interesting business-model value-add.
-- 13 Aug 2025. I'm meta-AI-coding. I wrote a crude prompt in `prompts.md`, told Codex "prompts.md has a prompt under the "# Improve schema" section starting line 294. This is a prompt that will be passed to Claude Code to implement. Ask me questions as required and improve the prompt so that the results will be in line with my expectations, one-shot." After a few discussions, it generated [this remarkable prompt](https://github.com/sanand0/slidegen/blame/de953817266357b00d80d4fa3e17def02e0de292/prompts.md#L296-L502). This prompt was easy for me to review AND easy for Claude Code to understand because of the lack of inconsistencies.
+- 13 Aug 2025. ⭐ I'm meta-AI-coding. I wrote a crude prompt in `prompts.md`, told Codex "prompts.md has a prompt under the "# Improve schema" section starting line 294. This is a prompt that will be passed to Claude Code to implement. Ask me questions as required and improve the prompt so that the results will be in line with my expectations, one-shot." After a few discussions, it generated [this remarkable prompt](https://github.com/sanand0/slidegen/blame/de953817266357b00d80d4fa3e17def02e0de292/prompts.md#L296-L502). This prompt was easy for me to review AND easy for Claude Code to understand because of the lack of inconsistencies.
 - 13 Aug 2025. A Forward Deployed Engineer (FDE) is a hybrid role, part software engineer, part product manager, and part consultant, focused on deeply integrating a company's technology with a specific client's needs.
 - 13 Aug 2025. Based on what I've seen of AI coding, new developers need to learn these skills. #ai-coding
-  - context engineering
-  - documentation
-  - automated testing
-  - standards
-  - capabilities of platforms
-  - modularity (and DRY vs WET)
-  - code composition
-  - code reviews
+  - Context engineering
+  - Documentation
+  - Automated testing
+  - Standards
+  - Capabilities of platforms
+  - Modularity (and DRY vs WET)
+  - Code composition
+  - Code reviews
 - 12 Aug 2025. Across clients, providers (e.g. Bedrock) and products (e.g. Cursor) I have observed capacity bottlenecks for Claude models which don't seem to affect OpenAI models as much.
 - 12 Aug 2025. Increasing the size of an image improves OCR accuracy for LLM models (or at least Claude 4 Sonnet). Anecdotally, resizing 2x did not work on a number of examples but 2.5x - 3x did. This increases the cost to 6.25x or 9x, however.
-- 11 Aug 2025. When patching / editing content using LLMs, the [diff-match-patch](https://github.com/google/diff-match-patch) approach seems the best option. It fuzzy matches the diff and _then_ patches it. [ChatGPT](https://chatgpt.com/share/689753f9-7b24-800c-b568-4ff8c7978486)
 - 11 Aug 2025. John Kotter's organizational change model is the accepted practice for top-down change, while ADKAR is for bottom up. It's surprising how obviously effective both are to someone who has effected both kinds of changes, but there is NO WAY I would have appreciated either during my MBA. [Wikipedia: Change management](https://en.wikipedia.org/wiki/Change_management)
 - 11 Aug 2025. The OpenAI Chat Completions API has a few interesting and (relatively) new options:
   - [`verbosity`](https://platform.openai.com/docs/api-reference/chat/create#chat_create-verbosity). `low`: concise response, `medium`: default, `high`: verbose
@@ -110,13 +133,13 @@
 - 03 Aug 2025. Claude Code tips from [Things that didn't work](https://lucumr.pocoo.org/2025/7/30/things-that-didnt-work/) by Armin Rocher #ai-coding
   - Speech-to-text. Cannot stress this enough but talking to the machine means you’re more likely to share more about what you want it to do.
   - I maintain some basic prompts and context for copy-pasting at the end or the beginning of what I entered.
-  - I ended up preloading executables on the PATH that override the default ones, steering Claude toward the right tools like uv.
+  - I ended up preloading executables on the PATH that override the default ones, steering Claude toward the right tools, e.g. running `python` asks it to use `uv`.
   - I use the task tool frequently for basic parallelization and context isolation.
   - Simply taking time to talk to the machine and give clear instructions outperforms elaborate pre-written prompts.
   - Forcing myself to evaluate the automation has another benefit: I’m less likely to just blindly assume it helps me.
 - 03 Aug 2025. Research indicates that we don't know in advance which prompts will help. Evals beat prompt engineering. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lvgwdwn7422w)
 - 02 Aug 2025. Benjamin Green [suggests](https://resobscura.substack.com/p/openais-new-study-mode-and-the-risks) that [OpenAI Study mode](https://openai.com/index/chatgpt-study-mode/) is sycophantic. E.g. in [this conversation](https://chatgpt.com/share/688a9730-85d0-8004-9dae-0edb0c3ceff4), ChatGPT _carefully_ balances truth and politeness. A reader might misinterpret that as agreement. But sometimes, we _need_ candor. Politeness trades clarity for harmony. **People who trust AI should tell it to be more candid**.
-- 02 Aug 2025. Here's my current response when asked, "How should I use LLMs better":
+- 02 Aug 2025. ⭐ Here's my current response when asked, "How should I use LLMs better":
   - **Use the best models, consciously**. O3 (via $20 ChatGPT), Gemini 2.5 Pro (free on Gemini app), or Claude 4 Opus (via $20 Claude). The older models are the default and far worse.
   - **Speak & listen, don't just type & read**. I had to resist the temptation to ignore ChatGPT response when a colleague read it out. We are patient with and have respect for humans but not for AI. The value we derive requires both. Suggestion: Speak and listen rather than type and read. It's hard to skip and easier to stay in the present. It's also easier to ramble than type.
   - **Keep an impossibility list**. There is a jagged edge that moves. When you note down what's impossibile today and retry every month, you can see how that edge shifts.

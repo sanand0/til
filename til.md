@@ -2,6 +2,35 @@
 
 ## Aug 2025
 
+- 16 Aug 2025. ⭐ From Daniel Kahneman, The Knowledge Project Podcast.
+  - Key lesson. Have lower expectations. Behavior change is hard.
+  - Happiness is pleasure in the moment. Satisfaction is the meaningful story of our life. When reflecting, the thinking brain wants satisfaction. When feeling, the feeling brain feels happiness. The 2 brains optimize for different things. The thinking brain packs the calendar with satisfying tasks that the feeling brain hates doing.
+  - Happiness & pleasure are both are good for us. We don't know which matters more.
+  - Behavior change is harder than most people think. Usually, it's better not to expect success. Changing others, or ourselves.
+    - Instead, _understand_ the cause of that behavior. Behaviour is an equilibrium of forces.
+    - Weakening forces preventing right behaviour is easier than strengthening forward forces. It lowers tension. That's inversion!
+    - Behaviours are more about situations than personality. We assume otherwise - that's an attribution error.
+    - Environment shapes thinking but it's not obvious how, e.g. some people work better in noisy cafes. Some colors are more calming.
+  - Leadership & delegation
+    - Motivation is complex. People can do bad things for good reasons and vice versa.
+    - So, delegate decisions to unemotional agents. But agents misjudge perceived value of gain or loss!
+    - People prefer over-confident intuitive leaders over slow, deliberate leaders.
+    - Protect dissenters and dissent. It's painful and costly, and needs nurturing.
+  - Negotiation is about _understanding_, not convincing.
+  - "Feelings get in the way of clear thinking."
+    - Example: I vibe-coded the last 2 questions of [TDS GA7](https://exam.sanand.workers.dev/tds-2025-05-ga7) on Claude Code. It didn't run. I delayed fixing it for 5 days, afraid it would a major effort. It ended up a 2 min fix. It _could_ have been major, but checking would have helped. Fear prevented that.
+    - Intuition, emotion, beliefs hamper clear thinking. Beliefs are often formed based on people we admire or identify, not reason.
+  - What enables clear thinking (all are hard):
+    - **Pragmatism**. Don't threaten your identity, the leader, etc. Else none of this works.
+    - **Rules**, systems and processes. Willpower is illusion. Alignment is an illusion. "Whereever there is judgement, there is noise, and more than what people think."
+    - **Standards**. Shared, consistent scales of evaluation. Super-forecasters use probability scales.
+    - **Deliberation**. Slow decision making.
+    - **Decomposition**. Break down the problem, analyze it, THEN form an intuition. Be disciplined in delaying intuition or forming an opinion.
+    - **Pre-mortems**. "Write the history of the disaster this decision led to."
+    - **Decision journals** with post-mortems. Pros, cons and alternatives from failed decisions, e.g. Ray Dalio's principles. Change of mind.
+    - **Independent data**. Use data. Keep evidence gatherers independent of decision makers.
+    - **Preparation**. Have decision makers write down decisions _before_ discussing. Increases diversity.
+- 16 Aug 2025. DuckDB's feature engineering capabilites are faster than scikit-learn. [DuckDB](https://duckdb.org/2025/08/15/ml-data-preprocessing.html)
 - 15 Aug 2025. ⭐ Assets are any leveragable stored capability. Money is one, but there are several one can "invest" in, be an agent of, or perhaps steal.
   1.  Wealth (investments, income)
   2.  Regenerative assets (land, carbon credits, renewables)
