@@ -2,6 +2,119 @@
 
 ## Aug 2025
 
+- 17 Aug 2025. LLMs are faster than me. So me learning and doing what the LLM says is a bottleneck. Get out of the way. For example do not learn. Do not execute. Do not verify. Give LLMs the tools to deploy, verify and iterate to improve.
+- 16 Aug 2025. Developers are encoding their _entire_ SDLC workflow into Claude commands [ChatGPT](https://chatgpt.com/c/68a0139b-3044-8327-b2f0-51940f89b8ec) #ai-coding
+  - Commands are used for:
+    - Requirements: Research sub-agent, task breakdown into todos.md, creating specs.md from todos.md
+    - Progress tracking: session logging, effort tracking, updating status, planning next steps
+    - Project setup: initializing, adding deps, scaffolding features
+    - Development: code review, debug error (five whys), explain code, refactor code
+    - Optimization: optimize build, DB, caching
+    - Testing: TDD, generate test cases, set up unit/integration/E2E testing, analyze coverage
+    - Security: security audits, dependency vulnerability scans
+    - Integration: sync tasks between GitHub and Linear (two-way issue synchronization, PR linking)
+    - Deployment: prepare releases, hotfix deploys, rollbacks, containerization, CI pipeline setup
+  - Patterns of usage
+    - Sub-agents
+    - Command handoffs, i.e. one command invoking another
+    - Shared among a team in a repo, enforcing standards & sharing best practices
+    - Integration with specific tools / APIs (e.g. Linear)
+- 16 Aug 2025. ⭐ LLMs can hyper-personalize demos. E.g. an LLM document generator demo accepts a role, document type, and prompt. The demo-er says "Bank, LinkedIn marketing" and the LLM auto-populates the fields aptly, re-purposing the demo.
+- 16 Aug 2025. From the [GPT 5 coding cheatsheet](https://cdn.openai.com/API/docs/gpt-5-for-coding-cheatsheet.pdf):
+  1. Be precise and avoid conflicting information. Use a prompt optimizer to check for inconsistencies.
+  2. Use the right reasoning effort. Prefer medium or low reasoning to avoid overthinking simple problems.
+  3. Use XML-like syntax to help structure instructions
+  4. Avoid overly firm language, e.g. "You MUST be THOROUGH" vs "Thoroughly".
+  5. Give room for planning and self-reflection. Explain what to do in steps, asking it to think deeply
+  6. Control the eagerness of your coding agent, e.g. do not ask for confirmation, parallelize tool calls, use more tools, etc.
+- 15 Aug 2025. This is undocumented, but the way to get an [Gemini ephemeral auth token](https://ai.google.dev/api/live#ephemeral-auth-tokens) for the live API is below. (Update time as required.) [ChatGPT](https://chatgpt.com/share/689f591e-aa08-800c-b272-dba3abe1ee37)
+
+  ```bash
+  curl -sS -X POST -H 'Content-Type: application/json' -d '{
+    "uses": 1,
+    "expireTime": "2025-08-15T12:45:00Z",
+    "newSessionExpireTime": "2025-08-15T12:16:00Z"
+  }' "https://generativelanguage.googleapis.com/v1alpha/auth_tokens?key=$GEMINI_API_KEY"
+  ```
+
+- 15 Aug 2025. Learnings from a discussion on vibe-coding between [Kunal Jain](https://www.linkedin.com/in/jaink/), [Ravi Nadimpalli](https://www.linkedin.com/in/ever-loyal/) and me. #ai-coding
+  - On the Vibe Coding Process & Strategy
+    - **The 80/20 Rule is Real:** The first 80% of a project is incredibly fast, but the final 20% (debugging, custom features, production-readiness) is extremely difficult and time-consuming.
+    - **Validation is the New Bottleneck:** Since coding is now much faster, the critical, time-consuming task has shifted to reviewing, testing, and validating the LLM's output.
+    - **"Spec-Locking" is Crucial:** Providing the LLM with detailed, well-defined, and "thinly sliced" specifications is essential for getting good results. Vague requests lead to poor outcomes.
+    - **It's Not Production-Ready (Yet):** The consensus is that vibe coding is excellent for prototypes, demos, and go-to-market (GTM) activities but is not yet reliable for building production-grade applications from scratch.
+    - **Code is Brittle & Unstable:** An application that works perfectly one day can inexplicably break the next, as the underlying agent might make undocumented changes.
+  - Impact on Roles & The Future of Work
+    - **The Rise of QC/Validation:** The Quality Control (QC) function will become larger and more critical to manage the new challenge of validating AI-generated work.
+    - **Product Managers Shift Focus:** PMs can move away from tedious documentation (like flowcharts) and focus more on high-level business strategy, using vibe coding to create quick prototypes.
+    - **Democratization of Building:** It empowers non-coders to build functional apps and helps professionals upskill faster by "conversing" with an LLM on complex topics.
+    - **New Forms of Cheating:** The technology is creating novel ways for people to cheat in interviews, such as using tools that provide real-time subtitles of answers.
+    - **The "Jagged Edge" of AI:** The technology excels at certain tasks (like GTM content) but fails at others, creating new upstream bottlenecks where teams must rapidly generate more of the "AI-friendly" work.
+  - Practical Hacks & Takeaways
+    - **Meta-Prompting:** Use an LLM to refine and improve your prompt _before_ giving it to the final tool. This helps fill in gaps and add necessary detail.
+    - **Human-First Drafting:** For creative or nuanced work (like writing), it's often better to write the first draft yourself and use the LLM to polish it, rather than starting with a generic AI draft.
+    - **Use Structured Prompts:** For predictable and clean output, providing instructions in a structured format (JSON is OK but not needed) is highly effective.
+    - **LLM as a Judge:** Use LLMs to evaluate and grade content, code, and other outputs, dramatically speeding up the review process.
+    - **Automate Learning & Documentation:** Use tools to transcribe conversations automatically and create personalized revision quizzes from notes and documents.
+    - **Voice is a Powerful Modality:** Using voice-to-code allows for capturing more complex ideas faster and can be done while multitasking (e.g., walking), capitalizing on "dead time."
+- 15 Aug 2025. For live transcription, Gemini 2.5 Flash Live costs 0.6c/min of audio ($3/MTok x 32 tokens/second) while GPT 4o Mini Realtime costs ~2c/min and GPT 4o Realtime costs ~8c/min. [ChatGPT](https://chatgpt.com/share/689ef64f-2510-800c-83c0-052bbbf28acf)
+- 15 Aug 2025. I set up MCPs [Codex CLI](https://github.com/openai/codex) by adding this to `~/.codex/config.toml`. I've disabled it for faster startup (this takes ~2 seconds) and raised an enhancement [issue for MCP lazy loading](https://github.com/openai/codex/issues/2335)
+
+  ```toml
+  [mcp_servers.github]
+  command = "docker"
+  args = ["run","-i","--rm","-e","GITHUB_PERSONAL_ACCESS_TOKEN","ghcr.io/github/github-mcp-server"]
+  env = { GITHUB_PERSONAL_ACCESS_TOKEN = "..." }
+
+  [mcp_servers.playwright]
+  command = "npx"
+  args = ["@playwright/mcp@latest"]
+  ```
+
+- 15 Aug 2025. [Anthropic](https://www.anthropic.com/news/agent-capabilities-api) launched a remote MCP connector in their API. OpenAI Responses API [already had remote MCP support](https://platform.openai.com/docs/guides/tools-remote-mcp). Gemini will likely follow, opening up new tool capabilities. The APIs can _directly_ call the MCPs as part of their thinking.
+- 14 Aug 2025. ⭐ Here's one way to improve LLMs apps in real-time.
+  - After sending a response, send the prompt + input + output + optional user feedback to an LLM-as-a-judge asking for feedback to improve the prompt.
+  - Revise the prompt based on the improvement. Now the app has improved, real-time, based on human/LLM feedback.
+  - Refine this process to ensure that the revisions are smooth and positive.
+- 14 Aug 2025. GPT 4.1 (and presumably GPT 5) models have been trained on a [specific diff format](https://cookbook.openai.com/examples/gpt4-1_prompting_guide#appendix-generating-and-applying-file-diffs) useful for code diff-patching. [PseudoPatch](https://github.com/12458/PseudoPatch) is a Python package that implements their `apply_patch()` function. Aider supports multiple [edit formats](https://aider.chat/docs/more/edit-formats.html) that are commonly referenced as a standard. [Code Surgery](https://fabianhertwig.com/blog/coding-assistants-file-edits/) has a good walkthrough of various strategies. These are similar to Google's [diff-match-patch](https://github.com/google/diff-match-patch) approach (which fuzzy matches and _then_ patches) but does not require line numbers. [ChatGPT](https://chatgpt.com/share/689753f9-7b24-800c-b568-4ff8c7978486)
+- 14 Aug 2025. Here are some query parameters [ChatGPT.com](https://chatgpt.com/) unofficially supports:
+  - `?q=...` prefills in a new chat **and often auto-submits**, especially small text [#](https://treyhunner.com/2024/07/chatgpt-and-claude-from-your-browser-url-bar/). Useful for:
+    - A custom search engine in your browser
+    - An "Ask ChatGPT about selection" bookmarklet, etc.
+    - Links (e.g. from courses, FAQs, etc.) for tasks or learning
+    - ... but not for custom GPTs
+  - `?model=...` selects a model (e.g., `gpt-5-thinking`).
+  - `?hints=search` enables **Search** mode
+  - `?temporary-chat=true` opens a new temporary chat
+- 13 Aug 2025. [Tavus](https://www.tavus.io/) is another AI avatar platform.
+  - [Synthesia](). Market leader; $2.1B valuation; enterprise trusted. Good: Realism, enterprise features, templating. But: Price, usage caps, slower avatar setup
+  - [HeyGen](). Rapidly growing; $500M valuation. Good: Avatar realism, speed, affordability. But: Basic collaboration, support, scene complexity
+  - [Colossyan](). Favored L&D focus. Good: Interactive & educational tools, good value. But: Less polished avatars, slower renders
+  - [D-ID](). Frequently cited alternative. Good: Speed, flexibility, custom avatars. But: Watermarks, fewer templates
+  - [Elai.io](). Repeats in alternatives lists. Good: Storyboarding, educational formats. But: Limited templates, render time
+  - [Hour One](). Also common in alternative lists. Good: Photoreal avatars, expression control. But: Missing advanced features like screen capture
+  - [Others](). Niche or emerging tools. Good: Varies by platform. But: Less adoption, fewer reviews
+- 13 Aug 2025. Training companies are offering "Labs-as-a-service" as part of their AI training. Corporates ban LLMs, but need employees trained. Trainers offer a bundled package where they also offer access to LLMs are part of their course. Interesting business-model value-add.
+- 13 Aug 2025. ⭐ I'm meta-AI-coding. I wrote a crude prompt in `prompts.md`, told Codex "prompts.md has a prompt under the "# Improve schema" section starting line 294. This is a prompt that will be passed to Claude Code to implement. Ask me questions as required and improve the prompt so that the results will be in line with my expectations, one-shot." After a few discussions, it generated [this remarkable prompt](https://github.com/sanand0/slidegen/blame/de953817266357b00d80d4fa3e17def02e0de292/prompts.md#L296-L502). This prompt was easy for me to review AND easy for Claude Code to understand because of the lack of inconsistencies.
+- 13 Aug 2025. A Forward Deployed Engineer (FDE) is a hybrid role, part software engineer, part product manager, and part consultant, focused on deeply integrating a company's technology with a specific client's needs.
+- 13 Aug 2025. Based on what I've seen of AI coding, new developers need to learn these skills. #ai-coding
+  - Context engineering
+  - Documentation
+  - Automated testing
+  - Standards
+  - Capabilities of platforms
+  - Modularity (and DRY vs WET)
+  - Code composition
+  - Code reviews
+- 12 Aug 2025. Across clients, providers (e.g. Bedrock) and products (e.g. Cursor) I have observed capacity bottlenecks for Claude models which don't seem to affect OpenAI models as much.
+- 12 Aug 2025. Increasing the size of an image improves OCR accuracy for LLM models (or at least Claude 4 Sonnet). Anecdotally, resizing 2x did not work on a number of examples but 2.5x - 3x did. This increases the cost to 6.25x or 9x, however.
+- 11 Aug 2025. John Kotter's organizational change model is the accepted practice for top-down change, while ADKAR is for bottom up. It's surprising how obviously effective both are to someone who has effected both kinds of changes, but there is NO WAY I would have appreciated either during my MBA. [Wikipedia: Change management](https://en.wikipedia.org/wiki/Change_management)
+- 11 Aug 2025. The OpenAI Chat Completions API has a few interesting and (relatively) new options:
+  - [`verbosity`](https://platform.openai.com/docs/api-reference/chat/create#chat_create-verbosity). `low`: concise response, `medium`: default, `high`: verbose
+  - [`reasoning_effort`](https://platform.openai.com/docs/api-reference/chat/create#chat_create-reasoning_effort): `minimal`: almost none. `medium`: default. Or `low`, `high`.
+  - [`truncation`](https://platform.openai.com/docs/api-reference/responses/create#responses_create-truncation): `auto`: truncate response by dropping input items in the middle. `disabled`: default
+  - [`prediction`](https://platform.openai.com/docs/api-reference/chat/create#chat_create-prediction): speeds up output for minor corrections to text
+  - [`prompt_cache_key`](https://platform.openai.com/docs/api-reference/chat/create#chat_create-prompt_cache_key): tailors per-user caches
 - 09 Aug 2025. OpenAI supports a tool `"type": "custom"` that lets it write code as an argument to a tool call. Great for code / SQL generation. Even more powerfully, you can generate output following specific grammars, e.g. STL files, PostgreSQL dialect, Mermaid/PlantUML diagrams, OpenAPI specs, Vega-Lite JSONs, Cron expressions, GraphQL SDLs, Dockerfiles, Terraform HCLs, or any DSL! [#](https://cookbook.openai.com/examples/gpt-5/gpt-5_new_params_and_tools) #ai-coding
 - 09 Aug 2025. The OpenAI playground has a [GPT-5 Prompt Optimizer](https://platform.openai.com/chat/edit?models=gpt-5&optimize=true) that can migrate prompts to GPT-5.
 - 08 Aug 2025. ⭐ Code generation is more flexible than tool calling. LLMs can't write a tool-call loop, for example, but they can write code to run an API in a loop. So, I like telling the LLM to "write code using these APIs" than giving it APIs to tool-call. #ai-coding
@@ -21,13 +134,13 @@
 - 03 Aug 2025. Claude Code tips from [Things that didn't work](https://lucumr.pocoo.org/2025/7/30/things-that-didnt-work/) by Armin Rocher #ai-coding
   - Speech-to-text. Cannot stress this enough but talking to the machine means you’re more likely to share more about what you want it to do.
   - I maintain some basic prompts and context for copy-pasting at the end or the beginning of what I entered.
-  - I ended up preloading executables on the PATH that override the default ones, steering Claude toward the right tools like uv.
+  - I ended up preloading executables on the PATH that override the default ones, steering Claude toward the right tools, e.g. running `python` asks it to use `uv`.
   - I use the task tool frequently for basic parallelization and context isolation.
   - Simply taking time to talk to the machine and give clear instructions outperforms elaborate pre-written prompts.
   - Forcing myself to evaluate the automation has another benefit: I’m less likely to just blindly assume it helps me.
 - 03 Aug 2025. Research indicates that we don't know in advance which prompts will help. Evals beat prompt engineering. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lvgwdwn7422w)
 - 02 Aug 2025. Benjamin Green [suggests](https://resobscura.substack.com/p/openais-new-study-mode-and-the-risks) that [OpenAI Study mode](https://openai.com/index/chatgpt-study-mode/) is sycophantic. E.g. in [this conversation](https://chatgpt.com/share/688a9730-85d0-8004-9dae-0edb0c3ceff4), ChatGPT _carefully_ balances truth and politeness. A reader might misinterpret that as agreement. But sometimes, we _need_ candor. Politeness trades clarity for harmony. **People who trust AI should tell it to be more candid**.
-- 02 Aug 2025. Here's my current response when asked, "How should I use LLMs better":
+- 02 Aug 2025. ⭐ Here's my current response when asked, "How should I use LLMs better":
   - **Use the best models, consciously**. O3 (via $20 ChatGPT), Gemini 2.5 Pro (free on Gemini app), or Claude 4 Opus (via $20 Claude). The older models are the default and far worse.
   - **Speak & listen, don't just type & read**. I had to resist the temptation to ignore ChatGPT response when a colleague read it out. We are patient with and have respect for humans but not for AI. The value we derive requires both. Suggestion: Speak and listen rather than type and read. It's hard to skip and easier to stay in the present. It's also easier to ramble than type.
   - **Keep an impossibility list**. There is a jagged edge that moves. When you note down what's impossibile today and retry every month, you can see how that edge shifts.
