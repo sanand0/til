@@ -2,6 +2,45 @@
 
 ## Aug 2025
 
+- 22 Aug 2025. Notes from discussion on education with Srikanth Nadhumuni
+  - Indian higher education has done better, e.g. with the IITs, than primary education, where ASER _consistently_ shows that 5th graders can't read 2nd grade books.
+  - The National Education Policy (NEP) is focusing on FLN (foundational numeracy and literacy). The goal is universal FLN by 2027.
+  - Teacing FLN in local languages beats English. Teachers, parents, community support are high. Learning English as a second language is faster. Other countries (France, Germany, Japan) do this.
+  - Voice LLMs could help, but may not be toddler-ready, nor strong enough in all local langauges.
+  - But high-quality textbook translation with local nuances is a one-time human-in-the-loop effort that AI can support.
+  - India's 1 crore teachers have a mandatory 50 hrs/year training requirement that is largely under-implemented.
+  - Senthil Mullainathan is working on extracting features from student answers to questions and generating remedial content purely as a black-box. Results beat explainability.
+- 23 Aug 2025. Pilots like to have fun, too. While awaiting landing clearance at Kolkata, our IndiGo pilot weaved tight curves _just_ above the clouds at steep angles, giving us stunning views and a mildly thrilling experience. (Or maybe they were just following a flight path.)
+- 22 Aug 2025. ⭐ Creating systems that rapidly improve from feedback is the key to success. Rapidity, quality of improvement, quantity of feedback are all enablers.
+- 22 Aug 2025. CBDC (Central Bank Digital Currency) is RBI's Web 3.0 protocal. It allows purpose-driven transfers, e.g. money meant for education can only be spent on education.
+- 21 Aug 2025. Reading the [Obsidian docs](https://help.obsidian.md/syntax) is like a master class in Markdown note-taking. Features like [properties](https://help.obsidian.md/properties), [embedding YouTube](https://help.obsidian.md/embed-web-pages#Embed+a+YouTube+video), [bases](https://help.obsidian.md/bases), [tags](https://help.obsidian.md/plugins/tags), etc. provide food for thought. The [ObsidianMD subreddit](https://www.reddit.com/r/ObsidianMD/) has interesting tips.
+  - Summarize takeaways on top of each section
+  - Use atomic notes: one file per idea. Link liberally
+  - YAML front-matter you can query, e.g. tags, project, status, ...
+  - Use GFM admonitions, e.g. `> [!NOTE]`
+  - Store images in a predictable way, e.g. `![Alt text](./img/2025-08-21-screenshot.webp)` -- ALWAYS with alt text
+  - Use diff fences for edits / doc changes
+  - Task lists with inline dates, e.g. `- [ ] 2025-08-21 Draft a letter`
+- 21 Aug 2025. How to research better. [Abhishek Divekar](https://www.linkedin.com/in/ardivekar/)
+  - Have an objective when researching. Filter research based on that.
+  - Research backwards. Pick a relevant paper. Go through _relevant_ citations. Typically, there are only 1 or 2 _directly_ related ancestors.
+  - Don't waste time searching. Gemini Deep Research is a great way to find _and_ read papers.
+  - Don't read the abstract. Read the introduction, which _is_ the summary. It's just a page. (The abstract is an LLM-ized versionof the introduction. Not as effective.)
+- 19 Aug 2025. The crux of experimentation is the learning from a postmortem. From that perspective I have been experimenting a lot but not been documenting or learning from that. Decision logs with post mortem are a more apt device for me.
+- 18 Aug 2025. Meditation is about noticing distraction and returning to focus. So, distraction is necessary _and_ good. #beliefs
+- 17 Aug 2025. Notes from podcast with Daniel Kahnemann. The Knowledge Project.
+  - Happiness is pleasure in the moment. Satisfaction is the meaningful story of our life. When we _think_, we want satisfaction. When we _feel_, we want happiness. The thinking brain and feeling brain optimize for slightly different things. E.g. The thinking brain packs the calendar with satisfying tasks that the feeling brain feels unhappy executing Both are good for us. We don't know which matters more.
+  - Behavior change is harder than we think. Usually, it's better not to expect success in changing others, or ourselves. Instead, understand _why_ that behavior makes sense. Our behaviour is an equilibrium of forces. Weakening "bad" forces is easier than strengthening "good" forces, since it lowers tension. That's inversion!
+  - Behaviours tell us more about _situations_ than personality. We assume otherwise. That's an attribution error.
+  - Motivation is complex. People can do bad things for good reasons and vice versa.
+  - "Feelings get in the way of clear thinking." Example: I vibe-coded the last 2 questions of [TDS GA7](https://exam.sanand.workers.dev/tds-2025-05-ga7) on Claude Code. It didn't run. I delayed fixing it for 5 days, afraid it would a major effort. It ended up a 2 min fix. It _could_ have been major, but checking would have helped. Fear prevented that.
+  - Things that hamper clear thinking: intuition, emotion, beliefs. Beliefs are often formed based on people we admire or identify, not reason.
+    - Prefer rules, systems and processes. Willpower is an illusion.
+    - Delegate decisions to unemotional agents. (But agents misjudge perceived value of gain or loss!)
+    - Break down the problem, analyze it, THEM form an intuition. Be disciplined in delaying intuition or forming an opinion
+  - Environment shapes thinking but it's not obvious how, e.g. some people work better in noisy cafes. Some colors are more calming.
+  - Protect dissenters and dissent. It's painful and costly, and needs nurturing.
+- 17 Aug 2025. [NodeJS runs TypeScript files natively](https://nodejs.org/en/learn/typescript/run-natively).
 - 16 Aug 2025. Git [partial clone](https://git-scm.com/docs/partial-clone) lets you fetch files on-demand! E.g. `git clone --filter='blobs:size=100k' <repo>` will clone files under 100K and fetch the rest only on checkout. Over time, Git LFS capabilities will migrate into native Git. [Ref](https://tylercipriani.com/blog/2025/08/15/git-lfs/)
 - 16 Aug 2025. ⭐ From Daniel Kahneman, The Knowledge Project Podcast.
   - Key lesson. Have lower expectations. Behavior change is hard.
@@ -50,7 +89,7 @@
   15. Agreements (MSAs/SLAs, pre-negotiated contracts)
   16. IP (copyrights, trade secrets, trademarks)
   17. Health & energy reserves
-- 15 Aug 2025. ⭐ Intense negative emotions get in the way of clear thinking. Curiosity, humor, kindness, and gratitude help. (Intense positive emotions like awe, passion, etc. help creativity and are not so bad.)
+- 15 Aug 2025. ⭐ Intense negative emotions get in the way of clear thinking. Curiosity, humor, kindness, and gratitude help. (Intense positive emotions like awe, passion, etc. help creativity and are not so bad.) #beliefs
 - 15 Aug 2025. I like to think I'm a Python expert. When I saw a client use this code, I told her the indentation is wrong. It ran just fine. And people think only LLMs hallucinate.
 
   ```python
@@ -63,7 +102,7 @@
 
 - 14 Aug 2025. Turns out Indian English is a well studied topic. Indianisms like "can able to", "need not to", "why because…", "if suppose…", "return back", "revert back", "angry on", "discuss about", "order for", "do one thing…", "give me a missed call", "what is your good name", "kindly adjust", "we are like that only", "he is coming only", "today itself", "now only", "prepone", "pass out (of college)", "out of station", "do the needful", "hotel", "batchmate", "cousin-brother / cousin-sister", "I have a doubt", "I am understanding", "she is knowing", "you’re coming, no?" etc. are discussed in [Pingali Sailaja's Indian English](https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/Indo-European/Germanic/English%2C%20Indian%20%28Sailaja%29.pdf). [ChatGPT](https://chatgpt.com/share/689dcf8d-2ce4-800c-8553-e419eafd4891)
 - 14 Aug 2025. Astral is [building pyx](https://astral.sh/blog/introducing-pyx) - a paid PyPi alternative. It aims to solve problems like PyTorch CUDA builds. Knowing them, it'll be fabulous. I look forward to when they build a Python hosting service.
-- 12 Aug 2025. Blindspots continue to be the insight with maximum RoI. Discovering something we're not even aware we're unaware of opens up the largest possibilities. My top sources to discover blindspots are:
+- 12 Aug 2025. Blindspots continue to be the insight with maximum RoI. Discovering something we're not even aware we're unaware of opens up the largest possibilities. #beliefs My top sources to discover blindspots are:
   - Feedback. Especially feedback we reject, ignore, or miss.
   - Things we run/shy away from.
 - 11 Aug 2025. Discussion at [PyConSG Edu Summit 2025](https://pycon.sg/edusummit.html). [Padlet](https://padlet.com/pyconsg/pyconsg-education-summit-2025-topic-how-to-prevent-students--57puwelj2o7rgadd)
@@ -255,7 +294,7 @@
   - **`node:test`** is a full-featured test framework with `--watch` and coverage.
 - 05 Aug 2025. Concise explanations speed up decisions because they're faster to read and understand (obvious). They're also easier to combine with other ideas (less obvious). [#](https://stephango.com/concise)
 - 05 Aug 2025. I've been uncertain about [htmx](https://htmx.org/) for some time now. This tutorial, [HTMX is hard, so let's get it right](https://github.com/BookOfCooks/blog/blob/master/htmx-is-hard-so-lets-get-it-right.md), convinced me that it's too far from my mental model, so I'm unlikely to ever use it.
-- 05 Aug 2025. Slow, effortful practice (spaced recall, interleaving topics, self-testing) builds lasting knowledge but looks inefficient and doesn't help with exams. [#](https://chatgpt.com/share/689180c7-03a0-800c-a5d4-5a455429e97f)
+- 05 Aug 2025. ⭐ Slow, effortful practice (spaced recall, interleaving topics, self-testing) builds lasting knowledge but looks inefficient and doesn't help with exams. [#](https://chatgpt.com/share/689180c7-03a0-800c-a5d4-5a455429e97f) #beliefs
 - 05 Aug 2025. [GitDoc VS Code extension](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc) auto-commits and syncs notes. I dropped [gitwatch](https://github.com/gitwatch/gitwatch) in favor of this.
 
   Here's my earlier `gitwatch` script:
@@ -279,7 +318,7 @@
   - **One-way door**. Data can't be unshared. Don't scrap brakes dreaming of perfect roads. Anticipate tyrannical regimes / cultures.
   - **Not your call**. You don't share your neighbour's medical records.
 - 04 Aug 2025. [One Punch Man](https://en.wikipedia.org/wiki/One-Punch_Man) is available as [manga](https://onepunchmanmangaa.com/). I watched the anime first and assumed that came first. Apparently not.
-- 04 Aug 2025. In "kind" environment (stable rules, rapid and accurate feedback), specialize. In "wicked" environments (rules shift, feedback is noisy/late), generalize. [ChatGPT](https://chatgpt.com/share/68902bbf-bf58-800c-b6b5-9ae787fa9c26)
+- 04 Aug 2025. ⭐ In "kind" environments (stable rules, rapid and accurate feedback), specialize. In "wicked" environments (rules shift, feedback is noisy/late), generalize. [ChatGPT](https://chatgpt.com/share/68902bbf-bf58-800c-b6b5-9ae787fa9c26)
 - 03 Aug 2025. "In fact, React Native looks set to become the most engine-agnostic JavaScript runtime around". [The Many, Many, Many, JavaScript Runtimes of the Last Decade](https://buttondown.com/whatever_jamie/archive/the-many-many-many-javascript-runtimes-of-the-last-decade/)
 - 03 Aug 2025. [OMDb](https://www.omdbapi.com/) (simple) and [TMDb](https://www.themoviedb.org/) (comprehensive) are API-friendly alternatives to the IMDb.
 - 03 Aug 2025. [copyparty](https://github.com/9001/copyparty) seems one of the most feature-rich file servers out there. Single Python file, runs on any OS, works with any client, and optimized for speed. [Video](https://youtu.be/15_-hgsX2V0)
@@ -333,13 +372,13 @@
     Access-Control-Allow-Methods: *
   ```
 - 02 Aug 2025. From [A.I. Is About to Solve Loneliness. That’s a Problem](https://www.newyorker.com/magazine/2025/07/21/ai-is-about-to-solve-loneliness-thats-a-problem): “Blindly stifling every flicker of boredom with enjoyable but empty distractions precludes deeper engagement with the messages boredom sends us about meaning, values, and goals.” Maybe the best thing about boredom is what it forces us to do next.
-- 02 Aug 2025. Here's when be candid vs polite. [ChatGPT](https://chatgpt.com/share/688e29be-d4bc-800c-b5f5-527c3502bf78)
-
-  |             | High trust     | Low trust        |
-  | ----------- | -------------- | ---------------- |
-  | Important   | Candor         | Earn trust first |
-  | Unimportant | Follow culture | Polite           |
-
+- 02 Aug 2025. Here's when be candid vs polite. #beliefs [ChatGPT](https://chatgpt.com/share/688e29be-d4bc-800c-b5f5-527c3502bf78)
+  - If there's high trust (i.e. the other person trusts you):
+    - Important topic/decision: Be candid
+    - Unimportant: Follow culture (e.g. in Japan, you'd be polite; in The Netherlands, you'd be candid)
+  - Low trust:
+    - Important: Earn trust first
+    - Unimportant: Be polite
 - 02 Aug 2025. I didn't realize that it was [Luis Alvarez](https://en.wikipedia.org/wiki/Luis_Walter_Alvarez) (whom I know from his work on the bubble chamber) is the _same_ person who figured out that [an asteroid killed dinosaurs](https://en.wikipedia.org/wiki/Alvarez_hypothesis). He also used muon tomography to search pyramids for hidden chambers and figured out Kennedy was shot from behind. Added his biography, [Collisions](https://www.goodreads.com/book/show/218569821-collisions) to my [to-read list](https://www.goodreads.com/review/list/39713492-s-anand?ref=nav_mybooks&shelf=to-read&sort=date_added). [Ref](https://en.wikipedia.org/wiki/Luis_Walter_Alvarez#Scientific_detective_work)
 - 01 Aug 2025. Most CDNs use `package.json` `"exports"` for the default URL of npm packages.
   - [jsDelivr](https://www.jsdelivr.com/) uses `jsDelivr` > `browser` > `main` (does not use `exports` - a notable exception)

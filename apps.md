@@ -2,6 +2,45 @@
 
 Descriptions of apps I felt would be interesting or useful to build (or find).
 
+<!--
+
+- Policy-as-code app. Checklist from doc. Apply checklist to data / doc inputs.
+- Deployable easy-to-use lightweight RAG chatbot.
+- Code similarity checker library based on TDS Project evals.
+- Continuous software engineer. Testing. Refactoring. Debugging. Extracting libraries.
+- Continous researcher. Keeps researching, learning, adding to idea base.
+- Interviewer gets (voice) inputs across the organization and does strategy consulting by solving individual & team bottlenecks, pain points.
+- Learning gaps identifier. Given questions and student answers, identify concepts (features), and which of these students understand well / don't understand.
+
+-->
+
+- 19 Aug 2025. **Implement apply_patch in JS**. #MEDIUM GPT models are trained on a [specific diff format](https://cookbook.openai.com/examples/gpt4-1_prompting_guide#appendix-generating-and-applying-file-diffs) useful for code diff-patching. [PseudoPatch](https://github.com/12458/PseudoPatch) is a Python package that implements their `apply_patch()` function. Implement this in JavaScript
+- 18 Aug 2025. **LLM Agent POC**. #MEDIUM Create a browser-based LLM agent proof-of-concept that calls LLMs + tools multiple times to achieve an action.
+
+  - The core logic is provided by the Python loop below - but it needs to be in JavaScript.
+
+    ```python
+    def loop(llm):
+        msg = [user_input()]  # App begins by taking user input
+        while True:
+            output, tool_calls = llm(msg, tools)  # ... and sends the conversation + tools to the LLM
+            print("Agent: ", output)  # Always stream LLM output, if any
+            if tool_calls:  # Continue executing tool calls until LLM decides it needs no more
+                msg += [ handle_tool_call(tc) for tc in tool_calls ]  # Allow multiple tool calls (may be parallel)
+            else:
+                msg.append(user_input())  # Add the user input message and continue
+    ```
+
+  - For example, here's a sample conversation:
+    - User: Interview me to create a blog post.
+    - Agent: output = Sure! What's the post about?, tool_calls = []
+    - User: About IBM
+    - Agent: output = Let me search for IBM, tool_calls = [search("IBM")]
+    - Agent: output = OK, IBM is a big company blah blah blah, tool_calls = []
+    - User: ...
+  - Include Google Search API (just snippets), [AI Pipe](https://github.com/sanand0/aipipe) proxy API, and JavaScript code execution as the 3 tools. Use the [API Agent code base](https://github.com/sanand0/apiagent) for a rough idea of how to implement these.
+  - Keep the code _very_ simple and minimal. Use [bootstrap-llm-provider](https://github.com/sanand0/bootstrap-llm-provider) to pick the provider + model and use OpenAI tool calls. Use [bootstrap-alert](https://github.com/sanand0/bootstrap-alert) to show errors.
+
 - 16 Aug 2025. **Browser Chat**. #VERY-HARD Command line chat app to interact with the browser. Like Claude Code + Edge Copilot.
   - The user opens a page on Chrome/Edge with remote debugging enabled (http://localhost:9222/json)
   - On the command line, they run `uv run llmform.py --dir ~/notes --dir ~/personal`

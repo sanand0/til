@@ -1,5 +1,9 @@
 # Ideator
 
+- 16 Aug 2025. [IDEA Live coding asset talks](https://chatgpt.com/c/68a158ca-1f94-8325-bb7a-9f1d2c409ea8)
+  - Delete-Driven Development. Keep deleting code until it fails, then rebuild minimally.
+  - No-Editor Coding. Pure prompting to build, test, and deploy the app.
+  - Audience-Sourced Prompt ETF. Collect micro-prompts from audience. Run in parallel. Evaluate against tests. Create index of top prompts. Compare with expert.
 - 16 Aug 2025. [IDEA Mood market portfolio](https://chatgpt.com/c/68a083b4-675c-8322-93f0-f83ac7f0464b). Document the mood require for tasks. Work on tasks aligned with your mood.
 - 16 Aug 2025. [IDEA Premortem failing tests first](https://chatgpt.com/c/68a07ec3-e7bc-832f-a584-433e35cb0b72). LLM runs a pre-mortem, generate tests that fail first, and THEN writes the code.
 - 14 Aug 2025. [IDEA ReleaseLake data releases as data lakes](https://chatgpt.com/c/689d7a3b-e1b4-8320-a013-bd78cd67f1b5). Release datasets in GitHub Releases + CloudFlare R2 as versioned, sharded `.parquet` with schema & dbmate migrations, suitable for use as a data lake.

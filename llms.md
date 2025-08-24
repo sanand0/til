@@ -2,6 +2,67 @@
 
 ## Aug 2025
 
+- 23 Aug 2025. Since LLMs allow ANYONE to become "good enough" in most fields (marketing, medicine, management), and so on, here're are my guesses on the impact. [ChatGPT](https://chatgpt.com/c/68a3396c-07b4-8321-a9f0-08b85b797697)
+  - Companies-of-one will grow. Sole founder can handle support functions.
+  - Specialists will generalize. Consultants will code. Marketers will design.
+  - Wages will compress. Seniors will earn less as juniors can do more.
+  - Layers will compress. Organizations need fewer hierarchies as 1 person can do more.
+  - Shadow apps will grow. Anyone can code. Users build apps with prompts, sheets, agents, outside of IT SDLC. Like Excel sheets.
+  - Governance will grow. Non-experts are acting like experts. Validation is more important.
+  - Uneconomical apps will thrive. 1:1 tutoring. Continous decision making or A/B testing.
+  - Leaders will convince better. Persuasion scales.
+  - Brand (authenticity, trust, skill), Channel (distribution, audience) and Data are primary differentiators.
+- 23 Aug 2025. Codex and Codex CLI now support image attachments.
+- 22 Aug 2025. Meta-prompts _with placeholders_ is a prompt-improvement technique (similar to LLM interviewing). Have LLMs create the prompt with "fill-in-the-blanks". This makes it much easier for people to fill out.
+- 22 Aug 2025. [MassGen](https://massgen.ai/) is a multi-agent orchestrator. Early days, experimental. It has multiple agents answer, then vote on each others' answers, picking the best.
+- 22 Aug 2025. [DSPy](https://dspy.ai/) auto-optimizes prompts based on input-output pairs or evals. Typical improvements are ~10-20%. My opinion: avoid. It's a good idea, but has too much abstraction that hides the implementation. Worth learning from but not implementing.
+- 22 Aug 2025. How LLM "Attention" works: It takes each word's embedding, moves it closer to similar words' embeddings (e.g. Apple moves towards phone or orange depending on context). More similar words have a higher pull, like gravity. [Luis Serrano](https://serrano.academy/)
+  - Similarity isn't symmetric. E.g. "Coke" moves "drink" more towards it, but "drink" pulls "Coke" less, since "drink" could refer to other things.
+  - Think of the pull ("Tinder similarity") as "what A wants" (keys) multipled by "what B offers" (queries)
+- 21 Aug 2025. MCPs aren't much more useful than tool calling _for developers_. They're powerful when packaging for external parties (non-developers, other teams, clients, etc.). Developers can work just fine with tool calling. [Nitin Agarwal](https://www.linkedin.com/in/agnitin/)
+- 21 Aug 2025. [Cybersecurity AI](https://github.com/aliasrobotics/cai) is an open-source LLM-based cyber-security tool that auto scans networks for vulnerabilities.
+- 21 Aug 2025. ⭐ LLMs have _solved_ several complex tasks (e.g. topic modelling, summarization). We need to adopt these as building blocks, like functions, and build better solutions. [Abhishek Divekar](https://www.linkedin.com/in/ardivekar/)
+- 20 Aug 2025. `codex -c model_reasoning_effort=high` lets you run Codex CLI with highest reasoning effort. This has a separate limit that resets every 5 hours. https://x.com/thsottiaux/status/1958035261947781262
+- 20 Aug 2025. Truly agentic systems have high Autonomy, Complexity, _and_ Reliability. Workflows have low autonomy. Agentic systems with high autonomy currently aren't very complex or reliable, but will improve over time. [Deepak Sharma](https://www.linkedin.com/in/deepaksharma09/)
+- 20 Aug 2025. Allow humans to intervene _while_ agent loops execute, even unsolicited, to improve collaboration. [Deepak Sharma](https://www.linkedin.com/in/deepaksharma09/)
+- 20 Aug 2025. Given the early, experimental days of AI, the better KPIs might be more about experimentation (e.g. number of prototypes) than operational (e.g. cost reduction). [Krishnakumar Menon](https://www.linkedin.com/in/menonkrishna)
+- 20 Aug 2025. ⭐ **Policy-as-code** is an emerging theme. Allow users to create their own guardrails policy. Or, take existing policy documents and convert them into an LLM-based evaluator. [Krishnakumar Menon](https://www.linkedin.com/in/menonkrishna)
+- 20 Aug 2025. ⭐ "Potentially nitpicky but competitive advantage in AI goes not so much to those with data but those with a data engine: iterated data aquisition, re-training, evaluation, deployment, telemetry. And whoever can spin it **fastest**. Slide from Tesla to ~illustrate but concept is general." [Andrej Karpathy](https://x.com/karpathy/status/1599852921541128194), Dec 2022
+- 20 Aug 2025. The skills AI coding needs are very similar to tech-lead's or an architect's. [Tanika Gupta](https://www.linkedin.com/in/tanikagupta/) #ai-coding
+  - Estimating tool capability & task allocation
+  - Task breakdown
+  - Spec-ing: which of user personas, user-journey maps, wireframes, technical architecture, psuedo-code
+  - Standards: tech stack, tools, linters, security, doc standards
+  - Git versioning & collaboration
+  - Code review. (Using AI.) Providing **feedback**. Modularity, naming, ...
+  - Automated validation
+  - Post-mortem. Learning from errors _and_ successes, choices LLM made
+- 20 Aug 2025. The ROI of prompting carefully and using meta-prompts is high. Prompt clarity reduces iterations & dead-ends. The initial time spent (10-15 min) pays off with just a single reduced iteration (time to generate + review). [Tanika Gupta](https://www.linkedin.com/in/tanikagupta/)
+- 20 Aug 2025. ⭐ Prefer passing a `spec.md` to AI coding agents rather than directly typing-in prompts. This lets you meta-prompt _and_ (collaboratively) iterate on the `spec.md`, version the prompts as specs, and generate specs as documentation. [Tanika Gupta](https://www.linkedin.com/in/tanikagupta/)
+- 20 Aug 2025. ⭐ Models need environments to learn. So far, we have been providing training data. But an environment to interact with, and learn from by itself, is more powerful. That requires a standard for environments. This is a powerful emerging area.
+- 19 Aug 2025. Gemini API includes a url_context tool to explicitly scrape websites. [API](https://ai.google.dev/gemini-api/docs/url-context#rest)
+- 19 Aug 2025. Ontologies are more than taxonomies or schemas. They're truths or rules, e.g., “no person has more than two parents”. Helps consistency checking and inference. [#](https://chatgpt.com/c/68a531ca-8c0c-832e-ad8c-a20865344f2c)
+  - Terminological knowledge (T-Box) is domain rules and constraints (e.g., "a student is a person who attends a course").
+  - Assertional knowledge (A-Box) is instance-level facts (e.g., "Mary attends Physics 101").
+  - Tools & Formats
+    - [SHACL](https://www.w3.org/TR/shacl/). A W3C language for validating RDF graphs. [ShEx](https://shex.io/) is easier ad popular.
+    - [Notation3](https://w3c.github.io/N3/spec/). A W3C assertion and logic language which is a superset of RDF.
+    - [EYE Reasoner](https://github.com/josd/eye). Prolog-based N3 (Notation3) reasoner. CLI + API-friendly. Can perform rule-based reasoning and generate new triples.
+    - [HermiT](http://www.hermit-reasoner.com/). OWL 2 DL reasoner. Can check consistency, classify ontologies, compute entailments. CLI and Java API. Modern, maintained.
+    - [Apache Jena](https://jena.apache.org/). Java framework for RDF/SPARQL. Built-in reasoners (RDFS, OWL mini/micro/full). CLI via `riot`, `arq` (SPARQL query engine). Popular for RDF graph stores + inference.
+- 19 Aug 2025. Do developers feel this way? #ai-coding
+
+  |          | Boring        | Fun          |
+  | -------- | ------------- | ------------ |
+  | High RoI | Reuse library | AI coding    |
+  | Low RoI  | Copy-paste    | Learn & code |
+
+- 19 Aug 2025. In another example of vibe coding, an instructor for my TDS course vibe-coded most of an [exam](https://exam.sanand.workers.dev/tds-2025-05-roe2) using Copilot and Sonnet. 6/8 questions worked one-shot. The two #ai-coding failures were interesting:
+  - One failed because of [sample vs population stats](https://chatgpt.com/share/68a3fd83-c9c4-800c-8b0e-4a8c46858024). Copilot asked for sample variance but coded `variance()` instead of `sampleVariance()`.
+  - Another failed because of [rounding off](https://chatgpt.com/share/68a3fdad-96e0-800c-8e26-441127ccb713). NumPy code rounds off differently from Python or JS code.
+- 18 Aug 2025. #ai-coding can make us overconfident. (At least, it makes _me_ overconfident.) They create surprisingly good output, but only ~20% of the time. I cannot _commit to a specific task_ based on that. Instead, it's better to rely on AI coding estimates for portfolios, e.g. promise to share _something_ cool without mentioning what. Or do something cool first, _then_ share.
+- 17 Aug 2025. [Codex](https://chatgpt.com/codex) can clone any GitHub repo. So I can ask it to pull one or more repos, understand their code, and use that as a template or reference. This makes my repositories (and others') reusable templates. Using newer libraries and platforms becomes easier, too. #ai-coding
+- 17 Aug 2025. [Tracking AI](https://www.trackingai.org/home) runs an IQ test on various LLMs every week. GPT 5 Pro leads, currently, followed by Claude 4 Opus and Gemini 2.5 Pro. It's surprising how far behind GPT 5 is at the moment.
 - 17 Aug 2025. LLMs are faster than me. So me learning and doing what the LLM says is a bottleneck. Get out of the way. For example do not learn. Do not execute. Do not verify. Give LLMs the tools to deploy, verify and iterate to improve.
 - 16 Aug 2025. Developers are encoding their _entire_ SDLC workflow into Claude commands [ChatGPT](https://chatgpt.com/c/68a0139b-3044-8327-b2f0-51940f89b8ec) #ai-coding
   - Commands are used for:
@@ -96,6 +157,7 @@
   - [Others](). Niche or emerging tools. Good: Varies by platform. But: Less adoption, fewer reviews
 - 13 Aug 2025. Training companies are offering "Labs-as-a-service" as part of their AI training. Corporates ban LLMs, but need employees trained. Trainers offer a bundled package where they also offer access to LLMs are part of their course. Interesting business-model value-add.
 - 13 Aug 2025. ⭐ I'm meta-AI-coding. I wrote a crude prompt in `prompts.md`, told Codex "prompts.md has a prompt under the "# Improve schema" section starting line 294. This is a prompt that will be passed to Claude Code to implement. Ask me questions as required and improve the prompt so that the results will be in line with my expectations, one-shot." After a few discussions, it generated [this remarkable prompt](https://github.com/sanand0/slidegen/blame/de953817266357b00d80d4fa3e17def02e0de292/prompts.md#L296-L502). This prompt was easy for me to review AND easy for Claude Code to understand because of the lack of inconsistencies.
+  - Use the **Ask-Code pattern**. In Codex, speak the requirement and have it rewrite the prompt asking clarifying questions _pressing the **Ask** button_ instead of Code. Then, answer its questions. _Then_ press **Code**.
 - 13 Aug 2025. A Forward Deployed Engineer (FDE) is a hybrid role, part software engineer, part product manager, and part consultant, focused on deeply integrating a company's technology with a specific client's needs.
 - 13 Aug 2025. Based on what I've seen of AI coding, new developers need to learn these skills. #ai-coding
   - Context engineering
