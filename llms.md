@@ -18,7 +18,7 @@
 - 22 Aug 2025. [DSPy](https://dspy.ai/) auto-optimizes prompts based on input-output pairs or evals. Typical improvements are ~10-20%. My opinion: avoid. It's a good idea, but has too much abstraction that hides the implementation. Worth learning from but not implementing.
 - 22 Aug 2025. How LLM "Attention" works: It takes each word's embedding, moves it closer to similar words' embeddings (e.g. Apple moves towards phone or orange depending on context). More similar words have a higher pull, like gravity. [Luis Serrano](https://serrano.academy/)
   - Similarity isn't symmetric. E.g. "Coke" moves "drink" more towards it, but "drink" pulls "Coke" less, since "drink" could refer to other things.
-  - Think of the pull ("Tinder similarity") as "what A wants" (keys, which pull) multipled by "what B offers" (queries, which are pulled)
+  - Think of the pull ("Tinder similarity") as "what A wants" (keys, which pull) multipled by "what B offers" (queries, which are pulled). This leads to two different similarity matrices.
 - 21 Aug 2025. MCPs aren't much more useful than tool calling _for developers_. They're powerful when packaging for external parties (non-developers, other teams, clients, etc.). Developers can work just fine with tool calling. [Nitin Agarwal](https://www.linkedin.com/in/agnitin/)
 - 21 Aug 2025. [Cybersecurity AI](https://github.com/aliasrobotics/cai) is an open-source LLM-based cyber-security tool that auto scans networks for vulnerabilities.
 - 21 Aug 2025. ⭐ LLMs have _solved_ several complex tasks (e.g. topic modelling, summarization). We need to adopt these as building blocks, like functions, and build better solutions. [Abhishek Divekar](https://www.linkedin.com/in/ardivekar/)
