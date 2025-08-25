@@ -1,5 +1,6 @@
 # Ideator
 
+- 25 Aug 2025. [IDEA ]
 - 16 Aug 2025. [IDEA Live coding asset talks](https://chatgpt.com/c/68a158ca-1f94-8325-bb7a-9f1d2c409ea8)
   - Delete-Driven Development. Keep deleting code until it fails, then rebuild minimally.
   - No-Editor Coding. Pure prompting to build, test, and deploy the app.
