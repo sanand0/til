@@ -2,6 +2,7 @@
 
 ## Aug 2025
 
+- 25 Aug 2025. [rclone](https://rclone.org/) is the cleanest way to copy files from Google Drive. I ran `rclone config` to set it up with Google Drive via [native app OAuth key](https://developers.google.com/identity/protocols/oauth2/native-app). Then, `rclone copy "gdrive:" transcripts/ --drive-shared-with-me --include "**Transcript*.docx"` copied all transcripts _including_ "Shared with me" files (not just drives). The `--drive-shared-with-me` enables this.
 - 22 Aug 2025. Notes from discussion on education with Srikanth Nadhumuni
   - Indian higher education has done better, e.g. with the IITs, than primary education, where ASER _consistently_ shows that 5th graders can't read 2nd grade books.
   - The National Education Policy (NEP) is focusing on FLN (foundational numeracy and literacy). The goal is universal FLN by 2027.
