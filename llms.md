@@ -2,6 +2,7 @@
 
 ## Aug 2025
 
+- 25 Aug 2025. [What makes Claude Code so damn good](https://minusx.ai/blog/decoding-claude-code/) has a _detailed_ review of Claude Code's system prompt and is a great for ideas on using LLMs for coding. #ai-coding
 - 25 Aug 2025. With AI coding, task breakdown, context right-sizing, and automated testing are key levers. #ai-coding
 - 23 Aug 2025. Since LLMs allow ANYONE to become "good enough" in most fields (marketing, medicine, management), and so on, here're are my guesses on the impact. [ChatGPT](https://chatgpt.com/c/68a3396c-07b4-8321-a9f0-08b85b797697)
   - Companies-of-one will grow. Sole founder can handle support functions.
