@@ -2,6 +2,27 @@
 
 ## Aug 2025
 
+- 31 Aug 2025. [The Great Refactor](https://www.thegreatrefactor.org/) is refactoring critical open-source C code to Rust using Claude Code, since 70% of vulnerabilities are memory related and Rust is memory-safe. No repo/docs yet. #ai-coding
+- 30 Aug 2025. This [CodeMonkeys paper](https://arxiv.org/abs/2501.14723) suggests running a [mixture of agents](https://docs.together.ai/docs/mixture-of-agents) in parallel for multiple code + test tasks and auto-pick the best by running and LLM-rewriting tests. #ai-coding
+- 30 Aug 2025. We think a new pricing model _might_ emerge for outsourced knowledge work that leads to lower client cost & quality at higher margins. [ChatGPT](https://chatgpt.com/c/68b2f9ea-2e68-832e-8aa1-1e0fed5fb0c3)
+  - LLMs do the task; multiple LLMs cross-check.
+  - Three tiers: **Auto-pass** (no human), **Light review**, **Full review**.
+  - Each tier has a clear **price** and **SLA**.
+- 30 Aug 2025. Using LLMs as validators is one of the safest ways of introducing LLMs into a process. If the human ignores it, no loss. If it spots new errors or the human gets new ideas, quality improves at low cost.
+- 29 Aug 2025. There's emerging evidence that jobs _automated_ by (not augmented or unaffected by) AI have fewer entry-level jobs. Experienced workers are less affected. Compensation is affected less. [Canaries in the Coal Mine](https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/)
+- 29 Aug 2025. [CloudFlare AutoRAG](https://developers.cloudflare.com/autorag/) lets you index any website and expose it as an API + Chatbot with a model of your choice. This is available on the free tier, too. The API follows [NLWeb](https://github.com/nlweb-ai/NLWeb), Microsoft's open standard for LLMs and MCPs to interact with websites in natural language.
+- 29 Aug 2025. Cloudflare has an [image transformation API](https://developers.cloudflare.com/images/transform-images/transform-via-url/) that also acts as a CDN. Apart from basic transformations, it can auto detect and crop faces, remove backgrounds, and more.
+- 28 Aug 2025. [Codex CLI](https://developers.openai.com/codex/cli/) has [several updates](https://github.com/openai/codex/releases/tag/rust-v0.24.0)
+  - [VS Code plugin](https://developers.openai.com/codex/ide) with remote container execution
+  - Drag & drop image support [PR](https://github.com/openai/codex/pull/2567) [Docs](https://github.com/openai/codex/blob/main/docs/getting-started.md#image-input)
+  - Queued (editable) messages [PR](https://github.com/openai/codex/pull/2637)
+  - Web search via `--search` [PR](https://github.com/openai/codex/pull/2371)
+  - `Esc-Esc` to edit previous messages [Docs](https://github.com/openai/codex/blob/main/docs/getting-started.md#escesc-to-edit-a-previous-message)
+- 28 Aug 2025. Our team passed an image to an LLM for OCR (especially to identify formatting, e.g. bold, italics, etc.), then passed the output _and_ the image to another LLM for improvement. Interestingly, the best LLM (Gemini 2.5 Pro, for this sample of 8 images) out-performed the two-stage workflow. Perhaps incorrect results confuse more than the correct results help? This needs more research.
+- 28 Aug 2025. OpenAI now has a series of [llms.txt](https://cdn.openai.com/API/docs/txt/llms.txt) URLs.
+- 28 Aug 2025. Rust seems to catch errors better at compile-time than many typed languages like TypeScript. That makes it better for larger projects (or for AI coding). [The unexpected productivity boost of Rust](https://lubeno.dev/blog/rusts-productivity-curve) #ai-coding
+- 25 Aug 2025. [What makes Claude Code so damn good](https://minusx.ai/blog/decoding-claude-code/) has a _detailed_ review of Claude Code's system prompt and is a great for ideas on using LLMs for coding. #ai-coding
+- 25 Aug 2025. With AI coding, task breakdown, context right-sizing, and automated testing are key levers. #ai-coding
 - 23 Aug 2025. Since LLMs allow ANYONE to become "good enough" in most fields (marketing, medicine, management), and so on, here're are my guesses on the impact. [ChatGPT](https://chatgpt.com/c/68a3396c-07b4-8321-a9f0-08b85b797697)
   - Companies-of-one will grow. Sole founder can handle support functions.
   - Specialists will generalize. Consultants will code. Marketers will design.
@@ -18,7 +39,9 @@
 - 22 Aug 2025. [DSPy](https://dspy.ai/) auto-optimizes prompts based on input-output pairs or evals. Typical improvements are ~10-20%. My opinion: avoid. It's a good idea, but has too much abstraction that hides the implementation. Worth learning from but not implementing.
 - 22 Aug 2025. How LLM "Attention" works: It takes each word's embedding, moves it closer to similar words' embeddings (e.g. Apple moves towards phone or orange depending on context). More similar words have a higher pull, like gravity. [Luis Serrano](https://serrano.academy/)
   - Similarity isn't symmetric. E.g. "Coke" moves "drink" more towards it, but "drink" pulls "Coke" less, since "drink" could refer to other things.
-  - Think of the pull ("Tinder similarity") as "what A wants" (keys) multipled by "what B offers" (queries)
+  - Think of the pull ("Tinder similarity") as "what A wants" (key matrix, which pulls other words) multipled by "what B offers" (query matrix, which is pulled by other words). This leads to two different similarity matrices.
+  - Multi-head attention is where a neural net gives different weightages to different similarity matrices based on context.
+  - Value matrix transforms the embedding space so that the next best next-word is more similar.
 - 21 Aug 2025. MCPs aren't much more useful than tool calling _for developers_. They're powerful when packaging for external parties (non-developers, other teams, clients, etc.). Developers can work just fine with tool calling. [Nitin Agarwal](https://www.linkedin.com/in/agnitin/)
 - 21 Aug 2025. [Cybersecurity AI](https://github.com/aliasrobotics/cai) is an open-source LLM-based cyber-security tool that auto scans networks for vulnerabilities.
 - 21 Aug 2025. ⭐ LLMs have _solved_ several complex tasks (e.g. topic modelling, summarization). We need to adopt these as building blocks, like functions, and build better solutions. [Abhishek Divekar](https://www.linkedin.com/in/ardivekar/)

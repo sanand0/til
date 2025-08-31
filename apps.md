@@ -85,6 +85,7 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 
   - Note: the LLM should not emit the full output. It should only emit diffs, reducing output tokens and reducing output cost. (We are not reducing input tokens/cost -- we are sending the entire `--file` for now.)
   - (BTW, this is just one edit format. Aider supports multiple [edit formats](https://aider.chat/docs/more/edit-formats.html) that are commonly referenced as a standard. [Code Surgery](https://fabianhertwig.com/blog/coding-assistants-file-edits/) has a good walkthrough of various strategies.)
+  - We would also want to do this in JavaScript. Here's a chat that has some specs: [ChatGPT](https://chatgpt.com/share/68adb239-c27c-800c-8342-f9da8ecb9122)
 
 - 16 Aug 2025. **MCP in OpenAI API**. #EASY Explore [MCPs in the OpenAI API](https://platform.openai.com/docs/guides/tools-remote-mcp)
   - Create a static web app on GitHub pages
