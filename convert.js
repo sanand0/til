@@ -59,7 +59,6 @@ const renderHeader = (title) => /* html */ `
     <h1 class="display-4 fw-bold">${title}</h1>
     <p class="lead mb-0">
       <a class="link-dark link-offset-3" href="${SITE_BASE}">${SITE_SUBTITLE}</a> |
-      <a class="link-dark link-offset-3" href="recall.html">Recall</a> |
       <a class="link-dark link-offset-3" href="https://s-anand.net">S Anand</a>
     </p>
   </div>
@@ -384,6 +383,3 @@ notesByTag.forEach((notes, tag) => {
 // Generate RSS feed
 const rssContent = generateRSS(weeklyNotes);
 Deno.writeTextFileSync("public/feed.xml", rssContent);
-
-// Copy recall page
-Deno.copyFileSync("recall.html", "public/recall.html");
