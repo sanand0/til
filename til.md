@@ -1,7 +1,17 @@
 # Things I learned
 
+## Sep 2025
+
+- 06 Sep 2025. A quick way to get the docs for an npm package is `npm view package-name readme`. For PyPi, it's `curl -s https://pypi.org/pypi/package-name/json | jq -r .info.description`
+- 04 Sep 2025. [gitingest](http://gitingest.com/) has a [CLI](https://github.com/coderamp-labs/gitingest). `uvx gitingest https://github.com/owner/repo` fetches the code in the Git repo suitable for passing to an LLM.
+- 03 Sep 2025. You can use the `<script>` tag in XML to render RSS, as an alternative to XSLT. [Jake Archibald](https://jakearchibald.com/2025/making-xml-human-readable-without-xslt/)
+- 03 Sep 2025. [`browser-fs-access`](https://www.npmjs.com/package/browser-fs-access) is a polyfill for the [File System Access API](https://wicg.github.io/file-system-access/) and should be the go-to approach for reading and saving files via the browser.
+- 01 Sep 2025. To run a Python project directly from GitHub, use `uvx --from "git+https://github.com/owner/repo.git@branch" script-name`
+- 01 Sep 2025. [Github1s](https://github.com/conwnet/github1s) is a cool tool. Replace `github.com` with `github1s.com` to get a VS Code page that opens that repo. It's fast and very useful to browser repos. For example, <https://github1s.com/sanand0/tools-in-data-science-public> is my TDS course repo.
+
 ## Aug 2025
 
+- 31 Aug 2025. [`insertAdjacentHTML`](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML) is a great API but suffers from XSS vulnerabilities. The [TrustedHTML](https://developer.mozilla.org/en-US/docs/Web/API/TrustedHTML) API is an emerging standard to create sanitized HTML strings.
 - 30 Aug 2025. ⭐ **Habit tooling** can expand habit-building capacity. I already use tools to support my habits. [Habit stacking](https://jamesclear.com/habit-stacking) "sticks" new habits to old ones. By sticking new habits into existing tools, I can automate this. (For example, I extended my meeting `record` fish script with an `echo` reminding me to write the meeting goal, my role, practice kind candor, and measure effectiveness.)
 - 30 Aug 2025. ⭐ The crux of Arthashastra's advice on defeating an enemy is removing support:
   - मित्राणि भेदयेत्, मित्रं च शत्रोः। Dis-unite friends, enemies from their allies.

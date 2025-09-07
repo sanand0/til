@@ -24,7 +24,6 @@ jobs:
       - env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: deno run --allow-read --allow-write --allow-env --allow-net convert.js
-      - run: cp recall.html public/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: 'public'
