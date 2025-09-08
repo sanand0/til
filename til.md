@@ -2,6 +2,7 @@
 
 ## Sep 2025
 
+- 08 Sep 2025. The [Reod](https://coppermind.net/wiki/Reod) on [Elantris](https://coppermind.net/wiki/Elantris_(city)) might have been triggered by [Jaddeth](https://coppermind.net/wiki/Jaddeth) who might be an [Autonomy](https://coppermind.net/wiki/Autonomy) avatar. [ChatGPT](https://chatgpt.com/share/68be4c74-afa8-800c-b004-7a1565cb2487)
 - 06 Sep 2025. A quick way to get the docs for an npm package is `npm view package-name readme`. For PyPi, it's `curl -s https://pypi.org/pypi/package-name/json | jq -r .info.description`
 - 04 Sep 2025. [gitingest](http://gitingest.com/) has a [CLI](https://github.com/coderamp-labs/gitingest). `uvx gitingest https://github.com/owner/repo` fetches the code in the Git repo suitable for passing to an LLM.
 - 03 Sep 2025. You can use the `<script>` tag in XML to render RSS, as an alternative to XSLT. [Jake Archibald](https://jakearchibald.com/2025/making-xml-human-readable-without-xslt/)
