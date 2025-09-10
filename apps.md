@@ -20,7 +20,7 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
   - Self-architecting LLMOps. Write a CI scheduled pipeline that automatically improves its own code based on environment, logs, new data, etc.
 -->
 
-- 01 Sep 2025. **Implement hierarchical topic modeling**. #MEDIUM [`topicmodel`](https://github.com/sanand0/topicmodel/) generates names for each cluster independently. But topics are often related and can organized as a hierarchy.
+- 01 Sep 2025. [x] **Implement hierarchical topic modeling**. #MEDIUM [`topicmodel`](https://github.com/sanand0/topicmodel/) generates names for each cluster independently. But topics are often related and can organized as a hierarchy.
   - Do not use hierarchical clustering.
   - When sending the cluster details to the LLM for naming, have it create a 2-level hierarchy.
   - Use `/` to combine them in the hierarchy, i.e. the tag name will be `Parent tag / child tag`.
@@ -62,7 +62,7 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
   - The user can continue the chat on the CLI to suggest additional sources to provide answers, that the app uses to search / fill in answers.
   - The user can suggest replying to the emails on GMail using the local notes.
   - Or adding calendar entries on Google Calendar using a conference agenda from another tab. etc.
-- 16 Aug 2025. **DataGen**. #MEDIUM Create a synthetic data generator tool.
+- 16 Aug 2025. [x] **DataGen**. #MEDIUM Create a synthetic data generator tool.
   1. User enters their scenario in textbox (e.g. "Synthetic data to demonstrate credit card fraud using transaction data. Mid-sized, multiple tables, complex. Excel file")
   2. Click "Submit". This should send the scenario to an LLM asking it to
      - Think carefully and identify a schema, stating assumptions (e.g. number of rows to generate, table/column inter-relationships, output file format, etc.)
@@ -124,6 +124,6 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
     - When moving, the range slider preserves the duration, i.e. the start and end dates move at the same pace
     - When the end slider reaches the last date, stop the play button
     - When playing, the play button becomes a pause button that pauses playing when clicked
-- 15 Aug 2025. **Embedding classifier** #HARD #TODO
+- 15 Aug 2025. [x] **Embedding classifier** #HARD #TODO
   - Move LLM Foundry classify into a separate tool
   - Add a SOM, UMAP, or some 2D projection of embedding distances
