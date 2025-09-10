@@ -2,6 +2,12 @@
 
 ## Sep 2025
 
+- 10 Sep 2025. [`gtrending`](https://pypi.org/project/gtrending) is a Python package that fetches trending GitHub repos, users, etc. `uvx gtrending repos --language rust --since weekly` fetches trending Rust repos of the week.
+- 10 Sep 2025. [`astgrep`](https://ast-grep.github.io/) lets you search in code (across languages) using AST patterns. Like [semgrep](https://github.com/semgrep/semgrep) but [more](https://ast-grep.github.io/advanced/tool-comparison.html) about code search than security. `uvx --from ast-grep-cli ast-grep` runs from the CLI. Useful for [code rewriting](https://ast-grep.github.io/guide/rewrite/transform.html), fast [linting](https://ast-grep.github.io/guide/project/lint-rule.html), [code search](https://ast-grep.github.io/guide/pattern-syntax.html).
+- 10 Sep 2025. [`hurl`](https://github.com/Orange-OpenSource/hurl) is a CLI config-based HTTP automation tool. Useful for tests, bulk (templatized) HTTP requests, etc.
+- 10 Sep 2025. [`rustdesk`](https://rustdesk.com/) is an open-source remote desktop software. TeamViewer alternative. Self-hostable.
+- 10 Sep 2025. [`prek`](https://github.com/j178/prek) is a much faster version of [`pre-commit`](https://pre-commit.com/) - a cross-language pre-commit hook manager.
+- 10 Sep 2025. ⭐ [`mise`](https://mise.jdx.dev/) is a tool version manager. Combines nvm/fnm, pipx, etc. Supports running [several tools](https://mise.jdx.dev/registry.html) with a smooth installation.
 - 10 Sep 2025. The [npm phishing email was a great one](https://xeiaso.net/notes/2025/we-dodged-a-bullet/). It [compromised chalk](https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised) which is used in most npm packages. This may be one of the best supply chain attacks in recent times and makes me want to pin versions instead of using `npx -y`. Also makes me glad that I'm sponsoring [@isaacs](https://github.com/isaacs) and [@sindresorhus](https://github.com/sindresorhus) - two _critical_ open source maintainers.
 - 10 Sep 2025. "I pay for YouTube Premium. For my money, it’s the best bang-for-the-buck subscription service on the market". - [Gavin Andregg](https://anderegg.ca/2025/09/08/youtube-is-a-mysterious-monopoly)
 - 08 Sep 2025. The [Reod](https://coppermind.net/wiki/Reod) on [Elantris](https://coppermind.net/wiki/Elantris_(city)) might have been triggered by [Jaddeth](https://coppermind.net/wiki/Jaddeth) who might be an [Autonomy](https://coppermind.net/wiki/Autonomy) avatar. [ChatGPT](https://chatgpt.com/share/68be4c74-afa8-800c-b004-7a1565cb2487)
