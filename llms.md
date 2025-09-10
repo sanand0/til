@@ -2,6 +2,8 @@
 
 ## Sep 2025
 
+- 10 Sep 2025. Claude.ai can [natively work with Excel, PPTX, DOCX, and PDF files now](https://www.anthropic.com/news/create-files).
+- 09 Sep 2025. [Codex CLI](https://github.com/openai/codex) with high reasoning effort seems far more comprehensive than [Codex online](https://chatgpt.com/codex). I asked both to identify the system requirements (URLs to access, software to install, ports to open) for my [Tools in Data Science course](https://tds.s-anand.net/). Codex CLI got it right one shot (after 10 minutes of thinking). Codex online missed several items even after 4 attempts.
 - 06 Sep 2025. Searching embeddings of text summaries of images improves vision search a lot. [Jason Liu](https://x.com/jxnlco/status/1964050092312211636?t=sh16G2U8w4Bl0YvQfd0Dnw)
 - 05 Sep 2025. LLM vision capabilities are far from enough to click accurately. [The AI Digest](https://theaidigest.org/village/blog/claude-plays-whatever-it-wants)
 - 05 Sep 2025. GLM supports the Anthropic API. So it's possible to use Claude Code with GLM 4.5. [z.ai](https://docs.z.ai/scenario-example/develop-tools/claude)

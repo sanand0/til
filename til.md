@@ -2,6 +2,8 @@
 
 ## Sep 2025
 
+- 10 Sep 2025. The [npm phishing email was a great one](https://xeiaso.net/notes/2025/we-dodged-a-bullet/). It [compromised chalk](https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised) which is used in most npm packages. This may be one of the best supply chain attacks in recent times and makes me want to pin versions instead of using `npx -y`. Also makes me glad that I'm sponsoring [@isaacs](https://github.com/isaacs) and [@sindresorhus](https://github.com/sindresorhus) - two _critical_ open source maintainers.
+- 10 Sep 2025. "I pay for YouTube Premium. For my money, it’s the best bang-for-the-buck subscription service on the market". - [Gavin Andregg](https://anderegg.ca/2025/09/08/youtube-is-a-mysterious-monopoly)
 - 08 Sep 2025. The [Reod](https://coppermind.net/wiki/Reod) on [Elantris](https://coppermind.net/wiki/Elantris_(city)) might have been triggered by [Jaddeth](https://coppermind.net/wiki/Jaddeth) who might be an [Autonomy](https://coppermind.net/wiki/Autonomy) avatar. [ChatGPT](https://chatgpt.com/share/68be4c74-afa8-800c-b004-7a1565cb2487)
 - 06 Sep 2025. A quick way to get the docs for an npm package is `npm view package-name readme`. For PyPi, it's `curl -s https://pypi.org/pypi/package-name/json | jq -r .info.description`
 - 04 Sep 2025. [gitingest](http://gitingest.com/) has a [CLI](https://github.com/coderamp-labs/gitingest). `uvx gitingest https://github.com/owner/repo` fetches the code in the Git repo suitable for passing to an LLM.
