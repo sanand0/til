@@ -2,6 +2,10 @@
 
 ## Sep 2025
 
+- 11 Sep 2025. [Clock bench](https://x.com/alek_safar/status/1964383077792141390?t=BzvyMoZH18jDBEop7XeZpA) is an LLM benchmark based on how well LLMs tell the time from an analog clock. Humans (89%) are _much_ better than the best model (Gemini 2.5 Pro - 13%).
+- 11 Sep 2025. Veo 3 is now available via API. Veo 3 fast is 15s/second. [Google](https://developers.googleblog.com/en/veo-3-and-veo-3-fast-new-pricing-new-configurations-and-better-resolution/)
+- 11 Sep 2025. ChatGPT has full support for MCPs via Developer mode in Plus and Pro accounts, via "Developer mode". [OpenAI](https://platform.openai.com/docs/guides/developer-mode)
+- 10 Sep 2025. LLMs are non deterministic because GPUs add floating point numbers concurrently and FP addition is non associative - order matters. [Thinking Machines](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/)
 - 10 Sep 2025. Claude.ai can [natively work with Excel, PPTX, DOCX, and PDF files now](https://www.anthropic.com/news/create-files).
 - 09 Sep 2025. [Codex CLI](https://github.com/openai/codex) with high reasoning effort seems far more comprehensive than [Codex online](https://chatgpt.com/codex). I asked both to identify the system requirements (URLs to access, software to install, ports to open) for my [Tools in Data Science course](https://tds.s-anand.net/). Codex CLI got it right one shot (after 10 minutes of thinking). Codex online missed several items even after 4 attempts.
 - 06 Sep 2025. Searching embeddings of text summaries of images improves vision search a lot. [Jason Liu](https://x.com/jxnlco/status/1964050092312211636?t=sh16G2U8w4Bl0YvQfd0Dnw)
