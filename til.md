@@ -2,6 +2,7 @@
 
 ## Sep 2025
 
+- 14 Sep 2025. [`ugrep`](https://github.com/Genivia/ugrep) is a fast drop-in replacement for `grep`. It supports fuzzy search with a customizable Levenshtein distance. Also `ug -Q` shows an interactive TUI searches like VS Code's "Search in Files" feature. Very intuitive.
 - 12 Sep 2025. Though I'm connected on LinkedIn with people I can't remember (weak ties), pruning them shrinks serendipity. Weak ties, despite noise, are disproportionately valuable for opportunities, e.g. intros, jobs, and pruning reduces future upside. [Science](https://www.science.org/doi/10.1126/science.abl4476)
 - 11 Sep 2025. [SuperTinyIcons](https://github.com/edent/SuperTinyIcons) has very small icons for many websites and is available via CDN. Sample: `http://cdn.jsdelivr.net/npm/super-tiny-icons/images/svg/github.svg`
 - 10 Sep 2025. In Pyodide, you can use `from js import document` and then `document.querySelector` to manipulate the DOM directly from Python. `from pyodide.http import pyfetch` lets you use fetch.
