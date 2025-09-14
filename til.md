@@ -2,10 +2,23 @@
 
 ## Sep 2025
 
+- 12 Sep 2025. Though I'm connected on LinkedIn with people I can't remember (weak ties), pruning them shrinks serendipity. Weak ties, despite noise, are disproportionately valuable for opportunities, e.g. intros, jobs, and pruning reduces future upside. [Science](https://www.science.org/doi/10.1126/science.abl4476)
+- 11 Sep 2025. [SuperTinyIcons](https://github.com/edent/SuperTinyIcons) has very small icons for many websites and is available via CDN. Sample: `http://cdn.jsdelivr.net/npm/super-tiny-icons/images/svg/github.svg`
+- 10 Sep 2025. In Pyodide, you can use `from js import document` and then `document.querySelector` to manipulate the DOM directly from Python. `from pyodide.http import pyfetch` lets you use fetch.
+- 10 Sep 2025. [`gtrending`](https://pypi.org/project/gtrending) is a Python package that fetches trending GitHub repos, users, etc. `uvx gtrending repos --language rust --since weekly` fetches trending Rust repos of the week.
+- 10 Sep 2025. [`astgrep`](https://ast-grep.github.io/) lets you search in code (across languages) using AST patterns. Like [semgrep](https://github.com/semgrep/semgrep) but [more](https://ast-grep.github.io/advanced/tool-comparison.html) about code search than security. `uvx --from ast-grep-cli ast-grep` runs from the CLI. Useful for [code rewriting](https://ast-grep.github.io/guide/rewrite/transform.html), fast [linting](https://ast-grep.github.io/guide/project/lint-rule.html), [code search](https://ast-grep.github.io/guide/pattern-syntax.html).
+- 10 Sep 2025. [`hurl`](https://github.com/Orange-OpenSource/hurl) is a CLI config-based HTTP automation tool. Useful for tests, bulk (templatized) HTTP requests, etc.
+- 10 Sep 2025. [`rustdesk`](https://rustdesk.com/) is an open-source remote desktop software. TeamViewer alternative. Self-hostable.
+- 10 Sep 2025. [`prek`](https://github.com/j178/prek) is a much faster version of [`pre-commit`](https://pre-commit.com/) - a cross-language pre-commit hook manager.
+- 10 Sep 2025. ⭐ [`mise`](https://mise.jdx.dev/) is a tool version manager. Combines nvm/fnm, pipx, etc. Supports running [several tools](https://mise.jdx.dev/registry.html) with a smooth installation.
+- 10 Sep 2025. The [npm phishing email was a great one](https://xeiaso.net/notes/2025/we-dodged-a-bullet/). It [compromised chalk](https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised) which is used in most npm packages. This may be one of the best supply chain attacks in recent times and makes me want to pin versions instead of using `npx -y`. Also makes me glad that I'm sponsoring [@isaacs](https://github.com/isaacs) and [@sindresorhus](https://github.com/sindresorhus) - two _critical_ open source maintainers.
+- 10 Sep 2025. "I pay for YouTube Premium. For my money, it’s the best bang-for-the-buck subscription service on the market". - [Gavin Andregg](https://anderegg.ca/2025/09/08/youtube-is-a-mysterious-monopoly)
+- 09 Sep 2025. You can create an [infinite leaflet map with nano banana](https://github.com/seezatnap/nano-banana-infinimap).
+- 08 Sep 2025. The [Reod](https://coppermind.net/wiki/Reod) on [Elantris](<https://coppermind.net/wiki/Elantris_(city)>) might have been triggered by [Jaddeth](https://coppermind.net/wiki/Jaddeth) who might be an [Autonomy](https://coppermind.net/wiki/Autonomy) avatar. [ChatGPT](https://chatgpt.com/share/68be4c74-afa8-800c-b004-7a1565cb2487)
 - 06 Sep 2025. A quick way to get the docs for an npm package is `npm view package-name readme`. For PyPi, it's `curl -s https://pypi.org/pypi/package-name/json | jq -r .info.description`
 - 04 Sep 2025. [gitingest](http://gitingest.com/) has a [CLI](https://github.com/coderamp-labs/gitingest). `uvx gitingest https://github.com/owner/repo` fetches the code in the Git repo suitable for passing to an LLM.
 - 03 Sep 2025. You can use the `<script>` tag in XML to render RSS, as an alternative to XSLT. [Jake Archibald](https://jakearchibald.com/2025/making-xml-human-readable-without-xslt/)
-- 03 Sep 2025. [`browser-fs-access`](https://www.npmjs.com/package/browser-fs-access) is a polyfill for the [File System Access API](https://wicg.github.io/file-system-access/) and should be the go-to approach for reading and saving files via the browser.
+- 03 Sep 2025. [`browser-fs-access`](https://www.npmjs.com/package/browser-fs-access) is a ponyfill for the [File System Access API](https://wicg.github.io/file-system-access/) and should be the go-to approach for reading and saving files via the browser.
 - 01 Sep 2025. To run a Python project directly from GitHub, use `uvx --from "git+https://github.com/owner/repo.git@branch" script-name`
 - 01 Sep 2025. [Github1s](https://github.com/conwnet/github1s) is a cool tool. Replace `github.com` with `github1s.com` to get a VS Code page that opens that repo. It's fast and very useful to browser repos. For example, <https://github1s.com/sanand0/tools-in-data-science-public> is my TDS course repo.
 
@@ -486,7 +499,7 @@
 
 - 26 Jul 2025. The distance between the end of the thumb and little finger, when fullet stretched, is ~9 inches. Between the thumb and pointer, when at a right angle, is ~6 inches. I checked this today - and it's right. A useful rule of thumb for measurement - literally. [Vasuki](https://www.linkedin.com/in/vasuki-seshadri/), ~1985
 - 26 Jul 2025. [GitHub Sponsors Explore](https://github.com/sponsors/explore) shows you which developers code most of your dependencies. You can sponsor them. I sponsored [isaacs](https://github.com/sponsors/isaacs) who maintains [node-tap](https://node-tap.org/) and [sindresorhus](https://github.com/sponsors/sindresorhus) who maintains several NodeJS packages for $50/month each.
-- 26 Jul 2025. [markmap](https://markmap.js.org/) looks like a promising JS-based interactive mindmap from Markdown. More interactive than [Mermaid Mindmap](https://docs.mermaidchart.com/mermaid-oss/syntax/mindmap.html?utm_source=chatgpt.com#an-example-of-a-mindmap).
+- 26 Jul 2025. [markmap](https://markmap.js.org/) looks like a promising JS-based interactive mindmap from Markdown. More interactive than [Mermaid Mindmap](https://docs.mermaidchart.com/mermaid-oss/syntax/mindmap.html#an-example-of-a-mindmap).
   - [mind-elixir](https://github.com/ssshooter/mind-elixir-core) is another option that lets you edit mindmaps and serialize in its own format
   - [jsmind](https://github.com/hizzgdev/jsmind) is yet another but docs are in Chinese
   - [elkjs](https://github.com/kieler/elkjs) seems a good option for laying out nodes in an architecture-style flow diagram

@@ -7,8 +7,41 @@
 > ... seemingly impenetrable topics are less intimidating if you know there are only a dozen concepts to learn.
 > And often the details of a subject are unimportant if you know the big concepts.
 
-This is true for many subjects.But avoid overconfidence. Expert pattern libraries are huge (~100K). Execution discipline matters.
+This is true for many subjects. But avoid overconfidence. Expert pattern libraries are huge (~100K). Execution discipline matters.
 
+- [Encrypted Computation](https://chatgpt.com/c/68c63cb7-2e68-8323-8816-ea5f03e5e880)
+  - **Computation is possible on ciphertexts** – you can add/multiply encrypted numbers without decrypting, and results decrypt correctly.
+  - **Noise enables security but limits depth** – homomorphic schemes add noise that protects privacy but caps how many operations you can do before refresh.
+  - **Bootstrapping makes “infinite” computation possible** – a slow but clever way to reset noise so you can keep computing forever.
+  - **Partial homomorphism is often enough** – many real tasks only need addition _or_ multiplication, not full generality.
+  - **Efficiency depends on algebra choice** – lattice, ring, or boolean encodings change speed/capabilities dramatically.
+  - **Communication > computation in MPC** – secure multi-party protocols are bottlenecked more by network roundtrips than raw CPU.
+  - **Trusted hardware ≠ silver bullet** – enclaves (SGX, SEV) protect data but side-channels and supply-chain risks remain.
+  - **Exact correctness is traded for approximate math** – encrypted ML often relies on approximate arithmetic or quantization, counter-intuitive in “exact crypto.”
+  - **Security can come from redundancy** – secret sharing splits data among parties so no one sees the whole, yet reconstruction is exact.
+  - **Faster isn’t always weaker** – some of the most efficient schemes (like CKKS for approximate real numbers) are still provably secure under lattice assumptions.
+- [Computational Learning Theory](https://chatgpt.com/c/68c63cb7-2e68-8323-8816-ea5f03e5e880)
+  1. **Simple models can generalize better than complex ones** — Occam’s razor + VC dimension: fewer parameters often mean more reliable learning.
+  2. **More data beats better algorithms (up to a point)** — sample complexity often dominates computational tricks.
+  3. **Weak learners can be boosted into strong ones** — AdaBoost shows that barely-better-than-random classifiers can combine into near-perfect ones.
+  4. **Overfitting is sometimes useful** — in boosting, driving training error to zero can still yield good generalization.
+  5. **Learning ≠ compression, but they are deeply linked** — Minimum Description Length shows compressibility and learnability align.
+  6. **Hardness comes from representation, not data** — some concepts are provably unlearnable efficiently even if infinite labeled data exists (e.g., parity with noise).
+  7. **Mistake-driven learning converges fast** — algorithms like Perceptron can guarantee convergence in bounded mistakes regardless of input size.
+  8. **Noise can be fatal** — a small amount of adversarial noise can make some classes (e.g., DNFs) intractable to learn.
+  9. **Margins matter more than accuracy** — large-margin classifiers (SVMs) generalize better even if training error is unchanged.
+  10. **PAC-learnability ≠ practical learnability** — a concept might be learnable in theory with polynomial resources but hopeless in real data sizes.
+- [Coding Theory](https://chatgpt.com/c/68c63cb7-2e68-8323-8816-ea5f03e5e880)
+  1. **Redundancy helps** — Extra bits give the code “wiggle room” to catch mistakes, and clever design (like parity checks) keeps the added overhead small compared to the reliability gained.
+  2. **Random codes work** — Random constructions spread information evenly, making it surprisingly hard for errors to concentrate, which theory shows can match or beat hand-crafted designs.
+  3. **Error location > error correction** — If you know which positions are wrong (erasures), fixing them is algebraically much simpler than guessing both _where_ and _what_.
+  4. **Longer blocks help** — With more symbols in a block, statistical averages smooth out, so the code can withstand more errors while still fitting within capacity bounds.
+  5. **Decoding > design** — A code is only as useful as the algorithm that can decode it in practice; fast decoders like Viterbi or belief propagation made certain codes revolutionary.
+  6. **Perfect codes exist but rare** — A few codes pack error spheres so tightly that they achieve theoretical limits, but geometry proves such “perfect fits” are exceptional cases.
+  7. **Capacity is safe** — Shannon’s theorem guarantees that codes can approach the channel limit with vanishing error if block length grows, so pushing limits doesn’t mean fragility.
+  8. **Non-linear sometimes wins** — While linear algebra simplifies design, special non-linear codes achieve distances or covering properties impossible for linear ones.
+  9. **Detection is cheaper than correction** — Spotting that “something’s wrong” only needs a parity check, while correction requires enough redundancy to pinpoint and repair errors.
+  10. **It’s geometry** — Error correction boils down to fitting non-overlapping “balls” in high-dimensional space; this geometric view explains limits and guides constructions.
 - Core Concepts of Prioritization
   - Start with why. Align to purpose
   - De-bottleneck.

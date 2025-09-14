@@ -2,6 +2,18 @@
 
 ## Sep 2025
 
+- 14 Sep 2025. Depending on the underlying chips that a model uses, the floating point multiplications may differ and model quality can vary. So Claude 4 Opus running on Anthropic's GPUs can produce different results from when running on Google's GPUs or Amazon's GPUs.
+- 12 Sep 2025. Claude has a Python + Node code interpreter that can access GitHub, PyPi, npm and Google. [Simon Willison](https://simonwillison.net/2025/Sep/9/claude-code-interpreter/)
+- 11 Sep 2025. [Clock bench](https://x.com/alek_safar/status/1964383077792141390?t=BzvyMoZH18jDBEop7XeZpA) is an LLM benchmark based on how well LLMs tell the time from an analog clock. Humans (89%) are _much_ better than the best model (Gemini 2.5 Pro - 13%).
+- 11 Sep 2025. Veo 3 is now available via API. Veo 3 fast is 15s/second. [Google](https://developers.googleblog.com/en/veo-3-and-veo-3-fast-new-pricing-new-configurations-and-better-resolution/)
+- 11 Sep 2025. ChatGPT has full support for MCPs via Developer mode in Plus and Pro accounts, via "Developer mode". [OpenAI](https://platform.openai.com/docs/guides/developer-mode)
+- 10 Sep 2025. LLMs are non deterministic because GPUs add floating point numbers concurrently and FP addition is non associative - order matters. [Thinking Machines](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/)
+- 10 Sep 2025. Claude.ai can [natively work with Excel, PPTX, DOCX, and PDF files now](https://www.anthropic.com/news/create-files).
+- 10 Sep 2025. With embeddings, atomic labels + hierarchy beat instruction-heavy prompts. Prefer short, concrete sub-labels (e.g., “promotion,” “job security,” “flexibility”) that roll up to a parent "career" rather than a composite instruction like “Total Rewards and Career Growth”. Embedding similarity is not smart enough to figure this out.
+- 10 Sep 2025. Today, RPA is cheaper than LLMs in some areas. But it's a moving target. LLM costs are fall fast: 70–90% declines across major providers in 1.5 years. Therefore, waiting has option value. But classic IT compares static quotes, not declining curves, and hence is likely to under-procure LLM solutions.
+- 10 Sep 2025. The biggest near-term ROI for LLMs in data science is like ‘boring’ data work: PII tagging, data dictionaries, ER/joins, SDTM mapping, etc.. People expect flashy GenAI, but LLMs can bootstrap schema matching and data-cleaning, speeding engineer verification, which is more useful at scale.
+- 09 Sep 2025. [Codex CLI](https://github.com/openai/codex) with high reasoning effort seems far more comprehensive than [Codex online](https://chatgpt.com/codex). I asked both to identify the system requirements (URLs to access, software to install, ports to open) for my [Tools in Data Science course](https://tds.s-anand.net/). Codex CLI got it right one shot (after 10 minutes of thinking). Codex online missed several items even after 4 attempts.
+- 8 Sep 2025. Output tokens dominate latency. Decoding is sequential (one token depends on all prior tokens), so long completions are the main throttle. Shrinking _returned_ text (e.g., send spans/tags instead of echoing paragraphs) yields a far bigger win on latency than shrinking inputs.
 - 06 Sep 2025. Searching embeddings of text summaries of images improves vision search a lot. [Jason Liu](https://x.com/jxnlco/status/1964050092312211636?t=sh16G2U8w4Bl0YvQfd0Dnw)
 - 05 Sep 2025. LLM vision capabilities are far from enough to click accurately. [The AI Digest](https://theaidigest.org/village/blog/claude-plays-whatever-it-wants)
 - 05 Sep 2025. GLM supports the Anthropic API. So it's possible to use Claude Code with GLM 4.5. [z.ai](https://docs.z.ai/scenario-example/develop-tools/claude)
@@ -72,7 +84,7 @@
   - Throw away rubbish code and start again.
   - Issues unsolved in 2-3 tries are too hard for agents or are poorly spec-ed.
   - The [context7](https://github.com/upstash/context7) and [Sequential Thinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) MCPs are useful.
-- 31 Aug 2025. The [O*NET database](https://www.onetcenter.org/db_releases.html) has a list of tasks/activities, skills, titles, ... for each job, at least in the US. It has been updated every few months since 2003. It's an excellent source to analyze things like the impact of AI across jobs. Anthropic [used](https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude) it to map Claude.ai conversations with educator tasks to identify how educators are using AI.
+- 31 Aug 2025. The [O\*NET database](https://www.onetcenter.org/db_releases.html) has a list of tasks/activities, skills, titles, ... for each job, at least in the US. It has been updated every few months since 2003. It's an excellent source to analyze things like the impact of AI across jobs. Anthropic [used](https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude) it to map Claude.ai conversations with educator tasks to identify how educators are using AI.
 - 31 Aug 2025. [How educators use Claude](https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude) (apart from learning) is mainly driven by **automation** of tedious tasks, **ideation**, and **personalization** for each student.
   1. Curriculum development: Develop games, interactive tools, MCQs, simulations, content
   2. Academic research: Bibliographies, statistical modeling, revisions from feedback.
