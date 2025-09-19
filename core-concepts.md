@@ -9,7 +9,13 @@
 
 This is true for many subjects. But avoid overconfidence. Expert pattern libraries are huge (~100K). Execution discipline matters.
 
-- [Encrypted Computation](https://chatgpt.com/c/68c63cb7-2e68-8323-8816-ea5f03e5e880)
+- Core Concepts of [Sleep](https://chatgpt.com/c/68cd59b3-005c-832d-806c-54003d272764)
+  - Adults should sleep for 7+ hours. Too long / too long isn't as good.
+  - Dark, cool rooms offer better sleep.
+  - Sleeping & waking up at consistent times is a strong predictor of long-term health—sometimes stronger than raw duration.
+  - NREM (especially slow-wave sleep) supports memory consolidation; REM helps integrate/emphasize emotional memories.
+  - Caffeine and alcohol disrupt sleep.
+- Core Concepts of [Encrypted Computation](https://chatgpt.com/c/68c63cb7-2e68-8323-8816-ea5f03e5e880)
   - **Computation is possible on ciphertexts** – you can add/multiply encrypted numbers without decrypting, and results decrypt correctly.
   - **Noise enables security but limits depth** – homomorphic schemes add noise that protects privacy but caps how many operations you can do before refresh.
   - **Bootstrapping makes “infinite” computation possible** – a slow but clever way to reset noise so you can keep computing forever.
@@ -20,7 +26,7 @@ This is true for many subjects. But avoid overconfidence. Expert pattern librari
   - **Exact correctness is traded for approximate math** – encrypted ML often relies on approximate arithmetic or quantization, counter-intuitive in “exact crypto.”
   - **Security can come from redundancy** – secret sharing splits data among parties so no one sees the whole, yet reconstruction is exact.
   - **Faster isn’t always weaker** – some of the most efficient schemes (like CKKS for approximate real numbers) are still provably secure under lattice assumptions.
-- [Computational Learning Theory](https://chatgpt.com/c/68c63cb7-2e68-8323-8816-ea5f03e5e880)
+- Core Concepts of [Computational Learning Theory](https://chatgpt.com/c/68c63cb7-2e68-8323-8816-ea5f03e5e880)
   1. **Simple models can generalize better than complex ones** — Occam’s razor + VC dimension: fewer parameters often mean more reliable learning.
   2. **More data beats better algorithms (up to a point)** — sample complexity often dominates computational tricks.
   3. **Weak learners can be boosted into strong ones** — AdaBoost shows that barely-better-than-random classifiers can combine into near-perfect ones.
