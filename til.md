@@ -2,7 +2,15 @@
 
 ## Sep 2025
 
+- 19 Sep 2025. VS Code has had the ability to move a terminal into its own new window for over a year (via Ctrl+P > Terminal: Move Terminal into New Window). Now, <kbd>Ctrl + Alt + Shift + \`</kbd> does this directly.
+- 18 Sep 2025. "We find that the per-step error rate itself rises as the task progresses", i.e. once a conversation goes the wrong way, it's really hard to correct it. [The Illusion of Diminishing Returns](https://arxiv.org/html/2509.09677)
+- 17 Sep 2025. [Japonaise Cake](https://www.google.com/search?q=japonaise) is the name of the pastry that I had as a child and grew up longing for. I have spent several weeks searching for it in the roadside bakeries at Bangalore and Chennai but only [one bakery](https://cakebee.in/products/japonaise-cake) seems to have it.
+- 17 Sep 2025. `systemd` is the modern way to run scheduled jobs, instead of `cron`. It's far more complex. But it can catch up on missed runs via a `Persistent` option. [Working with systemd timers](https://documentation.suse.com/smart/systems-management/html/systemd-working-with-timers/index.html)
+- 17 Sep 2025. Vice-chancellors of universities resist AI in education because (a) their faculty does not know AI and (b) AI is unreliable. But they are interested in (a) large-scale AI-evaluation and (b) AI-enabling entire campus.
+- 17 Sep 2025. [tldr.sh](https://tldr.sh/) offers concise man pages, e.g. `uvx tldr jq`. [cheat.sh](http://cheat.sh/) offers detailed examples, e.g. `curl cheat.sh/jq` or `curl cheat.sh/:help`.
 - 14 Sep 2025. [`ugrep`](https://github.com/Genivia/ugrep) is a fast drop-in replacement for `grep`. It supports fuzzy search with a customizable Levenshtein distance. Also `ug -Q` shows an interactive TUI searches like VS Code's "Search in Files" feature. Very intuitive.
+- 14 Sep 2025. [Dagger](https://dagger.io/) lets you write CI/CD workflows in Python. I tried running it but after 7m of pulling large Docker containers, I gave up. Too heavy.
+- 14 Sep 2025. [dotslash](https://dotslash-cli.com/) lets you write scripts that downloads GitHub releases, caches, and runs them. Requires writing scripts. I prefer [`mise`](https://mise.jdx.dev/).
 - 12 Sep 2025. Though I'm connected on LinkedIn with people I can't remember (weak ties), pruning them shrinks serendipity. Weak ties, despite noise, are disproportionately valuable for opportunities, e.g. intros, jobs, and pruning reduces future upside. [Science](https://www.science.org/doi/10.1126/science.abl4476)
 - 11 Sep 2025. [SuperTinyIcons](https://github.com/edent/SuperTinyIcons) has very small icons for many websites and is available via CDN. Sample: `http://cdn.jsdelivr.net/npm/super-tiny-icons/images/svg/github.svg`
 - 10 Sep 2025. In Pyodide, you can use `from js import document` and then `document.querySelector` to manipulate the DOM directly from Python. `from pyodide.http import pyfetch` lets you use fetch.

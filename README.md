@@ -11,6 +11,7 @@ Updated daily / weekly:
 - `llms.md`: Notes about LLMs
 - `til.md`: Other things I've learned
 - `apps.md`: Apps I plan to build
+- `trending-repos.tsv`: Weekly trending GitHub repos (updated by [trending-repos.sh](trending-repos.sh))
 
 Updated monthly / quarterly:
 
