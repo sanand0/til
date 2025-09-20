@@ -2,6 +2,7 @@
 
 ## Sep 2025
 
+- 19 Sep 2025. YouTube downloaders: [yt-dlp](https://github.com/yt-dlp/yt-dlp) for the CLI, [Stacher](https://stacher.io/) for Windows/Mac/Linux, [Cobalt](https://cobalt.tools/) for a web-based app. [Ref](https://windowsread.me/p/best-youtube-downloaders)
 - 19 Sep 2025. VS Code a bunch of features I discovered:
   - It can run a terminal in its own new window for over a year (via Ctrl+P > Terminal: Move Terminal into New Window). Now, <kbd>Ctrl + Alt + Shift + \`</kbd> does this directly.
   - [Terminal Intellisense](https://code.visualstudio.com/docs/terminal/shell-integration#_intellisense-preview) shows completion suggestions in the UI. Very helpful. Ctrl+Space triggers the menu completion.
