@@ -2,6 +2,7 @@
 
 ## Sep 2025
 
+- 20 Sep 2025. When editing an image, ChatGPT's non-thinking mode does a _much_ better job of preserving the original image features than the thinking mode. When editing my photo, I found that the thinking mode creates images that looks quite different than me. A surprising effect of overthinking.
 - 14 Sep 2025. ChatGPT has a quota for searches. I saw this phrase in the reasoning traces: "I'll avoid overloading on citations since we only have a few calls left." It doesn't seem to be in ChatGPT's [system prompt](https://github.com/elder-plinius/CL4R1T4S/blob/476a209169e8cf0c7cad97c7ccf4c5afb2248067/OPENAI/ChatGPT5-08-07-2025.mkd) from last month, so it's either part of the tool response or a new prompt.
 - 14 Sep 2025. Depending on the underlying chips that a model uses, the floating point multiplications may differ and model quality can vary. So Claude 4 Opus running on Anthropic's GPUs can produce different results from when running on Google's GPUs or Amazon's GPUs.
 - 12 Sep 2025. Claude has a Python + Node code interpreter that can access GitHub, PyPi, npm and Google. [Simon Willison](https://simonwillison.net/2025/Sep/9/claude-code-interpreter/)
