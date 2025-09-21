@@ -9,7 +9,24 @@
 
 This is true for many subjects. But avoid overconfidence. Expert pattern libraries are huge (~100K). Execution discipline matters.
 
-- [Encrypted Computation](https://chatgpt.com/c/68c63cb7-2e68-8323-8816-ea5f03e5e880)
+- Core Concepts of [Technology evaluation](https://chatgpt.com/c/68cf6c83-e8ac-832e-a87b-7c13bfc5d091)
+  - **Optimize for change, not the demo.** Most cost and risk arrive _after_ adoption (maintenance, evolution, integration). Favor tools that make change cheap: clear upgrade paths, good docs, stable internals.
+  - **Assume abstractions will leak.** Nice APIs hide complexity—until they don’t. Evaluate timeouts, back-pressure, failure modes, and “escape hatches,” not just the happy path. (Also note the IETF’s rethink of Postel’s robustness principle—being too “liberal” can harm ecosystems.)
+  - **Hyrum’s Law beats SemVer.** Users depend on _any_ observable behavior. Version numbers help, but real safety comes from explicit compatibility promises, deprecation policies, and tests guarding behaviors. Check these before you trust a major/minor bump.
+  - **Fit the org: socio-technical first.** Systems mirror team structures (Conway). Misaligned communication lines create defects (socio-technical incongruence). Keep cognitive load within team capacity; prefer tools that simplify mental models.
+  - **Ecosystems compound value (and risk).** Network effects mean big communities, plugins, and docs often beat raw features. But compatibility choices shape lock-in vs. openness—probe standards support and portability.
+  - **Prefer “boring” on critical paths; use maturity, not hype.** Put novelty at the edges. On the core, choose tech with long, dull track records. Assess maturity explicitly (e.g., TRL); don’t cargo-cult hype cycles.
+  - **Plan your exit on day one (data gravity is real).** Data is hard to move; egress and inter-region transfer fees bite later. Check export formats, egress costs, and migration tooling up front; have a documented exit strategy.
+  - **Bias to operability: kill toil.** Favor tools that reduce repetitive, manual ops (toil) via good automation surfaces (CLI/API), sane defaults, and low run-care. If it raises toil, it will tax innovation.
+  - **Verify supply-chain & license posture, not just features.** Look for provenance/hardening (SLSA), secure development practices (NIST SSDF), and project health metrics (CHAOSS, OpenSSF Scorecard). Confirm license reality (e.g., SSPL is _not_ OSI-approved).
+  - **Beware averages: optimize tails and guard against gamed metrics.** Real users feel 95th/99th-percentile latency and variability; read tail behavior and P-percentiles, not just means. And treat vendor benchmarks skeptically (Goodhart’s law; microbench pitfalls).
+- Core Concepts of [Sleep](https://chatgpt.com/c/68cd59b3-005c-832d-806c-54003d272764)
+  - Adults should sleep for 7+ hours. Too long / too long isn't as good.
+  - Dark, cool rooms offer better sleep.
+  - Sleeping & waking up at consistent times is a strong predictor of long-term health—sometimes stronger than raw duration.
+  - NREM (especially slow-wave sleep) supports memory consolidation; REM helps integrate/emphasize emotional memories.
+  - Caffeine and alcohol disrupt sleep.
+- Core Concepts of [Encrypted Computation](https://chatgpt.com/c/68c63cb7-2e68-8323-8816-ea5f03e5e880)
   - **Computation is possible on ciphertexts** – you can add/multiply encrypted numbers without decrypting, and results decrypt correctly.
   - **Noise enables security but limits depth** – homomorphic schemes add noise that protects privacy but caps how many operations you can do before refresh.
   - **Bootstrapping makes “infinite” computation possible** – a slow but clever way to reset noise so you can keep computing forever.
@@ -20,7 +37,7 @@ This is true for many subjects. But avoid overconfidence. Expert pattern librari
   - **Exact correctness is traded for approximate math** – encrypted ML often relies on approximate arithmetic or quantization, counter-intuitive in “exact crypto.”
   - **Security can come from redundancy** – secret sharing splits data among parties so no one sees the whole, yet reconstruction is exact.
   - **Faster isn’t always weaker** – some of the most efficient schemes (like CKKS for approximate real numbers) are still provably secure under lattice assumptions.
-- [Computational Learning Theory](https://chatgpt.com/c/68c63cb7-2e68-8323-8816-ea5f03e5e880)
+- Core Concepts of [Computational Learning Theory](https://chatgpt.com/c/68c63cb7-2e68-8323-8816-ea5f03e5e880)
   1. **Simple models can generalize better than complex ones** — Occam’s razor + VC dimension: fewer parameters often mean more reliable learning.
   2. **More data beats better algorithms (up to a point)** — sample complexity often dominates computational tricks.
   3. **Weak learners can be boosted into strong ones** — AdaBoost shows that barely-better-than-random classifiers can combine into near-perfect ones.

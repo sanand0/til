@@ -1,5 +1,6 @@
 # Ideator
 
+- 18 Sep 2025. [IDEA Secure group habit tracking](https://chatgpt.com/c/68cbe97a-90b0-832a-b0aa-97f0d986e758)
 - 25 Aug 2025. [IDEA Counterfactual notebook](https://chatgpt.com/c/68ac2c57-2578-8331-a50a-7c3a8ba95db0)
   - Rewrite notes replacing "must" with "might" or "will" with "won't". See what reasoning is fragile & falls apart
 - 16 Aug 2025. [IDEA Live coding asset talks](https://chatgpt.com/c/68a158ca-1f94-8325-bb7a-9f1d2c409ea8)

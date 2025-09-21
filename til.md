@@ -2,6 +2,20 @@
 
 ## Sep 2025
 
+- 21 Sep 2025. My Lenovo laptop's touchpad started scrolling instead of moving when I moved my finger. Many things could have caused it, but the solution was to click (not tap) the top middle of the trackpad. [ChatGPT](https://chatgpt.com/share/68cfc8ff-e7fc-800c-b8bf-474d41332cd1)
+- 19 Sep 2025. I understand at least one mechanism of how costs are inflated in large organizations. Even people who want to keep costs low find that the process of tracking expenses, submitting receipts, answering questions around approval, adds transaction cost. So, rather than going for a $10 plus top up mechanism, I would rather go for and ask people to take a $500 top up. Better ask for more and waste than have to ask again.
+- 19 Sep 2025. YouTube downloaders: [yt-dlp](https://github.com/yt-dlp/yt-dlp) for the CLI, [Stacher](https://stacher.io/) for Windows/Mac/Linux, [Cobalt](https://cobalt.tools/) for a web-based app. [Ref](https://windowsread.me/p/best-youtube-downloaders)
+- 19 Sep 2025. VS Code a bunch of features I discovered:
+  - It can run a terminal in its own new window for over a year (via Ctrl+P > Terminal: Move Terminal into New Window). Now, <kbd>Ctrl + Alt + Shift + \`</kbd> does this directly.
+  - [Terminal Intellisense](https://code.visualstudio.com/docs/terminal/shell-integration#_intellisense-preview) shows completion suggestions in the UI. Very helpful. Ctrl+Space triggers the menu completion.
+- 18 Sep 2025. "We find that the per-step error rate itself rises as the task progresses", i.e. once a conversation goes the wrong way, it's really hard to correct it. [The Illusion of Diminishing Returns](https://arxiv.org/html/2509.09677)
+- 17 Sep 2025. [Japonaise Cake](https://www.google.com/search?q=japonaise) is the name of the pastry that I had as a child and grew up longing for. I have spent several weeks searching for it in the roadside bakeries at Bangalore and Chennai but only [one bakery](https://cakebee.in/products/japonaise-cake) seems to have it.
+- 17 Sep 2025. `systemd` is the modern way to run scheduled jobs, instead of `cron`. It's far more complex. But it can catch up on missed runs via a `Persistent` option. [Working with systemd timers](https://documentation.suse.com/smart/systems-management/html/systemd-working-with-timers/index.html)
+- 17 Sep 2025. Vice-chancellors of universities resist AI in education because (a) their faculty does not know AI and (b) AI is unreliable. But they are interested in (a) large-scale AI-evaluation and (b) AI-enabling entire campus.
+- 17 Sep 2025. [tldr.sh](https://tldr.sh/) offers concise man pages, e.g. `uvx tldr jq`. [cheat.sh](http://cheat.sh/) offers detailed examples, e.g. `curl cheat.sh/jq` or `curl cheat.sh/:help`.
+- 14 Sep 2025. [`ugrep`](https://github.com/Genivia/ugrep) is a fast drop-in replacement for `grep`. It supports fuzzy search with a customizable Levenshtein distance. Also `ug -Q` shows an interactive TUI searches like VS Code's "Search in Files" feature. Very intuitive.
+- 14 Sep 2025. [Dagger](https://dagger.io/) lets you write CI/CD workflows in Python. I tried running it but after 7m of pulling large Docker containers, I gave up. Too heavy.
+- 14 Sep 2025. [dotslash](https://dotslash-cli.com/) lets you write scripts that downloads GitHub releases, caches, and runs them. Requires writing scripts. I prefer [`mise`](https://mise.jdx.dev/).
 - 12 Sep 2025. Though I'm connected on LinkedIn with people I can't remember (weak ties), pruning them shrinks serendipity. Weak ties, despite noise, are disproportionately valuable for opportunities, e.g. intros, jobs, and pruning reduces future upside. [Science](https://www.science.org/doi/10.1126/science.abl4476)
 - 11 Sep 2025. [SuperTinyIcons](https://github.com/edent/SuperTinyIcons) has very small icons for many websites and is available via CDN. Sample: `http://cdn.jsdelivr.net/npm/super-tiny-icons/images/svg/github.svg`
 - 10 Sep 2025. In Pyodide, you can use `from js import document` and then `document.querySelector` to manipulate the DOM directly from Python. `from pyodide.http import pyfetch` lets you use fetch.
