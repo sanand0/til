@@ -1,0 +1,204 @@
+# Creative Ideas
+
+## Extreme brainstorming
+
+Source: https://longform.asmartbear.com/extreme-questions/
+
+- 10x prices: If you were forced to increase your prices by 10x, what would you have to do to [justify it](https://longform.asmartbear.com/more-value-not-save-money/)?
+  - What sort of brand looks and feels like something that expensive? What positioning would you take? How would the design of both the website and the product need to change?
+  - What subset of your market would you have to target? Do they have different problems that need solving, or different needs? Would they consider the high price a positive, because it fulfills a need to be seen as someone who is successful, or because they feel “buying from the best” lowers the risk of their decision? What would you need to do for them to be able to display that badge? What sort of relationship would you want to cultivate with each customer? How would [your business model](https://longform.asmartbear.com/problem/) change?
+  - What expensive services might you need to supply? Human support? Infrastructure? Is it possible for those costs to be “only” 2x or 3x more than today, so that the net impact is massive profitability?
+  - _Often early startups charge too little, and established companies struggle to charge more to existing customers. Thinking about what could justify a massive hike, you might be able to do some of those things and justify at least 2x._
+- No customers: If all our customers vanished, and we had to earn our growth and brand from scratch, what would we do?
+  - How would we distinguish ourselves with a unique compelling message, as a fresh competitor in our market? What would we put on our home page? Would we use a different pricing model to compete better? Would our brand need to change to align with the message?
+  - Would we throw out some features that take a lot of work but not many people actually use (since there’s no pesky customers hanging on to the expectation of the old features)? Would we build some new feature that would make us more competitive? Would we change our infrastructure or architecture or UX dramatically because of what we now know, since we’re not ladened with existing customers?
+  - _Often we don’t make important changes because we’ve gotten complacent with our marketing, or we never got around to having a truly compelling unique positioning statement, or we don’t want to incur the penalty of big changes on our customer base, even if it means we’re doing the wrong thing today from a competitive standpoint, and the wrong thing for the future. We don’t want to make even 5% of our customers mad, even if it would be better for the other 95%. There will be 10x more customers in the future than there are now, but only if we build for them, today._
+- No tech support: If you were never allowed to provide tech support, in any form, what would have to change?
+  - How would on-boarding need to be improved, to the point where customers would self-serve and be happy doing it? This might be the hardest step, because the customer is least-familiar with your product, and least-motivated to power through barriers to their success. And setup stuff often has to be done only once, so you might not learn how to improve those things from existing customers.
+  - Where would the product provide the user with more control, since they can’t ask Support to do it for them? What information requires better visibility, since they can’t ask Support to look it up for them? What actions would need to be become more intuitive, because they can’t ask Support how to use functionality that they know “is in here somewhere?”
+  - _Self-service isn’t just better for your costs and scaling, it also makes customers happier and [more loyal](https://www.amazon.com/Effortless-Experience-Conquering-Battleground-Customer/dp/1591845815?utm_source=longform.asmartbear.com&utm_campaign=longform.asmartbear.com&utm_medium=post). Therefore, dramatically improving self-service is often profitable for both the top- and bottom-line._
+- Maximize fun: What would be the most _fun_ thing to build?
+  - It has to be something that makes our product better, not a random technology or unrelated market. Aside from that constraint, it can be anything⁠—building a feature you just think would be cool for customers to use, developing a technology that would be fun to work on (that happens to deliver a feature customers want), refactoring infrastructure or architecture using some interesting modern technology that would also improve something like cost-efficiency, scalability, testability, or maintainability.
+  - What if you held a one-week hackathon and actually tried to build one of those things?
+  - _When we work on things that are fun, we work better and harder, yet are happy to do it. Therefore, biasing towards fun is also biasing towards productivity and long-term fulfillment, which is practical and logical, not merely indulgent as it first appears. Ultimately, work still needs to advance the strategy while improving something substantial for the customer or the team, but typical prioritization under-appreciates the power of fun._
+- Complete rip-off: If our biggest competitor copied every feature we have, how would we still win?
+  - Is the answer inside our product, in something other than the utility of the features? What is that, and how could we make more of that, so we’re differentiated even in the face of a copy-cat? Is it ease of use, ease of sharing, pleasure of great design? Is it building the next unique feature so quickly that no competitor can catch up (since in this hypothetical they’re just copying us rather than being insightful on their own), and if so, what is the killer next feature that would leap-frog us from a customer’s perspective?
+  - If the answer is outside of our product, where is it? A higher purpose or brand-promise that our customers buy into, aside from the product? Is that because we are good at communicating how we make the world better, or because our customers are “rooting for David against Goliath,” or how our culture is special, or because our brand is distinctive (even if just “it’s the best” or “it’s the biggest”), or because our customers trust us, maybe because of our customer service, or because of how we handle situations that go poorly, or because we “give back” in forms like open-source or community-building or significant philanthropy?
+  - _All your good ideas will be copied; it’s just a question of when. Competing only on features results in bullet-point battles; this is the weakest way to win sales. Creating bigger and more emotional distinction is a powerful way to win, and breaks us of the habit of believing that incremental product updates will dramatically increase differentiation, or growth._
+- No time: What if we are forced to ship a full, completed MVP ([or actually, SLC](https://longform.asmartbear.com/slc/)) new feature, in just two weeks, that would delight and surprise some fraction of our customers.
+  - > To achieve great things, two things are needed: a plan, and not quite enough time.
+  - > —Leonard Bernstein
+  - Every bit of complexity has to be stripped out⁠—we can add it back later. Scope has to be reduced to a minimum, which reduces how many people can use it on day one, but increases how much we’ll learn on day one.
+  - Can we stub out an API, implementing it manually for now? Can we hook up some 3rd-party system, implementing something more efficient later? Can we skip documentation and internal support training and perfect error handling, not forever, but just long enough to see how people like this new functionality?
+  - A 1000-page book can be summarized in a 40-page Cliff’s Notes. The key lessons of Cliff’s Notes can be summarized in a 1-page blog post. The main theme and one unique perspective of the book can be summarized in one sentence. It can always be smaller, if we trade off detail, or precision, or completeness.
+  - _Hackathons prove that we can code really cool things in a short time, when we want to, and if we make certain trade-offs. It’s not fully finished, not polished, not ready to scale, but it’s something substantial and far more “agile” than teams normally are. If you feel like you’ve lapsed into a waterfall with two-week report-outs, this might be the shake-up everyone needs._
+- Flipped business model: What if you were forced to charge customers in a completely different manner? The product isn’t free, but somehow you have to justify value (and costs) differently. If you’re usage-based, you’re forced to charge a flat monthly rate; if monthly with tiers, you’re forced to measure and charge daily with some formula.
+  - How would you have to change how you position the value you deliver? Would you have different kinds of customers due to prices effectively being much higher or lower, and how would that affect brand, messaging, marketing, or sales?
+  - How would costs have to change, so that the vast majority of customers were still profitable? Would software architectures need to change? Would marketing or sales structures change? Is tech support suddenly much more or much less possible?
+  - Are there features which you’d need to build (e.g. so customers could control their costs), or features you’d now be able to supply (e.g. because customers would now see the utility in it, or would be happy to pay more because of it)? Would you create features which caused higher prices, but in concert with additional value, so that customers would be happy to grow with you?
+  - _Business models force you into certain frames of thinking about how to monetize value that you create, and how costs need to scale with sales and infrastructure. The general idea for any company is to generate far more value than it charges for, so customers are genuinely better off in the exchange, and are happy to be long-term customers. Shaking up the business model shakes up the value/cost equation; sometimes a different business model is actually better for everyone._
+- No website: If you were not allowed to have a website, how would you still grow your business?
+  - Could you grow by word-of-mouth? Does the product help people do that proactively?
+  - Could you create advocacy, as in channel partners or ambassadors? Could your social media be so good, someone would sign up for the product without needing to know more?
+  - Could your product _be_ marketing? Could you cheat, where your “website” is inside the product, where potential customers are caught up learning more and trying things in the moment, so that they become users before they realize what’s happening?
+  - _Your advocates are already using your product, yet so often we leave “getting more customers” to the marketing department, rather than realizing the product is already a platform for growth. Truly viral products know this already (e.g. you can’t use a chat service unless you invite other people to the chat service), but non-viral products can still create growth machines from inside the product. What if “in-product marketing” is more impactful on growth than any useful feature?_
+- No meetings: What if you made your most introverted teammates’ dreams come true: No more synchronous meetings, ever again?
+  - What if you had to on-board new employees without meetings? Or operate the software, deploy the software, find where things are located? What systems would need to exist, and what materials would need to go in there? What format would allow you to update that easily?
+  - What if you had to make decisions without meetings⁠—the process as well as the result of that decision? Deciding what to build, prioritizing big or small things, brainstorming new things? Is it possible that brainstormed ideas could be even better without meetings (because people aren’t being influenced by other people, ahead of having their own thoughts) or that decisions could be even stronger without meetings (because people have the time and space to think, to research, to try things out, thus more completely exploring the solution space?).
+  - How would you create social ties and inside jokes and 1:1 as well as group relationships, if you’re never in the same space at the same time?
+  - _Meetings are still the best way to accomplish certain things: Social bonding, deep discussions where ideas rapidly ricochet off each other, decisions where it’s important to “look in everyone’s eyes” to get the final agreement, and more. But one of the most common complaints in any company is “too many meetings,” or at least, “too many useless/bad/wasteful/inefficient/boring meetings.” Besides the usual admonitions about meeting hygiene, a bigger question is whether your systems and processes can not only prevent them, but increase utility beyond that. For example, how much faster could a new team member get up-to-speed if they could read “the why” behind the last 20 major decisions?_
+- No customer contact: If we could never talk to our customers again, how would we figure out what to build?
+  - Could you measure their behavior so well that you could quickly measure whether any change was positive or negative, so at least you could iterate your way to a better product? Are there clear signs of value or happiness that you could use like marketers use conversion with A/B testing?
+  - Could you be even faster at testing new ideas? Could a feature start out as just a button that says “coming soon” or asks “why did you want this” or “what did you expect to happen” or “get emailed when we make this feature,” so you could directly measure what people are likely to use, before you invest in building it?
+  - What could you analyze online, in what customers or competitors or observers are saying, that would inform your strategy or even product roadmap? Could you do better than just copying what others are doing? Could you analyze what people are saying about us or competitors online, understanding that the loudest voices aren’t a random sample of the population, but still might have something useful to tell us, even when they’re not being constructive about it?
+  - _Sometimes you interview customers and come away with the wrong feature ideas anyway. Sometimes you ask them whether they’d use something, and they say yes, and they even meant it, but after spending five months building it, they don’t actually use it. Stretching your ability to get empirical signal helps you avoid those issues, and might even create breakthrough ideas, or avoid ideas that seem great, but aren’t._
+- Cost is no object: What if it didn’t matter how unprofitable you were?
+  - Maybe prices stay the same but you can spend 10x or 100x more, even if that’s wildly unprofitable. Or maybe the product is free, too. How would you spend the money? How much value could you deliver, if you thought of the product as an exercise in philanthropy?
+  - It could be infrastructure or software, but what about the personal touch? What would a dedicated, personal concierge do? If software could do just 30% of that job, but at 1/100th of the cost, that could be a good feature.
+  - _It can be surprisingly difficult to convert money to real customer or business value, even when money is free. If there is a way, it might lead to a new pricing tier, leveraging that idea but adding back a sustainable business model._
+- Sociopathic CEO: What if you could change anything, regardless of what anyone thinks or feels?
+  - Terminating an entire product line would shake the organization, and possibly incur layoffs in multiple departments. But what if it’s the best thing to do, despite that? What if you allowed yourself to explore what that would be like? What if it turns out you can make that pivot by reorganization rather than layoffs, and now company is executing a much better strategy?
+  - Pivoting the entire company could break the organization, destroy trust in leadership, cause people to leave, and piss off investors. But what if that’s exactly the transformation required to fix the strategy? Is there anything that might actually be worth such a move?
+  - _You never want to contemplate catastrophic actions like layoffs, whole-company pivots, terminating an entire product line, and for good reason⁠—the consequences are dire, arguably even inhumane. At the same time, that aversion prevents you from thinking certain thoughts. You should at least be able to explore the thoughts. The very best ideas should not be avoided only because they are hard._
+- Mortal wound: What externality has the potential to kill the entire company?
+  - Is there a company X, which released product Y, at price Z, that would reduce your new sales to a trickle, and would mean half your customers leave within a year? Can you think of a security breech so significant, most of the customer base leaves within a year? How could the economy change, in which no one would buy your software?
+  - Now, is there something you could do to mitigate that effect? Or something that pivots the company such that it is no longer a threat?
+  - _I ran this exercise at WP Engine and we came up with 35 existential threats; it’s not wise to worry about all of them, and try to negate all of them. Sometimes, however, you find an idea which is wise to do anyway, that also shores up your defenses. Or, one threat sticks out as being so likely that it warrants acting ahead of time._
+- Philanthropist: What if our only goal were to create the most good in the world, personally for our customers?
+  - Ignore how to make money; assume that works itself out. But still talking about our customers (don’t argue about which world-wide causes are “most important”). How could we make their lives better, not because our product has greater utility, but because our product is doing something important. How could we help them achieve [their ultimate goals](https://longform.asmartbear.com/needs-stack/) rather than just “use features?”
+  - If our customers are small businesses, could we help them grow and thrive? If our customers are writers, could we help them improve their craft? If our customers are performers, could we get them more attention? If our customers are enormous companies, could we help them use their greater scale and wealth to create more good in the world? If our customers come from all walks of life, could we increase the access and equity in their reach and power?
+  - _There’s already strong evidence that having a mission bigger than yourself, more than metrics, [creates more⁠—and more loyal⁠—customers and fulfilled employees](https://longform.asmartbear.com/fulfillment/) both. Recent surveys of Gen Z show that they care about whether a company does good in the world just as much as they care about compensation. So, even aside from the ethical reasons, there are “self-interested capitalist” reasons to create more good, not just more MRR._
+- Only one thing this year: What if you could only ship one thing this year?
+  - What single initiative would make the most difference? What’s so impactful that it would actually be OK if we shipped nothing else? You get the entire year, so there’s time for a release, and fixes, and enhancements, but it has to be only one topic.
+  - What would generate the most revenue? What would be so differentiated in the market, and so desirable, that customers still buy and stay even with your lack of any other substantial product changes? What would be so exciting that customers would stay even if other things are missing or have on-going bugs?
+  - _When you look back over years of a business, often the whole trajectory comes down to 1-2 big decisions per year. A critical product launch, a key decision to enter a market for expansion or exit one market to focus on a healthier one, a key hire, a competitive insight. It’s difficult to know in the moment which will be seminal, but thinking this way forces you to think of only the absolutely most impactful ideas, which are probably the ones you should be focused on regardless._
+
+## Oblique Strategies
+
+Oblique Strategies is a list of ideas to help break creative blocks by encouraging lateral thinking.
+
+Source: https://github.com/joelparkerhenderson/oblique-strategies
+
+- (Organic) machinery
+- A line has two sides
+- Abandon normal instruments
+- Accept advice
+- Accretion
+- Allow an easement (an easement is the abandonment of a stricture)
+- Are there sections? Consider transitions
+- Ask people to work against their better judgement
+- Ask your body
+- Assemble some of the instruments in a group and treat the group
+- Balance the consistency principle with the inconsistency principle
+- Be dirty
+- Breathe more deeply
+- Bridges -build -burn
+- Cascades
+- Change instrument roles
+- Change nothing and continue with immaculate consistency
+- Children's voices -speaking -singing
+- Cluster analysis
+- Consider different fading systems
+- Consult other sources -promising -unpromising
+- Convert a melodic element into a rhythmic element
+- Courage!
+- Cut a vital connection
+- Decorate, decorate
+- Define an area as `safe' and use it as an anchor
+- Destroy -nothing -the most important thing
+- Discard an axiom
+- Disconnect from desire
+- Discover the recipes you are using and abandon them
+- Distorting time
+- Do nothing for as long as possible
+- Do something boring
+- Do the washing up
+- Do the words need changing?
+- Do we need holes?
+- Don't be afraid of things because they're easy to do
+- Don't be frightened of cliches
+- Don't be frightened to display your talents
+- Don't break the silence
+- Don't stress one thing more than another
+- Emphasize differences
+- Emphasize repetitions
+- Emphasize the flaws
+- Faced with a choice, do both (given by Dieter Roth)
+- Feedback recordings into an acoustic situation
+- Fill every beat with something
+- Get your neck massaged
+- Ghost echoes
+- Give the game away
+- Give way to your worst impulse
+- Go slowly all the way round the outside
+- Honor thy error as a hidden intention
+- How would you have done it?
+- Humanize something free of error
+- Imagine the music as a moving chain or caterpillar
+- Imagine the music as a set of disconnected events
+- Infinitesimal gradations
+- Intentions -credibility of -nobility of -humility of
+- Into the impossible
+- Is it finished?
+- Is the tuning appropriate?
+- Is there something missing?
+- Just carry on
+- Left channel, right channel, centre channel
+- Listen in total darkness, or in a very large room, very quietly
+- Listen to the quiet voice
+- Look at a very small object, look at its centre
+- Look at the order in which you do things
+- Look closely at the most embarrassing details and amplify them
+- Lowest common denominator check -single beat -single note -single
+- Make a blank valuable by putting it in an exquisite frame
+- Make a sudden, destructive unpredictable action; incorporate
+- Make an exhaustive list of everything you might do and do the last thing on the list
+- Mechanicalize something idiosyncratic
+- Mute and continue
+- Only one element of each kind
+- Overtly resist change
+- Put in earplugs
+- Remember those quiet evenings
+- Remove ambiguities and convert to specifics
+- Remove specifics and convert to ambiguities
+- Repetition is a form of change
+- Reverse
+- riff
+- Short circuit (example: a man eating peas with the idea that they will improve his virility shovels them straight into his lap)
+- Shut the door and listen from outside
+- Simple subtraction
+- Spectrum analysis
+- Take a break
+- Take away the elements in order of apparent non-importance
+- Tape your mouth (given by Ritva Saarikko)
+- The inconsistency principle
+- The tape is now the music
+- Think of the radio
+- Tidy up
+- Trust in the you of now
+- Turn it upside down
+- Twist the spine
+- Use "unqualified" people
+- Use an old idea
+- Use an unacceptable color
+- Use fewer notes
+- Use filters
+- Water
+- What are you really thinking about just now? Incorporate
+- What is the reality of the situation?
+- What mistakes did you make last time?
+- What would your closest friend do?
+- What wouldn't you do?
+- Work at a different speed
+- You are an engineer
+- You can only make one dot at a time
+- You don't have to be ashamed of using your own ideas
+
+## Adversity / diversion quotes
+
+- Steve Jobs needed calligraphy lessons to enforce Macintosh typography.
+- Alexander Fleming’s petri dish needed a mold to discover penicillin.
+- 3M's weak glue needed to fail to make Post-Its.
+- Gandhi needed to make salt first before unlock mass civil-resistance.
+- Hertz' radio waves were useless when invented.
+- "Not all those who wander are lost." — J. R. R. Tolkien.

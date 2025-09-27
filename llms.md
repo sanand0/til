@@ -2,6 +2,11 @@
 
 ## Sep 2025
 
+- 24 Sep 2025. GPT-5-Codex is available as an API and on LLM. [Simon Willison](https://simonwillison.net/2025/Sep/23/gpt-5-codex/)
+- 23 Sep 2025. [Perceptron](https://www.perceptron.inc/blog/introducing-isaac-0-1) is SOTA LLM for object bounding boxes. Just 2B parameters.
+- 22 Sep 2025. The Dropbox connector for ChatGPT is the little flaky -- at least on Android. It could not identify a file that was clearly there in Dropbox and I had to upload it manually.
+- 22 Sep 2025. ChatGPT's output is too dense for me. I added this to my custom instructions: "Write in simple language. Explain non-obvious terms intuitively."
+- 21 Sep 2025. The [India Entrance Exam database](https://github.com/lalithaar/indian-exams-database) is a dataset collating Indian entrance exams.
 - 20 Sep 2025. When editing an image, ChatGPT's non-thinking mode does a _much_ better job of preserving the original image features than the thinking mode. When editing my photo, I found that the thinking mode creates images that looks quite different than me. A surprising effect of overthinking.
 - 20 Sep 2025. When evaluating model accuracy, compare with human accuracy rather than perfect accuracy. SMEs rarely agree among themselves, so it's unlikely that they will agree with an LLM. Instead, measure how often the LLM agrees with the majority of SMEs and how often it disagrees with all SMEs. This gives a more realistic measure of accuracy. [LLMs instead of Human Judges?](https://aclanthology.org/2025.acl-short.20.pdf) and [Judging LLM-as-a-Judge](https://arxiv.org/pdf/2306.05685). [ChatGPT](https://chatgpt.com/share/68cfc068-0c5c-800c-b961-81e6a061b05f)
 - 14 Sep 2025. ChatGPT has a quota for searches. I saw this phrase in the reasoning traces: "I'll avoid overloading on citations since we only have a few calls left." It doesn't seem to be in ChatGPT's [system prompt](https://github.com/elder-plinius/CL4R1T4S/blob/476a209169e8cf0c7cad97c7ccf4c5afb2248067/OPENAI/ChatGPT5-08-07-2025.mkd) from last month, so it's either part of the tool response or a new prompt.
@@ -872,19 +877,21 @@ Claude Code notes
   - Shorten prompts
   - Persistent HTTP/2 Keep-Alive. Low impact, low effort (tweak server settings).
 - 12 May 2025. [Cloudflare Vectorize](https://developers.cloudflare.com/vectorize/platform/pricing/), at 768 dimensions / embedding, is free for ~6.5K chunks storage at ~1,000 queries / day. For a light load like 1M 768d chunks queried 1K times a day, the cost is: [ChatGPT](https://chatgpt.com/share/6821a25a-9f80-800c-8d95-8b2200ad6de4)
-  | Service | $ |
+
+  | Service                        |      $ |
   | ------------------------------ | -----: |
-  | Cloudflare Vectorize | 0.38 |
-  | TurboPuffer (min $64/mo) | 1.12 |
-  | Pinecone (Serverless) | 1.27 |
-  | Supabase (pgvector Micro) | 10.00 |
-  | Redis Cloud Flex (~3 GB) | 15.00 |
-  | Elastic Serverless | 65.84 |
-  | Weaviate Cloud (Serverless) | 73.00 |
-  | Qdrant Cloud (4 CPU / 8 GB) | 107.16 |
-  | Azure AI Search (S1 1 SU) | 245.28 |
-  | AWS OpenSearch Serverless | 350.00 |
+  | Cloudflare Vectorize           |   0.38 |
+  | TurboPuffer (min $64/mo)       |   1.12 |
+  | Pinecone (Serverless)          |   1.27 |
+  | Supabase (pgvector Micro)      |  10.00 |
+  | Redis Cloud Flex (~3 GB)       |  15.00 |
+  | Elastic Serverless             |  65.84 |
+  | Weaviate Cloud (Serverless)    |  73.00 |
+  | Qdrant Cloud (4 CPU / 8 GB)    | 107.16 |
+  | Azure AI Search (S1 1 SU)      | 245.28 |
+  | AWS OpenSearch Serverless      | 350.00 |
   | Google Vertex AI Vector Search | 547.50 |
+
 - 12 May 2025. [NVIDIA parakeet](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2) is a lightweight speech to text model that leads benchmarks. Installing such packages continues to be a nightmare due to PyTorch (despite `uv`).
 - 12 May 2025. I explored the real-time avatar space. Heygen seems to be the easiest to use, but even that is complex and expensive ($99/mo). We may need to wait a few months for avatars to explode.
 - 12 May 2025. ⭐ Model reliability is a huge enabler for performance. As models become more reliable, they can work autonomously for longer and that is another kind of scaling. [Vending Bench](https://andonlabs.com/evals/vending-bench)

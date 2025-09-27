@@ -21,7 +21,7 @@ Updated monthly / quarterly:
 
 Static notes:
 
-- `oblique-strategies.md`: Brian Eno's oblique strategies
+- `creative-ideas.md`: Extreme brainstorming, Brian Eno's oblique strategies, ...
 - `claude-code-uses.md`: How Anthropic teams use Claude Code
 
 Notes structure:
