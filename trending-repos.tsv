@@ -155,12 +155,12 @@
 🟣	JS	    2206	    20	2025-09-17	therealgliz/blooket-hacks	Multiple game hacks to use so the game become easier to play!
 🟣	JS	    1655	    26	2025-09-17	UseInterstellar/Interstellar	One of the most popular modern web proxies with blazing fast speeds and a variety of games.
 🟣	JS	     826	    36	2025-09-17	met4citizen/TalkingHead	Talking Head (3D): A JavaScript class for real-time lip-sync using Ready Player Me full-body 3D avatars.
-🟣	GO	  117711	   167	2025-09-27	kubernetes/kubernetes	Production-Grade Container Scheduling and Management
-🟣	GO	   83576	   212	2025-09-17	gohugoio/hugo	The world’s fastest framework for building websites.
+🔴	GO	  117711	   167	2025-09-27	kubernetes/kubernetes	Production-Grade Container Scheduling and Management	I don't code Kubernetes
+🔴	GO	   83576	   212	2025-09-17	gohugoio/hugo	The world’s fastest framework for building websites.	Prefer eleventy
 🟣	GO	   37310	    48	2025-09-23	istio/istio	Connect, secure, control, and observe services.
 🟣	GO	   31393	   168	2025-09-23	1Panel-dev/1Panel	🔥 1Panel provides an intuitive web interface and MCP Server to manage websites, files, containers, databases, and LLMs on a Linux server.
-🟣	GO	   31163	   161	2025-09-17	derailed/k9s	🐶 Kubernetes CLI To Manage Your Clusters In Style!
-🟣	GO	   28607	   130	2025-09-27	helm/helm	The Kubernetes Package Manager
+🔴	GO	   31163	   161	2025-09-17	derailed/k9s	🐶 Kubernetes CLI To Manage Your Clusters In Style!	I don't code Kubernetes
+🔴	GO	   28607	   130	2025-09-27	helm/helm	The Kubernetes Package Manager	I don't code Kubernetes
 🟣	GO	   26602	   144	2025-09-27	grafana/loki	Like Prometheus, but for logs.
 🟣	GO	   24765	   136	2025-09-27	abiosoft/colima	Container runtimes on macOS (and Linux) with minimal setup
 🟣	GO	   21876	   510	2025-09-17	trufflesecurity/trufflehog	Find, verify, and analyze leaked credentials
@@ -180,7 +180,7 @@
 🟣	GO	    8549	   270	2025-09-23	TwiN/gatus	⛑ Automated developer-oriented status page
 🟣	GO	    7759	   228	2025-09-27	smartcontractkit/chainlink	node of the decentralized oracle network, bridging on and off-chain computation
 🟣	GO	    5795	   522	2025-09-23	everywall/ladder	Selfhosted alternative to 12ft.io. and 1ft.io bypass paywalls with a proxy ladder and remove CORS headers from any URL
-🟣	GO	    5630	    22	2025-09-17	actions/actions-runner-controller	Kubernetes controller for GitHub Actions self-hosted runners
+🔴	GO	    5630	    22	2025-09-17	actions/actions-runner-controller	Kubernetes controller for GitHub Actions self-hosted runners	I don't code Kubernetes
 🟣	GO	    5325	    40	2025-09-27	evcc-io/evcc	solar charging ☀️🚘
 🟣	GO	    4889	    35	2025-09-27	kgateway-dev/kgateway	The Cloud-Native API Gateway and AI Gateway
 🟣	GO	    4863	    65	2025-09-17	lharries/whatsapp-mcp	WhatsApp MCP server

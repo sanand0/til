@@ -2,6 +2,8 @@
 
 ## Sep 2025
 
+- 27 Sep 2025. [`selectolax`](https://github.com/rushter/selectolax) is a fast, easy-to-use, modern HTML5 parser with CSS selectors. A good replacement for `lxml.html`.
+- 26 Sep 2025. Adding `// @ts-check` to a JavaScript file and documenting types via JSDoc might be the simplest way to migrate phase-wise from JS to Typescript.
 - 26 Sep 2025. `envsubst < file.txt` replaces `file.txt` with the environment variable, e.g. `$HOME` is replaced by the `HOME` environment variable. Clean shell-level templating.
 - 25 Sep 2025. [Compost](https://www.amazon.in/ORGANIC-PLANT-Primium-Quality-Vermicompost/dp/B0B59QXGC4) is the cheapest thing per ton that I can buy on Amazon India. I can buy 1 ton of compost for Rs 13,500. [ChatGPT](https://chatgpt.com/s/t_68d5e3ef9e4081919e1ecd6582e6197c)
 - 24 Sep 2025. `yt-dlp` requires Deno from now on. [#14404](https://github.com/yt-dlp/yt-dlp/issues/14404)
@@ -644,6 +646,10 @@
   f2 -r '{id3.artist}/{id3.album}/${1}_{id3.title}{ext}'
   ```
 - 31 May 2025. git worktrees can create multiple copies of code. This is useful when using different coding agents run the same task in parallel. [Ref](https://www.skeptrune.com/posts/git-worktrees-agents-and-tmux/)
+  - `git worktree add -b $newbranch worktree/$path` creates a copy of HEAD in $path as a $newbranch
+  - `git push` from branch and create a pull request
+  - `git worktree remove worktree/$path` to remove worktree
+  - `git worktree prune` for garbage collection
 - 29 May 2025. Today, I'd go with [Node's native test runner](https://nodejs.org/api/test.html) for backend JS testing. I used [node-tap](https://node-tap.org/) earlier. For front-end, I'd pick [vitest](https://vitest.dev/). [ChatGPT](https://chatgpt.com/share/683808bf-c01c-800c-a5ea-18df8394414c)
 - 27 May 2025. ⭐ DuckLake is a DuckDB extension that makes Parquet files editable with history. And much more. [DuckDB](https://duckdb.org/2025/05/27/ducklake.html)
 - 25 May 2025. Here's one way controls inflate cost. Tracking expenses, submitting receipts, and justifying usage adds transaction cost. So, rather than a $10 monthly top-up, I'd rather top-up $200 (even if it might go unused), rather than have to ask again.

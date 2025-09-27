@@ -2,6 +2,9 @@
 
 ## Sep 2025
 
+- 27 Sep 2025. Tool calls in OpenAI support files and images. [OpenAI](https://x.com/OpenAIDevs/status/1971618905941856495?t=1fJFyLyYQXlbMMquShLMOQ)
+- 27 Sep 2025. "Task parity is not the same thing as job parity  There is a lot of complexity as many different tasks are bundled into jobs, and many jobs contribute to processes inside an organization  The jagged frontier of AI ability means doing tasks well doesn't translate to doing jobs well." [Ethan Mollick](https://x.com/emollick/status/1971643202332733683?t=SqZLjGdInJf4DRb5zcMPqQ)
+- 26 Sep 2025. [GitHub Copilot CLI](https://github.com/github/copilot-cli) is out. `npx -y @github/copilot`
 - 24 Sep 2025. GPT-5-Codex is available as an API and on LLM. [Simon Willison](https://simonwillison.net/2025/Sep/23/gpt-5-codex/)
 - 23 Sep 2025. [Perceptron](https://www.perceptron.inc/blog/introducing-isaac-0-1) is SOTA LLM for object bounding boxes. Just 2B parameters.
 - 22 Sep 2025. The Dropbox connector for ChatGPT is the little flaky -- at least on Android. It could not identify a file that was clearly there in Dropbox and I had to upload it manually.
