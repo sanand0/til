@@ -2,6 +2,13 @@
 
 ## Sep 2025
 
+- 28 Sep 2025. LLM benchmarks show a correlation of ~0.5, hinting at a common theme of intelligence. Correlations in coding & science are particularly high. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lzfm52q34k2n). Reminds me of [student marks correlations](https://www.s-anand.net/blog/correlating-subjects/). Strong correlation clusters (physics, chemistry, biology, mathematics, computer science) with the weaker correlations going down to ~0.5. What does it indicate? LLMs learn like people? Knowledge areas cluster? Humans write benchmarks like exams?
+- 28 Sep 2025. [Dayflow](https://github.com/JerryZLiu/Dayflow) records your screen at 1 fps and uses Gemini to summarise your activity every 15 min. Has low CPU usage.
+- 28 Sep 2025. [Code Mode](https://blog.cloudflare.com/code-mode/) is a smart way to use MCPs and a very likely future direction. Using LLMs to write code to call MCPs rather than directly
+- 28 Sep 2025. Cloudflare supports an [AI Index](https://blog.cloudflare.com/an-ai-index-for-all-our-customers/) which will eliminate the need for a lot of custom RAG engineering.
+- 27 Sep 2025. Tool calls in OpenAI support files and images. [OpenAI](https://x.com/OpenAIDevs/status/1971618905941856495?t=1fJFyLyYQXlbMMquShLMOQ)
+- 27 Sep 2025. "Task parity is not the same thing as job parity  There is a lot of complexity as many different tasks are bundled into jobs, and many jobs contribute to processes inside an organization  The jagged frontier of AI ability means doing tasks well doesn't translate to doing jobs well." [Ethan Mollick](https://x.com/emollick/status/1971643202332733683?t=SqZLjGdInJf4DRb5zcMPqQ)
+- 26 Sep 2025. [GitHub Copilot CLI](https://github.com/github/copilot-cli) is out. `npx -y @github/copilot`
 - 24 Sep 2025. GPT-5-Codex is available as an API and on LLM. [Simon Willison](https://simonwillison.net/2025/Sep/23/gpt-5-codex/)
 - 23 Sep 2025. [Perceptron](https://www.perceptron.inc/blog/introducing-isaac-0-1) is SOTA LLM for object bounding boxes. Just 2B parameters.
 - 22 Sep 2025. The Dropbox connector for ChatGPT is the little flaky -- at least on Android. It could not identify a file that was clearly there in Dropbox and I had to upload it manually.
