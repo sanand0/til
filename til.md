@@ -2,7 +2,19 @@
 
 ## Sep 2025
 
+- 28 Sep 2025. [`typst`](https://github.com/typst/typst) is a good LaTeX alternative. Markdown-like syntax with fast rendering. Mostly useful for researchers using LaTeX. But publishers / journals don't accept typst often.
+- 28 Sep 2025. [`libSQL`](https://github.com/tursodatabase/libsql) is an SQLite compatible fork with remote access, replication, ALTER TABLE to modify columns, random ROWID, etc. It supports the same externsions. The maintainers are working on [`turso`](https://github.com/tursodatabase/turso) - a SQLite compatible improvement with async, vectors, change data capture, etc. (still in alpha). But because of this, I'm a bit uncertain about the future of `libSQL`.
 - 27 Sep 2025. [`selectolax`](https://github.com/rushter/selectolax) is a fast, easy-to-use, modern HTML5 parser with CSS selectors. A good replacement for `lxml.html`.
+- 27 Sep 2025. The most effective way to convert a blob (e.g. file input) to a data URL on the browser seems to be via the [FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader) API.
+  ```js
+  const blobToDataURL = (blob) =>
+    new Promise((res, rej) => {
+      const r = new FileReader();
+      r.onload = () => res(r.result);
+      r.onerror = () => rej(r.error);
+      r.readAsDataURL(f);
+    });
+  ```
 - 26 Sep 2025. Adding `// @ts-check` to a JavaScript file and documenting types via JSDoc might be the simplest way to migrate phase-wise from JS to Typescript.
 - 26 Sep 2025. `envsubst < file.txt` replaces `file.txt` with the environment variable, e.g. `$HOME` is replaced by the `HOME` environment variable. Clean shell-level templating.
 - 25 Sep 2025. [Compost](https://www.amazon.in/ORGANIC-PLANT-Primium-Quality-Vermicompost/dp/B0B59QXGC4) is the cheapest thing per ton that I can buy on Amazon India. I can buy 1 ton of compost for Rs 13,500. [ChatGPT](https://chatgpt.com/s/t_68d5e3ef9e4081919e1ecd6582e6197c)
