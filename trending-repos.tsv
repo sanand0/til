@@ -228,7 +228,7 @@
 🔴	SH	    9509	  1214	2025-09-23	basecamp/omarchy	Opinionated Arch/Hyprland Setup	I don't use Arch/Hyprland
 🔴	RS	  106655	   202	2025-09-23	rust-lang/rust	Empowering everyone to build reliable and efficient software.	I don't code Rust
 🔴	RS	   66187	   569	2025-09-23	zed-industries/zed	Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.	I prefer VS Code
-🔴	RS	   45705	   193	2025-09-23	typst/typst	A new markup-based typesetting system that is powerful and easy to learn.	LaTeX alternative. I prefer Markdown.
+🔴	RS	   45705	   193	2025-09-23	typst/typst	A new markup-based typesetting system that is powerful and easy to learn.	LaTeX alternative. I prefer Markdown. See https://lwn.net/Articles/1037577/
 🔴	RS	   42359	   380	2025-09-27	bevyengine/bevy	A refreshingly simple data-driven game engine built in Rust	I don't code Rust
 🔴	RS	   34023	  1945	2025-09-17	juspay/hyperswitch	An open source payments switch written in Rust to make payments fast, reliable and affordable	I don't do finance
 🔴	RS	   29600	    96	2025-09-17	tokio-rs/tokio	A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...	I don't code Rust

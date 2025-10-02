@@ -2,6 +2,15 @@
 
 Descriptions of apps I felt would be interesting or useful to build (or find).
 
+## Oct 2025
+
+- 02 Oct 2025. Create a bookmarket that converts the latest ChatGPT Markdown response into Marp slides. #MEDIUM
+- 02 Oct 2025. Create a web app that polls a [Slido](https://datapi-eu1.slido.com/redoc) survey and runs [topic modelling](https://pypi.org/project/topicmodel) to visually show the clusters of questions live, e.g. like [pol.is](https://info.vtaiwan.tw/). #HARD
+- 02 Oct 2025. Create an npm package that exposes functions for LLMs/agents to use as tools to run JavaScript (browser), Python (WASM) and SQL (DuckDB WASM) code. #MEDIUM
+- 02 Oct 2025. Create an AI journaling tool. #VAGUE As you write, the notebook talks back to you. For example, a VS code plugin that fact-checks, suggests questions, ... as you write.
+
+## Sep 2025
+
 <!--
 
 - 2 Sep 2025
@@ -24,6 +33,9 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
   - Do not use hierarchical clustering.
   - When sending the cluster details to the LLM for naming, have it create a 2-level hierarchy.
   - Use `/` to combine them in the hierarchy, i.e. the tag name will be `Parent tag / child tag`.
+
+## Aug 2025
+
 - 20 Aug 2025
   - [x] [Policy-as-code app](https://github.com/sanand0/policyascode). Checklist from doc. Apply checklist to data / doc inputs.
   - [x] [Code similarity checker library](https://github.com/sanand0/codesimilarity) based on TDS Project evals.
