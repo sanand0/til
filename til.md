@@ -1,7 +1,13 @@
 # Things I learned
 
+## Oct 2025
+
+- 02 Oct 2025. My laptop's mic is much better than my phone's mic, surprisingly. When recording conversations, it's better to leave my laptop open and record than use the phone's recording app.
+- 01 Oct 2025. What I'd like to do next, maybe, is build a boutique "AI Studio". Small group of good people coding delightful AI problems. Something that doesn't scale.
+
 ## Sep 2025
 
+- 30 Sep 2025. [GLM models can be used with Claude Code](https://docs.z.ai/scenario-example/develop-tools/claude). At $3/month and a quality close to Claude 4 Sonnet, this is a good deal. But the effort of adding a new subscription is too high for me. I'd rather use it via OpenRouter which is doesn't support an Anthropic API end point at the moment.
 - 28 Sep 2025. [`typst`](https://github.com/typst/typst) is a good LaTeX alternative. Markdown-like syntax with fast rendering. Mostly useful for researchers using LaTeX. But publishers / journals don't accept typst often.
 - 28 Sep 2025. [`libSQL`](https://github.com/tursodatabase/libsql) is an SQLite compatible fork with remote access, replication, ALTER TABLE to modify columns, random ROWID, etc. It supports the same externsions. The maintainers are working on [`turso`](https://github.com/tursodatabase/turso) - a SQLite compatible improvement with async, vectors, change data capture, etc. (still in alpha). But because of this, I'm a bit uncertain about the future of `libSQL`.
 - 27 Sep 2025. [`selectolax`](https://github.com/rushter/selectolax) is a fast, easy-to-use, modern HTML5 parser with CSS selectors. A good replacement for `lxml.html`.
