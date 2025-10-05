@@ -39,9 +39,9 @@
 🟣	PY	   79150	   735	2025-10-05	bregman-arie/devops-exercises	Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
 🔴	PY	   29418	   748	2025-10-05	frappe/erpnext	Free and Open Source Enterprise Resource Planning (ERP)	I don't use ERPs
 🟣	PY	    4305	   911	2025-10-05	imputnet/helium	Private, fast, and honest web browser
-🟣	PY	     147	    25	2025-10-05	elliottech/lighter-python	Public Python SDK for Lighter
+🔴	PY	     147	    25	2025-10-05	elliottech/lighter-python	Public Python SDK for Lighter	I don't do finance
 🟢	PY	    9842	    93	2025-10-05	simonw/llm	Access large language models from the command-line
-🟣	PY	    8630	    96	2025-10-05	ollama/ollama-python	Ollama Python library
+🔴	PY	    8630	    96	2025-10-05	ollama/ollama-python	Ollama Python library	I don't use Ollama much
 🟣	PY	   58210	  2110	2025-10-05	commaai/openpilot	openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.
 🟣	PY	    8811	   445	2025-10-05	jsvine/pdfplumber	Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extract text and tables.
 🟢	PY	   58428	    96	2025-10-05	scrapy/scrapy	Scrapy, a fast high-level web crawling & scraping framework for Python.
