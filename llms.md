@@ -1,21 +1,47 @@
 # LLM learnings
 
+## Oct 2025
+
+- 03 Oct 2025. "Find evidence for and against" improves LLM responses far more than "Are you sure?" [Mike Caulfield](https://mikecaulfield.substack.com/p/is-are-you-sure-is-a-bad-follow-up)
+- 02 Oct 2025. ⭐ Here are the major not-immediately-obvious LLM megatrends/superpowers I see.
+  - Swarms. Ask for dozens of solutions in parallel. Merge, rank, auto-debate, converge.
+  - Personalize at Scale. Create feedback, designs, excerpts/summaries, ... tailored to EACH person at scale.
+  - Computer use. Agents operate UIs like a human (browser, apps).
+  - LLM-as-a-judge. Use AI to validate ever-increasing AI generated output.
+  - Synthetic data. Create realistic data for prototypes, testing edge cases, market research simulation, training data, ...
+  - Code on demand. Ask for outcomes directly. Agents code _on the fly_ to get there, in data science, research, management, ...
+  - Style transfer. Copy a master's style of drawing, coding, writing, ... creating an army of their apprentices.
+  - Multi-modality. Native voice/video/screensharing and long-context perception
+  - Citizen experts. Non-expertise is not a barrier. Amateurs can create expert-level films, music, software, reports, ...
+  - Long-context LLMs. Growing context size lets us process entire repos, legal libraries, personal lifelogs, ...
+  - Memory. Assistants learn per-person / per-team. Cuts prompt, builds knowledge.
+  - Agent-to-Agent. Agents consuming content (e.g. `llms.txt`), agents calling agents (sub-agents, A2A protocol, ...)
+  - Real-world tools. Write reports, send emails, shop online, use computer, control devices, ...
+  - Jagged frontier. AI is great at certain things but terrible at others. This frontier is unknown and shifting rapidly.
+  - Lethal trifecta. You can only have 2 out of these 3: private data, untrusted content, and external communication.
+  - Edge/Private AI. Small models on private cloud compute.
+  - Authenticity. What content is authentic? What's slop? What's fraud? Are AI twins liable?
+  - AI Governance. Strict liability, transparency mandates, state control, ...
+  - Not sure about or haven't seen enough of these:
+    - Data / workflow as the moat
+    - AI native business models
+    - AI digital-divide
+
 ## Sep 2025
 
-- 28 Sep 2025. LLM benchmarks show a correlation of ~0.5, hinting at a common theme of intelligence. Correlations in coding & science are particularly high. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lzfm52q34k2n). Reminds me of [student marks correlations](https://www.s-anand.net/blog/correlating-subjects/). Strong correlation clusters (physics, chemistry, biology, mathematics, computer science) with the weaker correlations going down to ~0.5. What does it indicate? LLMs learn like people? Knowledge areas cluster? Humans write benchmarks like exams?
+- 28 Sep 2025. ⭐ LLM benchmarks show a correlation of ~0.5, hinting at a common theme of intelligence. Correlations in coding & science are particularly high. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lzfm52q34k2n). Reminds me of [student marks correlations](https://www.s-anand.net/blog/correlating-subjects/). Strong correlation clusters (physics, chemistry, biology, mathematics, computer science) with the weaker correlations going down to ~0.5. What does it indicate? LLMs learn like people? Knowledge areas cluster? Humans write benchmarks like exams?
 - 28 Sep 2025. [Dayflow](https://github.com/JerryZLiu/Dayflow) records your screen at 1 fps and uses Gemini to summarise your activity every 15 min. Has low CPU usage.
 - 28 Sep 2025. [Code Mode](https://blog.cloudflare.com/code-mode/) is a smart way to use MCPs and a very likely future direction. Using LLMs to write code to call MCPs rather than directly
 - 28 Sep 2025. Cloudflare supports an [AI Index](https://blog.cloudflare.com/an-ai-index-for-all-our-customers/) which will eliminate the need for a lot of custom RAG engineering.
 - 27 Sep 2025. Tool calls in OpenAI support files and images. [OpenAI](https://x.com/OpenAIDevs/status/1971618905941856495?t=1fJFyLyYQXlbMMquShLMOQ)
-- 27 Sep 2025. "Task parity is not the same thing as job parity  There is a lot of complexity as many different tasks are bundled into jobs, and many jobs contribute to processes inside an organization  The jagged frontier of AI ability means doing tasks well doesn't translate to doing jobs well." [Ethan Mollick](https://x.com/emollick/status/1971643202332733683?t=SqZLjGdInJf4DRb5zcMPqQ)
+- 27 Sep 2025. ⭐ "Task parity is not the same thing as job parity There is a lot of complexity as many different tasks are bundled into jobs, and many jobs contribute to processes inside an organization The jagged frontier of AI ability means doing tasks well doesn't translate to doing jobs well." [Ethan Mollick](https://x.com/emollick/status/1971643202332733683?t=SqZLjGdInJf4DRb5zcMPqQ)
 - 26 Sep 2025. [GitHub Copilot CLI](https://github.com/github/copilot-cli) is out. `npx -y @github/copilot`
 - 24 Sep 2025. GPT-5-Codex is available as an API and on LLM. [Simon Willison](https://simonwillison.net/2025/Sep/23/gpt-5-codex/)
 - 23 Sep 2025. [Perceptron](https://www.perceptron.inc/blog/introducing-isaac-0-1) is SOTA LLM for object bounding boxes. Just 2B parameters.
 - 22 Sep 2025. The Dropbox connector for ChatGPT is the little flaky -- at least on Android. It could not identify a file that was clearly there in Dropbox and I had to upload it manually.
 - 22 Sep 2025. ChatGPT's output is too dense for me. I added this to my custom instructions: "Write in simple language. Explain non-obvious terms intuitively."
-- 21 Sep 2025. The [India Entrance Exam database](https://github.com/lalithaar/indian-exams-database) is a dataset collating Indian entrance exams.
 - 20 Sep 2025. When editing an image, ChatGPT's non-thinking mode does a _much_ better job of preserving the original image features than the thinking mode. When editing my photo, I found that the thinking mode creates images that looks quite different than me. A surprising effect of overthinking.
-- 20 Sep 2025. When evaluating model accuracy, compare with human accuracy rather than perfect accuracy. SMEs rarely agree among themselves, so it's unlikely that they will agree with an LLM. Instead, measure how often the LLM agrees with the majority of SMEs and how often it disagrees with all SMEs. This gives a more realistic measure of accuracy. [LLMs instead of Human Judges?](https://aclanthology.org/2025.acl-short.20.pdf) and [Judging LLM-as-a-Judge](https://arxiv.org/pdf/2306.05685). [ChatGPT](https://chatgpt.com/share/68cfc068-0c5c-800c-b961-81e6a061b05f)
+- 20 Sep 2025. ⭐ When evaluating model accuracy, compare with human accuracy rather than perfect accuracy. SMEs rarely agree among themselves, so it's unlikely that they will agree with an LLM. Instead, measure how often the LLM agrees with the majority of SMEs and how often it disagrees with all SMEs. This gives a more realistic measure of accuracy. [LLMs instead of Human Judges?](https://aclanthology.org/2025.acl-short.20.pdf) and [Judging LLM-as-a-Judge](https://arxiv.org/pdf/2306.05685). [ChatGPT](https://chatgpt.com/share/68cfc068-0c5c-800c-b961-81e6a061b05f)
 - 14 Sep 2025. ChatGPT has a quota for searches. I saw this phrase in the reasoning traces: "I'll avoid overloading on citations since we only have a few calls left." It doesn't seem to be in ChatGPT's [system prompt](https://github.com/elder-plinius/CL4R1T4S/blob/476a209169e8cf0c7cad97c7ccf4c5afb2248067/OPENAI/ChatGPT5-08-07-2025.mkd) from last month, so it's either part of the tool response or a new prompt.
 - 14 Sep 2025. Depending on the underlying chips that a model uses, the floating point multiplications may differ and model quality can vary. So Claude 4 Opus running on Anthropic's GPUs can produce different results from when running on Google's GPUs or Amazon's GPUs.
 - 12 Sep 2025. Claude has a Python + Node code interpreter that can access GitHub, PyPi, npm and Google. [Simon Willison](https://simonwillison.net/2025/Sep/9/claude-code-interpreter/)
@@ -26,9 +52,9 @@
 - 10 Sep 2025. Claude.ai can [natively work with Excel, PPTX, DOCX, and PDF files now](https://www.anthropic.com/news/create-files).
 - 10 Sep 2025. With embeddings, atomic labels + hierarchy beat instruction-heavy prompts. Prefer short, concrete sub-labels (e.g., “promotion,” “job security,” “flexibility”) that roll up to a parent "career" rather than a composite instruction like “Total Rewards and Career Growth”. Embedding similarity is not smart enough to figure this out.
 - 10 Sep 2025. Today, RPA is cheaper than LLMs in some areas. But it's a moving target. LLM costs are fall fast: 70–90% declines across major providers in 1.5 years. Therefore, waiting has option value. But classic IT compares static quotes, not declining curves, and hence is likely to under-procure LLM solutions.
-- 10 Sep 2025. The biggest near-term ROI for LLMs in data science is like ‘boring’ data work: PII tagging, data dictionaries, ER/joins, SDTM mapping, etc.. People expect flashy GenAI, but LLMs can bootstrap schema matching and data-cleaning, speeding engineer verification, which is more useful at scale.
+- 10 Sep 2025. ⭐ The biggest near-term ROI for LLMs in data science is like ‘boring’ data work: PII tagging, data dictionaries, ER/joins, SDTM mapping, etc.. People expect flashy GenAI, but LLMs can bootstrap schema matching and data-cleaning, speeding engineer verification, which is more useful at scale.
 - 09 Sep 2025. [Codex CLI](https://github.com/openai/codex) with high reasoning effort seems far more comprehensive than [Codex online](https://chatgpt.com/codex). I asked both to identify the system requirements (URLs to access, software to install, ports to open) for my [Tools in Data Science course](https://tds.s-anand.net/). Codex CLI got it right one shot (after 10 minutes of thinking). Codex online missed several items even after 4 attempts.
-- 8 Sep 2025. Output tokens dominate latency. Decoding is sequential (one token depends on all prior tokens), so long completions are the main throttle. Shrinking _returned_ text (e.g., send spans/tags instead of echoing paragraphs) yields a far bigger win on latency than shrinking inputs.
+- 08 Sep 2025. Output tokens dominate latency. Decoding is sequential (one token depends on all prior tokens), so long completions are the main throttle. Shrinking _returned_ text (e.g., send spans/tags instead of echoing paragraphs) yields a far bigger win on latency than shrinking inputs.
 - 06 Sep 2025. Searching embeddings of text summaries of images improves vision search a lot. [Jason Liu](https://x.com/jxnlco/status/1964050092312211636?t=sh16G2U8w4Bl0YvQfd0Dnw)
 - 05 Sep 2025. LLM vision capabilities are far from enough to click accurately. [The AI Digest](https://theaidigest.org/village/blog/claude-plays-whatever-it-wants)
 - 05 Sep 2025. GLM supports the Anthropic API. So it's possible to use Claude Code with GLM 4.5. [z.ai](https://docs.z.ai/scenario-example/develop-tools/claude)

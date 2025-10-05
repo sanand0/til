@@ -1,15 +1,39 @@
 # Things I learned
 
+## Oct 2025
+
+- 03 Oct 2025. Wrong answers are useful if you discover why they said that. Conversation is a game where you CO-CONSTRUCT common ground. [Mike Caulfield](https://mikecaulfield.substack.com/p/when-wrong-llm-answers-get-you-to)
+- 03 Oct 2025. BMTC hourly data from Bangalore Metro is available via RTI. [Vivek](https://github.com/Vonter/bmrcl-ridership-hourly)
+- 02 Oct 2025. [SSH3](https://github.com/francoismichel/ssh3) is an emerging SSH alternative that's written on top of HTTP/3. It supports OAuth2, OpenID Connect, and HTTPS for certificates.
+- 02 Oct 2025. Cholesterol has become a victim of its own success. We give statins to those with high LDL. So most people who have heart attacks have lower-than-natural cholesterol. Inflammation (HS-CRP) is now the strongest predictor of heart attack ([American College of Cardiology ](https://www.empirical.health/blog/inflammation-and-heart-health/)). The usual stuff reduces HS-CRP: no sugar/carbs, veggies, nuts, green tea, turmeric/black pepper, weight loss, exercise, sleep, meditation.
+- 02 Oct 2025. ⭐ The beginner mindset: scrub your instincts and don't let life experience cloud you. This takes effort. Hold on to naivette and escape cynicism. [The Knowledge Project: Barry Diller](https://fs.blog/knowledge-project-podcast/barry-diller/)
+- 02 Oct 2025. Forecasts give comfort. They may not be good but they feel safer than instinct. [The Knowledge Project: Barry Diller](https://fs.blog/knowledge-project-podcast/barry-diller/)
+- 02 Oct 2025. My laptop's mic is much better than my phone's mic, surprisingly. When recording conversations, it's better to leave my laptop open and record than use the phone's recording app.
+- 01 Oct 2025. ⭐ What I'd like to do next, maybe, is build a boutique "AI Studio". Small group of good people coding delightful AI problems. Something that doesn't scale.
+
 ## Sep 2025
 
+- 30 Sep 2025. [GLM models can be used with Claude Code](https://docs.z.ai/scenario-example/develop-tools/claude). At $3/month and a quality close to Claude 4 Sonnet, this is a good deal. But the effort of adding a new subscription is too high for me. I'd rather use it via OpenRouter which is doesn't support an Anthropic API end point at the moment.
+- 28 Sep 2025. [`typst`](https://github.com/typst/typst) is a good LaTeX alternative. Markdown-like syntax with fast rendering. Mostly useful for researchers using LaTeX. But publishers / journals don't accept typst often.
+- 28 Sep 2025. [`libSQL`](https://github.com/tursodatabase/libsql) is an SQLite compatible fork with remote access, replication, ALTER TABLE to modify columns, random ROWID, etc. It supports the same externsions. The maintainers are working on [`turso`](https://github.com/tursodatabase/turso) - a SQLite compatible improvement with async, vectors, change data capture, etc. (still in alpha). But because of this, I'm a bit uncertain about the future of `libSQL`.
 - 27 Sep 2025. [`selectolax`](https://github.com/rushter/selectolax) is a fast, easy-to-use, modern HTML5 parser with CSS selectors. A good replacement for `lxml.html`.
+- 27 Sep 2025. The most effective way to convert a blob (e.g. file input) to a data URL on the browser seems to be via the [FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader) API.
+  ```js
+  const blobToDataURL = (blob) =>
+    new Promise((res, rej) => {
+      const r = new FileReader();
+      r.onload = () => res(r.result);
+      r.onerror = () => rej(r.error);
+      r.readAsDataURL(f);
+    });
+  ```
 - 26 Sep 2025. Adding `// @ts-check` to a JavaScript file and documenting types via JSDoc might be the simplest way to migrate phase-wise from JS to Typescript.
 - 26 Sep 2025. `envsubst < file.txt` replaces `file.txt` with the environment variable, e.g. `$HOME` is replaced by the `HOME` environment variable. Clean shell-level templating.
 - 25 Sep 2025. [Compost](https://www.amazon.in/ORGANIC-PLANT-Primium-Quality-Vermicompost/dp/B0B59QXGC4) is the cheapest thing per ton that I can buy on Amazon India. I can buy 1 ton of compost for Rs 13,500. [ChatGPT](https://chatgpt.com/s/t_68d5e3ef9e4081919e1ecd6582e6197c)
 - 24 Sep 2025. `yt-dlp` requires Deno from now on. [#14404](https://github.com/yt-dlp/yt-dlp/issues/14404)
-- 24 Sep 2025. Make cameras optional by default—and judge engagement by contributions, not video—because a 4-week field experiment found camera-on increased fatigue and reduced voice, especially for women and newcomers. Camera on early for trust building is useful. [PubMed](https://pubmed.ncbi.nlm.nih.gov/34423999/)
+- 24 Sep 2025. In meetings, make cameras optional by default -- and judge engagement by contributions, not video -- because a 4-week field experiment found camera-on increased fatigue and reduced voice, especially for women and newcomers. Camera on early for trust building is useful. [PubMed](https://pubmed.ncbi.nlm.nih.gov/34423999/)
 - 24 Sep 2025. [`wrkflw`](https://github.com/bahdotsh/wrkflw) is a quick and light way to test GitHub actions before publishing. It runs GitHub actions locally.
-- 23 Sep 2025. I'm habit engineering, i.e. discovering and stacking habits on to existing ones. For example:
+- 23 Sep 2025. ⭐ I'm habit engineering, i.e. discovering and stacking habits on to existing ones. For example:
   - ChatGPT suggested increasing observability based on code reviews. I'm including it in my [weekly codecast](https://github.com/sanand0/sanand0/tree/main/week).
   - ChatGPT suggested defining closures inmeetings. I'mn now discussing objectives at meeting starts and effectiveness at the end.
 - 23 Sep 2025. Since Anaconda [cannot be used for free](https://www.anaconda.com/pricing) by organizations with 200+ people, Straive's received legal notices from Anaconda. Since laptops are under central IT administration, they went ahead and deleted all Anaconda instances. Installing [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main) for use with [conda-forge](https://conda-forge.org/) requires admin access that most developers do not have, however. That leads to an interesting "No Python" situation. This is where [`uv`](https://github.com/astral-sh/uv) becomes the knight in shining armor.
@@ -18,15 +42,16 @@
 - 22 Sep 2025. `uvx markitdown https://example.com/` fetches `example.com` as Markdown. I learnt this when I told Codex it could use `uvx markitdown` to convert PDFs and it figured this part out by itself.
 - 21 Sep 2025. `yt-dlp` has a `--download-sections` option that downloads specific YouTube time ranges. For example `--download-sections "*00:01:00-00:03:00"` downloads _roughly_ (not exactly) from 1 min to 3 min. Note the `*` at the beginning.
 - 21 Sep 2025. My Lenovo laptop's touchpad started scrolling instead of moving when I moved my finger. Many things could have caused it, but the solution was to click (not tap) the top middle of the trackpad. [ChatGPT](https://chatgpt.com/share/68cfc8ff-e7fc-800c-b8bf-474d41332cd1)
+- 21 Sep 2025. The [India Entrance Exam database](https://github.com/lalithaar/indian-exams-database) is a dataset collating Indian entrance exams.
 - 19 Sep 2025. I understand at least one mechanism of how costs are inflated in large organizations. Even people who want to keep costs low find that the process of tracking expenses, submitting receipts, answering questions around approval, adds transaction cost. So, rather than going for a $10 plus top up mechanism, I would rather go for and ask people to take a $500 top up. Better ask for more and waste than have to ask again.
 - 19 Sep 2025. YouTube downloaders: [yt-dlp](https://github.com/yt-dlp/yt-dlp) for the CLI, [Stacher](https://stacher.io/) for Windows/Mac/Linux, [Cobalt](https://cobalt.tools/) for a web-based app. [Ref](https://windowsread.me/p/best-youtube-downloaders)
 - 19 Sep 2025. VS Code a bunch of features I discovered:
   - It can run a terminal in its own new window for over a year (via Ctrl+P > Terminal: Move Terminal into New Window). Now, <kbd>Ctrl + Alt + Shift + \`</kbd> does this directly.
   - [Terminal Intellisense](https://code.visualstudio.com/docs/terminal/shell-integration#_intellisense-preview) shows completion suggestions in the UI. Very helpful. Ctrl+Space triggers the menu completion.
-- 18 Sep 2025. "We find that the per-step error rate itself rises as the task progresses", i.e. once a conversation goes the wrong way, it's really hard to correct it. [The Illusion of Diminishing Returns](https://arxiv.org/html/2509.09677)
+- 18 Sep 2025. ⭐ "We find that the per-step error rate itself rises as the task progresses", i.e. once a conversation goes the wrong way, it's really hard to correct it. [The Illusion of Diminishing Returns](https://arxiv.org/html/2509.09677)
 - 17 Sep 2025. [Japonaise Cake](https://www.google.com/search?q=japonaise) is the name of the pastry that I had as a child and grew up longing for. I have spent several weeks searching for it in the roadside bakeries at Bangalore and Chennai but only [one bakery](https://cakebee.in/products/japonaise-cake) seems to have it.
 - 17 Sep 2025. `systemd` is the modern way to run scheduled jobs, instead of `cron`. It's far more complex. But it can catch up on missed runs via a `Persistent` option. [Working with systemd timers](https://documentation.suse.com/smart/systems-management/html/systemd-working-with-timers/index.html)
-- 17 Sep 2025. Vice-chancellors of universities resist AI in education because (a) their faculty does not know AI and (b) AI is unreliable. But they are interested in (a) large-scale AI-evaluation and (b) AI-enabling entire campus.
+- 17 Sep 2025. ⭐ Vice-chancellors of universities resist AI in education because (a) their faculty does not know AI and (b) AI is unreliable. But they are interested in (a) large-scale AI-evaluation and (b) AI-enabling entire campus.
 - 17 Sep 2025. [tldr.sh](https://tldr.sh/) offers concise man pages, e.g. `uvx tldr jq`. [cheat.sh](http://cheat.sh/) offers detailed examples, e.g. `curl cheat.sh/jq` or `curl cheat.sh/:help`.
 - 14 Sep 2025. [`ugrep`](https://github.com/Genivia/ugrep) is a fast drop-in replacement for `grep`. It supports fuzzy search with a customizable Levenshtein distance. Also `ug -Q` shows an interactive TUI searches like VS Code's "Search in Files" feature. Very intuitive.
 - 14 Sep 2025. [Dagger](https://dagger.io/) lets you write CI/CD workflows in Python. I tried running it but after 7m of pulling large Docker containers, I gave up. Too heavy.
@@ -205,12 +230,12 @@
       _How_: “What I asked AI; what it missed; how I verified; what I’d change next time.”
     - **“No-AI under secure conditions” mixed with AI-permitted coursework.** Matches national/institutional guidance for GenAI-aware assessment design. Use secure, time-boxed checks for fundamentals; allow AI elsewhere with audit trails.
     - **Primary research (interviews/user studies) before design/coding.** Fits the “authentic assessment” literature and reduces LLM substitution. Grade on research protocol + synthesis rigor, not word count.
-    - **Explicit problem-solving frames (initial/current/goal state).** Classic problem-solving scaffolds; improves formulation before querying AI. Pair with short “assumption logs.” (General pedagogy supported; CT depends on domain knowledge—see caveat below.)
+    - **Explicit problem-solving frames (initial/current/goal state).** Classic problem-solving scaffolds; improves formulation before querying AI. Pair with short “assumption logs.” (General pedagogy supported; CT depends on domain knowledge -- see caveat below.)
     - **Caveat (important):** _Critical thinking depends on domain knowledge._ Don’t expect generic CT drills to transfer without content mastery. Plan tasks so students must recall/apply _specific_ knowledge before or alongside AI.
   - How can we train students to use AI critically instead of accepting the output blindly? [ChatGPT](https://chatgpt.com/share/6899bc5e-1800-800c-bfce-25d261c63a09)
     - **Teach “lateral reading” and SIFT for source checking.** Stanford’s Civic Online Reasoning work and Caulfield’s SIFT method offer actionable heuristics for verifying claims, URLs, and citations that LLMs surface. Build these into rubrics.
-    - **Run “AI auditing” labs (hallucination hunts).** Students collect/label model mistakes, missing assumptions, and fabricated citations—an approach aligned with UNESCO’s call for AI literacy and validation.
-    - **Use online judges with _hidden_ tests + adversarial cases.** Autograding literature supports hidden tests for robust generalization; it trains students to verify and not overfit to visible specs—or to AI’s surface patterns.
+    - **Run “AI auditing” labs (hallucination hunts).** Students collect/label model mistakes, missing assumptions, and fabricated citations -- an approach aligned with UNESCO’s call for AI literacy and validation.
+    - **Use online judges with _hidden_ tests + adversarial cases.** Autograding literature supports hidden tests for robust generalization; it trains students to verify and not overfit to visible specs -- or to AI’s surface patterns.
     - **“Sandwich” workflow: spec → implement 1–2 reps → let AI complete → _verify_ rigorously.** Mirrors human-in-the-loop patterns in industry; use checklists for unit/property tests and invariants before accepting AI output.
     - **Live-coding with an AI assistant _on display_ (to show failure modes).** Demonstrates nondeterminism/limitations in real time; supports critical habits. Pair with a post-mortem template.
     - **Prompt red-teaming/jailbreak exercises (safe scope).** Students learn that guardrails can be bypassed and why verification matters. Keep it ethical and bounded.
@@ -815,7 +840,7 @@
   - [IBM Cloud Shell](https://cloud.ibm.com/shell): Free for all users; **50 h/week** per region; any open session counts toward quota; sessions can run any length up to weekly cap; **500 MB** temporary workspace. [Ref](https://cloud.ibm.com/docs/cloud-shell?topic=cloud-shell-faqs)
   - [Oracle Cloud Infrastructure Cloud Shell](https://console.oraclecloud.com/cloudshell): Free within tenancy limits; up to **400 h/month** on Pay-As-You-Go, **240 h/month** on Universal Credits; **5 GB** encrypted persistent home. [Ref](https://docs.cloud.oracle.com/Content/API/Concepts/cloudshellintro.htm)
   - [PythonAnywhere](https://www.pythonanywhere.com/consoles): Free (beginner plan), includes one web app (restricted outbound), low CPU/bandwidth, no Jupyter; **2 concurrent Bash/Python consoles**, **500 MB** disk; limited daily CPU. [Ref](https://www.pythonanywhere.com/pricing/)
-  - [Glitch](https://glitch.com/): Starter (free) plan—full-stack apps sleep after **5 min** inactivity and wake on request; unlimited public/private projects; container state preserved. [Ref](https://glitch.com/pricing)
+  - [Glitch](https://glitch.com/): Starter (free) plan -- full-stack apps sleep after **5 min** inactivity and wake on request; unlimited public/private projects; container state preserved. [Ref](https://glitch.com/pricing)
   - [CodeSandbox](https://codesandbox.io/): Free tier provides **400 credits/month** (~40 h of 2 vCPU+4 GB Devbox runtime), unlimited front-end Sandboxes (no credits), up to **20** Sandboxes/workspace. [Ref](https://codesandbox.io/docs/learn/plans/subscriptions)
 - 25 Apr 2025. [Dyson Sphere](https://en.wikipedia.org/wiki/Dyson_sphere).
 - 23 Apr 2025. [gcalcli](https://github.com/insanum/gcalcli) is a convenient way to export Google Calendar. Example: `uvx gcalcli agenda --tsv 2025-01-01 2025-01-05`
@@ -1134,14 +1159,14 @@
   [LingoJam](https://lingojam.com/BoldTextGenerator).
 - 02 Mar 2025. [10 red flags I look for as an angel investor](https://www.linkedin.com/posts/jnpayne_10-red-flags-i-look-for-as-an-angel-investor-activity-7298357529967771649-IqdO) is an interesting read.
   1. **No real customers**: A deck, a landing page, and a "vision" don’t impress me. Show me paying customers. Even better, show me customers coming back.
-  2. **No path to profitability**: I don’t care if you raise $100M—if there’s no plan to make money, you’re just burning oxygen. Growth is great, but cash flow keeps you alive.
-  3. **Founders who won’t sell**: If you’re scared to get on sales calls, that’s a red flag. The best founders sell in the early days—whether it’s to customers, employees, or investors.
+  2. **No path to profitability**: I don’t care if you raise $100M -- if there’s no plan to make money, you’re just burning oxygen. Growth is great, but cash flow keeps you alive.
+  3. **Founders who won’t sell**: If you’re scared to get on sales calls, that’s a red flag. The best founders sell in the early days -- whether it’s to customers, employees, or investors.
   4. **No differentiation**: "Like X, but cheaper" isn’t a strategy. If your only edge is price, you’ll get crushed. What do you have that no one else does?
   5. **No urgency**: The best founders operate like time is running out. If you’re "exploring ideas" or "thinking about raising next year," you’ve already lost.
   6. **Raising money before proving anything**: Too many founders try to fundraise their way out of bad ideas. If you need VC to get off the ground, you’re building the wrong business.
   7. **No clear distribution strategy**: Product alone doesn’t win. First-time founders obsess over features. Second-time founders obsess over distribution. How are you getting customers?
   8. **No ownership mentality**: If I hear "I need to hire someone to do that" too early, I’m out. Founders who win figure things out before they delegate.
-  9. **A CEO who can’t attract talent**: Your first hires are everything. If great people aren’t willing to join, either the vision is weak—or you are.
+  9. **A CEO who can’t attract talent**: Your first hires are everything. If great people aren’t willing to join, either the vision is weak -- or you are.
   10. **No skin in the game**: If a founder won’t invest their own money or take a pay cut to make it work, why should I?
 - 02 Mar 2025. By contrast, this [OpenAI Deep Research report](https://chatgpt.com/share/67c3e38c-e514-800c-8cfc-983bd4fdeb21) feels a lot less actionable.
 
@@ -1534,7 +1559,7 @@
   - Rewarding merit
   - Leadership by virtue and character
 - 04 Jan 2025. [Interview with Liang Wenfeng, CEO of DeepSeek](https://www.chinatalk.media/p/deepseek-ceo-interview-with-chinas):
-  > In the face of disruptive technologies, moats created by closed source are temporary. Even OpenAI’s closed source approach can’t prevent others from catching up. So we anchor our value in our team — our colleagues grow through this process, accumulate know-how, and form an organization and culture capable of innovation. That’s our moat.
+  > In the face of disruptive technologies, moats created by closed source are temporary. Even OpenAI’s closed source approach can’t prevent others from catching up. So we anchor our value in our team  --  our colleagues grow through this process, accumulate know-how, and form an organization and culture capable of innovation. That’s our moat.
   >
   > Open source, publishing papers, in fact, do not cost us anything. For technical talent, having others follow your innovation gives a great sense of accomplishment. In fact, open source is more of a cultural behavior than a commercial one, and contributing to it earns us respect. There is also a cultural attraction for a company to do this.
   >

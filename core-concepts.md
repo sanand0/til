@@ -9,6 +9,55 @@
 
 This is true for many subjects. But avoid overconfidence. Expert pattern libraries are huge (~100K). Execution discipline matters.
 
+- Core Concepts of [`bash`](https://chatgpt.com/c/68d946c8-6230-8330-977f-128da647aed6)
+  - **Parameter expansion** for string surgery: trim/strip/replace/slice, defaulting, length, case-change.
+  - **[[…]]** tests with **globs** and **regex** (`BASH_REMATCH`), and `case`.
+  - **Brace expansion** (`{1..N}`, steps, lists) and **globbing** (incl. `globstar` `**`).
+  - **Arrays** and **associative arrays**; `BASH_ARGV` + `extdebug` trick (reverse), dedup via keys.
+  - **mapfile/read** with `IFS`, here-strings and process substitution; `$'\n'` newlines.
+  - **Arithmetic context** `(( ))`, ternary, `RANDOM`.
+  - **Builtins & internals**: `printf` (incl. `strftime`), `type/hash/command -v`, `:` no-op + `$_`.
+  - **Redirections** (`>`, `$(<file)`) and subshells.
+  - **Traps** (`EXIT`, `INT`, `SIGWINCH`, `DEBUG`, `RETURN`).
+  - **Terminal control** with raw ANSI escapes (colors, cursor, erase) and `$LINES/$COLUMNS`.
+  - **Pure-bash replacements** for `dirname`, `basename`, `head`, `tail`, `wc -l`, `sleep`, `seq`, `date`, `touch`, `cat`.
+  - **Odds & ends**: URL encode/decode, UUID v4 from `$RANDOM`, progress bars, background runner (`nohup`), bypass aliases/functions.
+  - **String surgery with parameter expansion (no `sed`/`tr`)**
+    `${var#pattern}`/`${var%pattern}` trim the _shortest_ match from start/end.
+    `##`/`%%` trim the _longest_.
+    `${var//pat/repl}` replaces all, `${var/pat}` removes first, etc.
+    It’s instant (no fork), portable, and once you learn the shapes, you’ll reach for them before `sed`.
+  - **Regex & globs inside `[[ … ]]` (no `grep`)**
+    `[[ $s =~ re ]]` fills `BASH_REMATCH`, and `[[ $s == *foo* ]]`, `== foo*`, `== *foo` cover contains/starts/ends.
+    For many validations/extractions you can stay in bash and skip spawning `grep`/`awk`.
+  - **Globbing instead of `ls`/`find` for simple scans**
+    Iterate with `for f in dir/*.png; do …; done` or enable `shopt -s globstar` to use `**` for simple recursion.
+    Need counts? Just expand the glob and use `$#` in a function: `count ~/Pics/*.jpg` → no `ls`, no `wc`.
+    Handy inside tight loops or minimal containers where `date` may differ or cost you a fork.
+  - **Read a whole file without `cat`: `var=$(<file)`**
+    `$(<file)` is a bash optimization that slurps file contents into a variable with no subshell.
+    It’s both cleaner and faster than `var="$(cat file)"`.
+  - **Split on a delimiter with substitution + `read -ra` (no `cut`)**
+    Replace the delimiter with newlines and let `read -ra` build the array:
+    `IFS=$'\n' read -d '' -ra parts <<< "${str//$delim/$'\n'}"`.
+    This is fast, works with multi-char delimiters, and avoids awkward `IFS` side-effects.
+  - **Case transformations in expansion (no `tr`)**
+    `${var,,}` lowercases; `${var^^}` uppercases; `${var~~}` flips case.
+    It’s surprisingly handy for normalizing keys, filenames, and flags—without forking `tr`.
+  - **`mapfile/read` to do `head`/`tail`/`wc -l` in pure bash**
+    `mapfile -tn N a <file` is your `head N`.
+    `mapfile -tn 0 a <file; printf '%s\n' "${a[@]: -N}"` is `tail N`.
+    `${#a[@]}` is your line count.
+    You avoid three external processes and keep everything in memory.
+  - **Dates without `date`: `printf` with `strftime`**
+    Bash’s `printf` speaks `strftime`:
+    `printf '%(%F %T)T\n' -1` → `YYYY-MM-DD HH:MM:SS`.
+  - **Ranges without `seq`: brace expansion and C-style loops**
+    `{1..100}` (and `{1..10..2}` in bash 4+) expands to numbers instantly.
+    For dynamic limits: `for ((i=0;i<=N;i++)); do …; done`. This covers 99% of `seq` use.
+  - **Sleeping without `sleep`: `read -t` (plus reusable FD for micro-sleeps)**
+    `read -rt 0.2 <> <(:) || :` pauses ~200ms; for many tiny sleeps, open a FD once:
+    `exec {sfd}<> <(:); read -t 0.001 -u $sfd` in a loop. This avoids spawning `sleep` thousands of times.
 - Core Concepts of [Technology evaluation](https://chatgpt.com/c/68cf6c83-e8ac-832e-a87b-7c13bfc5d091)
   - **Optimize for change, not the demo.** Most cost and risk arrive _after_ adoption (maintenance, evolution, integration). Favor tools that make change cheap: clear upgrade paths, good docs, stable internals.
   - **Assume abstractions will leak.** Nice APIs hide complexity—until they don’t. Evaluate timeouts, back-pressure, failure modes, and “escape hatches,” not just the happy path. (Also note the IETF’s rethink of Postel’s robustness principle—being too “liberal” can harm ecosystems.)
