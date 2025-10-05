@@ -17,7 +17,7 @@
 🟢	GO	   40924	   122	2025-10-05	cli/cli	GitHub’s official command line tool
 🟣	GO	     440	   242	2025-10-05	dbos-inc/dbos-transact-golang	Durable Workflow Orchestration with Golang and Postgres
 🟣	GO	    4883	  1158	2025-10-05	Done-0/fuck-u-code	Legacy-Mess Detector – assess the “legacy-mess level” of your code and output a beautiful report | 屎山代码检测器，评估代码的“屎山等级”并输出美观的报告
-🟣	GO	    2331	   104	2025-10-05	modelcontextprotocol/go-sdk	The official Go SDK for Model Context Protocol servers and clients. Maintained in collaboration with Google.
+🔴	GO	    2331	   104	2025-10-05	modelcontextprotocol/go-sdk	The official Go SDK for Model Context Protocol servers and clients. Maintained in collaboration with Google.	I don't code Go
 🟣	GO	   17441	    69	2025-10-05	apernet/hysteria	Hysteria is a powerful, lightning fast and censorship resistant proxy.
 🟣	GO	   16258	    57	2025-10-05	slackhq/nebula	A scalable overlay networking tool with a focus on performance, simplicity and security
 🟣	GO	   12810	   662	2025-10-05	oauth2-proxy/oauth2-proxy	A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.
