@@ -5,15 +5,15 @@
 🔴	RS	    2912	    49	2025-10-05	cocoindex-io/cocoindex	Data transformation framework for AI. Ultra performant, with incremental processing. 🌟 Star if you like it!	Opinionated framework
 🟢	RS	  104596	   165	2025-10-05	denoland/deno	A modern runtime for JavaScript and TypeScript.
 🟢	RS	   31114	   121	2025-10-05	fish-shell/fish-shell	The user-friendly command line shell.
-🔴	RS	   27968	   129	2025-10-05	casey/just	🤖 Just a command runner	Prefer zx which just uses JavaScript
+🔴	RS	   27968	   129	2025-10-05	casey/just	🤖 Just a command runner	Prefer zx - plain JS
 🔴	RS	   10617	    36	2025-10-05	cloudflare/quiche	🥧 Savoury implementation of the QUIC transport protocol and HTTP/3	I don't code HTTP servers
 🔴	RS	   62138	    25	2025-10-05	FuelLabs/sway	🌴 Empowering everyone to build reliable and efficient smart contracts.	I don't do blockchain
 🔴	RS	    5385	   236	2025-10-05	BloopAI/vibe-kanban	Kanban board to manage your AI coding agents	Good idea: Kanban board to manage AI coding tasks. I don't yet need it.
 🔴	RS	    2774	   104	2025-10-05	davidlattimore/wild	A very fast linker for Linux	I don't code C
-🟣	GO	   30325	   103	2025-10-05	AdguardTeam/AdGuardHome	Network-wide ads & trackers blocking DNS server
+🔴	GO	   30325	   103	2025-10-05	AdguardTeam/AdGuardHome	Network-wide ads & trackers blocking DNS server	Not interested
 🟣	GO	   31926	   170	2025-10-05	IceWhaleTech/CasaOS	CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.
 🟣	GO	   25421	    74	2025-10-05	authelia/authelia	The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™
-🟣	GO	  153926	   648	2025-10-05	avelino/awesome-go	A curated list of awesome Go frameworks, libraries and software
+🔴	GO	  153926	   648	2025-10-05	avelino/awesome-go	A curated list of awesome Go frameworks, libraries and software	I don't code Go
 🟢	GO	   40924	   122	2025-10-05	cli/cli	GitHub’s official command line tool
 🟣	GO	     440	   242	2025-10-05	dbos-inc/dbos-transact-golang	Durable Workflow Orchestration with Golang and Postgres
 🟣	GO	    4883	  1158	2025-10-05	Done-0/fuck-u-code	Legacy-Mess Detector – assess the “legacy-mess level” of your code and output a beautiful report | 屎山代码检测器，评估代码的“屎山等级”并输出美观的报告
@@ -24,7 +24,7 @@
 🟣	GO	     378	    32	2025-10-05	obot-platform/obot	Open-source MCP Gateway and AI Platform
 🟣	GO	    6243	    26	2025-10-05	ethereum-optimism/optimism	Optimism is Ethereum, scaled.
 🟣	GO	     604	    44	2025-10-05	vxcontrol/pentagi	✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks
-🟣	GO	   12574	    52	2025-10-05	jackc/pgx	PostgreSQL driver and toolkit for Go
+🔴	GO	   12574	    52	2025-10-05	jackc/pgx	PostgreSQL driver and toolkit for Go	I don't code Go
 🟣	GO	   23909	    70	2025-10-05	pulumi/pulumi	Pulumi - Infrastructure as Code in any programming language 🚀
 🟣	GO	   13086	    23	2025-10-05	rook/rook	Storage Orchestration for Kubernetes
 🟣	GO	   19612	   135	2025-10-05	getsops/sops	Simple and flexible tool for managing secrets
