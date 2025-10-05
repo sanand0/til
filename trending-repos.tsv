@@ -1,3 +1,87 @@
+🟣	RS	    3094	    45	2025-10-05	witnessmenow/ESP32-Cheap-Yellow-Display	Building a community around a cheap ESP32 Display with a touch screen
+🔴	RS	   56192	   195	2025-10-05	topjohnwu/Magisk	The Magic Mask for Android	I don't code Android apps
+🔴	RS	   60531	   125	2025-10-05	alacritty/alacritty	A cross-platform, OpenGL terminal emulator.	I use VS Code's terminal
+⏺️	RS	   21336	   118	2025-10-05	biomejs/biome	A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.
+🔴	RS	    2912	    49	2025-10-05	cocoindex-io/cocoindex	Data transformation framework for AI. Ultra performant, with incremental processing. 🌟 Star if you like it!	Opinionated framework
+🟢	RS	  104596	   165	2025-10-05	denoland/deno	A modern runtime for JavaScript and TypeScript.
+🟢	RS	   31114	   121	2025-10-05	fish-shell/fish-shell	The user-friendly command line shell.
+🟣	RS	   27968	   129	2025-10-05	casey/just	🤖 Just a command runner
+🔴	RS	   10617	    36	2025-10-05	cloudflare/quiche	🥧 Savoury implementation of the QUIC transport protocol and HTTP/3	I don't code HTTP servers
+🔴	RS	   62138	    25	2025-10-05	FuelLabs/sway	🌴 Empowering everyone to build reliable and efficient smart contracts.	I don't do blockchain
+🔴	RS	    5385	   236	2025-10-05	BloopAI/vibe-kanban	Kanban board to manage your AI coding agents	Good idea: Kanban board to manage AI coding tasks. I don't yet need it.
+🔴	RS	    2774	   104	2025-10-05	davidlattimore/wild	A very fast linker for Linux	I don't code C
+🟣	GO	   30325	   103	2025-10-05	AdguardTeam/AdGuardHome	Network-wide ads & trackers blocking DNS server
+🟣	GO	   31926	   170	2025-10-05	IceWhaleTech/CasaOS	CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.
+🟣	GO	   25421	    74	2025-10-05	authelia/authelia	The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™
+🟣	GO	  153926	   648	2025-10-05	avelino/awesome-go	A curated list of awesome Go frameworks, libraries and software
+🟢	GO	   40924	   122	2025-10-05	cli/cli	GitHub’s official command line tool
+🟣	GO	     440	   242	2025-10-05	dbos-inc/dbos-transact-golang	Durable Workflow Orchestration with Golang and Postgres
+🟣	GO	    4883	  1158	2025-10-05	Done-0/fuck-u-code	Legacy-Mess Detector – assess the “legacy-mess level” of your code and output a beautiful report | 屎山代码检测器，评估代码的“屎山等级”并输出美观的报告
+🟣	GO	    2331	   104	2025-10-05	modelcontextprotocol/go-sdk	The official Go SDK for Model Context Protocol servers and clients. Maintained in collaboration with Google.
+🟣	GO	   17441	    69	2025-10-05	apernet/hysteria	Hysteria is a powerful, lightning fast and censorship resistant proxy.
+🟣	GO	   16258	    57	2025-10-05	slackhq/nebula	A scalable overlay networking tool with a focus on performance, simplicity and security
+🟣	GO	   12810	   662	2025-10-05	oauth2-proxy/oauth2-proxy	A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.
+🟣	GO	     378	    32	2025-10-05	obot-platform/obot	Open-source MCP Gateway and AI Platform
+🟣	GO	    6243	    26	2025-10-05	ethereum-optimism/optimism	Optimism is Ethereum, scaled.
+🟣	GO	     604	    44	2025-10-05	vxcontrol/pentagi	✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks
+🟣	GO	   12574	    52	2025-10-05	jackc/pgx	PostgreSQL driver and toolkit for Go
+🟣	GO	   23909	    70	2025-10-05	pulumi/pulumi	Pulumi - Infrastructure as Code in any programming language 🚀
+🟣	GO	   13086	    23	2025-10-05	rook/rook	Storage Orchestration for Kubernetes
+🟣	GO	   19612	   135	2025-10-05	getsops/sops	Simple and flexible tool for managing secrets
+🟣	PY	    2361	   563	2025-10-05	YILING0013/AI_NovelGenerator	使用ai生成多章节的长篇小说，自动衔接上下文、伏笔
+🟣	PY	   73778	   391	2025-10-05	hacksider/Deep-Live-Cam	real time face swap and one-click video deepfake with only a single image
+🟣	PY	   15763	   467	2025-10-05	lukas-blecher/LaTeX-OCR	pix2tex: Using a ViT to convert images of equations into LaTeX code.
+🔴	PY	   45640	  5535	2025-10-05	harry0703/MoneyPrinterTurbo	利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.	README is in Chinese. Tried Colab, didn't work
+🟣	PY	   28441	   714	2025-10-05	Byaidu/PDFMathTranslate	PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero
+🔴	PY	    9138	  1816	2025-10-05	hsliuping/TradingAgents-CN	基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版	I don't do finance
+⏺️	PY	    2143	   968	2025-10-05	anthropics/claude-agent-sdk-python
+🔴	PY	    7556	   276	2025-10-05	topoteretes/cognee	Memory for AI Agents in 6 lines of code	Feels slightly heavy rather than embeddable
+🟣	PY	   79150	   735	2025-10-05	bregman-arie/devops-exercises	Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
+🟣	PY	   29418	   748	2025-10-05	frappe/erpnext	Free and Open Source Enterprise Resource Planning (ERP)
+🟣	PY	    4305	   911	2025-10-05	imputnet/helium	Private, fast, and honest web browser
+🟣	PY	     147	    25	2025-10-05	elliottech/lighter-python	Public Python SDK for Lighter
+🟢	PY	    9842	    93	2025-10-05	simonw/llm	Access large language models from the command-line
+🟣	PY	    8630	    96	2025-10-05	ollama/ollama-python	Ollama Python library
+🟣	PY	   58210	  2110	2025-10-05	commaai/openpilot	openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.
+🟣	PY	    8811	   445	2025-10-05	jsvine/pdfplumber	Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extract text and tables.
+🟢	PY	   58428	    96	2025-10-05	scrapy/scrapy	Scrapy, a fast high-level web crawling & scraping framework for Python.
+🟣	PY	   46892	   393	2025-10-05	ultralytics/ultralytics	Ultralytics YOLO 🚀
+🟣	TS	   55687	   374	2025-10-05	toeverything/AFFiNE	There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.
+🟣	TS	   21415	   420	2025-10-05	better-auth/better-auth	The most comprehensive authentication framework for TypeScript
+🟢	TS	   35488	  1135	2025-10-05	anthropics/claude-code	Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
+🟣	TS	   32819	   385	2025-10-05	directus/directus	The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.
+🟣	TS	    2821	   226	2025-10-05	exa-labs/exa-mcp-server	Exa MCP for web search and web crawling!
+🟣	TS	   70201	   132	2025-10-05	grafana/grafana	The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.
+🟣	TS	   41845	   344	2025-10-05	AykutSarac/jsoncrack.com	✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs.
+🟣	TS	    7779	   349	2025-10-05	czlonkowski/n8n-mcp	A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you
+🟣	TS	   27614	    85	2025-10-05	nextauthjs/next-auth	Authentication for the Web.
+🟣	TS	   10745	    44	2025-10-05	actions/starter-workflows	Accelerating new GitHub Actions workflows
+🟣	TS	   69811	   133	2025-10-05	strapi/strapi	🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.
+🟣	TS	   10104	   185	2025-10-05	modelcontextprotocol/typescript-sdk	The official TypeScript SDK for Model Context Protocol servers and clients
+🟣	JS	   45337	   141	2025-10-05	Asabeneh/30-Days-Of-JavaScript	30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days, please just follow your own pace. These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw
+🟣	JS	   65712	    73	2025-10-05	leonardomso/33-js-concepts	📜 33 JavaScript concepts every developer should know.
+🟣	JS	   33705	   127	2025-10-05	danielmiessler/Fabric	Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.
+🟣	JS	   21944	   179	2025-10-05	MagicMirrorOrg/MagicMirror	MagicMirror² is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror² allows you to convert your hallway or bathroom mirror into your personal assistant.
+🟣	JS	   64664	   641	2025-10-05	juliangarnier/anime	JavaScript animation engine
+🟣	JS	   89255	   384	2025-10-05	jaywcjlove/awesome-mac	 Now we have become very big, Different from the original idea. Collect premium software in various categories.
+🟣	JS	     947	    34	2025-10-05	Coding-Solo/godot-mcp	MCP server for interfacing with Godot game engine. Provides tools for launching the editor, running projects, and capturing debug output.
+🟣	JS	   10391	    53	2025-10-05	HackTricks-wiki/hacktricks	Welcome to the page where you will find each trick/technique/whatever I have learnt in CTFs, real life apps, and reading researches and news.
+🔴	JS	  147507	    92	2025-10-05	airbnb/javascript	JavaScript Style Guide	I prefer tool-based standards like Prettier
+🟣	JS	    8441	   154	2025-10-05	meshery/meshery	Meshery, the cloud native manager
+🟣	JS	   39175	   145	2025-10-05	remoteintech/remote-jobs	A list of semi to fully remote-friendly companies (jobs) in tech.
+🟣	JS	    1971	   154	2025-10-05	Stremio/stremio-web	Stremio - Freedom to Stream
+⏺️	JS	   84299	   100	2025-10-05	sveltejs/svelte	web development for the rest of us
+🟣	SH	    4053	    40	2025-10-05	JamesTurland/JimsGarage	Homelab Goodies
+🟣	SH	   21361	   281	2025-10-05	community-scripts/ProxmoxVE	Proxmox VE Helper-Scripts (Community Edition)
+🔴	SH	   19150	    76	2025-10-05	rockerBOO/awesome-neovim	Collections of awesome neovim plugins.	I don't use Vim
+🟣	SH	    6385	    50	2025-10-05	ublue-os/bazzite	Bazzite makes gaming and everyday use smoother and simpler across desktop PCs, handhelds, tablets, and home theater PCs.
+🟣	SH	    1854	    70	2025-10-05	caido/caido	🚀 Caido releases, wiki and roadmap
+🟣	SH	    1100	    36	2025-10-05	n8n-io/n8n-hosting	Example of self-hosting n8n in various environments like docker, kubernetes, etc.
+🟣	SH	    3600	    14	2025-10-05	htr-tech/nexphisher	Advanced Phishing tool
+🟣	SH	    2208	    21	2025-10-05	bluesky-social/pds	Bluesky PDS (Personal Data Server) container image, compose file, and documentation
+🔴	SH	    7942	    38	2025-10-05	adi1090x/rofi	A huge collection of Rofi based custom Applets, Launchers & Powermenus.	Too monolithic. I prefer micro-themes/scripts.
+🔵	SH	    3184	   105	2025-10-05	x-cmd/x-cmd	x-cmd: Bootstrap 1000+ command line tools in seconds.	Interesting. Good tool list. Yet to find a use-case.
+🟣	SH	    5710	    31	2025-10-05	masonr/yet-another-bench-script	YABS - a simple bash script to estimate Linux server performance using fio, iperf3, & Geekbench
 🟣	TS	  336554	   939	2025-09-17	kamranahmedse/developer-roadmap	Interactive roadmaps, guides and other educational content to help developers grow in their careers.
 🟣	TS	   87792	    83	2025-09-23	storybookjs/storybook	Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation
 🟣	TS	   76987	   952	2025-09-17	immich-app/immich	High performance self-hosted photo and video management solution.
@@ -224,7 +308,7 @@
 🔴	SH	   53483	   126	2025-09-27	pi-hole/pi-hole	A black hole for Internet advertisements	Prefer direct DNS routers
 🔴	SH	   44080	    89	2025-09-27	acmesh-official/acme.sh	A pure Unix shell script implementing ACME client protocol	Prefer certbot
 🔴	SH	   26032	    38	2025-09-23	mbadolato/iTerm2-Color-Schemes	Over 425 terminal color schemes/themes for iTerm/iTerm2. Includes ports to Terminal, Konsole, PuTTY, Xresources, XRDB, Remmina, Termite, XFCE, Tilda, FreeBSD VT, Terminator, Kitty, MobaXterm, LXTerminal, Microsoft's Windows Terminal, Visual Studio, Alacritty, Ghostty, and many more	I don't use Mac
-🔴	SH	   14848	    43	2025-09-17	termux/termux-packages	A package build system for Termux.	I don't build Android apps
+🔴	SH	   14848	    43	2025-09-17	termux/termux-packages	A package build system for Termux.	I don't code Android apps
 🔴	SH	    9509	  1214	2025-09-23	basecamp/omarchy	Opinionated Arch/Hyprland Setup	I don't use Arch/Hyprland
 🔴	RS	  106655	   202	2025-09-23	rust-lang/rust	Empowering everyone to build reliable and efficient software.	I don't code Rust
 🔴	RS	   66187	   569	2025-09-23	zed-industries/zed	Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.	I prefer VS Code

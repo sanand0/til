@@ -2,6 +2,12 @@
 
 ## Oct 2025
 
+- 05 Oct 2025. [zx](https://github.com/google/zx) is a nice JS-based alternative to shell scripts.
+  ```js
+  const branch = await $`git branch --show-current`;
+  await $`dep deploy --branch=${branch}`;
+  ```
+- 05 Oct 2025. `docker run -it --name test --user vscode mcr.microsoft.com/devcontainers/base:ubuntu` gives you a test Ubuntu image closer to a desktop / user setup rather than a server. Useful to try out apps.
 - 03 Oct 2025. Wrong answers are useful if you discover why they said that. Conversation is a game where you CO-CONSTRUCT common ground. [Mike Caulfield](https://mikecaulfield.substack.com/p/when-wrong-llm-answers-get-you-to)
 - 03 Oct 2025. BMTC hourly data from Bangalore Metro is available via RTI. [Vivek](https://github.com/Vonter/bmrcl-ridership-hourly)
 - 02 Oct 2025. [SSH3](https://github.com/francoismichel/ssh3) is an emerging SSH alternative that's written on top of HTTP/3. It supports OAuth2, OpenID Connect, and HTTPS for certificates.
@@ -1559,7 +1565,7 @@
   - Rewarding merit
   - Leadership by virtue and character
 - 04 Jan 2025. [Interview with Liang Wenfeng, CEO of DeepSeek](https://www.chinatalk.media/p/deepseek-ceo-interview-with-chinas):
-  > In the face of disruptive technologies, moats created by closed source are temporary. Even OpenAI’s closed source approach can’t prevent others from catching up. So we anchor our value in our team  --  our colleagues grow through this process, accumulate know-how, and form an organization and culture capable of innovation. That’s our moat.
+  > In the face of disruptive technologies, moats created by closed source are temporary. Even OpenAI’s closed source approach can’t prevent others from catching up. So we anchor our value in our team -- our colleagues grow through this process, accumulate know-how, and form an organization and culture capable of innovation. That’s our moat.
   >
   > Open source, publishing papers, in fact, do not cost us anything. For technical talent, having others follow your innovation gives a great sense of accomplishment. In fact, open source is more of a cultural behavior than a commercial one, and contributing to it earns us respect. There is also a cultural attraction for a company to do this.
   >
