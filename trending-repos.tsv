@@ -144,9 +144,6 @@
 🟣	PY	     778	   174	2025-09-27	apecloud/ApeRAG	ApeRAG: Production-ready GraphRAG with multi-modal indexing, AI agents, MCP support, and scalable K8s deployment
 🟣	PY	     567	   250	2025-09-23	OpenMind/OM1	Modular AI runtime for robots
 🟣	PY	     239	    79	2025-09-27	google-agentic-commerce/a2a-x402	"The A2A x402 Extension brings cryptocurrency payments to the Agent-to-Agent (A2A) protocol, enabling agents to monetize their services through on-chain payments. This extension revives the spirit of HTTP 402 ""Payment Required"" for the decentralized agent ecosystem."
-🟣	JS	  134619	   416	2025-09-27	f/awesome-chatgpt-prompts	This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.
-🟣	JS	   89255	   384	2025-10-05	jaywcjlove/awesome-mac	 Now we have become very big, Different from the original idea. Collect premium software in various categories.
-🟣	JS	   64664	   641	2025-10-05	juliangarnier/anime	JavaScript animation engine
 🟣	JS	   49709	   237	2025-09-23	poteto/hiring-without-whiteboards	⭐️ Companies that don't have a broken hiring process
 🟣	JS	   42521	   293	2025-09-17	NaiboWang/EasySpider	A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/爬虫软件，可以无代码图形化的设计和执行爬虫任务。别名：ServiceWrapper面向Web应用的智能化服务封装系统。
 🟣	JS	   39175	   145	2025-10-05	remoteintech/remote-jobs	A list of semi to fully remote-friendly companies (jobs) in tech.
@@ -250,6 +247,7 @@
 🟢	JS	  110100	   761	2025-09-17	open-webui/open-webui	User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
 🟢	JS	  108591	   138	2025-09-17	mrdoob/three.js	JavaScript 3D Library.
 🟢	JS	   69608	    57	2025-09-23	hakimel/reveal.js	The HTML Presentation Framework
+🟢	JS	   64664	   641	2025-10-05	juliangarnier/anime	JavaScript animation engine
 🟢	JS	   51022	    60	2025-09-27	prettier/prettier	Prettier is an opinionated code formatter.
 🟢	JS	   43992	   127	2025-09-17	microsoft/monaco-editor	A browser based code editor
 🟢	JS	   43658	    49	2025-09-23	Leaflet/Leaflet	🍃 JavaScript library for mobile-friendly interactive maps 🇺🇦
@@ -329,8 +327,10 @@
 🔴	JS	  239169	   290	2025-09-23	facebook/react	The library for web and native user interfaces.	Use lit-html
 🔴	JS	  147507	    92	2025-10-05	airbnb/javascript	JavaScript Style Guide	I prefer tool-based standards like Prettier
 🔴	JS	  134719	   205	2025-09-27	vercel/next.js	The React Framework	I don't do React
+🔴	JS	  134619	   416	2025-09-27	f/awesome-chatgpt-prompts	This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.	Educational
 🔴	JS	  107626	    86	2025-09-17	axios/axios	Promise based HTTP client for the browser and node.js	Use fetch directly
 🔴	JS	  103660	    78	2025-09-23	facebook/create-react-app	Set up a modern web app by running one command.	I don't code React
+🔴	JS	   89255	   384	2025-10-05	jaywcjlove/awesome-mac	 Now we have become very big, Different from the original idea. Collect premium software in various categories.	I don't use Mac
 🔴	JS	   65712	    73	2025-10-05	leonardomso/33-js-concepts	📜 33 JavaScript concepts every developer should know.	Educational
 🔴	JS	   60717	    46	2025-09-23	atom/atom	The hackable text editor	Prefer VS Code
 🔴	JS	   46046	   154	2025-09-17	bigskysoftware/htmx	</> htmx - high power tools for HTML	Too far from my mental model
