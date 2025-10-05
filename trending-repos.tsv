@@ -58,8 +58,8 @@
 🟣	TS	   10745	    44	2025-10-05	actions/starter-workflows	Accelerating new GitHub Actions workflows
 🟣	TS	   69811	   133	2025-10-05	strapi/strapi	🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.
 🟣	TS	   10104	   185	2025-10-05	modelcontextprotocol/typescript-sdk	The official TypeScript SDK for Model Context Protocol servers and clients
-🟣	JS	   45337	   141	2025-10-05	Asabeneh/30-Days-Of-JavaScript	30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days, please just follow your own pace. These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw
-🟣	JS	   65712	    73	2025-10-05	leonardomso/33-js-concepts	📜 33 JavaScript concepts every developer should know.
+🔴	JS	   45337	   141	2025-10-05	Asabeneh/30-Days-Of-JavaScript	30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days, please just follow your own pace. These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw	Educational
+🔴	JS	   65712	    73	2025-10-05	leonardomso/33-js-concepts	📜 33 JavaScript concepts every developer should know.	Educational
 🟣	JS	   33705	   127	2025-10-05	danielmiessler/Fabric	Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.
 🟣	JS	   21944	   179	2025-10-05	MagicMirrorOrg/MagicMirror	MagicMirror² is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror² allows you to convert your hallway or bathroom mirror into your personal assistant.
 🟣	JS	   64664	   641	2025-10-05	juliangarnier/anime	JavaScript animation engine
