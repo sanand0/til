@@ -5,7 +5,7 @@
 🔴	RS	    2912	    49	2025-10-05	cocoindex-io/cocoindex	Data transformation framework for AI. Ultra performant, with incremental processing. 🌟 Star if you like it!	Opinionated framework
 🟢	RS	  104596	   165	2025-10-05	denoland/deno	A modern runtime for JavaScript and TypeScript.
 🟢	RS	   31114	   121	2025-10-05	fish-shell/fish-shell	The user-friendly command line shell.
-🟣	RS	   27968	   129	2025-10-05	casey/just	🤖 Just a command runner
+🔴	RS	   27968	   129	2025-10-05	casey/just	🤖 Just a command runner	Prefer zx which just uses JavaScript
 🔴	RS	   10617	    36	2025-10-05	cloudflare/quiche	🥧 Savoury implementation of the QUIC transport protocol and HTTP/3	I don't code HTTP servers
 🔴	RS	   62138	    25	2025-10-05	FuelLabs/sway	🌴 Empowering everyone to build reliable and efficient smart contracts.	I don't do blockchain
 🔴	RS	    5385	   236	2025-10-05	BloopAI/vibe-kanban	Kanban board to manage your AI coding agents	Good idea: Kanban board to manage AI coding tasks. I don't yet need it.
