@@ -20,7 +20,7 @@
 🔴	GO	    2331	   104	2025-10-05	modelcontextprotocol/go-sdk	The official Go SDK for Model Context Protocol servers and clients. Maintained in collaboration with Google.	I don't code Go
 🟣	GO	   17441	    69	2025-10-05	apernet/hysteria	Hysteria is a powerful, lightning fast and censorship resistant proxy.
 🟣	GO	   16258	    57	2025-10-05	slackhq/nebula	A scalable overlay networking tool with a focus on performance, simplicity and security
-🟣	GO	   12810	   662	2025-10-05	oauth2-proxy/oauth2-proxy	A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.
+⏺️	GO	   12810	   662	2025-10-05	oauth2-proxy/oauth2-proxy	A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.	Could be useful. Integrates with Caddy.
 🟣	GO	     378	    32	2025-10-05	obot-platform/obot	Open-source MCP Gateway and AI Platform
 🟣	GO	    6243	    26	2025-10-05	ethereum-optimism/optimism	Optimism is Ethereum, scaled.
 🟣	GO	     604	    44	2025-10-05	vxcontrol/pentagi	✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks
