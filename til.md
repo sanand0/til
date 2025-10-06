@@ -2,6 +2,20 @@
 
 ## Oct 2025
 
+- 06 Oct 2025. Many people who shifted away from conflict aversion did so by systematizing it. [ChatGPT](https://chatgpt.com/share/68e3d40e-97e8-800c-b6c0-e34f4059b147)
+  - Martin Luther King Jr institutionalized not stepping back from conflicts in his movement.
+  - Kim Scott (Radical Candor) practiced caring more via short, specific feedback loops.
+  - Kwame Christian (Compassionate Curiosity) practiced ask open questions.
+  - Ed Catmull (Pixar) instituted Braintrust to ask candid questions.
+  - Ray Dalio (Bridgewater) instituted radical transparency.
+- 06 Oct 2025. Many people who adopted a failure-seeking mindset made failure frequent, small, cheap, and informative. [ChatGPT](https://chatgpt.com/share/68e3d668-9030-800c-a6a6-b7b8a3007685)
+  - Jia Jiang ran a 100-day rejection challenge, acclimatizing himself to failure.
+  - Kim Liao (writer) moved from submission-avoidance to “100 rejections/year”.
+  - Reshma Saujani (Girls Who Code) built a practice of "brave, not perfect" - ship before perfect.
+  - Ray Dalio (Bridgewater) instituted mistake logs and "pain + reflection = progress".
+  - Astro Teller (X, the Moonshot Factory) rewired incentives so teams are rewarded for killing their own ideas early.
+  - Sara Blakely (Spanx) set weekly failure quotas.
+  - Kathryn Schulz (author of Being Wrong) converts failures into teaching methods.
 - 06 Oct 2025. Sindre Sorhus has already created a micro-framework [css-extras](https://github.com/sindresorhus/css-extras) using CSS [@functions](https://www.w3.org/TR/css-mixins-1/).
 - 05 Oct 2025. [zx](https://github.com/google/zx) is a nice JS-based alternative to shell scripts.
   ```js
