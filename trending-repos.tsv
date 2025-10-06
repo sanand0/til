@@ -61,7 +61,6 @@
 🟣	SH	    3704	    50	2025-09-27	InfinityLoop1308/PipePipe	An open-source Android app to let you browse YouTube, NicoNico and BiliBili freely.
 🟣	SH	    3600	    14	2025-10-05	htr-tech/nexphisher	Advanced Phishing tool
 🟣	SH	    2208	    21	2025-10-05	bluesky-social/pds	Bluesky PDS (Personal Data Server) container image, compose file, and documentation
-🟣	SH	    2013	   131	2025-09-23	kanshurichard/enableAppleAI	Enable Apple Intelligence on Macs sold in Mainland China with SIP enabled, tested on MacOS 15.4.1+ and 26 beta
 🟣	SH	    1910	    18	2025-09-23	ublue-os/bluefin	The next generation Linux workstation, designed for reliability, performance, and sustainability.
 🟣	SH	    1869	    46	2025-09-27	IceWhaleTech/ZimaOS	A Simplified, Focused and Open NAS OS_
 🟣	SH	    1854	    70	2025-10-05	caido/caido	🚀 Caido releases, wiki and roadmap
@@ -98,9 +97,7 @@
 🟣	RS	    2779	   551	2025-09-23	ArthurBrussee/brush	3D Reconstruction for all
 🟣	RS	     990	    33	2025-09-17	nexus-xyz/nexus-cli	Command line interface for supplying proofs to the Nexus network.
 🟣	RS	     292	    32	2025-09-17	category-labs/monad-bft
-🔴	PY	  369955	  1501	2025-09-23	EbookFoundation/free-programming-books	📚 Freely available programming books	Skip educational
 🟣	PY	  366471	  1066	2025-09-27	public-apis/public-apis	A collective list of free APIs
-🔴	PY	  321277	  1132	2025-09-27	donnemartin/system-design-primer	Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.	Skip educational
 🟣	PY	  209369	  1635	2025-09-27	TheAlgorithms/Python	All Algorithms implemented in Python	Skip educational
 🟣	PY	   79150	   735	2025-10-05	bregman-arie/devops-exercises	Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions	Skip educational
 🟣	PY	   73778	   391	2025-10-05	hacksider/Deep-Live-Cam	real time face swap and one-click video deepfake with only a single image
@@ -179,12 +176,7 @@
 🟣	JS	    1655	    26	2025-09-17	UseInterstellar/Interstellar	One of the most popular modern web proxies with blazing fast speeds and a variety of games.
 🟣	JS	     947	    34	2025-10-05	Coding-Solo/godot-mcp	MCP server for interfacing with Godot game engine. Provides tools for launching the editor, running projects, and capturing debug output.
 🟣	JS	     826	    36	2025-09-17	met4citizen/TalkingHead	Talking Head (3D): A JavaScript class for real-time lip-sync using Ready Player Me full-body 3D avatars.
-🟣	GO	   37310	    48	2025-09-23	istio/istio	Connect, secure, control, and observe services.	I don't do Kubernetes
-⏺️	GO	   31926	   170	2025-10-05	IceWhaleTech/CasaOS	CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.	Might be heavy but ...
-🟢	GO	   31393	   168	2025-09-23	1Panel-dev/1Panel	🔥 1Panel provides an intuitive web interface and MCP Server to manage websites, files, containers, databases, and LLMs on a Linux server.	Easy-to-run monitor for Linux servers. Install and run 1pctl --help.
-🔴	GO	   26602	   144	2025-09-27	grafana/loki	Like Prometheus, but for logs.	I don't self-host logs
 🟣	GO	   25421	    74	2025-10-05	authelia/authelia	The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™
-🟣	GO	   24765	   136	2025-09-27	abiosoft/colima	Container runtimes on macOS (and Linux) with minimal setup
 🟣	GO	   23909	    70	2025-10-05	pulumi/pulumi	Pulumi - Infrastructure as Code in any programming language 🚀
 🟣	GO	   21876	   510	2025-09-17	trufflesecurity/trufflehog	Find, verify, and analyze leaked credentials
 🟣	GO	   20077	    99	2025-09-17	JanDeDobbeleer/oh-my-posh	The most customisable and low-latency cross platform/shell prompt renderer
@@ -257,6 +249,7 @@
 🟢	JS	    9145	    22	2025-09-23	npm/cli	the package manager for JavaScript
 🟢	GO	  153140	   566	2025-09-27	ollama/ollama	Get up and running with OpenAI gpt-oss, DeepSeek-R1, Gemma 3 and other models.
 🟢	GO	   40924	   122	2025-10-05	cli/cli	GitHub’s official command line tool
+🟢	GO	   31393	   168	2025-09-23	1Panel-dev/1Panel	🔥 1Panel provides an intuitive web interface and MCP Server to manage websites, files, containers, databases, and LLMs on a Linux server.	Easy-to-run monitor for Linux servers. Install and run 1pctl --help.
 🔵	SH	    3184	   105	2025-10-05	x-cmd/x-cmd	x-cmd: Bootstrap 1000+ command line tools in seconds.	Interesting. Good tool list. Yet to find a use-case.
 🔴	TS	  336554	   939	2025-09-17	kamranahmedse/developer-roadmap	Interactive roadmaps, guides and other educational content to help developers grow in their careers.	Skip educational
 🔴	TS	  130516	   762	2025-09-27	yangshun/tech-interview-handbook	💯 Curated coding interview preparation materials for busy software engineers	Skip educational
@@ -282,6 +275,7 @@
 🔴	SH	   14848	    43	2025-09-17	termux/termux-packages	A package build system for Termux.	I don't code Android apps
 🔴	SH	    9509	  1214	2025-09-23	basecamp/omarchy	Opinionated Arch/Hyprland Setup	I don't use Arch/Hyprland
 🔴	SH	    7942	    38	2025-10-05	adi1090x/rofi	A huge collection of Rofi based custom Applets, Launchers & Powermenus.	Too monolithic. I prefer micro-themes/scripts.
+🔴	SH	    2013	   131	2025-09-23	kanshurichard/enableAppleAI	Enable Apple Intelligence on Macs sold in Mainland China with SIP enabled, tested on MacOS 15.4.1+ and 26 beta	I don't use Mac
 🔴	RS	  106655	   202	2025-09-23	rust-lang/rust	Empowering everyone to build reliable and efficient software.	I don't code Rust
 🔴	RS	   66187	   569	2025-09-23	zed-industries/zed	Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.	I prefer VS Code
 🔴	RS	   62138	    25	2025-10-05	FuelLabs/sway	🌴 Empowering everyone to build reliable and efficient smart contracts.	I don't do blockchain
@@ -310,6 +304,8 @@
 🔴	RS	    2912	    49	2025-10-05	cocoindex-io/cocoindex	Data transformation framework for AI. Ultra performant, with incremental processing. 🌟 Star if you like it!	Opinionated framework
 🔴	RS	    2774	   104	2025-10-05	davidlattimore/wild	A very fast linker for Linux	I don't code C
 🔴	RS	    1647	   431	2025-09-17	carthage-software/mago	Mago is a toolchain for PHP that aims to provide a set of tools to help developers write better code	I don't code PHP
+🔴	PY	  369955	  1501	2025-09-23	EbookFoundation/free-programming-books	📚 Freely available programming books	Skip educational
+🔴	PY	  321277	  1132	2025-09-27	donnemartin/system-design-primer	Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.	Skip educational
 🔴	PY	   54237	   549	2025-09-17	PaddlePaddle/PaddleOCR	Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 80+ languages.	Prefer markitdown
 🔴	PY	   50300	   848	2025-09-27	Asabeneh/30-Days-Of-Python	30 days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than100 days, follow your own pace. These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw	Skip educational
 🔴	PY	   46075	   582	2025-09-23	unslothai/unsloth	Fine-tuning & Reinforcement Learning for LLMs. 🦥 Train OpenAI gpt-oss, DeepSeek-R1, Qwen3, Gemma 3, TTS 2x faster with 70% less VRAM.	I don't fine-tune
@@ -344,11 +340,14 @@
 🔴	GO	   49874	   101	2025-09-27	ethereum/go-ethereum	Go implementation of the Ethereum protocol	I don't do Finance
 🔴	GO	   37961	   285	2025-09-27	gofiber/fiber	⚡️ Express inspired web framework written in Go	I don't code Go
 🔴	GO	   37389	   377	2025-09-17	milvus-io/milvus	Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search	Not compelling enough
+🔴	GO	   37310	    48	2025-09-23	istio/istio	Connect, secure, control, and observe services.	I don't do Kubernetes
 🔴	GO	   31163	   161	2025-09-17	derailed/k9s	🐶 Kubernetes CLI To Manage Your Clusters In Style!	I don't code Kubernetes
 🔴	GO	   30325	   103	2025-10-05	AdguardTeam/AdGuardHome	Network-wide ads & trackers blocking DNS server	Not interested
 🔴	GO	   29268	    48	2025-09-17	spf13/viper	Go configuration with fangs	I don't code Go
 🔴	GO	   28607	   130	2025-09-27	helm/helm	The Kubernetes Package Manager	I don't code Kubernetes
+🔴	GO	   26602	   144	2025-09-27	grafana/loki	Like Prometheus, but for logs.	I don't self-host logs
 🔴	GO	   24870	    65	2025-09-17	go-kratos/kratos	Your ultimate Go microservices framework for the cloud-native era.	I don't code Go
+🔴	GO	   24765	   136	2025-09-27	abiosoft/colima	Container runtimes on macOS (and Linux) with minimal setup	I don't use Mac
 🔴	GO	   22332	   167	2025-09-17	grpc/grpc-go	The Go language implementation of gRPC. HTTP/2 based RPC	I don't code Go
 🔴	GO	   13757	   225	2025-09-23	go-task/task	A task runner / simpler Make alternative written in Go	No need yet
 🔴	GO	   12574	    52	2025-10-05	jackc/pgx	PostgreSQL driver and toolkit for Go	I don't code Go
@@ -374,5 +373,6 @@
 ⏺️	PY	    2143	   968	2025-10-05	anthropics/claude-agent-sdk-python
 ⏺️	JS	   84299	   100	2025-10-05	sveltejs/svelte	web development for the rest of us
 ⏺️	JS	   18943	    85	2025-09-27	FreeTubeApp/FreeTube	An Open Source YouTube app for privacy
+⏺️	GO	   31926	   170	2025-10-05	IceWhaleTech/CasaOS	CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.	Might be heavy but ...
 ⏺️	GO	   24962	   193	2025-09-23	tailscale/tailscale	The easiest, most secure way to use WireGuard and 2FA.
 ⏺️	GO	   12810	   662	2025-10-05	oauth2-proxy/oauth2-proxy	A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.	Could be useful. Integrates with Caddy.
