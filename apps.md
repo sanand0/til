@@ -4,6 +4,7 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 
 ## Oct 2025
 
+- 06 Oct 2025. Build an app that codes an app _on the fly_. https://x.com/OriolVinyalsML/status/1935005985070084197
 - 06 Oct 2025. Create a long form document agent editor that can make targeted edits in _long_ documents/reports. Effectively a Codex for Word.
 - 06 Oct 2025. Visualise the jobs most at risk on AI as a Voronoi diagram. Size = employment, color = score. Organize as a hierarchy. https://x.com/unusual_whales/status/1957140620151283718
 - 02 Oct 2025. Create a bookmarket that converts the latest ChatGPT Markdown response into Marp slides. #MEDIUM
