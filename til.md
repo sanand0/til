@@ -2,6 +2,7 @@
 
 ## Oct 2025
 
+- 06 Oct 2025. Sindre Sorhus has already created a micro-framework [css-extras](https://github.com/sindresorhus/css-extras) using CSS [@functions](https://www.w3.org/TR/css-mixins-1/).
 - 05 Oct 2025. [zx](https://github.com/google/zx) is a nice JS-based alternative to shell scripts.
   ```js
   const branch = await $`git branch --show-current`;
