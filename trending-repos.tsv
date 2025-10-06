@@ -72,10 +72,6 @@
 🟣	SH	    1100	    36	2025-10-05	n8n-io/n8n-hosting	Example of self-hosting n8n in various environments like docker, kubernetes, etc.
 🟣	SH	     977	    41	2025-09-23	sabamdarif/termux-desktop	Install a full Linux desktop environment on your Android device with Termux X11 ( VNC optional) and also enable hardware acceleration
 🟣	SH	     733	   114	2025-09-17	Olsro/ipodclickwheelgamespreservationproject	Preservation of iPod Clickwheel Games for iPod Nanos 3g to 5g and iPod Classics 5g to 7g
-🔴	RS	   30061	    67	2025-09-17	surrealdb/surrealdb	A scalable, distributed, collaborative, document-graph database, for the realtime web	Not mature enough yet
-⏺️	RS	   28528	   182	2025-09-27	sxyazi/yazi	💥 Blazing fast terminal file manager written in Rust, based on async I/O.
-🔴	RS	   23727	   146	2025-09-17	ankitects/anki	Anki is a smart spaced repetition flashcard program	I don't use flash cards
-🟣	RS	   19904	   256	2025-09-27	block/goose	an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
 🟣	RS	   17512	    73	2025-09-27	clockworklabs/SpacetimeDB	Multiplayer at the speed of light
 🟣	RS	   12998	   786	2025-09-23	eythaann/Seelen-UI	The Fully Customizable Desktop Environment for Windows 10/11.
 🟣	RS	   12208	    66	2025-09-27	espanso/espanso	A Privacy-first, Cross-platform Text Expander written in Rust
@@ -284,13 +280,16 @@
 🔴	RS	   42359	   380	2025-09-27	bevyengine/bevy	A refreshingly simple data-driven game engine built in Rust	I don't code Rust
 🔴	RS	   34023	  1945	2025-09-17	juspay/hyperswitch	An open source payments switch written in Rust to make payments fast, reliable and affordable	I don't do finance
 🔴	RS	   30554	  2054	2025-09-23	linera-io/linera-protocol	Main repository for the Linera protocol	I don't do blockchain
+🔴	RS	   30061	    67	2025-09-17	surrealdb/surrealdb	A scalable, distributed, collaborative, document-graph database, for the realtime web	Not mature enough yet
 🔴	RS	   29600	    96	2025-09-17	tokio-rs/tokio	A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...	I don't code Rust
 🔴	RS	   27968	   129	2025-10-05	casey/just	🤖 Just a command runner	Prefer zx - plain JS
 🔴	RS	   26013	   229	2025-09-17	qdrant/qdrant	Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/	Not compelling enough
+🔴	RS	   23727	   146	2025-09-17	ankitects/anki	Anki is a smart spaced repetition flashcard program	I don't use flash cards
 🔴	RS	   23656	    72	2025-09-27	actix/actix-web	Actix Web is a powerful, pragmatic, and extremely fast web framework for Rust.	I don't code Rust
 🔴	RS	   22114	    96	2025-09-23	tree-sitter/tree-sitter	An incremental parsing system for programming tools	I don't code Rust
 🔴	RS	   21673	   488	2025-09-27	GraphiteEditor/Graphite	An open source graphics editor for 2025: comprehensive 2D content creation tool suite for graphic design, digital art, and interactive real-time motion graphics — featuring node-based procedural editing	Web app felt a bit slow. Not sure if this is the best desktop vector art editor for my needs.
 🔴	RS	   21504	   145	2025-09-17	uutils/coreutils	Cross-platform Rust rewrite of the GNU coreutils	I don't code coreutils
+🔴	RS	   19904	   256	2025-09-27	block/goose	an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM	I prefer Codex CLI / Claude Code
 🔴	RS	   19209	  1240	2025-09-17	zama-ai/fhevm	FHEVM, a full-stack framework for integrating Fully Homomorphic Encryption (FHE) with blockchain applications	I don't do blockchain
 🔴	RS	   16883	    40	2025-09-17	bytecodealliance/wasmtime	A lightweight WebAssembly runtime that is fast, secure, and standards-compliant	I don't code Rust
 🔴	RS	   16498	   214	2025-09-17	gitbutlerapp/gitbutler	The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte	I don't like local web apps. Prefer CLI, VS Code plugin
@@ -363,6 +362,7 @@
 ⏺️	TS	   17916	    49	2025-09-27	github/docs	The open-source repo for docs.github.com
 ⏺️	TS	   16105	   112	2025-09-17	sindresorhus/type-fest	A collection of essential TypeScript types
 ⏺️	TS	    2418	    38	2025-09-17	cloudflare/agents	Build and deploy AI Agents on Cloudflare
+⏺️	RS	   28528	   182	2025-09-27	sxyazi/yazi	💥 Blazing fast terminal file manager written in Rust, based on async I/O.
 ⏺️	RS	   21336	   118	2025-10-05	biomejs/biome	A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.
 ⏺️	RS	   16381	   107	2025-09-17	oxc-project/oxc	⚓ A collection of JavaScript tools written in Rust.
 ⏺️	RS	   10453	   322	2025-09-17	ast-grep/ast-grep	⚡A CLI tool for code structural search, lint and rewriting. Written in Rust
