@@ -98,11 +98,11 @@
 🟣	RS	    2779	   551	2025-09-23	ArthurBrussee/brush	3D Reconstruction for all
 🟣	RS	     990	    33	2025-09-17	nexus-xyz/nexus-cli	Command line interface for supplying proofs to the Nexus network.
 🟣	RS	     292	    32	2025-09-17	category-labs/monad-bft
-🟣	PY	  369955	  1501	2025-09-23	EbookFoundation/free-programming-books	📚 Freely available programming books
+🔴	PY	  369955	  1501	2025-09-23	EbookFoundation/free-programming-books	📚 Freely available programming books	Skip educational
 🟣	PY	  366471	  1066	2025-09-27	public-apis/public-apis	A collective list of free APIs
-🟣	PY	  321277	  1132	2025-09-27	donnemartin/system-design-primer	Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
-🟣	PY	  209369	  1635	2025-09-27	TheAlgorithms/Python	All Algorithms implemented in Python
-🟣	PY	   79150	   735	2025-10-05	bregman-arie/devops-exercises	Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
+🔴	PY	  321277	  1132	2025-09-27	donnemartin/system-design-primer	Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.	Skip educational
+🟣	PY	  209369	  1635	2025-09-27	TheAlgorithms/Python	All Algorithms implemented in Python	Skip educational
+🟣	PY	   79150	   735	2025-10-05	bregman-arie/devops-exercises	Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions	Skip educational
 🟣	PY	   73778	   391	2025-10-05	hacksider/Deep-Live-Cam	real time face swap and one-click video deepfake with only a single image
 🟣	PY	   58210	  2110	2025-10-05	commaai/openpilot	openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.
 🟣	PY	   56152	  1130	2025-09-17	CorentinJ/Real-Time-Voice-Cloning	Clone a voice in 5 seconds to generate arbitrary speech in real-time
@@ -179,10 +179,10 @@
 🟣	JS	    1655	    26	2025-09-17	UseInterstellar/Interstellar	One of the most popular modern web proxies with blazing fast speeds and a variety of games.
 🟣	JS	     947	    34	2025-10-05	Coding-Solo/godot-mcp	MCP server for interfacing with Godot game engine. Provides tools for launching the editor, running projects, and capturing debug output.
 🟣	JS	     826	    36	2025-09-17	met4citizen/TalkingHead	Talking Head (3D): A JavaScript class for real-time lip-sync using Ready Player Me full-body 3D avatars.
-🟣	GO	   37310	    48	2025-09-23	istio/istio	Connect, secure, control, and observe services.
-🟣	GO	   31926	   170	2025-10-05	IceWhaleTech/CasaOS	CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.
-🟣	GO	   31393	   168	2025-09-23	1Panel-dev/1Panel	🔥 1Panel provides an intuitive web interface and MCP Server to manage websites, files, containers, databases, and LLMs on a Linux server.
-🟣	GO	   26602	   144	2025-09-27	grafana/loki	Like Prometheus, but for logs.
+🟣	GO	   37310	    48	2025-09-23	istio/istio	Connect, secure, control, and observe services.	I don't do Kubernetes
+⏺️	GO	   31926	   170	2025-10-05	IceWhaleTech/CasaOS	CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.	Might be heavy but ...
+🟢	GO	   31393	   168	2025-09-23	1Panel-dev/1Panel	🔥 1Panel provides an intuitive web interface and MCP Server to manage websites, files, containers, databases, and LLMs on a Linux server.	Easy-to-run monitor for Linux servers. Install and run 1pctl --help.
+🔴	GO	   26602	   144	2025-09-27	grafana/loki	Like Prometheus, but for logs.	I don't self-host logs
 🟣	GO	   25421	    74	2025-10-05	authelia/authelia	The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™
 🟣	GO	   24765	   136	2025-09-27	abiosoft/colima	Container runtimes on macOS (and Linux) with minimal setup
 🟣	GO	   23909	    70	2025-10-05	pulumi/pulumi	Pulumi - Infrastructure as Code in any programming language 🚀
@@ -258,11 +258,11 @@
 🟢	GO	  153140	   566	2025-09-27	ollama/ollama	Get up and running with OpenAI gpt-oss, DeepSeek-R1, Gemma 3 and other models.
 🟢	GO	   40924	   122	2025-10-05	cli/cli	GitHub’s official command line tool
 🔵	SH	    3184	   105	2025-10-05	x-cmd/x-cmd	x-cmd: Bootstrap 1000+ command line tools in seconds.	Interesting. Good tool list. Yet to find a use-case.
-🔴	TS	  336554	   939	2025-09-17	kamranahmedse/developer-roadmap	Interactive roadmaps, guides and other educational content to help developers grow in their careers.	Educational
-🔴	TS	  130516	   762	2025-09-27	yangshun/tech-interview-handbook	💯 Curated coding interview preparation materials for busy software engineers	I don't do interviews
+🔴	TS	  336554	   939	2025-09-17	kamranahmedse/developer-roadmap	Interactive roadmaps, guides and other educational content to help developers grow in their careers.	Skip educational
+🔴	TS	  130516	   762	2025-09-27	yangshun/tech-interview-handbook	💯 Curated coding interview preparation materials for busy software engineers	Skip educational
 🔴	TS	   98887	   121	2025-09-23	angular/angular	Deliver web apps with confidence 🚀	Prefer lit-html
 🔴	TS	   58229	    71	2025-09-23	nuxt/nuxt	The Intuitive Vue Framework.	I prefer docsify / eleventy
-🔴	TS	   49268	   415	2025-09-23	cypress-io/cypress	Fast, easy and reliable testing for anything that runs in a browser.	Use playwright
+🔴	TS	   49268	   415	2025-09-23	cypress-io/cypress	Fast, easy and reliable testing for anything that runs in a browser.	Prefer playwright
 🔴	TS	   43396	   388	2025-09-17	expo/expo	An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.	I don't code React
 🔴	TS	   28349	  1420	2025-09-17	ZuodaoTech/everyone-can-use-english	人人都能用英语	Don't need English
 🔴	TS	   26520	  1052	2025-09-17	heroui-inc/heroui	🚀 Beautiful, fast and modern React UI library. (Previously NextUI)	I don't code React
@@ -276,7 +276,7 @@
 🔴	SH	   58288	   131	2025-09-17	youngyangyang04/leetcode-master	《代码随想录》LeetCode 刷题攻略：200道经典题目刷题顺序，共60w字的详细图解，视频难点剖析，50余张思维导图，支持C++，Java，Python，Go，JavaScript等多语言版本，从此算法学习不再迷茫！🔥🔥 来看看，你会发现相见恨晚！🚀	I don't LeetCode
 🔴	SH	   53483	   126	2025-09-27	pi-hole/pi-hole	A black hole for Internet advertisements	Prefer direct DNS routers
 🔴	SH	   44080	    89	2025-09-27	acmesh-official/acme.sh	A pure Unix shell script implementing ACME client protocol	Prefer certbot
-🔴	SH	   28443	    67	2025-09-27	MichaelCade/90DaysOfDevOps	This repository started out as a learning in public project for myself and has now become a structured learning map for many in the community. We have 3 years under our belt covering all things DevOps, including Principles, Processes, Tooling and Use Cases surrounding this vast topic.	Educational
+🔴	SH	   28443	    67	2025-09-27	MichaelCade/90DaysOfDevOps	This repository started out as a learning in public project for myself and has now become a structured learning map for many in the community. We have 3 years under our belt covering all things DevOps, including Principles, Processes, Tooling and Use Cases surrounding this vast topic.	Skip educational
 🔴	SH	   26032	    38	2025-09-23	mbadolato/iTerm2-Color-Schemes	Over 425 terminal color schemes/themes for iTerm/iTerm2. Includes ports to Terminal, Konsole, PuTTY, Xresources, XRDB, Remmina, Termite, XFCE, Tilda, FreeBSD VT, Terminator, Kitty, MobaXterm, LXTerminal, Microsoft's Windows Terminal, Visual Studio, Alacritty, Ghostty, and many more	I don't use Mac
 🔴	SH	   19150	    76	2025-10-05	rockerBOO/awesome-neovim	Collections of awesome neovim plugins.	I don't use Vim
 🔴	SH	   14848	    43	2025-09-17	termux/termux-packages	A package build system for Termux.	I don't code Android apps
@@ -311,7 +311,7 @@
 🔴	RS	    2774	   104	2025-10-05	davidlattimore/wild	A very fast linker for Linux	I don't code C
 🔴	RS	    1647	   431	2025-09-17	carthage-software/mago	Mago is a toolchain for PHP that aims to provide a set of tools to help developers write better code	I don't code PHP
 🔴	PY	   54237	   549	2025-09-17	PaddlePaddle/PaddleOCR	Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 80+ languages.	Prefer markitdown
-🔴	PY	   50300	   848	2025-09-27	Asabeneh/30-Days-Of-Python	30 days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than100 days, follow your own pace. These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw	Educational
+🔴	PY	   50300	   848	2025-09-27	Asabeneh/30-Days-Of-Python	30 days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than100 days, follow your own pace. These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw	Skip educational
 🔴	PY	   46075	   582	2025-09-23	unslothai/unsloth	Fine-tuning & Reinforcement Learning for LLMs. 🦥 Train OpenAI gpt-oss, DeepSeek-R1, Qwen3, Gemma 3, TTS 2x faster with 70% less VRAM.	I don't fine-tune
 🔴	PY	   45640	  5535	2025-10-05	harry0703/MoneyPrinterTurbo	利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.	README is in Chinese. Tried Colab, didn't work
 🔴	PY	   40595	   603	2025-09-17	virattt/ai-hedge-fund	An AI Hedge Fund Team	I don't do finance
@@ -324,17 +324,17 @@
 🔴	PY	    6292	   744	2025-09-23	google-research/timesfm	TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.	Requires BigQuery
 🔴	PY	    2276	   337	2025-09-17	ml-explore/mlx-lm	Run LLMs with MLX	I don't use Apple
 🔴	PY	     147	    25	2025-10-05	elliottech/lighter-python	Public Python SDK for Lighter	I don't do finance
-🔴	JS	  239169	   290	2025-09-23	facebook/react	The library for web and native user interfaces.	Use lit-html
+🔴	JS	  239169	   290	2025-09-23	facebook/react	The library for web and native user interfaces.	Prefer lit-html
 🔴	JS	  147507	    92	2025-10-05	airbnb/javascript	JavaScript Style Guide	I prefer tool-based standards like Prettier
 🔴	JS	  134719	   205	2025-09-27	vercel/next.js	The React Framework	I don't do React
-🔴	JS	  134619	   416	2025-09-27	f/awesome-chatgpt-prompts	This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.	Educational
-🔴	JS	  107626	    86	2025-09-17	axios/axios	Promise based HTTP client for the browser and node.js	Use fetch directly
+🔴	JS	  134619	   416	2025-09-27	f/awesome-chatgpt-prompts	This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.	Skip educational
+🔴	JS	  107626	    86	2025-09-17	axios/axios	Promise based HTTP client for the browser and node.js	Prefer fetch
 🔴	JS	  103660	    78	2025-09-23	facebook/create-react-app	Set up a modern web app by running one command.	I don't code React
 🔴	JS	   89255	   384	2025-10-05	jaywcjlove/awesome-mac	 Now we have become very big, Different from the original idea. Collect premium software in various categories.	I don't use Mac
-🔴	JS	   65712	    73	2025-10-05	leonardomso/33-js-concepts	📜 33 JavaScript concepts every developer should know.	Educational
+🔴	JS	   65712	    73	2025-10-05	leonardomso/33-js-concepts	📜 33 JavaScript concepts every developer should know.	Skip educational
 🔴	JS	   60717	    46	2025-09-23	atom/atom	The hackable text editor	Prefer VS Code
 🔴	JS	   46046	   154	2025-09-17	bigskysoftware/htmx	</> htmx - high power tools for HTML	Too far from my mental model
-🔴	JS	   45337	   141	2025-10-05	Asabeneh/30-Days-Of-JavaScript	30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days, please just follow your own pace. These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw	Educational
+🔴	JS	   45337	   141	2025-10-05	Asabeneh/30-Days-Of-JavaScript	30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days, please just follow your own pace. These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw	Skip educational
 🔴	JS	    9163	   202	2025-09-23	WebKit/WebKit	Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux.	I don't build browsers
 🔴	GO	  153926	   648	2025-10-05	avelino/awesome-go	A curated list of awesome Go frameworks, libraries and software	I don't code Go
 🔴	GO	  129972	   125	2025-09-23	golang/go	The Go programming language	I don't code Go
