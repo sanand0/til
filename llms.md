@@ -2,6 +2,22 @@
 
 ## Oct 2025
 
+- 06 Oct 2025. Today, if I had to build agents, here are the tools and environment capabilities I'd ask for:
+  - Ask user (for clarifications)
+  - Internet tools
+    - Search
+    - Fetch (CORS-piercing)
+    - Scraper with XPath/CSS Selectors
+    - Access to llms.txt
+  - LLM APIs
+    - Summarizer (condenses chat)
+    - Sub-agents
+  - Coding tools
+    - Markdown convertor
+    - Code execution (including tests)
+    - Browser + DevTools for testing
+  - Memory / storage
+  - Tool/MCP directory with search
 - 06 Oct 2025. Noting a few things that I find #impossible to do today with LLMs:
   - LLMs can't run experiments / [explorations](https://notes.s-anand.net/explore.md), like trying out on a new tool or web app in an environment, the way I would.
   - LLMs can't move stuff on my machine, e.g. notes from one list to another, when they're only on my laptop, not GitHub.
