@@ -72,7 +72,7 @@
 🟣	SH	    1100	    36	2025-10-05	n8n-io/n8n-hosting	Example of self-hosting n8n in various environments like docker, kubernetes, etc.
 🟣	SH	     977	    41	2025-09-23	sabamdarif/termux-desktop	Install a full Linux desktop environment on your Android device with Termux X11 ( VNC optional) and also enable hardware acceleration
 🟣	SH	     733	   114	2025-09-17	Olsro/ipodclickwheelgamespreservationproject	Preservation of iPod Clickwheel Games for iPod Nanos 3g to 5g and iPod Classics 5g to 7g
-🟣	RS	   30554	  2054	2025-09-23	linera-io/linera-protocol	Main repository for the Linera protocol
+🔴	RS	   30554	  2054	2025-09-23	linera-io/linera-protocol	Main repository for the Linera protocol	I don't do blockchain
 🟣	RS	   30507	   185	2025-09-17	GyulyVGC/sniffnet	Comfortably monitor your Internet traffic 🕵️‍♂️
 🟣	RS	   30061	    67	2025-09-17	surrealdb/surrealdb	A scalable, distributed, collaborative, document-graph database, for the realtime web
 🟣	RS	   28528	   182	2025-09-27	sxyazi/yazi	💥 Blazing fast terminal file manager written in Rust, based on async I/O.
