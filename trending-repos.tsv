@@ -72,8 +72,6 @@
 🟣	SH	    1100	    36	2025-10-05	n8n-io/n8n-hosting	Example of self-hosting n8n in various environments like docker, kubernetes, etc.
 🟣	SH	     977	    41	2025-09-23	sabamdarif/termux-desktop	Install a full Linux desktop environment on your Android device with Termux X11 ( VNC optional) and also enable hardware acceleration
 🟣	SH	     733	   114	2025-09-17	Olsro/ipodclickwheelgamespreservationproject	Preservation of iPod Clickwheel Games for iPod Nanos 3g to 5g and iPod Classics 5g to 7g
-🔴	RS	   30554	  2054	2025-09-23	linera-io/linera-protocol	Main repository for the Linera protocol	I don't do blockchain
-🟣	RS	   30507	   185	2025-09-17	GyulyVGC/sniffnet	Comfortably monitor your Internet traffic 🕵️‍♂️
 🟣	RS	   30061	    67	2025-09-17	surrealdb/surrealdb	A scalable, distributed, collaborative, document-graph database, for the realtime web
 🟣	RS	   28528	   182	2025-09-27	sxyazi/yazi	💥 Blazing fast terminal file manager written in Rust, based on async I/O.
 🟣	RS	   23727	   146	2025-09-17	ankitects/anki	Anki is a smart spaced repetition flashcard program
@@ -228,6 +226,7 @@
 🟢	RS	   51198	   245	2025-09-17	starship/starship	☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 🟢	RS	   41607	  1742	2025-09-17	openai/codex	Lightweight coding agent that runs in your terminal
 🟢	RS	   31114	   121	2025-10-05	fish-shell/fish-shell	The user-friendly command line shell.
+🟢	RS	   30507	   185	2025-09-17	GyulyVGC/sniffnet	Comfortably monitor your Internet traffic 🕵️‍♂️	Easy-to-install/run network traffic monitor
 🟢	RS	   30164	   493	2025-09-27	ajeetdsouza/zoxide	A smarter cd command. Supports all major shells.
 🟢	RS	   17531	   160	2025-09-27	eza-community/eza	A modern alternative to ls
 🟢	PY	  138130	   820	2025-09-27	ytdl-org/youtube-dl	Command-line program to download videos from YouTube.com and other video sites
@@ -284,6 +283,7 @@
 🔴	RS	   45705	   193	2025-09-23	typst/typst	A new markup-based typesetting system that is powerful and easy to learn.	LaTeX alternative. I prefer Markdown. See https://lwn.net/Articles/1037577/
 🔴	RS	   42359	   380	2025-09-27	bevyengine/bevy	A refreshingly simple data-driven game engine built in Rust	I don't code Rust
 🔴	RS	   34023	  1945	2025-09-17	juspay/hyperswitch	An open source payments switch written in Rust to make payments fast, reliable and affordable	I don't do finance
+🔴	RS	   30554	  2054	2025-09-23	linera-io/linera-protocol	Main repository for the Linera protocol	I don't do blockchain
 🔴	RS	   29600	    96	2025-09-17	tokio-rs/tokio	A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...	I don't code Rust
 🔴	RS	   27968	   129	2025-10-05	casey/just	🤖 Just a command runner	Prefer zx - plain JS
 🔴	RS	   26013	   229	2025-09-17	qdrant/qdrant	Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/	Not compelling enough
