@@ -4,6 +4,7 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 
 ## Oct 2025
 
+- 06 Oct 2025. Create a long form document agent editor that can make targeted edits in _long_ documents/reports. Effectively a Codex for Word.
 - 06 Oct 2025. Visualise the jobs most at risk on AI as a Voronoi diagram. Size = employment, color = score. Organize as a hierarchy. https://x.com/unusual_whales/status/1957140620151283718
 - 02 Oct 2025. Create a bookmarket that converts the latest ChatGPT Markdown response into Marp slides. #MEDIUM
 - 02 Oct 2025. Create a web app that polls a [Slido](https://datapi-eu1.slido.com/redoc) survey and runs [topic modelling](https://pypi.org/project/topicmodel) to visually show the clusters of questions live, e.g. like [pol.is](https://info.vtaiwan.tw/). #HARD
