@@ -2,6 +2,8 @@
 
 ## Oct 2025
 
+- 06 Oct 2025. When recruiting for people in the LLM era, look for questioning ability, sensible thinking, and how they use AI. Give them lots of fluff and context. Can they cut through it? Is their answer concise and to the point or waffling?
+- 06 Oct 2025. Like post the industrial revolution, more people will become operators looking after AI, not craftsmen. This includes coding.
 - 03 Oct 2025. "Find evidence for and against" improves LLM responses far more than "Are you sure?" [Mike Caulfield](https://mikecaulfield.substack.com/p/is-are-you-sure-is-a-bad-follow-up)
 - 02 Oct 2025. ⭐ Here are the major not-immediately-obvious LLM megatrends/superpowers I see.
   - Swarms. Ask for dozens of solutions in parallel. Merge, rank, auto-debate, converge.
