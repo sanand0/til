@@ -9,6 +9,17 @@
 
 This is true for many subjects. But avoid overconfidence. Expert pattern libraries are huge (~100K). Execution discipline matters.
 
+- Core concepts of [teaching programming]()
+  * **Don’t teach like an expert—design for novices’ mental models.** Experts skip steps they no longer notice (“expert blind spot”), so their explanations often assume knowledge beginners don’t have. Make the hidden steps and tacit decisions explicit. ([website.education.wisc.edu][1])
+  * **For beginners, explicit teaching and worked examples beat “discovery learning.”** When prior knowledge is low, minimal guidance overloads working memory; clear explanations plus step-by-step examples work better. Use discovery later, once schemas exist. ([ACM Digital Library][2])
+  * **Manage cognitive load deliberately (and fade help).** Start with small, fully worked examples; then *fade* the steps so learners do more on their own. Reduce extraneous details, name chunks, and sequence tasks from easy to hard. ([ACM Digital Library][3])
+  * **Label the subgoals.** Show the *structure* of a solution (“parse input → validate → compute → report”), not just the code. Subgoal-labeled examples improve transfer and problem solving because learners remember the plan, not only the syntax. ([PNAS][4])
+  * **Use Parsons Problems (reorder/gap-fill code) before open-ended coding.** Asking students to arrange correct lines (or fill small gaps) teaches structure without the heavy burden of recalling everything from scratch; it improves performance and reduces time. Then ramp up to writing. ([Wikipedia][5])
+  * **Teach the “notional machine” and tracing *early*.** Beginners need a simple mental model of how variables, memory, and control flow actually behave; tracing code step-by-step builds that model and prevents persistent misconceptions. Treat tracing and state diagrams as first-class skills. ([ResearchGate][6])
+  * **Make learning stick with retrieval practice and spacing, not cramming.** Frequent low-stakes quizzes, short “explain this output” checks, and spaced review produce far better long-term retention than re-reading or massed practice. Build a cadence of quick, cumulative questions. ([PMC][7])
+  * **Use active learning (e.g., Peer Instruction) to surface and fix misconceptions.** Short conceptual questions → vote → discuss → revote reliably lift exam scores and *halve* failure rates in STEM and CS classes compared to pure lecturing. It also narrows achievement gaps. ([PNAS][4])
+  * **Sequence: read/run/modify *before* “make,” and bridge representations.** Frameworks like PRIMM (Predict-Run-Investigate-Modify-Make) have learners comprehend and tweak working code first; only then ask them to build. Many studies also support starting with block-based or otherwise constrained representations, then transitioning to text while you scaffold that bridge. ([ACM Digital Library][8])
+* **Teach in meaningful contexts—motivation and retention rise.** Courses framed around personally relevant media/data problems (e.g., “Media Computation”) show higher success and retention, especially for learners who might otherwise disengage. “Why this matters” isn’t fluff—it’s an intervention. ([dib-lab.github.io][9])
 - Core Concepts of [`bash`](https://chatgpt.com/c/68d946c8-6230-8330-977f-128da647aed6)
   - **Parameter expansion** for string surgery: trim/strip/replace/slice, defaulting, length, case-change.
   - **[[…]]** tests with **globs** and **regex** (`BASH_REMATCH`), and `case`.
