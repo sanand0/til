@@ -2,6 +2,7 @@
 
 ## Oct 2025
 
+- 07 Oct 2025. As of 2025, a fine-tuned DeBERTa-v3-Large / RoBERTa-Large model is better than an LLM at emotion classification. [ChatGPT](https://chatgpt.com/share/68e61815-186c-800c-8c7c-3c18ff4c5781)
 - 07 Oct 2025. OpenAI defines an AI agent as "a system that can do work independently on behalf of the user". [swyx](https://x.com/swyx/status/1975335082048246159)
 - 07 Oct 2025. [Brain coding](https://domm.plix.at/perl/2025_10_braincoded_static_image_gallery.html) is the new term for human coding - as opposed to vibe-coding (AI codes, human doesn't review code) and AI coding (AI codes, human reviews code).
 - 06 Oct 2025. Today, if I had to build agents, here are the tools and environment capabilities I'd ask for:
