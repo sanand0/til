@@ -1,6 +1,6 @@
 # AI Capabilities
 
-AI/LLM capabilities / trends.
+## AI/LLM capabilities
 
 - Swarms. Ask AI for dozens of solutions in parallel. Merge, rank, auto-debate, converge.
 - Personalize at Scale. Have AI create feedback, designs, excerpts/summaries, ... tailored to EACH person at scale.
