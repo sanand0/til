@@ -26,3 +26,8 @@ To be evaluated:
 - Data / workflow as the moat
 - AI native business models
 - AI digital-divide
+
+## Human capabilities
+
+- Context engineering. Providing the right information a model/agent needs.
+- Style vocabulary. Specifying the best style (code, design, writing, ...) for the task and knowing a wide range of styles.
