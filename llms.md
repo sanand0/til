@@ -2,7 +2,7 @@
 
 ## Oct 2025
 
-- 07 Oct 2025. [Brain coding](https://domm.plix.at/perl/2025_10_braincoded_static_image_gallery.html) is the new term for
+- 07 Oct 2025. [Brain coding](https://domm.plix.at/perl/2025_10_braincoded_static_image_gallery.html) is the new term for human coding - as opposed to vibe-coding (AI codes, human doesn't review code) and AI coding (AI codes, human reviews code).
 - 06 Oct 2025. Today, if I had to build agents, here are the tools and environment capabilities I'd ask for:
   - Ask user (for clarifications)
   - Internet tools
