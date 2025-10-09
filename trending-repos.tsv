@@ -91,9 +91,9 @@
 🟣	RS	    2779	   551	2025-09-23	ArthurBrussee/brush	3D Reconstruction for all
 🟣	RS	     990	    33	2025-09-17	nexus-xyz/nexus-cli	Command line interface for supplying proofs to the Nexus network.
 🟣	RS	     292	    32	2025-09-17	category-labs/monad-bft
-🟣	PY	  366471	  1066	2025-09-27	public-apis/public-apis	A collective list of free APIs
-🟣	PY	  209369	  1635	2025-09-27	TheAlgorithms/Python	All Algorithms implemented in Python	Skip educational
-🟣	PY	   79150	   735	2025-10-05	bregman-arie/devops-exercises	Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions	Skip educational
+🟢	PY	  366471	  1066	2025-09-27	public-apis/public-apis	A collective list of free APIs
+🔴	PY	  209369	  1635	2025-09-27	TheAlgorithms/Python	All Algorithms implemented in Python	Skip educational
+🔴	PY	   79150	   735	2025-10-05	bregman-arie/devops-exercises	Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions	Skip educational
 🟣	PY	   73778	   391	2025-10-05	hacksider/Deep-Live-Cam	real time face swap and one-click video deepfake with only a single image
 🟣	PY	   58210	  2110	2025-10-05	commaai/openpilot	openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.
 🟣	PY	   56152	  1130	2025-09-17	CorentinJ/Real-Time-Voice-Cloning	Clone a voice in 5 seconds to generate arbitrary speech in real-time
