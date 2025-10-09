@@ -1,13 +1,13 @@
 🟣	TS	   87792	    83	2025-09-23	storybookjs/storybook	Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation
 🔵	TS	   76987	   952	2025-09-17	immich-app/immich	High performance self-hosted photo and video management solution.
 🔴	TS	   70201	   132	2025-10-05	grafana/grafana	The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.	I prefer custom visuals
-🟣	TS	   69811	   133	2025-10-05	strapi/strapi	🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.
+🔵	TS	   69811	   133	2025-10-05	strapi/strapi	🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.
 🟣	TS	   57675	   742	2025-09-23	nocodb/nocodb	🔥 🔥 🔥 Open Source Airtable Alternative
 🟣	TS	   55687	   374	2025-10-05	toeverything/AFFiNE	There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.
 🟣	TS	   42639	   725	2025-09-23	tldraw/tldraw	very good whiteboard SDK / infinite canvas SDK
 🟣	TS	   41845	   344	2025-10-05	AykutSarac/jsoncrack.com	✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs.
 🟣	TS	   36659	   173	2025-09-17	chatboxai/chatbox	User-friendly Desktop Client App for AI Models/LLMs (GPT, Claude, Gemini, Ollama...)
-🟣	TS	   32819	   385	2025-10-05	directus/directus	The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.
+🔵	TS	   32819	   385	2025-10-05	directus/directus	The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.
 🟣	TS	   31729	   366	2025-09-27	TriliumNext/Trilium	Build your personal knowledge base with Trilium Notes
 🟣	TS	   27614	    85	2025-10-05	nextauthjs/next-auth	Authentication for the Web.
 🟣	TS	   24715	  1376	2025-09-23	sst/opencode	AI coding agent, built for the terminal.
