@@ -101,7 +101,7 @@
 🟣	PY	   46892	   393	2025-10-05	ultralytics/ultralytics	Ultralytics YOLO 🚀
 🟣	PY	   37465	   719	2025-09-17	hiroi-sora/Umi-OCR	OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。
 🟣	PY	   33356	   621	2025-09-23	facebookresearch/detectron2	Detectron2 is a platform for object detection, segmentation and other visual recognition tasks.
-🟣	PY	   28441	   714	2025-10-05	Byaidu/PDFMathTranslate	PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero
+🔴	PY	   28441	   714	2025-10-05	Byaidu/PDFMathTranslate	PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero	Skip educational
 🟣	PY	   24260	   682	2025-09-17	Cinnamon/kotaemon	An open-source RAG-based tool for chatting with your documents.
 🟣	PY	   22590	   390	2025-09-17	deepset-ai/haystack	AI orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.
 🟣	PY	   17831	   948	2025-09-17	mxrch/GHunt	🕵️‍♂️ Offensive Google framework.
@@ -142,7 +142,7 @@
 🟣	JS	   36543	   272	2025-09-27	HeyPuter/puter	🌐 The Internet OS! Free, Open-Source, and Self-Hostable.
 🟣	JS	   34638	    95	2025-09-23	fastify/fastify	Fast and low overhead web framework, for Node.js
 🟣	JS	   33705	   127	2025-10-05	danielmiessler/Fabric	Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.
-🟣	JS	   33672	    50	2025-09-23	TheAlgorithms/JavaScript	Algorithms and Data Structures implemented in JavaScript for beginners, following best practices.
+🔴	JS	   33672	    50	2025-09-23	TheAlgorithms/JavaScript	Algorithms and Data Structures implemented in JavaScript for beginners, following best practices.	Skip educational
 🟣	JS	   22498	    97	2025-09-17	blackmatrix7/ios_rule_script	分流规则、重写写规则及脚本。
 🟣	JS	   21944	   179	2025-10-05	MagicMirrorOrg/MagicMirror	MagicMirror² is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror² allows you to convert your hallway or bathroom mirror into your personal assistant.
 🟣	JS	   20417	    45	2025-09-17	appium/appium	Cross-platform automation framework for all kinds of apps, built on top of the W3C WebDriver protocol
