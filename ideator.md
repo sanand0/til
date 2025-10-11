@@ -1,5 +1,7 @@
 # Ideator
 
+- 11 Oct 2025. [IDEA HR training module constrained swarm](https://chatgpt.com/c/68e773dc-c3ac-8322-941b-9364d2afd866).
+  - Include a “liar agent” seeded with plausible-but-wrong policy. With limited probes, learners must detect and neutralize it; logs teach verification triggers.
 - 22 Sep 2025. [IDEA AI settings that maximize persuasion](https://chatgpt.com/c/68d138be-5014-8332-998f-fc5950d8ec57)
 - 18 Sep 2025. [IDEA Secure group habit tracking](https://chatgpt.com/c/68cbe97a-90b0-832a-b0aa-97f0d986e758)
 - 25 Aug 2025. [IDEA Counterfactual notebook](https://chatgpt.com/c/68ac2c57-2578-8331-a50a-7c3a8ba95db0)
