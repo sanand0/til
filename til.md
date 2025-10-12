@@ -2,6 +2,29 @@
 
 ## Oct 2025
 
+- 07 Oct 2025. The VPN industry is a consolidating oligopoly that doesn't offer much security and biases towards affiliates. [Who Owns Express VPN, Nord, Surfshark?](https://windscribe.com/blog/the-vpn-relationship-map/)
+- 06 Oct 2025. [`npx -y emoj`](https://github.com/sindresorhus/emoj) lets you type text and pick a relevant emoji.
+- 06 Oct 2025. Many people who shifted away from conflict aversion did so by systematizing it. [ChatGPT](https://chatgpt.com/share/68e3d40e-97e8-800c-b6c0-e34f4059b147)
+  - Martin Luther King Jr institutionalized not stepping back from conflicts in his movement.
+  - Kim Scott (Radical Candor) practiced caring more via short, specific feedback loops.
+  - Kwame Christian (Compassionate Curiosity) practiced ask open questions.
+  - Ed Catmull (Pixar) instituted Braintrust to ask candid questions.
+  - Ray Dalio (Bridgewater) instituted radical transparency.
+- 06 Oct 2025. Many people who adopted a failure-seeking mindset made failure frequent, small, cheap, and informative. [ChatGPT](https://chatgpt.com/share/68e3d668-9030-800c-a6a6-b7b8a3007685)
+  - Jia Jiang ran a 100-day rejection challenge, acclimatizing himself to failure.
+  - Kim Liao (writer) moved from submission-avoidance to “100 rejections/year”.
+  - Reshma Saujani (Girls Who Code) built a practice of "brave, not perfect" - ship before perfect.
+  - Ray Dalio (Bridgewater) instituted mistake logs and "pain + reflection = progress".
+  - Astro Teller (X, the Moonshot Factory) rewired incentives so teams are rewarded for killing their own ideas early.
+  - Sara Blakely (Spanx) set weekly failure quotas.
+  - Kathryn Schulz (author of Being Wrong) converts failures into teaching methods.
+- 06 Oct 2025. Sindre Sorhus has already created a micro-framework [css-extras](https://github.com/sindresorhus/css-extras) using CSS [@functions](https://www.w3.org/TR/css-mixins-1/).
+- 05 Oct 2025. [zx](https://github.com/google/zx) is a nice JS-based alternative to shell scripts.
+  ```js
+  const branch = await $`git branch --show-current`;
+  await $`dep deploy --branch=${branch}`;
+  ```
+- 05 Oct 2025. `docker run -it --name test --user vscode mcr.microsoft.com/devcontainers/base:ubuntu` gives you a test Ubuntu image closer to a desktop / user setup rather than a server. Useful to try out apps.
 - 03 Oct 2025. Wrong answers are useful if you discover why they said that. Conversation is a game where you CO-CONSTRUCT common ground. [Mike Caulfield](https://mikecaulfield.substack.com/p/when-wrong-llm-answers-get-you-to)
 - 03 Oct 2025. BMTC hourly data from Bangalore Metro is available via RTI. [Vivek](https://github.com/Vonter/bmrcl-ridership-hourly)
 - 02 Oct 2025. [SSH3](https://github.com/francoismichel/ssh3) is an emerging SSH alternative that's written on top of HTTP/3. It supports OAuth2, OpenID Connect, and HTTPS for certificates.
@@ -1559,7 +1582,7 @@
   - Rewarding merit
   - Leadership by virtue and character
 - 04 Jan 2025. [Interview with Liang Wenfeng, CEO of DeepSeek](https://www.chinatalk.media/p/deepseek-ceo-interview-with-chinas):
-  > In the face of disruptive technologies, moats created by closed source are temporary. Even OpenAI’s closed source approach can’t prevent others from catching up. So we anchor our value in our team  --  our colleagues grow through this process, accumulate know-how, and form an organization and culture capable of innovation. That’s our moat.
+  > In the face of disruptive technologies, moats created by closed source are temporary. Even OpenAI’s closed source approach can’t prevent others from catching up. So we anchor our value in our team -- our colleagues grow through this process, accumulate know-how, and form an organization and culture capable of innovation. That’s our moat.
   >
   > Open source, publishing papers, in fact, do not cost us anything. For technical talent, having others follow your innovation gives a great sense of accomplishment. In fact, open source is more of a cultural behavior than a commercial one, and contributing to it earns us respect. There is also a cultural attraction for a company to do this.
   >

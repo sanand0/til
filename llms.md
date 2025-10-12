@@ -2,6 +2,36 @@
 
 ## Oct 2025
 
+- 11 Oct 2025. '...as few as 250 malicious documents can produce a "backdoor" vulnerability in a large language model... data-poisoning attacks might be more practical than believed." [Anthropic](https://www.anthropic.com/research/small-samples-poison)
+- 11 Oct 2025. Tim Urban's 2015 article, [The AI Revolution: The Road to Superintelligence](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html), is surprisingly relevant. A key theme is that post artificial-super-intelligence, pretty much anything we know / predict is probably wrong.
+- 09 Oct 2025. LLMs are bad at asking questions, so you need to plan on their bahlf first. LLMs are bad at copy paste, so giving them a scaffolding to edit helps. [Two things LLM coding agents are still bad at](https://kix.dev/two-things-llm-coding-agents-are-still-bad-at/)
+- 07 Oct 2025. As of 2025, a fine-tuned DeBERTa-v3-Large / RoBERTa-Large model is better than an LLM at emotion classification. [roberta-base-go_emotions](https://huggingface.co/SamLowe/roberta-base-go_emotions) is a good starting point if you don't want to fine-tune. [ChatGPT](https://chatgpt.com/share/68e61815-186c-800c-8c7c-3c18ff4c5781)
+- 07 Oct 2025. OpenAI defines an AI agent as "a system that can do work independently on behalf of the user". [swyx](https://x.com/swyx/status/1975335082048246159)
+- 07 Oct 2025. [Brain coding](https://domm.plix.at/perl/2025_10_braincoded_static_image_gallery.html) is the new term for human coding - as opposed to vibe-coding (AI codes, human doesn't review code) and AI coding (AI codes, human reviews code).
+- 06 Oct 2025. Today, if I had to build agents, here are the tools and environment capabilities I'd ask for:
+  - Ask user (for clarifications)
+  - Internet tools
+    - Search
+    - Fetch (CORS-piercing)
+    - Scraper with XPath/CSS Selectors
+    - Access to llms.txt
+  - LLM APIs
+    - Summarizer (condenses chat)
+    - Sub-agents
+  - Coding tools
+    - Markdown convertor
+    - Code execution (including tests)
+    - Browser + DevTools for testing
+  - Memory / storage
+  - Tool/MCP directory with search
+- 06 Oct 2025. Noting a few things that I find #impossible to do today with LLMs:
+  - LLMs can't run experiments / [explorations](https://notes.s-anand.net/explore.md), like trying out on a new tool or web app in an environment, the way I would.
+  - LLMs can't move stuff on my machine, e.g. notes from one list to another, when they're only on my laptop, not GitHub.
+  - LLMs can't capture the past wisdom in my head, e.g. the distilled principles of data visualization that we applied at Gramener.
+  - LLMs can't prioritize my to-do list based on my preferences and what's important to me.
+  - LLMs cannot write a blog post in my style of writing.
+- 06 Oct 2025. When recruiting for people in the LLM era, look for questioning ability, sensible thinking, and how they use AI. Give them lots of fluff and context. Can they cut through it? Is their answer concise and to the point or waffling?
+- 06 Oct 2025. Like post the industrial revolution, more people will become operators looking after AI, not craftsmen. This includes coding.
 - 03 Oct 2025. "Find evidence for and against" improves LLM responses far more than "Are you sure?" [Mike Caulfield](https://mikecaulfield.substack.com/p/is-are-you-sure-is-a-bad-follow-up)
 - 02 Oct 2025. ⭐ Here are the major not-immediately-obvious LLM megatrends/superpowers I see.
   - Swarms. Ask for dozens of solutions in parallel. Merge, rank, auto-debate, converge.
