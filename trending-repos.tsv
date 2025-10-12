@@ -81,7 +81,7 @@
 🟣	RS	    9682	    78	2025-09-27	stalwartlabs/stalwart	All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).
 🔴	RS	    9591	   141	2025-09-27	foundry-rs/foundry	Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.	I don't do finance
 🔴	RS	    6764	    55	2025-09-23	kata-containers/kata-containers	Kata Containers is an open source project and community working to build a standard implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs. https://katacontainers.io/	I don't create VMs
-🟣	RS	    5724	    58	2025-09-23	cachix/devenv	Fast, Declarative, Reproducible, and Composable Developer Environments using Nix
+⏺️	RS	    5724	    58	2025-09-23	cachix/devenv	Fast, Declarative, Reproducible, and Composable Developer Environments using Nix
 🟣	RS	    5493	   233	2025-09-17	erebe/wstunnel	Tunnel all your traffic over Websocket or HTTP2 - Bypass firewalls/DPI - Static binary available
 🟣	RS	    4821	    40	2025-09-23	cloud-hypervisor/cloud-hypervisor	A Virtual Machine Monitor for modern Cloud workloads. Features include CPU, memory and device hotplug, support for running Windows and Linux guests, device offload with vhost-user and a minimal compact footprint. Written in Rust with a strong focus on security.
 🟣	RS	    4440	   324	2025-09-17	Eventual-Inc/Daft	Distributed query engine providing simple and reliable data processing for any modality and scale
