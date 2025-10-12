@@ -2,6 +2,30 @@
 
 ## Oct 2025
 
+- 12 Oct 2025. [OpenAI's leadership guide](https://cdn.openai.com/pdf/ae250928-4029-4f26-9e23-afac1fcee14c/staying-ahead-in-the-age-of-ai.pdf) says:
+  - Align
+    - Explain **WHY** AI thoughtfully.
+    - Set a goal, e.g. everyone uses ChatGPT 20 times/day (Moderna).
+    - Use it yourself. Show how.
+    - Have **business** leaders run AI sessions
+  - Activate
+    - Launch an AI skills proram
+    - Set up an AI champions network
+    - Encourage experimentation (dedicated time, workshops, hackathons, ...)
+    - Link to performance evaluations
+  - Amplify
+    - Create an AI knowledge base
+    - Share success stories (weekly)
+    - Create internal groups (Teams, Slack, ...)
+    - Celebrate AI wins
+  - Accelerate
+    - Unblock AI tools and data access
+    - Simplify project selection. Quick feedback, clear priorities
+    - Unblock projects with a cross-functional council
+    - Give resources to successful teams
+  - Govern
+    - Publish a responsible AI playbook (what's safe to try)
+    - Audit AI practices quarterly
 - 11 Oct 2025. '...as few as 250 malicious documents can produce a "backdoor" vulnerability in a large language model... data-poisoning attacks might be more practical than believed." [Anthropic](https://www.anthropic.com/research/small-samples-poison)
 - 11 Oct 2025. Tim Urban's 2015 article, [The AI Revolution: The Road to Superintelligence](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html), is surprisingly relevant. A key theme is that post artificial-super-intelligence, pretty much anything we know / predict is probably wrong.
 - 09 Oct 2025. LLMs are bad at asking questions, so you need to plan on their bahlf first. LLMs are bad at copy paste, so giving them a scaffolding to edit helps. [Two things LLM coding agents are still bad at](https://kix.dev/two-things-llm-coding-agents-are-still-bad-at/)
