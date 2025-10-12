@@ -48,7 +48,7 @@
 🟣	SH	    5533	    23	2025-09-23	bats-core/bats-core	Bash Automated Testing System
 🟣	SH	    5414	    29	2025-09-17	remote-android/redroid-doc	redroid (Remote-Android) is a multi-arch, GPU enabled, Android in Cloud solution. Track issues / docs here
 🟣	SH	    4677	    46	2025-09-17	007revad/Synology_HDD_db	Add your HDD, SSD and NVMe drives to your Synology's compatible drive database and a lot more
-🟣	SH	    4420	    88	2025-09-17	awesome-jellyfin/awesome-jellyfin	A Collection of Awesome Jellyfin Plugins, Themes, Guides and More!
+🔴	SH	    4420	    88	2025-09-17	awesome-jellyfin/awesome-jellyfin	A Collection of Awesome Jellyfin Plugins, Themes, Guides and More!	I don't use Jellyfin
 🟣	SH	    4230	   179	2025-09-17	nelvko/clash-for-linux-install	😼 优雅地使用基于 clash/mihomo 的代理环境
 🟣	SH	    4149	    88	2025-09-23	bitnami/containers	Bitnami container images
 🟣	SH	    4053	    40	2025-10-05	JamesTurland/JimsGarage	Homelab Goodies
@@ -111,7 +111,7 @@
 🟣	PY	     778	   174	2025-09-27	apecloud/ApeRAG	ApeRAG: Production-ready GraphRAG with multi-modal indexing, AI agents, MCP support, and scalable K8s deployment
 🟣	PY	     567	   250	2025-09-23	OpenMind/OM1	Modular AI runtime for robots
 🟣	PY	     239	    79	2025-09-27	google-agentic-commerce/a2a-x402	"The A2A x402 Extension brings cryptocurrency payments to the Agent-to-Agent (A2A) protocol, enabling agents to monetize their services through on-chain payments. This extension revives the spirit of HTTP 402 ""Payment Required"" for the decentralized agent ecosystem."
-🟣	JS	   49709	   237	2025-09-23	poteto/hiring-without-whiteboards	⭐️ Companies that don't have a broken hiring process
+🔴	JS	   49709	   237	2025-09-23	poteto/hiring-without-whiteboards	⭐️ Companies that don't have a broken hiring process	Skip educational
 🟣	JS	   42521	   293	2025-09-17	NaiboWang/EasySpider	A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/爬虫软件，可以无代码图形化的设计和执行爬虫任务。别名：ServiceWrapper面向Web应用的智能化服务封装系统。
 🟣	JS	   39175	   145	2025-10-05	remoteintech/remote-jobs	A list of semi to fully remote-friendly companies (jobs) in tech.
 🟣	JS	   36608	   138	2025-09-23	ToolJet/ToolJet	ToolJet is the open-source foundation of ToolJet AI - the AI-native platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀
