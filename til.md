@@ -2,6 +2,11 @@
 
 ## Oct 2025
 
+- 12 Oct 2025. Recent open source package hack methods seem to work more because of people/process than systems ([Filippo](https://words.filippo.io/compromise-survey/)):
+  1. Phishing the author
+  2. Pull requests running unsafe code in CI
+  3. Taking over expired domain / user ID
+  4. Stealing long-lived tokens
 - 12 Oct 2025. `uv run --python 3.14 --isolated --with-editable '.[test]' pytest` runs pytest on a local project with a specific Python version. [Simon Willison](https://til.simonwillison.net/python/uv-tests)
 - 07 Oct 2025. The VPN industry is a consolidating oligopoly that doesn't offer much security and biases towards affiliates. [Who Owns Express VPN, Nord, Surfshark?](https://windscribe.com/blog/the-vpn-relationship-map/)
 - 06 Oct 2025. [`npx -y emoj`](https://github.com/sindresorhus/emoj) lets you type text and pick a relevant emoji.
