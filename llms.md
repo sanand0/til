@@ -2,6 +2,22 @@
 
 ## Oct 2025
 
+- 12 Oct 2025. notes from the [State of AI Report 2025](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit):
+  - Reasoning models are more fragile. Irrelevant phrases make reasoning models spend _FAR_ more tokens and get wrong answers [#21](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g36532dfa542_1_5)
+  - AI systems are able to teach experts new concepts [#41](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g38724ed57c0_1_0#slide=id.g38724ed57c0_1_0)
+  - An environment providing feedback / rewards enables continuous learning [#52](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g379a362bd85_0_132#slide=id.g379a362bd85_0_132)
+    - E.g. Multi-robot chemical labs at U.Liverpool and NCSU [#60](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g37cf129d69d_2_44#slide=id.g37cf129d69d_2_44)
+  - RLHF has a fundamental flaw: humans reward sycophancy [#71](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g34531ae1448_0_79#slide=id.g34531ae1448_0_79)
+  - We can read what people are typing from brain signals outside the skull [#73](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g377f1927a71_0_0#slide=id.g377f1927a71_0_0)
+  - Model intelligence-to-price ratio doubles every ~6 months [#94](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g38918b607ca_0_426#slide=id.g38918b607ca_0_426)
+  - The AI companies' valuations are also roughly doubling every ~6 months [#181](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g38918b607ca_0_750#slide=id.g38918b607ca_0_750)
+  - OpenAI is offering Governments giga-watt campuses to run OpenAI models for citizens [#122](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g38918b607ca_0_199#slide=id.g38918b607ca_0_199)
+  - A 1GW clusters costs $50bn capex and $11bn per annum [#130](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g3668e08c71a_0_66#slide=id.g3668e08c71a_0_66)
+  - China has added ~10X the energy capacity as the US in 2024 [#146](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g34898aa15b3_0_0#slide=id.g34898aa15b3_0_0)
+  - NVIDIA challengers are still far away [#161](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g3747fb01779_1_100#slide=id.g3747fb01779_1_100)
+  - LLMs can "read between the lines" even if training data is censored [#268](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g38409c5a29e_1_1097#slide=id.g38409c5a29e_1_1097)
+  - LLMs can pass information via hidden signals [#270](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g379453733bb_0_59#slide=id.g379453733bb_0_59)
+  - Prediction: A major retailer reports >5% of online sales from agentic checkout. AI agent advertising spend hits $5B. [#304](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g38918b607ca_4_400#slide=id.g38918b607ca_4_400)
 - 12 Oct 2025. [OpenAI's leadership guide](https://cdn.openai.com/pdf/ae250928-4029-4f26-9e23-afac1fcee14c/staying-ahead-in-the-age-of-ai.pdf) says:
   - Align
     - Explain **WHY** AI thoughtfully.
