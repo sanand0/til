@@ -95,7 +95,7 @@
 🔴	PY	  209369	  1635	2025-09-27	TheAlgorithms/Python	All Algorithms implemented in Python	Skip educational
 🔴	PY	   79150	   735	2025-10-05	bregman-arie/devops-exercises	Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions	Skip educational
 🔴	PY	   73778	   391	2025-10-05	hacksider/Deep-Live-Cam	real time face swap and one-click video deepfake with only a single image	Prefer API-based providers
-🟣	PY	   58210	  2110	2025-10-05	commaai/openpilot	openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.
+🔴	PY	   58210	  2110	2025-10-05	commaai/openpilot	openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.	I don't code car assistance systems
 🟣	PY	   56152	  1130	2025-09-17	CorentinJ/Real-Time-Voice-Cloning	Clone a voice in 5 seconds to generate arbitrary speech in real-time
 🟣	PY	   53409	  1100	2025-09-17	unclecode/crawl4ai	🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN
 🟣	PY	   46892	   393	2025-10-05	ultralytics/ultralytics	Ultralytics YOLO 🚀
@@ -160,7 +160,7 @@
 🟣	JS	    7864	   584	2025-09-27	is-a-dev/register	Grab your own sweet-looking '.is-a.dev' subdomain.
 🟣	JS	    7463	   494	2025-09-17	github/awesome-copilot	Community-contributed instructions, prompts, and configurations to help you make the most of GitHub Copilot.
 🟣	JS	    5419	   112	2025-09-27	grab/cursor-talk-to-figma-mcp	CTTF: MCP integration between Cursor AI and Figma, allowing Cursor to communicate with Figma like agentic ai for reading designs and modifying them programmatically.
-🟣	JS	    4897	  2914	2025-09-17	trueadm/ripple	the elegant TypeScript UI framework
+🔵	JS	    4897	  2914	2025-09-17	trueadm/ripple	the elegant TypeScript UI framework	Still in development
 🟣	JS	    4131	   116	2025-09-23	mindcraft-bots/mindcraft	Minecraft AI with LLMs+Mineflayer
 🟣	JS	    3429	   132	2025-09-23	songquanpeng/message-pusher	搭建专属于你的消息推送服务，支持多种消息推送方式，支持 Markdown，基于 Golang 仅单可执行文件，开箱即用
 🟣	JS	    2394	    67	2025-09-17	jgraph/drawio	draw.io is a JavaScript, client-side editor for general diagramming.
