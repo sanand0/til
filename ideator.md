@@ -1,5 +1,6 @@
 # Ideator
 
+- 13 Oct 2025. [IDEA Teach AI like driving](IDEA Teach AI like driving)
 - 11 Oct 2025. [IDEA HR training module constrained swarm](https://chatgpt.com/c/68e773dc-c3ac-8322-941b-9364d2afd866).
   - Include a “liar agent” seeded with plausible-but-wrong policy. With limited probes, learners must detect and neutralize it; logs teach verification triggers.
 - 22 Sep 2025. [IDEA AI settings that maximize persuasion](https://chatgpt.com/c/68d138be-5014-8332-998f-fc5950d8ec57)
