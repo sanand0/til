@@ -4,7 +4,7 @@
 
 - 13 Oct 2025. `sudo apt install moreutils` installs a set of useful packages:
   1. **chronic**. Runs a command quietly (suppressing output) unless it fails — good for cron jobs where you only want noise on errors. `chronic backup.sh`
-  2. **combine**. Combines lines from two input streams/files using boolean operations (AND, OR, XOR). `combine AND fileA fileB`
+  2. ⭐ **combine**. Combines lines from two input streams/files using boolean operations (AND, OR, XOR). `combine AND fileA fileB`
   3. **errno**. Look up symbolic names, numeric codes, and descriptions for standard errno values. `errno -l; errno ENOENT; errno 2`
   4. **ifdata**. Query network interface properties (IP, byte counts, errors) in a script-friendly format. `ifdata -sip eth0; ifdata -bops eth0`
   5. **ifne**. Run a command only if stdin is not empty, passing the input through. `find . -name core | ifne mail -s "Core files found" admin`
@@ -13,8 +13,8 @@
   8. **mispipe**. Pipe two commands, but return the exit status of the first one (useful in pipelines). `cmd1 mispipe cmd2`
   9. **parallel**. Run multiple commands in parallel, reading them from stdin or arguments. `parallel < jobs.txt`
   10. **pee**. Like `tee`, but sends stdin to multiple commands in parallel. `echo "foo" | pee cmd1 cmd2`
-  11. **sponge**. Soak up all input before writing to output — enables in-place edits safely. `sort file | sponge file`
-  12. **ts**. Prefix each input line with a timestamp. `tail -f logfile | ts`
+  11. ⭐ **sponge**. Soak up all input before writing to output — enables in-place edits safely. `sort file | sponge file`
+  12. ⭐ **ts**. Prefix each input line with a timestamp. `tail -f logfile | ts`
   13. **vidir**. Edit a directory listing in your editor to rename, move, or delete files in bulk. `vidir ~/myfolder`
   14. **vipe**. Insert a text editor into a pipeline to manually edit streamed input before output. `cat file | vipe | wc -l`
   15. **zrun**. Transparently decompress compressed files before passing them to a command. `zrun cat file.gz`
