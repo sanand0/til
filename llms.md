@@ -2,6 +2,11 @@
 
 ## Oct 2025
 
+- 13 Oct 2025. Notes from Taylor's [How I'm using coding agents: October 2025](https://heytaylor.dev/posts/202510052056_how-i-m-using-coding-agents-october-2025/)
+  - Left monitor: 2-4 desktops (e.g. work, side-project). Right monitor: things I always want available
+  - Plan next task while first executes.
+  - Use plan mode to write to a plan file.
+  - Don't start big tasks if you have meetings scheduled soon.
 - 12 Oct 2025. notes from the [State of AI Report 2025](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit):
   - Reasoning models are more fragile. Irrelevant phrases make reasoning models spend _FAR_ more tokens and get wrong answers [#21](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g36532dfa542_1_5)
   - AI systems are able to teach experts new concepts [#41](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g38724ed57c0_1_0#slide=id.g38724ed57c0_1_0)
