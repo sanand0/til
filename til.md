@@ -2,6 +2,19 @@
 
 ## Oct 2025
 
+- 13 Oct 2025. Despite 20 years of SVG experience, I learnt new things from [A Friendly Introduction to SVG](https://www.joshwcomeau.com/svg/friendly-introduction-to-svg/) and [A Friendly Introduction to Paths](https://www.joshwcomeau.com/svg/interactive-guide-to-paths/)
+  - Setting a `<rect>` width/height or a `<circle>` radius to zero _removes_ the element instead of drawing a point.
+  - There's no option to draw the stroke on the inside or outside of a shape/path. Only the center.
+  - You can override a path's `pathLength` attribute to create a new internal scale for its length. It's unclear where I can use this.
+  - `<path>` arcs have this syntax: `A [rx],[ry] [rotation] [large-arc-flag] [sweep-flag] [end-x],[end-y]`. SVG first fits an ellipse to these parameters and then draws the arc.
+    - If `rx` and `ry` of an arc is too small to connect the points, the SVG spec scales up `rx` and `ry`.
+    - `[large-arc-flag]=1` literally uses the larger arc of the fitting ellipse. This is less common.
+    - `[sweep-flag]=1` its the ellipse to make the connecting arc go clockwise. `0` is anti-clockwise.
+    - `[rotation]` is rarely used because we usually draw arcs and _then_ rotate them.
+  - `stroke-linejoin` automatically flips from `miter` (sharp) to `bevel` (cut) if the sharp edge protrudes too long (e.g. small angles). Increasing `stroke-miterlimit` increases the cutoff (default: 4)
+- 13 Oct 2025. ⭐ Always include a thoughtful gallery of examples with tools / libraries. This does more than showing what a tool can do.
+  - It's use-case / domain transfer: showing **what** it's useful for in real life - opening ideas, suggesting workflows.
+  - It's style transfer: showing **how** to use it.
 - 12 Oct 2025. Recent open source package hack methods seem to work more because of people/process than systems ([Filippo](https://words.filippo.io/compromise-survey/)):
   1. Phishing the author
   2. Pull requests running unsafe code in CI
