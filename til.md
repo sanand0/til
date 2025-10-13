@@ -4,7 +4,7 @@
 
 - 13 Oct 2025. `sudo apt install moreutils` installs a set of useful packages:
   1. **chronic**. Runs a command quietly (suppressing output) unless it fails — good for cron jobs where you only want noise on errors. `chronic backup.sh`
-  2. ⭐ **combine**. Combines lines from two input streams/files using boolean operations (AND, OR, XOR). `combine AND fileA fileB`
+  2. **combine**. Combines lines from two input streams/files using boolean operations (AND, OR, XOR). `combine AND fileA fileB`
   3. **errno**. Look up symbolic names, numeric codes, and descriptions for standard errno values. `errno -l; errno ENOENT; errno 2`
   4. **ifdata**. Query network interface properties (IP, byte counts, errors) in a script-friendly format. `ifdata -sip eth0; ifdata -bops eth0`
   5. **ifne**. Run a command only if stdin is not empty, passing the input through. `find . -name core | ifne mail -s "Core files found" admin`
