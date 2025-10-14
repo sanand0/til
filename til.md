@@ -2,7 +2,7 @@
 
 ## Oct 2025
 
-- 14 Oct 2025. The [`<output>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/output) element has a `for=` attribute indicating which `<input>` elements it is linked to.
+- 14 Oct 2025. The [`<output>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/output) element has a `for=` attribute indicating which `<input>` elements it is linked to and a `form=` attribute indicating which form it belongs to. This [works well with screen readers](https://denodell.com/blog/html-best-kept-secret-output-tag). A good reason to use it more. [Examples](https://rud.is/drop/output.html).
 - 13 Oct 2025. `sudo apt install moreutils` installs a set of useful packages:
   1. **chronic**. Runs a command quietly (suppressing output) unless it fails — good for cron jobs where you only want noise on errors. `chronic backup.sh`
   2. **combine**. Combines lines from two input streams/files using boolean operations (AND, OR, XOR). `combine AND fileA fileB`
