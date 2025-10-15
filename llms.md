@@ -2,6 +2,7 @@
 
 ## Oct 2025
 
+- 24 Oct 2025. Meta built a [Code World Model](https://ai.meta.com/research/publications/cwm-an-open-weights-llm-for-research-on-code-generation-with-world-models/). Basically an LLM that acts like a Python interpreter!
 - 13 Oct 2025. ⭐ Here's what expert AI coders increasingly focus on. [Thomas Dohmke](https://ashtom.github.io/developers-reinvented)
   - Delegation: context engineering agents for success; parallelizing.
   - Verification: efficiently reviewing and testing code/output; setting stop-points.
