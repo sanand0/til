@@ -219,7 +219,7 @@
 🔴	GO	   20077	    99	2025-09-17	JanDeDobbeleer/oh-my-posh	The most customisable and low-latency cross platform/shell prompt renderer	I don't use PowerShell
 🔴	GO	   19778	    74	2025-10-19	qax-os/excelize	Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets	I don't code Go
 ⏺️	GO	   19612	   135	2025-10-05	getsops/sops	Simple and flexible tool for managing secrets
-🟣	GO	   19248	    43	2025-10-19	gravitational/teleport	The easiest, and most secure way to access and protect all of your infrastructure.
+🔴	GO	   19248	    43	2025-10-19	gravitational/teleport	The easiest, and most secure way to access and protect all of your infrastructure.	I don't manage infra
 🟣	GO	   19101	   143	2025-10-19	netbirdio/netbird	Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.
 🟣	GO	   17983	   270	2025-09-27	chaitin/SafeLine	SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.
 🟣	GO	   17831	    80	2025-09-17	knadh/listmonk	High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.
@@ -231,8 +231,8 @@
 🟣	GO	   12226	   825	2025-09-17	ccfos/nightingale	Nightingale for monitoring and alerting, just as Grafana for visualization.
 🟣	GO	   11840	   376	2025-10-19	wavetermdev/waveterm	An open-source, cross-platform terminal for seamless workflows
 🟣	GO	   11819	    78	2025-09-27	zitadel/zitadel	ZITADEL - Identity infrastructure, simplified for you.
-🟣	GO	   11082	    31	2025-10-19	quic-go/quic-go	A production-ready QUIC implementation in pure Go
-🟣	GO	   10882	  1198	2025-09-17	aaPanel/BillionMail	BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr
+🔴	GO	   11082	    31	2025-10-19	quic-go/quic-go	A production-ready QUIC implementation in pure Go	I don't code Go
+🔴	GO	   10882	  1198	2025-09-17	aaPanel/BillionMail	BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr	I don't run mail campaigns
 🟣	GO	   10851	   458	2025-09-17	keploy/keploy	API, Integration, E2E Testing Agent for Developers that actually work. Generate tests, mocks/stubs for your APIs!
 🟣	GO	   10190	   170	2025-09-17	putyy/res-downloader	视频号、小程序、抖音、快手、小红书、直播流、m3u8、酷狗、QQ音乐等常见网络资源下载!
 🟣	GO	    9784	    60	2025-09-23	containers/skopeo	Work with remote images registries - retrieving information, images, signing content
