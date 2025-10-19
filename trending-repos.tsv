@@ -84,17 +84,9 @@
 🟣	SH	     733	   114	2025-09-17	Olsro/ipodclickwheelgamespreservationproject	Preservation of iPod Clickwheel Games for iPod Nanos 3g to 5g and iPod Classics 5g to 7g
 🟣	SH	     308	     0	2025-10-19	openshift/release	Release tooling for OpenShift
 🟣	SH	     264	    90	2025-10-19	InferenceMAX/InferenceMAX
-🔵	RS	  100983	  1288	2025-10-19	rustdesk/rustdesk	An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.	Prefer Google Meet, Teams, etc.
-🔴	RS	   97568	   347	2025-10-19	tauri-apps/tauri	Build smaller, faster, and more secure desktop and mobile applications with a web frontend.	I don't build desktop apps
-🟢	RS	   70286	   635	2025-10-19	astral-sh/uv	An extremely fast Python package and project manager, written in Rust.
-🟣	RS	   49926	   221	2025-10-19	dani-garcia/vaultwarden	Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
-🔴	RS	   40495	   222	2025-10-19	helix-editor/helix	A post-modern modal text editor.	I prefer VS Code / micro
-🔵	RS	   36862	   158	2025-10-19	nushell/nushell	A new type of shell
-🟣	RS	   31205	   184	2025-10-19	DioxusLabs/dioxus	Fullstack app framework for web, desktop, and mobile.
-🔴	RS	   20659	    73	2025-10-19	RustPython/RustPython	A Python Interpreter written in Rust	I don't code Rust
+🔴	RS	   49926	   221	2025-10-19	dani-garcia/vaultwarden	Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs	Prefer browser password manager
+🔴	RS	   31205	   184	2025-10-19	DioxusLabs/dioxus	Fullstack app framework for web, desktop, and mobile.	I don't code Rust
 🟣	RS	   17512	    73	2025-09-27	clockworklabs/SpacetimeDB	Multiplayer at the speed of light
-🔴	RS	   12164	    64	2025-10-19	rolldown/rolldown	Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API.	Prefer esbuild
-🔴	RS	    9875	    95	2025-09-23	glzr-io/glazewm	GlazeWM is a tiling window manager for Windows inspired by i3wm.	I don't use Windows
 🟣	RS	    9682	    78	2025-09-27	stalwartlabs/stalwart	All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).
 🟣	RS	    9066	   168	2025-10-19	rustfs/rustfs	🚀 High-performance distributed object storage for MinIO alternative.
 🟣	RS	    6353	    40	2025-10-19	mullvad/mullvadvpn-app	The Mullvad VPN client app for desktop and mobile
@@ -261,6 +253,7 @@
 🟢	SH	   40300	    90	2025-09-17	dylanaraps/pure-bash-bible	📖 A collection of pure bash alternatives to external processes.	Learnt techniques
 🟢	SH	    7486	    42	2025-09-17	basecamp/omakub	Opinionated Ubuntu Setup	I use it for ideas, not as-is
 🟢	RS	  104596	   165	2025-10-05	denoland/deno	A modern runtime for JavaScript and TypeScript.
+🟢	RS	   70286	   635	2025-10-19	astral-sh/uv	An extremely fast Python package and project manager, written in Rust.
 🟢	RS	   54639	   176	2025-09-27	sharkdp/bat	A cat(1) clone with wings.
 🟢	RS	   53390	   131	2025-09-27	meilisearch/meilisearch	A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.
 🟢	RS	   51198	   245	2025-09-17	starship/starship	☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
@@ -301,6 +294,8 @@
 🔵	TS	   69811	   133	2025-10-05	strapi/strapi	🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.
 🔵	TS	   32819	   385	2025-10-05	directus/directus	The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.
 🔵	SH	    3184	   105	2025-10-05	x-cmd/x-cmd	x-cmd: Bootstrap 1000+ command line tools in seconds.	Interesting. Good tool list. Yet to find a use-case.
+🔵	RS	  100983	  1288	2025-10-19	rustdesk/rustdesk	An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.	Prefer Google Meet, Teams, etc.
+🔵	RS	   36862	   158	2025-10-19	nushell/nushell	A new type of shell
 🔵	RS	    5493	   233	2025-09-17	erebe/wstunnel	Tunnel all your traffic over Websocket or HTTP2 - Bypass firewalls/DPI - Static binary available
 🔵	JS	    4897	  2914	2025-09-17	trueadm/ripple	the elegant TypeScript UI framework	Still in development
 🔵	GO	   55820	   174	2025-10-19	minio/minio	MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.	In case I need to self-host S3
@@ -336,12 +331,14 @@
 🔴	SH	    1703	    28	2025-09-17	WhatsApp/proxy	This repository contains the WhatsApp proxy implementation for users to host their own proxy infrastructure to connect to WhatsApp for chat (VoIP is not currently supported)	I don't host my own proxy
 🔴	SH	    1100	    36	2025-10-05	n8n-io/n8n-hosting	Example of self-hosting n8n in various environments like docker, kubernetes, etc.	Skip educational
 🔴	RS	  106655	   202	2025-09-23	rust-lang/rust	Empowering everyone to build reliable and efficient software.	I don't code Rust
+🔴	RS	   97568	   347	2025-10-19	tauri-apps/tauri	Build smaller, faster, and more secure desktop and mobile applications with a web frontend.	I don't build desktop apps
 🔴	RS	   66187	   569	2025-09-23	zed-industries/zed	Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.	I prefer VS Code
 🔴	RS	   62138	    25	2025-10-05	FuelLabs/sway	🌴 Empowering everyone to build reliable and efficient smart contracts.	I don't do blockchain
 🔴	RS	   60531	   125	2025-10-05	alacritty/alacritty	A cross-platform, OpenGL terminal emulator.	I use VS Code's terminal
 🔴	RS	   56192	   195	2025-10-05	topjohnwu/Magisk	The Magic Mask for Android	I don't code Android apps
 🔴	RS	   45705	   193	2025-09-23	typst/typst	A new markup-based typesetting system that is powerful and easy to learn.	LaTeX alternative. I prefer Markdown. See https://lwn.net/Articles/1037577/
 🔴	RS	   42359	   380	2025-09-27	bevyengine/bevy	A refreshingly simple data-driven game engine built in Rust	I don't code Rust
+🔴	RS	   40495	   222	2025-10-19	helix-editor/helix	A post-modern modal text editor.	I prefer VS Code / micro
 🔴	RS	   34023	  1945	2025-09-17	juspay/hyperswitch	An open source payments switch written in Rust to make payments fast, reliable and affordable	I don't do finance
 🔴	RS	   30554	  2054	2025-09-23	linera-io/linera-protocol	Main repository for the Linera protocol	I don't do blockchain
 🔴	RS	   30061	    67	2025-09-17	surrealdb/surrealdb	A scalable, distributed, collaborative, document-graph database, for the realtime web	Not mature enough yet
@@ -353,6 +350,7 @@
 🔴	RS	   22114	    96	2025-09-23	tree-sitter/tree-sitter	An incremental parsing system for programming tools	I don't code Rust
 🔴	RS	   21673	   488	2025-09-27	GraphiteEditor/Graphite	An open source graphics editor for 2025: comprehensive 2D content creation tool suite for graphic design, digital art, and interactive real-time motion graphics — featuring node-based procedural editing	Web app felt a bit slow. Not sure if this is the best desktop vector art editor for my needs.
 🔴	RS	   21504	   145	2025-09-17	uutils/coreutils	Cross-platform Rust rewrite of the GNU coreutils	I don't code coreutils
+🔴	RS	   20659	    73	2025-10-19	RustPython/RustPython	A Python Interpreter written in Rust	I don't code Rust
 🔴	RS	   19904	   256	2025-09-27	block/goose	an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM	I prefer Codex CLI / Claude Code
 🔴	RS	   19209	  1240	2025-09-17	zama-ai/fhevm	FHEVM, a full-stack framework for integrating Fully Homomorphic Encryption (FHE) with blockchain applications	I don't do blockchain
 🔴	RS	   16883	    40	2025-09-17	bytecodealliance/wasmtime	A lightweight WebAssembly runtime that is fast, secure, and standards-compliant	I don't code Rust
@@ -362,10 +360,12 @@
 🔴	RS	   13641	   298	2025-09-23	tursodatabase/turso	Turso Database is a project to build the next evolution of SQLite.	Prefer libSQL
 🔴	RS	   12998	   786	2025-09-23	eythaann/Seelen-UI	The Fully Customizable Desktop Environment for Windows 10/11.	I don't use Windows
 🔴	RS	   12503	   114	2025-10-19	microsoft/edit	We all edit.	Prefer VS Code
+🔴	RS	   12164	    64	2025-10-19	rolldown/rolldown	Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API.	Prefer esbuild
 🔴	RS	   12010	    88	2025-09-23	libnyanpasu/clash-nyanpasu	Clash Nyanpasu～(∠・ω< )⌒☆​	I don't use Clash
 🔴	RS	   11885	   158	2025-09-27	rathole-org/rathole	A lightweight and high-performance reverse proxy for NAT traversal, written in Rust. An alternative to frp and ngrok.	Prefer ngrok / Cloudflare Tunnels for free URLs
 🔴	RS	   11319	   261	2025-09-17	YaLTeR/niri	A scrollable-tiling Wayland compositor	I don't use Wayland
 🔴	RS	   10617	    36	2025-10-05	cloudflare/quiche	🥧 Savoury implementation of the QUIC transport protocol and HTTP/3	I don't code HTTP servers
+🔴	RS	    9875	    95	2025-09-23	glzr-io/glazewm	GlazeWM is a tiling window manager for Windows inspired by i3wm.	I don't use Windows
 🔴	RS	    9591	   141	2025-09-27	foundry-rs/foundry	Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.	I don't do finance
 🔴	RS	    7778	    39	2025-09-23	apache/datafusion	Apache DataFusion SQL Query Engine	I don't code Rust
 🔴	RS	    7761	    61	2025-10-19	lancedb/lancedb	Developer-friendly, embedded retrieval engine for multimodal AI. Search More; Manage Less.	Prefer SQLite / PostgreSQL
