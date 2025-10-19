@@ -16,11 +16,9 @@
 🟣	TS	   14468	   390	2025-09-17	humanlayer/12-factor-agents	What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?
 🟣	TS	   13904	   210	2025-09-23	elysiajs/elysia	Ergonomic Framework for Humans
 🟣	TS	   12286	   665	2025-10-19	supermemoryai/supermemory	Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.
-🟣	TS	   12222	  2572	2025-10-19	TibixDev/winboat	Run Windows apps on 🐧 Linux with ✨ seamless integration
 🟣	TS	   11837	   189	2025-09-27	CapSoftware/Cap	Open source Loom alternative. Beautiful, shareable screen recordings.
 🟣	TS	   11365	   245	2025-09-27	TanStack/router	🤖 Fully typesafe Router for React (and friends) w/ built-in caching, 1st class search-param APIs, client-side cache integration and isomorphic rendering.
 🟣	TS	   10745	    44	2025-10-05	actions/starter-workflows	Accelerating new GitHub Actions workflows
-🟢	TS	   10150	    85	2025-09-27	alexta69/metube	Self-hosted YouTube downloader (web UI for youtube-dl / yt-dlp)
 🟣	TS	   10104	   185	2025-10-05	modelcontextprotocol/typescript-sdk	The official TypeScript SDK for Model Context Protocol servers and clients
 🟣	TS	    9749	   667	2025-09-23	nanobrowser/nanobrowser	Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator.
 🟣	TS	    9108	  1292	2025-10-19	nitrojs/nitro	Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer.
@@ -240,6 +238,7 @@
 🟢	TS	  428710	  1018	2025-09-23	freeCodeCamp/freeCodeCamp	freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.
 🟢	TS	   88693	   564	2025-09-17	supabase/supabase	The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.
 🟢	TS	   35488	  1135	2025-10-05	anthropics/claude-code	Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
+🟢	TS	   10150	    85	2025-09-27	alexta69/metube	Self-hosted YouTube downloader (web UI for youtube-dl / yt-dlp)
 🟢	SH	   40300	    90	2025-09-17	dylanaraps/pure-bash-bible	📖 A collection of pure bash alternatives to external processes.	Learnt techniques
 🟢	SH	    7486	    42	2025-09-17	basecamp/omakub	Opinionated Ubuntu Setup	I use it for ideas, not as-is
 🟢	RS	  104596	   165	2025-10-05	denoland/deno	A modern runtime for JavaScript and TypeScript.
@@ -283,10 +282,11 @@
 🔵	TS	   76987	   952	2025-09-17	immich-app/immich	High performance self-hosted photo and video management solution.
 🔵	TS	   69811	   133	2025-10-05	strapi/strapi	🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.
 🔵	TS	   32819	   385	2025-10-05	directus/directus	The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.
-🔵	SH	   47637	   832	2025-10-19	dockur/windows	Windows inside a Docker container.	I don't need Windows in Linux
+🔵	TS	   12222	  2572	2025-10-19	TibixDev/winboat	Run Windows apps on 🐧 Linux with ✨ seamless integration
+🔵	SH	   47637	   832	2025-10-19	dockur/windows	Windows inside a Docker container.
 🔵	SH	    3184	   105	2025-10-05	x-cmd/x-cmd	x-cmd: Bootstrap 1000+ command line tools in seconds.	Interesting. Good tool list. Yet to find a use-case.
 🔵	RS	  100983	  1288	2025-10-19	rustdesk/rustdesk	An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.	Prefer Google Meet, Teams, etc.
-🔵	RS	   36862	   158	2025-10-19	nushell/nushell	A new type of shell
+🔵	RS	   36862	   158	2025-10-19	nushell/nushell	A new type of shell	Wait till stable + popular
 🔵	RS	    9066	   168	2025-10-19	rustfs/rustfs	🚀 High-performance distributed object storage for MinIO alternative.	Maybe to self-host S3
 🔵	RS	    5493	   233	2025-09-17	erebe/wstunnel	Tunnel all your traffic over Websocket or HTTP2 - Bypass firewalls/DPI - Static binary available
 🔵	RS	    4041	   208	2025-10-19	facebook/pyrefly	A fast type checker and language server for Python	Wait till stable + popular
