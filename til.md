@@ -2,6 +2,46 @@
 
 ## Oct 2025
 
+- 19 Oct 2025. ⭐ Memory can be code. Agent memory is anything it choose to persist. Agents can write code on the fly to automate tasks, save them, and serve the code on the next request, potentially modifying the code as required. This is like the conscious mind saving a habit for the subconscious to execute fast.
+- 19 Oct 2025. Finally: Microsoft Office has an agent mode that lets you talk to it and do stuff. [The Verge](https://www.theverge.com/news/787076/microsoft-office-agent-mode-office-agent-anthropic-models)
+- 18 Oct 2025. "... most engineers don’t have public commits. Senior engineers at large tech companies don’t work on open-source projects for the most part." [Why AI Can't Do Hiring](https://interviewing.io/blog/why-ai-cant-do-hiring)
+- 18 Oct 2025. Cloudflare's [Sandbox](https://sandbox.cloudflare.com/) feature in their Workers looks impressive. It supports streaming, web access to the container, and long-running processes. So we can spawn off a task and have it run a server (at least for a while) or a scraper.
+- 14 Oct 2025. The [`<output>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/output) element has a `for=` attribute indicating which `<input>` elements it is linked to and a `form=` attribute indicating which form it belongs to. This [works well with screen readers](https://denodell.com/blog/html-best-kept-secret-output-tag). A good reason to use it more. [Examples](https://rud.is/drop/output.html).
+- 13 Oct 2025. `sudo apt install moreutils` installs a set of useful packages:
+  1. **chronic**. Runs a command quietly (suppressing output) unless it fails — good for cron jobs where you only want noise on errors. `chronic backup.sh`
+  2. **combine**. Combines lines from two input streams/files using boolean operations (AND, OR, XOR). `combine AND fileA fileB`
+  3. **errno**. Look up symbolic names, numeric codes, and descriptions for standard errno values. `errno -l; errno ENOENT; errno 2`
+  4. **ifdata**. Query network interface properties (IP, byte counts, errors) in a script-friendly format. `ifdata -sip eth0; ifdata -bops eth0`
+  5. **ifne**. Run a command only if stdin is not empty, passing the input through. `find . -name core | ifne mail -s "Core files found" admin`
+  6. **isutf8**. Check whether a file or stdin is valid UTF-8. `isutf8 somefile.txt`
+  7. **lckdo**. Run a command while holding an exclusive lock to prevent concurrent runs. `lckdo /var/run/mylockfile.cmd myscript.sh`
+  8. **mispipe**. Pipe two commands, but return the exit status of the first one (useful in pipelines). `cmd1 mispipe cmd2`
+  9. **parallel**. Run multiple commands in parallel, reading them from stdin or arguments. `parallel < jobs.txt`
+  10. **pee**. Like `tee`, but sends stdin to multiple commands in parallel. `echo "foo" | pee cmd1 cmd2`
+  11. ⭐ **sponge**. Soak up all input before writing to output — enables in-place edits safely. `sort file | sponge file`
+  12. ⭐ **ts**. Prefix each input line with a timestamp. `tail -f logfile | ts`
+  13. **vidir**. Edit a directory listing in your editor to rename, move, or delete files in bulk. `vidir ~/myfolder`
+  14. **vipe**. Insert a text editor into a pipeline to manually edit streamed input before output. `cat file | vipe | wc -l`
+  15. **zrun**. Transparently decompress compressed files before passing them to a command. `zrun cat file.gz`
+- 13 Oct 2025. Despite 20 years of SVG experience, I learnt new things from [A Friendly Introduction to SVG](https://www.joshwcomeau.com/svg/friendly-introduction-to-svg/) and [A Friendly Introduction to Paths](https://www.joshwcomeau.com/svg/interactive-guide-to-paths/)
+  - Setting a `<rect>` width/height or a `<circle>` radius to zero _removes_ the element instead of drawing a point.
+  - There's no option to draw the stroke on the inside or outside of a shape/path. Only the center.
+  - You can override a path's `pathLength` attribute to create a new internal scale for its length. It's unclear where I can use this.
+  - `<path>` arcs have this syntax: `A [rx],[ry] [rotation] [large-arc-flag] [sweep-flag] [end-x],[end-y]`. SVG first fits an ellipse to these parameters and then draws the arc.
+    - If `rx` and `ry` of an arc is too small to connect the points, the SVG spec scales up `rx` and `ry`.
+    - `[large-arc-flag]=1` literally uses the larger arc of the fitting ellipse. This is less common.
+    - `[sweep-flag]=1` its the ellipse to make the connecting arc go clockwise. `0` is anti-clockwise.
+    - `[rotation]` is rarely used because we usually draw arcs and _then_ rotate them.
+  - `stroke-linejoin` automatically flips from `miter` (sharp) to `bevel` (cut) if the sharp edge protrudes too long (e.g. small angles). Increasing `stroke-miterlimit` increases the cutoff (default: 4)
+- 13 Oct 2025. ⭐ Always include a thoughtful gallery of examples with tools / libraries. This does more than showing what a tool can do.
+  - It's use-case / domain transfer: showing **what** it's useful for in real life - opening ideas, suggesting workflows.
+  - It's style transfer: showing **how** to use it.
+- 12 Oct 2025. Recent open source package hack methods seem to work more because of people/process than systems ([Filippo](https://words.filippo.io/compromise-survey/)):
+  1. Phishing the author
+  2. Pull requests running unsafe code in CI
+  3. Taking over expired domain / user ID
+  4. Stealing long-lived tokens
+- 12 Oct 2025. `uv run --python 3.14 --isolated --with-editable '.[test]' pytest` runs pytest on a local project with a specific Python version. [Simon Willison](https://til.simonwillison.net/python/uv-tests)
 - 07 Oct 2025. The VPN industry is a consolidating oligopoly that doesn't offer much security and biases towards affiliates. [Who Owns Express VPN, Nord, Surfshark?](https://windscribe.com/blog/the-vpn-relationship-map/)
 - 06 Oct 2025. [`npx -y emoj`](https://github.com/sindresorhus/emoj) lets you type text and pick a relevant emoji.
 - 06 Oct 2025. Many people who shifted away from conflict aversion did so by systematizing it. [ChatGPT](https://chatgpt.com/share/68e3d40e-97e8-800c-b6c0-e34f4059b147)

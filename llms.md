@@ -2,6 +2,61 @@
 
 ## Oct 2025
 
+- 18 Oct 2025. Gemini API has a Google Maps tool that it can refer to - like Google Search. [Maps Grounding](https://ai.google.dev/gemini-api/docs/maps-grounding)
+- 16 Oct 2025. Earlier we needed humans to label data for RLHF. Now we don't since AI can simulate it. This is a pattern. Once AI learns from a human, that human skill can be automated. [How GPT-5 Thinks — OpenAI VP of Research Jerry Tworek](https://youtu.be/RqWIvvv3SnQ)
+- 14 Oct 2025. Meta built a [Code World Model](https://ai.meta.com/research/publications/cwm-an-open-weights-llm-for-research-on-code-generation-with-world-models/). Basically an LLM that acts like a Python interpreter!
+- 13 Oct 2025. ⭐ Here's what expert AI coders increasingly focus on. [Thomas Dohmke](https://ashtom.github.io/developers-reinvented)
+  - Delegation: context engineering agents for success; parallelizing.
+  - Verification: efficiently reviewing and testing code/output; setting stop-points.
+  - Expanding scope: instead of time saved as the metric.
+  - Education: teaching AI-based coding, debugging, reviewing/testing.
+  - Product management: combining requirements + UI design + architecture + engineering + deployment.
+  - Cross-discipline: blending code with design, governance, finance, marketing, ... ("computational creators").
+- 13 Oct 2025. Notes from Taylor's [How I'm using coding agents: October 2025](https://heytaylor.dev/posts/202510052056_how-i-m-using-coding-agents-october-2025/)
+  - Left monitor: 2-4 desktops (e.g. work, side-project). Right monitor: things I always want available
+  - Plan next task while first executes.
+  - Use plan mode to write to a plan file.
+  - Don't start big tasks if you have meetings scheduled soon.
+- 12 Oct 2025. Notes from the [State of AI Report 2025](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit):
+  - Reasoning models are more fragile. Irrelevant phrases make reasoning models spend _FAR_ more tokens and get wrong answers [#21](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g36532dfa542_1_5)
+  - AI systems are able to teach experts new concepts [#41](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g38724ed57c0_1_0#slide=id.g38724ed57c0_1_0)
+  - An environment providing feedback / rewards enables continuous learning [#52](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g379a362bd85_0_132#slide=id.g379a362bd85_0_132)
+    - E.g. Multi-robot chemical labs at U.Liverpool and NCSU [#60](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g37cf129d69d_2_44#slide=id.g37cf129d69d_2_44)
+  - RLHF has a fundamental flaw: humans reward sycophancy [#71](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g34531ae1448_0_79#slide=id.g34531ae1448_0_79)
+  - We can read what people are typing from brain signals outside the skull [#73](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g377f1927a71_0_0#slide=id.g377f1927a71_0_0)
+  - Model intelligence-to-price ratio doubles every ~6 months [#94](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g38918b607ca_0_426#slide=id.g38918b607ca_0_426)
+  - The AI companies' valuations are also roughly doubling every ~6 months [#181](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g38918b607ca_0_750#slide=id.g38918b607ca_0_750)
+  - OpenAI is offering Governments giga-watt campuses to run OpenAI models for citizens [#122](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g38918b607ca_0_199#slide=id.g38918b607ca_0_199)
+  - A 1GW clusters costs $50bn capex and $11bn per annum [#130](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g3668e08c71a_0_66#slide=id.g3668e08c71a_0_66)
+  - China has added ~10X the energy capacity as the US in 2024 [#146](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g34898aa15b3_0_0#slide=id.g34898aa15b3_0_0)
+  - NVIDIA challengers are still far away [#161](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g3747fb01779_1_100#slide=id.g3747fb01779_1_100)
+  - LLMs can "read between the lines" even if training data is censored [#268](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g38409c5a29e_1_1097#slide=id.g38409c5a29e_1_1097)
+  - LLMs can pass information via hidden signals [#270](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g379453733bb_0_59#slide=id.g379453733bb_0_59)
+  - Prediction: A major retailer reports >5% of online sales from agentic checkout. AI agent advertising spend hits $5B. [#304](https://docs.google.com/presentation/d/1xiLl0VdrlNMAei8pmaX4ojIOfej6lhvZbOIK7Z6C-Go/edit?slide=id.g38918b607ca_4_400#slide=id.g38918b607ca_4_400)
+- 12 Oct 2025. [OpenAI's leadership guide](https://cdn.openai.com/pdf/ae250928-4029-4f26-9e23-afac1fcee14c/staying-ahead-in-the-age-of-ai.pdf) says:
+  - Align
+    - Explain **WHY** AI thoughtfully.
+    - Set a goal, e.g. everyone uses ChatGPT 20 times/day (Moderna).
+    - Use it yourself. Show how.
+    - Have **business** leaders run AI sessions
+  - Activate
+    - Launch an AI skills proram
+    - Set up an AI champions network
+    - Encourage experimentation (dedicated time, workshops, hackathons, ...)
+    - Link to performance evaluations
+  - Amplify
+    - Create an AI knowledge base
+    - Share success stories (weekly)
+    - Create internal groups (Teams, Slack, ...)
+    - Celebrate AI wins
+  - Accelerate
+    - Unblock AI tools and data access
+    - Simplify project selection. Quick feedback, clear priorities
+    - Unblock projects with a cross-functional council
+    - Give resources to successful teams
+  - Govern
+    - Publish a responsible AI playbook (what's safe to try)
+    - Audit AI practices quarterly
 - 11 Oct 2025. '...as few as 250 malicious documents can produce a "backdoor" vulnerability in a large language model... data-poisoning attacks might be more practical than believed." [Anthropic](https://www.anthropic.com/research/small-samples-poison)
 - 11 Oct 2025. Tim Urban's 2015 article, [The AI Revolution: The Road to Superintelligence](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html), is surprisingly relevant. A key theme is that post artificial-super-intelligence, pretty much anything we know / predict is probably wrong.
 - 09 Oct 2025. LLMs are bad at asking questions, so you need to plan on their bahlf first. LLMs are bad at copy paste, so giving them a scaffolding to edit helps. [Two things LLM coding agents are still bad at](https://kix.dev/two-things-llm-coding-agents-are-still-bad-at/)
