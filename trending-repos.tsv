@@ -123,7 +123,7 @@
 🟣	PY	    7585	   349	2025-10-19	stamparm/maltrail	Malicious traffic detection system
 🟣	PY	    7572	  2755	2025-09-17	Physical-Intelligence/openpi
 🟣	PY	    7268	   305	2025-09-17	OpenPipe/ART	Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen2.5, Qwen3, Llama, and more!
-🟣	PY	    6995	   844	2025-09-17	HKUDS/AutoAgent	AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework
+🔴	PY	    6995	   844	2025-09-17	HKUDS/AutoAgent	AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework	Prefer OpenAI / Pydantic
 🟣	PY	    6879	   955	2025-09-27	bytedance/Dolphin	The official repo for “Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting”, ACL, 2025.
 🟣	PY	    6512	  1141	2025-09-27	HKUDS/RAG-Anything	"RAG-Anything: All-in-One RAG Framework"
 🟣	PY	    5832	   679	2025-09-17	NVIDIA/garak	the LLM vulnerability scanner
