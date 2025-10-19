@@ -20,7 +20,7 @@
 🟣	TS	   11837	   189	2025-09-27	CapSoftware/Cap	Open source Loom alternative. Beautiful, shareable screen recordings.
 🟣	TS	   11365	   245	2025-09-27	TanStack/router	🤖 Fully typesafe Router for React (and friends) w/ built-in caching, 1st class search-param APIs, client-side cache integration and isomorphic rendering.
 🟣	TS	   10745	    44	2025-10-05	actions/starter-workflows	Accelerating new GitHub Actions workflows
-🟣	TS	   10150	    85	2025-09-27	alexta69/metube	Self-hosted YouTube downloader (web UI for youtube-dl / yt-dlp)
+🟢	TS	   10150	    85	2025-09-27	alexta69/metube	Self-hosted YouTube downloader (web UI for youtube-dl / yt-dlp)
 🟣	TS	   10104	   185	2025-10-05	modelcontextprotocol/typescript-sdk	The official TypeScript SDK for Model Context Protocol servers and clients
 🟣	TS	    9749	   667	2025-09-23	nanobrowser/nanobrowser	Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator.
 🟣	TS	    9108	  1292	2025-10-19	nitrojs/nitro	Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer.
