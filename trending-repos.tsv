@@ -84,21 +84,15 @@
 🟣	SH	     733	   114	2025-09-17	Olsro/ipodclickwheelgamespreservationproject	Preservation of iPod Clickwheel Games for iPod Nanos 3g to 5g and iPod Classics 5g to 7g
 🟣	SH	     308	     0	2025-10-19	openshift/release	Release tooling for OpenShift
 🟣	SH	     264	    90	2025-10-19	InferenceMAX/InferenceMAX
-🔴	RS	   49926	   221	2025-10-19	dani-garcia/vaultwarden	Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs	Prefer browser password manager
-🔴	RS	   31205	   184	2025-10-19	DioxusLabs/dioxus	Fullstack app framework for web, desktop, and mobile.	I don't code Rust
 🟣	RS	   17512	    73	2025-09-27	clockworklabs/SpacetimeDB	Multiplayer at the speed of light
 🟣	RS	    9682	    78	2025-09-27	stalwartlabs/stalwart	All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).
-🟣	RS	    9066	   168	2025-10-19	rustfs/rustfs	🚀 High-performance distributed object storage for MinIO alternative.
 🟣	RS	    6353	    40	2025-10-19	mullvad/mullvadvpn-app	The Mullvad VPN client app for desktop and mobile
 🟣	RS	    5541	    72	2025-10-19	lancedb/lance	Modern columnar data format for ML and LLMs implemented in Rust. Convert from parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..
 🟣	RS	    4821	    40	2025-09-23	cloud-hypervisor/cloud-hypervisor	A Virtual Machine Monitor for modern Cloud workloads. Features include CPU, memory and device hotplug, support for running Windows and Linux guests, device offload with vhost-user and a minimal compact footprint. Written in Rust with a strong focus on security.
 🟣	RS	    4502	    38	2025-10-19	apache/opendal	Apache OpenDAL: One Layer, All Storage.
 🟣	RS	    4440	   324	2025-09-17	Eventual-Inc/Daft	Distributed query engine providing simple and reliable data processing for any modality and scale
-🟣	RS	    4117	   204	2025-10-19	longbridge/gpui-component	Rust GUI components for building fantastic cross-platform desktop application by using GPUI.
 🟣	RS	    4106	   160	2025-10-19	katanemo/archgw	The data plane for agents. Arch is a models-native proxy server that handles the plumbing work in AI: agent routing & hand off, guardrails, end-to-end logs and traces, unified access to LLMs from OpenAI, Anthropic, Ollama, etc. Build agents faster, and scale them reliably.
-🟣	RS	    4041	   208	2025-10-19	facebook/pyrefly	A fast type checker and language server for Python
 🟣	RS	    3851	   123	2025-09-23	feschber/lan-mouse	mouse & keyboard sharing via LAN
-🟣	RS	    3291	   566	2025-10-19	squidowl/halloy	IRC application written in Rust
 🟣	RS	    3094	    45	2025-10-05	witnessmenow/ESP32-Cheap-Yellow-Display	Building a community around a cheap ESP32 Display with a touch screen
 🟣	RS	    2883	   327	2025-09-17	EFForg/rayhunter	Rust tool to detect cell site simulators on an orbic mobile hotspot
 🟣	RS	    2779	   551	2025-09-23	ArthurBrussee/brush	3D Reconstruction for all
@@ -296,9 +290,11 @@
 🔵	SH	    3184	   105	2025-10-05	x-cmd/x-cmd	x-cmd: Bootstrap 1000+ command line tools in seconds.	Interesting. Good tool list. Yet to find a use-case.
 🔵	RS	  100983	  1288	2025-10-19	rustdesk/rustdesk	An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.	Prefer Google Meet, Teams, etc.
 🔵	RS	   36862	   158	2025-10-19	nushell/nushell	A new type of shell
+🔵	RS	    9066	   168	2025-10-19	rustfs/rustfs	🚀 High-performance distributed object storage for MinIO alternative.	Maybe to self-host S3
 🔵	RS	    5493	   233	2025-09-17	erebe/wstunnel	Tunnel all your traffic over Websocket or HTTP2 - Bypass firewalls/DPI - Static binary available
+🔵	RS	    4041	   208	2025-10-19	facebook/pyrefly	A fast type checker and language server for Python	Wait till stable + popular
 🔵	JS	    4897	  2914	2025-09-17	trueadm/ripple	the elegant TypeScript UI framework	Still in development
-🔵	GO	   55820	   174	2025-10-19	minio/minio	MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.	In case I need to self-host S3
+🔵	GO	   55820	   174	2025-10-19	minio/minio	MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.	Maybe to self-host S3
 🔴	TS	  336554	   939	2025-09-17	kamranahmedse/developer-roadmap	Interactive roadmaps, guides and other educational content to help developers grow in their careers.	Skip educational
 🔴	TS	  130516	   762	2025-09-27	yangshun/tech-interview-handbook	💯 Curated coding interview preparation materials for busy software engineers	Skip educational
 🔴	TS	   98887	   121	2025-09-23	angular/angular	Deliver web apps with confidence 🚀	Prefer lit-html
@@ -336,10 +332,12 @@
 🔴	RS	   62138	    25	2025-10-05	FuelLabs/sway	🌴 Empowering everyone to build reliable and efficient smart contracts.	I don't do blockchain
 🔴	RS	   60531	   125	2025-10-05	alacritty/alacritty	A cross-platform, OpenGL terminal emulator.	I use VS Code's terminal
 🔴	RS	   56192	   195	2025-10-05	topjohnwu/Magisk	The Magic Mask for Android	I don't code Android apps
+🔴	RS	   49926	   221	2025-10-19	dani-garcia/vaultwarden	Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs	Prefer browser password manager
 🔴	RS	   45705	   193	2025-09-23	typst/typst	A new markup-based typesetting system that is powerful and easy to learn.	LaTeX alternative. I prefer Markdown. See https://lwn.net/Articles/1037577/
 🔴	RS	   42359	   380	2025-09-27	bevyengine/bevy	A refreshingly simple data-driven game engine built in Rust	I don't code Rust
 🔴	RS	   40495	   222	2025-10-19	helix-editor/helix	A post-modern modal text editor.	I prefer VS Code / micro
 🔴	RS	   34023	  1945	2025-09-17	juspay/hyperswitch	An open source payments switch written in Rust to make payments fast, reliable and affordable	I don't do finance
+🔴	RS	   31205	   184	2025-10-19	DioxusLabs/dioxus	Fullstack app framework for web, desktop, and mobile.	I don't code Rust
 🔴	RS	   30554	  2054	2025-09-23	linera-io/linera-protocol	Main repository for the Linera protocol	I don't do blockchain
 🔴	RS	   30061	    67	2025-09-17	surrealdb/surrealdb	A scalable, distributed, collaborative, document-graph database, for the realtime web	Not mature enough yet
 🔴	RS	   29600	    96	2025-09-17	tokio-rs/tokio	A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...	I don't code Rust
@@ -371,6 +369,8 @@
 🔴	RS	    7761	    61	2025-10-19	lancedb/lancedb	Developer-friendly, embedded retrieval engine for multimodal AI. Search More; Manage Less.	Prefer SQLite / PostgreSQL
 🔴	RS	    6764	    55	2025-09-23	kata-containers/kata-containers	Kata Containers is an open source project and community working to build a standard implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs. https://katacontainers.io/	I don't create VMs
 🔴	RS	    5385	   236	2025-10-05	BloopAI/vibe-kanban	Kanban board to manage your AI coding agents	Good idea: Kanban board to manage AI coding tasks. I don't yet need it.
+🔴	RS	    4117	   204	2025-10-19	longbridge/gpui-component	Rust GUI components for building fantastic cross-platform desktop application by using GPUI.	I don't code Rust
+🔴	RS	    3291	   566	2025-10-19	squidowl/halloy	IRC application written in Rust	I'm not on IRC
 🔴	RS	    2912	    49	2025-10-05	cocoindex-io/cocoindex	Data transformation framework for AI. Ultra performant, with incremental processing. 🌟 Star if you like it!	Opinionated framework
 🔴	RS	    2774	   104	2025-10-05	davidlattimore/wild	A very fast linker for Linux	I don't code C
 🔴	RS	    1647	   431	2025-09-17	carthage-software/mago	Mago is a toolchain for PHP that aims to provide a set of tools to help developers write better code	I don't code PHP
