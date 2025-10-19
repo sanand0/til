@@ -84,7 +84,7 @@
 🟣	SH	     733	   114	2025-09-17	Olsro/ipodclickwheelgamespreservationproject	Preservation of iPod Clickwheel Games for iPod Nanos 3g to 5g and iPod Classics 5g to 7g
 🟣	SH	     308	     0	2025-10-19	openshift/release	Release tooling for OpenShift
 🟣	SH	     264	    90	2025-10-19	InferenceMAX/InferenceMAX
-🟣	RS	  100983	  1288	2025-10-19	rustdesk/rustdesk	An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.
+🔵	RS	  100983	  1288	2025-10-19	rustdesk/rustdesk	An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.	Prefer Google Meet, Teams, etc.
 🔴	RS	   97568	   347	2025-10-19	tauri-apps/tauri	Build smaller, faster, and more secure desktop and mobile applications with a web frontend.	I don't build desktop apps
 🟢	RS	   70286	   635	2025-10-19	astral-sh/uv	An extremely fast Python package and project manager, written in Rust.
 🟣	RS	   49926	   221	2025-10-19	dani-garcia/vaultwarden	Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
