@@ -85,10 +85,10 @@
 🟣	SH	     308	     0	2025-10-19	openshift/release	Release tooling for OpenShift
 🟣	SH	     264	    90	2025-10-19	InferenceMAX/InferenceMAX
 🟣	RS	  100983	  1288	2025-10-19	rustdesk/rustdesk	An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.
-🟣	RS	   97568	   347	2025-10-19	tauri-apps/tauri	Build smaller, faster, and more secure desktop and mobile applications with a web frontend.
-🟣	RS	   70286	   635	2025-10-19	astral-sh/uv	An extremely fast Python package and project manager, written in Rust.
+🔴	RS	   97568	   347	2025-10-19	tauri-apps/tauri	Build smaller, faster, and more secure desktop and mobile applications with a web frontend.	I don't build desktop apps
+🟢	RS	   70286	   635	2025-10-19	astral-sh/uv	An extremely fast Python package and project manager, written in Rust.
 🟣	RS	   49926	   221	2025-10-19	dani-garcia/vaultwarden	Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
-🟣	RS	   40495	   222	2025-10-19	helix-editor/helix	A post-modern modal text editor.
+🔴	RS	   40495	   222	2025-10-19	helix-editor/helix	A post-modern modal text editor.	I prefer VS Code / micro
 🟣	RS	   36862	   158	2025-10-19	nushell/nushell	A new type of shell
 🟣	RS	   31205	   184	2025-10-19	DioxusLabs/dioxus	Fullstack app framework for web, desktop, and mobile.
 🟣	RS	   20659	    73	2025-10-19	RustPython/RustPython	A Python Interpreter written in Rust
@@ -213,13 +213,6 @@
 🟣	JS	     947	    34	2025-10-05	Coding-Solo/godot-mcp	MCP server for interfacing with Godot game engine. Provides tools for launching the editor, running projects, and capturing debug output.
 🟣	JS	     826	    36	2025-09-17	met4citizen/TalkingHead	Talking Head (3D): A JavaScript class for real-time lip-sync using Ready Player Me full-body 3D avatars.
 🟣	GO	   31833	   178	2025-10-19	XTLS/Xray-core	Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.
-⏺️	GO	   25421	    74	2025-10-05	authelia/authelia	The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™
-🔴	GO	   22547	    28	2025-10-19	micro/go-micro	A Go microservices framework	I don't code Go
-⏺️	GO	   21876	   510	2025-09-17	trufflesecurity/trufflehog	Find, verify, and analyze leaked credentials
-🔴	GO	   20077	    99	2025-09-17	JanDeDobbeleer/oh-my-posh	The most customisable and low-latency cross platform/shell prompt renderer	I don't use PowerShell
-🔴	GO	   19778	    74	2025-10-19	qax-os/excelize	Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets	I don't code Go
-⏺️	GO	   19612	   135	2025-10-05	getsops/sops	Simple and flexible tool for managing secrets
-🔴	GO	   19248	    43	2025-10-19	gravitational/teleport	The easiest, and most secure way to access and protect all of your infrastructure.	I don't manage infra
 🟣	GO	   19101	   143	2025-10-19	netbirdio/netbird	Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.
 🟣	GO	   17983	   270	2025-09-27	chaitin/SafeLine	SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.
 🟣	GO	   17831	    80	2025-09-17	knadh/listmonk	High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.
@@ -231,8 +224,6 @@
 🟣	GO	   12226	   825	2025-09-17	ccfos/nightingale	Nightingale for monitoring and alerting, just as Grafana for visualization.
 🟣	GO	   11840	   376	2025-10-19	wavetermdev/waveterm	An open-source, cross-platform terminal for seamless workflows
 🟣	GO	   11819	    78	2025-09-27	zitadel/zitadel	ZITADEL - Identity infrastructure, simplified for you.
-🔴	GO	   11082	    31	2025-10-19	quic-go/quic-go	A production-ready QUIC implementation in pure Go	I don't code Go
-🔴	GO	   10882	  1198	2025-09-17	aaPanel/BillionMail	BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr	I don't run mail campaigns
 🟣	GO	   10851	   458	2025-09-17	keploy/keploy	API, Integration, E2E Testing Agent for Developers that actually work. Generate tests, mocks/stubs for your APIs!
 🟣	GO	   10190	   170	2025-09-17	putyy/res-downloader	视频号、小程序、抖音、快手、小红书、直播流、m3u8、酷狗、QQ音乐等常见网络资源下载!
 🟣	GO	    9784	    60	2025-09-23	containers/skopeo	Work with remote images registries - retrieving information, images, signing content
@@ -437,10 +428,16 @@
 🔴	GO	   26602	   144	2025-09-27	grafana/loki	Like Prometheus, but for logs.	I don't self-host logs
 🔴	GO	   24870	    65	2025-09-17	go-kratos/kratos	Your ultimate Go microservices framework for the cloud-native era.	I don't code Go
 🔴	GO	   24765	   136	2025-09-27	abiosoft/colima	Container runtimes on macOS (and Linux) with minimal setup	I don't use Mac
+🔴	GO	   22547	    28	2025-10-19	micro/go-micro	A Go microservices framework	I don't code Go
 🔴	GO	   22332	   167	2025-09-17	grpc/grpc-go	The Go language implementation of gRPC. HTTP/2 based RPC	I don't code Go
+🔴	GO	   20077	    99	2025-09-17	JanDeDobbeleer/oh-my-posh	The most customisable and low-latency cross platform/shell prompt renderer	I don't use PowerShell
+🔴	GO	   19778	    74	2025-10-19	qax-os/excelize	Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets	I don't code Go
+🔴	GO	   19248	    43	2025-10-19	gravitational/teleport	The easiest, and most secure way to access and protect all of your infrastructure.	I don't manage infra
 🔴	GO	   13757	   225	2025-09-23	go-task/task	A task runner / simpler Make alternative written in Go	No need yet
 🔴	GO	   13086	    23	2025-10-05	rook/rook	Storage Orchestration for Kubernetes	I don't code Kubernetes
 🔴	GO	   12574	    52	2025-10-05	jackc/pgx	PostgreSQL driver and toolkit for Go	I don't code Go
+🔴	GO	   11082	    31	2025-10-19	quic-go/quic-go	A production-ready QUIC implementation in pure Go	I don't code Go
+🔴	GO	   10882	  1198	2025-09-17	aaPanel/BillionMail	BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr	I don't run mail campaigns
 🔴	GO	    6866	    23	2025-09-27	go-git/go-git	A highly extensible Git implementation in pure Go.	I'm don't code Go
 🔴	GO	    5630	    22	2025-09-17	actions/actions-runner-controller	Kubernetes controller for GitHub Actions self-hosted runners	I don't code Kubernetes
 🔴	GO	    4909	   108	2025-09-23	NexaAI/nexa-sdk	On device AI inference in minutes—now for MLX & GGUF and Qualcomm NPU, with Android and iOS coming soon.	I don't code Go
@@ -469,6 +466,9 @@
 ⏺️	JS	   18943	    85	2025-09-27	FreeTubeApp/FreeTube	An Open Source YouTube app for privacy
 ⏺️	GO	   31926	   170	2025-10-05	IceWhaleTech/CasaOS	CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.	Might be heavy but ...
 ⏺️	GO	   29005	    76	2025-10-19	grafana/k6	A modern load testing tool, using Go and JavaScript
+⏺️	GO	   25421	    74	2025-10-05	authelia/authelia	The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™
 ⏺️	GO	   24962	   193	2025-09-23	tailscale/tailscale	The easiest, most secure way to use WireGuard and 2FA.
 ⏺️	GO	   23909	    70	2025-10-05	pulumi/pulumi	Pulumi - Infrastructure as Code in any programming language 🚀
+⏺️	GO	   21876	   510	2025-09-17	trufflesecurity/trufflehog	Find, verify, and analyze leaked credentials
+⏺️	GO	   19612	   135	2025-10-05	getsops/sops	Simple and flexible tool for managing secrets
 ⏺️	GO	   12810	   662	2025-10-05	oauth2-proxy/oauth2-proxy	A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.	Could be useful. Integrates with Caddy.
