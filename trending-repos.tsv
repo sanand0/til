@@ -103,10 +103,10 @@
 🟣	PY	   53409	  1100	2025-09-17	unclecode/crawl4ai	🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN
 🟣	PY	   46892	   393	2025-10-05	ultralytics/ultralytics	Ultralytics YOLO 🚀
 🟣	PY	   46801	  1171	2025-10-19	opendatalab/MinerU	Transforms complex documents like PDFs into LLM-ready markdown/JSON for your Agentic workflows.
-🟣	PY	   46687	  1697	2025-10-19	karpathy/nanoGPT	The simplest, fastest repository for training/finetuning medium-sized GPTs.
+🔴	PY	   46687	  1697	2025-10-19	karpathy/nanoGPT	The simplest, fastest repository for training/finetuning medium-sized GPTs.	I don't fine-tune
 🟣	PY	   37465	   719	2025-09-17	hiroi-sora/Umi-OCR	OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。
 🟣	PY	   33356	   621	2025-09-23	facebookresearch/detectron2	Detectron2 is a platform for object detection, segmentation and other visual recognition tasks.
-🟣	PY	   29939	  2607	2025-10-19	jingyaogong/minimind	🚀🚀 「大模型」2小时完全从0训练26M的小参数GPT！🌏 Train a 26M-parameter GPT from scratch in just 2h!
+🔴	PY	   29939	  2607	2025-10-19	jingyaogong/minimind	🚀🚀 「大模型」2小时完全从0训练26M的小参数GPT！🌏 Train a 26M-parameter GPT from scratch in just 2h!	I don't fine-tune
 🟣	PY	   26764	   805	2025-10-19	reflex-dev/reflex	🕸️ Web apps in pure Python 🐍
 🟣	PY	   24260	   682	2025-09-17	Cinnamon/kotaemon	An open-source RAG-based tool for chatting with your documents.
 🟣	PY	   22590	   390	2025-09-17	deepset-ai/haystack	AI orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.
