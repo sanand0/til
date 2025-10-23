@@ -7,6 +7,17 @@
   - When GPS became ubiquitous, we stopped learning geography. We just want to get there
   - When photography became unlimited, most captured moments. Few perfected shots
   - When fitness tracking became easy, most just track. Few exercise more
+- 21 Oct 2025. I had Codex scrape my ~2,000 pending invites on LinkedIn and asked ChatGPT to analyze it. Here are learnings: [ChatGPT, private](https://chatgpt.com/c/68f72899-5814-8320-9d02-88ce06257fd8)
+  - Power-law. 5% of inviters account for ~42% of all common connections. Top 10 people alone for ~20%.
+  - IITM student invites are high (~14%), but with 0-2 common connects, i.e. distant strangers.
+  - EdTech is tiny in count but has the highest common connections per person (outlier-sensitive but real).
+  - Among ≥20-commons, many hold VP/Head/Site-Lead titles in Data/AI or GenAI (not just recruiters).
+  - GenAI people are 7-8% and steady across months. Not a useful signal to prioritize.
+  - Premium ~ Senior. Premium accounts show ~40% senior titles vs ~29% for non-premium.
+  - Finance invites have higher seniority rate and more common connects than healthcare.
+  - Followers have higher common connections (~6 vs ~4).
+- 19 Oct 2025. ⭐ Memory can be code. Agent memory is anything it choose to persist. Agents can write code on the fly to automate tasks, save them, and serve the code on the next request, potentially modifying the code as required. This is like the conscious mind saving a habit for the subconscious to execute fast.
+- 19 Oct 2025. Finally: Microsoft Office has an agent mode that lets you talk to it and do stuff. [The Verge](https://www.theverge.com/news/787076/microsoft-office-agent-mode-office-agent-anthropic-models)
 - 18 Oct 2025. Gemini API has a Google Maps tool that it can refer to - like Google Search. [Maps Grounding](https://ai.google.dev/gemini-api/docs/maps-grounding)
 - 16 Oct 2025. Earlier we needed humans to label data for RLHF. Now we don't since AI can simulate it. This is a pattern. Once AI learns from a human, that human skill can be automated. [How GPT-5 Thinks — OpenAI VP of Research Jerry Tworek](https://youtu.be/RqWIvvv3SnQ)
 - 14 Oct 2025. Meta built a [Code World Model](https://ai.meta.com/research/publications/cwm-an-open-weights-llm-for-research-on-code-generation-with-world-models/). Basically an LLM that acts like a Python interpreter!

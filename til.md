@@ -2,17 +2,7 @@
 
 ## Oct 2025
 
-- 21 Oct 2025. I had Codex scrape my ~2,000 pending invites on LinkedIn and asked ChatGPT to analyze it. Here are learnings: [ChatGPT, private](https://chatgpt.com/c/68f72899-5814-8320-9d02-88ce06257fd8)
-  - Power-law. 5% of inviters account for ~42% of all common connections. Top 10 people alone for ~20%.
-  - IITM student invites are high (~14%), but with 0-2 common connects, i.e. distant strangers.
-  - EdTech is tiny in count but has the highest common connections per person (outlier-sensitive but real).
-  - Among ≥20-commons, many hold VP/Head/Site-Lead titles in Data/AI or GenAI (not just recruiters).
-  - GenAI people are 7-8% and steady across months. Not a useful signal to prioritize.
-  - Premium ~ Senior. Premium accounts show ~40% senior titles vs ~29% for non-premium.
-  - Finance invites have higher seniority rate and more common connects than healthcare.
-  - Followers have higher common connections (~6 vs ~4).
-- 19 Oct 2025. ⭐ Memory can be code. Agent memory is anything it choose to persist. Agents can write code on the fly to automate tasks, save them, and serve the code on the next request, potentially modifying the code as required. This is like the conscious mind saving a habit for the subconscious to execute fast.
-- 19 Oct 2025. Finally: Microsoft Office has an agent mode that lets you talk to it and do stuff. [The Verge](https://www.theverge.com/news/787076/microsoft-office-agent-mode-office-agent-anthropic-models)
+- 23 Oct 2025. `python -m pdb -c continue script.py` runs a script and drops into pdb on unhandled exceptions (post-mortem)
 - 18 Oct 2025. "... most engineers don’t have public commits. Senior engineers at large tech companies don’t work on open-source projects for the most part." [Why AI Can't Do Hiring](https://interviewing.io/blog/why-ai-cant-do-hiring)
 - 18 Oct 2025. Cloudflare's [Sandbox](https://sandbox.cloudflare.com/) feature in their Workers looks impressive. It supports streaming, web access to the container, and long-running processes. So we can spawn off a task and have it run a server (at least for a while) or a scraper.
 - 14 Oct 2025. The [`<output>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/output) element has a `for=` attribute indicating which `<input>` elements it is linked to and a `form=` attribute indicating which form it belongs to. This [works well with screen readers](https://denodell.com/blog/html-best-kept-secret-output-tag). A good reason to use it more. [Examples](https://rud.is/drop/output.html).
