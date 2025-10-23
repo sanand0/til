@@ -2,7 +2,7 @@
 
 ## Oct 2025
 
-- 23 Oct 2025. `python -m pdb -c continue script.py` runs a script and drops into pdb on unhandled exceptions (post-mortem)
+- 23 Oct 2025. `python -m pdb -c continue script.py` or `uv run -m pdb -c continue script.py` runs a script and drops into pdb on unhandled exceptions (post-mortem). [ChatGPT](https://chatgpt.com/share/68f9b890-ba0c-800c-8a29-48245a41ca5e)
 - 18 Oct 2025. "... most engineers don’t have public commits. Senior engineers at large tech companies don’t work on open-source projects for the most part." [Why AI Can't Do Hiring](https://interviewing.io/blog/why-ai-cant-do-hiring)
 - 18 Oct 2025. Cloudflare's [Sandbox](https://sandbox.cloudflare.com/) feature in their Workers looks impressive. It supports streaming, web access to the container, and long-running processes. So we can spawn off a task and have it run a server (at least for a while) or a scraper.
 - 14 Oct 2025. The [`<output>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/output) element has a `for=` attribute indicating which `<input>` elements it is linked to and a `form=` attribute indicating which form it belongs to. This [works well with screen readers](https://denodell.com/blog/html-best-kept-secret-output-tag). A good reason to use it more. [Examples](https://rud.is/drop/output.html).
