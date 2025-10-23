@@ -2,6 +2,11 @@
 
 ## Oct 2025
 
+- 23 Oct 2025. Technology reveals our preferences by removing constraints. [Claude](https://claude.ai/share/87c71c26-6103-4687-b372-80f18d44fd21)
+  - When spelling became automated, we stopped cared about spelling for its own sake
+  - When GPS became ubiquitous, we stopped learning geography. We just want to get there
+  - When photography became unlimited, most captured moments. Few perfected shots
+  - When fitness tracking became easy, most just track. Few exercise more
 - 18 Oct 2025. Gemini API has a Google Maps tool that it can refer to - like Google Search. [Maps Grounding](https://ai.google.dev/gemini-api/docs/maps-grounding)
 - 16 Oct 2025. Earlier we needed humans to label data for RLHF. Now we don't since AI can simulate it. This is a pattern. Once AI learns from a human, that human skill can be automated. [How GPT-5 Thinks — OpenAI VP of Research Jerry Tworek](https://youtu.be/RqWIvvv3SnQ)
 - 14 Oct 2025. Meta built a [Code World Model](https://ai.meta.com/research/publications/cwm-an-open-weights-llm-for-research-on-code-generation-with-world-models/). Basically an LLM that acts like a Python interpreter!
