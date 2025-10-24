@@ -49,7 +49,6 @@
 🟣	SH	   15138	    84	2025-09-23	thibmaek/awesome-raspberry-pi	📝 A curated list of awesome Raspberry Pi tools, projects, images and resources
 🟣	SH	   11663	    62	2025-09-23	DaoCloud/public-image-mirror	很多镜像都在国外。比如 gcr 。国内下载很慢，需要加速。致力于提供连接全世界的稳定可靠安全的容器镜像服务。
 🟣	SH	   11317	    15	2025-09-17	google/oss-fuzz	OSS-Fuzz - continuous fuzzing for open source software.
-🔴	SH	    9987	    37	2025-10-19	angristan/wireguard-install	WireGuard VPN installer for Linux servers	I don't use VPN
 🟣	SH	    9894	    99	2025-09-27	pystardust/ani-cli	A cli tool to browse and play anime
 🟣	SH	    9586	    69	2025-10-19	edoardottt/awesome-hacker-search-engines	A curated list of awesome search engines useful during Penetration testing, Vulnerability assessments, Red/Blue Team operations, Bug Bounty and more
 🟣	SH	    9068	    45	2025-09-17	1N3/Sn1per	Attack Surface Management Platform
@@ -81,21 +80,7 @@
 🟣	SH	     733	   114	2025-09-17	Olsro/ipodclickwheelgamespreservationproject	Preservation of iPod Clickwheel Games for iPod Nanos 3g to 5g and iPod Classics 5g to 7g
 🟣	SH	     308	     0	2025-10-19	openshift/release	Release tooling for OpenShift
 🟣	SH	     264	    90	2025-10-19	InferenceMAX/InferenceMAX
-🔴	RS	   17512	    73	2025-09-27	clockworklabs/SpacetimeDB	Multiplayer at the speed of light	Unclear benefit
-🔴	RS	    9682	    78	2025-09-27	stalwartlabs/stalwart	All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).	Prefer hosted services
-🔴	RS	    6353	    40	2025-10-19	mullvad/mullvadvpn-app	The Mullvad VPN client app for desktop and mobile	I don't use VPN
-🔴	RS	    5541	    72	2025-10-19	lancedb/lance	Modern columnar data format for ML and LLMs implemented in Rust. Convert from parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..	Prefer DuckDB
-🔴	RS	    4821	    40	2025-09-23	cloud-hypervisor/cloud-hypervisor	A Virtual Machine Monitor for modern Cloud workloads. Features include CPU, memory and device hotplug, support for running Windows and Linux guests, device offload with vhost-user and a minimal compact footprint. Written in Rust with a strong focus on security.	I don't run cloud workloads
-🔴	RS	    4502	    38	2025-10-19	apache/opendal	Apache OpenDAL: One Layer, All Storage.	Not mature enough. Confusing docs
-🟡	RS	    4440	   324	2025-09-17	Eventual-Inc/Daft	Distributed query engine providing simple and reliable data processing for any modality and scale	DataFrame interface to files, JSON, models, etc.
-🟡	RS	    4106	   160	2025-10-19	katanemo/archgw	The data plane for agents. Arch is a models-native proxy server that handles the plumbing work in AI: agent routing & hand off, guardrails, end-to-end logs and traces, unified access to LLMs from OpenAI, Anthropic, Ollama, etc. Build agents faster, and scale them reliably.
-🔴	RS	    3851	   123	2025-09-23	feschber/lan-mouse	mouse & keyboard sharing via LAN	Don't need it
 🟣	RS	    3094	    45	2025-10-05	witnessmenow/ESP32-Cheap-Yellow-Display	Building a community around a cheap ESP32 Display with a touch screen
-🔴	RS	    2883	   327	2025-09-17	EFForg/rayhunter	Rust tool to detect cell site simulators on an orbic mobile hotspot	Don't have a need
-🔴	RS	    2779	   551	2025-09-23	ArthurBrussee/brush	3D Reconstruction for all	 Prefer AI APIs
-🟣	RS	    1551	    26	2025-10-19	a2x/cs2-dumper	Counter-Strike: 2 Offset Dumper
-🟣	RS	     990	    33	2025-09-17	nexus-xyz/nexus-cli	Command line interface for supplying proofs to the Nexus network.
-🟣	RS	     292	    32	2025-09-17	category-labs/monad-bft
 🟣	PY	   56152	  1130	2025-09-17	CorentinJ/Real-Time-Voice-Cloning	Clone a voice in 5 seconds to generate arbitrary speech in real-time
 🟣	PY	   53409	  1100	2025-09-17	unclecode/crawl4ai	🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN
 🟣	PY	   46892	   393	2025-10-05	ultralytics/ultralytics	Ultralytics YOLO 🚀
@@ -316,6 +301,7 @@
 🔴	SH	   26032	    38	2025-09-23	mbadolato/iTerm2-Color-Schemes	Over 425 terminal color schemes/themes for iTerm/iTerm2. Includes ports to Terminal, Konsole, PuTTY, Xresources, XRDB, Remmina, Termite, XFCE, Tilda, FreeBSD VT, Terminator, Kitty, MobaXterm, LXTerminal, Microsoft's Windows Terminal, Visual Studio, Alacritty, Ghostty, and many more	I don't use Mac
 🔴	SH	   19150	    76	2025-10-05	rockerBOO/awesome-neovim	Collections of awesome neovim plugins.	I don't use Vim
 🔴	SH	   14848	    43	2025-09-17	termux/termux-packages	A package build system for Termux.	I don't code Android apps
+🔴	SH	    9987	    37	2025-10-19	angristan/wireguard-install	WireGuard VPN installer for Linux servers	I don't use VPN
 🔴	SH	    9553	    42	2025-09-27	kodekloudhub/certified-kubernetes-administrator-course	Certified Kubernetes Administrator - CKA Course	I don't code Kubernetes
 🔴	SH	    9509	  1214	2025-09-23	basecamp/omarchy	Opinionated Arch/Hyprland Setup	I don't use Arch/Hyprland
 🔴	SH	    7942	    38	2025-10-05	adi1090x/rofi	A huge collection of Rofi based custom Applets, Launchers & Powermenus.	Too monolithic. I prefer micro-themes/scripts.
@@ -348,6 +334,7 @@
 🔴	RS	   20659	    73	2025-10-19	RustPython/RustPython	A Python Interpreter written in Rust	I don't code Rust
 🔴	RS	   19904	   256	2025-09-27	block/goose	an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM	I prefer Codex CLI / Claude Code
 🔴	RS	   19209	  1240	2025-09-17	zama-ai/fhevm	FHEVM, a full-stack framework for integrating Fully Homomorphic Encryption (FHE) with blockchain applications	I don't do blockchain
+🔴	RS	   17512	    73	2025-09-27	clockworklabs/SpacetimeDB	Multiplayer at the speed of light	Unclear benefit
 🔴	RS	   16883	    40	2025-09-17	bytecodealliance/wasmtime	A lightweight WebAssembly runtime that is fast, secure, and standards-compliant	I don't code Rust
 🔴	RS	   16498	   214	2025-09-17	gitbutlerapp/gitbutler	The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte	I don't like local web apps. Prefer CLI, VS Code plugin
 🔴	RS	   14530	   123	2025-09-27	solana-labs/solana	Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces.	I don't do finance
@@ -361,16 +348,27 @@
 🔴	RS	   11319	   261	2025-09-17	YaLTeR/niri	A scrollable-tiling Wayland compositor	I don't use Wayland
 🔴	RS	   10617	    36	2025-10-05	cloudflare/quiche	🥧 Savoury implementation of the QUIC transport protocol and HTTP/3	I don't code HTTP servers
 🔴	RS	    9875	    95	2025-09-23	glzr-io/glazewm	GlazeWM is a tiling window manager for Windows inspired by i3wm.	I don't use Windows
+🔴	RS	    9682	    78	2025-09-27	stalwartlabs/stalwart	All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).	Prefer hosted services
 🔴	RS	    9591	   141	2025-09-27	foundry-rs/foundry	Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.	I don't do finance
 🔴	RS	    7778	    39	2025-09-23	apache/datafusion	Apache DataFusion SQL Query Engine	I don't code Rust
 🔴	RS	    7761	    61	2025-10-19	lancedb/lancedb	Developer-friendly, embedded retrieval engine for multimodal AI. Search More; Manage Less.	Prefer SQLite / PostgreSQL
 🔴	RS	    6764	    55	2025-09-23	kata-containers/kata-containers	Kata Containers is an open source project and community working to build a standard implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs. https://katacontainers.io/	I don't create VMs
+🔴	RS	    6353	    40	2025-10-19	mullvad/mullvadvpn-app	The Mullvad VPN client app for desktop and mobile	I don't use VPN
+🔴	RS	    5541	    72	2025-10-19	lancedb/lance	Modern columnar data format for ML and LLMs implemented in Rust. Convert from parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..	Prefer DuckDB
 🔴	RS	    5385	   236	2025-10-05	BloopAI/vibe-kanban	Kanban board to manage your AI coding agents	Good idea: Kanban board to manage AI coding tasks. I don't yet need it.
+🔴	RS	    4821	    40	2025-09-23	cloud-hypervisor/cloud-hypervisor	A Virtual Machine Monitor for modern Cloud workloads. Features include CPU, memory and device hotplug, support for running Windows and Linux guests, device offload with vhost-user and a minimal compact footprint. Written in Rust with a strong focus on security.	I don't run cloud workloads
+🔴	RS	    4502	    38	2025-10-19	apache/opendal	Apache OpenDAL: One Layer, All Storage.	Not mature enough. Confusing docs
 🔴	RS	    4117	   204	2025-10-19	longbridge/gpui-component	Rust GUI components for building fantastic cross-platform desktop application by using GPUI.	I don't code Rust
+🔴	RS	    3851	   123	2025-09-23	feschber/lan-mouse	mouse & keyboard sharing via LAN	Don't need it
 🔴	RS	    3291	   566	2025-10-19	squidowl/halloy	IRC application written in Rust	I'm not on IRC
 🔴	RS	    2912	    49	2025-10-05	cocoindex-io/cocoindex	Data transformation framework for AI. Ultra performant, with incremental processing. 🌟 Star if you like it!	Opinionated framework
+🔴	RS	    2883	   327	2025-09-17	EFForg/rayhunter	Rust tool to detect cell site simulators on an orbic mobile hotspot	Don't have a need
+🔴	RS	    2779	   551	2025-09-23	ArthurBrussee/brush	3D Reconstruction for all	 Prefer AI APIs
 🔴	RS	    2774	   104	2025-10-05	davidlattimore/wild	A very fast linker for Linux	I don't code C
 🔴	RS	    1647	   431	2025-09-17	carthage-software/mago	Mago is a toolchain for PHP that aims to provide a set of tools to help developers write better code	I don't code PHP
+🔴	RS	    1551	    26	2025-10-19	a2x/cs2-dumper	Counter-Strike: 2 Offset Dumper	I don't play Counter-Strike
+🔴	RS	     990	    33	2025-09-17	nexus-xyz/nexus-cli	Command line interface for supplying proofs to the Nexus network.	I don't use Nexus
+🔴	RS	     292	    32	2025-09-17	category-labs/monad-bft	No idea what this is
 🔴	PY	  369955	  1501	2025-09-23	EbookFoundation/free-programming-books	📚 Freely available programming books	Skip educational
 🔴	PY	  321277	  1132	2025-09-27	donnemartin/system-design-primer	Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.	Skip educational
 🔴	PY	  209369	  1635	2025-09-27	TheAlgorithms/Python	All Algorithms implemented in Python	Skip educational
@@ -458,6 +456,8 @@
 ⏺️	RS	   10453	   322	2025-09-17	ast-grep/ast-grep	⚡A CLI tool for code structural search, lint and rewriting. Written in Rust
 ⏺️	RS	    5724	    58	2025-09-23	cachix/devenv	Fast, Declarative, Reproducible, and Composable Developer Environments using Nix
 ⏺️	RS	    4843	    87	2025-09-27	visioncortex/vtracer	Raster to Vector Graphics Converter
+⏺️	RS	    4440	   324	2025-09-17	Eventual-Inc/Daft	Distributed query engine providing simple and reliable data processing for any modality and scale	DataFrame interface to files, JSON, models, etc.
+⏺️	RS	    4106	   160	2025-10-19	katanemo/archgw	The data plane for agents. Arch is a models-native proxy server that handles the plumbing work in AI: agent routing & hand off, guardrails, end-to-end logs and traces, unified access to LLMs from OpenAI, Anthropic, Ollama, etc. Build agents faster, and scale them reliably.
 ⏺️	RS	    2436	   273	2025-09-23	bahdotsh/wrkflw	Validate and Run GitHub Actions locally.
 ⏺️	RS	    1421	   425	2025-09-17	j178/prek	⚡ Better `pre-commit`, re-engineered in Rust
 ⏺️	PY	   13490	   319	2025-09-17	ahujasid/blender-mcp
