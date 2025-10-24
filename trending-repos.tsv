@@ -92,7 +92,7 @@
 🟣	RS	    3851	   123	2025-09-23	feschber/lan-mouse	mouse & keyboard sharing via LAN
 🟣	RS	    3094	    45	2025-10-05	witnessmenow/ESP32-Cheap-Yellow-Display	Building a community around a cheap ESP32 Display with a touch screen
 🟣	RS	    2883	   327	2025-09-17	EFForg/rayhunter	Rust tool to detect cell site simulators on an orbic mobile hotspot
-🟣	RS	    2779	   551	2025-09-23	ArthurBrussee/brush	3D Reconstruction for all
+🔴	RS	    2779	   551	2025-09-23	ArthurBrussee/brush	3D Reconstruction for all	 Prefer AI APIs
 🟣	RS	    1551	    26	2025-10-19	a2x/cs2-dumper	Counter-Strike: 2 Offset Dumper
 🟣	RS	     990	    33	2025-09-17	nexus-xyz/nexus-cli	Command line interface for supplying proofs to the Nexus network.
 🟣	RS	     292	    32	2025-09-17	category-labs/monad-bft
@@ -379,13 +379,13 @@
 🔴	PY	   58210	  2110	2025-10-05	commaai/openpilot	openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.	I don't code car assistance systems
 🔴	PY	   54237	   549	2025-09-17	PaddlePaddle/PaddleOCR	Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 80+ languages.	Prefer markitdown
 🔴	PY	   50300	   848	2025-09-27	Asabeneh/30-Days-Of-Python	30 days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than100 days, follow your own pace. These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw	Skip educational
-🔴	PY	   46687	  1697	2025-10-19	karpathy/nanoGPT	The simplest, fastest repository for training/finetuning medium-sized GPTs.	I don't fine-tune
-🔴	PY	   46075	   582	2025-09-23	unslothai/unsloth	Fine-tuning & Reinforcement Learning for LLMs. 🦥 Train OpenAI gpt-oss, DeepSeek-R1, Qwen3, Gemma 3, TTS 2x faster with 70% less VRAM.	I don't fine-tune
+🔴	PY	   46687	  1697	2025-10-19	karpathy/nanoGPT	The simplest, fastest repository for training/finetuning medium-sized GPTs.	Prefer APIs
+🔴	PY	   46075	   582	2025-09-23	unslothai/unsloth	Fine-tuning & Reinforcement Learning for LLMs. 🦥 Train OpenAI gpt-oss, DeepSeek-R1, Qwen3, Gemma 3, TTS 2x faster with 70% less VRAM.	Prefer APIs
 🔴	PY	   45640	  5535	2025-10-05	harry0703/MoneyPrinterTurbo	利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.	README is in Chinese. Tried Colab, didn't work
 🔴	PY	   40595	   603	2025-09-17	virattt/ai-hedge-fund	An AI Hedge Fund Team	I don't do finance
 🔴	PY	   38882	   531	2025-09-23	ccxt/ccxt	A cryptocurrency trading API with more than 100 exchanges in JavaScript / TypeScript / Python / C# / PHP / Go	I don't do finance
 🔴	PY	   33525	   578	2025-09-17	agno-agi/agno	High-performance runtime for multi-agent systems. Build, run and manage secure multi-agent systems in your cloud.	Prefer lightweight pydantic-ai
-🔴	PY	   29939	  2607	2025-10-19	jingyaogong/minimind	🚀🚀 「大模型」2小时完全从0训练26M的小参数GPT！🌏 Train a 26M-parameter GPT from scratch in just 2h!	I don't fine-tune
+🔴	PY	   29939	  2607	2025-10-19	jingyaogong/minimind	🚀🚀 「大模型」2小时完全从0训练26M的小参数GPT！🌏 Train a 26M-parameter GPT from scratch in just 2h!	Prefer APIs
 🔴	PY	   29418	   748	2025-10-05	frappe/erpnext	Free and Open Source Enterprise Resource Planning (ERP)	I don't use ERPs
 🔴	PY	   28441	   714	2025-10-05	Byaidu/PDFMathTranslate	PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero	Skip educational
 🔴	PY	   14117	  7031	2025-09-23	Alibaba-NLP/DeepResearch	Tongyi Deep Research, the Leading Open-source Deep Research Agent	I don't run local models
