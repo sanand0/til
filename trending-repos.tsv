@@ -49,7 +49,7 @@
 🟣	SH	   15138	    84	2025-09-23	thibmaek/awesome-raspberry-pi	📝 A curated list of awesome Raspberry Pi tools, projects, images and resources
 🟣	SH	   11663	    62	2025-09-23	DaoCloud/public-image-mirror	很多镜像都在国外。比如 gcr 。国内下载很慢，需要加速。致力于提供连接全世界的稳定可靠安全的容器镜像服务。
 🟣	SH	   11317	    15	2025-09-17	google/oss-fuzz	OSS-Fuzz - continuous fuzzing for open source software.
-🟣	SH	    9987	    37	2025-10-19	angristan/wireguard-install	WireGuard VPN installer for Linux servers
+🔴	SH	    9987	    37	2025-10-19	angristan/wireguard-install	WireGuard VPN installer for Linux servers	I don't use VPN
 🟣	SH	    9894	    99	2025-09-27	pystardust/ani-cli	A cli tool to browse and play anime
 🟣	SH	    9586	    69	2025-10-19	edoardottt/awesome-hacker-search-engines	A curated list of awesome search engines useful during Penetration testing, Vulnerability assessments, Red/Blue Team operations, Bug Bounty and more
 🟣	SH	    9068	    45	2025-09-17	1N3/Sn1per	Attack Surface Management Platform
@@ -82,8 +82,8 @@
 🟣	SH	     308	     0	2025-10-19	openshift/release	Release tooling for OpenShift
 🟣	SH	     264	    90	2025-10-19	InferenceMAX/InferenceMAX
 🔴	RS	   17512	    73	2025-09-27	clockworklabs/SpacetimeDB	Multiplayer at the speed of light	Unclear benefit
-🟣	RS	    9682	    78	2025-09-27	stalwartlabs/stalwart	All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).
-🟣	RS	    6353	    40	2025-10-19	mullvad/mullvadvpn-app	The Mullvad VPN client app for desktop and mobile
+🔴	RS	    9682	    78	2025-09-27	stalwartlabs/stalwart	All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).	Prefer hosted services
+🔴	RS	    6353	    40	2025-10-19	mullvad/mullvadvpn-app	The Mullvad VPN client app for desktop and mobile	I don't use VPN
 🟣	RS	    5541	    72	2025-10-19	lancedb/lance	Modern columnar data format for ML and LLMs implemented in Rust. Convert from parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..
 🟣	RS	    4821	    40	2025-09-23	cloud-hypervisor/cloud-hypervisor	A Virtual Machine Monitor for modern Cloud workloads. Features include CPU, memory and device hotplug, support for running Windows and Linux guests, device offload with vhost-user and a minimal compact footprint. Written in Rust with a strong focus on security.
 🔴	RS	    4502	    38	2025-10-19	apache/opendal	Apache OpenDAL: One Layer, All Storage.	Not mature enough. Confusing docs
