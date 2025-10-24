@@ -135,7 +135,7 @@
 🟣	JS	   42521	   293	2025-09-17	NaiboWang/EasySpider	A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/爬虫软件，可以无代码图形化的设计和执行爬虫任务。别名：ServiceWrapper面向Web应用的智能化服务封装系统。
 🟣	JS	   41166	    36	2025-10-19	dcloudio/uni-app	A cross-platform framework using Vue.js
 🟣	JS	   39175	   145	2025-10-05	remoteintech/remote-jobs	A list of semi to fully remote-friendly companies (jobs) in tech.
-🟣	JS	   37619	   212	2025-10-19	usebruno/bruno	Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)
+🔴	JS	   37619	   212	2025-10-19	usebruno/bruno	Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)	Prefer VS Code plugin
 🟣	JS	   36608	   138	2025-09-23	ToolJet/ToolJet	ToolJet is the open-source foundation of ToolJet AI - the AI-native platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀
 🔴	JS	   36543	   272	2025-09-27	HeyPuter/puter	🌐 The Internet OS! Free, Open-Source, and Self-Hostable.	Prefer hosted services
 🟣	JS	   34638	    95	2025-09-23	fastify/fastify	Fast and low overhead web framework, for Node.js
