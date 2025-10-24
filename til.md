@@ -2,7 +2,7 @@
 
 ## Oct 2025
 
-- 24 Oct 2025. [HubFS](https://github.com/winfsp/hubfs) mounts GitHub repos on the file system.
+- 24 Oct 2025. [HubFS](https://github.com/winfsp/hubfs) mounts GitHub repos on the file system. Every file system action directly works on GitHub via a REST API. Useful for some scenarios but less useful for note-taking than something like [GitDoc](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc) which offers a delayed sync.
 - 23 Oct 2025. `python -m pdb -c continue script.py` or `uv run -m pdb -c continue script.py` runs a script and drops into pdb on unhandled exceptions (post-mortem). [ChatGPT](https://chatgpt.com/share/68f9b890-ba0c-800c-8a29-48245a41ca5e)
 - 18 Oct 2025. "... most engineers don’t have public commits. Senior engineers at large tech companies don’t work on open-source projects for the most part." [Why AI Can't Do Hiring](https://interviewing.io/blog/why-ai-cant-do-hiring)
 - 18 Oct 2025. Cloudflare's [Sandbox](https://sandbox.cloudflare.com/) feature in their Workers looks impressive. It supports streaming, web access to the container, and long-running processes. So we can spawn off a task and have it run a server (at least for a while) or a scraper.
