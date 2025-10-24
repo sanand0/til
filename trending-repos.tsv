@@ -200,7 +200,7 @@
 🟣	GO	    7100	   113	2025-10-19	cloudnative-pg/cloudnative-pg	CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance
 🟣	GO	    6629	    87	2025-10-19	alibaba/higress	🤖 AI Gateway | AI Native API Gateway
 🟣	GO	    6243	    26	2025-10-05	ethereum-optimism/optimism	Optimism is Ethereum, scaled.
-🔴	GO	    5795	   522	2025-09-23	everywall/ladder	Selfhosted alternative to 12ft.io. and 1ft.io bypass paywalls with a proxy ladder and remove CORS headers from any URL	Prefer hosted services
+🔴	GO	    5795	   522	2025-09-23	everywall/ladder	Selfhosted alternative to 12ft.io. and 1ft.io bypass paywalls with a proxy ladder and remove CORS headers from any URL	Prefer Caddy, nginx, etc.
 🟣	GO	    5325	    40	2025-09-27	evcc-io/evcc	solar charging ☀️🚘
 🟣	GO	    4889	    35	2025-09-27	kgateway-dev/kgateway	The Cloud-Native API Gateway and AI Gateway
 🟣	GO	    4883	  1158	2025-10-05	Done-0/fuck-u-code	Legacy-Mess Detector – assess the “legacy-mess level” of your code and output a beautiful report | 屎山代码检测器，评估代码的“屎山等级”并输出美观的报告
