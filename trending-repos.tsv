@@ -87,7 +87,7 @@
 🔴	RS	    5541	    72	2025-10-19	lancedb/lance	Modern columnar data format for ML and LLMs implemented in Rust. Convert from parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..	Prefer DuckDB
 🔴	RS	    4821	    40	2025-09-23	cloud-hypervisor/cloud-hypervisor	A Virtual Machine Monitor for modern Cloud workloads. Features include CPU, memory and device hotplug, support for running Windows and Linux guests, device offload with vhost-user and a minimal compact footprint. Written in Rust with a strong focus on security.	I don't run cloud workloads
 🔴	RS	    4502	    38	2025-10-19	apache/opendal	Apache OpenDAL: One Layer, All Storage.	Not mature enough. Confusing docs
-🟣	RS	    4440	   324	2025-09-17	Eventual-Inc/Daft	Distributed query engine providing simple and reliable data processing for any modality and scale
+🟡	RS	    4440	   324	2025-09-17	Eventual-Inc/Daft	Distributed query engine providing simple and reliable data processing for any modality and scale	DataFrame interface to files, JSON, models, etc.
 🟣	RS	    4106	   160	2025-10-19	katanemo/archgw	The data plane for agents. Arch is a models-native proxy server that handles the plumbing work in AI: agent routing & hand off, guardrails, end-to-end logs and traces, unified access to LLMs from OpenAI, Anthropic, Ollama, etc. Build agents faster, and scale them reliably.
 🟣	RS	    3851	   123	2025-09-23	feschber/lan-mouse	mouse & keyboard sharing via LAN
 🟣	RS	    3094	    45	2025-10-05	witnessmenow/ESP32-Cheap-Yellow-Display	Building a community around a cheap ESP32 Display with a touch screen
