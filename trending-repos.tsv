@@ -81,7 +81,7 @@
 🟣	SH	     308	     0	2025-10-19	openshift/release	Release tooling for OpenShift
 🟣	SH	     264	    90	2025-10-19	InferenceMAX/InferenceMAX
 🟣	RS	    3094	    45	2025-10-05	witnessmenow/ESP32-Cheap-Yellow-Display	Building a community around a cheap ESP32 Display with a touch screen
-🟣	PY	   56152	  1130	2025-09-17	CorentinJ/Real-Time-Voice-Cloning	Clone a voice in 5 seconds to generate arbitrary speech in real-time
+🔴	PY	   56152	  1130	2025-09-17	CorentinJ/Real-Time-Voice-Cloning	Clone a voice in 5 seconds to generate arbitrary speech in real-time	Outdated
 🟣	PY	   53409	  1100	2025-09-17	unclecode/crawl4ai	🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN
 🟣	PY	   46892	   393	2025-10-05	ultralytics/ultralytics	Ultralytics YOLO 🚀
 🟣	PY	   46801	  1171	2025-10-19	opendatalab/MinerU	Transforms complex documents like PDFs into LLM-ready markdown/JSON for your Agentic workflows.
