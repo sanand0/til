@@ -5,7 +5,7 @@
 - 25 Oct 2025. Codex CLI tips:
   - `codex --add-dir $DIR` lets you write into $DIR
   - `codex --full-auto` is the equivalent of `codex --sandbox workspace-write --ask-for-approval on-request`
-  - `codex --dangerously-bypass-approvals-and-sandbox` is required to run npx / uvx. npx needs at least network access. uvx also needs write access to the uv cache.
+  - `codex --dangerously-bypass-approvals-and-sandbox` is required to run npx / uvx for network access
 - 24 Oct 2025. Comparing the GPT 4.1 and 5 models at all different of reasoning, I've switched my default from GPT 4.1 mini to GPT 5 mini (medium). Far smarter for a slightly higher cost. [Artificial Analysis](https://artificialanalysis.ai/?cost=cost-vs-intelligence&models=gpt-5-low%2Cgpt-5-minimal%2Cgpt-5-nano%2Cgpt-5-nano-minimal%2Cgpt-5-mini%2Cgpt-5%2Cgpt-5-medium%2Cgpt-5-nano-medium%2Cgpt-5-mini-minimal%2Cgpt-5-mini-medium%2Capriel-v1-5-15b-thinker%2Cgpt-4-1%2Cgpt-4-1-nano%2Cgpt-4-1-mini)
 - 23 Oct 2025. Technology reveals our preferences by removing constraints. [Claude](https://claude.ai/share/87c71c26-6103-4687-b372-80f18d44fd21)
   - When spelling became automated, we stopped cared about spelling for its own sake
