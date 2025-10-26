@@ -2,8 +2,21 @@
 
 ## Oct 2025
 
-- 19 Oct 2025. ⭐ Memory can be code. Agent memory is anything it choose to persist. Agents can write code on the fly to automate tasks, save them, and serve the code on the next request, potentially modifying the code as required. This is like the conscious mind saving a habit for the subconscious to execute fast.
-- 19 Oct 2025. Finally: Microsoft Office has an agent mode that lets you talk to it and do stuff. [The Verge](https://www.theverge.com/news/787076/microsoft-office-agent-mode-office-agent-anthropic-models)
+- 25 Oct 2025. How are people using browser agents like Comet / Atlas? [Simon Willison](https://x.com/simonw/status/1980713097024401548)
+  - Most popular: YouTube video summaries with timestamps
+  - Most useful: Form filling: Government forms, data entry, repetitive bureaucratic tasks
+    - Foreign language navigation: Applying for pension in Korea, navigating sites in other languages
+    - Time reporting auto-completion
+    - Insurance claims: Reading policy documents and drafting appeals (successfully got claim reimbursed in India)
+    - Compliance training click throughs
+  - Next most useful: Shopping / planning
+    - Energy provider comparison - Comet checked current plan vs competitors on Check24, calculated exact annual savings per provider
+    - Financial tracking: Finding Amazon orders, tracking Airbnb spending with refund calculations, analyzing bank transactions
+    - Trip planning: Mapping 50-100 places on Google Maps automatically
+  - Interesting: Airport shuttle discovery - Found shuttle that user missed in manual searching
+- 25 Oct 2025. Before founding a place to do good, work in a place that does good and learn. [Ben Werdmuller](https://werd.io/using-technology-skills-for-positive-change/)
+- 24 Oct 2025. [HubFS](https://github.com/winfsp/hubfs) mounts GitHub repos on the file system. Every file system action directly works on GitHub via a REST API. Useful for some scenarios but less useful for note-taking than something like [GitDoc](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc) which offers a delayed sync.
+- 23 Oct 2025. `python -m pdb -c continue script.py` or `uv run -m pdb -c continue script.py` runs a script and drops into pdb on unhandled exceptions (post-mortem). [ChatGPT](https://chatgpt.com/share/68f9b890-ba0c-800c-8a29-48245a41ca5e)
 - 18 Oct 2025. "... most engineers don’t have public commits. Senior engineers at large tech companies don’t work on open-source projects for the most part." [Why AI Can't Do Hiring](https://interviewing.io/blog/why-ai-cant-do-hiring)
 - 18 Oct 2025. Cloudflare's [Sandbox](https://sandbox.cloudflare.com/) feature in their Workers looks impressive. It supports streaming, web access to the container, and long-running processes. So we can spawn off a task and have it run a server (at least for a while) or a scraper.
 - 14 Oct 2025. The [`<output>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/output) element has a `for=` attribute indicating which `<input>` elements it is linked to and a `form=` attribute indicating which form it belongs to. This [works well with screen readers](https://denodell.com/blog/html-best-kept-secret-output-tag). A good reason to use it more. [Examples](https://rud.is/drop/output.html).

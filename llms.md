@@ -2,6 +2,58 @@
 
 ## Oct 2025
 
+- 26 Oct 2025. [OpenRouter image generation](https://openrouter.ai/docs/features/multimodal/image-generation) now includes [GPT-5 Image Mini](https://openrouter.ai/openai/gpt-5-image-mini). An image costs about 1 cent. Here's the code:
+  ```bash
+  curl 'https://openrouter.ai/api/v1/chat/completions' \
+    -H "Authorization: Bearer $OPENROUTER_API_KEY" \
+    -H "Content-Type: application/json" \
+    -d '{
+      model: "openai/gpt-5-image-mini",
+      messages: [{ role: "user", content: "Draw a cat" }],
+      modalities: ["image"],
+      image_config: { "aspect_ratio": "16:9" }
+    }' | jq -r '.choices[0].message.images[0].image_url.url' | cut -c23- | base64 -d > cat.png
+  ```
+- 25 Oct 2025. What should we teach when vibe coding becomes good enough for non-coders? [Ethan Mollick](https://x.com/emollick/status/1979627762903392362)
+  - Problem decomposition
+  - Clear communication & spec writing
+  - Core technical foundations: file systems, access control, networking, APIs, version control, data structures, databases, deployment
+  - Software development skills: Debugging, Testing, Refactoring, Design patterns, UI/UX
+  - Project management: requirements, prioritization, scoping, ...
+- 25 Oct 2025. Codex CLI tips:
+  - `codex --add-dir $DIR` lets you write into $DIR
+  - `codex --full-auto` is the equivalent of `codex --sandbox workspace-write --ask-for-approval on-request`
+- 25 Oct 2025. Terse code is not necessarily easier or harder for LLMs to write. It's about how unusual (or not aligned with training data) the code is. [Gabi Teoduru](https://medium.com/@gabiteodoru/dont-force-your-llm-to-write-terse-code-an-argument-from-information-theory-for-q-kdb-developers-04077c5b7038)
+- 24 Oct 2025. [Ernest Ryu solved an open problem in convex optimization using ChatGPT](https://x.com/ErnestRyu/status/1980760351479328781). Quotes:
+  - ChatGPT is now at the level of solving some math research questions, but you do need an expert guiding it.
+  - ChatGPT was really effective at accelerating my progress. This work took about 12 hours, spread over 3 days. In hindsight, the proof is really simple.
+  - But I iterated through so many other strategies that didn't pan out, and ChatGPT crucially helped to quickly explore and eliminate those dead-end approaches. Also, the key successful steps were suggested by ChatGPT.
+  - ChatGPT did not produce the proof in a single prompt. The process was highly interactive. It generated many arguments, roughly 80% of which were incorrect.
+  - Yet some were genuinely novel to me. Whenever I recognized a novel idea, whether correct or only partially so, I distilled the key insight and prompted ChatGPT to develop it further.
+  - My contribution:
+    - **Filtering out incorrect arguments** and accumulating a set of correct facts.
+    - **Identifying promising new lines** of reasoning and guiding ChatGPT to explore them further
+    - Recognizing when a strategy had been fully explored and **deciding when to move on**.
+  - ChatGPT's contribution:
+    - Producing the final proof argument.
+    - Significantly accelerating my (or our) exploration of the many dead-end arguments, rapidly ruling out approaches that did not work.
+- 24 Oct 2025. Comparing the GPT 4.1 and 5 models at all different of reasoning, I've switched my default from GPT 4.1 mini to GPT 5 mini (medium). Far smarter for a slightly higher cost. [Artificial Analysis](https://artificialanalysis.ai/?cost=cost-vs-intelligence&models=gpt-5-low%2Cgpt-5-minimal%2Cgpt-5-nano%2Cgpt-5-nano-minimal%2Cgpt-5-mini%2Cgpt-5%2Cgpt-5-medium%2Cgpt-5-nano-medium%2Cgpt-5-mini-minimal%2Cgpt-5-mini-medium%2Capriel-v1-5-15b-thinker%2Cgpt-4-1%2Cgpt-4-1-nano%2Cgpt-4-1-mini)
+- 23 Oct 2025. Technology reveals our preferences by removing constraints. [Claude](https://claude.ai/share/87c71c26-6103-4687-b372-80f18d44fd21)
+  - When spelling became automated, we stopped cared about spelling for its own sake
+  - When GPS became ubiquitous, we stopped learning geography. We just want to get there
+  - When photography became unlimited, most captured moments. Few perfected shots
+  - When fitness tracking became easy, most just track. Few exercise more
+- 21 Oct 2025. I had Codex scrape my ~2,000 pending invites on LinkedIn and asked ChatGPT to analyze it. Here are learnings: [ChatGPT, private](https://chatgpt.com/c/68f72899-5814-8320-9d02-88ce06257fd8)
+  - Power-law. 5% of inviters account for ~42% of all common connections. Top 10 people alone for ~20%.
+  - IITM student invites are high (~14%), but with 0-2 common connects, i.e. distant strangers.
+  - EdTech is tiny in count but has the highest common connections per person (outlier-sensitive but real).
+  - Among ≥20-commons, many hold VP/Head/Site-Lead titles in Data/AI or GenAI (not just recruiters).
+  - GenAI people are 7-8% and steady across months. Not a useful signal to prioritize.
+  - Premium ~ Senior. Premium accounts show ~40% senior titles vs ~29% for non-premium.
+  - Finance invites have higher seniority rate and more common connects than healthcare.
+  - Followers have higher common connections (~6 vs ~4).
+- 19 Oct 2025. ⭐ Memory can be code. Agent memory is anything it choose to persist. Agents can write code on the fly to automate tasks, save them, and serve the code on the next request, potentially modifying the code as required. This is like the conscious mind saving a habit for the subconscious to execute fast.
+- 19 Oct 2025. Finally: Microsoft Office has an agent mode that lets you talk to it and do stuff. [The Verge](https://www.theverge.com/news/787076/microsoft-office-agent-mode-office-agent-anthropic-models)
 - 18 Oct 2025. Gemini API has a Google Maps tool that it can refer to - like Google Search. [Maps Grounding](https://ai.google.dev/gemini-api/docs/maps-grounding)
 - 16 Oct 2025. Earlier we needed humans to label data for RLHF. Now we don't since AI can simulate it. This is a pattern. Once AI learns from a human, that human skill can be automated. [How GPT-5 Thinks — OpenAI VP of Research Jerry Tworek](https://youtu.be/RqWIvvv3SnQ)
 - 14 Oct 2025. Meta built a [Code World Model](https://ai.meta.com/research/publications/cwm-an-open-weights-llm-for-research-on-code-generation-with-world-models/). Basically an LLM that acts like a Python interpreter!
