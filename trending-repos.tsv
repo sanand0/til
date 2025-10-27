@@ -11,31 +11,31 @@
 🟣	RS	    1939	   167	2025-10-26	abenz1267/walker	Multi-Purpose Launcher with a lot of features. Highly Customizable and fast.
 🟣	GO	   16130	   310	2025-10-26	henrygd/beszel	Lightweight server monitoring hub with historical data, docker stats, and alerts.
 🟣	GO	    6848	    18	2025-10-26	projectcalico/calico	Cloud native networking and network security
-🟣	GO	   20730	    54	2025-10-26	go-chi/chi	lightweight, idiomatic and composable router for building Go HTTP services
-🟣	GO	    3457	    11	2025-10-26	erigontech/erigon	Ethereum implementation on the efficiency frontier
-🟣	GO	   21606	    25	2025-10-26	redis/go-redis	Redis Go client
+🔴	GO	   20730	    54	2025-10-26	go-chi/chi	lightweight, idiomatic and composable router for building Go HTTP services	I don't code Go
+🔴	GO	    3457	    11	2025-10-26	erigontech/erigon	Ethereum implementation on the efficiency frontier	I don't do blockchain
+🔴	GO	   21606	    25	2025-10-26	redis/go-redis	Redis Go client	I don't code Go
 🟣	GO	    8872	   575	2025-10-26	dstotijn/hetty	An HTTP toolkit for security research.
 🟣	GO	   12442	    40	2025-10-26	ory/kratos	Headless cloud-native authentication and identity management written in Go. Scales to a billion+ users. Replace Homegrown, Auth0, Okta, Firebase with better UX and DX. Passkeys, Social Sign In, OIDC, Magic Link, Multi-Factor Auth, SMS, SAML, TOTP, and more. Runs everywhere, runs best on Ory Network.
 🟣	GO	    2580	    18	2025-10-26	publicsuffix/list	The Public Suffix List
 🟣	GO	   45242	   213	2025-10-26	usememos/memos	An open-source, self-hosted alternative to cloud note-taking services. No tracking, no ads, no subscription fees — just a clean, fast way to capture and organize your ideas.
 🟣	GO	     884	   412	2025-10-26	Notifuse/notifuse	Notifuse is an open-source & modern emailing platform
-🟣	GO	   52055	   443	2025-10-26	pocketbase/pocketbase	Open Source realtime backend in 1 file
+⏺️	GO	   52055	   443	2025-10-26	pocketbase/pocketbase	Open Source realtime backend in 1 file
 🟣	GO	   24800	    26	2025-10-26	rancher/rancher	Complete container management platform
 🟣	GO	   26524	   432	2025-10-26	seaweedfs/seaweedfs	SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files! Blob store has O(1) disk seek, cloud tiering. Filer supports Cloud Drive, xDC replication, Kubernetes, POSIX FUSE mount, S3 API, S3 Gateway, Hadoop, WebDAV, encryption, Erasure Coding. Enterprise version is at seaweedfs.com.
 🟣	GO	   27572	   357	2025-10-26	SagerNet/sing-box	The universal proxy platform
-🟣	GO	   46954	   130	2025-10-26	hashicorp/terraform	Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.
+🟢	GO	   46954	   130	2025-10-26	hashicorp/terraform	Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.
 🟣	GO	   30610	   116	2025-10-26	wailsapp/wails	Create beautiful applications using Go
-🟣	PY	   99955	   313	2025-10-26	deepseek-ai/DeepSeek-V3
+🟢	PY	   99955	   313	2025-10-26	deepseek-ai/DeepSeek-V3
 🟣	PY	    5265	  1722	2025-10-26	harvard-edge/cs249r_book	Introduction to Machine Learning Systems
 🟣	PY	   13713	  1961	2025-10-26	DrewThomasson/ebook2audiobook	Generate audiobooks from e-books, voice cloning & 1107+ languages!
 🟣	PY	   23754	   615	2025-10-26	fishaudio/fish-speech	SOTA Open Source TTS
-🟣	PY	   18644	   579	2025-10-26	huggingface/lerobot	🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning
+⏺️	PY	   18644	   579	2025-10-26	huggingface/lerobot	🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning
 🟣	PY	   14751	  1010	2025-10-26	emcie-co/parlant	LLM agents built for control. Designed for real-world use. Deployed in minutes.
 🟣	PY	   15298	   676	2025-10-26	Skyvern-AI/skyvern	Automate browser-based workflows with LLMs and Computer Vision
 🟣	PY	    7454	    21	2025-10-26	sphinx-doc/sphinx	The Sphinx documentation generator
 🟣	PY	   30412	    91	2025-10-26	tinygrad/tinygrad	You like pytorch? You like micrograd? You love tinygrad! ❤️
 🟣	PY	   14736	   278	2025-10-26	volcengine/verl	verl: Volcano Engine Reinforcement Learning for LLMs
-🟣	PY	   61017	   624	2025-10-26	vllm-project/vllm	A high-throughput and memory-efficient inference and serving engine for LLMs
+🟢	PY	   61017	   624	2025-10-26	vllm-project/vllm	A high-throughput and memory-efficient inference and serving engine for LLMs
 🟣	TS	   43712	    71	2025-10-26	RocketChat/Rocket.Chat	The communications platform that puts data protection first.
 🟣	TS	   12475	   186	2025-10-26	Canner/WrenAI	⚡️ GenBI (Generative BI) queries any database in natural language, generates accurate SQL (Text-to-SQL), charts (Text-to-Chart), and AI-powered business intelligence in seconds.
 🟣	TS	   11652	   246	2025-10-26	browserless/browserless	Deploy headless browsers in Docker. Run on our cloud or bring your own. Free for non-commercial uses.
