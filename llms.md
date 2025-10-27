@@ -2,6 +2,37 @@
 
 ## Oct 2025
 
+- 27 Oct 2025. Things that I currently follow and don't follow from Peter Steinberger's excellent [Just Talk To It](https://steipete.me/posts/just-talk-to-it#do-you-do-spec-driven-development):
+  - [x] Prefer Codex > Claude Code.
+  - [x] Ask for options before executing
+  - [x] Generate & review specs collaboratively
+  - [x] You don't need git worktrees
+  - [x] Prefer subscriptions over API to reduce cost
+  - [x] Store docs with code
+  - [x] Give examples
+  - [x] Use voice input
+  - [x] Use Codex Web as a mobile inbox for ideas
+  - [x] Prefer CLI over agentic platforms
+  - [x] Prefer CLI tools over MCP
+  - [x] Avoid ALL-CAPS for Codex. It follows instructions well
+  - [x] Avoid subagents, RAG, etc.
+  - [x] Iterate UI live. Watch changes
+  - [ ] Use 3-8 agents in parallel on a single repo.
+  - [ ] Make small, atomic commits - only what the agent touches - every step
+  - [ ] Add `ast-grep` as a pre-commit hook to block rule violations.
+  - [ ] Keep slash commands minimal (`/commit`, `/automerge`, `/massageprs`, `/review`). Just "commit" reduces context
+  - [ ] Cancel long tasks and ask what's happening
+  - [ ] Prefer Medium over High reasoning. It decides level of thinking
+  - [ ] Share screenshots
+  - [ ] Use tmux to run CLIs persistently
+  - [ ] Schedule refactor time (20%). Use jscpd, knip, oxlint, ...
+  - [ ] Don't reset context. Cold start wastes time + tokens
+  - [ ] Write tests in the _same_ context. Yields better tests, reveals bugs.
+  - [ ] Prototype in a separate folder / PR
+  - [ ] Queue `continue` messages** before stepping away
+  - [ ] Ask it to "Preserve intent and add comments at tricky spots". Future you needs the WHY
+  - [ ] On hard problems, add “take your time”, “be comprehensive”, “read all related code”, “form hypotheses”, etc.
+  - [ ] Maintain an _evolving_ **AGENTS.md** with product notes, naming, API patterns, test policy, **ast-grep rules**, etc. Delete stale guidelines
 - 27 Oct 2025. Fascinating implications from [Quantifying Human-AI Synergy](https://osf.io/preprints/psyarxiv/vbkmt_v1) [ChatGPT](https://chatgpt.com/share/68fefb3a-c59c-800c-8b0c-bb03220f428a)
   - Models vary in ability to uplift humans. Don't just use standalone model benchmarks.
   - People vary in ability to work with AI. Don't just measure solo skills. Reward AI collaboration ability (delegation, prompting, verification, revision, ...)
