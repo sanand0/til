@@ -28,11 +28,11 @@
 🟢	PY	   99955	   313	2025-10-26	deepseek-ai/DeepSeek-V3
 🟣	PY	    5265	  1722	2025-10-26	harvard-edge/cs249r_book	Introduction to Machine Learning Systems
 🟣	PY	   13713	  1961	2025-10-26	DrewThomasson/ebook2audiobook	Generate audiobooks from e-books, voice cloning & 1107+ languages!
-🟣	PY	   23754	   615	2025-10-26	fishaudio/fish-speech	SOTA Open Source TTS
+🔴	PY	   23754	   615	2025-10-26	fishaudio/fish-speech	SOTA Open Source TTS	Prefer APIs
 ⏺️	PY	   18644	   579	2025-10-26	huggingface/lerobot	🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning
 🟣	PY	   14751	  1010	2025-10-26	emcie-co/parlant	LLM agents built for control. Designed for real-world use. Deployed in minutes.
 🟣	PY	   15298	   676	2025-10-26	Skyvern-AI/skyvern	Automate browser-based workflows with LLMs and Computer Vision
-🟣	PY	    7454	    21	2025-10-26	sphinx-doc/sphinx	The Sphinx documentation generator
+🟢	PY	    7454	    21	2025-10-26	sphinx-doc/sphinx	The Sphinx documentation generator
 🟣	PY	   30412	    91	2025-10-26	tinygrad/tinygrad	You like pytorch? You like micrograd? You love tinygrad! ❤️
 🟣	PY	   14736	   278	2025-10-26	volcengine/verl	verl: Volcano Engine Reinforcement Learning for LLMs
 🟢	PY	   61017	   624	2025-10-26	vllm-project/vllm	A high-throughput and memory-efficient inference and serving engine for LLMs
@@ -43,7 +43,7 @@
 🟣	TS	   17212	   961	2025-10-26	dyad-sh/dyad	Free, local, open-source AI app builder ✨ v0 / lovable / Bolt alternative 🌟 Star if you like it!
 🟣	TS	   26579	   129	2025-10-26	blakeblackshear/frigate	NVR with realtime local object detection for IP cameras
 🟣	TS	   26855	   135	2025-10-26	honojs/hono	Web framework built on Web Standards
-🟣	TS	   75917	   840	2025-10-26	hoppscotch/hoppscotch	Open source API development ecosystem - https://hoppscotch.io (open-source alternative to Postman, Insomnia)
+🔴	TS	   75917	   840	2025-10-26	hoppscotch/hoppscotch	Open source API development ecosystem - https://hoppscotch.io (open-source alternative to Postman, Insomnia)	Prefer VS Code plugin
 🟣	TS	    8083	  2726	2025-10-26	lfnovo/open-notebook	An Open Source implementation of Notebook LM with more flexibility and features
 🟣	TS	   24003	   258	2025-10-26	gitroomhq/postiz-app	📨 The ultimate social media scheduling tool, with a bunch of AI 🤖
 🟣	TS	   40858	   278	2025-10-26	slidevjs/slidev	Presentation Slides for Developers
@@ -415,7 +415,7 @@
 🔴	RS	    3291	   566	2025-10-19	squidowl/halloy	IRC application written in Rust	I'm not on IRC
 🔴	RS	    2912	    49	2025-10-05	cocoindex-io/cocoindex	Data transformation framework for AI. Ultra performant, with incremental processing. 🌟 Star if you like it!	Opinionated framework
 🔴	RS	    2883	   327	2025-09-17	EFForg/rayhunter	Rust tool to detect cell site simulators on an orbic mobile hotspot	Don't have a need
-🔴	RS	    2779	   551	2025-09-23	ArthurBrussee/brush	3D Reconstruction for all	 Prefer AI APIs
+🔴	RS	    2779	   551	2025-09-23	ArthurBrussee/brush	3D Reconstruction for all	 Prefer APIs
 🔴	RS	    2774	   104	2025-10-05	davidlattimore/wild	A very fast linker for Linux	I don't code C
 🔴	RS	    1647	   431	2025-09-17	carthage-software/mago	Mago is a toolchain for PHP that aims to provide a set of tools to help developers write better code	I don't code PHP
 🔴	RS	    1551	    26	2025-10-19	a2x/cs2-dumper	Counter-Strike: 2 Offset Dumper	I don't play Counter-Strike
@@ -425,7 +425,7 @@
 🔴	PY	  321277	  1132	2025-09-27	donnemartin/system-design-primer	Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.	Skip educational
 🔴	PY	  209369	  1635	2025-09-27	TheAlgorithms/Python	All Algorithms implemented in Python	Skip educational
 🔴	PY	   79150	   735	2025-10-05	bregman-arie/devops-exercises	Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions	Skip educational
-🔴	PY	   73778	   391	2025-10-05	hacksider/Deep-Live-Cam	real time face swap and one-click video deepfake with only a single image	Prefer API-based providers
+🔴	PY	   73778	   391	2025-10-05	hacksider/Deep-Live-Cam	real time face swap and one-click video deepfake with only a single image	Prefer APIs
 🔴	PY	   58210	  2110	2025-10-05	commaai/openpilot	openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.	I don't code car assistance systems
 🔴	PY	   56152	  1130	2025-09-17	CorentinJ/Real-Time-Voice-Cloning	Clone a voice in 5 seconds to generate arbitrary speech in real-time	Outdated
 🔴	PY	   54237	   549	2025-09-17	PaddlePaddle/PaddleOCR	Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 80+ languages.	Prefer markitdown
