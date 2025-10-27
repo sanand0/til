@@ -3,7 +3,9 @@
 ## Oct 2025
 
 - 27 Oct 2025. Fascinating implications from [Quantifying Human-AI Synergy](https://osf.io/preprints/psyarxiv/vbkmt_v1) [ChatGPT](https://chatgpt.com/share/68fefb3a-c59c-800c-8b0c-bb03220f428a)
-  -
+  - Models vary in ability to uplift humans. Don't just use standalone model benchmarks.
+  - People vary in ability to work with AI. Don't just measure solo skills. Reward AI collaboration ability (delegation, prompting, verification, revision, ...)
+  - Design UI and models for synergy. UI: Surface/solicit intent, uncertainty, constraints. Model: Infer & adapt to evolving user state.
 - 26 Oct 2025. [OpenRouter image generation](https://openrouter.ai/docs/features/multimodal/image-generation) now includes [GPT-5 Image Mini](https://openrouter.ai/openai/gpt-5-image-mini). An image costs about 1 cent. Here's the code:
   ```bash
   curl 'https://openrouter.ai/api/v1/chat/completions' \
