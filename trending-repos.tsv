@@ -6,7 +6,7 @@
 🟣	RS	     403	   217	2025-10-26	OpenDevicePartnership/patina	Patina Firmware
 🟣	RS	   14673	    54	2025-10-26	PyO3/pyo3	Rust bindings for the Python interpreter
 🟢	RS	   56786	   590	2025-10-26	BurntSushi/ripgrep	ripgrep recursively searches directories for a regex pattern while respecting your gitignore
-	RS	   33091	  1353	2025-10-26	servo/servo	Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.
+🔴	RS	   33091	  1353	2025-10-26	servo/servo	Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.	I don't code Rust
 🟣	RS	   20737	   100	2025-10-26	slint-ui/slint	Slint is an open-source declarative GUI toolkit to build native user interfaces for Rust, C++, JavaScript, or Python apps.
 🟣	RS	    1939	   167	2025-10-26	abenz1267/walker	Multi-Purpose Launcher with a lot of features. Highly Customizable and fast.
 🟣	GO	   16130	   310	2025-10-26	henrygd/beszel	Lightweight server monitoring hub with historical data, docker stats, and alerts.
