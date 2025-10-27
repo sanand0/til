@@ -2,6 +2,10 @@
 
 ## Oct 2025
 
+- 27 Oct 2025. Which is better: Comment A: 1 upvote, 0 downvotes (100% positive) or Comment B: 99 upvotes, 1 downvote (99% positive)? Use **Wilson's Lower Bound** which measures "What % positive am I 95% confident of?" [Claude](https://claude.ai/share/0f69e7f8-6ca7-4fee-b3ec-8b580556bc9a)
+  - Using this, we can measure metrics for tweets, like below. [ChatGPT](https://chatgpt.com/share/68fef88f-7b18-800c-835f-38a3fe470f34)
+  - Popularity = (5 * WLB(reposts / views) + 2 * WLB(likes / views)) * Decay(half-life of 72 h)
+  - Memorability = (5 * WLB(bookmarks / views) + 4 * WLB(replies / views)) * Decay(half-life of 36 hours)
 - 25 Oct 2025. How are people using browser agents like Comet / Atlas? [Simon Willison](https://x.com/simonw/status/1980713097024401548)
   - Most popular: YouTube video summaries with timestamps
   - Most useful: Form filling: Government forms, data entry, repetitive bureaucratic tasks
