@@ -5,8 +5,8 @@
 🟣	RS	     418	    20	2025-10-26	zorp-corp/nockchain	Nockchain protocol monorepo
 🟣	RS	     403	   217	2025-10-26	OpenDevicePartnership/patina	Patina Firmware
 🟣	RS	   14673	    54	2025-10-26	PyO3/pyo3	Rust bindings for the Python interpreter
-🟣	RS	   56786	   590	2025-10-26	BurntSushi/ripgrep	ripgrep recursively searches directories for a regex pattern while respecting your gitignore
-🟣	RS	   33091	  1353	2025-10-26	servo/servo	Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.
+🟢	RS	   56786	   590	2025-10-26	BurntSushi/ripgrep	ripgrep recursively searches directories for a regex pattern while respecting your gitignore
+	RS	   33091	  1353	2025-10-26	servo/servo	Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.
 🟣	RS	   20737	   100	2025-10-26	slint-ui/slint	Slint is an open-source declarative GUI toolkit to build native user interfaces for Rust, C++, JavaScript, or Python apps.
 🟣	RS	    1939	   167	2025-10-26	abenz1267/walker	Multi-Purpose Launcher with a lot of features. Highly Customizable and fast.
 🟣	GO	   16130	   310	2025-10-26	henrygd/beszel	Lightweight server monitoring hub with historical data, docker stats, and alerts.
@@ -25,7 +25,7 @@
 🟣	GO	   27572	   357	2025-10-26	SagerNet/sing-box	The universal proxy platform
 🟣	GO	   46954	   130	2025-10-26	hashicorp/terraform	Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.
 🟣	GO	   30610	   116	2025-10-26	wailsapp/wails	Create beautiful applications using Go
-🟣	PY	   99955	   313	2025-10-26	deepseek-ai/DeepSeek-V3	
+🟣	PY	   99955	   313	2025-10-26	deepseek-ai/DeepSeek-V3
 🟣	PY	    5265	  1722	2025-10-26	harvard-edge/cs249r_book	Introduction to Machine Learning Systems
 🟣	PY	   13713	  1961	2025-10-26	DrewThomasson/ebook2audiobook	Generate audiobooks from e-books, voice cloning & 1107+ languages!
 🟣	PY	   23754	   615	2025-10-26	fishaudio/fish-speech	SOTA Open Source TTS
