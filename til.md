@@ -2,22 +2,12 @@
 
 ## Oct 2025
 
+- 01 Nov 2025. [TVMaze API](https://www.tvmaze.com/api) is an API for TV shows, episodes, cast, crew, etc. Useful for TV-related apps as well as learning APIs.
+- 27 Oct 2025. [parse-sse](https://github.com/sindresorhus/parse-sse) from Sindre Sorhus is a more standards-compliant, more likely-to-be-maintained alternative to my [async-sse](https://github.com/sanand0/async-sse) package.
 - 27 Oct 2025. Which is better: Comment A: 1 upvote, 0 downvotes (100% positive) or Comment B: 99 upvotes, 1 downvote (99% positive)? Use **Wilson's Lower Bound** which measures "What % positive am I 95% confident of?" [Claude](https://claude.ai/share/0f69e7f8-6ca7-4fee-b3ec-8b580556bc9a)
   - Using this, we can measure metrics for tweets, like below. [ChatGPT](https://chatgpt.com/share/68fef88f-7b18-800c-835f-38a3fe470f34)
   - Popularity = (5 * WLB(reposts / views) + 2 * WLB(likes / views)) * Decay(half-life of 72 h)
   - Memorability = (5 * WLB(bookmarks / views) + 4 * WLB(replies / views)) * Decay(half-life of 36 hours)
-- 25 Oct 2025. How are people using browser agents like Comet / Atlas? [Simon Willison](https://x.com/simonw/status/1980713097024401548)
-  - Most popular: YouTube video summaries with timestamps
-  - Most useful: Form filling: Government forms, data entry, repetitive bureaucratic tasks
-    - Foreign language navigation: Applying for pension in Korea, navigating sites in other languages
-    - Time reporting auto-completion
-    - Insurance claims: Reading policy documents and drafting appeals (successfully got claim reimbursed in India)
-    - Compliance training click throughs
-  - Next most useful: Shopping / planning
-    - Energy provider comparison - Comet checked current plan vs competitors on Check24, calculated exact annual savings per provider
-    - Financial tracking: Finding Amazon orders, tracking Airbnb spending with refund calculations, analyzing bank transactions
-    - Trip planning: Mapping 50-100 places on Google Maps automatically
-  - Interesting: Airport shuttle discovery - Found shuttle that user missed in manual searching
 - 25 Oct 2025. Before founding a place to do good, work in a place that does good and learn. [Ben Werdmuller](https://werd.io/using-technology-skills-for-positive-change/)
 - 24 Oct 2025. [HubFS](https://github.com/winfsp/hubfs) mounts GitHub repos on the file system. Every file system action directly works on GitHub via a REST API. Useful for some scenarios but less useful for note-taking than something like [GitDoc](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc) which offers a delayed sync.
 - 23 Oct 2025. `python -m pdb -c continue script.py` or `uv run -m pdb -c continue script.py` runs a script and drops into pdb on unhandled exceptions (post-mortem). [ChatGPT](https://chatgpt.com/share/68f9b890-ba0c-800c-8a29-48245a41ca5e)

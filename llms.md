@@ -2,6 +2,58 @@
 
 ## Oct 2025
 
+- 01 Nov 2025. Notes from [Vanya Seth](https://www.thoughtworks.com/profiles/v/vanya-seth)'s keynote at [OSAI HYD](https://hasgeek.com/fifthelephant/osai-hyd-meetup/schedule/ai-first-software-delivery-superpowers-adoption-challenges-and-the-path-to-software-3-0-5NgsrKyCWSJszHXvHKHkdW)
+  - Superpowers of Gen AI to keep in mind when exploring AI coding agent use cases:
+    - **Translating**. Requirements to code, code to code, language to queries, standard to standard.
+    - **Finding** info just-in-time (in context). How does this work? What's this error? What tools are permitted in my org? Who knows what? E.g. [Atlassian Rovo](https://www.atlassian.com/software/rovo) queries _across_ JIRA, Confluence, etc.
+    - **Brainstorming** and ideation. Product ideation. Requirements. Testing gaps. Architecture review. Exploratory / scenario testing.
+    - **Summarizing** and clustering. Change logs, incident management, research data, docs summary.
+  - Challenges in using AI coding agents:
+    1. Adoption imbalance. Only certain roles are amplified by AI. Coding, QA, more than planning, maintenance, AI ops, etc. What's the impact of this?
+       - ⭐ Goldratt's ToC implies that backlogs need to fill faster. Downstream becomes a bottleneck. Technical debt piles up.
+       - ACTION: Use AI across _entire_ value chain, from research to maintenance.
+    2. Locality. enhances roles (nodes), not relationships (links). They optimize local work, not global flow. Workflow tools are missing.
+       - Coordination overhead. Context Fragmentation. Translation problems.
+       - ⭐ Expand productive roles to cover neighboring tasks. Productive developers shift left and build backlogs; shift right to reduce code review, maintenance tasks.
+         - E.g. Move maintenance/production activities into development. Security, performance, monitoring, observability, cost, infrastructure.
+         - We spend time on IDE, CI/CD, Jira, Confluence, Prod observability tools.
+         - A typical Agent Development Platform (ADP) covers evals, guardrails, workflow builder, agent builder, observability, prompt management, AI gateway (LiteLLM), MCP servers, model fine-tuning, model serving, model repository, vector stores
+         - We need ADP Agents covering delivery risk, continuous security, prod issues RCA, observability, performance, accessibility, product research, infra optiimzation, test data generation, anomaly detection, release management
+         - ACTION: Share ADP photo with Patrick.
+      - ACTION: ⭐ Centralize skills ("knowledge packs") and MCPs and observe which gets used most. Allow people to use more.
+    3. Lethal Trifecta. There's growing demand for higher productivity with AI code assistants. But the lethal trifecta makes them an attack vector. It has access to sensitive information, exfiltrate data, and read and follow unsafe instructions.
+       - Can lead to supply chain poisoning attacks.
+       - Regulated industries cannot adopt.
+    4. Technical debt growth. More productivity leads to poor code quality which will slow down future work.
+       - See [Software Engineering Excellence 2025](https://www.harness.io/the-state-of-software-engineering-excellence)
+       - AI induced complacency.
+       - Sunk-cost fallacy on AI-generated code hurts.
+       - ACTION: Evaluate code quality continuously to reduce technical debt. Double-down on good engineering practices.
+    5. Compliance.
+       - Model residency. Self-hosting is required.
+       - Data observability gaps. Data privacy, audit trails, etc. are concerns.
+       - Token economics. $20/day happens in Thoughtworks. Token cost is subsidized.
+       - Rogue AI usage. Use of dis-allowed tools; shadow IT.
+       - ROI justification. Hard to quantify productivity gains.
+    6. Adoption.
+       - AI Literacy. Tap into organizational knowledge
+       - Champions & communities of practice to support cross-pollination.
+       - Use-case driven adoption. Teams identify based on AI superpowers.
+       - AI playbook. Share what worked, what didn't work.
+- 28 Oct 2025. AI automation is likely less if a **high portion** of work
+  - Has **legal liability** (e.g. pharmacist/judge vs shop attendant/lawyer)
+  - Is **subjective** (e.g. perfumer/auction appraiser vs lab chemist/insurance appraiser)
+  - Needs rapid contextual **decisions** (e.g. detective/fireman/ER vs parking enforcer)
+  - Via [ChatGPT](https://chatgpt.com/c/68d79589-c2b8-8331-b86f-0e0f211feb7f), [Claude](https://claude.ai/chat/d534c273-7b6c-4ffa-98a9-5bca40d9959a)
+- 27 Oct 2025. A nice visual "benchmark" of [text-to-image](https://genai-showdown.specr.net/) and [image editing](https://genai-showdown.specr.net/image-editing) models. Seadream, Gemini 2.5 Flash, and Qwen image edit lead.
+- 27 Oct 2025. [Arch](https://docs.archgw.com/) is a pure LLM router. It supports multiple LLMs, flexible routing and observability but not auth.
+- 27 Oct 2025. From [Codex docs](https://github.com/openai/codex/tree/main/docs)
+  - Add [custom prompts](https://github.com/openai/codex/blob/main/docs/prompts.md) in `~/.codex/prompts/xyz.md` and launch as `/prompts:xyz`. Optional: `description:` and `argument-hint:` in YAML front-matter. For example, create prompts to refactor, rewrite in a developer's style, document AGENTS.md, identify re-usable code, etc.
+  - `AGENTS.override.md` overrides parent directory `AGENTS.md`. `AGENTS.md` appends to parent `AGENTS.md`. [Fallback names are allowed](https://github.com/openai/codex/blob/main/docs/agents_md.md#how-they-come-together).
+  - [`codex exec` supports streaming JSON](https://github.com/openai/codex/blob/main/docs/exec.md#json-output-mode)
+  - [`codex exec` accepts a `CODEX_API_KEY=` environment variable](https://github.com/openai/codex/blob/main/docs/exec.md#authentication). [`codex` uses an `OPENAI_API_KEY`](https://github.com/openai/codex/blob/main/docs/authentication.md#usage-based-billing-alternative-use-an-openai-api-key).
+  - You can configure [which environment variables are passed to the shell](https://github.com/openai/codex/blob/main/docs/config.md#shell_environment_policy)
+  - [Codex reads 32KB from AGENTS.md by default](https://github.com/openai/codex/blob/main/docs/config.md#project_doc_max_bytes)
 - 27 Oct 2025. Things that I currently follow and don't follow from Peter Steinberger's excellent [Just Talk To It](https://steipete.me/posts/just-talk-to-it#do-you-do-spec-driven-development):
   - [x] Prefer Codex > Claude Code.
   - [x] Ask for options before executing
@@ -18,9 +70,9 @@
   - [x] Avoid subagents, RAG, etc.
   - [x] Iterate UI live. Watch changes
   - [ ] Use 3-8 agents in parallel on a single repo.
-  - [ ] Make small, atomic commits - only what the agent touches - every step
+  - [ ] Make small, atomic commit checkpoints. Commit only what the agent touches
   - [ ] Add `ast-grep` as a pre-commit hook to block rule violations.
-  - [ ] Keep slash commands minimal (`/commit`, `/automerge`, `/massageprs`, `/review`). Just "commit" reduces context
+  - [ ] Keep custom prompts minimal (commit, automerge, massageprs, review, ...). Just "commit" reduces context
   - [ ] Cancel long tasks and ask what's happening
   - [ ] Prefer Medium over High reasoning. It decides level of thinking
   - [ ] Share screenshots
@@ -33,10 +85,12 @@
   - [ ] Ask it to "Preserve intent and add comments at tricky spots". Future you needs the WHY
   - [ ] On hard problems, add “take your time”, “be comprehensive”, “read all related code”, “form hypotheses”, etc.
   - [ ] Maintain an _evolving_ **AGENTS.md** with product notes, naming, API patterns, test policy, **ast-grep rules**, etc. Delete stale guidelines
-- 27 Oct 2025. Fascinating implications from [Quantifying Human-AI Synergy](https://osf.io/preprints/psyarxiv/vbkmt_v1) [ChatGPT](https://chatgpt.com/share/68fefb3a-c59c-800c-8b0c-bb03220f428a)
+- 27 Oct 2025. Fascinating implications from [Quantifying Human-AI Synergy](https://osf.io/preprints/psyarxiv/vbkmt_v1) [ChatGPT](https://chatgpt.com/c/68fefa47-6a60-8320-9488-186d617916fc)
   - Models vary in ability to uplift humans. Don't just use standalone model benchmarks.
   - People vary in ability to work with AI. Don't just measure solo skills. Reward AI collaboration ability (delegation, prompting, verification, revision, ...)
-  - Design UI and models for synergy. UI: Surface/solicit intent, uncertainty, constraints. Model: Infer & adapt to evolving user state.
+  - Train models to ask for missing Theory-of-Mind cues: goal, beliefs, constraints, audience, success test
+  - Train people by asking them to predict what the model will get right/wrong, and validate
+  - Design UI and models for synergy. UI: Surface/solicit assumptions, intent, uncertainty, constraints. Model: Infer & adapt to evolving user state.
 - 26 Oct 2025. [OpenRouter image generation](https://openrouter.ai/docs/features/multimodal/image-generation) now includes [GPT-5 Image Mini](https://openrouter.ai/openai/gpt-5-image-mini). An image costs about 1 cent. Here's the code:
   ```bash
   curl 'https://openrouter.ai/api/v1/chat/completions' \
@@ -59,6 +113,18 @@
   - `codex --add-dir $DIR` lets you write into $DIR
   - `codex --full-auto` is the equivalent of `codex --sandbox workspace-write --ask-for-approval on-request`
 - 25 Oct 2025. Terse code is not necessarily easier or harder for LLMs to write. It's about how unusual (or not aligned with training data) the code is. [Gabi Teoduru](https://medium.com/@gabiteodoru/dont-force-your-llm-to-write-terse-code-an-argument-from-information-theory-for-q-kdb-developers-04077c5b7038)
+- 25 Oct 2025. How are people using browser agents like Comet / Atlas? [Simon Willison](https://x.com/simonw/status/1980713097024401548)
+  - Most popular: YouTube video summaries with timestamps
+  - Most useful: Form filling: Government forms, data entry, repetitive bureaucratic tasks
+    - Foreign language navigation: Applying for pension in Korea, navigating sites in other languages
+    - Time reporting auto-completion
+    - Insurance claims: Reading policy documents and drafting appeals (successfully got claim reimbursed in India)
+    - Compliance training click throughs
+  - Next most useful: Shopping / planning
+    - Energy provider comparison - Comet checked current plan vs competitors on Check24, calculated exact annual savings per provider
+    - Financial tracking: Finding Amazon orders, tracking Airbnb spending with refund calculations, analyzing bank transactions
+    - Trip planning: Mapping 50-100 places on Google Maps automatically
+  - Interesting: Airport shuttle discovery - Found shuttle that user missed in manual searching
 - 24 Oct 2025. [Ernest Ryu solved an open problem in convex optimization using ChatGPT](https://x.com/ErnestRyu/status/1980760351479328781). Quotes:
   - ChatGPT is now at the level of solving some math research questions, but you do need an expert guiding it.
   - ChatGPT was really effective at accelerating my progress. This work took about 12 hours, spread over 3 days. In hindsight, the proof is really simple.
@@ -73,11 +139,11 @@
     - Producing the final proof argument.
     - Significantly accelerating my (or our) exploration of the many dead-end arguments, rapidly ruling out approaches that did not work.
 - 24 Oct 2025. Comparing the GPT 4.1 and 5 models at all different of reasoning, I've switched my default from GPT 4.1 mini to GPT 5 mini (medium). Far smarter for a slightly higher cost. [Artificial Analysis](https://artificialanalysis.ai/?cost=cost-vs-intelligence&models=gpt-5-low%2Cgpt-5-minimal%2Cgpt-5-nano%2Cgpt-5-nano-minimal%2Cgpt-5-mini%2Cgpt-5%2Cgpt-5-medium%2Cgpt-5-nano-medium%2Cgpt-5-mini-minimal%2Cgpt-5-mini-medium%2Capriel-v1-5-15b-thinker%2Cgpt-4-1%2Cgpt-4-1-nano%2Cgpt-4-1-mini)
-- 23 Oct 2025. Technology reveals our preferences by removing constraints. [Claude](https://claude.ai/share/87c71c26-6103-4687-b372-80f18d44fd21)
-  - When spelling became automated, we stopped cared about spelling for its own sake
-  - When GPS became ubiquitous, we stopped learning geography. We just want to get there
+- 23 Oct 2025. Technology removes constraints. We then do what we really value. [Claude](https://claude.ai/chat/f3a2606f-203c-41cc-b50f-62504483504f)
+  - When writing became digitized, we stopped cared about spelling/handwriting for its own sake. Spelling bees and handwriting classes declined. "ur" is acceptable.
+  - When fitness tracking became easy, many just track, few exercise more. Few people value exercise
+  - When GPS became ubiquitous, we stopped learning geography. Most value arriving, not knowing
   - When photography became unlimited, most captured moments. Few perfected shots
-  - When fitness tracking became easy, most just track. Few exercise more
 - 21 Oct 2025. I had Codex scrape my ~2,000 pending invites on LinkedIn and asked ChatGPT to analyze it. Here are learnings: [ChatGPT, private](https://chatgpt.com/c/68f72899-5814-8320-9d02-88ce06257fd8)
   - Power-law. 5% of inviters account for ~42% of all common connections. Top 10 people alone for ~20%.
   - IITM student invites are high (~14%), but with 0-2 common connects, i.e. distant strangers.
@@ -341,7 +407,7 @@
 - 23 Aug 2025. Codex and Codex CLI now support image attachments.
 - 22 Aug 2025. Meta-prompts _with placeholders_ is a prompt-improvement technique (similar to LLM interviewing). Have LLMs create the prompt with "fill-in-the-blanks". This makes it much easier for people to fill out.
 - 22 Aug 2025. [MassGen](https://massgen.ai/) is a multi-agent orchestrator. Early days, experimental. It has multiple agents answer, then vote on each others' answers, picking the best.
-- 22 Aug 2025. [DSPy](https://dspy.ai/) auto-optimizes prompts based on input-output pairs or evals. Typical improvements are ~10-20%. My opinion: avoid. It's a good idea, but has too much abstraction that hides the implementation. Worth learning from but not implementing.
+- 22 Aug 2025. [DSPy](https://dspy.ai/) auto-optimizes prompts based on input-output pairs or evals. Typical improvements are ~10-20%. My opinion: avoid. It's a good idea, but has too much abstraction that hides the implementation. Worth learning from but not implementing unless you (a) have evals + metrics and (b) you KNOW you need to change models and (c) it's a long-term project where the learning curve is worth it. [Claude](https://claude.ai/share/7fb4b334-32fb-4d79-b2a4-6a2a842d8512) and [ChatGPT](https://chatgpt.com/c/6905ccd8-3d60-8321-869f-29b81d3d7641)
 - 22 Aug 2025. How LLM "Attention" works: It takes each word's embedding, moves it closer to similar words' embeddings (e.g. Apple moves towards phone or orange depending on context). More similar words have a higher pull, like gravity. [Luis Serrano](https://serrano.academy/)
   - Similarity isn't symmetric. E.g. "Coke" moves "drink" more towards it, but "drink" pulls "Coke" less, since "drink" could refer to other things.
   - Think of the pull ("Tinder similarity") as "what A wants" (key matrix, which pulls other words) multipled by "what B offers" (query matrix, which is pulled by other words). This leads to two different similarity matrices.
