@@ -2,18 +2,14 @@
 
 ## Oct 2025
 
-- 25 Oct 2025. How are people using browser agents like Comet / Atlas? [Simon Willison](https://x.com/simonw/status/1980713097024401548)
-  - Most popular: YouTube video summaries with timestamps
-  - Most useful: Form filling: Government forms, data entry, repetitive bureaucratic tasks
-    - Foreign language navigation: Applying for pension in Korea, navigating sites in other languages
-    - Time reporting auto-completion
-    - Insurance claims: Reading policy documents and drafting appeals (successfully got claim reimbursed in India)
-    - Compliance training click throughs
-  - Next most useful: Shopping / planning
-    - Energy provider comparison - Comet checked current plan vs competitors on Check24, calculated exact annual savings per provider
-    - Financial tracking: Finding Amazon orders, tracking Airbnb spending with refund calculations, analyzing bank transactions
-    - Trip planning: Mapping 50-100 places on Google Maps automatically
-  - Interesting: Airport shuttle discovery - Found shuttle that user missed in manual searching
+- 02 Nov 2025. [PMTiles](https://github.com/protomaps/PMTiles) lets you store map tiles as a single-file archive that libraries like MapLibre can read. Useful to avoid tile servers.
+- 02 Nov 2025. [Mirrow](https://mirrow.app/) is a CLI SVG animation builder that converts a DSL to animated SVGs. However, it may be easier to use an LLM to create the animated SVG directly with [SMIL](https://developer.mozilla.org/en-US/docs/Web/SVG/Guides/SVG_animation_with_SMIL) than learning Mirrow (or teaching the LLM Mirrow).
+- 01 Nov 2025. [TVMaze API](https://www.tvmaze.com/api) is an API for TV shows, episodes, cast, crew, etc. Useful for TV-related apps as well as learning APIs.
+- 27 Oct 2025. [parse-sse](https://github.com/sindresorhus/parse-sse) from Sindre Sorhus is a more standards-compliant, more likely-to-be-maintained alternative to my [async-sse](https://github.com/sanand0/async-sse) package.
+- 27 Oct 2025. Which is better: Comment A: 1 upvote, 0 downvotes (100% positive) or Comment B: 99 upvotes, 1 downvote (99% positive)? Use **Wilson's Lower Bound** which measures "What % positive am I 95% confident of?" [Claude](https://claude.ai/share/0f69e7f8-6ca7-4fee-b3ec-8b580556bc9a)
+  - Using this, we can measure metrics for tweets, like below. [ChatGPT](https://chatgpt.com/share/68fef88f-7b18-800c-835f-38a3fe470f34)
+  - Popularity = (5 * WLB(reposts / views) + 2 * WLB(likes / views)) * Decay(half-life of 72 h)
+  - Memorability = (5 * WLB(bookmarks / views) + 4 * WLB(replies / views)) * Decay(half-life of 36 hours)
 - 25 Oct 2025. Before founding a place to do good, work in a place that does good and learn. [Ben Werdmuller](https://werd.io/using-technology-skills-for-positive-change/)
 - 24 Oct 2025. [HubFS](https://github.com/winfsp/hubfs) mounts GitHub repos on the file system. Every file system action directly works on GitHub via a REST API. Useful for some scenarios but less useful for note-taking than something like [GitDoc](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc) which offers a delayed sync.
 - 23 Oct 2025. `python -m pdb -c continue script.py` or `uv run -m pdb -c continue script.py` runs a script and drops into pdb on unhandled exceptions (post-mortem). [ChatGPT](https://chatgpt.com/share/68f9b890-ba0c-800c-8a29-48245a41ca5e)
@@ -81,7 +77,7 @@
 - 03 Oct 2025. Wrong answers are useful if you discover why they said that. Conversation is a game where you CO-CONSTRUCT common ground. [Mike Caulfield](https://mikecaulfield.substack.com/p/when-wrong-llm-answers-get-you-to)
 - 03 Oct 2025. BMTC hourly data from Bangalore Metro is available via RTI. [Vivek](https://github.com/Vonter/bmrcl-ridership-hourly)
 - 02 Oct 2025. [SSH3](https://github.com/francoismichel/ssh3) is an emerging SSH alternative that's written on top of HTTP/3. It supports OAuth2, OpenID Connect, and HTTPS for certificates.
-- 02 Oct 2025. Cholesterol has become a victim of its own success. We give statins to those with high LDL. So most people who have heart attacks have lower-than-natural cholesterol. Inflammation (HS-CRP) is now the strongest predictor of heart attack ([American College of Cardiology ](https://www.empirical.health/blog/inflammation-and-heart-health/)). The usual stuff reduces HS-CRP: no sugar/carbs, veggies, nuts, green tea, turmeric/black pepper, weight loss, exercise, sleep, meditation.
+- 02 Oct 2025. Cholesterol has become a victim of its own success. We give statins to those with high LDL. So most people who have heart attacks have lower-than-natural cholesterol. Inflammation (HS-CRP) is now the strongest predictor of heart attack ([American College of Cardiology](https://www.empirical.health/blog/inflammation-and-heart-health/)). The usual stuff reduces HS-CRP: no sugar/carbs, veggies, nuts, green tea, turmeric/black pepper, weight loss, exercise, sleep, meditation.
 - 02 Oct 2025. ⭐ The beginner mindset: scrub your instincts and don't let life experience cloud you. This takes effort. Hold on to naivette and escape cynicism. [The Knowledge Project: Barry Diller](https://fs.blog/knowledge-project-podcast/barry-diller/)
 - 02 Oct 2025. Forecasts give comfort. They may not be good but they feel safer than instinct. [The Knowledge Project: Barry Diller](https://fs.blog/knowledge-project-podcast/barry-diller/)
 - 02 Oct 2025. My laptop's mic is much better than my phone's mic, surprisingly. When recording conversations, it's better to leave my laptop open and record than use the phone's recording app.
@@ -144,7 +140,7 @@
 - 10 Sep 2025. The [npm phishing email was a great one](https://xeiaso.net/notes/2025/we-dodged-a-bullet/). It [compromised chalk](https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised) which is used in most npm packages. This may be one of the best supply chain attacks in recent times and makes me want to pin versions instead of using `npx -y`. Also makes me glad that I'm sponsoring [@isaacs](https://github.com/isaacs) and [@sindresorhus](https://github.com/sindresorhus) - two _critical_ open source maintainers.
 - 10 Sep 2025. "I pay for YouTube Premium. For my money, it’s the best bang-for-the-buck subscription service on the market". - [Gavin Andregg](https://anderegg.ca/2025/09/08/youtube-is-a-mysterious-monopoly)
 - 09 Sep 2025. You can create an [infinite leaflet map with nano banana](https://github.com/seezatnap/nano-banana-infinimap).
-- 08 Sep 2025. The [Reod](https://coppermind.net/wiki/Reod) on [Elantris](<https://coppermind.net/wiki/Elantris_(city)>) might have been triggered by [Jaddeth](https://coppermind.net/wiki/Jaddeth) who might be an [Autonomy](https://coppermind.net/wiki/Autonomy) avatar. [ChatGPT](https://chatgpt.com/share/68be4c74-afa8-800c-b004-7a1565cb2487)
+- 08 Sep 2025. The [Reod](https://coppermind.net/wiki/Reod) on [Elantris](https://coppermind.net/wiki/Elantris_(city)) might have been triggered by [Jaddeth](https://coppermind.net/wiki/Jaddeth) who might be an [Autonomy](https://coppermind.net/wiki/Autonomy) avatar. [ChatGPT](https://chatgpt.com/share/68be4c74-afa8-800c-b004-7a1565cb2487)
 - 06 Sep 2025. A quick way to get the docs for an npm package is `npm view package-name readme`. For PyPi, it's `curl -s https://pypi.org/pypi/package-name/json | jq -r .info.description`
 - 04 Sep 2025. [gitingest](http://gitingest.com/) has a [CLI](https://github.com/coderamp-labs/gitingest). `uvx gitingest https://github.com/owner/repo` fetches the code in the Git repo suitable for passing to an LLM.
 - 03 Sep 2025. You can use the `<script>` tag in XML to render RSS, as an alternative to XSLT. [Jake Archibald](https://jakearchibald.com/2025/making-xml-human-readable-without-xslt/)
@@ -255,15 +251,15 @@
     - **Preparation**. Have decision makers write down decisions _before_ discussing. Increases diversity.
 - 16 Aug 2025. DuckDB's feature engineering capabilites are faster than scikit-learn. [DuckDB](https://duckdb.org/2025/08/15/ml-data-preprocessing.html)
 - 15 Aug 2025. ⭐ Assets are any leveragable stored capability. Money is one, but there are several one can "invest" in, be an agent of, or perhaps steal.
-  1.  Wealth (investments, income)
-  2.  Regenerative assets (land, carbon credits, renewables)
-  3.  Contacts (reference customers, hiring pipeline, talent bench, weak-ties)
-  4.  Distribution channels (repeatable routes to users: partnerships, marketplaces, APIs, SEO)
-  5.  Attention (your audience, whom you can reach directly)
-  6.  Trust/reputation in communities (community capital in employers, clients, forums, society, search keywords)
-  7.  Personal brand “edges” (moral authority, values lived aloud, distinctive taste or stance)
-  8.  Data (your clean, labeled, joined data corpus)
-  9.  Code (models, algorithms, components, templates, libraries, tools, evals; versioned)
+  1. Wealth (investments, income)
+  2. Regenerative assets (land, carbon credits, renewables)
+  3. Contacts (reference customers, hiring pipeline, talent bench, weak-ties)
+  4. Distribution channels (repeatable routes to users: partnerships, marketplaces, APIs, SEO)
+  5. Attention (your audience, whom you can reach directly)
+  6. Trust/reputation in communities (community capital in employers, clients, forums, society, search keywords)
+  7. Personal brand “edges” (moral authority, values lived aloud, distinctive taste or stance)
+  8. Data (your clean, labeled, joined data corpus)
+  9. Code (models, algorithms, components, templates, libraries, tools, evals; versioned)
   10. Content (blog posts, video tutorials, case studies, demos, stories, slides, docs)
   11. Knowledge (notes, decision logs, knowledge graph, institutional memory)
   12. Playbooks & runbooks (process checklists that survived fire, SOPs, scenario plans)
@@ -276,11 +272,7 @@
 - 15 Aug 2025. I like to think I'm a Python expert. When I saw a client use this code, I told her the indentation is wrong. It ran just fine. And people think only LLMs hallucinate.
 
   ```python
-  prompt = (
-    "Let's do this.\n"
-      "Step 1\n"
-      "Step 2\n"
-  )
+  prompt = "Let's do this.\nStep 1\nStep 2\n"
   ```
 
 - 14 Aug 2025. Turns out Indian English is a well studied topic. Indianisms like "can able to", "need not to", "why because…", "if suppose…", "return back", "revert back", "angry on", "discuss about", "order for", "do one thing…", "give me a missed call", "what is your good name", "kindly adjust", "we are like that only", "he is coming only", "today itself", "now only", "prepone", "pass out (of college)", "out of station", "do the needful", "hotel", "batchmate", "cousin-brother / cousin-sister", "I have a doubt", "I am understanding", "she is knowing", "you’re coming, no?" etc. are discussed in [Pingali Sailaja's Indian English](https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/Indo-European/Germanic/English%2C%20Indian%20%28Sailaja%29.pdf). [ChatGPT](https://chatgpt.com/share/689dcf8d-2ce4-800c-8553-e419eafd4891)
@@ -575,17 +567,20 @@
 - 30 Jun 2025. Here's a JS snippet you can paste in the DevTools console of an npm package version page ([example](https://www.npmjs.com/package/d3?activeTab=versions)) to get a Markdown list showing the versions and dates
   ```js
   copy(
-    $$('table[aria-labelledby="version-history"] tbody tr')
+    $$("table[aria-labelledby=\"version-history\"] tbody tr")
       .map((tr) => {
         const a = tr.querySelector("a");
-        const date = new Date(tr.querySelector("time").getAttribute("datetime")).toLocaleDateString("en-GB", {
-          day: "numeric",
-          month: "short",
-          year: "numeric",
-        });
-        return `- [${a.textContent.trim()}](https://npmjs.com${a.getAttribute("href")}): ${date}.`;
+        const date = new Date(tr.querySelector("time").getAttribute("datetime"))
+          .toLocaleDateString("en-GB", {
+            day: "numeric",
+            month: "short",
+            year: "numeric",
+          });
+        return `- [${a.textContent.trim()}](https://npmjs.com${
+          a.getAttribute("href")
+        }): ${date}.`;
       })
-      .join("\n")
+      .join("\n"),
   );
   ```
 - 29 Jul 2025. [FFmpeg in plain english](https://vidmix.app/ffmpeg-in-plain-english/) lets you run ffmpeg in the browser with plain English commands. It converts the task using an LLM into an ffmpeg command, runs it in browser via [WASM](https://ffmpegwasm.netlify.app/) (without uploading the file) and saves the output locally. This is very useful, since [ffmpeg](https://ffmpeg.org/) has one of the most complex command line options. I use an [llm]() template defined via:
@@ -727,7 +722,7 @@
 - 12 Jun 2025. [qsv](https://github.com/dathere/qsv) is a data wrangling toolkit for CSV files. [xan](https://github.com/medialab/xan) is similar. [csvkit](https://github.com/wireservice/csvkit), of course, is the most popular. An alternative, [xsv](https://github.com/BurntSushi/xsv?tab=readme-ov-file) is no longer updated.
 - 10 Jun 2025. The [Singularity Reddit](https://www.reddit.com/r/singularity/) is apparently a good source of LLM news.
 - 10 Jun 2025. Reddit has RSS feeds for each subreddit:
-  - Basic: `https://www.reddit.com/r/<subreddit>.rss  `
+  - Basic: `https://www.reddit.com/r/<subreddit>.rss`
   - All new: `https://www.reddit.com/r/<subreddit>/new.rss`t
   - Daily top: `https://www.reddit.com/r/<subreddit>/top.rss?t=day` (replace day with hour, week, month, or year)
   - Private reddit feeds are available at https://www.reddit.com/prefs/feeds/
