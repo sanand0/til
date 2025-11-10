@@ -2,6 +2,38 @@
 
 ## Oct 2025
 
+- 08 Nov 2025. [Claude scientific skills](https://github.com/K-Dense-AI/claude-scientific-skills/) is a collection of skills teaching Claude how to use scientific libraries, databases, and APIs across several domains. This may be a good example of a non-trivial skill library - that is hard for AI coding agents to infer by themselves.
+- 08 Nov 2025. Notes from [How I use every Claude Code feature](https://blog.sshh.io/p/how-i-use-every-claude-code-feature)
+  - Use AGENTS.md as guardrails, not a manual. Document what it gets wrong.
+  - Use self-documenting tools/APIs rather than documenting.
+  - Docs: Explain why and when to read each doc.
+  - Never say "Never." Explain when to which which alternative.
+  - Prefer CLIs for stateless tools, MCPs for stateful, authenticated, or complex (e.g. Playwright).
+- 08 Nov 2025. Coding agents work well with version control. [Simon Willison](https://simonwillison.net/2025/Nov/4/datasette-10a20/)
+  - Break up uncommitted changes into small commits
+  - Rewrite branch history for readability
+  - Use `gh` CLI to fetch line-wise comments from a PR and make requested changes (e.g. renaming, refactoring, adding types, etc.)
+- 08 Nov 2025. When using MCPs or tools with private data, "color untrusted content in red, exfiltration actions in blue, and never mix colors." [Good advice](https://timkellogg.me/blog/2025/11/03/colors).
+- 08 Nov 2025. DeepWiki offers a [codemaps](https://cognition.ai/blog/codemaps) feature that explains code in an interactive way. It shows a structured explanation on the left. You can click on any note to see the code on the right. It's an effective way to understand how a library or tool executes a task. [Here's an example of how Mermaid works](https://deepwiki.com/search/draw-a-codemap_59d591f6-fc79-40f0-973d-bfa0e149b41a).
+- 08 Nov 2025. [Gemini offers RAG with free storage](https://blog.google/technology/developers/file-search-gemini-api/). RAG costs are quite high. This simplifies the process a lot. But I tried running the sample program and after an hour, it still had not completed uploading a single file. Best to wait and watch.
+- 08 Nov 2025. [OpenRouter supports embedding models](https://openrouter.ai/models?fmt=cards&order=top-weekly&output_modalities=embeddings) using an [OpenAI-like API](https://openrouter.ai/docs/api-reference/embeddings/create-embeddings)
+- 08 Nov 2025. [Kimi K2 Thinking](https://openrouter.ai/moonshotai/kimi-k2-thinking) seems popular because
+  - It's an open-weights model on par with the top models on Humanity’s Last Exam (text-only) and BrowseComp
+  - Can run 200-300 tool calls without human guidance
+  - 4x cheaper than GPT-5 with low tokens (32B active on 1T parameters, INT4 quantized)
+- 05 Nov 2025. Based on responses to [Simon Willison's question](https://x.com/simonw/status/1979254349235925084), [ChatGPT](https://chatgpt.com/share/690b4fa0-7dec-800c-87a5-6e01dda36f7e)
+  - Fine-tuning helps when:
+    - Lower latency, e.g. for type-ahead, at lower cost (**37 mentions**)
+    - Structured extraction, parsing and classifiers, e.g. postal address, detecting secrets (18 mentions)
+    - Custom vision models, e.g. check containers (12 mentions)
+    - Domain-specific code and stacks (niche languages, stack-specific generation, text→SQL) (11 mentions)
+    - ... and a long tail.
+  - Fine tuning does not help:
+    - When A base model plus prompting or RAG does as well or better (**15 mentions**)
+    - When you risk being leapfrogged by a new release (4 mentions)
+    - When cost and data do not justify the ROI (3 mentions)
+- 04 Nov 2025. Adding `<link rel="alternate" type="text/markdown" title="LLM-friendly version" href="/llms.txt">` is an emerging approach for pointing to LLMs.txt. It works. I asked Codex to read the [CloudFlare vitest page](https://developers.cloudflare.com/workers/testing/vitest-integration/write-your-first-test/). It read the file truncating the middle, found the `<link rel="alternate" type="text/markdown" href="https://developers.cloudflare.com/workers/testing/vitest-integration/write-your-first-test/index.md"/` link in it, and reasoned "Considering fetching markdown instructions" and fetched the Markdown page. [Giles' Blog](https://www.gilesthomas.com/website-design)
+- 04 Nov 2025. [toon](https://github.com/toon-format/toon) is a YAML-like format that's LLM friendly and especially token-efficient (CSV-like) for tables. You can convert back and forth between JSON and toon.
 - 02 Nov 2025. One approach to giving memory ("episodic memory") to coding agents is to [allow them to search their logs](https://blog.fsck.com/2025/10/23/episodic-memory/).This gives them access to past discussions about a repo or other repos.
 - 02 Nov 2025. To [configure Gemini CLI](https://github.com/google-gemini/gemini-cli/blob/main/docs/get-started/configuration.md) with an AI router, set:
   - `"security.auth.selectedType": "gemini-api-key"` in `~/.gemini/settings.json`

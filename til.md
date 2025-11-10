@@ -2,6 +2,61 @@
 
 ## Oct 2025
 
+- 08 Nov 2025. "But when an identity based belief was challenged, the brain responded as if under physical attack." [Why Engineers Can't Be Rational About Programming Languages](https://spf13.com/p/the-hidden-conversation/)
+- 08 Nov 2025. Notes from [How to build a cult](https://www.youtube.com/watch?v=I9Njb8Lw5Xc), Lulu Cheng, The Knowledge Project
+  - Conviction is infectious.
+  - Communicate at the INTERSECTION of interests. Learn theirs
+  - Begin with "why your story matters to them" (first sentence). That beats "how you tell it" > "where you tell it".
+  - The easiest way to align with an audience is to find your community.
+  - Humor, curiosity, awe, any strong emotion is a hook.
+  - Culture has momentum. Best way to break it is to show an alternative that works. People will copy that
+  - REPEAT messages over and over with complete CONVICTION to convince people who TRUST you. That works, but you need all three.
+  - Trust builds from likeability, repeated exposure, common beliefs.
+  - An excellent way to defend against online criticism (when it matters) is to just SHOW UP and THANK them for feedback.
+  - Serious reputational damage must either be fixed immediately - or you live with it forever.
+  - Between a story and statistics, the story will always wins. Never fight a story with a statistic. Dig into your statistics and uncover BETTER stories.
+  - ⭐ Prebuttals are a great idea. Start with all possible criticisms yourself and diffuse them. The other person has nothing left to say
+  - Sparring keeps you sharp. Spar with LLMs.
+  - To defend, show how the attack targets other people, increasing the surface area. Show how the SPECIFIC attack targets a larger group. Create a SPECIFIC cause worth fighting for.
+  - Each role has specific objective to optimise for. The leader's role is to balance across these.
+  - Cheerleader effect. People look beautiful next to a cheerleader. Associations taint.
+  - Each person has dozens of aspects to their persona. We cannot remember all of them. Each person can make a choice on who they project themselves to be in any group. Shaping their persona.
+- 08 Nov 2025. The [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) extension may be causing delays (infinite spinner) when pasting Markdown in VS Code. Restarting it seems to fix the issue.
+- 04 Nov 2025. The data I can export from my Android phone includes the below. 🟢 indicates it's tracked. 🟡 might need action, e.g. enabling / coding. [#](https://chatgpt.com/c/69089221-9430-8320-9cb0-5350a17fc486)
+  - 🟢 GPS/GNSS location (current & history). Turn on device Location. If you want a timeline you can export, enable Google Location History and later export via Google Takeout → Location History (JSON/KML).
+  - 🟡 GNSS raw measurements (engineering traces). Android exposes GNSS “raw” logs on many devices; capture with dev tools or logging apps if supported (intended for research). See GNSS Raw Measurements API.
+  - 🟢 Wi-Fi scans (nearby SSIDs/BSSIDs). Toggle Location scanning → Wi-Fi scanning in Location settings; apps need location permission to read results.
+  - 🟡 Wi-Fi RTT distance to APs (indoor ranging). Apps can use Wi-Fi RTT (802.11mc/az) to measure distance to compatible APs; requires location permission.
+  - 🟢 Bluetooth proximity/traffic. For packet-level logs, enable Developer options → Enable Bluetooth HCI snoop log, then pull `/sdcard/btsnoop_hci.log` (Wireshark).
+  - 🟢 Cell towers (IDs, signal strength). Apps can read via TelephonyManager (e.g., `getAllCellInfo()`), with appropriate telephony permissions.
+  - 🟢 Activity recognition (walking, running, in vehicle). Apps must request ACTIVITY_RECOGNITION (runtime) from Android 10+.
+  - 🟢 Steps (step counter / detector). Use sensors API; from Android 10+ you must declare ACTIVITY_RECOGNITION to access step counter/step detector.
+  - 🟢 Accelerometer / gyroscope / magnetometer streams. Apps read via SensorManager; some high-rate reads require HIGH_SAMPLING_RATE_SENSORS.
+  - 🟢 Ambient light / proximity. Read via SensorManager; typically no special permission.
+  - 🟢 Google Fit data (steps, workouts, heart rate from wearables, etc.). Manage and export from Google Fit / Google account Download your data.
+  - 🟢 Contacts. MIUI → Settings → System apps → Contacts → Import/Export to .vcf (vCard).
+  - 🟢 Call history / SMS (device). MIUI local/cloud backup can include call logs & messages; export by creating a local/Cloud backup and downloading. Note: 3P apps can’t read call/SMS logs unless they’re the default dialer/SMS.
+  - 🟡 Gmail, Calendar, Contacts (Google). Export via Google Takeout (MBOX/ICS/CSV etc.).
+  - 🟡 WhatsApp / Telegram / Signal chats. Use in-app exports: WhatsApp → Export chat, Telegram Desktop → Export, Signal → encrypted backup.
+  - 🟢 Advertising ID. View/reset in Settings → Google → Ads (wording varies), per Google help on Ad ID reset.
+  - 🟡 Per-app screen time / unlocks / opens. Third-party “usage” apps (e.g., analytics or “digital wellbeing” clones) require Usage Access (PACKAGE_USAGE_STATS). Use Android’s UsageStatsManager or apps that export CSV. Stock Digital Wellbeing does not offer an export.
+  - 🟡 Notification history (last 24h). Settings → Notifications → Notification history → On. OEM-optional, but present on most devices. Viewable once enabled.
+  - 🟡 Notification content stream (live). Grant an app Notification access to capture/export notifications going forward. (User-granted API via NotificationListenerService.)                                                                                                                                   |
+  - 🟢 Per-app data usage (mobile/Wi-Fi). Apps/ADB can query NetworkStatsManager; Settings shows per-app totals. Advanced dumps via `adb shell dumpsys netstats`.
+  - 🟡 Wi-Fi detailed logs. Developer options → Enable Wi-Fi verbose logging for richer diagnostics.
+  - 🟡 Bluetooth packet logs. Developer options → Enable Bluetooth HCI snoop log; export file and analyze in Wireshark.
+  - 🟢 Per-app storage usage. Apps/ADB can query StorageStatsManager; Settings shows per-app storage.
+  - 🟡 Photo/video metadata (EXIF incl. location). Enable “Save location” in Camera app to embed GPS in EXIF; export files normally (EXIF remains).   |
+  - 🟢 Downloads & file metadata. Use a file manager or connect via USB; metadata is in the files themselves.                            |
+  - 🟢 Battery usage history (per-UID/app), wakelocks, jobs. Generate adb bugreport and analyze with Battery Historian or `dumpsys batterystats`.
+  - 🟡 System/device logs (logcat). You can view via ADB/Android Studio. Android restricts 3rd-party access to system-wide logs for privacy.
+  - 🟢 Developer quick tiles (Sensors off). Developer options → Quick settings developer tiles → Sensors off to globally cut Camera/Mic & SensorManager sensors on demand.
+  - 🟡 Google Takeout: one-stop export for Location History (Timeline), Gmail (MBOX), Calendar (ICS), Google Photos, Drive, YouTube, Fit, etc.
+- 04 Nov 2025. [MacroDroid](https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid), [Automate](https://play.google.com/store/apps/details?id=com.llamalab.automate) and [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) sound like powerful Android workflow automation tools. Some uses I can put it to:
+  - Automatically upload recordings to Dropbox
+  - Turn off hotspot when I reach office
+  - Vibrate if I'm walking slowly
+- 03 Nov 2025. [Food printing](https://www.youtube.com/watch?v=2kCjSq_l-0s) applies 3D printing techniques to create real food items. Given the art that this can create, I expect at least some adoption in niche restaurants.
 - 02 Nov 2025. [PMTiles](https://github.com/protomaps/PMTiles) lets you store map tiles as a single-file archive that libraries like MapLibre can read. Useful to avoid tile servers.
 - 02 Nov 2025. [Mirrow](https://mirrow.app/) is a CLI SVG animation builder that converts a DSL to animated SVGs. However, it may be easier to use an LLM to create the animated SVG directly with [SMIL](https://developer.mozilla.org/en-US/docs/Web/SVG/Guides/SVG_animation_with_SMIL) than learning Mirrow (or teaching the LLM Mirrow).
 - 01 Nov 2025. [TVMaze API](https://www.tvmaze.com/api) is an API for TV shows, episodes, cast, crew, etc. Useful for TV-related apps as well as learning APIs.
@@ -175,7 +230,7 @@
   6. OpenClipart: niche, useful for icons.
 - 27 Aug 2025. ⭐ For mental tiredness, the impact of sleep > workload > mood/stress > environment (travel, light, air) > posture > food/drink.
   To rebound, nap > bright light > exercise > fresh air > water > posture/breathing. [ChatGPT](https://chatgpt.com/share/68ae6f42-52a4-800c-b27d-6215e9bd9b89)
-- 27 Aug 2025. In my internal meetings, I tend to ask many questions (1 per 8 turns), but fewer open-ended ones (~40%) compared with others. I also praise once every 22 turns - among the lowest in our group. I could ask more open-ended questions and acknowledge good work. [ChatGPT](https://chatgpt.com/c/68ae4c2f-fff4-8329-adff-7e95af88b2ab)
+- 27 Aug 2025. In my internal meetings, I tend to ask many questions (1 per 8 turns), but fewer open-ended ones (~40%) compared with others. I also praise once every 22 turns - among the lowest in our group. I could ask more open-ended questions and acknowledge good work. [#](https://chatgpt.com/c/68ae4c2f-fff4-8329-adff-7e95af88b2ab)
 - 26 Aug 2025. When seeking advice, people sometimes think aloud, become repetitive, and introduce detail before clarifying intent. Kind candor helps. You can:
   - **State time boundaries**. "We have 20 min. If we spend 5 min on your question, we'll have 15 for solutions."
   - **Clarify intent upfront**. "Before we dive in: _What can I help with_?"
