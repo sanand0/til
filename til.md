@@ -2,7 +2,7 @@
 
 ## Oct 2025
 
-- 10 Nov 2025. "India has _absurdly_ low internal migration - around 9% annual migration rate versus 25-30% in China or the US. Not because people don't want to move, but because the cost of moving is artificially massive. You lose your ration card, PDS access, your kids' school continuity, your voting rights, your documented existence." [#](https://claude.ai/chat/b7f7ceb9-67fe-4b42-af53-69bb9bbf1fae)
+- 10 Nov 2025. "India has _absurdly_ low internal migration - around 9% annual migration rate versus 25-30% in China or the US. Not because people don't want to move, but because the cost of moving is artificially massive. You lose your ration card, state entitlements, kids' school continuity, voting rights, ..." [#](https://claude.ai/chat/b7f7ceb9-67fe-4b42-af53-69bb9bbf1fae)
 - 10 Nov 2025. Rolf Dobelli's [The Not To-Do List](https://www.goodreads.com/book/show/222216333-the-not-to-do-list) is a good application of inversion. Also, the chapter titles themselves explain most of the message, which is very helpful. Just thinking about any of these can be a useful path to improvement.
   1. Let things fall apart
   2. Feed your weaker self
