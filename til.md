@@ -2,6 +2,59 @@
 
 ## Oct 2025
 
+- 10 Nov 2025. Rolf Dobelli's [The Not To-Do List](https://www.goodreads.com/book/show/222216333-the-not-to-do-list) is a good application of inversion. Also, the chapter titles themselves explain most of the message, which is very helpful. Just thinking about any of these can be a useful path to improvement.
+  1. Let things fall apart
+  2. Feed your weaker self
+  3. Be unreliable
+  4. Be an asshole
+  5. Have high expectations
+  6. Drift through the day
+  7. Mess up your marriage
+  8. Be a quitter
+  9. Be hypocritical
+  10. Cling to your bad habits
+  11. Set the wrong goals
+  12. Drink yourself miserable
+  13. Get involved in other people’s drama
+  14. Only learn from your own experience
+  15. Be hyperactive on social media
+  16. Indulge in road rage
+  17. Surround yourself with negative people
+  18. Micromanage your neighbours
+  19. Say yes to drugs
+  20. Get stuck in your career
+  21. Never be playful
+  22. Feel guilty
+  23. Practise ingratitude
+  24. Trust your banker
+  25. Be paranoid
+  26. Make other people feel unimportant
+  27. Live in the past
+  28. Listen to your inner voice
+  29. Expect rationality
+  30. Get nihilistic
+  31. Catastrophize
+  32. Consider money unimportant
+  33. Cultivate a victim mentality
+  34. Become a lapdog
+  35. Get rich quick, get smart quick
+  36. Ruminate
+  37. Trade your reputation for money
+  38. Never suffer
+  39. Let your emotions define you
+  40. Try to end it all
+  41. Marry the wrong person – and stay with them
+  42. Celebrate your resentment
+  43. Join a cult
+  44. Try to change people
+  45. Say everything you think
+  46. Spin multiple plates
+  47. Do only shallow work
+  48. Invite bad people into your life
+  49. Go where the competition is strong
+  50. Say yes to everything
+  51. Crowd your life with gadgets
+  52. Fall into the content trap
 - 08 Nov 2025. "But when an identity based belief was challenged, the brain responded as if under physical attack." [Why Engineers Can't Be Rational About Programming Languages](https://spf13.com/p/the-hidden-conversation/)
 - 08 Nov 2025. Notes from [How to build a cult](https://www.youtube.com/watch?v=I9Njb8Lw5Xc), Lulu Cheng, The Knowledge Project
   - Conviction is infectious.
