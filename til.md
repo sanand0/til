@@ -2,6 +2,16 @@
 
 ## Oct 2025
 
+- 10 Nov 2025. For the first time in history, Russian troops surrendered to a wheeled drone that carried 138 pounds of explosives - [Washington Post](https://www.washingtonpost.com/world/2025/10/20/ukraine-russia-battlefield-land-drones).
+  Given the cost and accessibility of drones, I guess drone terrorist attacks will soon emerge.
+- 10 Nov 2025. HTML + JS apps will last longer than server-side apps and it makes sense to write more of those. For essential back-end services, keep them generic. Specific services layers I see are:
+  - Auth (e.g. Google Auth, Auth0, Supabase, ...)
+  - Storage (e.g. Supabase, Firebase)
+  - LLMs (e.g. OpenAI, Claude, OpenRouter)
+  - Communications (e.g. EmailJS)
+  - ... #TODO Extend with LLMs
+- 10 Nov 2025. https://gistpreview.github.io/ is an unofficial GIST preview tool. It accepts a `?GIST_ID` and displays the gist as a standalone HTML page. [Simon Willison](https://simonwillison.net/2025/Oct/23/claude-code-for-web-video/)
+- 10 Nov 2025. [XSLT is deprecated in Chrome](https://developer.chrome.com/docs/web-platform/deprecating-xslt). So the [`<script>` tag in XML](https://jakearchibald.com/2025/making-xml-human-readable-without-xslt/) will become the new way of rendering RSS/Atom. This is one of the rare "break-the-web" changes from browsers. [Simon Willison](https://simonwillison.net/2025/Nov/5/removing-xslt/)
 - 10 Nov 2025. "India has _absurdly_ low internal migration - around 9% annual migration rate versus 25-30% in China or the US. Not because people don't want to move, but because the cost of moving is artificially massive. You lose your ration card, state entitlements, kids' school continuity, voting rights, ..." [#](https://claude.ai/chat/b7f7ceb9-67fe-4b42-af53-69bb9bbf1fae)
 - 10 Nov 2025. Rolf Dobelli's [The Not To-Do List](https://www.goodreads.com/book/show/222216333-the-not-to-do-list) is a good application of inversion. Also, the chapter titles themselves explain most of the message, which is very helpful. Just thinking about any of these can be a useful path to improvement.
   1. Let things fall apart
@@ -75,7 +85,7 @@
   - Each role has specific objective to optimise for. The leader's role is to balance across these.
   - Cheerleader effect. People look beautiful next to a cheerleader. Associations taint.
   - Each person has dozens of aspects to their persona. We cannot remember all of them. Each person can make a choice on who they project themselves to be in any group. Shaping their persona.
-- 08 Nov 2025. The [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) extension may be causing delays (infinite spinner) when pasting Markdown in VS Code. Restarting it seems to fix the issue.
+- 08 Nov 2025. ~~The [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) extension may be causing delays (infinite spinner) when pasting Markdown in VS Code. Restarting it seems to fix the issue.~~
 - 04 Nov 2025. The data I can export from my Android phone includes the below. 🟢 indicates it's tracked. 🟡 might need action, e.g. enabling / coding. [#](https://chatgpt.com/c/69089221-9430-8320-9cb0-5350a17fc486)
   - 🟢 GPS/GNSS location (current & history). Turn on device Location. If you want a timeline you can export, enable Google Location History and later export via Google Takeout → Location History (JSON/KML).
   - 🟡 GNSS raw measurements (engineering traces). Android exposes GNSS “raw” logs on many devices; capture with dev tools or logging apps if supported (intended for research). See GNSS Raw Measurements API.
@@ -122,7 +132,7 @@
 - 25 Oct 2025. Before founding a place to do good, work in a place that does good and learn. [Ben Werdmuller](https://werd.io/using-technology-skills-for-positive-change/)
 - 24 Oct 2025. [HubFS](https://github.com/winfsp/hubfs) mounts GitHub repos on the file system. Every file system action directly works on GitHub via a REST API. Useful for some scenarios but less useful for note-taking than something like [GitDoc](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc) which offers a delayed sync.
 - 23 Oct 2025. `python -m pdb -c continue script.py` or `uv run -m pdb -c continue script.py` runs a script and drops into pdb on unhandled exceptions (post-mortem). [ChatGPT](https://chatgpt.com/share/68f9b890-ba0c-800c-8a29-48245a41ca5e)
-- 18 Oct 2025. "... most engineers don’t have public commits. Senior engineers at large tech companies don’t work on open-source projects for the most part." [Why AI Can't Do Hiring](https://interviewing.io/blog/why-ai-cant-do-hiring)
+- 18 Oct 2025. ⭐ "... most engineers don’t have public commits. Senior engineers at large tech companies don’t work on open-source projects for the most part." [Why AI Can't Do Hiring](https://interviewing.io/blog/why-ai-cant-do-hiring)
 - 18 Oct 2025. Cloudflare's [Sandbox](https://sandbox.cloudflare.com/) feature in their Workers looks impressive. It supports streaming, web access to the container, and long-running processes. So we can spawn off a task and have it run a server (at least for a while) or a scraper.
 - 14 Oct 2025. The [`<output>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/output) element has a `for=` attribute indicating which `<input>` elements it is linked to and a `form=` attribute indicating which form it belongs to. This [works well with screen readers](https://denodell.com/blog/html-best-kept-secret-output-tag). A good reason to use it more. [Examples](https://rud.is/drop/output.html).
 - 13 Oct 2025. `sudo apt install moreutils` installs a set of useful packages:
