@@ -60,7 +60,7 @@
 🟣	SH	    1380	   231	2025-11-12	MacRimi/ProxMenux	ProxMenux An Interactive Menu for Proxmox VE Management
 🟣	SH	    4769	    41	2025-11-12	kserve/kserve	Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes
 🟣	SH	    2028	    54	2025-11-12	llm-d/llm-d	Achieve state of the art inference performance with modern accelerators on Kubernetes
-🟣	SH	    8805	    45	2025-11-12	conda-forge/miniforge	A conda-forge distribution.
+🟢	SH	    8805	    45	2025-11-12	conda-forge/miniforge	A conda-forge distribution.
 🟣	SH	    6830	     8	2025-11-12	docker-library/official-images	Primary source of truth for the Docker "Official Images" program
 🟣	SH	    2169	    72	2025-11-12	233boy/sing-box	最好用的 sing-box 一键安装脚本 & 管理脚本，自动创建 REALITY 协议；支持 TUIC，Trojan，Hysteria2 等所有常见的协议
 🟣	TS	   87792	    83	2025-09-23	storybookjs/storybook	Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation
