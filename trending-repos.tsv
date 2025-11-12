@@ -1,10 +1,10 @@
 🟣	RS	    8566	    86	2025-11-12	sigoden/aichat	All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.
 🟣	RS	   12247	   129	2025-11-12	ClementTsang/bottom	Yet another cross-platform graphical process/system monitor.
-🟣	RS	   24367	   172	2025-11-12	chroma-core/chroma	Open-source search and retrieval database for AI applications.
+🟢	RS	   24367	   172	2025-11-12	chroma-core/chroma	Open-source search and retrieval database for AI applications.
 🟣	RS	    1735	   342	2025-11-12	supabase/etl	Stream your Postgres data anywhere in real-time. Simple Rust building blocks for change data capture (CDC) pipelines.
 🟣	RS	    6173	   324	2025-11-12	librespot-org/librespot	Open Source Spotify client library
 🟣	RS	   20588	    49	2025-11-12	rust-lang/mdBook	Create book from markdown files. Like Gitbook but implemented in Rust
-🟣	RS	   36050	   118	2025-11-12	pola-rs/polars	Extremely fast Query Engine for DataFrames, written in Rust
+🟡	RS	   36050	   118	2025-11-12	pola-rs/polars	Extremely fast Query Engine for DataFrames, written in Rust
 🟣	RS	   15989	   254	2025-11-12	ratatui/ratatui	A Rust crate for cooking up terminal user interfaces (TUIs) 👨‍🍳🐀 https://ratatui.rs
 🟣	RS	    5124	    26	2025-11-12	paradigmxyz/reth	Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust
 🟣	RS	   10135	    76	2025-11-12	serde-rs/serde	Serialization framework for Rust
@@ -48,7 +48,7 @@
 🟣	TS	   17177	   141	2025-11-12	resend/react-email	💌 Build and send emails using React
 🟣	TS	   20076	    85	2025-11-12	renovatebot/renovate	Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io
 🟣	TS	   17936	   477	2025-11-12	simstudioai/sim	Open-source platform to build and deploy AI agent workflows.
-🟣	TS	   33411	  1981	2025-11-12	umami-software/umami	Umami is a modern, privacy-focused analytics platform. A better, open-source alternative to Google Analytics, Mixpanel and Amplitude.
+🟡	TS	   33411	  1981	2025-11-12	umami-software/umami	Umami is a modern, privacy-focused analytics platform. A better, open-source alternative to Google Analytics, Mixpanel and Amplitude.
 🟣	TS	   40802	    29	2025-11-12	vuetifyjs/vuetify	🐉 Vue Component Framework
 🟣	JS	    3055	    61	2025-11-12	cv-cat/Spider_XHS	小红书爬虫数据采集，小红书全域运营解决方案
 🟣	JS	   14450	    43	2025-11-12	CesiumGS/cesium	An open-source JavaScript library for world-class 3D globes and maps 🌎
