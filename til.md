@@ -2,6 +2,12 @@
 
 ## Oct 2025
 
+- 12 Nov 2025. When to quit vs persist. [#](https://claude.ai/chat/8e9252da-6186-4876-be2e-d81c27a2cc7d)
+  1. Do stats and signals support positive outcome? QUIT if not.
+  2. Have you crossed any lines you set for yourself? QUIT if so.
+  3. Is the decision hard to reverse AND uncertainty high? QUIT if so. Else you can experiment cheaply. Create reversibility.
+  4. Are youI continuing because of past effort or pride? QUIT if so.
+  5. Is there a better alternative? SWITCH if so.
 - 10 Nov 2025. For the first time in history, Russian troops surrendered to a wheeled drone that carried 138 pounds of explosives - [Washington Post](https://www.washingtonpost.com/world/2025/10/20/ukraine-russia-battlefield-land-drones).
   Given the cost and accessibility of drones, I guess drone terrorist attacks will soon emerge.
 - 10 Nov 2025. HTML + JS apps will last longer than server-side apps and it makes sense to write more of those. For essential back-end services, keep them generic. Specific services layers I see are:
