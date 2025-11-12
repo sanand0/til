@@ -6,7 +6,7 @@
 🟣	RS	   20588	    49	2025-11-12	rust-lang/mdBook	Create book from markdown files. Like Gitbook but implemented in Rust
 🟡	RS	   36050	   118	2025-11-12	pola-rs/polars	Extremely fast Query Engine for DataFrames, written in Rust
 🟣	RS	   15989	   254	2025-11-12	ratatui/ratatui	A Rust crate for cooking up terminal user interfaces (TUIs) 👨‍🍳🐀 https://ratatui.rs
-🟣	RS	    5124	    26	2025-11-12	paradigmxyz/reth	Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust
+🔴	RS	    5124	    26	2025-11-12	paradigmxyz/reth	Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust	I don't do blockchain
 🟣	RS	   10135	    76	2025-11-12	serde-rs/serde	Serialization framework for Rust
 🟣	RS	    3396	    41	2025-11-12	linebender/vello	A GPU compute-centric 2D renderer.
 🟣	GO	   38262	  1428	2025-11-12	mudler/LocalAI	🤖 The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI, running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference
@@ -359,7 +359,7 @@
 🟣	GO	    6848	    18	2025-10-26	projectcalico/calico	Cloud native networking and network security
 🟣	GO	    6634	    49	2025-10-27	v2fly/domain-list-community	Community managed domain list. Generate geosite.dat for V2Ray.
 🟣	GO	    6629	    87	2025-10-19	alibaba/higress	🤖 AI Gateway | AI Native API Gateway
-🟣	GO	    6243	    26	2025-10-05	ethereum-optimism/optimism	Optimism is Ethereum, scaled.
+🔴	GO	    6243	    26	2025-10-05	ethereum-optimism/optimism	Optimism is Ethereum, scaled.	I don't do blockchain
 🟣	GO	    6195	   286	2025-11-02	open-telemetry/opentelemetry-collector	OpenTelemetry Collector
 🟣	GO	    5325	    40	2025-09-27	evcc-io/evcc	solar charging ☀️🚘
 🟣	GO	    4889	    35	2025-09-27	kgateway-dev/kgateway	The Cloud-Native API Gateway and AI Gateway
