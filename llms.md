@@ -2,7 +2,7 @@
 
 ## Oct 2025
 
-- 12 Nov 2025. [Agentic Pelican ]
+- 12 Nov 2025. Once a model generates an output, an agentic look tends not to change the fundamental approach and just tweaks it. So, if a solution is directionally wrong, restarting works better than iterating. [Agentic Pelican on a Bicycle](https://www.robert-glaser.de/agentic-pelican-on-a-bicycle/)
 - 12 Nov 2025. [Reading between the lines on the Microsoft OpenAI deal](https://claude.ai/share/4168c00c-49f3-4007-a26a-5699bf581648):
   - Microsoft values OpenAI's growth (financial return) than control
   - Neither trusts the other enough to decide what's AGI
