@@ -7,6 +7,7 @@
   - Neither trusts the other enough to decide what's AGI
   - Microsoft gets some wins: models until 2032 (even post AGI) as well as research IP
   - OpenAI keeps all consumer hardware - so is betting hard on hardware. It's more Apple than Microsoft territory
+  - Divorce preparation: Microsoft can pursue AGI with other partners. OpenAI can purchase compute from anyone and release open weights models
 - 12 Nov 2025. [OlmoEarth](https://allenai.org/olmoearth) is a set of image models trained on labelled geospatial data.
 - 12 Nov 2025. Claude Code's [output styles](https://code.claude.com/docs/en/output-styles) are a way of using Claude Code for anything (e.g. writing, analysis, research, personal advice, etc.), not just coding. Create a `~/.claude/output-style/your-style-name.md` and run `/output-style your-style-name` to replace the system prompt will be replaced. You can also use the `--system-prompt` and `--append-system-prompt` flags with the CLI.
 - 11 Nov 2025. Following [Ethan Mollick's lead](https://x.com/emollick/status/1987355374928769395?s=20) I asked: _I can travel back in time to any time before 1500 in India and change only one thing. What is the single thing you would change? Nothing obvious._.
