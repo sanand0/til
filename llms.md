@@ -2,7 +2,7 @@
 
 ## Oct 2025
 
-- 12 Nov 2025. Claude Code's [output styles](https://code.claude.com/docs/en/output-styles) are a way of using Claude Code for anything (e.g. writing, analysis, research, personal advice, etc.), not just coding. Create a `~/.claude/output-style/your-style-name.md` and
+- 12 Nov 2025. Claude Code's [output styles](https://code.claude.com/docs/en/output-styles) are a way of using Claude Code for anything (e.g. writing, analysis, research, personal advice, etc.), not just coding. Create a `~/.claude/output-style/your-style-name.md` and run `/output-style your-style-name` to replace the system prompt will be replaced.
 - 11 Nov 2025. Following [Ethan Mollick's lead](https://x.com/emollick/status/1987355374928769395?s=20) I asked: _I can travel back in time to any time before 1500 in India and change only one thing. What is the single thing you would change? Nothing obvious._.
   - [ChatGPT](https://chatgpt.com/share/6912a989-c858-800c-9039-a38b3f5b090e): **Create a single, simple, phonetic script** for all public life in India around 1100 CE.
   - [Claude](https://claude.ai/share/11be725d-cca3-4108-bafd-58eb3ce0510e): **institutionalize systematic historical recordkeeping**, introduce limited liability commercial entities, and mandate systematic translation of Sanskrit technical texts into all major regional languages.
