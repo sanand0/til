@@ -2,7 +2,7 @@
 
 ## Oct 2025
 
-- 13 Nov 2025. Asking coding agents to create a [codemod](https://github.com/rajasegar/awesome-codemods) to make changes works well. For example, using  [Peter Steinberger](https://x.com/steipete/status/1987771067998339352)
+- 13 Nov 2025. Asking coding agents to create a [codemod](https://github.com/rajasegar/awesome-codemods) for large-scale refactoring works well [Peter Steinberger](https://x.com/steipete/status/1987771067998339352)
 - 12 Nov 2025. Once a model generates an output, an agentic look tends not to change the fundamental approach and just tweaks it. So, if a solution is directionally wrong, restarting works better than iterating. [Agentic Pelican on a Bicycle](https://www.robert-glaser.de/agentic-pelican-on-a-bicycle/)
 - 12 Nov 2025. [Reading between the lines on the Microsoft OpenAI deal](https://claude.ai/share/4168c00c-49f3-4007-a26a-5699bf581648):
   - Microsoft values OpenAI's growth (financial return) than control
