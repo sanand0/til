@@ -2,6 +2,11 @@
 
 ## Oct 2025
 
+- 13 Nov 2025. [FLIP animation](https://css-tricks.com/animating-layouts-with-the-flip-technique/) is an efficient animation technique.
+  - Capture the First position
+  - Apply the Last position (changing position, size, rotation, etc.)
+  - Invert, i.e. apply just the `transform` that'll move it back to the First position
+  - Plan the animation. This _only_ needs to change transform, hence no DOM reflow.
 - 12 Nov 2025. When to quit vs persist. [#](https://claude.ai/chat/8e9252da-6186-4876-be2e-d81c27a2cc7d) [#](https://chatgpt.com/c/6911a446-6018-8320-aed7-808be506d4e6)
   1. Do stats/signals support positive outcome? QUIT if not.
   2. Crossed any limits you set for yourself? QUIT if so. (Run pre-mortems to find these stats/signals and limits.)
