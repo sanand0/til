@@ -1,3 +1,68 @@
+🟣	RS	    8566	    86	2025-11-12	sigoden/aichat	All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.
+🟣	RS	   12247	   129	2025-11-12	ClementTsang/bottom	Yet another cross-platform graphical process/system monitor.
+🟢	RS	   24367	   172	2025-11-12	chroma-core/chroma	Open-source search and retrieval database for AI applications.
+🟣	RS	    1735	   342	2025-11-12	supabase/etl	Stream your Postgres data anywhere in real-time. Simple Rust building blocks for change data capture (CDC) pipelines.
+🟣	RS	    6173	   324	2025-11-12	librespot-org/librespot	Open Source Spotify client library
+🟣	RS	   20588	    49	2025-11-12	rust-lang/mdBook	Create book from markdown files. Like Gitbook but implemented in Rust
+🟡	RS	   36050	   118	2025-11-12	pola-rs/polars	Extremely fast Query Engine for DataFrames, written in Rust
+🟣	RS	   15989	   254	2025-11-12	ratatui/ratatui	A Rust crate for cooking up terminal user interfaces (TUIs) 👨‍🍳🐀 https://ratatui.rs
+🔴	RS	    5124	    26	2025-11-12	paradigmxyz/reth	Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust	I don't do blockchain
+🟣	RS	   10135	    76	2025-11-12	serde-rs/serde	Serialization framework for Rust
+🟣	RS	    3396	    41	2025-11-12	linebender/vello	A GPU compute-centric 2D renderer.
+🟣	GO	   38262	  1428	2025-11-12	mudler/LocalAI	🤖 The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI, running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference
+🟢	GO	    5551	    68	2025-11-12	docker/cli	The Docker CLI
+🟣	GO	   19569	    48	2025-11-12	containerd/containerd	An open and reliable container runtime
+🟣	GO	   11038	    53	2025-11-12	crossplane/crossplane	The Cloud Native Control Plane
+🟣	GO	    1377	   212	2025-11-12	OpenCSGs/csghub-server	csghub-server is the backend server for CSGHub which helps user to manage datasets, modes, and also run Model Inference, Finetune and Application Spaces.
+🟣	GO	    3767	   468	2025-11-12	ayn2op/discordo	A lightweight, secure, and feature-rich Discord terminal (TUI) client.
+🟣	GO	    7243	    20	2025-11-12	cilium/ebpf	ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach them to various hooks in the Linux kernel.
+🟣	GO	    1719	   324	2025-11-12	mudler/edgevpn	⛵ The immutable, decentralized, statically built p2p VPN without any central server and automatic discovery! Create decentralized introspectable tunnels over p2p with shared tokens
+🟣	GO	    6092	    79	2025-11-12	external-secrets/external-secrets	External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets.
+🟣	GO	   29573	   439	2025-11-12	glanceapp/glance	A self-hosted dashboard that puts all your feeds in one place
+🟣	GO	   18969	   599	2025-11-12	lima-vm/lima	Linux virtual machines, with a focus on running containers
+🟣	GO	   71057	   112	2025-11-12	moby/moby	The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems
+🟣	GO	   17380	   142	2025-11-12	navidrome/navidrome	🎧☁️ Your Personal Streaming Service
+🟣	GO	    3641	  1073	2025-11-12	opencloud-eu/opencloud	🌤️This is the main repository of the OpenCloud server. It contains the golang codebase for the backend services.
+🟣	GO	   12781	    45	2025-11-12	opencontainers/runc	CLI tool for spawning and running containers according to the OCI specification
+🟣	GO	    5845	   114	2025-11-12	alireza0/s-ui	An advanced Web Panel • Built for SagerNet/Sing-Box
+🟣	PY	   10139	  1054	2025-11-12	HKUDS/DeepCode	"DeepCode: Open Agentic Coding (Paper2Code & Text2Web & Text2Backend)"
+🟣	PY	    4284	   781	2025-11-12	yichuan-w/LEANN	RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.
+🟣	PY	    2378	   394	2025-11-12	lzhoang2801/OpCore-Simplify	A tool designed to simplify the creation of OpenCore EFI
+🟣	PY	   26600	   414	2025-11-12	AtsushiSakai/PythonRobotics	Python sample codes and textbook for robotics algorithms.
+🟣	PY	   14885	   555	2025-11-12	google/adk-python	An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
+🟣	PY	    5127	   777	2025-11-12	airweave-ai/airweave	Context retrieval for AI agents across apps and databases
+🟣	PY	    2177	  1123	2025-11-12	microsoft/call-center-ai	Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!
+🟣	PY	    5885	   504	2025-11-12	droidrun/droidrun	Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖
+🟣	PY	   15616	   306	2025-11-12	kvcache-ai/ktransformers	A Flexible Framework for Experiencing Cutting-edge LLM Inference Optimizations
+🟣	PY	   62870	  1767	2025-11-12	localstack/localstack	💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline
+🟣	PY	    8701	   547	2025-11-12	GeeeekExplorer/nano-vllm	Nano vLLM
+🟣	PY	    4849	   198	2025-11-12	coleam00/ottomator-agents	All the open source AI Agents hosted on the oTTomator Live Agent Studio platform!
+🟣	PY	   10065	  7194	2025-11-12	usestrix/strix	✨ Open-source AI hackers for your apps
+🟣	PY	    1819	   389	2025-11-12	thinking-machines-lab/tinker-cookbook	Post-training with Tinker
+🟣	TS	    4056	   873	2025-11-12	farion1231/cc-switch	A cross-platform desktop app for managing and switching provider configurations & MCP servers for Claude Code and Codex.
+🟣	TS	   81548	  1046	2025-11-12	clash-verge-rev/clash-verge-rev	A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience
+🟣	TS	   99636	  1340	2025-11-12	iptv-org/iptv	Collection of publicly available IPTV channels from all over the world
+🟣	TS	   29462	   277	2025-11-12	NginxProxyManager/nginx-proxy-manager	Docker container for managing Nginx proxy hosts with a simple, powerful interface
+🟣	TS	   19360	  1838	2025-11-12	nocobase/nocobase	NocoBase is the most extensible AI-powered no-code/low-code platform for building business applications and enterprise solutions.
+🟣	TS	    4967	  1269	2025-11-12	sst/opentui	OpenTUI is a library for building terminal user interfaces (TUIs)
+🔴	TS	   17177	   141	2025-11-12	resend/react-email	💌 Build and send emails using React	I don't code React
+🟣	TS	   20076	    85	2025-11-12	renovatebot/renovate	Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io
+🟣	TS	   17936	   477	2025-11-12	simstudioai/sim	Open-source platform to build and deploy AI agent workflows.
+🟡	TS	   33411	  1981	2025-11-12	umami-software/umami	Umami is a modern, privacy-focused analytics platform. A better, open-source alternative to Google Analytics, Mixpanel and Amplitude.
+🟣	TS	   40802	    29	2025-11-12	vuetifyjs/vuetify	🐉 Vue Component Framework
+🟣	JS	    3055	    61	2025-11-12	cv-cat/Spider_XHS	小红书爬虫数据采集，小红书全域运营解决方案
+🟣	JS	   14450	    43	2025-11-12	CesiumGS/cesium	An open-source JavaScript library for world-class 3D globes and maps 🌎
+🟣	JS	   14143	   290	2025-11-12	marko-js/marko	A declarative, HTML-based language that makes building web apps fun
+🔴	JS	   97263	   393	2025-11-12	mui/material-ui	Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.	I don't code React
+🟣	JS	     780	    69	2025-11-12	leukipp/touchkio	Home Assistant Touch Panel Kiosk application for a Linux device (e.g. Raspberry Pi) with Touch Display.
+🟣	JS	   59744	   230	2025-11-12	gorhill/uBlock	uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.
+🟣	SH	   22426	    63	2025-11-12	kholia/OSX-KVM	Run macOS on QEMU/KVM. With OpenCore + Monterey + Ventura + Sonoma support now! Only commercial (paid) support is available now to avoid spammy issues. No Mac system is required.
+🟣	SH	    1380	   231	2025-11-12	MacRimi/ProxMenux	ProxMenux An Interactive Menu for Proxmox VE Management
+🟣	SH	    4769	    41	2025-11-12	kserve/kserve	Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes
+🟣	SH	    2028	    54	2025-11-12	llm-d/llm-d	Achieve state of the art inference performance with modern accelerators on Kubernetes
+🟢	SH	    8805	    45	2025-11-12	conda-forge/miniforge	A conda-forge distribution.
+🟣	SH	    6830	     8	2025-11-12	docker-library/official-images	Primary source of truth for the Docker "Official Images" program
+🟣	SH	    2169	    72	2025-11-12	233boy/sing-box	最好用的 sing-box 一键安装脚本 & 管理脚本，自动创建 REALITY 协议；支持 TUIC，Trojan，Hysteria2 等所有常见的协议
 🟣	TS	   87792	    83	2025-09-23	storybookjs/storybook	Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation
 🟣	TS	   57675	   742	2025-09-23	nocodb/nocodb	🔥 🔥 🔥 Open Source Airtable Alternative
 🟣	TS	   55687	   374	2025-10-05	toeverything/AFFiNE	There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.
@@ -30,7 +95,7 @@
 🟣	TS	   12286	   665	2025-10-19	supermemoryai/supermemory	Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.
 🟣	TS	   11837	   189	2025-09-27	CapSoftware/Cap	Open source Loom alternative. Beautiful, shareable screen recordings.
 🟣	TS	   11652	   246	2025-10-26	browserless/browserless	Deploy headless browsers in Docker. Run on our cloud or bring your own. Free for non-commercial uses.
-🟣	TS	   11365	   245	2025-09-27	TanStack/router	🤖 Fully typesafe Router for React (and friends) w/ built-in caching, 1st class search-param APIs, client-side cache integration and isomorphic rendering.
+🔴	TS	   11365	   245	2025-09-27	TanStack/router	🤖 Fully typesafe Router for React (and friends) w/ built-in caching, 1st class search-param APIs, client-side cache integration and isomorphic rendering.	I don't code React
 🟣	TS	   10745	    44	2025-10-05	actions/starter-workflows	Accelerating new GitHub Actions workflows
 🟣	TS	   10100	   844	2025-10-26	huggingface/chat-ui	Open source codebase powering the HuggingChat app
 🟣	TS	    9749	   667	2025-09-23	nanobrowser/nanobrowser	Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator.
@@ -198,7 +263,7 @@
 🟣	JS	  193845	   256	2025-11-02	trekhleb/javascript-algorithms	📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
 🟣	JS	   93757	  1206	2025-11-02	microsoft/Web-Dev-For-Beginners	24 Lessons, 12 Weeks, Get Started as a Web Developer
 🟣	JS	   77191	  1122	2025-10-26	louislam/uptime-kuma	A fancy self-hosted monitoring tool
-🟣	JS	   43318	   123	2025-10-27	sudheerj/reactjs-interview-questions	List of top 500 ReactJS Interview Questions & Answers....Coding exercise questions are coming soon!!
+🔴	JS	   43318	   123	2025-10-27	sudheerj/reactjs-interview-questions	List of top 500 ReactJS Interview Questions & Answers....Coding exercise questions are coming soon!!	I don't code React
 🟣	JS	   42521	   293	2025-09-17	NaiboWang/EasySpider	A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/爬虫软件，可以无代码图形化的设计和执行爬虫任务。别名：ServiceWrapper面向Web应用的智能化服务封装系统。
 🟣	JS	   41166	    36	2025-10-19	dcloudio/uni-app	A cross-platform framework using Vue.js
 🟣	JS	   39175	   145	2025-10-05	remoteintech/remote-jobs	A list of semi to fully remote-friendly companies (jobs) in tech.
@@ -294,7 +359,7 @@
 🟣	GO	    6848	    18	2025-10-26	projectcalico/calico	Cloud native networking and network security
 🟣	GO	    6634	    49	2025-10-27	v2fly/domain-list-community	Community managed domain list. Generate geosite.dat for V2Ray.
 🟣	GO	    6629	    87	2025-10-19	alibaba/higress	🤖 AI Gateway | AI Native API Gateway
-🟣	GO	    6243	    26	2025-10-05	ethereum-optimism/optimism	Optimism is Ethereum, scaled.
+🔴	GO	    6243	    26	2025-10-05	ethereum-optimism/optimism	Optimism is Ethereum, scaled.	I don't do blockchain
 🟣	GO	    6195	   286	2025-11-02	open-telemetry/opentelemetry-collector	OpenTelemetry Collector
 🟣	GO	    5325	    40	2025-09-27	evcc-io/evcc	solar charging ☀️🚘
 🟣	GO	    4889	    35	2025-09-27	kgateway-dev/kgateway	The Cloud-Native API Gateway and AI Gateway

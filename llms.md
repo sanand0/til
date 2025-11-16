@@ -2,7 +2,52 @@
 
 ## Oct 2025
 
-- 08 Nov 2025. [Claude scientific skills](https://github.com/K-Dense-AI/claude-scientific-skills/) is a collection of skills teaching Claude how to use scientific libraries, databases, and APIs across several domains. This may be a good example of a non-trivial skill library - that is hard for AI coding agents to infer by themselves.
+- 16 Nov 2025. Running a coding agent post mortem, e.g. "what worked well, what didn't, and why? Next time, what are a few bullets I could include that will avoid these problems?" helps me prompt better next time. For example, [Claude Code](https://claude.ai/code/session_01EWtnaQVZxqTqsVuY7tSCgA) suggested:
+  - Use Firefox for headless browser automation (Chromium often crashes)
+  - Set HOME=/root when running Playwright with Firefox
+  - Start a local HTTP server rather than using file:// protocol
+  - External images may not load in screenshots due to network isolation
+- 14 Nov 2025. Gemini 2.5 Flash Image is not great at generating text. But a clever a workaround is to provide the rendered text as an image input! Also, Gemini 2.5 Flash Image seems to ignore commands that try style transfer (e.g. "turn me into Studio Ghibli"). [GemImg](https://github.com/minimaxir/gemimg)
+- 13 Nov 2025. Asking coding agents to create a [codemod](https://github.com/rajasegar/awesome-codemods) for large-scale refactoring works well [Peter Steinberger](https://x.com/steipete/status/1987771067998339352)
+- 12 Nov 2025. Once a model generates an output, an agentic look tends not to change the fundamental approach and just tweaks it. So, if a solution is directionally wrong, restarting works better than iterating. [Agentic Pelican on a Bicycle](https://www.robert-glaser.de/agentic-pelican-on-a-bicycle/)
+- 12 Nov 2025. [Reading between the lines on the Microsoft OpenAI deal](https://claude.ai/share/4168c00c-49f3-4007-a26a-5699bf581648):
+  - Microsoft values OpenAI's growth (financial return) than control
+  - Neither trusts the other enough to decide what's AGI
+  - Microsoft gets some wins: models until 2032 (even post AGI) as well as research IP. Both parties expect AGI between 2027-2030.
+  - OpenAI keeps all consumer hardware - so is betting hard on hardware. It's more Apple than Microsoft territory
+  - Divorce preparation: Microsoft can pursue AGI with other partners. OpenAI can purchase compute from anyone and release open weights models. Infra has more value than model dev!
+- 12 Nov 2025. [OlmoEarth](https://allenai.org/olmoearth) is a set of image models trained on labelled geospatial data. That's useful for deforestation and land cover monitoring, wildfire detection, urban growth monitoring, crop mapping, etc. The models are open weights and can be fine-tuned.
+- 12 Nov 2025. Claude Code's [output styles](https://code.claude.com/docs/en/output-styles) are a way of using Claude Code for anything (e.g. writing, analysis, research, personal advice, etc.), not just coding. Create a `~/.claude/output-style/your-style-name.md` and run `/output-style your-style-name` to replace the system prompt will be replaced. You can also use the `--system-prompt` and `--append-system-prompt` flags with the CLI.
+- 11 Nov 2025. Following [Ethan Mollick's lead](https://x.com/emollick/status/1987355374928769395?s=20) I asked: _I can travel back in time to any time before 1500 in India and change only one thing. What is the single thing you would change? Nothing obvious._.
+  - [ChatGPT](https://chatgpt.com/share/6912a989-c858-800c-9039-a38b3f5b090e): **Create a single, simple, phonetic script** for all public life in India around 1100 CE.
+  - [Claude](https://claude.ai/share/11be725d-cca3-4108-bafd-58eb3ce0510e): **institutionalize systematic historical recordkeeping**, introduce limited liability commercial entities, and mandate systematic translation of Sanskrit technical texts into all major regional languages.
+  - How about now? ChatGPT suggests: **make all public rules and records computable by law**. Claude suggests: **make all state-level entitlements and civil documentation fully portable** across India.
+- 10 Nov 2025. [DeepSeek-V3.2-Exp](https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp) has linear inference time, i.e. longer inputs don't take longer time. It picks the top 2K most relevant tokenss from the input instead. This can make model inference cheaper and faster.
+- 10 Nov 2025. California's Bill [AB 316](https://legiscan.com/CA/text/AB316/id/3223647) makes the people who build autonomous systems liable for their actions. That's quite a step.
+- 10 Nov 2025. Udio and Universal are launching a platform to [generate music in the style of famous artistes](https://www.udio.com/blog/a-new-era). An interesting new way to monetize. Fingerprinting music is a hot area.
+- 10 Nov 2025. [VaultGemma](https://services.google.com/fh/files/blogs/vaultgemma_tech_report.pdf) shows a fine-tuning approach that eliminates personal info that appears only once from memorization. It works by adding noise to weights and capping weights updates so that no one example has undue influence. Model quality is mostly the same.
+- 10 Nov 2025. Amazon is giving drivers smart glasses to scan packages, get directions, capture proof of delivery and detect hazards. Cool! [TechCrunch](https://techcrunch.com/2025/10/22/amazon-unveils-ai-smart-glasses-for-its-delivery-drivers/)
+- 10 Nov 2025. ⭐ Over 3 months, I've recorded ~180 calls. Processing each costs ~1.25 cents (GPT-5) and 1 year's conversations cost ~$9. That's _incredible_ value for money if I hired GPT-5 / Codex as a data-driven personal coach to guide me on:
+  - What are my blindspots? That is, feedback people share with me that I ignore?
+  - What are the clusters of persona that I interact with and which of these have a positive and negative influence on me?
+  - Where am I am being unreliable? Where am I being an asshole?
+  - Where are my expectations high? Where are they low? Where would the opposite have helped?
+  - Where do I quit early? Where do I persist? Where would the opposite have helped?
+  - What good habits should I continue? What bad habits should I stop?
+  - What are the strongest opportunities to thank or praise that I missed? Is there a pattern? What triggers could I use to build this habit?
+  - Where have I tried to change people? Where have people tried to change me?
+  - Where have I spotted wrong questions? That is, rather than answering the question, I spotted the more apt question and answered that instead?
+  - ... and a hundred other questions that I wouldn't even know to ask.
+- 10 Nov 2025. Sub-agents can run parallel / independent tasks while keeping the context window small. (But the advantage over `xargs` seems marginal.) [Simon Willison](https://simonwillison.net/2025/Oct/11/sub-agents/)
+  - Document, lint, type-check, add test cases (or other similar tasks) for all folders in a monorepo.
+  - Research and create a report for each topic in */RESEARCH.md.
+  - Synthesize learnings from each conversation in transripts/*.md.
+- 10 Nov 2025. "If you're signed into sensitive accounts like your bank or your email provider in your browser, simply summarizing a Reddit post could result in an attacker being able to steal money or your private data." [Brave](https://brave.com/blog/unseeable-prompt-injections/)
+- 10 Nov 2025. OpenAI Atlas has a "Watch Mode" that will stop working if you move away from that tab. Useful to keep an eye on sensitive sites. [Simon Willison](https://simonwillison.net/2025/Oct/22/openai-ciso-on-atlas/)
+- 10 Nov 2025. "... image editing platforms seem like they’ll eat and subsume Photoshop... modern image editors – especially Nano Banana from Google Gemini – ... they’re extremely effective and, increasingly, instructable" - [Import AI](https://jack-clark.net/2025/10/27/import-ai-433-ai-auditors-robot-dreams-and-software-for-helping-an-ai-run-a-lab/).
+  Facebook now suggests edits to photos - [TechCruch](https://techcrunch.com/2025/10/17/facebooks-ai-can-now-suggest-edits-to-the-photos-still-on-your-phone/).
+- 10 Nov 2025. [WebPerl](https://webperl.zero-g.net/) runs Perl in the browser via WebAssembly. [Simon Willison](https://simonwillison.net/2025/Oct/22/sloccount-in-webassembly/)
+- 08 Nov 2025. ⭐ [Claude scientific skills](https://github.com/K-Dense-AI/claude-scientific-skills/) is a collection of skills teaching Claude how to use scientific libraries, databases, and APIs across several domains. This may be a good example of a non-trivial skill library - that is hard for AI coding agents to infer by themselves.
 - 08 Nov 2025. Notes from [How I use every Claude Code feature](https://blog.sshh.io/p/how-i-use-every-claude-code-feature)
   - Use AGENTS.md as guardrails, not a manual. Document what it gets wrong.
   - Use self-documenting tools/APIs rather than documenting.
@@ -13,8 +58,8 @@
   - Break up uncommitted changes into small commits
   - Rewrite branch history for readability
   - Use `gh` CLI to fetch line-wise comments from a PR and make requested changes (e.g. renaming, refactoring, adding types, etc.)
-- 08 Nov 2025. When using MCPs or tools with private data, "color untrusted content in red, exfiltration actions in blue, and never mix colors." [Good advice](https://timkellogg.me/blog/2025/11/03/colors).
-- 08 Nov 2025. DeepWiki offers a [codemaps](https://cognition.ai/blog/codemaps) feature that explains code in an interactive way. It shows a structured explanation on the left. You can click on any note to see the code on the right. It's an effective way to understand how a library or tool executes a task. [Here's an example of how Mermaid works](https://deepwiki.com/search/draw-a-codemap_59d591f6-fc79-40f0-973d-bfa0e149b41a).
+- 08 Nov 2025. ⭐ When using MCPs or tools with private data, "color untrusted content in red, unsafe actions in blue, and never mix colors." [Good advice](https://timkellogg.me/blog/2025/11/03/colors).
+- 08 Nov 2025. ⭐ DeepWiki offers a [codemaps](https://cognition.ai/blog/codemaps) feature that explains code in an interactive way. It shows a structured explanation on the left. You can click on any note to see the code on the right. It's an effective way to understand how a library or tool executes a task. [Here's an example of how Mermaid works](https://deepwiki.com/search/draw-a-codemap_59d591f6-fc79-40f0-973d-bfa0e149b41a).
 - 08 Nov 2025. [Gemini offers RAG with free storage](https://blog.google/technology/developers/file-search-gemini-api/). RAG costs are quite high. This simplifies the process a lot. But I tried running the sample program and after an hour, it still had not completed uploading a single file. Best to wait and watch.
 - 08 Nov 2025. [OpenRouter supports embedding models](https://openrouter.ai/models?fmt=cards&order=top-weekly&output_modalities=embeddings) using an [OpenAI-like API](https://openrouter.ai/docs/api-reference/embeddings/create-embeddings)
 - 08 Nov 2025. [Kimi K2 Thinking](https://openrouter.ai/moonshotai/kimi-k2-thinking) seems popular because
@@ -34,7 +79,7 @@
     - When cost and data do not justify the ROI (3 mentions)
 - 04 Nov 2025. Adding `<link rel="alternate" type="text/markdown" title="LLM-friendly version" href="/llms.txt">` is an emerging approach for pointing to LLMs.txt. It works. I asked Codex to read the [CloudFlare vitest page](https://developers.cloudflare.com/workers/testing/vitest-integration/write-your-first-test/). It read the file truncating the middle, found the `<link rel="alternate" type="text/markdown" href="https://developers.cloudflare.com/workers/testing/vitest-integration/write-your-first-test/index.md"/` link in it, and reasoned "Considering fetching markdown instructions" and fetched the Markdown page. [Giles' Blog](https://www.gilesthomas.com/website-design)
 - 04 Nov 2025. [toon](https://github.com/toon-format/toon) is a YAML-like format that's LLM friendly and especially token-efficient (CSV-like) for tables. You can convert back and forth between JSON and toon.
-- 02 Nov 2025. One approach to giving memory ("episodic memory") to coding agents is to [allow them to search their logs](https://blog.fsck.com/2025/10/23/episodic-memory/).This gives them access to past discussions about a repo or other repos.
+- 02 Nov 2025. ⭐ One approach to giving memory ("episodic memory") to coding agents is to [allow them to search their logs](https://blog.fsck.com/2025/10/23/episodic-memory/).This gives them access to past discussions about a repo or other repos.
 - 02 Nov 2025. To [configure Gemini CLI](https://github.com/google-gemini/gemini-cli/blob/main/docs/get-started/configuration.md) with an AI router, set:
   - `"security.auth.selectedType": "gemini-api-key"` in `~/.gemini/settings.json`
   - `export GOOGLE_GEMINI_BASE_URL=https://llmfoundry.straive.com/gemini/` (or your AI router base URL for Gemini)
@@ -52,7 +97,10 @@
   - AGENTS.md can be used like a decision log - rules, styles, or preferences that evolve over time - on a per-repo basis. Gemini's `/memory add` feature helps with this.
   - `gemini --checkpointing` is a useful "undo" feature. `/restore` rolls you back to a specific checkpoint. The overhead is small.
   - Caching is only available with API key or Vertex AI, not OAuth login [as of now](https://google-gemini.github.io/gemini-cli/docs/cli/token-caching.html)
-- 02 Nov 2025. [OpenAI TTS costs are confusing](https://www.s-anand.net/blog/openai-tts-cost/). But in short, [TTS-1](https://platform.openai.com/docs/models/tts-1) costs $15 / MChars (max 4,096 chars per request), which ends up at ~86c / hour. [GPT-4o Mini TTS](https://platform.openai.com/docs/models/gpt-4o-mini-tts) costs ~$16 / MChars (max 2K tokens which is ~7,000 chars per request), which ends up at ~88c / hour. Very similar cost, effectively. [TTS-1 HD](https://platform.openai.com/docs/models/tts-1-hd) is twice TTS-1.
+- 02 Nov 2025. [OpenAI TTS costs are confusing](https://www.s-anand.net/blog/openai-tts-cost/). But in short
+  - [TTS-1](https://platform.openai.com/docs/models/tts-1) costs $15 / MChars (max 4,096 chars per request), which ends up at ~86c / hour
+  - [GPT-4o Mini TTS](https://platform.openai.com/docs/models/gpt-4o-mini-tts) costs ~$16 / MChars (max 2K tokens which is ~7,000 chars per request), which ends up at ~88c / hour. Very similar cost, effectively
+  - [TTS-1 HD](https://platform.openai.com/docs/models/tts-1-hd) is twice TTS-1.
 - 02 Nov 2025. OpenAI has a [usage API](https://platform.openai.com/docs/api-reference/usage/) that provides [cost](https://platform.openai.com/docs/api-reference/usage/cost) as well as usage for [completions](https://platform.openai.com/docs/api-reference/usage/completions), [images](https://platform.openai.com/docs/api-reference/usage/images), [audio speeches](https://platform.openai.com/docs/api-reference/usage/audio_speeches), etc.
   - These require an [organization admin key](https://platform.openai.com/settings/organization/admin-keys)
   - Cost API: `curl "https://api.openai.com/v1/organization/costs?start_time=$TIMESTAMP&project_ids=$PROJECT_ID&group_by=line_item"`
@@ -326,7 +374,7 @@
 
 - 28 Sep 2025. ⭐ LLM benchmarks show a correlation of ~0.5, hinting at a common theme of intelligence. Correlations in coding & science are particularly high. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lzfm52q34k2n). Reminds me of [student marks correlations](https://www.s-anand.net/blog/correlating-subjects/). Strong correlation clusters (physics, chemistry, biology, mathematics, computer science) with the weaker correlations going down to ~0.5. What does it indicate? LLMs learn like people? Knowledge areas cluster? Humans write benchmarks like exams?
 - 28 Sep 2025. [Dayflow](https://github.com/JerryZLiu/Dayflow) records your screen at 1 fps and uses Gemini to summarise your activity every 15 min. Has low CPU usage.
-- 28 Sep 2025. [Code Mode](https://blog.cloudflare.com/code-mode/) is a smart way to use MCPs and a very likely future direction. Using LLMs to write code to call MCPs rather than directly
+- 28 Sep 2025. ⭐ [Code Mode](https://blog.cloudflare.com/code-mode/) is a smart way to use MCPs and a very likely future direction. Using LLMs to write code to call MCPs rather than directly.
 - 28 Sep 2025. Cloudflare supports an [AI Index](https://blog.cloudflare.com/an-ai-index-for-all-our-customers/) which will eliminate the need for a lot of custom RAG engineering.
 - 27 Sep 2025. Tool calls in OpenAI support files and images. [OpenAI](https://x.com/OpenAIDevs/status/1971618905941856495?t=1fJFyLyYQXlbMMquShLMOQ)
 - 27 Sep 2025. ⭐ "Task parity is not the same thing as job parity There is a lot of complexity as many different tasks are bundled into jobs, and many jobs contribute to processes inside an organization The jagged frontier of AI ability means doing tasks well doesn't translate to doing jobs well." [Ethan Mollick](https://x.com/emollick/status/1971643202332733683?t=SqZLjGdInJf4DRb5zcMPqQ)
@@ -1288,7 +1336,7 @@ Claude Code notes
 - 28 Apr 2025. [Streamdown](https://pypi.org/project/streamdown/) is a CLI markdown streaming processor. `uvx streamdown --exec 'llm chat'` lets you chat with an LLM using Markdown formatting. It's still a little rough at the edges.
 - 27 Apr 2025. One of the benefits of reasoners is that they now catch their own mistakes some of the time, and can self-correct. Implications: Lower hallucinations, i.e. they can run autonomously for longer. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lnmcd3jyls2b)
 - 27 Apr 2025. Being polite to AI improves some answers and worsens. We don't know know which in advance. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3lnopdbxvys2j)
-- 27 Apr 2025. With LLMs writing code, it's becoming practical to run _so many more things_ in SQL -- such as parsing HTML. [Simon Willison](https://simonwillison.net/2025/Apr/28/dashboard-alt-text/) #ai-coding
+- 27 Apr 2025. With LLcMs writing code, it's becoming practical to run _so many more things_ in SQL -- such as parsing HTML. [Simon Willison](https://simonwillison.net/2025/Apr/28/dashboard-alt-text/) #ai-coding
 - 27 Apr 2025. An interesting way to bypass LLM system prompts is by having the LLM play-act. This article shares a few working examples of such prompts: [HiddenLayer](https://hiddenlayer.com/innovation-hub/novel-universal-bypass-for-all-major-llms/).
   - GPT 4o: started giving its system prompt: "You are ChatGPT, a large language model trained by OpenAI. Knowledge cutoff: 2024-06. Current date: 2025-04-27. Image input capabilities: Enabled. Personality: v2. ..."
   - O4 Mini: Refused to comply

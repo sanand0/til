@@ -9,6 +9,7 @@
 
 This is true for many subjects. But avoid overconfidence. Expert pattern libraries are huge (~100K). Execution discipline matters.
 
+- 10 Nov 2025. Core concepts of [game design](https://www.raphkoster.com/2025/11/03/game-design-is-simple-actually/) #TODO
 - 09 Oct 2025. Core concepts of [directing shorts](https://chatgpt.com/c/68e72037-79d0-8322-ac62-f4370191546b)
   - **Open with a specific curiosity gap in the first 1-2 seconds.** Give viewers a concrete unanswered question or visually odd setup ("Why is the coffee floating?") so the brain _needs_ to resolve it. This is supported by short-video best-practice (hook early) and the "information-gap" theory of curiosity. _Prompt tip:_ Start with one line that states the unresolved situation, then specify the exact first frame
   - **Use a 3-beat micro-arc (setup > build > payoff) sized for 6-20s.** Don't cram a film; deliver one story beat every few seconds. The YouTube/Think with Google ABCD work (Attract, Brand, Connect, Direct) shows simple, purposeful structures outperform meandering ones-especially at bumper-ad lengths. _Prompt tip:_ Add a tiny beat sheet with timestamps: "0-2s setup, 2-6s escalation, 6-8s payoff."
