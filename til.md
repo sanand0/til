@@ -2,6 +2,7 @@
 
 ## Oct 2025
 
+- 16 Nov 2025. [readpst](https://manpages.debian.org/unstable/pst-utils/readpst.1.en.html) - via `sudo apt install pst-utils` - extracts emails from Outlook PST files to mbox format. Useful for email migrations.
 - 15 Nov 2025. Windows 11 got some _very_ practical updates. Notepad now supports Markdown preview natively. MS Paint has an opacity filter. Microsoft Copilot can share screens and speak/listen.
 - 14 Nov 2025. Things I learn when Ubuntu drivers crashed on my laptop:
   - The [SG.GS Ubuntu ISO mirror](http://mirror.sg.gs/ubuntu-releases/24.04.3/ubuntu-24.04.3-desktop-amd64.iso) is a _lot_ faster than the [official Ubuntu ISO download](https://releases.ubuntu.com/24.04.3/ubuntu-24.04.3-desktop-amd64.iso) (5 min vs 12 hours).
