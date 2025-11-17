@@ -2088,13 +2088,12 @@ Claude Code notes
 - 21 Dec 2024. Anthropic defines agents. [Building effective agents](https://www.anthropic.com/research/building-effective-agents) + [Cookbook](https://github.com/anthropics/anthropic-cookbook/tree/main/patterns/agents)
   - **Augmented LLMs** are LLMs enhanced with augmentations such as retrieval, tools, and memory.
   - **Workflows** are systems where LLMs and tools are orchestrated through **predefined** code paths.
-    - **Prompt chaining**: Pipe each LLM output to the next LLM. E.g. Write report, then translate. Extract results, then verify them. Successively ask follow-up questions.
-    - **Routing**: One LLMs decides which other LLM to call next. E.g. Evaluate complexity, then pick the right model. Classify request time, then pick the right prompt.
-    - **Parallelize: Sectioning**: Break tasks into independent subtasks, then aggregate. E.g. Evaluate contracts against different clauses in parallel.
-    - **Parallelize: Voting**: Run same task multiple times, then vote. E.g. Review code for prompt injection using different prompts. Evaluate content safety with different thresholds.
-    - **Orchestrator-workers**: One LLM delegates to others, then syntheisizes. E.g. Search from multiple sources, then synthesize. Change multiple code files.
-    - **Evaluator-optimizer**: One model checks another in a loop. E.g. Literary translation. Self-healing code. Policy violation checks.
-    - **Human-in-the-loop Checkpoints**: The workflow explicitly requests human review at certain stages.
+    - **Prompt chaining**: Pipe each LLM output to the next LLM. A->B->C->Z. E.g. Write report, then translate. Extract results, then verify them. Successively ask follow-up questions.
+    - **Routing**: One LLMs decides which other LLM to call next. A->B|C|D->Z. E.g. Evaluate complexity, then pick the right model. Classify request time, then pick the right prompt.
+    - **Parallelize: Sectioning** (and **Orchestrator-workers**): Break tasks into independent subtasks, then aggregate. A->B+C+D->Z. E.g. Evaluate contracts against different clauses in parallel.
+    - **Parallelize: Voting**: Run same task multiple times, then vote. A->B+B+B->Z. E.g. Review code for prompt injection using different prompts. Evaluate content safety with different thresholds.
+    - **Evaluator-optimizer**: One model checks another in a loop. A->B->A->B->...->Z. E.g. Literary translation. Self-healing code. Policy violation checks.
+    - **Human-in-the-loop Checkpoints**: The workflow explicitly requests human review at certain stages. A->B->(Human)->C->Z. E.g. Sensitive content review. High-stakes decision making. Ambiguous tasks.
   - **Agents** are LLMs that dynamically direct their own processes and tool usage, consulting tools or the user as needed.
 - 21 Dec 2025. A clever trick to prevent voice models from speaking too quickly. Use a "stay silent" function call. [Ref](https://x.com/ilanbigio/status/1870218818288558396?t=Bo-BdgJ0hFKOJ0urC0HYBQ)
 - 19 Dec 2024. o1-preview diagnoses better than doctors. [Harvard](https://arxiv.org/pdf/2412.10849)
