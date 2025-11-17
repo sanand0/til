@@ -2,6 +2,7 @@
 
 ## Oct 2025
 
+- 17 Nov 2025. [GhostScript](https://www.ghostscript.com/) seems the best way to compress PDFs via the CLI. Example: `gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf`
 - 17 Nov 2025. Pandoc supports [Lua filters](https://pandoc.org/lua-filters.html) which are a powerful way to customize the document conversion process. Here is a Lua filter that converts horizontal rules in a markdown document to page breaks and preserve in a Word document (OpenXML format)
   ```lua
   function HorizontalRule()
