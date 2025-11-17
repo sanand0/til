@@ -2,6 +2,12 @@
 
 ## Oct 2025
 
+- 17 Nov 2025. Pandoc supports [Lua filters](https://pandoc.org/lua-filters.html) which are a powerful way to customize the document conversion process. Here is a Lua filter that converts horizontal rules in a markdown document to page breaks and preserve in a Word document (OpenXML format)
+  ```lua
+  function HorizontalRule()
+    return pandoc.RawBlock('openxml', '<w:p><w:r><w:br w:type="page"/></w:r></w:p>')
+  end
+  ```
 - 16 Nov 2025. [readpst](https://manpages.debian.org/unstable/pst-utils/readpst.1.en.html) - via `sudo apt install pst-utils` - extracts emails from Outlook PST files to mbox format. Useful for email migrations.
 - 15 Nov 2025. Windows 11 got some _very_ practical updates. Notepad now supports Markdown preview natively. MS Paint has an opacity filter. Microsoft Copilot can share screens and speak/listen.
 - 14 Nov 2025. Things I learn when Ubuntu drivers crashed on my laptop:
