@@ -2,7 +2,7 @@
 
 ## Oct 2025
 
-- 18 Nov 2025. `ug --bool 'word1 word2 ...'` seems the cleanest way to find files that have all words.
+- 18 Nov 2025. `ug -i --smart-case --bool 'word1 word2 ...'` seems the cleanest way to find files that have all words. --smart-case uses case-insensitive if all words are lowercase, else case-sensitive. Examples:
   ```bash
   ug --bool '"exact phrase" word2'  # exact phrase + other tokens anywhere
   ug --bool 'word1 word2 -word3'    # must contain word1 AND word2, but NOT word3
