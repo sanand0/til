@@ -2,6 +2,7 @@
 
 ## Oct 2025
 
+- 18 Nov 2025. `ug --bool 'keyword1 keyword2 ...'` seems the cleanest way to find files that have all keywords.
 - 18 Nov 2025. Fixing laptop issues is clearly a whole lot easier with an AI chatbot. I fixed these Ubuntu issues purely using Claude. It told me what to run. I ran it, shared the output, it diagnosed, told me what to do next, etc. until the issues were fixed. For example:
   - My keyboard shortcuts stopped working. It turned out I edited my [media-keys.dconf](https://github.com/sanand0/scripts/blob/29be5c4d79b5d75e96677aa1a850d273833caea8/setup/media-keys.dconf) and removed the trailing slash. [#](https://claude.ai/chat/1ba03ff1-627d-44bb-8c80-ef5f5c18f90d)
   - A 3-finger tap mapped to a middle click and I couldn't remove it. It turned out my [touchegg.conf](https://github.com/sanand0/scripts/blob/29be5c4d79b5d75e96677aa1a850d273833caea8/touchegg.conf) explicitly had this mapping. I disabled it. [#](https://claude.ai/chat/46b030c2-7d82-439c-afb7-41515924ff0f)
