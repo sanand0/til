@@ -8,6 +8,7 @@
   ug --bool 'word1 word2 -word3'    # must contain word1 AND word2, but NOT word3
   ug --bool '("foo bar") OR baz'    # grouped expressions and OR
   ug --bool 'word1 NEAR/5 word2'    # match when words are within 5 tokens/words
+  ug -Z2 'word'                     # allows up to 2 typos in 'word'
   ```
 - 18 Nov 2025. Fixing laptop issues is clearly a whole lot easier with an AI chatbot. I fixed these Ubuntu issues purely using Claude. It told me what to run. I ran it, shared the output, it diagnosed, told me what to do next, etc. until the issues were fixed. For example:
   - My keyboard shortcuts stopped working. It turned out I edited my [media-keys.dconf](https://github.com/sanand0/scripts/blob/29be5c4d79b5d75e96677aa1a850d273833caea8/setup/media-keys.dconf) and removed the trailing slash. [#](https://claude.ai/chat/1ba03ff1-627d-44bb-8c80-ef5f5c18f90d)
