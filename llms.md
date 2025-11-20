@@ -2,6 +2,7 @@
 
 ## Oct 2025
 
+- 20 Nov 2025. [TOON vs JSON](https://chatgpt.com/share/691e63a9-ae98-800c-b9bd-0cc7e6013700). Early days, and TOON seems to be marketing
 - 16 Nov 2025. Running a coding agent post mortem, e.g. "what worked well, what didn't, and why? Next time, what are a few bullets I could include that will avoid these problems?" helps me prompt better next time. For example, [Claude Code](https://claude.ai/code/session_01EWtnaQVZxqTqsVuY7tSCgA) suggested:
   - Use Firefox for headless browser automation (Chromium often crashes)
   - Set HOME=/root when running Playwright with Firefox
