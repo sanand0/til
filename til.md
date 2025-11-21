@@ -2,7 +2,12 @@
 
 ## Oct 2025
 
-- 21 Nov 2025. Organizing a round table event in Singapore costs ~$75-150.
+- 21 Nov 2025. Organizing a round table event in Singapore costs ~$75-150. Here's what drives the cost variation [#](https://chatgpt.com/c/691fbbbf-4870-8321-a12d-36faf1da2ae4)
+  - 50%: brand/location.
+  - 25%: food and beverage.
+  - 15%: duration (full day is only slightly more expensive than half day)
+  - 10%: date, demand, etc.
+  - 10%: add-ons: AV, etc.
 - 18 Nov 2025. `ug -i --smart-case --bool 'word1 word2 ...'` seems the cleanest way to find files that have all words. --smart-case uses case-insensitive if all words are lowercase, else case-sensitive. Examples:
   ```bash
   ug --bool '"exact phrase" word2'  # exact phrase + other tokens anywhere
