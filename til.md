@@ -2,6 +2,7 @@
 
 ## Oct 2025
 
+- 21 Nov 2025. Organizing a round table event in Singapore costs ~$75-150.
 - 18 Nov 2025. `ug -i --smart-case --bool 'word1 word2 ...'` seems the cleanest way to find files that have all words. --smart-case uses case-insensitive if all words are lowercase, else case-sensitive. Examples:
   ```bash
   ug --bool '"exact phrase" word2'  # exact phrase + other tokens anywhere
