@@ -2,6 +2,7 @@
 
 ## Oct 2025
 
+- 22 Nov 2025. Gone are the times when LLMs couldn't do mental math. Now they're computing base64 and SHA256 from memory, without needing code! [Example](https://chatgpt.com/share/6921b2c5-6cf4-800c-9958-357c788e3e72)
 - 20 Nov 2025. [TOON vs JSON](https://chatgpt.com/share/691e63a9-ae98-800c-b9bd-0cc7e6013700). Early days, and [TOON](https://github.com/toon-format/toon) seems to be marketing a lot, so I'm wary, but for large tabular data where input tokens are crunched, it seems a readable alternative to multiple CSVs, but not worth the hype.
 - 16 Nov 2025. Running a coding agent post mortem, e.g. "what worked well, what didn't, and why? Next time, what are a few bullets I could include that will avoid these problems?" helps me prompt better next time. For example, [Claude Code](https://claude.ai/code/session_01EWtnaQVZxqTqsVuY7tSCgA) suggested:
   - Use Firefox for headless browser automation (Chromium often crashes)
