@@ -4,7 +4,9 @@
 
 - 22 Nov 2025. Here are some new CLI tools I installed:
   - [visidata](https://github.com/saulpw/visidata): Terminal spreadsheet viewer & editor for CSV, Excel, JSON, SQL, Parquet, etc.
-  - [rga](https://github.com/phiresky/ripgrep-all) (ripgrep-all): ripgrep that searches PDFs, Office docs, EPUBs, zip files
+  - [qsv](https://github.com/jqnatividad/qsv): Fast CSV command line toolkit for slicing, filtering, aggregating, and analyzing CSV files.
+  - [rga](https://github.com/phiresky/ripgrep-all) (ripgrep-all): ripgrep that searches PDFs, Office docs, EPUBs, zip files.
+  - [pdfcpu](https://github.com/pdfcpu/pdfcpu): PDF processor for splitting, merging, optimizing, and manipulating PDF files.
 - 21 Nov 2025. Organizing a round table event in Singapore costs ~$75-150. Here's what drives the cost variation [#](https://chatgpt.com/c/691fbbbf-4870-8321-a12d-36faf1da2ae4)
   - 50%: brand/location.
   - 25%: food and beverage.
