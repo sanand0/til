@@ -2,6 +2,39 @@
 
 ## Oct 2025
 
+- 22 Nov 2025. Here are some new CLI tools I installed:
+  - [`vd`](https://github.com/saulpw/visidata) (visidata): Terminal spreadsheet viewer & editor for CSV, Excel, JSON, SQL, Parquet, etc.
+  - [`qsv`](https://github.com/jqnatividad/qsv): Fast CSV command line toolkit for slicing, filtering, aggregating, and analyzing CSV files.
+  - [`rga`](https://github.com/phiresky/ripgrep-all) (ripgrep-all): ripgrep that searches PDFs, Office docs, EPUBs, zip files.
+  - [`pdfcpu`](https://github.com/pdfcpu/pdfcpu): PDF processor for splitting, merging, optimizing, and manipulating PDF files.
+  - [`gum`](https://github.com/charmbracelet/gum): Stylish CLI tool for creating interactive prompts, confirmations, and more.
+- 21 Nov 2025. Organizing a round table event in Singapore costs ~$75-150. Here's what drives the cost variation [#](https://chatgpt.com/c/691fbbbf-4870-8321-a12d-36faf1da2ae4)
+  - 50%: brand/location.
+  - 25%: food and beverage.
+  - 15%: duration (full day is only slightly more expensive than half day)
+  - 10%: date, demand, etc.
+  - 10%: add-ons: AV, etc.
+- 18 Nov 2025. `ug -i --smart-case --bool 'word1 word2 ...'` seems the cleanest way to find files that have all words. --smart-case uses case-insensitive if all words are lowercase, else case-sensitive. Examples:
+  ```bash
+  ug --bool '"exact phrase" word2'  # exact phrase + other tokens anywhere
+  ug --bool 'word1 word2 -word3'    # must contain word1 AND word2, but NOT word3
+  ug --bool '("foo bar") OR baz'    # grouped expressions and OR
+  ug --bool 'word1 NEAR/5 word2'    # match when words are within 5 tokens/words
+  ug -Z2 'word'                     # allows up to 2 typos in 'word'
+  ```
+- 18 Nov 2025. ⭐ `ug -i --smart-case --bool -Q` lets you _interactively_ search within files. This is the **coolest** feature!
+- 18 Nov 2025. Fixing laptop issues is clearly a whole lot easier with an AI chatbot. I fixed these Ubuntu issues purely using Claude. It told me what to run. I ran it, shared the output, it diagnosed, told me what to do next, etc. until the issues were fixed. For example:
+  - My keyboard shortcuts stopped working. It turned out I edited my [media-keys.dconf](https://github.com/sanand0/scripts/blob/29be5c4d79b5d75e96677aa1a850d273833caea8/setup/media-keys.dconf) and removed the trailing slash. [#](https://claude.ai/chat/1ba03ff1-627d-44bb-8c80-ef5f5c18f90d)
+  - A 3-finger tap mapped to a middle click and I couldn't remove it. It turned out my [touchegg.conf](https://github.com/sanand0/scripts/blob/29be5c4d79b5d75e96677aa1a850d273833caea8/touchegg.conf) explicitly had this mapping. I disabled it. [#](https://claude.ai/chat/46b030c2-7d82-439c-afb7-41515924ff0f)
+  - My gnome extensions would get disabled every time the screen went to sleep. It turned out my extension cache was corrupted or stale. `sudo apt install --reinstall gnome-shell-extension-manager` and `rm -rf ~/.cache/gnome-shell/` fixed it. [#](https://claude.ai/chat/46b030c2-7d82-439c-afb7-41515924ff0f)
+- 17 Nov 2025. [GhostScript](https://www.ghostscript.com/) seems the best way to compress PDFs via the CLI. Example: `gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf`
+- 17 Nov 2025. Pandoc supports [Lua filters](https://pandoc.org/lua-filters.html) which are a powerful way to customize the document conversion process. Here is a Lua filter that converts horizontal rules in a markdown document to page breaks and preserve in a Word document (OpenXML format)
+  ```lua
+  function HorizontalRule()
+    return pandoc.RawBlock('openxml', '<w:p><w:r><w:br w:type="page"/></w:r></w:p>')
+  end
+  ```
+- 16 Nov 2025. [readpst](https://manpages.debian.org/unstable/pst-utils/readpst.1.en.html) - via `sudo apt install pst-utils` - extracts emails from Outlook PST files to mbox format. Useful for email migrations.
 - 15 Nov 2025. Windows 11 got some _very_ practical updates. Notepad now supports Markdown preview natively. MS Paint has an opacity filter. Microsoft Copilot can share screens and speak/listen.
 - 14 Nov 2025. Things I learn when Ubuntu drivers crashed on my laptop:
   - The [SG.GS Ubuntu ISO mirror](http://mirror.sg.gs/ubuntu-releases/24.04.3/ubuntu-24.04.3-desktop-amd64.iso) is a _lot_ faster than the [official Ubuntu ISO download](https://releases.ubuntu.com/24.04.3/ubuntu-24.04.3-desktop-amd64.iso) (5 min vs 12 hours).
