@@ -8,7 +8,7 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 - 06 Oct 2025. Build an app that codes an app _on the fly_. https://x.com/OriolVinyalsML/status/1935005985070084197
 - 06 Oct 2025. Create a long form document agent editor that can make targeted edits in _long_ documents/reports. Effectively a Codex for Word.
 - 06 Oct 2025. Visualise the jobs most at risk on AI as a Voronoi diagram. Size = employment, color = score. Organize as a hierarchy. https://x.com/unusual_whales/status/1957140620151283718
-- 02 Oct 2025. Create a bookmarket that converts the latest ChatGPT Markdown response into Marp slides. #MEDIUM
+- 02 Oct 2025. [x] Create a bookmarket that converts the latest ChatGPT Markdown response into Marp slides. #MEDIUM
 - 02 Oct 2025. Create a web app that polls a [Slido](https://datapi-eu1.slido.com/redoc) survey and runs [topic modelling](https://pypi.org/project/topicmodel) to visually show the clusters of questions live, e.g. like [pol.is](https://info.vtaiwan.tw/). #HARD
 - 02 Oct 2025. Create an npm package that exposes functions for LLMs/agents to use as tools to run JavaScript (browser), Python (WASM) and SQL (DuckDB WASM) code. #MEDIUM
 - 02 Oct 2025. Create an AI journaling tool. #VAGUE As you write, the notebook talks back to you. For example, a VS code plugin that fact-checks, suggests questions, ... as you write.
@@ -55,7 +55,9 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
             output, tool_calls = llm(msg, tools)  # ... and sends the conversation + tools to the LLM
             print("Agent: ", output)  # Always stream LLM output, if any
             if tool_calls:  # Continue executing tool calls until LLM decides it needs no more
-                msg += [ handle_tool_call(tc) for tc in tool_calls ]  # Allow multiple tool calls (may be parallel)
+                msg += [
+                    handle_tool_call(tc) for tc in tool_calls
+                ]  # Allow multiple tool calls (may be parallel)
             else:
                 msg.append(user_input())  # Add the user input message and continue
     ```

@@ -64,7 +64,8 @@ const renderHeader = (title) => /* html */ `
   </div>
 </header>`;
 
-const renderHtmlWrapper = (content, title) => /* html */ `<!DOCTYPE html>
+const renderHtmlWrapper = (content, title) =>
+  /* html */ `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -114,11 +115,11 @@ const extractNotes = (markdown) => {
         date: new Date(`${month} ${day}, ${year}`),
         content: line,
       };
-    }
-    // Add everything indented under the current note
-    else if (currentNote)
+    } // Add everything indented under the current note
+    else if (currentNote) {
       if (line.startsWith("  ")) currentNote.content += "\n" + line;
       else currentNote = null;
+    }
   });
 
   if (currentNote) notes.push(currentNote);
@@ -182,13 +183,17 @@ const generateWeekHTML = (notes, weekEnd, allWeeks) => {
 
   const content = /* html */ `
     ${renderHeader(formattedDate)}
-    ${renderContainer(/* html */ `
+    ${
+    renderContainer(/* html */ `
       <div class="notes mb-4">${notes.map(noteToMarkdown).join("\n")}</div>
-      ${renderNav(
+      ${
+      renderNav(
         weekIndex > 0 ? allWeeks[weekIndex - 1] : null,
-        weekIndex < allWeeks.length - 1 ? allWeeks[weekIndex + 1] : null
-      )}
-    `)}`;
+        weekIndex < allWeeks.length - 1 ? allWeeks[weekIndex + 1] : null,
+      )
+    }
+    `)
+  }`;
 
   return renderHtmlWrapper(content, formattedDate);
 };
@@ -214,7 +219,8 @@ const generateIndexHTML = (weeks) => {
 
   const content = /* html */ `
     ${renderHeader(SITE_TITLE)}
-    ${renderContainer(/* html */ `
+    ${
+    renderContainer(/* html */ `
       <div class="list-group mb-4">
         ${linksHtml}
       </div>
@@ -226,7 +232,8 @@ const generateIndexHTML = (weeks) => {
           Subscribe to RSS
         </a>
       </footer>
-    `)}`;
+    `)
+  }`;
 
   return renderHtmlWrapper(content, SITE_TITLE);
 };
@@ -240,10 +247,12 @@ const generateIndexHTML = (weeks) => {
 const generateTagHTML = (tag, notes) => {
   const content = /* html */ `
     ${renderHeader(`#${tag}`)}
-    ${renderContainer(/* html */ `
+    ${
+    renderContainer(/* html */ `
       <div class="notes mb-4">${notes.map((note) => noteToMarkdown(note, true)).join("\n")}</div>
       <nav class="text-center"><a href="index.html">← Home</a></nav>
-    `)}`;
+    `)
+  }`;
 
   return renderHtmlWrapper(content, `#${tag}`);
 };

@@ -163,7 +163,7 @@ This is true for many subjects. But avoid overconfidence. Expert pattern librari
   - Separate
   - Cook
   - Chill
-- Core Concepts of Everyday cooking: [Samin Nosrat’s framework](<https://en.wikipedia.org/wiki/Salt_Fat_Acid_Heat_(book)>)
+- Core Concepts of Everyday cooking: [Samin Nosrat’s framework](https://en.wikipedia.org/wiki/Salt_Fat_Acid_Heat_(book))
   - Salt
   - Fat
   - Acid

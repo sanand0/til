@@ -1,3 +1,4 @@
+🟣	TS	    3248	    74	2025-11-30	cloudflare/vibesdk	An open-source vibe coding platform that helps you build your own vibe-coding platform, built entirely on Cloudflare stack
 🟣	TS	   99636	  1340	2025-11-12	iptv-org/iptv	Collection of publicly available IPTV channels from all over the world
 🟣	TS	   87792	    83	2025-09-23	storybookjs/storybook	Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation
 🟣	TS	   81548	  1046	2025-11-12	clash-verge-rev/clash-verge-rev	A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience
@@ -68,7 +69,7 @@
 🟣	SH	   51631	    76	2025-10-26	sickcodes/Docker-OSX	Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers.
 🟣	SH	   27157	    74	2025-10-19	233boy/v2ray	最好用的 V2Ray 一键安装脚本 & 管理脚本
 🟣	SH	   22426	    63	2025-11-12	kholia/OSX-KVM	Run macOS on QEMU/KVM. With OpenCore + Monterey + Ventura + Sonoma support now! Only commercial (paid) support is available now to avoid spammy issues. No Mac system is required.
-🟣	SH	   17792	    66	2025-10-26	agarrharr/awesome-cli-apps	🖥 📊 🕹 🛠 A curated list of command line apps
+🟢	SH	   17792	    66	2025-10-26	agarrharr/awesome-cli-apps	🖥 📊 🕹 🛠 A curated list of command line apps
 🟣	SH	   17615	   109	2025-10-26	dockur/macos	MacOS inside a Docker container.
 🟣	SH	   17513	    54	2025-11-02	mack-a/v2ray-agent	Xray、Tuic、hysteria2、sing-box 八合一一键脚本
 🟣	SH	   15138	    84	2025-09-23	thibmaek/awesome-raspberry-pi	📝 A curated list of awesome Raspberry Pi tools, projects, images and resources
@@ -92,7 +93,7 @@
 🟣	SH	    5710	    31	2025-10-05	masonr/yet-another-bench-script	YABS - a simple bash script to estimate Linux server performance using fio, iperf3, & Geekbench
 🟣	SH	    5705	    64	2025-09-23	ROCm/ROCm	AMD ROCm™ Software - GitHub Home
 🟣	SH	    5533	    23	2025-09-23	bats-core/bats-core	Bash Automated Testing System
-🟣	SH	    5414	    29	2025-09-17	remote-android/redroid-doc	redroid (Remote-Android) is a multi-arch, GPU enabled, Android in Cloud solution. Track issues / docs here
+🔴	SH	    5414	    29	2025-09-17	remote-android/redroid-doc	redroid (Remote-Android) is a multi-arch, GPU enabled, Android in Cloud solution. Track issues / docs here	I don't code mobile apps
 🟣	SH	    5378	    24	2025-10-26	tensorchord/Awesome-LLMOps	An awesome & curated list of best LLMOps tools for developers
 🟣	SH	    4908	    23	2025-10-26	armbian/build	Armbian Linux build framework generates custom Debian or Ubuntu image for x86, aarch64, riscv64 & armhf
 🟣	SH	    4769	    41	2025-11-12	kserve/kserve	Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes
@@ -105,7 +106,7 @@
 🟣	SH	    3600	    14	2025-10-05	htr-tech/nexphisher	Advanced Phishing tool
 🟣	SH	    2914	    12	2025-11-02	void-linux/void-packages	The Void source packages collection
 🟣	SH	    2791	    21	2025-11-02	hcengineering/huly-selfhost	Huly for Self Hosting
-🟣	SH	    2623	    21	2025-11-02	tom-snow/wechat-windows-versions	保存微信历史版本
+🔴	SH	    2623	    21	2025-11-02	tom-snow/wechat-windows-versions	保存微信历史版本	I don't use wechat
 🟣	SH	    2576	    30	2025-10-19	XTLS/Xray-install	Easiest way to install & upgrade Xray
 🟣	SH	    2208	    21	2025-10-05	bluesky-social/pds	Bluesky PDS (Personal Data Server) container image, compose file, and documentation
 🟣	SH	    2169	    72	2025-11-12	233boy/sing-box	最好用的 sing-box 一键安装脚本 & 管理脚本，自动创建 REALITY 协议；支持 TUIC，Trojan，Hysteria2 等所有常见的协议

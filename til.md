@@ -2,6 +2,23 @@
 
 ## Oct 2025
 
+- 30 Nov 2025. The argument that technologically unemployed will find other jobs may not apply to general-purpose technology, e.g. electricity, internal combustion engine, maybe AI - technologies that can automate multiple sectors of the economy simultaneously. When one sector loses jobs, there may not be (in the short/medium term) other jobs to take up. [Alex Imas + Claude](https://claude.ai/share/811ad94b-f6dc-4251-9548-e3ad40f2c36a)
+- 26 Nov 2025. Some more new CLI tools I installed:
+  - [`trash-cli`](https://github.com/sindresorhus/trash-cli): Alias `rm` to move files to trash instead of deleting permanently.
+- 26 Nov 2025. After a week of seeing ligatures in [Fira Code](https://github.com/tonsky/FiraCode), all other fonts look ugly. My favorite ligatures: !== ==> =>> <--> (and every possible arrow) >= ||> ||- |- ...
+- 26 Nov 2025. The first name, alphabetically (at least among Straive employees) is "Aabida" and the last is "Zyrene". Something I would never have discovered working in a smaller company.
+- 26 Nov 2025. [chokidar-cli](https://github.com/open-cli-tools/chokidar-cli) is an easy way to run commands when files change, e.g. `npx -y chokidar-cli '**/*.js' -c 'npm run build'`
+- 26 Nov 2025. [`npx -y mapscii`](https://github.com/rastapasta/mapscii) shows a map on the terminal. Not too useful, not maintained, but very interesting.
+- 26 Nov 2025. [termsvg](https://github.com/MrMarble/termsvg) converts asciinema `.cast` files to animated SVG suitable for embedding in GitHub (e.g. via `mise exec ubi:MrMarble/termsvg -- termsvg export file.cast --minify`). The animated SVG is ~10X larger than the .cast file. The GZipped size is fine but saving it as `.svgz` is not recognized by GitHub. In contrast, [agg](https://github.com/asciinema/agg), the official asciinema-to-GIF converter, creates .GIF files that are only 5X larger. The most efficient seems to be embedding via [asciinema.org](https://asciinema.org/)
+- 25 Nov 2025. [`usql`](https://github.com/xo/usql) queries MySQL, Postgres, SQLite, MSSQL, Oracle, etc via a single interface. For example, `usql 'mysql://rfamro:@mysql-rfam-public.ebi.ac.uk:4497/Rfam' -c "SELECT * FROM clan limit 3;"`. But DuckDB is more versatile, IMHO.
+  ```sql
+  INSTALL mysql; LOAD mysql;
+  ATTACH 'host=mysql-rfam-public.ebi.ac.uk port=4497 user=rfamro database=Rfam' AS rfam (TYPE mysql);
+  SELECT * from rfam.Rfam.clan LIMIT 3;
+  SELECT * FROM 'file.xlsx' LIMIT 3;
+  SELECT * FROM 'file.csv' LIMIT 3;
+  ```
+- 24 Nov 2025. Autistic and allistic people just have different communication styles. Autistic people have no trouble understanding other autists. They just happen to be in a minority which makes it seem like they have a social deficit. [Conflict between Neurotypes](https://blog.izs.me/2025/11/ogc-4-conflict/)
 - 22 Nov 2025. Here are some new CLI tools I installed:
   - [`vd`](https://github.com/saulpw/visidata) (visidata): Terminal spreadsheet viewer & editor for CSV, Excel, JSON, SQL, Parquet, etc.
   - [`qsv`](https://github.com/jqnatividad/qsv): Fast CSV command line toolkit for slicing, filtering, aggregating, and analyzing CSV files.
@@ -153,13 +170,13 @@
   - 🟢 Advertising ID. View/reset in Settings → Google → Ads (wording varies), per Google help on Ad ID reset.
   - 🟡 Per-app screen time / unlocks / opens. Third-party “usage” apps (e.g., analytics or “digital wellbeing” clones) require Usage Access (PACKAGE_USAGE_STATS). Use Android’s UsageStatsManager or apps that export CSV. Stock Digital Wellbeing does not offer an export.
   - 🟡 Notification history (last 24h). Settings → Notifications → Notification history → On. OEM-optional, but present on most devices. Viewable once enabled.
-  - 🟡 Notification content stream (live). Grant an app Notification access to capture/export notifications going forward. (User-granted API via NotificationListenerService.)                                                                                                                                   |
+  - 🟡 Notification content stream (live). Grant an app Notification access to capture/export notifications going forward. (User-granted API via NotificationListenerService.) |
   - 🟢 Per-app data usage (mobile/Wi-Fi). Apps/ADB can query NetworkStatsManager; Settings shows per-app totals. Advanced dumps via `adb shell dumpsys netstats`.
   - 🟡 Wi-Fi detailed logs. Developer options → Enable Wi-Fi verbose logging for richer diagnostics.
   - 🟡 Bluetooth packet logs. Developer options → Enable Bluetooth HCI snoop log; export file and analyze in Wireshark.
   - 🟢 Per-app storage usage. Apps/ADB can query StorageStatsManager; Settings shows per-app storage.
-  - 🟡 Photo/video metadata (EXIF incl. location). Enable “Save location” in Camera app to embed GPS in EXIF; export files normally (EXIF remains).   |
-  - 🟢 Downloads & file metadata. Use a file manager or connect via USB; metadata is in the files themselves.                            |
+  - 🟡 Photo/video metadata (EXIF incl. location). Enable “Save location” in Camera app to embed GPS in EXIF; export files normally (EXIF remains). |
+  - 🟢 Downloads & file metadata. Use a file manager or connect via USB; metadata is in the files themselves. |
   - 🟢 Battery usage history (per-UID/app), wakelocks, jobs. Generate adb bugreport and analyze with Battery Historian or `dumpsys batterystats`.
   - 🟡 System/device logs (logcat). You can view via ADB/Android Studio. Android restricts 3rd-party access to system-wide logs for privacy.
   - 🟢 Developer quick tiles (Sensors off). Developer options → Quick settings developer tiles → Sensors off to globally cut Camera/Mic & SensorManager sensors on demand.

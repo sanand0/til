@@ -2,6 +2,75 @@
 
 ## Oct 2025
 
+- 28 Nov 2025. Warp has a [terminal agent feature](https://www.warp.dev/blog/agents-3-full-terminal-use-plan-code-review-integration) - allowing Warp to control a terminal via text. I find that regular coding agents like Codex can do that too with tmux. For example, I opened a session and had Codex run commands in it while I watched. Here's the guidance it needed:
+  ```bash
+  # Create a new session
+  tmux new-session -d -s $SESSION 'uv run --with pandas,httpx,lxml python -iqu'
+  # Capture output to a log file
+  tmux pipe-pane -t $SESSION -o "cat >> /tmp/$LOG"
+  # Run a command
+  tmux send-keys -t $SESSION 'print(1 + 2)' C-m
+  # See output
+  cat /tmp/$LOG
+  # Capture the last 5 lines of the pane
+  tmux capture-pane -p -t $SESSION -S -5
+  ```
+- 28 Nov 2025. Notes from [Early science acceleration experiments with GPT-5](https://cdn.openai.com/pdf/4a25f921-e4e0-479a-9b38-5367b47e8fd0/early-science-acceleration-experiments-with-gpt-5.pdf) - via [Claude](https://claude.ai/share/75507676-ce0c-4be2-b1da-c652336b2145)
+  - LLMs are accelrating research because they are good at:
+    - Literature search, especially across disciplinary boundaries
+    - Generating and checking routine calculations
+    - Proposing variations on known techniques
+    - Identifying connections between disparate results
+    - Producing first-draft code for well-specified problems
+    - Explaining why certain approaches won't work
+  - But they're curently struggling with the following - though it's a shrinking space
+    - Genuinely novel conceptual leaps (but this is increasingly happening, e.g. Sawhney and Sellke's problem #848)
+    - Recognizing when it's plagiarizing, e.g. when it "discovered" a proof for the Chevalley-Warning theorem which was copied from a Noga Alon paper - it wasn't conscious of this
+    - Knowing what it doesn't know
+    - Distinguishing important problems from unimportant ones
+    - Understanding the "negative space" of mathematics (why certain problems are hard, why obvious approaches fail)
+- 27 Nov 2025. Anthropic introduced three excellent [tool use practices](https://www.anthropic.com/engineering/advanced-tool-use) that I expect will be adopted widely.
+  - [Tool search](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool): Don't pass the tool definitions to the model. Model can ask for a tool search when needed
+  - [Programmatic tool calling](https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling): Instead of calling a tool, it'll return a Python program to execute that will call the tools! This is a huge win
+  - [Tool use examples](https://platform.claude.com/docs/en/agents-and-tools/tool-use/implement-tool-use#providing-tool-use-examples): Lets you specific examples of tool calls to guide th model better
+  - The [Hacker News thread](https://news.ycombinator.com/item?id=46038047) flags that CLIs solve these - but CLI updates are hard, while APIs auto-update.
+- 27 Nov 2025. With AI, some skills that beome more valuable are (and will soon be in short supply, hence need to be taught) are: [#](https://claude.ai/chat/68410b38-514f-4301-9c85-a9534a0cd7f8)
+  - Problem formulation ("What question should we actually ask?")
+    - Traits: Curiosity (absolutely), systems thinking, comfort with ambiguity, metacognition (thinking about your thinking)
+    - Practice reframing exercises ("What are 5 other ways to frame this?"), study great questions in your field, work backward from outcomes, learn adjacent domains. The "5 Whys" technique helps. Also: deliberately pause before diving into solutions—force yourself to spend time in the question space.
+  - Taste and judgment ("Is this response appropriate?")
+    - Traits: Pattern recognition from experience, cultural literacy, empathy, contextual awareness, aesthetic sense
+    - How to strengthen: Immerse yourself in excellent examples, study spectacular failures (they're more instructive!), get feedback on your calls, practice explaining why you made a judgment. Build a "swipe file" of great/terrible examples. The key is volume—you need lots of reps.
+  - Quality assessment ("Is this AI output correct?")
+    - Traits: Healthy skepticism, attention to detail, domain knowledge, logical reasoning, understanding of edge cases
+    - How to strengthen: Study common AI failure modes, build verification checklists, practice the "does this make sense?" test, learn what "good" looks like in your domain, cross-reference claims. Develop your "bullshit detector" by analyzing why wrong answers feel wrong.
+  - Creative synthesis ("How do these ideas connect?")
+    - Traits: Associative thinking, wide knowledge base, playfulness, comfort with non-obvious connections, intellectual courage
+    - How to strengthen: Consume diverse inputs outside your field, practice analogical thinking ("X is like Y because..."), use visual thinking tools like concept maps, study how innovations happen in other domains, give yourself permission to make weird connections. Read broadly—fiction, history, science.
+  - Domain expertise ("Does this solution work in reality?")
+    - Traits: Deep curiosity, persistence, willingness to get hands dirty, learning from failure, long-term commitment
+    - How to strengthen: Deliberate practice on real problems, seek mentorship, study edge cases and failure modes, build things (don't just read about them), learn your field's history. The "10,000 hours" thing is real, but it's quality hours that matter.
+  - Meta pattern:
+    - Reflection loops: doing something, then analyzing why it worked/didn't.
+    - Exposure to excellence: you can't develop taste without seeing great work.
+- 24 Nov 2025. 1 second = 10 tokens for [OpenAI Realtime APIs](https://platform.openai.com/docs/guides/realtime-costs). 1 second = 25 tokens for [Gemini Live API](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/live-api/streamed-conversations#context_window)
+  - 39 cents / hour on [GPT Realtime Mini](https://platform.openai.com/docs/models/gpt-realtime-mini) = 36 cents audio input + 3 cents text output
+  - 139 cents / hour on [GPT Realtime](https://platform.openai.com/docs/models/gpt-realtime) = 115 cents audio input + 15 cents text output
+  - 30 cents / hour on [Gemini 2.5 Flash Native Audio (Live API)](https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash-native-audio) = 27 cents audio input + 3 cents text output
+- 24 Nov 2025. Here are some AI experiments I'm planning to try with our marketing team:
+  - **Video Generation**: Create marketing videos from text scripts in minutes
+  - **Poster Generation**: AI designs high-conversion posters from brief text inputs - notably Nano Banana Pro
+  - **Synthetic Persona A/B Testing**: LLM agents simulate 100K+ user behaviors to test designs before real users
+  - **LLM-Powered A/B Automation**: AgentA/B system runs experiments with AI-simulated traffic
+  - **Vibe Coding Landing Pages**: Marketers build production-ready pages in hours vs weeks
+  - **On-demand Landing Pages**: Generate pages for automated campaigns/products without human intervention
+  - **Brand Voice Cloning at Scale**: Train on company content to ensure consistency across 1000s of pieces
+  - **Persona-Driven Content Synthesis**: Use 1B+ personas to generate diverse content perspectives
+  - **Competitive Intelligence Briefing**: Real-time monitoring across millions of data points + data storytelling
+  - **Marketing Analytics with LLMs**: AI agents analyze complex datasets for insights
+  - **Brand Compliance Checks**: Ensure all content meets brand guidelines automatically
+  - **Autonomous Blog Squads**: AI agents identify trending topics / internal content, create data stories ready for review
+- 24 Nov 2025. New skill unlocked: creating tutorials from talk proposals. I asked Claude to `Write a Malcolm Gladwell article based on this talk description to teach me the topic` and passed it this talk proposal: [Your Causal Parrot might be lying to you](https://hasgeek.com/fifthelephant/2025-winter/sub/your-causal-parrot-might-be-lying-to-you-FhpB6kWkM4AAkYqdYQSCpJ). The [story it wrote](https://claude.ai/share/56b9bf17-927b-43a4-9af6-9b14a8cb1944) is very engaging and informative!
 - 23 Nov 2025. A cool Gemini 3 Pro hack: convert satellite imagery into stylized maps! [Bilawal Sidhu](https://x.com/bilawalsidhu/status/1991635734546284703)
 - 23 Nov 2025. Running subagents in `tmux` helps avoid timeout cancellation, and hence allowing resuming [Peter Steinberger](https://github.com/steipete/agent-scripts/blob/main/docs%2Fsubagent.md)
 - 22 Nov 2025. Models read pretty fast, consuming input tokens at ~4K-20K words per second. It's the "speaking" (output token rate) that is the bottleneck. So shortening input doesn't matter as much as shortening output for latence. [ChatGPT](https://chatgpt.com/share/6922cde4-4d40-800c-9524-8e35d68039f3)
@@ -9,7 +78,7 @@
 - 22 Nov 2025. Gone are the times when LLMs couldn't do mental math. Now they're computing base64 and SHA256 from memory, without needing code! [Example](https://chatgpt.com/share/6921b2c5-6cf4-800c-9958-357c788e3e72)
 - 21 Nov 2025. OpenRouter supports [embedding models](https://openrouter.ai/docs/api-reference/api-reference/embeddings). [BGE base](https://openrouter.ai/baai/bge-base-en-v1.5) seems pareto optimal with 0.5 cents / MTok and a good [MTEB](https://huggingface.co/spaces/mteb/leaderboard) ranking.
 - 20 Nov 2025. [TOON vs JSON](https://chatgpt.com/share/691e63a9-ae98-800c-b9bd-0cc7e6013700). Early days, and [TOON](https://github.com/toon-format/toon) seems to be marketing a lot, so I'm wary, but for large tabular data where input tokens are crunched, it seems a readable alternative to multiple CSVs, but not worth the hype.
-0 19 Nov 2025. Always use GPT-5.1-Codex-Max instead of GPT-5.1-Codex. At every thinking level, it takes fewer tokens for similar or higher accuracy. [Tibo](https://x.com/thsottiaux/status/1991210545253609875)
+  0 19 Nov 2025. Always use GPT-5.1-Codex-Max instead of GPT-5.1-Codex. At every thinking level, it takes fewer tokens for similar or higher accuracy. [Tibo](https://x.com/thsottiaux/status/1991210545253609875)
 - 16 Nov 2025. Running a coding agent post mortem, e.g. "what worked well, what didn't, and why? Next time, what are a few bullets I could include that will avoid these problems?" helps me prompt better next time. For example, [Claude Code](https://claude.ai/code/session_01EWtnaQVZxqTqsVuY7tSCgA) suggested:
   - Use Firefox for headless browser automation (Chromium often crashes)
   - Set HOME=/root when running Playwright with Firefox
@@ -48,8 +117,8 @@
   - ... and a hundred other questions that I wouldn't even know to ask.
 - 10 Nov 2025. Sub-agents can run parallel / independent tasks while keeping the context window small. (But the advantage over `xargs` seems marginal.) [Simon Willison](https://simonwillison.net/2025/Oct/11/sub-agents/)
   - Document, lint, type-check, add test cases (or other similar tasks) for all folders in a monorepo.
-  - Research and create a report for each topic in */RESEARCH.md.
-  - Synthesize learnings from each conversation in transripts/*.md.
+  - Research and create a report for each topic in \*/RESEARCH.md.
+  - Synthesize learnings from each conversation in transripts/\*.md.
 - 10 Nov 2025. "If you're signed into sensitive accounts like your bank or your email provider in your browser, simply summarizing a Reddit post could result in an attacker being able to steal money or your private data." [Brave](https://brave.com/blog/unseeable-prompt-injections/)
 - 10 Nov 2025. OpenAI Atlas has a "Watch Mode" that will stop working if you move away from that tab. Useful to keep an eye on sensitive sites. [Simon Willison](https://simonwillison.net/2025/Oct/22/openai-ciso-on-atlas/)
 - 10 Nov 2025. "... image editing platforms seem like they’ll eat and subsume Photoshop... modern image editors – especially Nano Banana from Google Gemini – ... they’re extremely effective and, increasingly, instructable" - [Import AI](https://jack-clark.net/2025/10/27/import-ai-433-ai-auditors-robot-dreams-and-software-for-helping-an-ai-run-a-lab/).
@@ -194,7 +263,7 @@
   - [ ] Don't reset context. Cold start wastes time + tokens
   - [ ] Write tests in the _same_ context. Yields better tests, reveals bugs.
   - [ ] Prototype in a separate folder / PR
-  - [ ] Queue `continue` messages** before stepping away
+  - [ ] Queue `continue` messages\*\* before stepping away
   - [ ] Ask it to "Preserve intent and add comments at tricky spots". Future you needs the WHY
   - [ ] On hard problems, add “take your time”, “be comprehensive”, “read all related code”, “form hypotheses”, etc.
   - [ ] Maintain an _evolving_ **AGENTS.md** with product notes, naming, API patterns, test policy, **ast-grep rules**, etc. Delete stale guidelines
@@ -1025,7 +1094,9 @@ Claude Code notes
       while True:
           output, tool_calls = llm(msg, too)
           print("Agent: ", output)  # Always print output if any
-          if tool_calls:  # Continue executing tool calls until LLM decides it needs no more
+          if (
+              tool_calls
+          ):  # Continue executing tool calls until LLM decides it needs no more
               msg += [
                   handle_tool_call(tc) for tc in tool_calls
               ]  # Allow multiple tool calls (may be parallel)
@@ -2854,7 +2925,7 @@ Claude Code notes
 - 25 Jun 2024. [LLM Patterns](https://eugeneyan.com/writing/llm-patterns/) include Evals, RAG, Fine-tuning, Caching, Guardrails, Defensive UX, Collect feedback. Notably:
   - Defensive UX: Microsoft, Google, and Apple have guidelines for Human-AI interactions
   - Collect feedback: Explicit and implicit
-- 25 Jun 2024. [Rouge](https://en.wikipedia.org/wiki/ROUGE_(metric)) and [Context Precision](https://docs.ragas.io/en/latest/concepts/metrics/context_precision.html) are [metrics](https://docs.ragas.io/en/latest/concepts/metrics/index.html) to evaluate LLM responses that serve as a starting point -- but not sufficient, usually
+- 25 Jun 2024. [Rouge](<https://en.wikipedia.org/wiki/ROUGE_(metric)>) and [Context Precision](https://docs.ragas.io/en/latest/concepts/metrics/context_precision.html) are [metrics](https://docs.ragas.io/en/latest/concepts/metrics/index.html) to evaluate LLM responses that serve as a starting point -- but not sufficient, usually
 - 22 Jun 2024. [Luma Labs Dream Machine](https://lumalabs.ai/dream-machine/) generated videos. It's free and is of reasonable quality. Update: 6 Jun 2025. Costs $10/month
 - 22 Jun 2024. [LLM DataHub](https://github.com/Zjh-819/LLMDataHub) has LLM training datasets, regularly updated
 - 08 Jun 2024. Looks like GPT-4o is using CNNs to create vector embeddings of images, with images gridded into a 1x1, 2x2, etc. PLUS OCR. [Ref](https://www.oranlooney.com/post/gpt-cnn/)

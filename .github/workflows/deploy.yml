@@ -26,6 +26,6 @@ jobs:
         run: deno run --allow-read --allow-write --allow-env --allow-net convert.js
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: 'public'
+          path: "public"
       - id: deployment
         uses: actions/deploy-pages@v4

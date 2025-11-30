@@ -3,7 +3,7 @@
 set -euo pipefail
 
 # Activate mise since we need jq which is mise-installed (~50ms)
-eval "$(mise activate bash)"
+eval "$(mise env -s bash)"
 
 SCRIPT_DIR="$(dirname "$(realpath "$0")")"
 OUT="$SCRIPT_DIR/trending-repos.tsv"
@@ -35,6 +35,8 @@ NEW_TSVDATA="$(mktemp)"; trap 'rm -f "$NEW_TSVDATA"' EXIT
     .fullname,
     ((.description // "") | gsub("[\t\n\r]";" ") | trim) ] | @tsv
 ' > "$NEW_TSVDATA"
+
+cat "$NEW_TSVDATA"
 
 # Prepend only new repos. Keep old content unchanged at bottom.
 if [[ -f "$OUT" ]]; then
