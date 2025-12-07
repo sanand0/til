@@ -1,5 +1,9 @@
 # Ideator
 
+- 03 Dec 2025. [IDEA Context-Switch Telemetry](https://gemini.google.com/u/2/app/ed51b220fd58c0e7). Log every time you context switch: timestamp, trigger, action, tag. Review later
+- 03 Dec 2025. [IDEA Delete to Improve](https://chatgpt.com/c/693002b8-8ea0-8320-9237-a8c1c2c1481e). Each week, remove one step from a recurring workflow (meetings, code reviews, PR templates, status reports) while protecting quality with a simple guardrail. Subtraction is a faster way to de-bottleneck than stacking more habits.
+- 03 Dec 2025. [IDEA Habit Rollback Buffer](https://claude.ai/chat/0a3dbed5-3b11-4e9e-ae25-54d676d24055). Don't quit habits cold. Reduce to 20% intensity for 90 days with calendar checkpoints asking "do you miss this?" Preserve useful behavioral assets. Also [Cryogenic Offboarding](https://gemini.google.com/u/2/app/7218fce1f215fcea)
+- 03 Dec 2025. [IDEA Never live-spend](https://chatgpt.com/c/69300a8a-8798-8320-bcaa-e8ed60bb5713). Route all irreversible actions - money outflows, public posts, resignations, contract clauses - into a “pending” queue with a 24–72h settlement window (a timed delay where you can undo).
 - 16 Oct 2025. [IDEA Constraint-Reversal Compiler](https://chatgpt.com/c/68f051d0-ad50-8321-891b-b66076fc75b9). Take all constraints & blockers and compile a proven-tactics playbook / code. Patternized workarounds
 - 13 Oct 2025. [IDEA Teach AI like driving](https://chatgpt.com/c/68ecbd65-9ac4-8323-9156-0d8ad2d21990). Scan ahead (context engineering). Safe gap (budget discipline). Speed control (safe answer first). Hazard anticipation (known failure modes). Seat-belt discipline (citations, counter-examples).
 - 11 Oct 2025. [IDEA HR training module constrained swarm](https://chatgpt.com/c/68e773dc-c3ac-8322-941b-9364d2afd866).

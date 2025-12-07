@@ -2,6 +2,10 @@
 
 Descriptions of apps I felt would be interesting or useful to build (or find).
 
+## Dec 2025
+
+- 01 Dec 2025. Write a script to use a vision model to evaluate (with reasons) the SVGs rendered by the [LLM SVG Generation Benchmark](https://gally.net/temp/20251107pelican-alternatives/index.html) and identify (a) which LLM-as-a-judge vision most aligns with humans and (b) which LLM generates the best SVGs. This requires a human to critically evaluate the SVGs, which is best done over a call, like an interview, with an eloquent, critical artist.
+
 ## Oct 2025
 
 - 07 Oct 2025. Build a corporate strategy simulation game. Pick from a set of scenarios / case studies (with financials, etc.) ALlow the user to propose turn-based actions. Use thinking + code to simulate the impact. Let it evolve turn by turn. Compare against multiple players.

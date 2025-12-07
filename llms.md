@@ -1,7 +1,35 @@
 # LLM learnings
 
-## Oct 2025
+## Dec 2025
 
+- 03 Dec 2025. This [5El AI Evaluation Workshop](https://hasgeek.com/fifthelephant/ai-evaluation-workshop/) suggests 4 layers of evaluation for code:
+  - Syntactic Evaluation: Does it compile?
+  - Semantic Evaluation: Does it do what a good analyst / programmer would?
+  - Business Logic Evaluation: Does it do what a good business analyst / manager would?
+  - Human Alignment Evaluation: Does it do what a good coach / leader would?
+- 02 Dec 2025. [Agents4Science](https://agents4science.stanford.edu/) is a Stanford conference where AI co-authored papers are co-reviewed by AI and selected for presentation. [Video](https://youtu.be/7pXqAeedqOo)
+- 01 Dec 2025. When evaluating an LLM's biases or natural preferences, set temperature=1 for a representative logprob distribution. [LLM Bias](https://anomify.ai/resources/articles/llm-bias)
+- 01 Dec 2025. My ideal AI coding cycle looks like this: (Research, Prototype, repeat), Plan, (Code, Run, Test, Fix, repeat), Refactor, Post-mortem, Document.
+- 01 Dec 2025. [The AI coding trap](https://chrisloy.dev/post/2025/09/28/the-ai-coding-trap) is a very clear explanation of AI coding vs vibe coding. It visually explains how coding agents shrink coding time, not thinking / fixing time; how delegating with ownership is slower but more sustainable than delegating just easy tasks; and how AI coding is more like the former, while vibe coding is like the latter.
+- 01 Dec 2025. [Claude Agent Skills: A First Principles Deep Dive](https://leehanchung.github.io/blogs/2025/10/26/claude-skills-deep-dive/) is a comprehensive documentation of how Claude Skills work. A bit too long but readable.
+- 01 Dec 2025. [Claude Code is a Beast – Tips from 6 Months of Hardcore Use](https://www.reddit.com/r/ClaudeAI/comments/1oivjvm/claude_code_is_a_beast_tips_from_6_months_of/) has extensive suggestions for Claude Code - many of which apply to most coding agents.
+- 01 Dec 2025. [LMArena's Code Arena](https://lmarena.ai/code) evaluates models on agentic coding. Anyone can use it. It passes your task to two models and lets you compare their output. [I tried building a "gibberifier"](https://lmarena.ai/c/019ada14-9f0c-7dba-afaa-65252cfe203c) and discovered a new model, "robin" that's certainly better than Kimi K2 and perhaps better than Gemini 3 Pro. Theory is that it's an OpenAI model. Looking forward to it!
+- 01 Dec 2025. Based on [Quantifying Human-AI Synergy](https://osf.io/preprints/psyarxiv/vbkmt_v1) by Reidl & Weidman [#](https://claude.ai/chat/ae3e8716-9be4-47ad-85c7-9c7b257d375b):
+  - Theory of Mind (ToM) is understanding that others have their own beliefs, knowledge, and goals (different from yours, may be wrong) and to use that to explain & predict their behavior.
+  - ToM and problem solving are _distinct skills_. ToM skill boosts AI collaboration, but **not** better problem solving!
+  - ToM isn't a stable trait. It fluctuates from chat to chat for anyone.
+  - Implication: Design models & systems for clarity & collaboration, not just accuracy.
+- 01 Dec 2025. [Text Gibberifier](https://gibberifier.com/) adds lots of human-invisible unicode characters to text, making it harder for LLMs to read without affecting human readability. May be useful if you want to discourage LLM-processing of your content - but it feels like the anti-SEO of the future.
+
+## Nov 2025
+
+- 30 Nov 2025. History is filled with examples where technology enabled new art forms. Here's my guess on what LLM image generation will enable:
+  - Synthetic memory: Photos of what you remember happening.
+  - Alternate history: Photos of events that never happened.
+  - AImoji: Instead of texting "I'm running late" the LLM generates you riding a snail through a traffic jam of alarm clocks.
+  - Personal signature styles: Not "paint like Van Gogh" but "paint like my grandmother's kitchen memories filtered through anxiety."
+  - Memes: "What does the Mona Lisa become after 100 generations of AI interpretation?"
+- 30 Nov 2025. [Improving Front-end Design through Skills](https://www.claude.com/blog/improving-frontend-design-through-skills) shares a prompt to improve front-end code quality that would apply in most cases. I [tweaked and added it](https://github.com/sanand0/scripts/blob/live/agents/design/SKILL.md) to my skill list.
 - 28 Nov 2025. Warp has a [terminal agent feature](https://www.warp.dev/blog/agents-3-full-terminal-use-plan-code-review-integration) - allowing Warp to control a terminal via text. I find that regular coding agents like Codex can do that too with tmux. For example, I opened a session and had Codex run commands in it while I watched. Here's the guidance it needed:
   ```bash
   # Create a new session
@@ -72,7 +100,7 @@
   - **Autonomous Blog Squads**: AI agents identify trending topics / internal content, create data stories ready for review
 - 24 Nov 2025. New skill unlocked: creating tutorials from talk proposals. I asked Claude to `Write a Malcolm Gladwell article based on this talk description to teach me the topic` and passed it this talk proposal: [Your Causal Parrot might be lying to you](https://hasgeek.com/fifthelephant/2025-winter/sub/your-causal-parrot-might-be-lying-to-you-FhpB6kWkM4AAkYqdYQSCpJ). The [story it wrote](https://claude.ai/share/56b9bf17-927b-43a4-9af6-9b14a8cb1944) is very engaging and informative!
 - 23 Nov 2025. A cool Gemini 3 Pro hack: convert satellite imagery into stylized maps! [Bilawal Sidhu](https://x.com/bilawalsidhu/status/1991635734546284703)
-- 23 Nov 2025. Running subagents in `tmux` helps avoid timeout cancellation, and hence allowing resuming [Peter Steinberger](https://github.com/steipete/agent-scripts/blob/main/docs%2Fsubagent.md)
+- 23 Nov 2025. Running sub-agents in `tmux` helps avoid timeout cancellation, and hence allowing resuming [Peter Steinberger](https://github.com/steipete/agent-scripts/blob/main/docs%2Fsubagent.md)
 - 22 Nov 2025. Models read pretty fast, consuming input tokens at ~4K-20K words per second. It's the "speaking" (output token rate) that is the bottleneck. So shortening input doesn't matter as much as shortening output for latence. [ChatGPT](https://chatgpt.com/share/6922cde4-4d40-800c-9524-8e35d68039f3)
 - 22 Nov 2025. When building agents, as of now, prefer native provider SDKs (OpenAI Agents SDK, Anthropic SDK) over even light abstractions like Vercel AI SDK or Pydantic. There are subtle issues related to error messages, response handling, cache handling, etc. that trip up abstractions given how early things are. [Armin Ronacher](https://lucumr.pocoo.org/2025/11/21/agents-are-hard/)
 - 22 Nov 2025. Gone are the times when LLMs couldn't do mental math. Now they're computing base64 and SHA256 from memory, without needing code! [Example](https://chatgpt.com/share/6921b2c5-6cf4-800c-9958-357c788e3e72)
@@ -222,6 +250,9 @@
        - Champions & communities of practice to support cross-pollination.
        - Use-case driven adoption. Teams identify based on AI superpowers.
        - AI playbook. Share what worked, what didn't work.
+
+## Oct 2025
+
 - 28 Oct 2025. AI automation is likely less if a **high portion** of work
   - Has **legal liability** (e.g. pharmacist/judge vs shop attendant/lawyer)
   - Is **subjective** (e.g. perfumer/auction appraiser vs lab chemist/insurance appraiser)
@@ -249,7 +280,7 @@
   - [x] Prefer CLI over agentic platforms
   - [x] Prefer CLI tools over MCP
   - [x] Avoid ALL-CAPS for Codex. It follows instructions well
-  - [x] Avoid subagents, RAG, etc.
+  - [x] Avoid sub-agents, RAG, etc.
   - [x] Iterate UI live. Watch changes
   - [ ] Use 3-8 agents in parallel on a single repo.
   - [ ] Make small, atomic commit checkpoints. Commit only what the agent touches
@@ -1068,12 +1099,12 @@ Claude Code notes
 - 22 Jun 2025. The [system prompts](https://github.com/anthropic-experimental/agentic-misalignment/blob/main/templates/system_prompt_templates.py) for Anthropic misalignment evals are a fascinating read.
 - 22 Jun 2025. [AI PR Watcher](https://github.com/aavetis/ai-pr-watcher) tracks GitHub pull requests from Codex and other LLMs. Codex is _way_ ahead of anything else on volume _and_ success rate. Devin is next on volume, Cursor is next on success rate.
 - 21 Jun 2025. Notes from [Anthropic's How we built our multi-agent research system](https://www.anthropic.com/engineering/built-multi-agent-research-system):
-  - Subagents are like humans -> society. The improvement is dramatic.
-  - "Subagents facilitate compression by operating in parallel with their own context windows, exploring different aspects of the question simultaneously before condensing..."
-  - "Each subagent also provides separation of concerns—distinct tools, prompts, and exploration trajectories ... (enabling) independent investigations."
-  - Using subagents spends ~15x more tokens. (That explained ~80% of the improved accuracy!)
+  - Sub-agents are like humans -> society. The improvement is dramatic.
+  - "Sub-agents facilitate compression by operating in parallel with their own context windows, exploring different aspects of the question simultaneously before condensing..."
+  - "Each sub-agent also provides separation of concerns—distinct tools, prompts, and exploration trajectories ... (enabling) independent investigations."
+  - Using sub-agents spends ~15x more tokens. (That explained ~80% of the improved accuracy!)
   - Particularly effective when tasks are independent and parallelizable. This also speeds it up.
-  - Teach the orchestrator how to delegate: how many subagents, what objective + output format + task boundaries (MECE to avoid overlap with other agents) in prompt, what tools.
+  - Teach the orchestrator how to delegate: how many sub-agents, what objective + output format + task boundaries (MECE to avoid overlap with other agents) in prompt, what tools.
   - Teach the orchestrator how to improve agents: e.g. tools to test and rewrite tool descriptions
   - Even if you evaluate a _few_ examples, evals are surprisingly effective.
   - Agents are stateful. Errors compound. Allow agents to resume. Prune history gracefully.

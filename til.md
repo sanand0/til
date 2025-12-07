@@ -1,6 +1,39 @@
 # Things I learned
 
-## Oct 2025
+## Dec 2025
+
+- 07 Dec 2025. Pejoration is when words acquire negative connotations. Third World → developing countries → emerging markets → Global South. Old → elderly → senior citizen → older adult. Lunatic → insane → mentally ill → mentally challenged. Janitor → custodian → sanitation engineer → facilities maintenance specialist. The opposite is amelioration.
+- 06 Dec 2025. Pytest finally supports subtests in pytest 9.0.0+. [Simon Willison](https://til.simonwillison.net/pytest/subtests)
+- 05 Dec 2025. From [The Tim Ferriss Show](https://tim.blog/podcast): [#837: How to Simplify Your Life in 2026 — New Tips from Derek Sivers, Seth Godin, and Martha Beck](https://rss.art19.com/episodes/77e6511e-b5bb-4f3e-87d7-019f4e297767.mp3?rss_browser=BAhJIg9BbnRlbm5hUG9kBjoGRVQ%3D--bba5bdd77df5f5806138bf3e7d4615ea7f8e6a75):
+  - Look for single decisions that remove hundreds of other decisions. Peter Drucker via Jim Collins. E.g. Work only on LLMs, no new books this year, ...
+  - Derek Sivers:
+    - Simple is not easy. Interdependency is complexity. Assets are dependencies. Accumulating information, purchases, employees/helpers, relations, etc. adds dependency. That makes life harder, challenges identity. Interdependency may be desirable - but reduce it in specific areas, to specific extents, temporarily, etc. Question every assumption: "Do you really need it?"
+    - Here are [some examples for me to try](https://chatgpt.com/share/69313db2-643c-800c-b216-2810c9377ab1)
+    - Derek Sivers has no monthly payments (including income) or receipts (no subscriptions) at all! His code has **no** external code dependencies at all, and is building a house from scratch.
+  - Seth Godin:
+    - Know WHO it (whatever you're doing) is for. Focus ONLY on _that_ audience. Did it matter to them? Ignore the bad feedback from the person it was never intended for.
+    - Never exceed a budget or deadline. When either runs out, you are done.
+    - Treat any Yes/No you say as FINAL.
+    - Skip meetings where a memo will suffice.
+- 05 Dec 2025. Apparantly, nudges are not as effective as the book Nudge suggests. In fact, there seems to be no evidence for it if we adjust for publication bias (i.e. only publication-worthy stuff gets published.) [The Behavioral Scientist](https://www.thebehavioralscientist.com/articles/bad-news-for-nudges) [#](https://claude.ai/chat/2dfca86e-e304-48ec-bdbb-41c32ea7bbe2)
+- 04 Dec 2025. 71% of HTTP DDoS and 89% of network-layer—end in under 10 minutes. That's too fast for any human or on-demand service to react. Legacy DDoS defenses have become obsolete. The most popular botnet, Aisuru, is pivoting to content scraping for AI projects. The vectors are cheap, insecure routers, e.g. from Indonesia. ([Claude](https://claude.ai/share/0d868126-01fd-4840-813c-88888fd9d209))
+- 02 Dec 2025. Julia Evans shares an ultra-clear explanation of the [Git data model](https://github.com/git/git/blob/master/Documentation/gitdatamodel.adoc)
+- 02 Dec 2025. To fuzzy-match 2 columns of text (e.g. customer names, product names, ...) you need 2 things:
+  - A text matching algorithm ([rapidfuzz](https://github.com/rapidfuzz/RapidFuzz), [fuzzball](https://npmjs.com/package/fuzzball), ...) and/or semantic matching (e.g. embedding similarity) for pairwise similarity
+  - An assignment algorithm (e.g. Jonker-Volgenant, Hungarian, ...) for 1-to-1 matches in [JS](https://www.npmjs.com/package/linear-sum-assignment) or [Python](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.linear_sum_assignment.html),
+- 02 Dec 2025. WhatsApp [backups on Google Drive](https://drive.google.com/drive/backups) can't be downloaded, even if they're unencrypted. [ChatGPT](https://chatgpt.com/share/692e710d-7974-800c-a5d2-1c710a7ae743).
+- 02 Dec 2025. OpenAI finds that [confessions](https://openai.com/index/how-confessions-can-keep-language-models-honest/) as a training method reduces scheming, reward hacking, etc. It can be applied to models even now. This can (less effectively) be applied at inference time as well:
+  - Sample confession prompt: Did you fully address both the letter AND spirit of my question? List any shortcuts taken, corners cut, or ways you optimized for appearing correct rather than being correct. What did I actually want vs what you provided?
+- 01 Dec 2025. Buddha seems more a philosopher like Socrates ("Question what I say") than a religious leader. [#](https://claude.ai/chat/589972fe-2c6a-4f33-9127-6a19e4df81ae)
+  - How did _he_ spawn a religion?
+  - Interesting that both were within a few centuries of each other. Coincidence? Were there more like them around the same time? At other times?
+- 01 Dec 2025. Some more new CLI tools I installed:
+  - [`fx`](https://fx.wtf/): CLI JSON viewer. Sort of like `less` for JSON. Fast, intuitive.
+  - [`mdq`](https://github.com/yshavit/mdq): Markdown query tool
+- 01 Dec 2025. [YTScribe](https://ytscribe.ai/) is yet another YouTube transcription service.
+- 01 Dec 2025. Note to self, since I keep forgetting this: On Android Edge, select the new tab page, click on the 3 dots at the top right, and select "Recent tabs" to see tabs from other devices. `edge://recent-tabs`
+
+## Nov 2025
 
 - 30 Nov 2025. The argument that technologically unemployed will find other jobs may not apply to general-purpose technology, e.g. electricity, internal combustion engine, maybe AI - technologies that can automate multiple sectors of the economy simultaneously. When one sector loses jobs, there may not be (in the short/medium term) other jobs to take up. [Alex Imas + Claude](https://claude.ai/share/811ad94b-f6dc-4251-9548-e3ad40f2c36a)
 - 26 Nov 2025. Some more new CLI tools I installed:
@@ -132,7 +165,7 @@
   51. Crowd your life with gadgets
   52. Fall into the content trap
 - 08 Nov 2025. "But when an identity based belief was challenged, the brain responded as if under physical attack." [Why Engineers Can't Be Rational About Programming Languages](https://spf13.com/p/the-hidden-conversation/)
-- 08 Nov 2025. Notes from [How to build a cult](https://www.youtube.com/watch?v=I9Njb8Lw5Xc), Lulu Cheng, The Knowledge Project
+- 08 Nov 2025. Notes from [How to build a cult](https://www.youtube.com/watch?v=I9Njb8Lw5Xc), Lulu Cheng, The Knowledge Project podcast
   - Conviction is infectious.
   - Communicate at the INTERSECTION of interests. Learn theirs
   - Begin with "why your story matters to them" (first sentence). That beats "how you tell it" > "where you tell it".
@@ -189,6 +222,9 @@
 - 02 Nov 2025. [PMTiles](https://github.com/protomaps/PMTiles) lets you store map tiles as a single-file archive that libraries like MapLibre can read. Useful to avoid tile servers.
 - 02 Nov 2025. [Mirrow](https://mirrow.app/) is a CLI SVG animation builder that converts a DSL to animated SVGs. However, it may be easier to use an LLM to create the animated SVG directly with [SMIL](https://developer.mozilla.org/en-US/docs/Web/SVG/Guides/SVG_animation_with_SMIL) than learning Mirrow (or teaching the LLM Mirrow).
 - 01 Nov 2025. [TVMaze API](https://www.tvmaze.com/api) is an API for TV shows, episodes, cast, crew, etc. Useful for TV-related apps as well as learning APIs.
+
+## Oct 2025
+
 - 27 Oct 2025. [parse-sse](https://github.com/sindresorhus/parse-sse) from Sindre Sorhus is a more standards-compliant, more likely-to-be-maintained alternative to my [async-sse](https://github.com/sanand0/async-sse) package.
 - 27 Oct 2025. Which is better: Comment A: 1 upvote, 0 downvotes (100% positive) or Comment B: 99 upvotes, 1 downvote (99% positive)? Use **Wilson's Lower Bound** which measures "What % positive am I 95% confident of?" [Claude](https://claude.ai/share/0f69e7f8-6ca7-4fee-b3ec-8b580556bc9a)
   - Using this, we can measure metrics for tweets, like below. [ChatGPT](https://chatgpt.com/share/68fef88f-7b18-800c-835f-38a3fe470f34)
