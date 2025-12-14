@@ -1,3 +1,52 @@
+🔴	RS	   31327	    84	2025-12-10	firecracker-microvm/firecracker	Secure and fast microVMs for serverless computing.	Prefer hosted services
+🟣	RS	    3446	   133	2025-12-10	apache/iggy	Apache Iggy: Hyper-Efficient Message Streaming at Laser Speed
+🔴	RS	    2603	    50	2025-12-10	paritytech/polkadot-sdk	The Parity Polkadot Blockchain SDK	I don't do blockchain
+🟣	RS	    2883	    27	2025-12-10	redlib-org/redlib	Private front-end for Reddit
+🔴	RS	   60933	   106	2025-12-10	rust-lang/rustlings	🦀 Small exercises to get you used to reading and writing Rust code!	I don't code Rust
+🔴	RS	    7513	    18	2025-12-10	MystenLabs/sui	Sui, a next-generation smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the Move programming language	I don't do blockchain
+🔴	RS	   32191	    47	2025-12-10	yewstack/yew	Rust / Wasm framework for creating reliable and efficient web applications	I don't code Rust
+🟣	GO	    9577	    35	2025-12-10	moby/buildkit	concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit
+🟣	GO	   29596	    34	2025-12-10	hashicorp/consul	Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.
+🔴	GO	    7938	    21	2025-12-10	metallb/metallb	A network load-balancer implementation for Kubernetes using standard routing protocols	I don't code Kubernetes
+🟣	GO	   18759	    75	2025-12-10	nats-io/nats-server	High-Performance server for NATS.io, the cloud and edge native messaging system.
+🟣	GO	   16177	   198	2025-12-10	m1k1o/neko	A self hosted virtual browser that runs in docker and uses WebRTC.
+🟣	GO	   25953	   194	2025-12-10	projectdiscovery/nuclei	Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.
+🟣	GO	   11252	   161	2025-12-10	safing/portmaster	🏔 Love Freedom - ❌ Block Mass Surveillance
+🟣	GO	    1133	   283	2025-12-10	autobrr/qui	Modern alternative webUI for qBittorrent, with multi-instance support. Written in Go/React.
+🟣	GO	   17012	   147	2025-12-10	temporalio/temporal	Temporal service
+🟢	GO	   30372	   301	2025-12-10	aquasecurity/trivy	Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
+🟣	GO	   23247	   248	2025-12-10	microsoft/typescript-go	Staging repo for development of native port of TypeScript
+🟣	GO	    4107	  1236	2025-12-10	psviderski/uncloud	A lightweight tool for deploying and managing containerised applications across a network of Docker hosts. Bridging the gap between Docker and Kubernetes ✨
+🟣	PY	   96407	  1060	2025-12-10	comfyanonymous/ComfyUI	The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
+🟣	PY	   24518	   195	2025-12-10	srbhr/Resume-Matcher	Improve your resumes with Resume Matcher. Get insights, keyword suggestions and tune your resumes to job descriptions.
+🟣	PY	   11313	   356	2025-12-10	MODSetter/SurfSense	Open source alternative to NotebookLM, Perplexity, and Glean. Connects to search engines, Slack, Linear, Jira, ClickUp, Notion, YouTube, GitHub, Discord, and more. Join our Discord: https://discord.gg/ejRNvftDp9
+⏺️	PY	   16725	  5875	2025-12-10	microsoft/VibeVoice	Open-Source Frontier Voice AI
+🟣	PY	    7332	   183	2025-12-10	CVHub520/X-AnyLabeling	Effortless data labeling with AI support from Segment Anything and other awesome models.
+🟣	PY	    7969	   516	2025-12-10	ostris/ai-toolkit	The ultimate training toolkit for finetuning diffusion models
+🟣	PY	   11785	  1158	2025-12-10	anthropics/claude-quickstarts	A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API
+🟣	PY	    8957	   518	2025-12-10	microsoft/magentic-ui	A research prototype of a human-centered web agent
+🟣	PY	   10391	   495	2025-12-10	BeehiveInnovations/pal-mcp-server	The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one.
+🟣	PY	   13512	   834	2025-12-10	trustedsec/social-engineer-toolkit	The Social-Engineer Toolkit (SET) repository from TrustedSec - All new versions of SET will be deployed here.
+🟣	TS	     568	    87	2025-12-10	afkarxyz/SpotiFLAC	Get Spotify tracks in true FLAC from Tidal, Deezer, Qobuz & Amazon Music — no account required.
+🟣	TS	   19657	   300	2025-12-10	activepieces/activepieces	AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents
+🟢	TS	    9215	   428	2025-12-10	agentsmd/agents.md	AGENTS.md — a simple, open format for guiding coding agents
+🟣	TS	   39823	   326	2025-12-10	fastapi/full-stack-fastapi-template	Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more.
+🟣	TS	   68883	   431	2025-12-10	lobehub/lobe-chat	🤯 LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application.
+🟣	TS	    1352	   217	2025-12-10	LOG1997/log-lottery	🎈🎈🎈🎈年会抽奖程序，threejs+vue3 3D球体动态抽奖应用。
+🟣	TS	    6232	  3800	2025-12-10	DayuanJiang/next-ai-draw-io	A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.
+🔴	TS	   24192	   328	2025-12-10	microsoft/playwright-mcp	Playwright MCP server	Prefer CDP
+🟢	JS	   76027	   139	2025-12-10	FortAwesome/Font-Awesome	The iconic SVG, font, and CSS toolkit
+🟣	JS	     374	    44	2025-12-10	hillelkingqt/GeminiDesk	A powerful unofficial Gemini Desktop Application built with Electron. Fast, clean, and always accessible on Windows, Linux, and macOS. The perfect desktop app for seamless Google Gemini AI chatting and productivity.
+🟣	JS	    1929	   910	2025-12-10	thedotmack/claude-mem	A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.
+🟣	JS	   21683	   129	2025-12-10	spicetify/cli	Command-line tool to customize Spotify client. Supports Windows, macOS, and Linux.
+🟣	JS	   77394	   193	2025-12-10	anuraghazra/github-readme-stats	⚡ Dynamically generated stats for your github readmes
+🟣	JS	     861	    25	2025-12-10	basecamp/lexxy
+🟣	JS	     616	    53	2025-12-10	AikidoSec/safe-chain	Protect against malicious code installed via npm, yarn, pnpm, npx, and pnpx with Aikido Safe Chain. Free to use, no tokens required.
+🟣	SH	   11438	    46	2025-12-10	juewuy/ShellCrash	Run sing-box/mihomo as client in shell
+🟣	SH	     554	    79	2025-12-10	backslashxx/mountify	Globally mounted modules via OverlayFS.
+🟣	SH	   15343	    36	2025-12-10	angristan/openvpn-install	Set up your own OpenVPN server on Debian, Ubuntu, Fedora, CentOS, Arch Linux and more
+🟣	SH	   13394	   754	2025-12-10	winapps-org/winapps	Run Windows apps such as Microsoft Office/Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration. Hard fork of https://github.com/Fmstrat/winapps/
+🔴	SH	   34377	    61	2025-12-10	zsh-users/zsh-autosuggestions	Fish-like autosuggestions for zsh	I don't use zsh
 🟣	TS	    3248	    74	2025-11-30	cloudflare/vibesdk	An open-source vibe coding platform that helps you build your own vibe-coding platform, built entirely on Cloudflare stack
 🟣	TS	   99636	  1340	2025-11-12	iptv-org/iptv	Collection of publicly available IPTV channels from all over the world
 🟣	TS	   87792	    83	2025-09-23	storybookjs/storybook	Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation
@@ -84,7 +133,7 @@
 🟣	SH	    8602	    19	2025-09-27	testssl/testssl.sh	Testing TLS/SSL encryption anywhere on any port
 🟣	SH	    7727	   308	2025-09-17	bin456789/reinstall	一键DD/重装脚本 (One-click reinstall OS on VPS)
 🟣	SH	    7259	    42	2025-09-17	RROrg/rr	Redpill Recovery (arpl-i18n)
-🟣	SH	    7140	    26	2025-10-27	longhorn/longhorn	Cloud-Native distributed storage built on and for Kubernetes
+🔴	SH	    7140	    26	2025-10-27	longhorn/longhorn	Cloud-Native distributed storage built on and for Kubernetes	I don't code Kubernetes
 🟣	SH	    6830	     8	2025-11-12	docker-library/official-images	Primary source of truth for the Docker "Official Images" program
 🟣	SH	    6385	    50	2025-10-05	ublue-os/bazzite	Bazzite makes gaming and everyday use smoother and simpler across desktop PCs, handhelds, tablets, and home theater PCs.
 🟣	SH	    6350	    56	2025-10-19	linux-surface/linux-surface	Linux Kernel for Surface Devices
@@ -110,7 +159,7 @@
 🟣	SH	    2576	    30	2025-10-19	XTLS/Xray-install	Easiest way to install & upgrade Xray
 🟣	SH	    2208	    21	2025-10-05	bluesky-social/pds	Bluesky PDS (Personal Data Server) container image, compose file, and documentation
 🟣	SH	    2169	    72	2025-11-12	233boy/sing-box	最好用的 sing-box 一键安装脚本 & 管理脚本，自动创建 REALITY 协议；支持 TUIC，Trojan，Hysteria2 等所有常见的协议
-🟣	SH	    2028	    54	2025-11-12	llm-d/llm-d	Achieve state of the art inference performance with modern accelerators on Kubernetes
+🔴	SH	    2028	    54	2025-11-12	llm-d/llm-d	Achieve state of the art inference performance with modern accelerators on Kubernetes	I don't code Kubernetes
 🟣	SH	    1910	    18	2025-09-23	ublue-os/bluefin	The next generation Linux workstation, designed for reliability, performance, and sustainability.
 🟣	SH	    1869	    46	2025-09-27	IceWhaleTech/ZimaOS	A Simplified, Focused and Open NAS OS_
 🟣	SH	    1854	    70	2025-10-05	caido/caido	🚀 Caido releases, wiki and roadmap
@@ -126,21 +175,21 @@
 🟣	SH	     308	     0	2025-10-19	openshift/release	Release tooling for OpenShift
 🟣	SH	     264	    90	2025-10-19	InferenceMAX/InferenceMAX
 🟣	RS	   20737	   100	2025-10-26	slint-ui/slint	Slint is an open-source declarative GUI toolkit to build native user interfaces for Rust, C++, JavaScript, or Python apps.
-🟣	RS	   20588	    49	2025-11-12	rust-lang/mdBook	Create book from markdown files. Like Gitbook but implemented in Rust
-🟣	RS	   19337	    64	2025-10-27	leptos-rs/leptos	Build fast web applications with Rust.
-🟣	RS	   16025	   170	2025-11-02	nautechsystems/nautilus_trader	A high-performance algorithmic trading platform and event-driven backtester
-🟣	RS	   15989	   254	2025-11-12	ratatui/ratatui	A Rust crate for cooking up terminal user interfaces (TUIs) 👨‍🍳🐀 https://ratatui.rs
-🟣	RS	   13267	    89	2025-11-02	tracel-ai/burn	Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability.
-🟣	RS	   12247	   129	2025-11-12	ClementTsang/bottom	Yet another cross-platform graphical process/system monitor.
-🟣	RS	   10135	    76	2025-11-12	serde-rs/serde	Serialization framework for Rust
+🔴	RS	   20588	    49	2025-11-12	rust-lang/mdBook	Create book from markdown files. Like Gitbook but implemented in Rust	Prefer docsify
+🔴	RS	   19337	    64	2025-10-27	leptos-rs/leptos	Build fast web applications with Rust.	I don't code Rust
+🔴	RS	   16025	   170	2025-11-02	nautechsystems/nautilus_trader	A high-performance algorithmic trading platform and event-driven backtester	I don't do finance
+🔴	RS	   15989	   254	2025-11-12	ratatui/ratatui	A Rust crate for cooking up terminal user interfaces (TUIs) 👨‍🍳🐀 https://ratatui.rs	I don't code Rust
+🔴	RS	   13267	    89	2025-11-02	tracel-ai/burn	Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability.	I don't code Rust
+🔴	RS	   12247	   129	2025-11-12	ClementTsang/bottom	Yet another cross-platform graphical process/system monitor.	I don't have a need
+🔴	RS	   10135	    76	2025-11-12	serde-rs/serde	Serialization framework for Rust	I don't code Rust
 🟣	RS	    8566	    86	2025-11-12	sigoden/aichat	All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.
 🟣	RS	    8036	   204	2025-11-02	Zackriya-Solutions/meeting-minutes	A free and open source, self hosted Ai based live meeting note taker and minutes summary generator that can completely run in your Local device (Mac OS and windows OS Support added. Working on adding linux support soon) https://meetily.zackriya.com/ is meetly ai
-🟣	RS	    6173	   324	2025-11-12	librespot-org/librespot	Open Source Spotify client library
+🔴	RS	    6173	   324	2025-11-12	librespot-org/librespot	Open Source Spotify client library	I don't use Spotify
 🟣	RS	    5549	    85	2025-11-02	prefix-dev/pixi	Package management made easy
-🟣	RS	    4812	    84	2025-11-02	0xPlaygrounds/rig	⚙️🦀 Build modular and scalable LLM Applications in Rust
+🔴	RS	    4812	    84	2025-11-02	0xPlaygrounds/rig	⚙️🦀 Build modular and scalable LLM Applications in Rust	I don't code Rust
 🟣	RS	    4764	    31	2025-11-02	solana-foundation/anchor	⚓ Solana Program Framework
-🟣	RS	    3396	    41	2025-11-12	linebender/vello	A GPU compute-centric 2D renderer.
-🟣	RS	    3179	    37	2025-10-27	nkaz001/hftbacktest	Free, open source, a high frequency trading and market making backtesting and trading bot, which accounts for limit orders, queue positions, and latencies, utilizing full tick data for trades and order books(Level-2 and Level-3), with real-world crypto trading examples for Binance and Bybit
+🔴	RS	    3396	    41	2025-11-12	linebender/vello	A GPU compute-centric 2D renderer.	I don't code Rust
+🔴	RS	    3179	    37	2025-10-27	nkaz001/hftbacktest	Free, open source, a high frequency trading and market making backtesting and trading bot, which accounts for limit orders, queue positions, and latencies, utilizing full tick data for trades and order books(Level-2 and Level-3), with real-world crypto trading examples for Binance and Bybit	I don't do finance
 🟣	RS	    3094	    45	2025-10-05	witnessmenow/ESP32-Cheap-Yellow-Display	Building a community around a cheap ESP32 Display with a touch screen
 🟣	RS	    2229	   221	2025-11-02	Fredolx/open-tv	Ultra-fast, simple and powerful cross-platform IPTV app
 🟣	RS	    1939	   167	2025-10-26	abenz1267/walker	Multi-Purpose Launcher with a lot of features. Highly Customizable and fast.
@@ -246,7 +295,7 @@
 🟣	JS	   24287	   122	2025-10-26	koodo-reader/koodo-reader	A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web
 🟣	JS	   23654	    28	2025-10-26	validatorjs/validator.js	String validation
 🟣	JS	   23014	   320	2025-10-19	eyaltoledano/claude-task-master	An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.
-🟣	JS	   22945	  1048	2025-10-19	asgeirtj/system_prompts_leaks	Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini
+🟢	JS	   22945	  1048	2025-10-19	asgeirtj/system_prompts_leaks	Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini
 🟣	JS	   22498	    97	2025-09-17	blackmatrix7/ios_rule_script	分流规则、重写写规则及脚本。
 🟣	JS	   21944	   179	2025-10-05	MagicMirrorOrg/MagicMirror	MagicMirror² is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror² allows you to convert your hallway or bathroom mirror into your personal assistant.
 🟣	JS	   20417	    45	2025-09-17	appium/appium	Cross-platform automation framework for all kinds of apps, built on top of the W3C WebDriver protocol
@@ -310,7 +359,7 @@
 🟣	GO	   26524	   432	2025-10-26	seaweedfs/seaweedfs	SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files! Blob store has O(1) disk seek, cloud tiering. Filer supports Cloud Drive, xDC replication, Kubernetes, POSIX FUSE mount, S3 API, S3 Gateway, Hadoop, WebDAV, encryption, Erasure Coding. Enterprise version is at seaweedfs.com.
 🟣	GO	   24800	    26	2025-10-26	rancher/rancher	Complete container management platform
 🟣	GO	   23810	    39	2025-10-27	uber-go/zap	Blazing fast, structured, leveled logging in Go.
-🟣	GO	   21055	    93	2025-10-27	argoproj/argo-cd	Declarative Continuous Deployment for Kubernetes
+🔴	GO	   21055	    93	2025-10-27	argoproj/argo-cd	Declarative Continuous Deployment for Kubernetes	I don't code Kubernetes
 🟣	GO	   19685	   148	2025-10-27	charmbracelet/glow	Render markdown on the CLI, with pizzazz! 💅🏻
 🟣	GO	   19569	    48	2025-11-12	containerd/containerd	An open and reliable container runtime
 🟣	GO	   19101	   143	2025-10-19	netbirdio/netbird	Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.
@@ -340,7 +389,7 @@
 🟣	GO	    7254	    16	2025-10-19	prometheus/alertmanager	Prometheus Alertmanager
 🟣	GO	    7243	    20	2025-11-12	cilium/ebpf	ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach them to various hooks in the Linux kernel.
 🟣	GO	    7207	   544	2025-11-02	Tencent/WeKnora	LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm.
-🟣	GO	    7100	   113	2025-10-19	cloudnative-pg/cloudnative-pg	CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance
+🔴	GO	    7100	   113	2025-10-19	cloudnative-pg/cloudnative-pg	CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance	I don't code Kubernetes
 🟣	GO	    6848	    18	2025-10-26	projectcalico/calico	Cloud native networking and network security
 🟣	GO	    6634	    49	2025-10-27	v2fly/domain-list-community	Community managed domain list. Generate geosite.dat for V2Ray.
 🟣	GO	    6629	    87	2025-10-19	alibaba/higress	🤖 AI Gateway | AI Native API Gateway
@@ -354,7 +403,7 @@
 🟣	GO	    3767	   468	2025-11-12	ayn2op/discordo	A lightweight, secure, and feature-rich Discord terminal (TUI) client.
 🟣	GO	    3641	  1073	2025-11-12	opencloud-eu/opencloud	🌤️This is the main repository of the OpenCloud server. It contains the golang codebase for the backend services.
 🟣	GO	    3538	   114	2025-09-27	gtsteffaniak/filebrowser	📂 Web File Browser
-🟣	GO	    3515	    36	2025-11-02	NVIDIA/k8s-device-plugin	NVIDIA device plugin for Kubernetes
+🔴	GO	    3515	    36	2025-11-02	NVIDIA/k8s-device-plugin	NVIDIA device plugin for Kubernetes	I don't code Kubernetes
 🟣	GO	    3256	    11	2025-09-27	DataDog/datadog-agent	Main repository for Datadog Agent
 🟣	GO	    2793	   366	2025-10-19	timelinize/timelinize	Store your data from all your accounts and devices in a single cohesive timeline on your own computer
 🟣	GO	    2646	   104	2025-10-19	beclab/Olares	Olares: An Open-Source Personal Cloud to Reclaim Your Data
@@ -423,8 +472,8 @@
 🟢	GO	   31393	   168	2025-09-23	1Panel-dev/1Panel	🔥 1Panel provides an intuitive web interface and MCP Server to manage websites, files, containers, databases, and LLMs on a Linux server.	Easy-to-run monitor for Linux servers. Install and run 1pctl --help.
 🟢	GO	   14205	   205	2025-09-27	muesli/duf	Disk Usage/Free Utility - a better 'df' alternative
 🟢	GO	    5551	    68	2025-11-12	docker/cli	The Docker CLI
-🟡	TS	   33411	  1981	2025-11-12	umami-software/umami	Umami is a modern, privacy-focused analytics platform. A better, open-source alternative to Google Analytics, Mixpanel and Amplitude.
-🟡	RS	   36050	   118	2025-11-12	pola-rs/polars	Extremely fast Query Engine for DataFrames, written in Rust
+⏺️	TS	   33411	  1981	2025-11-12	umami-software/umami	Umami is a modern, privacy-focused analytics platform. A better, open-source alternative to Google Analytics, Mixpanel and Amplitude.
+⏺️	RS	   36050	   118	2025-11-12	pola-rs/polars	Extremely fast Query Engine for DataFrames, written in Rust
 🔵	TS	   76987	   952	2025-09-17	immich-app/immich	High performance self-hosted photo and video management solution.
 🔵	TS	   70201	   132	2025-10-05	grafana/grafana	The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.	I prefer custom visuals
 🔵	TS	   69811	   133	2025-10-05	strapi/strapi	🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.

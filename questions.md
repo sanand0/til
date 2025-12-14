@@ -23,6 +23,7 @@ Questioning defines and structures what we don’t know.
 ## Ask Founders
 
 - What are some small things your organization does really well, and you're proud of? I'd love to learn what you do and how it came about
+- What are the top 3 principles your company lives by? If you had to drop one, which two would you keep?
 
 ## Learn from people
 
