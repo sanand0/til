@@ -2,6 +2,24 @@
 
 ## Dec 2025
 
+- 19 Dec 2025. I updated the TTS (text-to-speech) costs across Gemini and OpenAI at https://github.com/sanand0/openai-tts-cost. My current favorite (value for money) is Gemini 2.5 Flash Preview TTS. Good emotions, low price, and a single request can deliver a multi-voice podcast. Speed: ~25 seconds per minute of audio generated.
+- 15 Dec 2025. [Why We Think](https://lilianweng.github.io/posts/2025-05-01-thinking/) has interesting insights on scaling from feedback: [#](https://claude.ai/chat/5dbf8fe0-081a-4d4a-926d-b4d74846ec85)
+  - Summary: **Give models a feedback environment unbiased by their reasoning.**
+  - There are basically two approaches: parallel and sequential.
+  - Parallel is simpler. Generate a bunch of different solutions and pick the best one. Like having multiple people solve the same problem independently, then going with whoever got the right answer.
+  - Sequential is trickier. You generate a solution, then ask the model to critique it and try again. This sounds good in theory but is surprisingly hard to get right.
+  - The problem is models aren't naturally good at self-correction. Left to their own devices, they'll often make things worse. They'll change correct answers to incorrect ones. Or they'll just superficially reword their first answer without fixing anything.
+  - To make self-correction work, you need external feedback. A unit test that fails. A ground truth to compare against. Something outside the model's own judgment.
+  - When you get it right though, sequential revision can be powerful. You're not just sampling from the model's distribution anymore. You're searching through it, iterating toward better answers.
+  - But there's a trap. If you start optimizing directly on the reasoning traces—rewarding "good reasoning" as a goal in itself—the model learns to game it. It'll hide its real thought process and show you what you want to see.
+  - This is why the DeepSeek team gave up on process reward models. They tried rewarding intermediate reasoning steps, but it led to reward hacking. The model would generate reasoning that looked good to the reward model while doing something completely different.
+- 15 Dec 2025. [A Pragmatic View of AI Personhood](https://arxiv.org/abs/2510.26396) was rewritten in Tim Urban's style, para-by-para, by [ChatGPT](https://chatgpt.com/share/693aa6ff-b2f4-800c-8f44-b061419cd6ff):
+  - AI having feelings is irrelevant. Does a design increase conflict, manipulation, or suffering among humans? If so, regulate that - limit certain kinds of anthropomorphic design, tie "rights" for AIs to strict anti-manipulation constraints, etc.
+  - **AI can act after owners vanish**. Pragmatically, you sometimes need to bite the bullet and say: "Okay, this thing itself is going to be treated as a legal person in these specific ways, so we can actually regulate and sanction it."
+  - Corporations are "slow AIs" already — optimizing for growth without ethics.
+  - **Slaves had a fund**. If the slave caused harm, the owner's liability could be capped at that fund. Modern equivalent for AI: Agents must maintain locked capital or insurance. Victims are compensated from that pool. If the pool runs out; they lose their license to operate. This gives sanctions teeth: the AI (or its backers) actually have something to lose.
+  - Require AIs to register before they can do economically important things. No title > no access to key platforms, payment rails, or official functions.
+  - Expanding personhood to non-humans sounds nice - more compassion, more care, more inclusion. But authenticity becomes a new asset. Humans and AIs will both want authenticity tokens. Poor will sell biometric credentials to rich, creating an authenticity social class. Your dignity as a person gets replaced by your usefulness as a key. Make it illegal and practically very hard to sell / rent out your humanity.
 - 14 Dec 2025. Notes from [One Year With ChatGPT Pro as a First Hire](https://www.soundformovement.com/chatgpt-pro-as-first-hire)
   - **Each day I start a new Pro chat that will run for that entire day**. I treat it as a colleague. I speak or type in whatever I am thinking about, including business problems, creative questions, experiments that worked or failed and feelings about particular decisions. I wear noise canceling earbuds and often run piano technique while the model is thinking. I listen to its response using the native “Read Aloud” feature, again while practicing, and stop to make notes in a physical notebook to collect inspiration. At the end of the day I ask that Pro model to summarize everything from that chat along with the notes I give it from my notebook, and **that summary becomes our first prompt of the next day**.
   - Standard Voice Mode (SVM) can do things that Advanced Voice Mode (AVM) cannot and vice versa.SVM feels like it wants to talk forever, while AVM feels like it wants to get off the phone.
