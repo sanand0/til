@@ -2,7 +2,7 @@
 
 ## Dec 2025
 
-- 23 Dec 2025. Discovered the `--extreme` option for `xz`, which compresses even better (but slower). For archives, I now use `xz -9e -vv file`. (Note: Single-threaded is slower but better for compression, so don't use `-mt`. )
+- 23 Dec 2025. Discovered the `--extreme` option for `xz`, which compresses even better (but slower). For archives, I now use `xz -9e -vv file`. Single-threaded is slower but better for compression, so don't use `-mt`. For ultra-large files, add `--lzma2=dict=256MiB` or similar, keeping dictionary size smaller than RAM and file size. [#](https://chatgpt.com/c/694a1d73-88a8-8320-8e3d-e8335eb52b37)
 - 21 Dec 2025. You can specify a git repo as an inline script dependency directly in a `.py` file when running with `uv`! [#](https://claude.ai/chat/e5c44b76-4b23-4765-aeb1-85263cac423d)
   ```python
   # /// script
