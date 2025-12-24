@@ -2,6 +2,7 @@
 
 ## Dec 2025
 
+- 24 Dec 2025. `rclone mount` over SFTP is the worst-case for thousands of tiny files. _Every_ `stat`, `readdir`, `unlink` is an extra network round-trips, taking ~1s per operation. I'm switching to rsync instead for my Hetzner storage box. [#](https://chatgpt.com/c/694bba1e-2748-8320-94d9-a29213cc5194)
 - 23 Dec 2025. [The Molecule of More](https://www.goodreads.com/book/show/38728977-the-molecule-of-more) and [Dopamine Nation](https://www.goodreads.com/book/show/55723020-dopamine-nation) explain that
   - Dopamine drives wanting/dread, which is decoupled from like/dislike.
   - It also does a bunch of other things like learning (maps actions to rewards), attention, etc.
