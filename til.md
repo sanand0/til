@@ -2,7 +2,15 @@
 
 ## Dec 2025
 
-- 23 Dec 2025. [The Molecule of More](https://www.goodreads.com/book/show/38728977-the-molecule-of-more) and [Dopamine Nation](https://www.goodreads.com/book/show/55723020-dopamine-nation) explain that dopamine converts liking into craving.
+- 23 Dec 2025. [The Molecule of More](https://www.goodreads.com/book/show/38728977-the-molecule-of-more) and [Dopamine Nation](https://www.goodreads.com/book/show/55723020-dopamine-nation) explain that
+  - Dopamine drives wanting/dread, which is decoupled from like/dislike.
+  - It also does a bunch of other things like learning (maps actions to rewards), attention, etc.
+  - Low dopamine => focus, medium => creativity, high => noise.
+  - Brain runs a thermostat. Pleasure/pain trigger a delayed, long-decay counter-reward that we feel as "That's it?" or "Whew!". Abstention just resets it. Meditation just makes you aware.
+  - Pain-upfront leads to long-decay pleasure: learning/teaching, creative struggle, exercise, ice showers/sauna, fasting, spicy food, cleaning, tough conversations, apology, forgiveness, public speaking, dating, deep work, delayed gratification, investing, grief, sacrifice, boredom, etc.
+  - Surprises spike dopamine: low standards, variable rewards, interleaved work, artificial constraints, environment/social rotation, progressive difficulty, ...
+  - Dopamine mechanics are complex. Don't trust any theory just yet.
+  - ⭐ Pain is the down payment. Surprise is the interest. Recovery is the compounding period.
 - 23 Dec 2025. [Sex at Dawn](https://www.goodreads.com/book/show/7640261-sex-at-dawn) claims humans evolved as promiscuous and non-jealous, that monogamy is recent. It's partly valid but over-simplified with cherry-picked evidence. [Claude](https://claude.ai/share/417070cf-db71-4f5b-8415-21083428b7df)
 - 23 Dec 2025. Discovered the `--extreme` option for `xz`, which compresses even better (but slower). For archives, I now use `xz -9e -vv file`. Single-threaded is slower but better for compression, so don't use `-mt`. For ultra-large files, add `--lzma2=dict=256MiB` or similar, keeping dictionary size smaller than RAM and file size. [#](https://chatgpt.com/c/694a1d73-88a8-8320-8e3d-e8335eb52b37)
 - 21 Dec 2025. You can specify a git repo as an inline script dependency directly in a `.py` file when running with `uv`! [#](https://claude.ai/chat/e5c44b76-4b23-4765-aeb1-85263cac423d)
