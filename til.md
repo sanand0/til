@@ -2,7 +2,9 @@
 
 ## Dec 2025
 
-- 25 Dec 2025. Katy Milkman's [How to Change](https://www.goodreads.com/book/show/55655032-how-to-change) suggests that biases are hard to change. Engineer environments and habits instead.
+- 25 Dec 2025. Katy Milkman's [How to Change](https://www.goodreads.com/book/show/55655032-how-to-change) suggests that biases are hard to change. Engineer environments and habits instead. [Claude](https://claude.ai/share/c29c127f-6fe1-480f-b0dc-fc764e5f7ece)
+  - Breaking bad habits is hard. Start on a New Year, birthday, festivals, etc. for ease.
+  - Breaks in continuity erase good habits. Be flexible for continuity (e.g. 7/week is more flexible than 1/day is more flexible than once every morning).
 - 25 Dec 2025. Daniel Kahnemann's [Noise](https://www.goodreads.com/book/show/55339408-noise) suggests experts are more random than we think. [Claude](https://claude.ai/share/9bed712b-05e3-4f37-ae21-78af350e2fc5)
   - When execs (or students) complain, "Oh, but the LLM aren't consistent!" -- nor are humans!
   - Get multiple INDEPENDENT opinions
