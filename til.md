@@ -2,6 +2,7 @@
 
 ## Dec 2025
 
+- 25 Dec 2025. [Lifespan](https://www.goodreads.com/book/show/43723901-lifespan) and [The Telomere EFfect](https://www.goodreads.com/book/show/34458942-the-telomere-effect) suggest sirtuins, resveratrol, NMN, telomere-lengthening lifestyles, etc. to defeat aging. But exercise, sleep, eat well, manage stress remains their only advice with robust evidence. [Claude](https://claude.ai/share/078e2c09-770f-421d-bda8-fe331d4ad0e5)
 - 25 Dec 2025. Katy Milkman's [How to Change](https://www.goodreads.com/book/show/55655032-how-to-change) suggests that biases are hard to change. Engineer environments and habits instead. [Claude](https://claude.ai/share/c29c127f-6fe1-480f-b0dc-fc764e5f7ece)
   - Breaking bad habits is hard. Start on a New Year, birthday, festivals, etc. for ease.
   - Breaks in continuity erase good habits. Be flexible for continuity (e.g. 7/week is more flexible than 1/day is more flexible than once every morning).
