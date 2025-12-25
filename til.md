@@ -2,6 +2,13 @@
 
 ## Dec 2025
 
+- 25 Dec 2025. Notes from [awesome-npm](https://github.com/sindresorhus/awesome-npm) [#](https://chatgpt.com/c/694cb4a1-786c-8321-b8e0-2fd58d545480)
+  - `npm run command --silent` suppresses npm output, only shows script output.
+  - `npm start` and `npm test` are the conventions to run the app / server and test. Use more.
+  - `npx --package=node-bin@6.2.0 -- node --version` lets you run any node version without nvm, etc.
+  - `npm link` installs package in the current directory as a global. You can link to it from any other package via `npm link <dirname>`.
+  - `npm install owner/repo` installs directly from GitHub.
+  - `npm ls --depth=2` shows dependency tree up to depth 2.
 - 24 Dec 2025. `rclone mount` over SFTP is the worst-case for thousands of tiny files. _Every_ `stat`, `readdir`, `unlink` is an extra network round-trips, taking ~1s per operation. I'm switching to rsync instead for my [Hetzner storage box](https://www.hetzner.com/storage/storage-box/). [#](https://chatgpt.com/c/694bba1e-2748-8320-94d9-a29213cc5194)
   - Context: I set it up via: `rclone config create hetzner sftp host $USER.your-storagebox.de user $USER shell_type unix`
   - ... and mounted it via `rclone mount hetzner:/ /mnt/hetzner --vfs-cache-mode full --vfs-cache-max-age 24h --vfs-cache-max-size 10G`
