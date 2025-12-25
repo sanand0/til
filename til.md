@@ -2,7 +2,7 @@
 
 ## Dec 2025
 
-- 25 Dec 2025. [Noise](https://www.goodreads.com/book/show/55339408-noise) suggests experts are more random than we think. [#](https://claude.ai/chat/d0e0aee2-b018-4678-b51f-c4be39c5fdea)
+- 25 Dec 2025. Daniel Kahnemann's [Noise](https://www.goodreads.com/book/show/55339408-noise) suggests experts are more random than we think. [Claude](https://claude.ai/share/9bed712b-05e3-4f37-ae21-78af350e2fc5)
   - When execs (or students) complain, "Oh, but the LLM aren't consistent!" -- nor are humans!
   - Get multiple INDEPENDENT opinions
   - Use CHECKLISTS to reduce variability
