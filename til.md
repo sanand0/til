@@ -3,10 +3,11 @@
 ## Dec 2025
 
 - 25 Dec 2025. [Noise](https://www.goodreads.com/book/show/55339408-noise) suggests experts are more random than we think. [#](https://claude.ai/chat/d0e0aee2-b018-4678-b51f-c4be39c5fdea)
+  - When execs (or students) complain, "Oh, but the LLM aren't consistent!" -- nor are humans!
   - Get multiple INDEPENDENT opinions
-  - Use checklists to reduce variability
-  - Use algorithms to spot outliers
-  - Acknowledge luck, good or bad
+  - Use CHECKLISTS to reduce variability
+  - Use ALGORITHMS to spot outliers
+  - Acknowledge luck, good or bad. Leverage serendipity
 - 25 Dec 2025. Notes from [awesome-npm](https://github.com/sindresorhus/awesome-npm) [#](https://chatgpt.com/c/694cb4a1-786c-8321-b8e0-2fd58d545480)
   - `npm run command --silent` suppresses npm output, only shows script output.
   - `npm start` and `npm test` are the conventions to run the app / server and test. Use more.
