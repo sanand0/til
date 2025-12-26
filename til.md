@@ -3,6 +3,13 @@
 ## Dec 2025
 
 - 26 Dec 2025. Some books, like [The Choice](https://www.goodreads.com/book/show/30753738-the-choice), aren't meant to be summarized. I can't even summarize the [summary](https://claude.ai/share/a972c2a2-ab27-4470-b2b2-74c4d7a92eea).
+- 26 Dec 2025. [The Origin of Consciousness in the Breakdown of the Bicameral Mind](https://www.goodreads.com/book/show/22478.The_Origin_of_Consciousness_in_the_Breakdown_of_the_Bicameral_Mind) by Julian Jaynes proposes that introspective consciousness emerged ~3,000 years ago. Unproven but unfalsified. [Claude](https://claude.ai/share/b2cea7b2-97b4-4d16-98dd-4359b0965ba9)
+  - He theorizes that until ~3,000 years ago, the right part of the brain generated "voices" the left part obeyed. The Iliad heard voices. The Odyssey has a self-aware hero.
+  - That's why ancients across cultures heard gods' voices. Idols were meant to trigger these voices. Kings literally spoke for the gods. People didn't feel responsible for their actions.
+  - With population growth, writing, and the Bronze Age collapse, humans were forced to adopt alternate cognitive strategies, leading to consciousness.
+  - That was also when philosophy, introspective religions, and new forms of literature emerged across the world. The Axial Age.
+  - Schizophrenia may be a vestige of this bicameral mind, where the right brain's "voices" are misinterpreted by the left brain. Hypnosis, oracles, and creative muses are other remnants.
+  - Neurological support is weak but literary/cultural analysis is strong. His theory hasn't been falsified.
 - 26 Dec 2025. [The Slight Edge](https://www.goodreads.com/book/show/590652.The_Slight_Edge) by Jeff Olson suggests small, consistently repeated actions. [Claude](https://claude.ai/share/28107cd7-d653-4f6e-a85b-9038b13ccfcb)
   - Small actions compound **exponentially**. But what's easy to do is also easy to skip.
   - Quitters stop because it feels like small actions don't matter - leading to exponential decay.
