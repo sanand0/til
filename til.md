@@ -2,6 +2,15 @@
 
 ## Dec 2025
 
+- 26 Dec 2025. [How Minds Change](https://www.goodreads.com/book/show/57933312-how-minds-change) suggests that friendship, more than facts, changes opinions. Sometimes your own, too.
+  - Facts backfire (though less often than the book indicates). Challenging identity is a survival threat.
+  - Asking genuine questions and actually listening enables change. (It might change you, too.)
+  - "How did you come to believe that?" "How confident are you (1-10)?" "What would it take to move that number?" helps introspect.
+  - Making friends with someone in a different community transfers their beliefs, sustainably.
+- 26 Dec 2025. [The Obesity Code](https://www.goodreads.com/book/show/24945404-the-obesity-code) by Jason Fung suggests whole foods and intermittent fasting.
+  - Eating whole foods (rather than processed foods) does help.
+  - Fasting does help. (But maybe no more than reduced calorie intake, and sustaining it could be harder.)
+  - But his claim that high insulin -> obesity isn't research-robust. It may be correlation not causation.
 - 25 Dec 2025. [Lifespan](https://www.goodreads.com/book/show/43723901-lifespan) and [The Telomere EFfect](https://www.goodreads.com/book/show/34458942-the-telomere-effect) suggest sirtuins, resveratrol, NMN, telomere-lengthening lifestyles, etc. to defeat aging. But exercise, sleep, eat well, manage stress remains their only advice with robust evidence. [Claude](https://claude.ai/share/078e2c09-770f-421d-bda8-fe331d4ad0e5)
 - 25 Dec 2025. Katy Milkman's [How to Change](https://www.goodreads.com/book/show/55655032-how-to-change) suggests that biases are hard to change. Engineer environments and habits instead. [Claude](https://claude.ai/share/c29c127f-6fe1-480f-b0dc-fc764e5f7ece)
   - Breaking bad habits is hard. Start on a New Year, birthday, festivals, etc. for ease.
