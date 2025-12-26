@@ -13,6 +13,11 @@
   - But his claim that high insulin -> obesity isn't research-robust. It may be correlation not causation.
 - 25 Dec 2025. [Lifespan](https://www.goodreads.com/book/show/43723901-lifespan) and [The Telomere EFfect](https://www.goodreads.com/book/show/34458942-the-telomere-effect) suggest exercise, sleep, eat well, manage stress to live longer. [Claude](https://claude.ai/share/078e2c09-770f-421d-bda8-fe331d4ad0e5)
   - Actually, they mainly suggest sirtuins, resveratrol, NMN, telomere-lengthening lifestyles, etc. to defeat aging. None of this is research-proven. The traditional advice is the only proven stuff.
+- 25 Dec 2025. [Outlive](https://www.goodreads.com/book/show/61153739-outlive) suggests exercise for living longer - and to make sure your life is worth extending! []
+  - Medicine focuses more on cure than prevention.
+  - Exercise has the highest impact on longevity. Zone 2 Cardio and grip strength especially.
+  - apoB under 60mg/dLis a better indicator of heart risk than LDL.
+  - But make sure your life is worth living!
 - 25 Dec 2025. Katy Milkman's [How to Change](https://www.goodreads.com/book/show/55655032-how-to-change) suggests that biases are hard to change. Engineer environments and habits instead. [Claude](https://claude.ai/share/c29c127f-6fe1-480f-b0dc-fc764e5f7ece)
   - Breaking bad habits is hard. Start on a New Year, birthday, festivals, etc. for ease.
   - Breaks in continuity erase good habits. Be flexible for continuity (e.g. 7/week is more flexible than 1/day is more flexible than once every morning).
