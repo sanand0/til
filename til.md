@@ -3,6 +3,12 @@
 ## Dec 2025
 
 - 26 Dec 2025. Some books, like [The Choice](https://www.goodreads.com/book/show/30753738-the-choice), aren't meant to be summarized. I can't even summarize the [summary](https://claude.ai/share/a972c2a2-ab27-4470-b2b2-74c4d7a92eea).
+- 26 Dec 2025. [The Slight Edge](https://www.goodreads.com/book/show/590652.The_Slight_Edge) by Jeff Olson suggests small, consistently repeated actions. [Claude](https://claude.ai/share/28107cd7-d653-4f6e-a85b-9038b13ccfcb)
+  - Small actions compound **exponentially**. But what's easy to do is also easy to skip.
+  - Quitters stop because it feels like small actions don't matter - leading to exponential decay.
+  - Willpower is overrated; time is underrated.
+  - What to do: Show up. Consistently. Even if no one's watching. Commit long-term. With optimism and purpose. Pay the price.
+  - Also: Happiness isn't just a result of success. It's often a cause. And habits also influence people around us.
 - 26 Dec 2025. [Why We Sleep](https://www.goodreads.com/book/show/34466963-why-we-sleep) by Matthew Walker elevates the importance of sleep - but also exaggerates. [Claude](https://claude.ai/share/c11436d7-ec8b-4624-90fd-9f2e2d8c42c2)
   - Sleep has phases. In the first half, deep sleep (NREM) dominates. It consolidates memories. Then REM dominates. Dreams, connections, creativity, emotional regulation happen here. It resets brain and body health.
   - Sleep deprivation worsens focus, memory, immunity, metabolism, heart health.
