@@ -2,7 +2,7 @@
 
 ## Dec 2025
 
-- 26 Dec 2025. ⭐ [How Minds Change](https://www.goodreads.com/book/show/57933312-how-minds-change) suggests that friendship, more than facts, changes opinions. Sometimes your own, too.
+- 26 Dec 2025. ⭐ [How Minds Change](https://www.goodreads.com/book/show/57933312-how-minds-change) suggests that friendship, more than facts, changes opinions. Sometimes your own, too. [Claude](https://claude.ai/share/2e102fee-04ab-4c78-80e8-e8d77cc3105c)
   - Facts backfire (though less often than the book indicates). Challenging identity is a survival threat.
   - Asking genuine questions and actually listening enables change. (It might change you, too.)
   - "How did you come to believe that?" "How confident are you (1-10)?" "What would it take to move that number?" helps introspect.
