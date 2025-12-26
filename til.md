@@ -2,6 +2,17 @@
 
 ## Dec 2025
 
+- 26 Dec 2025. [Price of the Modi Years](https://www.goodreads.com/book/show/59554236-price-of-the-modi-years) by Aakar Patel suggests that most metrics worsened under Modi. True, but these also seem cherry-picked. [Claude](https://claude.ai/share/af1b7127-ef2e-4a5b-a969-6fda160a542a)
+  - Announcements had more impact than executions.
+    - 99% of the 15.3 lakh crores demonetized came back to banks, laundered.
+    - Manufacturing GDP share fell from 16% to 13% after Make in India was launched. Employment fell from 5.1 to 2.7 cr.
+    - Press freedom rank fell from 140 (2014) to 151 - and is now 159.
+    - Democracy rank fell freom 27 (2014) to 41 (2021). India is classified as a "Flawed Democracy".
+    - Human Development Index is stagnant at 130.
+    - Global Hunger rank fell freom 55 / 76 (2014) to 102 / 123 (2024?).
+  - But:
+    - Economic Freedom rank rose from 112 (2014) to 84 (2023?).
+    - Digital payments, rural electrification, toilet construction, etc. aren't mentioned.
 - 26 Dec 2025. [The Ants](https://www.goodreads.com/book/show/115013.The_Ants) by Bert Hölldobler, Edward O. Wilson is the only science textbook (!) to win a Pulitzer. [Claude](https://claude.ai/share/efe424e5-cbf4-474d-ba20-ccb420c5c9cb)
   - Ants are only ~20% of human biomass, not 100% as the book claims, but that's 2.5m ants per human!
   - ⭐ Sterile ants, which are all female, help the queen reproduce instead of having their own kids.
