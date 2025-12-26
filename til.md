@@ -2,6 +2,35 @@
 
 ## Dec 2025
 
+- 26 Dec 2025. [The Ants](https://www.goodreads.com/book/show/115013.The_Ants) by Bert Hölldobler, Edward O. Wilson is the only science textbook (!) to win a Pulitzer. [Claude](https://claude.ai/share/efe424e5-cbf4-474d-ba20-ccb420c5c9cb)
+  - Ants are only ~20% of human biomass, not 100% as the book claims, but that's 2.5m ants per human!
+  - ⭐ Sterile ants, which are all female, help the queen reproduce instead of having their own kids.
+    - Ants, bees, wasps, etc. are haplodiploid, i.e. females have father + mother genes, males develop from unfertilized eggs (only mother genes).
+    - So, sisters share 75% of genes, more than 50% with their own kids. Helping mothers make sisters is better than having kids!
+    - (And if this isn't an alien civilization, what is? We don't need sci-fi. Nature is weirder than fiction.)
+  - But their math doesn't hold up!
+    - If the queen produces 50% brothers (with 25% common genes) and 50% sisters (75% common genes), the average is 50% common genes, same as having kids.
+    - But building a nest is hard, specialization is efficient, etc. So ants stay sterile and help the colony.
+    - BTW, this gene math only works if the queen is 100% monogamous - so they are, or at least, were, until evolution locked it in.
+    - (Making nature one-step less alien. But still weird.)
+  - Epigenetics determines caste. More food or specific food (e.g. royal jelly in bees) changes gene expression of the same DNA.
+    - When a queen dies, some ants (e.g. Indian jumping ants) can reprogram a worker ant into a queen through diet!
+  - Leafcutter ants have been "farming" for 50 million years. Rather, are part of an agricultural symbiosis.
+    - They cut leaves and feed it to a fungus they cultivate in their nests.
+    - They protect the fungus from pests using antibiotics produced by bacteria living on their bodies. They clear decay and weeds.
+    - They can't live without the fungus because it produces a nutrient (Arginine) that they need but can no longer make themselves.
+  - Ants communicate using pheromones, touch, and sound.
+    - Pheromones can communicate species, colony, caste, reproductive status, alarm, food trail, etc. These evaporate unless reinforced.
+      - They have a bigger, more advanced, brain region than other insects. It's not multiple brain parts coordinating.
+      - Using CRISPR to knock out pheromone receptors makes ants unable to communicate. Mutant ants wander aimlessly until killed by the colony.
+    - They tap each other with their antennae: to taste skin for identification, or to beg for regurgitated food.
+    - Some ants have a scraper on their waist that they rub against their abdomen. Triggers "emergency alarm", e.g. "I'm buried" or "Help me cut!"
+  - Ant colonies are superorganisms, i.e. agents that work together to produce emergent behavior. They have sterile castes. Only ants, bees, naked mole rats, ... qualify.
+    - The nest is like a giant lung. Passive ventilation sucks CO2 from top chimneys and brings in O2 from lower entrances. They regulate temperature by opening/closing nest entrances. They send workers out for water to evaporatively cool the nest.
+    - They circulate nutrients by vomiting food into each others mouths. (Ants have two stomachs - one for themselves, one for sharing.) Ants can't digest meat but larvae can, so they feed meat to larvae and share the digested food. Larvae act like a liver.
+    - They have an immune system. Sanitation squads carry dead ants far away. Fungally infected ants leave the nest and die alone. Infected pupae are killed by workers.
+    - They have a neural system. Memory is stored in pheromone trails.
+  - Ant politics exists. E.g. Workers destroy eggs laid by other workers, protect sister-laid eggs, etc.
 - 26 Dec 2025. [The Cancer Code](https://www.goodreads.com/book/show/52163526-the-cancer-code) by Jason Fung suggests that cancer might be about cells acting selfishly, triggered by body environment. [Claude](https://claude.ai/share/d0ee6a30-6776-40a8-a409-a1d7312ef79a)
   - Cancer leads to metastatis, where cancer cells spread from the tumor to other body parts.
   - Metastasis kills by eating up resources, mechanical obstruction, poisoning, triggering clots, or reducing immunity.
