@@ -17,8 +17,8 @@
   - Actually, they mainly suggest sirtuins, resveratrol, NMN, telomere-lengthening lifestyles, etc. to defeat aging. None of this is research-proven. The traditional advice is the only proven stuff.
 - 25 Dec 2025. [Outlive](https://www.goodreads.com/book/show/61153739-outlive) suggests exercise for living longer - and to make sure your life is worth extending! [Claude](https://claude.ai/share/f7555a9c-3f6a-4f3c-a56a-ee3d9384d324)
   - Medicine focuses more on cure than prevention.
-  - Exercise has the highest impact on longevity. Zone 2 Cardio and grip strength especially.
-  - apoB under 60mg/dLis a better indicator of heart risk than LDL.
+  - Exercise has the highest impact on longevity. Especially zone 2 cardio and body strength (e.g. measure grip strength).
+  - apoB under 80mg/dL is a better indicator of heart risk than LDL.
   - But make sure your life is worth living!
 - 25 Dec 2025. Katy Milkman's [How to Change](https://www.goodreads.com/book/show/55655032-how-to-change) suggests that biases are hard to change. Engineer environments and habits instead. [Claude](https://claude.ai/share/c29c127f-6fe1-480f-b0dc-fc764e5f7ece)
   - Breaking bad habits is hard. Start on a New Year, birthday, festivals, etc. for ease.
