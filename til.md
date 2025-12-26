@@ -2,15 +2,21 @@
 
 ## Dec 2025
 
+- 26 Dec 2025. [The Diabetes Code](https://www.goodreads.com/book/show/38227753-the-diabetes-code) by Jason Fung suggests less intake to reverse Type 2 Diabetes. [Claude](https://claude.ai/share/ca706f64-ff53-467e-9e61-b4c8367790f1)
+  - Insulin pushes sugar into cells for energy storage.
+  - In Type 1 Diabetes, immune cells attack insulin-producing cells. Patients need insulin to survive.
+  - In Type 2 Diabetes, high carbs -> high insulin -> cells become insulin-resistant. Feeding them insulin can harm, sometimes.
+  - Weight loss can definitely reverse it. Reducing carbs & preferring whole foods helps. Intermittent fasting likely helps.
+  - But "sugar is the main driver of Type 2 Diabetes" isn't research-robust. Genetics, sleep, stress, gut microbiome, socioeconomics contribute. Diet & fasting are hard to sustain, and isn't for everyone.
+- 26 Dec 2025. [The Obesity Code](https://www.goodreads.com/book/show/24945404-the-obesity-code) by Jason Fung suggests whole foods and intermittent fasting. [Claude](https://claude.ai/share/2e102fee-04ab-4c78-80e8-e8d77cc3105c)
+  - Eating whole foods (rather than processed foods) does help.
+  - Fasting does help. (But maybe no more than reduced calorie intake, and sustaining it could be harder.)
+  - But his claim that high insulin -> obesity isn't research-robust. It may be correlation not causation.
 - 26 Dec 2025. ⭐ [How Minds Change](https://www.goodreads.com/book/show/57933312-how-minds-change) suggests that friendship, more than facts, changes opinions. Sometimes your own, too. [Claude](https://claude.ai/share/25283a55-9f6f-408d-9080-1a7b1c3d8a3e)
   - Facts backfire (though less often than the book indicates). Challenging identity is a survival threat.
   - Asking genuine questions and actually listening enables change. (It might change you, too.)
   - "How did you come to believe that?" "How confident are you (1-10)?" "What would it take to move that number?" helps introspect.
   - Relationships create safety to question beliefs. Lasting change requires somewhere new to belong.
-- 26 Dec 2025. [The Obesity Code](https://www.goodreads.com/book/show/24945404-the-obesity-code) by Jason Fung suggests whole foods and intermittent fasting. [Claude](https://claude.ai/share/2e102fee-04ab-4c78-80e8-e8d77cc3105c)
-  - Eating whole foods (rather than processed foods) does help.
-  - Fasting does help. (But maybe no more than reduced calorie intake, and sustaining it could be harder.)
-  - But his claim that high insulin -> obesity isn't research-robust. It may be correlation not causation.
 - 25 Dec 2025. If you see a smooth, glassy patch surrounded by ripples, it’s usually because a thin surface film or local surface flow is damping the tiny wind-made waves there, not because the water underneath is calmer. [ChatGPT](https://chatgpt.com/share/694d1b9b-c804-8003-b76f-818515635766)
   ![Glassy patch surrounded by ripples](https://files.s-anand.net/images/2025-12-25-calm-water-amidst-turbuence-singapore-gardens-by-the-bay.webp)
 - 25 Dec 2025. [Lifespan](https://www.goodreads.com/book/show/43723901-lifespan) and [The Telomere EFfect](https://www.goodreads.com/book/show/34458942-the-telomere-effect) suggest exercise, sleep, eat well, manage stress to live longer. [Claude](https://claude.ai/share/f7555a9c-3f6a-4f3c-a56a-ee3d9384d324)
