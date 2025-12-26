@@ -3,6 +3,12 @@
 ## Dec 2025
 
 - 26 Dec 2025. Some books, like [The Choice](https://www.goodreads.com/book/show/30753738-the-choice), aren't meant to be summarized. I can't even summarize the [summary](https://claude.ai/share/a972c2a2-ab27-4470-b2b2-74c4d7a92eea).
+- 26 Dec 2025. [Why We Sleep](https://www.goodreads.com/book/show/34466963-why-we-sleep) by Matthew Walker elevates the importance of sleep - but also exaggerates. [Claude](https://claude.ai/share/c11436d7-ec8b-4624-90fd-9f2e2d8c42c2)
+  - Sleep has phases. In the first half, deep sleep (NREM) dominates. It consolidates memories. Then REM dominates. Dreams, connections, creativity, emotional regulation happen here. It resets brain and body health.
+  - Sleep deprivation worsens focus, memory, immunity, metabolism, heart health.
+  - Phones, caffeine (5-7 hours before), alcohol, early alarms, irregular schedules, late meals, warm bedrooms - all hurt sleep quality.
+  - But a lot of claims are exaggerated, unproven, or false. Sleep loss isn't a WHO epidemic. More sleep != longer life, it can shorten it (~7 hours seems optimal). Sleeping < 6-7 hours doesn't impact cancer. Modern societies don't sleep less than historically. Sleep deprivation helps depression. He also removed inconvenient data from a graph.
+  - BTW, anxiety about lack of sleep worsens sleep. So, chill.
 - 26 Dec 2025. [How Not To Die](https://www.goodreads.com/book/show/25663961-how-not-to-die) by Michael Greger suggests a plant-only diet, but evidence indicates otherwise. [Claude](https://claude.ai/chat/26cd4580-ede9-45e0-909e-2c58946458d1)
   - Eat more plants, less processed food, cook meat at lower temperatures, and exercise. This much is valid.
   - Unlike his claims, Omega-3s help heart disease. Milk reduces asthma risk. Soy doesn't seem to benefit non-Asians. Fish prevent dementia.
