@@ -2,6 +2,10 @@
 
 ## Dec 2025
 
+- 26 Dec 2025. My most used GitHub Copilot feature is tab completion. It's surprisingly effective for note-taking (which I do more than code-writing ever since coding agents arrived.) I'm amazed that it can act as a:
+  - Calculator/convertor. E.g. "9 * 86400 =", "5 miles in km is" or "3 days ago, i.e. on"
+  - References. E.g. "The Attention is all you need paper at https://"
+  - Ideator
 - 21 Dec 2025. You can open AI chatbots with a pre-populated query using these URLs. Gemini, notably, does not yet support this.
   - Claude: https://claude.ai/new?q=%s
   - ChatGPT: https://chatgpt.com/?q=%s
