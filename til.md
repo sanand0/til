@@ -2,6 +2,20 @@
 
 ## Dec 2025
 
+- 26 Dec 2025. [Behave](https://www.goodreads.com/book/show/31170723-behave) by Robert Sapolsky reasons our actions across seconds (neurological), hours (hormones, environment), months (neuroplasticity, learning), decades (genes, culture), millenia (evolution). [Claude](https://claude.ai/share/919495bd-8714-4a6f-8bae-e557897105db)
+  - The Brain
+    - The amygdala detects uncertainty, not just fear/aggression. The unfamiliar triggers it. But the response diminishes with exposure. It can be modulated by the prefrontal cortex.
+    - The prefrontal cortex plans. It develops late and can override amygdala responses. It is impaired by stress, fatigue, alcohol, etc. It can plan genocide / retribution as well as peace.
+  - The Hormone
+    - Testosterone is an amplifier. It amplifies agression but also generosity! It lowers threshold for context-appropriate behaviour.
+    - Oxytocin promotes in-group trust, but promotes out-group hostility. It's the molecule of tribalism, not love.
+  - The Childhood
+    - Early stress triggers epigenetic changes that makes the amygdala hyperactive, impairs prefrontal cortex, and alters stress hormone regulation.
+    - This leads to impulsivity, aggression, anxiety, depression, addiction, etc.
+  - The Evolution
+    - We are naturally hierarchical and tribal.
+    - Thanks to language, we can expand / contract our tribes to include / exclude anyone (or anything) based on arbitrary stories.
+  - Let's approach wrongdoing with humility. Punishment and rewards CAN shape behavior. But a focus on prevention over retribution may help more.
 - 26 Dec 2025. [Price of the Modi Years](https://www.goodreads.com/book/show/59554236-price-of-the-modi-years) by Aakar Patel suggests that most metrics worsened under Modi. True, but these also seem cherry-picked. [Claude](https://claude.ai/share/af1b7127-ef2e-4a5b-a969-6fda160a542a)
   - Announcements had more impact than executions.
     - 99% of the 15.3 lakh crores demonetized came back to banks, laundered.
