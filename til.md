@@ -2,12 +2,12 @@
 
 ## Dec 2025
 
-- 26 Dec 2025. ⭐ [How Minds Change](https://www.goodreads.com/book/show/57933312-how-minds-change) suggests that friendship, more than facts, changes opinions. Sometimes your own, too. [Claude](https://claude.ai/share/2e102fee-04ab-4c78-80e8-e8d77cc3105c)
+- 26 Dec 2025. ⭐ [How Minds Change](https://www.goodreads.com/book/show/57933312-how-minds-change) suggests that friendship, more than facts, changes opinions. Sometimes your own, too. [Claude](https://claude.ai/share/25283a55-9f6f-408d-9080-1a7b1c3d8a3e)
   - Facts backfire (though less often than the book indicates). Challenging identity is a survival threat.
   - Asking genuine questions and actually listening enables change. (It might change you, too.)
   - "How did you come to believe that?" "How confident are you (1-10)?" "What would it take to move that number?" helps introspect.
-  - Making friends with someone in a different community transfers their beliefs, sustainably.
-- 26 Dec 2025. [The Obesity Code](https://www.goodreads.com/book/show/24945404-the-obesity-code) by Jason Fung suggests whole foods and intermittent fasting.
+  - Relationships create safety to question beliefs. Lasting change requires somewhere new to belong.
+- 26 Dec 2025. [The Obesity Code](https://www.goodreads.com/book/show/24945404-the-obesity-code) by Jason Fung suggests whole foods and intermittent fasting. [Claude](https://claude.ai/share/2e102fee-04ab-4c78-80e8-e8d77cc3105c)
   - Eating whole foods (rather than processed foods) does help.
   - Fasting does help. (But maybe no more than reduced calorie intake, and sustaining it could be harder.)
   - But his claim that high insulin -> obesity isn't research-robust. It may be correlation not causation.
