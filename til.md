@@ -2,6 +2,19 @@
 
 ## Dec 2025
 
+- 26 Dec 2025. [The Cancer Code](https://www.goodreads.com/book/show/52163526-the-cancer-code) by Jason Fung suggests that cancer might be about cells acting selfishly, triggered by body environment. [Claude](https://claude.ai/share/d0ee6a30-6776-40a8-a409-a1d7312ef79a)
+  - Cancer leads to metastatis, where cancer cells spread from the tumor to other body parts.
+  - Metastasis kills by eating up resources, mechanical obstruction, poisoning, triggering clots, or reducing immunity.
+  - We used to cut (surgery), burn (radiation), or poison (chemotherapy) cancer cells.
+  - Then we learnt cancer cells were mutations and targeted therapies work (expensively). But it treated under 5% of cancers.
+  - Paul Davies (!) suggested cancer is when cells devolve to our unicellular ancestry. Cells that should die for collective good instead multiply. This theory is gaining ground but not proven.
+  - This is enabled by the body environment. For example:
+    - Insulin resistance. Sugar matters less. It's the insulin resistance.
+    - Oxidative stress, i.e. not enough antioxidants to neutralize the free radicals. (Free radicals are molecules with 1 extra or missing electron. They damage cells. Mitochondria misfires and creates free radicals 0.2-2% of the time. Smoking, pollution, radiation, stress increase free radicals. Immune cells also create free radicals to kill cells.)
+    - Chronic inflammation. Leads to oxidative stress.
+    - Hormonal imbalances. E.g. high estrogen, testosterone.
+  - Immunotherapy (teaching the immune system to attack cancer cells) is promising.
+  - Weight loss might prevent / reverse cancer. Evidence is preliminary.
 - 26 Dec 2025. [The Diabetes Code](https://www.goodreads.com/book/show/38227753-the-diabetes-code) by Jason Fung suggests less intake to reverse Type 2 Diabetes. [Claude](https://claude.ai/share/ca706f64-ff53-467e-9e61-b4c8367790f1)
   - Insulin pushes sugar into cells for energy storage.
   - In Type 1 Diabetes, immune cells attack insulin-producing cells. Patients need insulin to survive.
