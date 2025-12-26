@@ -3,6 +3,10 @@
 ## Dec 2025
 
 - 26 Dec 2025. Some books, like [The Choice](https://www.goodreads.com/book/show/30753738-the-choice), aren't meant to be summarized. I can't even summarize the [summary](https://claude.ai/share/a972c2a2-ab27-4470-b2b2-74c4d7a92eea).
+- 26 Dec 2025. [How Not To Die](https://www.goodreads.com/book/show/25663961-how-not-to-die) by Michael Greger suggests a plant-only diet, but evidence indicates otherwise. [Claude](https://claude.ai/chat/26cd4580-ede9-45e0-909e-2c58946458d1)
+  - Eat more plants, less processed food, cook meat at lower temperatures, and exercise. This much is valid.
+  - Unlike his claims, Omega-3s help heart disease. Milk reduces asthma risk. Soy doesn't seem to benefit non-Asians. Fish prevent dementia.
+  - He buries B12 deficiency risk. Overall, studies are cherry-picked and even contradicts his statements.
 - 26 Dec 2025. [Behave](https://www.goodreads.com/book/show/31170723-behave) by Robert Sapolsky reasons our actions across seconds (neurological), hours (hormones, environment), months (neuroplasticity, learning), decades (genes, culture), millenia (evolution). [Claude](https://claude.ai/share/919495bd-8714-4a6f-8bae-e557897105db)
   - The Brain
     - The amygdala detects uncertainty, not just fear/aggression. The unfamiliar triggers it. But the response diminishes with exposure. It can be modulated by the prefrontal cortex.
