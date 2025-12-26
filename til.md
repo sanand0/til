@@ -11,6 +11,7 @@
   - Eating whole foods (rather than processed foods) does help.
   - Fasting does help. (But maybe no more than reduced calorie intake, and sustaining it could be harder.)
   - But his claim that high insulin -> obesity isn't research-robust. It may be correlation not causation.
+- 25 Dec 2025. If you see a smooth, glassy patch surrounded by ripples, it’s usually because a thin surface film or local surface flow is damping the tiny wind-made waves there, not because the water underneath is calmer. [ChatGPT](https://chatgpt.com/share/694d1b9b-c804-8003-b76f-818515635766)
 - 25 Dec 2025. [Lifespan](https://www.goodreads.com/book/show/43723901-lifespan) and [The Telomere EFfect](https://www.goodreads.com/book/show/34458942-the-telomere-effect) suggest exercise, sleep, eat well, manage stress to live longer. [Claude](https://claude.ai/share/f7555a9c-3f6a-4f3c-a56a-ee3d9384d324)
   - Actually, they mainly suggest sirtuins, resveratrol, NMN, telomere-lengthening lifestyles, etc. to defeat aging. None of this is research-proven. The traditional advice is the only proven stuff.
 - 25 Dec 2025. [Outlive](https://www.goodreads.com/book/show/61153739-outlive) suggests exercise for living longer - and to make sure your life is worth extending! [Claude](https://claude.ai/share/f7555a9c-3f6a-4f3c-a56a-ee3d9384d324)
