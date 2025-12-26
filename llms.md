@@ -4,7 +4,7 @@
 
 - 26 Dec 2025. My most used GitHub Copilot feature is [tab completion](https://docs.github.com/en/copilot/how-tos/get-code-suggestions/get-ide-code-suggestions). It's surprisingly effective for note-taking (which I do more than code-writing ever since coding agents arrived.) `Tab` completes the suggestion and `Esc` cancels it. I'm beginning to use `Alt + ]` and `Alt + [` to cycle through multiple suggestions. I'm amazed that it can act as a:
   - Calculator/convertor. E.g. "9 * 86400 =", "5 miles in km is" or "3 days ago, i.e. on"
-  - References. E.g. "The Attention Is All You Need paper at https://" or "The Pulitzer winning book Ants by"
+  - Referrer. E.g. "The Attention Is All You Need paper at https://" or "The Pulitzer winning book Ants by"
   - Educator. E.g. "The top 3 causes of cancer are"
   - Ideator. E.g. "5 wild ideas for sneakily improving productivity are"
 - 21 Dec 2025. You can open AI chatbots with a pre-populated query using these URLs. Gemini, notably, does not yet support this.
