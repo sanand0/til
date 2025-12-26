@@ -2,7 +2,7 @@
 
 ## Dec 2025
 
-- 26 Dec 2025. [How Minds Change](https://www.goodreads.com/book/show/57933312-how-minds-change) suggests that friendship, more than facts, changes opinions. Sometimes your own, too.
+- 26 Dec 2025. ⭐ [How Minds Change](https://www.goodreads.com/book/show/57933312-how-minds-change) suggests that friendship, more than facts, changes opinions. Sometimes your own, too.
   - Facts backfire (though less often than the book indicates). Challenging identity is a survival threat.
   - Asking genuine questions and actually listening enables change. (It might change you, too.)
   - "How did you come to believe that?" "How confident are you (1-10)?" "What would it take to move that number?" helps introspect.
@@ -16,7 +16,7 @@
 - 25 Dec 2025. Katy Milkman's [How to Change](https://www.goodreads.com/book/show/55655032-how-to-change) suggests that biases are hard to change. Engineer environments and habits instead. [Claude](https://claude.ai/share/c29c127f-6fe1-480f-b0dc-fc764e5f7ece)
   - Breaking bad habits is hard. Start on a New Year, birthday, festivals, etc. for ease.
   - Breaks in continuity erase good habits. Be flexible for continuity (e.g. 7/week is more flexible than 1/day is more flexible than once every morning).
-- 25 Dec 2025. Daniel Kahnemann's [Noise](https://www.goodreads.com/book/show/55339408-noise) suggests experts are more random than we think. [Claude](https://claude.ai/share/9bed712b-05e3-4f37-ae21-78af350e2fc5)
+- 25 Dec 2025. ⭐ Daniel Kahnemann's [Noise](https://www.goodreads.com/book/show/55339408-noise) suggests experts are more random than we think. [Claude](https://claude.ai/share/9bed712b-05e3-4f37-ae21-78af350e2fc5)
   - When execs (or students) complain, "Oh, but the LLM aren't consistent!" -- nor are humans!
   - Get multiple INDEPENDENT opinions
   - Use CHECKLISTS to reduce variability
@@ -32,12 +32,12 @@
 - 24 Dec 2025. `rclone mount` over SFTP is the worst-case for thousands of tiny files. _Every_ `stat`, `readdir`, `unlink` is an extra network round-trips, taking ~1s per operation. I'm switching to rsync instead for my [Hetzner storage box](https://www.hetzner.com/storage/storage-box/). [#](https://chatgpt.com/c/694bba1e-2748-8320-94d9-a29213cc5194)
   - Context: I set it up via: `rclone config create hetzner sftp host $USER.your-storagebox.de user $USER shell_type unix`
   - ... and mounted it via `rclone mount hetzner:/ /mnt/hetzner --vfs-cache-mode full --vfs-cache-max-age 24h --vfs-cache-max-size 10G`
-- 23 Dec 2025. [The Molecule of More](https://www.goodreads.com/book/show/38728977-the-molecule-of-more) and [Dopamine Nation](https://www.goodreads.com/book/show/55723020-dopamine-nation) explain this: [Claude](https://claude.ai/chat/ecceca87-84f7-43a9-af60-e036ddfef471)
+- 23 Dec 2025. [The Molecule of More](https://www.goodreads.com/book/show/38728977-the-molecule-of-more) and [Dopamine Nation](https://www.goodreads.com/book/show/55723020-dopamine-nation) recommend pain as a down-payment for sustained pleasure. [Claude](https://claude.ai/chat/ecceca87-84f7-43a9-af60-e036ddfef471)
   - Dopamine drives wanting/dread, which is decoupled from like/dislike.
   - It also does a bunch of other things like learning (maps actions to rewards), attention, etc.
   - Low dopamine => focus, medium => creativity, high => noise.
   - Brain runs a thermostat. Pleasure/pain trigger a delayed, long-decay counter-reward that we feel as "That's it?" or "Whew!". Abstention just resets it. Meditation just makes you aware.
-  - Pain-upfront leads to long-decay pleasure: learning/teaching, creative struggle, exercise, ice showers/sauna, fasting, spicy food, cleaning, tough conversations, apology, forgiveness, public speaking, dating, deep work, delayed gratification, investing, grief, sacrifice, boredom, etc.
+  - **Pain-upfront leads to long-decay pleasure**: learning/teaching, creative struggle, exercise, ice showers/sauna, fasting, spicy food, cleaning, tough conversations, apology, forgiveness, public speaking, dating, deep work, delayed gratification, investing, grief, sacrifice, boredom, etc.
   - Surprises spike dopamine: low standards, variable rewards, interleaved work, artificial constraints, environment/social rotation, progressive difficulty, ...
   - Dopamine mechanics are complex. Don't trust any theory just yet.
   - ⭐ Pain is the down payment. Surprise is the interest. Recovery is the compounding period.
