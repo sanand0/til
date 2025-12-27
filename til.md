@@ -48,6 +48,7 @@
     - Nazi Germany industrialized this. Deaf, blind, mentally ill, then eliminate gene pools.
     - CRISPR and gene editing lets us design babies - another form of eugenics.
     - Iceland and Denmark have eliminated Down syndrome births through screening and selective termination. It's a bit controversial.
+  ![Sketch note](https://files.s-anand.net/images/2025-12-27-genetics.webp)
 - 27 Dec 2025. [Immune: A Journey Into the Mysterious System That Keeps You Alive](https://www.goodreads.com/book/show/57517317-immune) by Philipp Dettmer explains the war our immune system wages daily. [Claude](https://claude.ai/share/71db0b01-f112-4209-a163-793781eb159e)
   - Immunology is, as science writer Ed Yong memorably put it, "where intuition goes to die." It's the kind of subject that makes medical students weep and practicing physicians throw up their hands.
   - We have an **innate immune system**. Genetically programmed for common pathogens. Fast, but limited. Like:
