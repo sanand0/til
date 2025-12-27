@@ -2,6 +2,30 @@
 
 ## Dec 2025
 
+- 27 Dec 2025. [Immune: A Journey Into the Mysterious System That Keeps You Alive](https://www.goodreads.com/book/show/57517317-immune) by Philipp Dettmer explains the war our immune system wages daily. [Claude](https://claude.ai/share/71db0b01-f112-4209-a163-793781eb159e)
+  - Immunology is, as science writer Ed Yong memorably put it, "where intuition goes to die." It's the kind of subject that makes medical students weep and practicing physicians throw up their hands.
+  - We have an **innate immune system**. Genetically programmed for common pathogens. Fast, but limited. Like:
+    - **Macrophages**: beat cops that patrol tissues and eat dozens of bacteria before dying.
+    - **Neutrophils**: SWAT team that rush in, spray toxic chemicals (with collateral damage), and die. They rip out their own DNA to make nets that trap bacteria!
+    - **Natural killer cells**: bouncers that kill cells without an ID or have been infected (cancer, virus).
+    - **Dendritic cells**: spies that capture pieces of invaders and present them to the adaptive immune system.
+    - **Mast cells**: alarms that explode and release histimine (causing inflammation) to call for backup.
+    - **Eoisinophils**: bombers that drop toxic enzymes to melt parasitic worms too large to eat.
+  - The **adaptive immune system** is smarter and slower (days to weeks). It generates millions of cells with random DNA to create a 3D sheet with loops to grab specific antigens. It combines:
+    - ~40 Variable segments: "gloves" of ~95 amino acids to grab antigens. Like a 4x4 lego brick.
+    - ~25 Diversity segments: "fingers" of ~15 amino acits for the glove to grab better. Like a 1x2 lego piece.
+    - ~6 Joining segments: "tips" of 3-5 amino acids to connect glove to arm. Like a 1x1 stud.
+    - It randomly chews off a a bit from the ends and adds a few random bits to create ~10^15 potential combinations.
+  - When a new cell is born, the Thymus (near the upper chest) tests if it can attach to invaders and whether it's peaceful to body cells. Failing cells are killed. ~2% survive and go to the lymph nodes.
+  - These can be:
+    - **Helper T cells**: generals that coordinate the immune response by activating B cells, killer T cells, and macrophages.
+    - **Killer T cells**: soldiers that inject toxins into infected cells to kill them.
+    - **B cells**: factories that churn out antibodies that stick to invaders, gum them up, and tag them for destruction.
+  - When we get sick, the dendritic cell grabs an antigen (piece of an invader), sends it to the nearest lymph node, and if a Helper T cell recognizes it, it activates the B cells and Killer T cells specific to that invader. This can take days, and multiplies ~1,000x every ~2 days.
+  - Also, the B cells divide with intentional mutations and evolve to find mutants that catch invaders better. Better fits multiply faster.
+  - "Immune boosting" is a misnomer. We really want balance, and diet, fruit, vitamins, antioxidants, probiotics, sleep, exercise, stress reduction, social connection, etc. help. But vaccines are the best way to train the immune system.
+  - Every breath and meal draws in invaders. They're catalogued and tolerated or destroyed. It's incredible!
+  - Measles reduces immune memory 11-73%, wiping out years of immunity to other diseases. So, when I had measles in 2009 _after_ my splenectomy in 2004, I had a double whammy. Damn! Didn't know that.
 - 26 Dec 2025. Some books, like [The Choice](https://www.goodreads.com/book/show/30753738-the-choice), aren't meant to be summarized. I can't even summarize the [summary](https://claude.ai/share/a972c2a2-ab27-4470-b2b2-74c4d7a92eea).
 - 26 Dec 2025. [The Origin of Consciousness in the Breakdown of the Bicameral Mind](https://www.goodreads.com/book/show/22478.The_Origin_of_Consciousness_in_the_Breakdown_of_the_Bicameral_Mind) by Julian Jaynes proposes that introspective consciousness emerged ~3,000 years ago. Unproven but unfalsified. [Claude](https://claude.ai/share/b2cea7b2-97b4-4d16-98dd-4359b0965ba9)
   - He theorizes that until ~3,000 years ago, the right part of the brain generated "voices" the left part obeyed. The Iliad heard voices. The Odyssey has a self-aware hero.
