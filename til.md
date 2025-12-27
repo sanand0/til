@@ -2,6 +2,52 @@
 
 ## Dec 2025
 
+- 27 Dec 2025. [The Gene: An Intimate History](https://www.goodreads.com/book/show/27276428-the-gene) by Siddhartha Mukherjee explains the history of genetics. [Claude](https://claude.ai/share/eeecb08e-1cac-46a6-8d0b-95027d815ef1)
+  - Mendel's pea experiment numbers seem too neat. He probably didn't fudge it but stopped at good results.
+  - Rosalind Franklin's X-ray diffraction images were key to discovering DNA structure, but she didn't get enough credit.
+  - Recombinant DNA (1970s) lets us copy-paste genes between organisms. E.g.: we can find the DNA sequence for the insulin protein in humans, copy it into bacteria, and have bacteria produce insulin for us.
+    - How it works:
+      - Restriction enzymes **cut** DNA at specific sequences. E.g. EcoRI (from E. coli) cuts DNA at GAATTC. Many cut with one strand overhangs that stick to complementary sequences, making assembly easy.
+      - DNA ligase **paste** DNA strands together.
+      - Plasmids (circular DNA in bacteria) are vectors that carry foreign DNA into host cells. We can paste DNA to plasmids and introduce them into bacteria. Some viruses work similarly for animals / humans.
+    - This is useful for creating medicines, crops, and gene therapies.:
+      - Medicines: e.g. insulin, human growth hormone, clotting factors for hemophilia, vaccines (Hep B), erythropoietin (EPO) for anemia, cancer therapies, focused antibodies, etc.
+      - Agriculture for genetically modified (GM) foods: pest/drought-resistant crops, biofortified foods (Golden Rice with Vitamin A), nitrogen-fixing plants, etc.
+      - Gene therapy: replacing faulty genes to treat genetic disorders (inherited blindness, immune deficiencies, blood disorders, muscular dystrophy, etc.)
+    - This is risky because of the unintended consequences, equity, and long-term risks:
+      - Unintended consequences: Crop genes can spread. Herbicide-resistant weeds have emerged.
+      - Equity: Corporates control gene patents, concentrating power and limiting access. Only the rich can afford gene therapies.
+      - Long-term risks: Biological weapons, ecological disruption, new diseases, etc.
+  - The Human Genome Project (1990-2003) sequenced the entire human genome (3.2 billion base pairs). This helps identify disease genes, understand genetic variation, and develop personalized medicine.
+    - They chopped the DNA into small pieces, multiplied them using bacteria, paired them with colored markers to read them, and reassembled the full sequence using overlapping regions.
+    - We have 20-25K genes. 99.9% is the same between humans. The 0.1% accounts for ALL human diversity.
+    - A lot of the genome is not for protiens, but for regulation, i.e. when and where genes are expressed.
+    - This enables pharmacogenomics, i.e. custom drugs. Read a genome and predict which drugs will work best.
+    - Also targeted cancer therapies, i.e. read the tumor genome and design smart bomb drugs.
+    - Ancestry and crime solving. Find distant cousins, catch the Golden State Killer, etc.
+    - We can sequence our genome for ~$600 in 24 hours and it's falling. (Analysis is expensive.)
+  - CRISPR (2010s) lets you edit genes precisely. These "Clustered Regularly Interspaced Short Palindromic Repeats" are in bacteria.
+    - When bacteria survived a viral attack, they store a small piece of the enemy DNA in their own genome to recognize it.
+    - Cas9 is an enzyme that cuts DNA at a specific location suggested by Guide RNA. It unzips the DNA, matches the guide RNA to one strand, and cuts both strands.
+    - This disables the gene. Or, we can insert a new DNA sequence.
+    - This has been used to cure sickle cell anemia (which has a 'GTG' instead of 'GAG' in the hemoglobin gene, changing glutamic acid to valine) by editing bone marrow cells (not to fix this - that's hard - but to reactivate a fetal hemoglobin gene). This is FDA approved.
+    - Scientists are trying to edit the Asian Elephant to include woolly mammoth traits, make spicy tomatoes, etc.
+    - Risks: CRISPR might cut a SIMILAR but unintended gene. We can edit genes for better humans (like in Gattaca) and create edited species.
+  - Epigenetics is about how gene expression (not the DNA) changes based on environment and lifestyle.
+    - Epigenetics has 2 mechanisms. First, DNA has tags (methyl groups) that turn genes on/off without changing the sequence.
+    - Second, DNA is wrapped around protein "spools" (histones). Tight wrapping hides genes, loose wrapping exposes them.
+    - In the Agouti Study, mice fed methyl-rich diets had brown, healthy babies. Mice without it had yellow, obese babies prone to cancer.
+    - Queen bees are identical to worker bees genetically, but royal jelly changes their epigenome to make them queens.
+    - Grandchildren of the 1944 Dutch famine survivors have higher obesity, heart disease risk. Epigenetic changes are inheritable.
+    - Epigenetics inherits via sperm by (a) retaining ~1-10% of histones wrapped around important genes, and (b) small RNA molecules that regulate gene expression.
+    - Epigenetics inherits via eggs by (a) retaining several histones and (b) impact of the fluid environment in the womb. Also, mother eggs were developing when she was a fetus in grandmother's womb, so grandmother's environment matters too. Mother epigenetics affects 3 generations. Fathers affect only 2.
+    - There are ~100-200 imprintable genes that determine whether the dad's or the mom's gene is expressed. Growth is one example. E.g. dad IGF2 gene pushes for growth, while mom H19 gene limits growth to conserve resources. Lions have strong "grow/stop" genes. Tigers have weak ones. Ligers (Lion dad, Tiger mom) are huge. Tigons are small.
+  - Eugenics is about improving humans by controlling breeding.
+    - Invented by Francis Galton (Darwin's cousin) who founded psychometrics (IQ tests), fingerprinting, correlations, questionnaires, anthropometry (measuring humans), and a female attractiveness map of the UK (London >> Aberdeen).
+    - He suggested that the best humans breed, and the worst be prevented. The US and many countries adopted this (1900s). E.g. Buck v. Bell (1927) said forced sterilization of "feeble-minded" people was legal. Oliver Wendell Holms: "Three generations of imbeciles is enough." The last euginic law sterilization in the US was in 1981. California prisons sterilized females (2006-2010).
+    - Nazi Germany industrialized this. Deaf, blind, mentally ill, then eliminate gene pools.
+    - CRISPR and gene editing lets us design babies - another form of eugenics.
+    - Iceland and Denmark have eliminated Down syndrome births through screening and selective termination. It's a bit controversial.
 - 27 Dec 2025. [Immune: A Journey Into the Mysterious System That Keeps You Alive](https://www.goodreads.com/book/show/57517317-immune) by Philipp Dettmer explains the war our immune system wages daily. [Claude](https://claude.ai/share/71db0b01-f112-4209-a163-793781eb159e)
   - Immunology is, as science writer Ed Yong memorably put it, "where intuition goes to die." It's the kind of subject that makes medical students weep and practicing physicians throw up their hands.
   - We have an **innate immune system**. Genetically programmed for common pathogens. Fast, but limited. Like:
