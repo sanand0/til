@@ -2,6 +2,13 @@
 
 ## Dec 2025
 
+- 27 Dec 2025. [The Body Keeps the Score](https://www.goodreads.com/book/show/18693771-the-body-keeps-the-score) by Bessel van der Kolk argues that trauma is stored in the body, not just the mind. [Claude](https://claude.ai/share/ac3b435d-7100-4de0-aceb-ac9f08fca467)
+  - Trauma recall shuts down Broca's area (speech). Trauma survivors literally struggle to talk about trauma.
+  - Our nervous system has a calm social engagement state, a fight-or-flight state, and a freeze or shutdown state. For trauma survivors, the nervous system gets stuck in fight-or-flight or shutdown. (Based on the contested Polyvagal Theory.)
+  - Childhood trauma leads to several major health problems - heart disease, autoimmune disorders, depression, addiction, ...
+  - Recalling traumatic memories while following a therapist's finger with your eyes (EMDR)  works.
+  - Yoga is promising but unproven. Neurofeedback (altering brainwave patterns with EEG feedback) even less proven.x`
+  - Clearly, trauma is stored in the body, not just the mind. We might need to rethink therapy.
 - 27 Dec 2025. [The Extended Phenotype](https://www.goodreads.com/book/show/61538.The_Extended_Phenotype) by Richard Dawkins argues that genes shape not just the organism but the environment too. [Claude](https://claude.ai/share/3a62aa83-bad5-4b66-982a-23864df8d8f3)
   - In The Selfish Gene, he proposed that organisms are "survival machines" for genes.
   - In this book, he extends this idea to show how genes can influence the environment beyond the organism's body.
