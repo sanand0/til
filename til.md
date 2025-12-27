@@ -26,6 +26,7 @@
   - "Immune boosting" is a misnomer. We really want balance, and diet, fruit, vitamins, antioxidants, probiotics, sleep, exercise, stress reduction, social connection, etc. help. But vaccines are the best way to train the immune system.
   - Every breath and meal draws in invaders. They're catalogued and tolerated or destroyed. It's incredible!
   - Measles reduces immune memory 11-73%, wiping out years of immunity to other diseases. So, when I had measles in 2009 _after_ my splenectomy in 2004, I had a double whammy. Damn! Didn't know that.
+  ![Sketch note](https://files.s-anand.net/images/2025-12-27-immune-system.webp)
 - 26 Dec 2025. Some books, like [The Choice](https://www.goodreads.com/book/show/30753738-the-choice), aren't meant to be summarized. I can't even summarize the [summary](https://claude.ai/share/a972c2a2-ab27-4470-b2b2-74c4d7a92eea).
 - 26 Dec 2025. [The Origin of Consciousness in the Breakdown of the Bicameral Mind](https://www.goodreads.com/book/show/22478.The_Origin_of_Consciousness_in_the_Breakdown_of_the_Bicameral_Mind) by Julian Jaynes proposes that introspective consciousness emerged ~3,000 years ago. Unproven but unfalsified. [Claude](https://claude.ai/share/b2cea7b2-97b4-4d16-98dd-4359b0965ba9)
   - He theorizes that until ~3,000 years ago, the right part of the brain generated "voices" the left part obeyed. The Iliad heard voices. The Odyssey has a self-aware hero.
