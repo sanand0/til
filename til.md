@@ -11,7 +11,7 @@
     - Epigenetics: Dawkins argues that only genes are inherited. But some RNA, proteins, and epigenetic markers are also be inherited.
     - Developmental plasticity: Dawkins downplays the role of environment in shaping phenotypes.
     - Multi-level selection: Gould argues that selection happens the organism and group levels too.
-    - Niche construction: Dawkins sees the environment as a static filter. But organisms actively modify their environments.
+    - Niche construction: Dawkins says genes modify the environment. But environments modify genes too.
 - 27 Dec 2025. [The Structure of Evolutionary Theory](https://www.goodreads.com/book/show/33930.The_Structure_of_Evolutionary_Theory) by Stephen Jay Gould expands on Darwinism, suggesting there's more than only natural selection. [Claude](https://claude.ai/share/9a348162-5584-4ccd-834c-0538ff065f25)
   - Darwinism proposed continuous, smooth evolution. Gould proposes punctuated equilibrium - stable periods interrupted by rapid change. Fossils support this.
   - Darwinism proposed selection of individuals. Gould proposes hierarchical selection - genes, individuals, groups, species. This is debated but has merit.
