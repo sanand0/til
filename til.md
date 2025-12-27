@@ -2,6 +2,12 @@
 
 ## Dec 2025
 
+- 27 Dec 2025. [The Structure of Evolutionary Theory](https://www.goodreads.com/book/show/33930.The_Structure_of_Evolutionary_Theory) by Stephen Jay Gould expands on Darwinism, suggesting there's more than only natural selection. [Claude](https://claude.ai/share/9a348162-5584-4ccd-834c-0538ff065f25)
+  - Darwinism proposed continuous, smooth evolution. Gould proposes punctuated equilibrium - stable periods interrupted by rapid change. Fossils support this.
+  - Darwinism proposed selection of individuals. Gould proposes hierarchical selection - genes, individuals, groups, species. This is debated but has merit.
+  - Darwinism proposed every feature has a reason. Gould suggests some are byproducts of other adaptations (spandrels). Not every trait is adaptive. This is generally accepted.
+  - Darwinism proposed that humans would evolve if we replayed history. Gould argues that it's chance. Current opinion is convergence, i.e. something like us would still likely evolve.
+  - (He probably didn't need to write such a long book over 20+ years for this. Also, it led to the Darwin Wars, mostly with Dawkins.)
 - 27 Dec 2025. [The Gene: An Intimate History](https://www.goodreads.com/book/show/27276428-the-gene) by Siddhartha Mukherjee explains the history of genetics. [Claude](https://claude.ai/share/eeecb08e-1cac-46a6-8d0b-95027d815ef1)
   - Mendel's pea experiment numbers seem too neat. He probably didn't fudge it but stopped at good results.
   - Rosalind Franklin's X-ray diffraction images were key to discovering DNA structure, but she didn't get enough credit.
