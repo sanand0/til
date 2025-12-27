@@ -2,6 +2,16 @@
 
 ## Dec 2025
 
+- 27 Dec 2025. [The Extended Phenotype](https://www.goodreads.com/book/show/61538.The_Extended_Phenotype) by Richard Dawkins argues that genes shape not just the organism but the environment too. [Claude](https://claude.ai/share/3a62aa83-bad5-4b66-982a-23864df8d8f3)
+  - In The Selfish Gene, he proposed that organisms are "survival machines" for genes.
+  - In this book, he extends this idea to show how genes can influence the environment beyond the organism's body.
+  - The dam of the beaver, the brain of an ant infected by a parasite, gut bacteria, are examples.
+  - Critics argue that this may be tautological. It's hard to falsify. It's more a mental model than a theory.
+  - Also, there's critique (see below). The general view is that there's merit to both perspectives.
+    - Epigenetics: Dawkins argues that only genes are inherited. But some RNA, proteins, and epigenetic markers are also be inherited.
+    - Developmental plasticity: Dawkins downplays the role of environment in shaping phenotypes.
+    - Multi-level selection: Gould argues that selection happens the organism and group levels too.
+    - Niche construction: Dawkins sees the environment as a static filter. But organisms actively modify their environments.
 - 27 Dec 2025. [The Structure of Evolutionary Theory](https://www.goodreads.com/book/show/33930.The_Structure_of_Evolutionary_Theory) by Stephen Jay Gould expands on Darwinism, suggesting there's more than only natural selection. [Claude](https://claude.ai/share/9a348162-5584-4ccd-834c-0538ff065f25)
   - Darwinism proposed continuous, smooth evolution. Gould proposes punctuated equilibrium - stable periods interrupted by rapid change. Fossils support this.
   - Darwinism proposed selection of individuals. Gould proposes hierarchical selection - genes, individuals, groups, species. This is debated but has merit.
