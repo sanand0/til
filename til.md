@@ -2,6 +2,344 @@
 
 ## Dec 2025
 
+- 28 Dec 2025. [Same as Ever: A Guide to What Never Changes](https://www.goodreads.com/book/show/125116554-same-as-ever) by Morgan Housel suggests doubling down on timeless principles. [Claude](https://claude.ai/share/d8f00c2f-622a-4180-b3bc-5fa66e17c878)
+  - Random luck drives many outcomes. The kamikaze that saved Japan from the Mongol invasion. The East River fog that saved George Washington's army. Penicillin.
+  - Hilbert and Einstein almost raced to formulate the final equations of general relativity after Einstein presented his incomplete theory in 1915 summer. Einstein won by cramming - just like students today. Technology changes. Psychology does not.
+  - Risk is what you don't see. Blind spots. Prepare using margins of safety / optionality, distributed failure points, survival > success, ...
+  - Stories > Ideas. Stories are how our brains work. They're leverage for ideas. Wrap EVERYTHING in a story.
+  - High expectations = Low happiness. So, visualize failure/disaster, practice gratitude, compare downwards.
+  - Compounding is magic. In any asset: money, skills, relationships, health, ... So, automate the decisions, be patient and don't interrupt.
+  - Success carries the seeds of failure. The innovator's dilemma, the Malthuian trap, or the Dynastic cycle. So, be paranoid, stay simple, kill cash cows, practice discomfort.
+- 28 Dec 2025. [Why We Die: The New Science of Aging and the Quest for Immortality](https://www.goodreads.com/book/show/179311316-why-we-die) by Venki Ramakrishnan says that there's no reason we have to die at our current age. But we don't have proven ways to extend life yet. It's also not clear if/how we should. [Claude](https://claude.ai/share/c1f1d6e5-8140-47bb-92f0-d2e4949f0b66)
+  - Evolution has optimized us for reproduction. After reproduction age, it doesn't care. "Death is the price we pay for sex."
+    - Telomeres are DNA sequences at the end of chromosomes that shorten with each cell division. When too short, cells die (apoptosis) or become zombies (senescent).
+    - These zombie cells secrete toxins that inflame / damage nearby cells. When young, our immune system clears them out. With age, they accumulate.
+    - With age, mitochondria (cell powerhouses) become less efficient.
+    - With age, the quality of proteins we make decline. They start clumping (like scrambled eggs), leading to Alzheimer's, Parkinson's.
+  - Some animals live longer than expected. There's no reason our life span HAS to be what it is.
+    - The Naked Mole Rat lives 30+ years (10x longer than mice) without cancer, and can repair their own tissues.
+    - The Greenland Shark lives 400 years.
+    - The Hydra and the "Immortal" Jellyfish can regenerate when some parts are chopped off. Their chance of dying doesn't increase with age.
+  - But there's a lot of hype. Current methods are far from proven.
+    - Telomere-extending supplements are not FDA approved. They might work on mice, not men.
+    - Rapamycin helps mice live longer. But suppresses immunity, so risky for humans.
+    - Senolytics kills senescent cells. They might work.
+    - Yamanaka won a Nobel prize for turning adult cells into stem cells. But it could cause cancer.
+    - Injecting young rats' blood into old rats helps the old rats, but old blood hurts young rats.
+  - So: diet, exercise, and sleep
+  - Also: longevity will help the rich more, increase stagnation, and what's the point of living longer with an aged brain?
+- 28 Dec 2025. [The Happiness Hypothesis](https://www.goodreads.com/book/show/96884.The_Happiness_Hypothesis) by Jonathan Haidt blends ancient wisdom with modern philosophy. [Claude](https://claude.ai/share/598a2de6-0fb1-4d7d-8fa0-ce809b7750d0)
+  - Happiness = Set point + Circumstances + Voluntary activities
+    - Set point has ~50% impact. Haidt suggests this doesn't change. Research shows major life events can shift it a bit.
+    - Circumstances: We adapt to some stuff (money, house, etc.) but not to others (commute, noise, lack of control, relationships)
+    - Voluntary activities have variety that we don't adapt to. Meditation, learning, exercising, ...
+  - Modern CBT is similar to Stoicism. Events don't upset us, our thoughts about events do. So change the thoughts.
+  - ACT (Acceptance and Commitment Therapy) is like Buddhism which suggests observing, not changing, the thoughts.
+  - CBT seems better for acute / specific stuff, logical people or beginners. ACT seems better for chronic / vague unease, grief, etc.
+  - Brains rationalize more than reason. There are more signals INTO the prefrontal cortex (PFC) than out of it. We make up stories to justify our actions. This evolved to make us look good socially.
+  - Adversity can help but only if it's significant but not overwhelming. It takes time and support to learn from adversity. Works only if we interpret and integrate it well.
+  - Quality of relationships is a strong driver of happiness. Something the Stoics and Buddhists didn't emphasize as much as Confucius did.
+- 28 Dec 2025. [Reality is Not What it Seems: The Journey to Quantum Gravity](https://www.goodreads.com/book/show/29767627-reality-is-not-what-it-seems) by Carlo Rovelli shares his theories. Mainstream but not proven. [Claude](https://claude.ai/share/bf63735a-97e7-4a79-a536-727be7fc8be5)
+  - In quantum mechanics, particles can interfere with themselves and their position "snaps" only when observed. Multiple theories interpret this:
+    - Copenhagen interpretation: Observation is special and collapses the wavefunction. But what counts as observation?
+    - Bohm's interpretation: Particles "surf" the wave. Waves interfere, but particles only take one path. But needs non-local hidden variables. (Testable)
+    - Objective collapse: Wafe functions collapse when too "big" or complex, even if no one's looking. But how big? (Testable)
+    - Many worlds: Sever possibility creates a parallel universe. But ... Occam's razor?
+    - QBism: Wavefunction is just our knowledge, not reality. Particles have properties, measurement updates our knowledge.
+    - Rovelli's Relational quantum mechanics: position, momentum, etc. are relative. It has position relative to an observing device/particle. No absolute state. Reality literally is perspective.
+  - Loop quantum gravity: Aims to bridge general relativity and quantum mechanics by modeling spacetime as discrete loops. Far from proven, but possible.
+    - Space has a smallest unit - Plank length (~10^-35 m). You can't subdivide space infinitely.
+    - Space is made of atomic "loops" that spin. They're connected to form a fabric ("spin foam"). They're not "in" space. They ARE space. They interact with matter/energy to create gravity and evolve over time.
+    - Predictions:
+      - Black holes don't have singularities, since you can't have infinite density.
+      - Entropy of black holes comes from the number of ways loops can arrange on the event horizon, so it's proportional to surface area, not volume.
+  - Time doesn't exist fundamentally. It emerges from change and relationships between things. Again, not yet proven, but possible.
+    - For example, the Wheeler-DeWitt equation in quantum gravity has no time variable. It's a snaphot of the universe across all time.
+    - The universe is a giant graph of relationships between quantum events. Time is just how we order these events from our perspective.
+    - Implications: there's no master clock and the present is local. Duration only emerges at larger scales, like temperature emerges in thermodynamics.
+- 28 Dec 2025. [The Emperor of All Maladies: A Biography of Cancer](https://www.goodreads.com/book/show/7170627-the-emperor-of-all-maladies) by Siddhartha Mukherjee. [Claude](https://claude.ai/share/68c1d438-bbca-410b-ae4d-5d08ad5abf62)
+  - Cancer has always existed. We just didn't live long enough for it to affect enough of us for most of history.
+  - In 1890s, Halsted developed radical mastectomy - removing the breast + chest muscles + lymph nodes ... to prevent spread. It didn't improve survival but disfigured.
+  - In 1947, Farber injected cancer children with a drug that blocked folic acid (which cells need to grow). Tumors shrank, but relapsed. This was the first chemotherapy.
+  - In 1950s, cigarettes were found to cause lung cancer but the tobacco industry delayed regulation for decades.
+  - In 1971, Lasker & Nixon declared "War on Cancer" with $100m funding. (Impact: increased awareness, more research, not cure.)
+  - In 1970s, we found that the virus that caused cancer in chickens carried an "oncogene" that caused uncontrolled growth. Hence, cancer isn't a virus, but a genetic mutation. Also, the p53 gene that suppresses tumors is mutated in half the cancers.
+  - In 2001, FDA approved Gleevac, a drug that specifically targets a specific protein that causes a certain cancer (chronic myeloid leukemia - CML). This was the first "targeted therapy".
+  - In 2011, FDA approved ipilimumab, a drug that blocks CTLA-4, a protein that stops immune T-cells from attacking tumors. This was the first "immunotherapy" (by James Allison) which offers long-term protection. But it works only for some cancers, some patients.
+  - In 2018, Alison shared a Nobel prize with Tasuku Honjo, who discovered another immune checkpoint PD-1. Tumors produce PD-L1 that binds to PD-1 on T-cells to turn them off. Drugs that block PD-1 or PD-L1 unleash T-cells to attack tumors.
+  - In 2018, the Cancer Genome Atlas was published, showing that even the same cancer (e.g. lung) has different mutations in different patients, requiring personalized treatment.
+  - In 2017, FDA approved a CAR-T therapy for children with acute blood cancer. We extract a patient's T-cells, insert a gene with a receptor that recognizes specific tumor cells, grow them by the billions, and infuse them back. But there are severe side effects and it doesn't yet work for solid tumors.
+  - In 2024, FDA approved a cellular therapy for skin cancer. We extract the T-cells INSIDE the tumor (that recognized the cancer but were overwhelmed), grow them by the billions, and re-infuse them.
+  - In 2024, we're exploring AI-powered analysis of blood tests to find DNA fragments of several types of cancer - "liquid biopsy". It's early stages.
+  ![Sketchnote](https://files.s-anand.net/images/2025-12-28-cancer.webp)
+- 28 Dec 2025. [The Song of the Cell: An Exploration of Medicine and the New Human](https://www.goodreads.com/book/show/60321392-the-song-of-the-cell) by Siddhartha Mukherjee. [Claude](https://claude.ai/share/2430eea3-7580-4e87-8750-24cadc908acb)
+  - Metaphor: Cells as autonomous "citizens". Cancer is a rogue cell rebellion. Immune system is law enforcement. Type 1 diabetes is friendly fire.
+  - We're growing from fixing organs (surgery) to chemistry (drugs) to cells (e.g. bone marrow transplant, IVF - we're in the early stages).
+    - E.g. CAR-T Therapy: Extract T-cells, genetically modify them to recognize cancer, re-inject. But it's costly, severe side effects, works mainly for blood cancers.
+  - He predicts that we'll have:
+  - Prediction: Lab-grown organs from patients' cells. (Growing is easier than organizing into functional organs. We may be a few decades away.)
+  - Prediction: Gene editing & cell therapies will converge. CRISPR edits cells that we transplant back. (This was approved for sickle cell anemia in 2023. Seems promising.)
+  - Prediction: Anti-aging cellular medicine. Senescent cell research and telomere biology have progressed, but this is a hyped field in early stages.
+  - Some of these will likely be expensive and inaccessible to most people, at least at first.
+- 28 Dec 2025. Recollecting something Mr KP Krishnan told us in 2000 about the 1991 deregulation (fact-checked). "A meeting happened in Mr. Narasimha Rao's house, where he emerged from a bath, toweling himself. His immediate advisors told him that we had only a few weeks of cash left and that we would need to accede to the World Bank's request, but that the parliament would likely not agree. So, instead of risking a vote on a new law, they decided to bypass Parliament’s immediate approval entirely. They tabled the reforms as a 'Statement of Industrial Policy' right before the lunch break, just hours before the big Budget speech. Since it was a 'Statement' and not a 'Bill,' it didn't require a vote to pass. It fell under executive powers and could be legislated later. By the time the opposition realized the 'License Raj' had been dismantled, they were already distracted by the Budget presentation that evening."
+- 28 Dec 2025. [Outcomes over Output](https://www.goodreads.com/book/show/45186993-outcomes-over-output) by Josh Seiden suggests that between output (e.g. features) and impact (e.g. revenue) lies outcome (e.g. user engagement) - leading indicators that you can organize around. [Claude](https://claude.ai/share/d63c9fe7-f37e-4175-b177-dfeace8394dc)
+  - Ensure ownership of outcomes. Who owns increased checkout conversion rate? Payments, engineering, marketing, product, or UX? You may instead need small cross-functional activation, engagement, and retention teams. PM, designer engineer.
+  - Validate that outcomes lead to impact. This can be slow, and attribution is hard, but is important to continuously validate.
+  - Outcome change takes months, not weeks. So sprint using Now/Next/Later later roadmaps. As you learn, re-prioritize outcomes.
+  - Stakeholders want specificity. So quantify outcomes (+10% conversion) and timeframes (in 6 months).
+  - Stop experimenting and ship when you've validated the opportunity (customers need really connects to outcome) AND solution (feature really improves outcome). This is Torres' Opportunity Solution Tree (OST).
+  - Change incrementally. If you're running a feature backlog, continue. Add an "outcome hypothesis" field to each feature and create evidence.
+- 28 Dec 2025. [The Culture Map](https://www.goodreads.com/book/show/22085568-the-culture-map) by Erin Meyer argues that cultural differences are practically alien languages. [Claude](https://claude.ai/share/573e7302-fbfc-45ab-b0fb-23a11f064361)
+  - There are 8 dimensions of culture.
+    1. Communication: Low-context (precise, explicit, clear) like Americans vs High-context (implicit, layered, nuanced, between-the-lines) like the Japanese
+    2. Evaluating: Direct negative feedback (blunt, honest) like the Dutch vs Indirect negative feedback (tactful, polite) like Thai or Japanese
+    3. Persuading: Principles-first (deductive, theoretical) like the French vs Applications-first (pragmatic, practical) like Americans
+    4. Leading: Egalitarian (flat organizational structure) like Swedes vs Hierarchical (respect for authority) like India, Nigeria, Japan, Korea
+    5. Deciding: Consensual (group agreement) like Japanese vs Top-down (leader decides) like Russians
+    6. Trusting: Task-based (trust through competence/reliability) like Americans, Germans vs Relationship-based (trust through personal connection) like Arabs, Chinese
+    7. Disagreeing: Confrontational (open disagreement) like Israelis vs Avoids confrontation (harmony, save face) like Thais
+    8. Scheduling: Linear time (one thing at a time, punctual) like Germans vs Flexible time (multi-tasking, fluid) like Indians
+  - Critique is that this is anecdotal, not research driven, stereotypical. Meyer's aim is to sensitize.
+  - Action: Before meeting people, have LLMs plot their culture map and share advice.
+- 27 Dec 2025. [The Body Keeps the Score](https://www.goodreads.com/book/show/18693771-the-body-keeps-the-score) by Bessel van der Kolk argues that trauma is stored in the body, not just the mind. [Claude](https://claude.ai/share/ac3b435d-7100-4de0-aceb-ac9f08fca467)
+  - Trauma recall shuts down Broca's area (speech). Trauma survivors literally struggle to talk about trauma.
+  - Our nervous system has a calm social engagement state, a fight-or-flight state, and a freeze or shutdown state. For trauma survivors, the nervous system gets stuck in fight-or-flight or shutdown. (Based on the contested Polyvagal Theory.)
+  - Childhood trauma leads to several major health problems - heart disease, autoimmune disorders, depression, addiction, ...
+  - Recalling traumatic memories while following a therapist's finger with your eyes (EMDR)  works.
+  - Yoga is promising but unproven. Neurofeedback (altering brainwave patterns with EEG feedback) even less proven.x`
+  - Clearly, trauma is stored in the body, not just the mind. We might need to rethink therapy.
+- 27 Dec 2025. [The Extended Phenotype](https://www.goodreads.com/book/show/61538.The_Extended_Phenotype) by Richard Dawkins argues that genes shape not just the organism but the environment too. [Claude](https://claude.ai/share/3a62aa83-bad5-4b66-982a-23864df8d8f3)
+  - In The Selfish Gene, he proposed that organisms are "survival machines" for genes.
+  - In this book, he extends this idea to show how genes can influence the environment beyond the organism's body.
+  - The dam of the beaver, the brain of an ant infected by a parasite, gut bacteria, are examples.
+  - Critics argue that this may be tautological. It's hard to falsify. It's more a mental model than a theory.
+  - Also, there's critique (see below). The general view is that there's merit to both perspectives.
+    - Epigenetics: Dawkins argues that only genes are inherited. But some RNA, proteins, and epigenetic markers are also be inherited.
+    - Developmental plasticity: Dawkins downplays the role of environment in shaping phenotypes.
+    - Multi-level selection: Gould argues that selection happens the organism and group levels too.
+    - Niche construction: Dawkins says genes modify the environment. But environments modify genes too.
+- 27 Dec 2025. [The Structure of Evolutionary Theory](https://www.goodreads.com/book/show/33930.The_Structure_of_Evolutionary_Theory) by Stephen Jay Gould expands on Darwinism, suggesting there's more than only natural selection. [Claude](https://claude.ai/share/9a348162-5584-4ccd-834c-0538ff065f25)
+  - Darwinism proposed continuous, smooth evolution. Gould proposes punctuated equilibrium - stable periods interrupted by rapid change. Fossils support this.
+  - Darwinism proposed selection of individuals. Gould proposes hierarchical selection - genes, individuals, groups, species. This is debated but has merit.
+  - Darwinism proposed every feature has a reason. Gould suggests some are byproducts of other adaptations (spandrels). Not every trait is adaptive. This is generally accepted.
+  - Darwinism proposed that humans would evolve if we replayed history. Gould argues that it's chance. Current opinion is convergence, i.e. something like us would still likely evolve.
+  - (He probably didn't need to write such a long book over 20+ years for this. Also, it led to the Darwin Wars, mostly with Dawkins.)
+- 27 Dec 2025. [The Gene: An Intimate History](https://www.goodreads.com/book/show/27276428-the-gene) by Siddhartha Mukherjee explains the history of genetics. [Claude](https://claude.ai/share/eeecb08e-1cac-46a6-8d0b-95027d815ef1)
+  - Mendel's pea experiment numbers seem too neat. He probably didn't fudge it but stopped at good results.
+  - Rosalind Franklin's X-ray diffraction images were key to discovering DNA structure, but she didn't get enough credit.
+  - Recombinant DNA (1970s) lets us copy-paste genes between organisms. E.g.: we can find the DNA sequence for the insulin protein in humans, copy it into bacteria, and have bacteria produce insulin for us.
+    - How it works:
+      - Restriction enzymes **cut** DNA at specific sequences. E.g. EcoRI (from E. coli) cuts DNA at GAATTC. Many cut with one strand overhangs that stick to complementary sequences, making assembly easy.
+      - DNA ligase **paste** DNA strands together.
+      - Plasmids (circular DNA in bacteria) are vectors that carry foreign DNA into host cells. We can paste DNA to plasmids and introduce them into bacteria. Some viruses work similarly for animals / humans.
+    - This is useful for creating medicines, crops, and gene therapies.:
+      - Medicines: e.g. insulin, human growth hormone, clotting factors for hemophilia, vaccines (Hep B), erythropoietin (EPO) for anemia, cancer therapies, focused antibodies, etc.
+      - Agriculture for genetically modified (GM) foods: pest/drought-resistant crops, biofortified foods (Golden Rice with Vitamin A), nitrogen-fixing plants, etc.
+      - Gene therapy: replacing faulty genes to treat genetic disorders (inherited blindness, immune deficiencies, blood disorders, muscular dystrophy, etc.)
+    - This is risky because of the unintended consequences, equity, and long-term risks:
+      - Unintended consequences: Crop genes can spread. Herbicide-resistant weeds have emerged.
+      - Equity: Corporates control gene patents, concentrating power and limiting access. Only the rich can afford gene therapies.
+      - Long-term risks: Biological weapons, ecological disruption, new diseases, etc.
+  - The Human Genome Project (1990-2003) sequenced the entire human genome (3.2 billion base pairs). This helps identify disease genes, understand genetic variation, and develop personalized medicine.
+    - They chopped the DNA into small pieces, multiplied them using bacteria, paired them with colored markers to read them, and reassembled the full sequence using overlapping regions.
+    - We have 20-25K genes. 99.9% is the same between humans. The 0.1% accounts for ALL human diversity.
+    - A lot of the genome is not for protiens, but for regulation, i.e. when and where genes are expressed.
+    - This enables pharmacogenomics, i.e. custom drugs. Read a genome and predict which drugs will work best.
+    - Also targeted cancer therapies, i.e. read the tumor genome and design smart bomb drugs.
+    - Ancestry and crime solving. Find distant cousins, catch the Golden State Killer, etc.
+    - We can sequence our genome for ~$600 in 24 hours and it's falling. (Analysis is expensive.)
+  - CRISPR (2010s) lets you edit genes precisely. These "Clustered Regularly Interspaced Short Palindromic Repeats" are in bacteria.
+    - When bacteria survived a viral attack, they store a small piece of the enemy DNA in their own genome to recognize it.
+    - Cas9 is an enzyme that cuts DNA at a specific location suggested by Guide RNA. It unzips the DNA, matches the guide RNA to one strand, and cuts both strands.
+    - This disables the gene. Or, we can insert a new DNA sequence.
+    - This has been used to cure sickle cell anemia (which has a 'GTG' instead of 'GAG' in the hemoglobin gene, changing glutamic acid to valine) by editing bone marrow cells (not to fix this - that's hard - but to reactivate a fetal hemoglobin gene). This is FDA approved.
+    - Scientists are trying to edit the Asian Elephant to include woolly mammoth traits, make spicy tomatoes, etc.
+    - Risks: CRISPR might cut a SIMILAR but unintended gene. We can edit genes for better humans (like in Gattaca) and create edited species.
+  - Epigenetics is about how gene expression (not the DNA) changes based on environment and lifestyle.
+    - Epigenetics has 2 mechanisms. First, DNA has tags (methyl groups) that turn genes on/off without changing the sequence.
+    - Second, DNA is wrapped around protein "spools" (histones). Tight wrapping hides genes, loose wrapping exposes them.
+    - In the Agouti Study, mice fed methyl-rich diets had brown, healthy babies. Mice without it had yellow, obese babies prone to cancer.
+    - Queen bees are identical to worker bees genetically, but royal jelly changes their epigenome to make them queens.
+    - Grandchildren of the 1944 Dutch famine survivors have higher obesity, heart disease risk. Epigenetic changes are inheritable.
+    - Epigenetics inherits via sperm by (a) retaining ~1-10% of histones wrapped around important genes, and (b) small RNA molecules that regulate gene expression.
+    - Epigenetics inherits via eggs by (a) retaining several histones and (b) impact of the fluid environment in the womb. Also, mother eggs were developing when she was a fetus in grandmother's womb, so grandmother's environment matters too. Mother epigenetics affects 3 generations. Fathers affect only 2.
+    - There are ~100-200 imprintable genes that determine whether the dad's or the mom's gene is expressed. Growth is one example. E.g. dad IGF2 gene pushes for growth, while mom H19 gene limits growth to conserve resources. Lions have strong "grow/stop" genes. Tigers have weak ones. Ligers (Lion dad, Tiger mom) are huge. Tigons are small.
+  - Eugenics is about improving humans by controlling breeding.
+    - Invented by Francis Galton (Darwin's cousin) who founded psychometrics (IQ tests), fingerprinting, correlations, questionnaires, anthropometry (measuring humans), and a female attractiveness map of the UK (London >> Aberdeen).
+    - He suggested that the best humans breed, and the worst be prevented. The US and many countries adopted this (1900s). E.g. Buck v. Bell (1927) said forced sterilization of "feeble-minded" people was legal. Oliver Wendell Holms: "Three generations of imbeciles is enough." The last euginic law sterilization in the US was in 1981. California prisons sterilized females (2006-2010).
+    - Nazi Germany industrialized this. Deaf, blind, mentally ill, then eliminate gene pools.
+    - CRISPR and gene editing lets us design babies - another form of eugenics.
+    - Iceland and Denmark have eliminated Down syndrome births through screening and selective termination. It's a bit controversial.
+  ![Sketch note](https://files.s-anand.net/images/2025-12-27-genetics.webp)
+- 27 Dec 2025. [Immune: A Journey Into the Mysterious System That Keeps You Alive](https://www.goodreads.com/book/show/57517317-immune) by Philipp Dettmer explains the war our immune system wages daily. [Claude](https://claude.ai/share/71db0b01-f112-4209-a163-793781eb159e)
+  - Immunology is, as science writer Ed Yong memorably put it, "where intuition goes to die." It's the kind of subject that makes medical students weep and practicing physicians throw up their hands.
+  - We have an **innate immune system**. Genetically programmed for common pathogens. Fast, but limited. Like:
+    - **Macrophages**: beat cops that patrol tissues and eat dozens of bacteria before dying.
+    - **Neutrophils**: SWAT team that rush in, spray toxic chemicals (with collateral damage), and die. They rip out their own DNA to make nets that trap bacteria!
+    - **Natural killer cells**: bouncers that kill cells without an ID or have been infected (cancer, virus).
+    - **Dendritic cells**: spies that capture pieces of invaders and present them to the adaptive immune system.
+    - **Mast cells**: alarms that explode and release histimine (causing inflammation) to call for backup.
+    - **Eoisinophils**: bombers that drop toxic enzymes to melt parasitic worms too large to eat.
+  - The **adaptive immune system** is smarter and slower (days to weeks). It generates millions of cells with random DNA to create a 3D sheet with loops to grab specific antigens. It combines:
+    - ~40 Variable segments: "gloves" of ~95 amino acids to grab antigens. Like a 4x4 lego brick.
+    - ~25 Diversity segments: "fingers" of ~15 amino acits for the glove to grab better. Like a 1x2 lego piece.
+    - ~6 Joining segments: "tips" of 3-5 amino acids to connect glove to arm. Like a 1x1 stud.
+    - It randomly chews off a a bit from the ends and adds a few random bits to create ~10^15 potential combinations.
+  - When a new cell is born, the Thymus (near the upper chest) tests if it can attach to invaders and whether it's peaceful to body cells. Failing cells are killed. ~2% survive and go to the lymph nodes.
+  - These can be:
+    - **Helper T cells**: generals that coordinate the immune response by activating B cells, killer T cells, and macrophages.
+    - **Killer T cells**: soldiers that inject toxins into infected cells to kill them.
+    - **B cells**: factories that churn out antibodies that stick to invaders, gum them up, and tag them for destruction.
+  - When we get sick, the dendritic cell grabs an antigen (piece of an invader), sends it to the nearest lymph node, and if a Helper T cell recognizes it, it activates the B cells and Killer T cells specific to that invader. This can take days, and multiplies ~1,000x every ~2 days.
+  - Also, the B cells divide with intentional mutations and evolve to find mutants that catch invaders better. Better fits multiply faster.
+  - "Immune boosting" is a misnomer. We really want balance, and diet, fruit, vitamins, antioxidants, probiotics, sleep, exercise, stress reduction, social connection, etc. help. But vaccines are the best way to train the immune system.
+  - Every breath and meal draws in invaders. They're catalogued and tolerated or destroyed. It's incredible!
+  - Measles reduces immune memory 11-73%, wiping out years of immunity to other diseases. So, when I had measles in 2009 _after_ my splenectomy in 2004, I had a double whammy. Damn! Didn't know that.
+  ![Sketch note](https://files.s-anand.net/images/2025-12-27-immune-system.webp)
+- 26 Dec 2025. Some books, like [The Choice](https://www.goodreads.com/book/show/30753738-the-choice), aren't meant to be summarized. I can't even summarize the [summary](https://claude.ai/share/a972c2a2-ab27-4470-b2b2-74c4d7a92eea).
+- 26 Dec 2025. [The Origin of Consciousness in the Breakdown of the Bicameral Mind](https://www.goodreads.com/book/show/22478.The_Origin_of_Consciousness_in_the_Breakdown_of_the_Bicameral_Mind) by Julian Jaynes proposes that introspective consciousness emerged ~3,000 years ago. Unproven but unfalsified. [Claude](https://claude.ai/share/b2cea7b2-97b4-4d16-98dd-4359b0965ba9)
+  - He theorizes that until ~3,000 years ago, the right part of the brain generated "voices" the left part obeyed. The Iliad heard voices. The Odyssey has a self-aware hero.
+  - That's why ancients across cultures heard gods' voices. Idols were meant to trigger these voices. Kings literally spoke for the gods. People didn't feel responsible for their actions.
+  - With population growth, writing, and the Bronze Age collapse, humans were forced to adopt alternate cognitive strategies, leading to consciousness.
+  - That was also when philosophy, introspective religions, and new forms of literature emerged across the world. The Axial Age.
+  - Schizophrenia may be a vestige of this bicameral mind, where the right brain's "voices" are misinterpreted by the left brain. Hypnosis, oracles, and creative muses are other remnants.
+  - Neurological support is weak but literary/cultural analysis is strong. His theory hasn't been falsified.
+- 26 Dec 2025. [The Slight Edge](https://www.goodreads.com/book/show/590652.The_Slight_Edge) by Jeff Olson suggests small, consistently repeated actions. [Claude](https://claude.ai/share/28107cd7-d653-4f6e-a85b-9038b13ccfcb)
+  - Small actions compound **exponentially**. But what's easy to do is also easy to skip.
+  - Quitters stop because it feels like small actions don't matter - leading to exponential decay.
+  - Willpower is overrated; time is underrated.
+  - What to do: Show up. Consistently. Even if no one's watching. Commit long-term. With optimism and purpose. Pay the price.
+  - Also: Happiness isn't just a result of success. It's often a cause. And habits also influence people around us.
+- 26 Dec 2025. [Why We Sleep](https://www.goodreads.com/book/show/34466963-why-we-sleep) by Matthew Walker elevates the importance of sleep - but also exaggerates. [Claude](https://claude.ai/share/c11436d7-ec8b-4624-90fd-9f2e2d8c42c2)
+  - Sleep has phases. In the first half, deep sleep (NREM) dominates. It consolidates memories. Then REM dominates. Dreams, connections, creativity, emotional regulation happen here. It resets brain and body health.
+  - Sleep deprivation worsens focus, memory, immunity, metabolism, heart health.
+  - Phones, caffeine (5-7 hours before), alcohol, early alarms, irregular schedules, late meals, warm bedrooms - all hurt sleep quality.
+  - But a lot of claims are exaggerated, unproven, or false. Sleep loss isn't a WHO epidemic. More sleep != longer life, it can shorten it (~7 hours seems optimal). Sleeping < 6-7 hours doesn't impact cancer. Modern societies don't sleep less than historically. Sleep deprivation helps depression. He also removed inconvenient data from a graph.
+  - BTW, anxiety about lack of sleep worsens sleep. So, chill.
+- 26 Dec 2025. [How Not To Die](https://www.goodreads.com/book/show/25663961-how-not-to-die) by Michael Greger suggests a plant-only diet, but evidence indicates otherwise. [Claude](https://claude.ai/chat/26cd4580-ede9-45e0-909e-2c58946458d1)
+  - Eat more plants, less processed food, cook meat at lower temperatures, and exercise. This much is valid.
+  - Unlike his claims, Omega-3s help heart disease. Milk reduces asthma risk. Soy doesn't seem to benefit non-Asians. Fish prevent dementia.
+  - He buries B12 deficiency risk. Overall, studies are cherry-picked and even contradicts his statements.
+- 26 Dec 2025. [Behave](https://www.goodreads.com/book/show/31170723-behave) by Robert Sapolsky reasons our actions across seconds (neurological), hours (hormones, environment), months (neuroplasticity, learning), decades (genes, culture), millenia (evolution). [Claude](https://claude.ai/share/919495bd-8714-4a6f-8bae-e557897105db)
+  - The Brain
+    - The amygdala detects uncertainty, not just fear/aggression. The unfamiliar triggers it. But the response diminishes with exposure. It can be modulated by the prefrontal cortex.
+    - The prefrontal cortex plans. It develops late and can override amygdala responses. It is impaired by stress, fatigue, alcohol, etc. It can plan genocide / retribution as well as peace.
+  - The Hormone
+    - Testosterone is an amplifier. It amplifies agression but also generosity! It lowers threshold for context-appropriate behaviour.
+    - Oxytocin promotes in-group trust, but promotes out-group hostility. It's the molecule of tribalism, not love.
+  - The Childhood
+    - Early stress triggers epigenetic changes that makes the amygdala hyperactive, impairs prefrontal cortex, and alters stress hormone regulation.
+    - This leads to impulsivity, aggression, anxiety, depression, addiction, etc.
+  - The Evolution
+    - We are naturally hierarchical and tribal.
+    - Thanks to language, we can expand / contract our tribes to include / exclude anyone (or anything) based on arbitrary stories.
+  - Let's approach wrongdoing with humility. Punishment and rewards CAN shape behavior. But a focus on prevention over retribution may help more.
+- 26 Dec 2025. [Price of the Modi Years](https://www.goodreads.com/book/show/59554236-price-of-the-modi-years) by Aakar Patel suggests that most metrics worsened under Modi. True, but these also seem cherry-picked. [Claude](https://claude.ai/share/af1b7127-ef2e-4a5b-a969-6fda160a542a)
+  - Announcements had more impact than executions.
+    - 99% of the 15.3 lakh crores demonetized came back to banks, laundered.
+    - Manufacturing GDP share fell from 16% to 13% after Make in India was launched. Employment fell from 5.1 to 2.7 cr.
+    - Press freedom rank fell from 140 (2014) to 151 - and is now 159.
+    - Democracy rank fell freom 27 (2014) to 41 (2021). India is classified as a "Flawed Democracy".
+    - Human Development Index is stagnant at 130.
+    - Global Hunger rank fell freom 55 / 76 (2014) to 102 / 123 (2024?).
+  - But:
+    - Economic Freedom rank rose from 112 (2014) to 84 (2023?).
+    - Digital payments, rural electrification, toilet construction, etc. aren't mentioned.
+- 26 Dec 2025. [The Ants](https://www.goodreads.com/book/show/115013.The_Ants) by Bert Hölldobler, Edward O. Wilson is the only science textbook (!) to win a Pulitzer. [Claude](https://claude.ai/share/efe424e5-cbf4-474d-ba20-ccb420c5c9cb)
+  - Ants are only ~20% of human biomass, not 100% as the book claims, but that's 2.5m ants per human!
+  - ⭐ Sterile ants, which are all female, help the queen reproduce instead of having their own kids.
+    - Ants, bees, wasps, etc. are haplodiploid, i.e. females have father + mother genes, males develop from unfertilized eggs (only mother genes).
+    - So, sisters share 75% of genes, more than 50% with their own kids. Helping mothers make sisters is better than having kids!
+    - (And if this isn't an alien civilization, what is? We don't need sci-fi. Nature is weirder than fiction.)
+  - But their math doesn't hold up!
+    - If the queen produces 50% brothers (with 25% common genes) and 50% sisters (75% common genes), the average is 50% common genes, same as having kids.
+    - But building a nest is hard, specialization is efficient, etc. So ants stay sterile and help the colony.
+    - BTW, this gene math only works if the queen is 100% monogamous - so they are, or at least, were, until evolution locked it in.
+    - (Making nature one-step less alien. But still weird.)
+  - Epigenetics determines caste. More food or specific food (e.g. royal jelly in bees) changes gene expression of the same DNA.
+    - When a queen dies, some ants (e.g. Indian jumping ants) can reprogram a worker ant into a queen through diet!
+  - Leafcutter ants have been "farming" for 50 million years. Rather, are part of an agricultural symbiosis.
+    - They cut leaves and feed it to a fungus they cultivate in their nests.
+    - They protect the fungus from pests using antibiotics produced by bacteria living on their bodies. They clear decay and weeds.
+    - They can't live without the fungus because it produces a nutrient (Arginine) that they need but can no longer make themselves.
+  - Ants communicate using pheromones, touch, and sound.
+    - Pheromones can communicate species, colony, caste, reproductive status, alarm, food trail, etc. These evaporate unless reinforced.
+      - They have a bigger, more advanced, brain region than other insects. It's not multiple brain parts coordinating.
+      - Using CRISPR to knock out pheromone receptors makes ants unable to communicate. Mutant ants wander aimlessly until killed by the colony.
+    - They tap each other with their antennae: to taste skin for identification, or to beg for regurgitated food.
+    - Some ants have a scraper on their waist that they rub against their abdomen. Triggers "emergency alarm", e.g. "I'm buried" or "Help me cut!"
+  - Ant colonies are superorganisms, i.e. agents that work together to produce emergent behavior. They have sterile castes. Only ants, bees, naked mole rats, ... qualify.
+    - The nest is like a giant lung. Passive ventilation sucks CO2 from top chimneys and brings in O2 from lower entrances. They regulate temperature by opening/closing nest entrances. They send workers out for water to evaporatively cool the nest.
+    - They circulate nutrients by vomiting food into each others mouths. (Ants have two stomachs - one for themselves, one for sharing.) Ants can't digest meat but larvae can, so they feed meat to larvae and share the digested food. Larvae act like a liver.
+    - They have an immune system. Sanitation squads carry dead ants far away. Fungally infected ants leave the nest and die alone. Infected pupae are killed by workers.
+    - They have a neural system. Memory is stored in pheromone trails.
+  - Ant politics exists. E.g. Workers destroy eggs laid by other workers, protect sister-laid eggs, etc.
+- 26 Dec 2025. [The Cancer Code](https://www.goodreads.com/book/show/52163526-the-cancer-code) by Jason Fung suggests that cancer might be about cells acting selfishly, triggered by body environment. [Claude](https://claude.ai/share/d0ee6a30-6776-40a8-a409-a1d7312ef79a)
+  - Metastatis is when cancer cells spread from the tumor to other body parts. It kills by eating up resources, mechanical obstruction, poisoning, triggering clots, or reducing immunity.
+  - We used to cut (surgery), burn (radiation), or poison (chemotherapy) cancer cells.
+  - Then we learnt cancer cells were mutations and targeted therapies work (expensively). But it treated <5% of cancers.
+  - Paul Davies (!) suggested cancer is when cells devolve to our unicellular ancestry. Cells that should die for collective good instead multiply. This theory is gaining ground but not proven.
+  - Devolution is enabled by the body environment. For example:
+    - Insulin resistance. Sugar matters less. It's the insulin resistance.
+    - Oxidative stress, i.e. not enough antioxidants to neutralize the free radicals. (Free radicals are molecules with 1 extra or missing electron. They damage cells. Mitochondria misfires and creates free radicals 0.2-2% of the time. Smoking, pollution, radiation, stress increase free radicals. Immune cells also create free radicals to kill cells.)
+    - Chronic inflammation. Leads to oxidative stress.
+    - Hormonal imbalances. E.g. high estrogen, testosterone.
+  - Immunotherapy (teaching the immune system to attack cancer cells) is promising.
+  - Weight loss might prevent / reverse cancer. Evidence is preliminary.
+- 26 Dec 2025. [The Diabetes Code](https://www.goodreads.com/book/show/38227753-the-diabetes-code) by Jason Fung suggests less intake to reverse Type 2 Diabetes. [Claude](https://claude.ai/share/ca706f64-ff53-467e-9e61-b4c8367790f1)
+  - Insulin pushes sugar into cells for energy storage.
+  - In Type 1 Diabetes, immune cells attack insulin-producing cells. Patients need insulin to survive.
+  - In Type 2 Diabetes, high carbs -> high insulin -> cells become insulin-resistant. Feeding them insulin can harm, sometimes.
+  - Weight loss can definitely reverse it. Reducing carbs & preferring whole foods helps. Intermittent fasting likely helps.
+  - But "sugar is the main driver of Type 2 Diabetes" isn't research-robust. Genetics, sleep, stress, gut microbiome, socioeconomics contribute. Diet & fasting are hard to sustain, and isn't for everyone.
+- 26 Dec 2025. [The Obesity Code](https://www.goodreads.com/book/show/24945404-the-obesity-code) by Jason Fung suggests whole foods and intermittent fasting. [Claude](https://claude.ai/share/2e102fee-04ab-4c78-80e8-e8d77cc3105c)
+  - Eating whole foods (rather than processed foods) does help.
+  - Fasting does help. (But maybe no more than reduced calorie intake, and sustaining it could be harder.)
+  - But his claim that high insulin -> obesity isn't research-robust. It may be correlation not causation.
+- 26 Dec 2025. ⭐ [How Minds Change](https://www.goodreads.com/book/show/57933312-how-minds-change) suggests that friendship, more than facts, changes opinions. Sometimes your own, too. [Claude](https://claude.ai/share/25283a55-9f6f-408d-9080-1a7b1c3d8a3e)
+  - Facts backfire (though less often than the book indicates). Challenging identity is a survival threat.
+  - Asking genuine questions and actually listening enables change. (It might change you, too.)
+  - "How did you come to believe that?" "How confident are you (1-10)?" "What would it take to move that number?" helps introspect.
+  - Relationships create safety to question beliefs. Lasting change requires somewhere new to belong.
+- 25 Dec 2025. If you see a smooth, glassy patch surrounded by ripples, it’s usually because a thin surface film or local surface flow is damping the tiny wind-made waves there, not because the water underneath is calmer. [ChatGPT](https://chatgpt.com/share/694d1b9b-c804-8003-b76f-818515635766)
+  ![Glassy patch surrounded by ripples](https://files.s-anand.net/images/2025-12-25-calm-water-amidst-turbuence-singapore-gardens-by-the-bay.webp)
+- 25 Dec 2025. [Lifespan](https://www.goodreads.com/book/show/43723901-lifespan) and [The Telomere EFfect](https://www.goodreads.com/book/show/34458942-the-telomere-effect) suggest exercise, sleep, eat well, manage stress to live longer. [Claude](https://claude.ai/share/f7555a9c-3f6a-4f3c-a56a-ee3d9384d324)
+  - Actually, they mainly suggest sirtuins, resveratrol, NMN, telomere-lengthening lifestyles, etc. to defeat aging. None of this is research-proven. The traditional advice is the only proven stuff.
+- 25 Dec 2025. [Outlive](https://www.goodreads.com/book/show/61153739-outlive) suggests exercise for living longer - and to make sure your life is worth extending! [Claude](https://claude.ai/share/f7555a9c-3f6a-4f3c-a56a-ee3d9384d324)
+  - Medicine focuses more on cure than prevention.
+  - Exercise has the highest impact on longevity. Especially zone 2 cardio and body strength (e.g. measure grip strength).
+  - apoB under 80mg/dL is a better indicator of heart risk than LDL.
+  - But make sure your life is worth living!
+- 25 Dec 2025. Katy Milkman's [How to Change](https://www.goodreads.com/book/show/55655032-how-to-change) suggests that biases are hard to change. Engineer environments and habits instead. [Claude](https://claude.ai/share/c29c127f-6fe1-480f-b0dc-fc764e5f7ece)
+  - Breaking bad habits is hard. Start on a New Year, birthday, festivals, etc. for ease.
+  - Breaks in continuity erase good habits. Be flexible for continuity (e.g. 7/week is more flexible than 1/day is more flexible than once every morning).
+- 25 Dec 2025. ⭐ Daniel Kahnemann's [Noise](https://www.goodreads.com/book/show/55339408-noise) suggests experts are more random than we think. [Claude](https://claude.ai/share/9bed712b-05e3-4f37-ae21-78af350e2fc5)
+  - When execs (or students) complain, "Oh, but the LLM aren't consistent!" -- nor are humans!
+  - Get multiple INDEPENDENT opinions
+  - Use CHECKLISTS to reduce variability
+  - Use ALGORITHMS to spot outliers
+  - Acknowledge luck, good or bad. Leverage serendipity
+- 25 Dec 2025. Notes from [awesome-npm](https://github.com/sindresorhus/awesome-npm) [#](https://chatgpt.com/c/694cb4a1-786c-8321-b8e0-2fd58d545480)
+  - `npm run command --silent` suppresses npm output, only shows script output.
+  - `npm start` and `npm test` are the conventions to run the app / server and test. Use more.
+  - `npx --package=node-bin@6.2.0 -- node --version` lets you run any node version without nvm, etc.
+  - `npm link` installs package in the current directory as a global. You can link to it from any other package via `npm link <dirname>`.
+  - `npm install owner/repo` installs directly from GitHub.
+  - `npm ls --depth=2` shows dependency tree up to depth 2.
+- 24 Dec 2025. `rclone mount` over SFTP is the worst-case for thousands of tiny files. _Every_ `stat`, `readdir`, `unlink` is an extra network round-trips, taking ~1s per operation. I'm switching to rsync instead for my [Hetzner storage box](https://www.hetzner.com/storage/storage-box/). [#](https://chatgpt.com/c/694bba1e-2748-8320-94d9-a29213cc5194)
+  - Context: I set it up via: `rclone config create hetzner sftp host $USER.your-storagebox.de user $USER shell_type unix`
+  - ... and mounted it via `rclone mount hetzner:/ /mnt/hetzner --vfs-cache-mode full --vfs-cache-max-age 24h --vfs-cache-max-size 10G`
+- 23 Dec 2025. [The Molecule of More](https://www.goodreads.com/book/show/38728977-the-molecule-of-more) and [Dopamine Nation](https://www.goodreads.com/book/show/55723020-dopamine-nation) recommend pain as a down-payment for sustained pleasure. [Claude](https://claude.ai/chat/ecceca87-84f7-43a9-af60-e036ddfef471)
+  - Dopamine drives wanting/dread, which is decoupled from like/dislike.
+  - It also does a bunch of other things like learning (maps actions to rewards), attention, etc.
+  - Low dopamine => focus, medium => creativity, high => noise.
+  - Brain runs a thermostat. Pleasure/pain trigger a delayed, long-decay counter-reward that we feel as "That's it?" or "Whew!". Abstention just resets it. Meditation just makes you aware.
+  - **Pain-upfront leads to long-decay pleasure**: learning/teaching, creative struggle, exercise, ice showers/sauna, fasting, spicy food, cleaning, tough conversations, apology, forgiveness, public speaking, dating, deep work, delayed gratification, investing, grief, sacrifice, boredom, etc.
+  - Surprises spike dopamine: low standards, variable rewards, interleaved work, artificial constraints, environment/social rotation, progressive difficulty, ...
+  - Dopamine mechanics are complex. Don't trust any theory just yet.
+  - ⭐ Pain is the down payment. Surprise is the interest. Recovery is the compounding period.
+- 23 Dec 2025. [Sex at Dawn](https://www.goodreads.com/book/show/7640261-sex-at-dawn) claims humans evolved as promiscuous and non-jealous, that monogamy is recent. It's partly valid (sexuality is more flexible and context-dependent than monogamy / nuclear families) but is also over-simplified with cherry-picked evidence. [Claude](https://claude.ai/share/417070cf-db71-4f5b-8415-21083428b7df)
+- 23 Dec 2025. Discovered the `--extreme` option for `xz`, which compresses even better (but slower). For archives, I now use `xz -9e -vv file`. Single-threaded is slower but better for compression, so don't use `-mt`. For ultra-large files, add `--lzma2=dict=256MiB` or similar, keeping dictionary size smaller than RAM and file size. [#](https://chatgpt.com/c/694a1d73-88a8-8320-8e3d-e8335eb52b37)
 - 21 Dec 2025. You can specify a git repo as an inline script dependency directly in a `.py` file when running with `uv`! [#](https://claude.ai/chat/e5c44b76-4b23-4765-aeb1-85263cac423d)
   ```python
   # /// script
@@ -23,7 +361,7 @@
   - **Trapped by Cones:** A Waymo taxi in Arizona was defeated by a set of construction cones, fleeing from them into oncoming traffic lanes and eventually getting stuck, forcing the passenger to flee the "confused" vehicle. [Source](https://www.google.com/search?q=https://www.theverge.com/2021/5/14/22436272/waymo-driverless-van-stuck-blocked-road-arizona)
   - **Defeated by a T-Shirt:** A distinct vulnerability was found where self-driving cars could be tricked into slamming on the brakes simply by a pedestrian wearing a T-shirt with a "Stop" sign printed on it. [Source](https://www.google.com/search?q=https://arstechnica.com/cars/2023/02/t-shirt-with-stop-sign-print-fools-self-driving-cars/)
 - 17 Dec 2025. Roblox is the #1 game. Sadly, there's no official Linux support. [CloudFlare 2025 Report](https://blog.cloudflare.com/radar-2025-year-in-review-internet-services/)
-- 17 Dec 2025. [Ty](https://astral.sh/blog/ty), Astral's type checker, is _fantastic_! It shows the type of every variable inline. A great incentive to explicitly type stuff in Python. Lots more to explore.
+- 17 Dec 2025. ⭐ [Ty](https://astral.sh/blog/ty), Astral's type checker, is _fantastic_! It shows the type of every variable inline. A great incentive to explicitly type stuff in Python. Lots more to explore. I switched from Pylance to the [ty VS Code extension](https://marketplace.visualstudio.com/items?itemName=astral-sh.ty).
 - 16 Dec 2025. [`npx -y npm-check-updates`](https://github.com/raineorshine/npm-check-updates) tells you the latest versions of your `package.json` dependencies, including major version updates.
 - 16 Dec 2025. How to think differently. [#](https://gemini.google.com/u/2/app/b3f00b87146cecc3) [#](https://chatgpt.com/c/6940eb78-ae2c-8320-9e4e-ebab68d3b2e2)
   - **Introspect:** List assumptions & taboos. Write a falsifier. Beginner's mindset

@@ -2,6 +2,17 @@
 
 ## Dec 2025
 
+- 26 Dec 2025. My most used GitHub Copilot feature is [tab completion](https://docs.github.com/en/copilot/how-tos/get-code-suggestions/get-ide-code-suggestions). It's surprisingly effective for note-taking (which I do more than code-writing ever since coding agents arrived.) `Tab` completes the suggestion and `Esc` cancels it. I'm beginning to use `Alt + ]` and `Alt + [` to cycle through multiple suggestions. I'm amazed that it can act as a:
+  - Calculator/convertor. E.g. "9 * 86400 =", "5 miles in km is" or "3 days ago, i.e. on"
+  - Referrer. E.g. "The Attention Is All You Need paper at https://" or "The Pulitzer winning book Ants by"
+  - Educator. E.g. "The top 3 causes of cancer are"
+  - Ideator. E.g. "5 wild ideas for sneakily improving productivity are"
+- 21 Dec 2025. You can open AI chatbots with a pre-populated query using these URLs. Gemini, notably, does not yet support this.
+  - Claude: https://claude.ai/new?q=%s
+  - ChatGPT: https://chatgpt.com/?q=%s
+  - Google AI Mode: https://www.google.com/search?udm=50&q=%s
+  - Grok: https://grok.com/?q=hi
+  - Mistral: https://chat.mistral.ai/chat?q=%s
 - 19 Dec 2025. I updated the TTS (text-to-speech) costs across Gemini and OpenAI at https://github.com/sanand0/openai-tts-cost. My current favorite (value for money) is Gemini 2.5 Flash Preview TTS. Good emotions, low price, and a single request can deliver a multi-voice podcast. Speed: ~25 seconds per minute of audio generated.
 - 15 Dec 2025. [Why We Think](https://lilianweng.github.io/posts/2025-05-01-thinking/) has interesting insights on scaling from feedback: [#](https://claude.ai/chat/5dbf8fe0-081a-4d4a-926d-b4d74846ec85)
   - Summary: **Give models a feedback environment unbiased by their reasoning.**

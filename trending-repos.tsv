@@ -1,3 +1,47 @@
+🟣	RS	    3503	   904	2025-12-28	sinelaw/fresh	Text editor for your terminal: easy, powerful and fast
+🟣	RS	    1935	    60	2025-12-28	eclipse-iceoryx/iceoryx2	Eclipse iceoryx2™ - true zero-copy inter-process-communication with a Rust core
+🟣	RS	    5752	    71	2025-12-28	rust-lang/miri	An interpreter for Rust's mid-level intermediate representation
+🟣	GO	    2326	    31	2025-12-28	YouROK/TorrServer	Torrent stream server
+🟣	GO	   37738	   233	2025-12-28	charmbracelet/bubbletea	A powerful little TUI framework 🏗
+🟣	GO	   51186	   172	2025-12-28	etcd-io/etcd	Distributed reliable key-value store for the most critical data of a distributed system
+🟣	GO	    4576	   159	2025-12-28	sysadminsmedia/homebox	A continuation of HomeBox the inventory and organization system built for the Home User
+🟣	GO	   31308	    61	2025-12-28	kubernetes/minikube	Run Kubernetes locally
+🟣	GO	    9511	    71	2025-12-28	siderolabs/talos	Talos Linux is a modern Linux distribution built for Kubernetes.
+🟣	PY	    2942	   979	2025-12-28	lintsinghua/DeepAudit	DeepAudit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。国内首个开源的代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计 + 自动化沙箱 PoC 验证。支持 Ollama 私有部署 ，一键生成报告。支持中转站。​让安全不再昂贵，让审计不再复杂。
+🟣	PY	   41022	   644	2025-12-28	NanmiCoder/MediaCrawler	小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫
+🟣	PY	   73933	  1198	2025-12-28	swisskyrepo/PayloadsAllTheThings	A list of useful payloads and bypass for Web Application Security and Pentest/CTF
+🟣	PY	   10629	   890	2025-12-28	GreyDGL/PentestGPT	A GPT-empowered penetration testing tool
+🟣	PY	   18141	  1622	2025-12-28	resemble-ai/chatterbox	SoTA open-source TTS
+🟣	PY	   38554	  4624	2025-12-28	exo-explore/exo	Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚
+🟣	PY	   19497	  1824	2025-12-28	google/langextract	A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.
+🟣	PY	    2524	   875	2025-12-28	sgl-project/mini-sglang	A compact implementation of SGLang, designed to demystify the complexities of modern LLM serving systems.
+🟣	PY	     610	   195	2025-12-28	pollen-robotics/reachy_mini	Reachy Mini's SDK
+🟣	PY	   27890	  5152	2025-12-28	anthropics/skills	Public repository for Agent Skills
+🟣	PY	  159379	   322	2025-12-28	AUTOMATIC1111/stable-diffusion-webui	Stable Diffusion web UI
+🟣	TS	    7764	  2106	2025-12-28	google/A2UI	
+🟣	TS	   15356	  1599	2025-12-28	stan-smith/FossFLOW	Make beautiful isometric infrastructure diagrams
+🟣	TS	    2287	   666	2025-12-28	danielmiessler/Personal_AI_Infrastructure	Personal AI Infrastructure for upgrading humans.
+🟣	TS	     570	    93	2025-12-28	google/adk-js	An open-source, code-first Typescript toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
+🟣	TS	   18013	   627	2025-12-28	ChromeDevTools/chrome-devtools-mcp	Chrome DevTools for coding agents
+🟣	TS	  123809	  1608	2025-12-28	langgenius/dify	Production-ready platform for agentic workflow development.
+🟣	TS	   71556	  1231	2025-12-28	firecrawl/firecrawl	🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data
+🟣	TS	     770	   186	2025-12-28	badlogic/pi-mono	AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods
+🟣	TS	   42062	  1380	2025-12-28	makeplane/plane	🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.
+🟣	TS	   16783	   219	2025-12-28	QwenLM/qwen-code	An open-source AI agent that lives in your terminal.
+🟣	TS	    7694	   768	2025-12-28	vendure-ecommerce/vendure	The most customizable commerce platform built with TypeScript, NestJS and GraphQL.
+🟣	JS	   23670	   242	2025-12-28	zhaoolee/ChromeAppHeroes	🌈谷粒-Chrome插件英雄榜, 为优秀的Chrome插件写一本中文说明书, 让Chrome插件英雄们造福人类~ ChromePluginHeroes, Write a Chinese manual for the excellent Chrome plugin, let the Chrome plugin heroes benefit the human~ 公众号「0加1」同步更新
+🟣	JS	   50671	   141	2025-12-28	chinese-poetry/chinese-poetry	The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库, 唐宋两朝近一万四千古诗人, 接近5.5万首唐诗加26万宋诗. 两宋时期1564位词人，21050首词。
+🟣	JS	   38906	   386	2025-12-28	zen-browser/desktop	Welcome to a calmer internet
+🟣	JS	   68438	   101	2025-12-28	expressjs/express	Fast, unopinionated, minimalist web framework for node.
+🟣	JS	   19390	   213	2025-12-28	maboloshi/github-chinese	GitHub 汉化插件，GitHub 中文化界面。 (GitHub Translation To Chinese)
+🟣	JS	     559	    74	2025-12-28	parcoil/sparkle	A Windows app to debloat and optimize your PC
+🟣	JS	    6887	   125	2025-12-28	aandrew-me/ytDownloader	Desktop App for downloading Videos and Audios from hundreds of sites
+🟣	SH	   10047	    64	2025-12-28	BtbN/FFmpeg-Builds	
+🟣	SH	    1335	    57	2025-12-28	cisagov/LME	Logging Made Easy (LME) is a no cost, open source platform that centralizes log collection, enhances threat detection, and enables real-time alerting, helping small to medium-sized organizations secure their infrastructure. LME Docs can be found at https://cisagov.github.io/lme-docs/docs/
+🟣	SH	    2122	    32	2025-12-28	233boy/Xray	最好用的 Xray 一键安装脚本 & 管理脚本
+🟣	SH	    8361	    48	2025-12-28	ophub/amlogic-s9xxx-armbian	Support for Armbian in Amlogic, Rockchip and Allwinner boxes. Support a311d, s922x, s905x3, s905x2, s912, s905d, s905x, s905w, s905, s905l, rk3588, rk3568, rk3399, rk3328, h6, etc.
+🟣	SH	    1954	    14	2025-12-28	linkease/istore	一个 Openwrt 标准的软件中心，纯脚本实现，只依赖Openwrt标准组件。支持其它固件开发者集成到自己的固件里面。更方便入门用户搜索安装插件。The iStore is a app store for OpenWRT
+🟣	SH	    1404	    29	2025-12-28	themactep/thingino-firmware	Open-source firmware for Ingenic SoC IP cameras
 🔴	RS	   31327	    84	2025-12-10	firecracker-microvm/firecracker	Secure and fast microVMs for serverless computing.	Prefer hosted services
 🟣	RS	    3446	   133	2025-12-10	apache/iggy	Apache Iggy: Hyper-Efficient Message Streaming at Laser Speed
 🔴	RS	    2603	    50	2025-12-10	paritytech/polkadot-sdk	The Parity Polkadot Blockchain SDK	I don't do blockchain

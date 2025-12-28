@@ -4,8 +4,9 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 
 ## Dec 2025
 
-- 14 Dec 2025. Better SVG to doodle animation library. Convert to paths. Realistic speed.
-- 12 Dec 2025. Use SAM for game video analytics, e.g. football. Is a quarterback a mobile quarterback? Is a receiver running a deep route? Is a defender in man coverage? Use video segmentation to identify players, track them, and classify their roles and actions.
+- [ ] 24 Dec 2025. OlmoEarth insights. Which region in Bangalore became urbanized fastest?
+- [x] 14 Dec 2025. Better SVG to doodle animation library. Convert to paths. Realistic speed.
+- [ ] 12 Dec 2025. Use SAM for game video analytics, e.g. football. Is a quarterback a mobile quarterback? Is a receiver running a deep route? Is a defender in man coverage? Use video segmentation to identify players, track them, and classify their roles and actions.
 - 01 Dec 2025. Write a script to use a vision model to evaluate (with reasons) the SVGs rendered by the [LLM SVG Generation Benchmark](https://gally.net/temp/20251107pelican-alternatives/index.html) and identify (a) which LLM-as-a-judge vision most aligns with humans and (b) which LLM generates the best SVGs. This requires a human to critically evaluate the SVGs, which is best done over a call, like an interview, with an eloquent, critical artist.
 
 ## Oct 2025
