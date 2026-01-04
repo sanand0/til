@@ -1,5 +1,11 @@
 # LLM learnings
 
+## Jan 2026
+
+- 02 Jan 2026. LLM evals rarely pass all the time or fail all the time. Either would be a good signal, but results are usually mid-way, which can make evals a bit frustrating. [Will Larsen](https://lethain.com/agents-evals/)
+- 02 Jan 2026. A smart way to handle large context and compaction: pass any large input (even text) as a file and always provide file tools to the agent. After [compacting](https://www.reddit.com/r/ClaudeAI/comments/1jr52qj/here_is_claude_codes_compact_prompt/) a conversation, also _pass the conversation history as a file_! [Will Larson](https://lethain.com/agents-context-compaction/)
+- 02 Jan 2026. Anthropic's API lets you [upload custom skills](https://platform.claude.com/docs/en/build-with-claude/skills-guide#managing-custom-skills) and [use them via the API](https://platform.claude.com/docs/en/build-with-claude/skills-guide#using-skills-in-messages). You can share these across the organization.
+
 ## Dec 2025
 
 - 26 Dec 2025. My most used GitHub Copilot feature is [tab completion](https://docs.github.com/en/copilot/how-tos/get-code-suggestions/get-ide-code-suggestions). It's surprisingly effective for note-taking (which I do more than code-writing ever since coding agents arrived.) `Tab` completes the suggestion and `Esc` cancels it. I'm beginning to use `Alt + ]` and `Alt + [` to cycle through multiple suggestions. I'm amazed that it can act as a:
