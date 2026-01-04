@@ -2,6 +2,11 @@
 
 ## Jan 2026
 
+- 04 Jan 2026. Familiarity and recency feel like learning but they're not. Instead: Take tests. Review (spaced repetition). Interleave learning. That's what helps. Via:
+  - [Make It Stick (Peter C. Brown, 2014)](https://www.goodreads.com/book/show/18770267-make-it-stick)
+  - [A Mind for Numbers (Barbara Oakley, 2014)](https://www.goodreads.com/book/show/18693655-a-mind-for-numbers)
+  - [Ultralearning (Scott Young, 2019)](https://www.goodreads.com/book/show/44770129-ultralearning)
+  - [How to Take Smart Notes (Sönke Ahrens, 2017)](https://www.goodreads.com/book/show/34507927-how-to-take-smart-notes)
 - 03 Jan 2026. A bunch of new CLI tools I found via [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) that I'm likely to use.
   - [fselect 4,374 ⭐ Dec 2025](https://github.com/jhspetersson/fselect) - Find files with SQL-like queries. `mise x ubi:jhspetersson/fselect -- fselect 'path, name, size from . WHERE name = "*.md" AND size < 1000'`
   - [git-standup 7,805 ⭐ Jul 2025](https://github.com/kamranahmedse/git-standup) - Recall what you did on the last working day. `npm install -g git-standup && git standup`
@@ -23,8 +28,8 @@
   - [beets 14,504 ⭐ Jan 2026](https://github.com/beetbox/beets) - Music library manager and tagger. `uvx --python 3.12 --from beets beet import /path/to/music`
   - [slides 11,065 ⭐ Aug 2024](https://github.com/maaslalani/slides) - A markdown presentation tool.
   - [gotty 19,285 ⭐ Aug 2024](https://github.com/yudai/gotty) - Share your terminal as a web application.
-- 02 Jan 2025. The [day-fine](https://en.wikipedia.org/wiki/Day-fine) system fines people by severity of crime (# of days) and their income (daily disposable income). Finland, Sweden, Germany use it. It's equal deterrence and more state tax, but needs good data & enforcement, cultural acceptance, and similar income streams (income vs assets, salary vs freelance, ...) [Claude](https://claude.ai/share/9a60014a-83a2-431e-997f-866cb00fb2a8)
-- 01 Jan 2025. Modern HTML has a _huge_ number of of useful attributes and some elements I knew little about. Most of these improve the user experience, especially on mobile devices.
+- 02 Jan 2026. The [day-fine](https://en.wikipedia.org/wiki/Day-fine) system fines people by severity of crime (# of days) and their income (daily disposable income). Finland, Sweden, Germany use it. It's equal deterrence and more state tax, but needs good data & enforcement, cultural acceptance, and similar income streams (income vs assets, salary vs freelance, ...) [Claude](https://claude.ai/share/9a60014a-83a2-431e-997f-866cb00fb2a8)
+- 01 Jan 2026. Modern HTML has a _huge_ number of of useful attributes and some elements I knew little about. Most of these improve the user experience, especially on mobile devices.
   - Add [`popover` and `popovertarget=`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/popover) to associate elements with popovers. This can replace tooltips, dropdowns, menus, toasts, etc.
   - Add [`formmethod="dialog"`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/submit#formmethod) to forms inside `<dialog>` elements to close the dialog instead of submitting.
   - Add [`name=`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details#name) attribute to details for accordion-like behavior
@@ -46,9 +51,9 @@
   - [`<progress>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/progress): for displaying progress of a task. Similar to meter but indicates progress rather than a static value.
   - [`<track kind="captions">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track#kind): for adding captions/subtitles to `<video>` elements.
   - [`<data value="...">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data): to capture values in a more query-able way than `data-*` attributes.
-- 01 Jan 2025. [Grok Voice Agent API](https://x.ai/news/grok-voice-agent-api) tops the [speech-to-speech](https://artificialanalysis.ai/models/speech-to-speech) quality benchmark and is pretty cheap at 5c/min ($3/hr).
-- 01 Jan 2025. [The Collider Bias](https://gemini.google.com/share/d8c33648317f): when you analyze a subset, you can get wrong correlations. For example, analyzing top performers can show that performance drops with time - whereas, if you pick everyone, performance improves with time. It's similar to the [Simpson's Paradox](https://en.wikipedia.org/wiki/Simpson%27s_paradox): combining groups can reverse trends. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3majpxwyivs24)
-- 01 Jan 2025. [fresh](https://github.com/sinelaw/fresh) is a TUI text editor that I've replaced [`micro`](https://github.com/zyedidia/micro) with (for now). It has menus and mouse support which shrinks the learning curve. It's also a single Rust binary.
+- 01 Jan 2026. [Grok Voice Agent API](https://x.ai/news/grok-voice-agent-api) tops the [speech-to-speech](https://artificialanalysis.ai/models/speech-to-speech) quality benchmark and is pretty cheap at 5c/min ($3/hr).
+- 01 Jan 2026. [The Collider Bias](https://gemini.google.com/share/d8c33648317f): when you analyze a subset, you can get wrong correlations. For example, analyzing top performers can show that performance drops with time - whereas, if you pick everyone, performance improves with time. It's similar to the [Simpson's Paradox](https://en.wikipedia.org/wiki/Simpson%27s_paradox): combining groups can reverse trends. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3majpxwyivs24)
+- 01 Jan 2026. [fresh](https://github.com/sinelaw/fresh) is a TUI text editor that I've replaced [`micro`](https://github.com/zyedidia/micro) with (for now). It has menus and mouse support which shrinks the learning curve. It's also a single Rust binary.
 
 ## Dec 2025
 
