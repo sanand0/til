@@ -2,6 +2,7 @@
 
 ## Jan 2026
 
+- 05 Jan 2026. The [accesskey](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/accesskey) attribute works a bit like magic. Adding an `accesskey="h"` on a home page link, or an `accesskey="t"` on a theme toggle button automatically enables keyboard shortcuts Alt+H or Alt+T to activate them. (Varies by browser and OS, but hovering shows the shortcut!)
 - 04 Jan 2026. Familiarity and recency feel like learning but they're not. Instead: Take tests. Review (spaced repetition). Interleave learning. That's what helps. Via:
   - [Make It Stick (Peter C. Brown, 2014)](https://www.goodreads.com/book/show/18770267-make-it-stick)
   - [A Mind for Numbers (Barbara Oakley, 2014)](https://www.goodreads.com/book/show/18693655-a-mind-for-numbers)
