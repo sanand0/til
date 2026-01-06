@@ -3,8 +3,8 @@
 ## Jan 2026
 
 - 06 Jan 2026. Ten of the least well known psychology / sociology findings. [ChatGPT](https://chatgpt.com/share/695cd05c-df64-8003-87e1-ad47ed8ef2a1)
-  - Learning styles are a myth. People might _prefer_ visual / audio / ... learning but it doesn't help learning. **Mix learning modes**.
-  - Casual acquaintances help find new information or jobs much more than close friends, since they're in different social circles. **Nurture weak ties**.
+  - Learning styles are a myth. People might _prefer_ visual / audio / ... learning but it doesn't help learning. **Mix learning modes**. NotebookLM can help.
+  - Casual acquaintances help find new information or jobs much more than close friends, since they're in different social circles. **Nurture weak ties**. Use a relationship architect.
   - Tell a lie often enough and people mistake familiarity for truth. **Fact-check habitually**.
   - The more you see / hear something the more you like it. (Exposure effect.) **Expose to good things**.
   - When others mess up, we blame them. When we mess up, we blame the situation. (Attribution error.) **Pause before judging**.
