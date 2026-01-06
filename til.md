@@ -2,6 +2,13 @@
 
 ## Jan 2026
 
+- 06 Jan 2025. Notes from [The Periodic Table](https://www.goodreads.com/book/show/427282.The_Periodic_Table) by Primo Levi.
+  - Pure Zinc does not dissolve easily in sulphuric acid. An impurity like Copper Sulphate pulls electrons from Zinc and offers them to Hydrogen ions, speeding up the reaction. Impurities, foreign bodies, etc. have a purpose, too.
+  - Discomfort = Information. Overcoming discomfort = Capability. Capability = Freedom. Therefore: **Seeking discomfort** (carefully, purposefully) = Building freedom.
+  - Simple != Easy. Simple = Clear. Clear = Actionable.
+  - Analogies have limits. (The Map is not the Territory.) When using analogies, always explore where, when and why _they will break_. Pay close attention there.
+- 05 Jan 2026. "There's about 300-400 that were corporate assets. One watched them all the time. These are people who in 15 years could be CEO. There's something about them that caught your fancy when you were in a meeting... brilliant ideas that challenged your thinking... We called them "Corporate Assets" and tracked them, to make sure we game-planned them, give them the right assignments." [Indra Nooyi, The Knowledge Project](https://youtu.be/E50ix2Y62y4?t=1613)
+- 05 Jan 2025. [`justhtml`](https://pypi.org/project/justhtml) is a fast enough pure Python fully HTML5 compliant library. For a faster, mostly compliant solution, [`html5-parser`](https://pypi.org/project/html5-parser/) with `lxml` works.
 - 05 Jan 2026. The [accesskey](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/accesskey) attribute works a bit like magic. Adding an `accesskey="h"` on a home page link, or an `accesskey="t"` on a theme toggle button automatically enables keyboard shortcuts Alt+H or Alt+T to activate them. (Varies by browser and OS, but hovering shows the shortcut!)
 - 04 Jan 2026. Familiarity and recency feel like learning but they're not. Instead: Take tests. Review (spaced repetition). Interleave learning. That's what helps. Via:
   - [Make It Stick (Peter C. Brown, 2014)](https://www.goodreads.com/book/show/18770267-make-it-stick)
@@ -2407,7 +2414,6 @@
 - 03 Jan 2025. [Matomo](https://matomo.org/), [PostHog](https://posthog.com/), [Umami](https://umami.is/) and [Plausible](https://plausible.io/) are open source web analytics tools (like Google Analytics).
 - 03 Jan 2025. [Redash](https://redash.io/) and [Metabase](https://www.metabase.com/) are new open source data visualization tools sitting alongside [Grafana](https://grafana.com/) and [Apache Superset](https://superset.apache.org/).
   - Redash feels too clunky / enterprise-y rather than open-source-y.
-  -
 - 03 Jan 2025. From [Ego is the enemy](https://www.goodreads.com/book/show/27036528-ego-is-the-enemy):
   - Add a daily habit to understand your ego. Where and how is it showing up? How are you fooling yourself? Where are you fighting battles without knowing the war?
   - Speak less. Do more. E.g. Release more, blog less. Review, THEN publish.
@@ -2472,7 +2478,6 @@
   - [Full (strict)](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full-strict/): Similar to Full Mode, but with validation.
   - [Strict (SSL-Only Origin Pull)](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/ssl-only-origin-pull/): Cloudflare always connects to the origin over HTTPS with certificate validation.
   - Getting this wrong can lead to a [HTTP 526: invalid SSL certificate](https://developers.cloudflare.com/support/troubleshooting/cloudflare-errors/troubleshooting-cloudflare-5xx-errors/#error-526-invalid-ssl-certificate)
-  -
 - 22 Dec 2024. [aspose-words](https://pypi.org/project/aspose-words/) is a Python library that converts documents with many formats (Word, RTF, PDF, HTML, Markdown, EPUB, etc.)
 - 22 Dec 2024. Discourse does not support searching across multiple forums. Instead, search for the term in all forums. [Example](https://discourse.onlinedegree.iitm.ac.in/search?q=TDS). Then scroll through the results. Then, in the console, hide the ones you don't want. Example:
   - Hide posts that are not in the "Tools in Data Science" category: `$(".badge-category__name").filter(d => d.textContent == "Tools in Data Science").map(d => d.closest(".fps-result")).filter(d => d).forEach(d => d.style.display = "none")`
