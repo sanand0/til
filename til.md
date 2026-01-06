@@ -2,6 +2,7 @@
 
 ## Jan 2026
 
+- 06 Jan 2025. Liberalism => economic growth, peace and expanding rights. Also colonial violence, exclusions (women, slavery, ...), and eroding community. It is vulnerable to authoritarianism (e.g. emergency powers, recessions). Since 2006, democracy has _consecutively_ declined, reversing half the progress since WW2. But alternatives are unclear. [Claude](https://claude.ai/public/artifacts/80d7c519-d431-41e5-8916-926ec433499f)
 - 06 Jan 2025. Notes from [The Periodic Table](https://www.goodreads.com/book/show/427282.The_Periodic_Table) by Primo Levi.
   - Pure Zinc does not dissolve easily in sulphuric acid. An impurity like Copper Sulphate pulls electrons from Zinc and offers them to Hydrogen ions, speeding up the reaction. Impurities, foreign bodies, etc. have a purpose, too.
   - Discomfort = Information. Overcoming discomfort = Capability. Capability = Freedom. Therefore: **Seeking discomfort** (carefully, purposefully) = Building freedom.
