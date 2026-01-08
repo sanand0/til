@@ -5,6 +5,7 @@
 - 09 Jan 2025. [CLIProxyAPI](https://help.router-for.me/) seems a good way to allow any CLI coding agent (Codex, Claude Code, etc.) to work with any provider (e.g. Gemini, OpenRouter, etc.) The documentation needs a few more examples, but it's usable.
   - `mise x ubi:router-for-me/CLIProxyAPI -- cli-proxy-api` starts a local server that proxies requests.
   - Create a [`config.yaml`](https://help.router-for.me/configuration/basic.html), update the keys, and configure your coding agent, e.g. [Codex](https://help.router-for.me/agent-client/codex.html) to use it.
+  - It's also a good way to see what prompts are being sent by the various harnesses.
 - 08 Jan 2026. [Everything Bad Is Good For You](https://www.goodreads.com/book/show/36085.Everything_Bad_is_Good_for_You) by Steven Johnson (2005) argues that pop culture isn't all bad. But it isn't all good either, unlike the book's claims. [Claude](https://claude.ai/share/15255c7e-c9ec-4251-8837-321612597c49)
   - Popular culture formats (e.g. video games, manga, soap operas, game shows) are steadily more cognitively demanding, complex.
   - They provide a dopamine kick from problem-solving.
