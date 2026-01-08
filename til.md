@@ -2,7 +2,7 @@
 
 ## Jan 2026
 
-- 08 Jan 2026. The purpose of a featured image in a blog post is to help readers decide whether to read it.
+- 08 Jan 2026. The purpose of a featured image in a blog post is to help readers decide whether to read it. Share the article's output (e.g. for tutorials, data stories). Else
 - 07 Jan 2026. [NFLSavant.com](https://nflsavant.com/about.php) has play-by-play data for NFL games.
 - 06 Jan 2026. Ten of the least well known psychology / sociology research findings. [ChatGPT](https://chatgpt.com/share/695cd05c-df64-8003-87e1-ad47ed8ef2a1)
   - Learning styles are a myth. People might _prefer_ visual / audio / ... learning but it doesn't help learning. **Mix learning modes**. NotebookLM can help.
