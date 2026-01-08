@@ -2,7 +2,7 @@
 
 ## Jan 2026
 
-- 08 Jan 2026. The purpose of a featured image in a blog post is to help readers decide whether to read it. Share the article's output/focus (e.g. for data stories, products). Else a visual metaphor (e.g. sketchnote summary)
+- 08 Jan 2026. The purpose of a featured image in a blog post is to help readers decide whether to read it. Share the article's output/focus (e.g. for data stories, products). Else a visual summary (e.g. sketchnote, comic capturing the essence). Else skip. Avoid stock photos. [#](https://gemini.google.com/u/2/app/a465e10b89d53dbc)
 - 07 Jan 2026. [NFLSavant.com](https://nflsavant.com/about.php) has play-by-play data for NFL games.
 - 06 Jan 2026. Ten of the least well known psychology / sociology research findings. [ChatGPT](https://chatgpt.com/share/695cd05c-df64-8003-87e1-ad47ed8ef2a1)
   - Learning styles are a myth. People might _prefer_ visual / audio / ... learning but it doesn't help learning. **Mix learning modes**. NotebookLM can help.
@@ -15,8 +15,8 @@
   - People do worse when they're afraid their failure will reflect on their stereotype. (Stereotype threat.) **Practice emotional resets**.
   - Higher expectations lead to better performance. (Pygmalion effect.) **Engineer positive expectations**.
   - Benevolent sexism (e.g. protective paternalism) can be harmful too. **Scan for well-meaning bias**.
-- 06 Jan 2025. Liberalism => economic growth, peace and expanding rights. Also colonial violence, exclusions (women, slavery, ...), and eroding community. It is vulnerable to authoritarianism (e.g. emergency powers, recessions). Since 2006, democracy has _consecutively_ declined, reversing half the progress since WW2. But alternatives are unclear. [Claude](https://claude.ai/public/artifacts/80d7c519-d431-41e5-8916-926ec433499f)
-- 06 Jan 2025. Notes from [The Periodic Table](https://www.goodreads.com/book/show/427282.The_Periodic_Table) by Primo Levi.
+- 06 Jan 2026. Liberalism => economic growth, peace and expanding rights. Also colonial violence, exclusions (women, slavery, ...), and eroding community. It is vulnerable to authoritarianism (e.g. emergency powers, recessions). Since 2006, democracy has _consecutively_ declined, reversing half the progress since WW2. But alternatives are unclear. [Claude](https://claude.ai/public/artifacts/80d7c519-d431-41e5-8916-926ec433499f)
+- 06 Jan 2026. Notes from [The Periodic Table](https://www.goodreads.com/book/show/427282.The_Periodic_Table) by Primo Levi.
   - Pure Zinc does not dissolve easily in sulphuric acid. An impurity like Copper Sulphate pulls electrons from Zinc and offers them to Hydrogen ions, speeding up the reaction. Impurities, foreign bodies, etc. have a purpose, too.
   - Discomfort = Information. Overcoming discomfort = Capability. Capability = Freedom. Therefore: **Seeking discomfort** (carefully, purposefully) = Building freedom.
   - Simple != Easy. Simple = Clear. Clear = Actionable.
