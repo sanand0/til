@@ -2,6 +2,12 @@
 
 ## Jan 2026
 
+- 08 Jan 2026. [Everything Bad Is Good For You](https://www.goodreads.com/book/show/36085.Everything_Bad_is_Good_for_You) by Steven Johnson (2005) argues that pop culture isn't all bad. But it isn't all good either, unlike the book's claims. [Claude](https://claude.ai/share/15255c7e-c9ec-4251-8837-321612597c49)
+  - Popular culture formats (e.g. video games, manga, soap operas, game shows) are steadily more cognitively demanding, complex.
+  - They provide a dopamine kick from problem-solving.
+  - These may have led to the Flynn Effect (rising IQs in 1990s-2000s). Or it may be due to nutrition, smaller families, education, etc.
+  - Action games correlate with visual-spatial skills. Strategy games correlate with memory, planning. But is it causation? It doesn't always translate to real-world skills.
+  - Also, side effects are real and bad: screen-time, addiction, misinformation, etc.
 - 08 Jan 2026. The purpose of a featured image in a blog post is to help readers decide whether to read it. Share the article's output/focus (e.g. for data stories, products). Else a visual summary (e.g. sketchnote, comic capturing the essence). Else skip. Avoid stock photos. [#](https://gemini.google.com/u/2/app/a465e10b89d53dbc)
 - 07 Jan 2026. [NFLSavant.com](https://nflsavant.com/about.php) has play-by-play data for NFL games.
 - 06 Jan 2026. Ten of the least well known psychology / sociology research findings. [ChatGPT](https://chatgpt.com/share/695cd05c-df64-8003-87e1-ad47ed8ef2a1)
