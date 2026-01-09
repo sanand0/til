@@ -2,6 +2,7 @@
 
 ## Jan 2026
 
+- 09 Jan 2026. [Software Heritage](https://www.softwareheritage.org/) is a non-profit that archives software. You can [submit any Git repo](https://archive.softwareheritage.org/save/) for archival. Over 400 million projects have been archived so far.
 - 08 Jan 2026. [Everything Bad Is Good For You](https://www.goodreads.com/book/show/36085.Everything_Bad_is_Good_for_You) by Steven Johnson (2005) argues that pop culture isn't all bad. But it isn't all good either, unlike the book's claims. [Claude](https://claude.ai/share/15255c7e-c9ec-4251-8837-321612597c49)
   - Popular culture formats (e.g. video games, manga, soap operas, game shows) are steadily more cognitively demanding, complex.
   - They provide a dopamine kick from problem-solving.
