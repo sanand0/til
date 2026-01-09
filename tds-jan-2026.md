@@ -1,21 +1,5 @@
 # TDS Jan 2026
 
-## Thoughts
-
-
-[Tools in Data Science](https://study.iitm.ac.in/ds/course_pages/BSSE2002.html) is a diploma level data science course at IIT Madras.
-
-It teaches the tools used to build & deploy data science applications, bridging the gap between theoretical data science concepts and real-world implementation.
-
-You'll learn what the industry uses in the data science lifecycle – from sourcing and cleaning data to analyzing, visualizing, and deploying results
-
-- **Explain structure**. Why are we teaching this? Why this way?
-- **Re-build around prompts / questions**. What's the point of giving them AI-generated content? The course _is_ the Socratic prompts.
-  - Styles to write
-  - Points to learn
-  - Questions or alternative tools to evaluate and compare, e.g. When would I use Cloudflare and not AWS? Which is easier to learn?
-- **Observe**. Log. Make personalized interventions trivial.
-
 ## Ideas
 
 Random ideas for the TDS Jan 2026 course iteration, collected Dec 2025.
