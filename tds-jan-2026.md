@@ -1,5 +1,18 @@
 # TDS Jan 2026
 
+## Thoughts
+
+tool-belt” curriculum to bridge the gap between theoretical data science concepts and real-world implementation. Its primary purpose is to make students proficient with the industry-standard tools for each step of the data science lifecycle – from sourcing and cleaning data to analyzing, visualizing, and deploying results
+
+- **Explain structure**. Why are we teaching this? Why this way?
+- **Re-build around prompts / questions**. What's the point of giving them AI-generated content? The course _is_ the Socratic prompts.
+  - Styles to write
+  - Points to learn
+  - Questions or alternative tools to evaluate and compare, e.g. When would I use Cloudflare and not AWS? Which is easier to learn?
+- **Observe**. Log. Make personalized interventions trivial.
+
+## Ideas
+
 Random ideas for the TDS Jan 2026 course iteration, collected Dec 2025.
 
 - TDS. https://chatgpt.com/c/693a9ab6-2cb8-8330-9327-97c890be0e65
