@@ -1,11 +1,5 @@
 # TDS Jan 2026
 
-Thoughts
-
-- Structure is important. Why are we teaching this? Why this way?
-- **Share prompts**. What's the point of giving them AI-generated content? The course _is_ the prompts.
-
-
 Random ideas for the TDS Jan 2026 course iteration, collected Dec 2025.
 
 - TDS. https://chatgpt.com/c/693a9ab6-2cb8-8330-9327-97c890be0e65
