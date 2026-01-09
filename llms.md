@@ -2,6 +2,10 @@
 
 ## Jan 2026
 
+- 09 Jan 2025. [CLIProxyAPI](https://help.router-for.me/) seems a good way to allow any CLI coding agent (Codex, Claude Code, etc.) to work with any provider (e.g. Gemini, OpenRouter, etc.) The documentation needs a few more examples, but it's usable.
+  - `mise x ubi:router-for-me/CLIProxyAPI -- cli-proxy-api` starts a local server that proxies requests.
+  - Create a [`config.yaml`](https://help.router-for.me/configuration/basic.html), update the keys, and configure your coding agent, e.g. [Codex](https://help.router-for.me/agent-client/codex.html) to use it.
+  - It's also a good way to see what prompts are being sent by the various harnesses.
 - 02 Jan 2026. LLM evals rarely pass all the time or fail all the time. Either would be a good signal, but results are usually mid-way, which can make evals a bit frustrating. [Will Larsen](https://lethain.com/agents-evals/)
 - 02 Jan 2026. A smart way to handle large context and compaction: pass any large input (even text) as a file and always provide file tools to the agent. After [compacting](https://www.reddit.com/r/ClaudeAI/comments/1jr52qj/here_is_claude_codes_compact_prompt/) a conversation, also _pass the conversation history as a file_! [Will Larson](https://lethain.com/agents-context-compaction/)
 - 02 Jan 2026. Anthropic's API lets you [upload custom skills](https://platform.claude.com/docs/en/build-with-claude/skills-guide#managing-custom-skills) and [use them via the API](https://platform.claude.com/docs/en/build-with-claude/skills-guide#using-skills-in-messages). You can share these across the organization.
