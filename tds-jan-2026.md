@@ -2,7 +2,12 @@
 
 ## Thoughts
 
-tool-belt” curriculum to bridge the gap between theoretical data science concepts and real-world implementation. Its primary purpose is to make students proficient with the industry-standard tools for each step of the data science lifecycle – from sourcing and cleaning data to analyzing, visualizing, and deploying results
+
+[Tools in Data Science](https://study.iitm.ac.in/ds/course_pages/BSSE2002.html) is a diploma level data science course at IIT Madras.
+
+It teaches the tools used to build & deploy data science applications, bridging the gap between theoretical data science concepts and real-world implementation.
+
+You'll learn what the industry uses in the data science lifecycle – from sourcing and cleaning data to analyzing, visualizing, and deploying results
 
 - **Explain structure**. Why are we teaching this? Why this way?
 - **Re-build around prompts / questions**. What's the point of giving them AI-generated content? The course _is_ the Socratic prompts.
