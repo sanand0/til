@@ -2,6 +2,54 @@
 
 ## Jan 2026
 
+- 11 Jan 2026. What constitutes tax residency in India? For an Indian citizen, as I understand it (after 2 hours of research):
+  - If you were in India >= 182 days: Resident*
+  - Else, if you left India _this year_ for employment: NRI.
+  - Else, if you are an Indian Citizen living abroad (visiting or not):
+    - If Indian Income <= ₹15 Lakhs: NRI.
+    - Else if you were in India >= 120 days AND >= 365 days in the last 4 years: RNOR.
+    - Else if you are not liable to tax in any other country: RNOR.
+  - Else, if you left India for non-employment (students, tourism) and were in India >= 60 days AND >= 365 days in the last 4 years: Resident*
+  - Else: NRI.
+  - If you ended up as a Resident*
+    - If you were NRI in 9 of the last 10 years OR in India <= 729 days in the last 7 years: RNOR
+    - Else: ROR (Resident & Ordinarily Resident).
+  - For all practical purposes, RNOR is like an NRI. You pay tax only on Indian income, not global income. It's like a transition status for returning NRIs.
+- 11 Jan 2026. [AVIF compresses better than WebP](https://www.ctrl.blog/entry/webp-avif-comparison.html) and [may be the "next big thing"](https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Image_types#avif_image). I will be switching for all future images. [Squoosh](https://squoosh.app/) remains my choice of compressor and Ezgif's [AVIF maker](https://ezgif.com/avif-maker) and [GIF to AVIF](https://ezgif.com/gif-to-avif) are handy.
+- 09 Jan 2026. [Software Heritage](https://www.softwareheritage.org/) is a non-profit that archives software. You can [submit any Git repo](https://archive.softwareheritage.org/save/) for archival. Over 400 million projects have been archived so far.
+- 08 Jan 2026. [Everything Bad Is Good For You](https://www.goodreads.com/book/show/36085.Everything_Bad_is_Good_for_You) by Steven Johnson (2005) argues that pop culture isn't all bad. But it isn't all good either, unlike the book's claims. [Claude](https://claude.ai/share/15255c7e-c9ec-4251-8837-321612597c49)
+  - Popular culture formats (e.g. video games, manga, soap operas, game shows) are steadily more cognitively demanding, complex.
+  - They provide a dopamine kick from problem-solving.
+  - These may have led to the Flynn Effect (rising IQs in 1990s-2000s). Or it may be due to nutrition, smaller families, education, etc.
+  - Action games correlate with visual-spatial skills. Strategy games correlate with memory, planning. But is it causation? It doesn't always translate to real-world skills.
+  - Also, side effects are real and bad: screen-time, addiction, misinformation, etc.
+- 08 Jan 2026. The purpose of a featured image in a blog post is to help readers decide whether to read it. Share the article's output/focus (e.g. for data stories, products). Else a visual summary (e.g. sketchnote, comic capturing the essence). Else skip. Avoid stock photos. [#](https://gemini.google.com/u/2/app/a465e10b89d53dbc)
+- 07 Jan 2026. [NFLSavant.com](https://nflsavant.com/about.php) has play-by-play data for NFL games.
+- 06 Jan 2026. Ten of the least well known psychology / sociology research findings. [ChatGPT](https://chatgpt.com/share/695cd05c-df64-8003-87e1-ad47ed8ef2a1)
+  - Learning styles are a myth. People might _prefer_ visual / audio / ... learning but it doesn't help learning. **Mix learning modes**. NotebookLM can help.
+  - Casual acquaintances help find new information or jobs much more than close friends, since they're in different social circles. **Nurture weak ties**. Use a relationship architect.
+  - Tell a lie often enough and people mistake familiarity for truth. **Fact-check habitually**.
+  - The more you see / hear something the more you like it. (Exposure effect.) **Expose to good things**.
+  - When others mess up, we blame them. When we mess up, we blame the situation. (Attribution error.) **Pause before judging**.
+  - Sometimes, rewarding people makes them like doing it less. (Overjustification effect.)
+  - People who know less over-estimate their knowledge. (Dunning-Kruger effect.) **Habitualize calibration** via feedback and tests.
+  - People do worse when they're afraid their failure will reflect on their stereotype. (Stereotype threat.) **Practice emotional resets**.
+  - Higher expectations lead to better performance. (Pygmalion effect.) **Engineer positive expectations**.
+  - Benevolent sexism (e.g. protective paternalism) can be harmful too. **Scan for well-meaning bias**.
+- 06 Jan 2026. Liberalism => economic growth, peace and expanding rights. Also colonial violence, exclusions (women, slavery, ...), and eroding community. It is vulnerable to authoritarianism (e.g. emergency powers, recessions). Since 2006, democracy has _consecutively_ declined, reversing half the progress since WW2. But alternatives are unclear. [Claude](https://claude.ai/public/artifacts/80d7c519-d431-41e5-8916-926ec433499f)
+- 06 Jan 2026. Notes from [The Periodic Table](https://www.goodreads.com/book/show/427282.The_Periodic_Table) by Primo Levi.
+  - Pure Zinc does not dissolve easily in sulphuric acid. An impurity like Copper Sulphate pulls electrons from Zinc and offers them to Hydrogen ions, speeding up the reaction. Impurities, foreign bodies, etc. have a purpose, too.
+  - Discomfort = Information. Overcoming discomfort = Capability. Capability = Freedom. Therefore: **Seeking discomfort** (carefully, purposefully) = Building freedom.
+  - Simple != Easy. Simple = Clear. Clear = Actionable.
+  - Analogies have limits. (The Map is not the Territory.) When using analogies, always explore where, when and why _they will break_. Pay close attention there.
+- 05 Jan 2026. "There's about 300-400 that were corporate assets. One watched them all the time. These are people who in 15 years could be CEO. There's something about them that caught your fancy when you were in a meeting... brilliant ideas that challenged your thinking... We called them "Corporate Assets" and tracked them, to make sure we game-planned them, give them the right assignments." [Indra Nooyi, The Knowledge Project](https://youtu.be/E50ix2Y62y4?t=1613)
+- 05 Jan 2025. [`justhtml`](https://pypi.org/project/justhtml) is a fast enough pure Python fully HTML5 compliant library. For a faster, mostly compliant solution, [`html5-parser`](https://pypi.org/project/html5-parser/) with `lxml` works.
+- 05 Jan 2026. The [accesskey](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/accesskey) attribute works a bit like magic. Adding an `accesskey="h"` on a home page link, or an `accesskey="t"` on a theme toggle button automatically enables keyboard shortcuts Alt+H or Alt+T to activate them. (Varies by browser and OS, but hovering shows the shortcut!)
+- 04 Jan 2026. Familiarity and recency feel like learning but they're not. Instead: Take tests. Review (spaced repetition). Interleave learning. That's what helps. [Claude](https://claude.ai/public/artifacts/8e5076f4-84c9-497a-ad38-d5654ae3f3b4)
+  - [Make It Stick (Peter C. Brown, 2014)](https://www.goodreads.com/book/show/18770267-make-it-stick)
+  - [A Mind for Numbers (Barbara Oakley, 2014)](https://www.goodreads.com/book/show/18693655-a-mind-for-numbers)
+  - [Ultralearning (Scott Young, 2019)](https://www.goodreads.com/book/show/44770129-ultralearning)
+  - [How to Take Smart Notes (Sönke Ahrens, 2017)](https://www.goodreads.com/book/show/34507927-how-to-take-smart-notes)
 - 03 Jan 2026. A bunch of new CLI tools I found via [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) that I'm likely to use.
   - [fselect 4,374 ⭐ Dec 2025](https://github.com/jhspetersson/fselect) - Find files with SQL-like queries. `mise x ubi:jhspetersson/fselect -- fselect 'path, name, size from . WHERE name = "*.md" AND size < 1000'`
   - [git-standup 7,805 ⭐ Jul 2025](https://github.com/kamranahmedse/git-standup) - Recall what you did on the last working day. `npm install -g git-standup && git standup`
@@ -23,8 +71,8 @@
   - [beets 14,504 ⭐ Jan 2026](https://github.com/beetbox/beets) - Music library manager and tagger. `uvx --python 3.12 --from beets beet import /path/to/music`
   - [slides 11,065 ⭐ Aug 2024](https://github.com/maaslalani/slides) - A markdown presentation tool.
   - [gotty 19,285 ⭐ Aug 2024](https://github.com/yudai/gotty) - Share your terminal as a web application.
-- 02 Jan 2025. The [day-fine](https://en.wikipedia.org/wiki/Day-fine) system fines people by severity of crime (# of days) and their income (daily disposable income). Finland, Sweden, Germany use it. It's equal deterrence and more state tax, but needs good data & enforcement, cultural acceptance, and similar income streams (income vs assets, salary vs freelance, ...) [Claude](https://claude.ai/share/9a60014a-83a2-431e-997f-866cb00fb2a8)
-- 01 Jan 2025. Modern HTML has a _huge_ number of of useful attributes and some elements I knew little about. Most of these improve the user experience, especially on mobile devices.
+- 02 Jan 2026. The [day-fine](https://en.wikipedia.org/wiki/Day-fine) system fines people by severity of crime (# of days) and their income (daily disposable income). Finland, Sweden, Germany use it. It's equal deterrence and more state tax, but needs good data & enforcement, cultural acceptance, and similar income streams (income vs assets, salary vs freelance, ...) [Claude](https://claude.ai/share/9a60014a-83a2-431e-997f-866cb00fb2a8)
+- 01 Jan 2026. Modern HTML has a _huge_ number of of useful attributes and some elements I knew little about. Most of these improve the user experience, especially on mobile devices.
   - Add [`popover` and `popovertarget=`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/popover) to associate elements with popovers. This can replace tooltips, dropdowns, menus, toasts, etc.
   - Add [`formmethod="dialog"`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/submit#formmethod) to forms inside `<dialog>` elements to close the dialog instead of submitting.
   - Add [`name=`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details#name) attribute to details for accordion-like behavior
@@ -46,9 +94,9 @@
   - [`<progress>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/progress): for displaying progress of a task. Similar to meter but indicates progress rather than a static value.
   - [`<track kind="captions">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track#kind): for adding captions/subtitles to `<video>` elements.
   - [`<data value="...">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data): to capture values in a more query-able way than `data-*` attributes.
-- 01 Jan 2025. [Grok Voice Agent API](https://x.ai/news/grok-voice-agent-api) tops the [speech-to-speech](https://artificialanalysis.ai/models/speech-to-speech) quality benchmark and is pretty cheap at 5c/min ($3/hr).
-- 01 Jan 2025. [The Collider Bias](https://gemini.google.com/share/d8c33648317f): when you analyze a subset, you can get wrong correlations. For example, analyzing top performers can show that performance drops with time - whereas, if you pick everyone, performance improves with time. It's similar to the [Simpson's Paradox](https://en.wikipedia.org/wiki/Simpson%27s_paradox): combining groups can reverse trends. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3majpxwyivs24)
-- 01 Jan 2025. [fresh](https://github.com/sinelaw/fresh) is a TUI text editor that I've replaced [`micro`](https://github.com/zyedidia/micro) with (for now). It has menus and mouse support which shrinks the learning curve. It's also a single Rust binary.
+- 01 Jan 2026. [Grok Voice Agent API](https://x.ai/news/grok-voice-agent-api) tops the [speech-to-speech](https://artificialanalysis.ai/models/speech-to-speech) quality benchmark and is pretty cheap at 5c/min ($3/hr).
+- 01 Jan 2026. [The Collider Bias](https://gemini.google.com/share/d8c33648317f): when you analyze a subset, you can get wrong correlations. For example, analyzing top performers can show that performance drops with time - whereas, if you pick everyone, performance improves with time. It's similar to the [Simpson's Paradox](https://en.wikipedia.org/wiki/Simpson%27s_paradox): combining groups can reverse trends. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3majpxwyivs24)
+- 01 Jan 2026. [fresh](https://github.com/sinelaw/fresh) is a TUI text editor that I've replaced [`micro`](https://github.com/zyedidia/micro) with (for now). It has menus and mouse support which shrinks the learning curve. It's also a single Rust binary.
 
 ## Dec 2025
 
@@ -2401,7 +2449,6 @@
 - 03 Jan 2025. [Matomo](https://matomo.org/), [PostHog](https://posthog.com/), [Umami](https://umami.is/) and [Plausible](https://plausible.io/) are open source web analytics tools (like Google Analytics).
 - 03 Jan 2025. [Redash](https://redash.io/) and [Metabase](https://www.metabase.com/) are new open source data visualization tools sitting alongside [Grafana](https://grafana.com/) and [Apache Superset](https://superset.apache.org/).
   - Redash feels too clunky / enterprise-y rather than open-source-y.
-  -
 - 03 Jan 2025. From [Ego is the enemy](https://www.goodreads.com/book/show/27036528-ego-is-the-enemy):
   - Add a daily habit to understand your ego. Where and how is it showing up? How are you fooling yourself? Where are you fighting battles without knowing the war?
   - Speak less. Do more. E.g. Release more, blog less. Review, THEN publish.
@@ -2466,7 +2513,6 @@
   - [Full (strict)](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full-strict/): Similar to Full Mode, but with validation.
   - [Strict (SSL-Only Origin Pull)](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/ssl-only-origin-pull/): Cloudflare always connects to the origin over HTTPS with certificate validation.
   - Getting this wrong can lead to a [HTTP 526: invalid SSL certificate](https://developers.cloudflare.com/support/troubleshooting/cloudflare-errors/troubleshooting-cloudflare-5xx-errors/#error-526-invalid-ssl-certificate)
-  -
 - 22 Dec 2024. [aspose-words](https://pypi.org/project/aspose-words/) is a Python library that converts documents with many formats (Word, RTF, PDF, HTML, Markdown, EPUB, etc.)
 - 22 Dec 2024. Discourse does not support searching across multiple forums. Instead, search for the term in all forums. [Example](https://discourse.onlinedegree.iitm.ac.in/search?q=TDS). Then scroll through the results. Then, in the console, hide the ones you don't want. Example:
   - Hide posts that are not in the "Tools in Data Science" category: `$(".badge-category__name").filter(d => d.textContent == "Tools in Data Science").map(d => d.closest(".fps-result")).filter(d => d).forEach(d => d.style.display = "none")`

@@ -2,6 +2,11 @@
 
 Descriptions of apps I felt would be interesting or useful to build (or find).
 
+## Jan 2025
+
+- [ ] 07 Jan 2025. Live transcription and Q&A for meetings
+- [ ] 05 Jan 2025. When asked to reproduce an image, how well do Nano Banana, GPT Image 1, etc. reproduce the original image? Evaluate the difference using multiple metrics (e.g. MS-SSIM, SSIMULACRA2, Butteraugli, FLIP, LPIPS, etc.) Identify which metric best aligns with human perception and which model performs best against each metric.
+
 ## Dec 2025
 
 - [ ] 24 Dec 2025. OlmoEarth insights. Which region in Bangalore became urbanized fastest?
