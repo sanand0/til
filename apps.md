@@ -4,8 +4,15 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 
 ## Jan 2025
 
+- [ ] 16 Jan 2026. Predict price movement based on ticket sales data (e.g. TicketMasters)
+- [ ] 16 Jan 2026. Understand how students taking a Python course submit solutions and how to teach them better
+- [x] 16 Jan 2026. Explore OlmoEarth correlations and similarities of phrases grid by grid and how that varies by city
+- [ ] 15 Jan 2026. Use a local model to transcribe all Dilbert strips - along with who said what by panel and who's in each panel
+- [ ] 14 Jan 2026. Build an interactive text adventure game that can teach a concept
+- [ ] 14 Jan 2026. Use GemmaScope to explore the neural activations on various inputs
+- [ ] 12 Jan 2026. Analyze the [Metaculus](https://www.metaculus.com/api/) feeds for context-specific insights and generate feeds. And/or [Manifold Markets](https://docs.manifold.markets/api)
 - [ ] 07 Jan 2025. Live transcription and Q&A for meetings
-- [ ] 05 Jan 2025. When asked to reproduce an image, how well do Nano Banana, GPT Image 1, etc. reproduce the original image? Evaluate the difference using multiple metrics (e.g. MS-SSIM, SSIMULACRA2, Butteraugli, FLIP, LPIPS, etc.) Identify which metric best aligns with human perception and which model performs best against each metric.
+- [x] 05 Jan 2025. When asked to reproduce an image, how well do Nano Banana, GPT Image 1, etc. reproduce the original image? Evaluate the difference using multiple metrics (e.g. MS-SSIM, SSIMULACRA2, Butteraugli, FLIP, LPIPS, etc.) Identify which metric best aligns with human perception and which model performs best against each metric.
 
 ## Dec 2025
 

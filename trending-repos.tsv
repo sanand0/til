@@ -1,3 +1,74 @@
+🟣	RS	    5793	    38	2026-01-18	ai-dynamo/dynamo	A Datacenter Scale Distributed Inference Serving Framework
+🟣	RS	     780	   284	2026-01-18	mikeyobrien/ralph-orchestrator	An improved implementation of the Ralph Wiggum technique for autonomous AI agent orchestration
+🟣	GO	    1741	   101	2026-01-18	maximhq/bifrost	Fastest LLM gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.
+🟣	GO	   23453	   214	2026-01-18	cilium/cilium	eBPF-based Networking, Security, and Observability
+🟣	GO	   11997	    74	2026-01-18	coder/coder	Secure environments for developers and their agents
+🟣	GO	   10976	   132	2026-01-18	gotenberg/gotenberg	A developer-friendly API for converting numerous document formats into PDF files, and more!
+🟣	GO	    2861	   150	2026-01-18	vllm-project/semantic-router	System Level Intelligent Router for Mixture-of-Models at Cloud, Data Center and Edge
+🟣	PY	    2685	    60	2026-01-18	google-agentic-commerce/AP2	Building a Secure and Interoperable Future for AI-Driven Payments.
+🟣	PY	    2962	   133	2026-01-18	Lightricks/ComfyUI-LTXVideo	LTX-Video Support for ComfyUI
+🟣	PY	   11002	  1794	2026-01-18	Free-TV/IPTV	M3U Playlist for free TV channels
+🟣	PY	    5235	  1098	2026-01-18	MiroMindAI/MiroThinker	MiroThinker is an open source deep research agent optimized for research and prediction. It achieves a 60.2% Avg@8 score on the challenging GAIA benchmark.
+🟣	PY	   20788	  3447	2026-01-18	ComposioHQ/awesome-claude-skills	A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
+🟣	PY	    4812	   669	2026-01-18	NevaMind-AI/memU	Memory infrastructure for LLMs and AI agents
+🟣	PY	    4543	   216	2026-01-18	neuphonic/neutts	On-device TTS model by Neuphonic
+🟣	TS	    4965	  1281	2026-01-18	iOfficeAI/AionUi	Free, local, open-source Cowork for Gemini CLI, Claude Code, Codex, Opencode, Qwen Code, Goose Cli, Auggie, and more | 🌟 Star if you like it!
+🟣	TS	    7241	   836	2026-01-18	virattt/dexter	An autonomous agent for deep financial research
+🟣	TS	    8748	  5547	2026-01-18	eigent-ai/eigent	Eigent: The Open Source Cowork Desktop to Unlock Your Exceptional Productivity.
+🟣	TS	   17349	    60	2026-01-18	elizaOS/eliza	Autonomous agents for everyone
+🟣	TS	   14173	   267	2026-01-18	Kilo-Org/kilocode	Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent. #1 on OpenRouter. 750k+ Kilo Coders. 6.1 trillion tokens/month.
+🟣	TS	   24423	   695	2026-01-18	onlook-dev/onlook	The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI
+🟣	TS	   11422	   960	2026-01-18	puckeditor/puck	The visual editor for React with AI superpowers
+🟣	JS	     168	    31	2026-01-18	anomalyco/opencode-anthropic-auth	
+🟣	SH	    1220	   184	2026-01-18	Gentleman-Programming/Gentleman.Dots	My personal configuration for LazyVim !
+🟣	SH	    2660	    24	2026-01-18	ophub/amlogic-s9xxx-openwrt	Supports running OpenWrt on Amlogic, Allwinner, and Rockchip devices. Support a311d, s922x, s905x3, s905x2, s912, s905d, s905x, s905w, s905, s905l, rk3588, rk3568, rk3399, rk3328, h6, etc.
+🟣	RS	    1039	    45	2026-01-12	nekename/OpenDeck	Linux software for the Stream Deck with support for original Elgato Stream Deck plugins
+🟣	RS	    9115	   235	2026-01-12	get-convex/convex-backend	The open-source reactive database for app developers
+🟣	RS	    8577	   539	2026-01-12	embassy-rs/embassy	Modern embedded framework, using Rust and async.
+🟣	RS	   12201	  1587	2026-01-12	memvid/memvid	Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.
+🟢	RS	   22948	   238	2026-01-12	jdx/mise	dev tools, env vars, task runner
+🟣	RS	   29495	    87	2026-01-12	vercel/turborepo	Build system optimized for JavaScript and TypeScript, written in Rust
+🟣	RS	   21086	    61	2026-01-12	vectordotdev/vector	A high-performance observability data pipeline.
+🟣	RS	   23374	   181	2026-01-12	wezterm/wezterm	A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust
+🟣	GO	    2884	    49	2026-01-12	Project-HAMi/HAMi	Heterogeneous AI Computing Virtualization Middleware(Project under CNCF)
+🟣	GO	    9761	  1579	2026-01-12	steveyegge/beads	Beads - A memory upgrade for your coding agent
+🟣	GO	   13727	    17	2026-01-12	coredns/coredns	CoreDNS is a DNS server that chains plugins
+🟣	GO	   17664	   905	2026-01-12	charmbracelet/crush	The glamourous AI coding agent for your favourite terminal 💘
+🟣	GO	   25419	    32	2026-01-12	dapr/dapr	Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration.
+🟣	GO	   11164	    94	2026-01-12	AlexxIT/go2rtc	Ultimate camera streaming application with support RTSP, RTMP, HTTP-FLV, WebRTC, MSE, HLS, MP4, MJPEG, HomeKit, FFmpeg, etc.
+🟣	GO	   62171	   150	2026-01-12	prometheus/prometheus	The Prometheus monitoring system and time series database.
+🟣	PY	   25666	  1187	2026-01-12	microsoft/BitNet	Official inference framework for 1-bit LLMs
+🟣	PY	   28270	   191	2026-01-12	OpenBMB/ChatDev	ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration
+🟣	PY	    7247	   384	2026-01-12	LuckyOne7777/ChatGPT-Micro-Cap-Experiment	This repo powers my experiment where ChatGPT manages a real-money micro-cap stock portfolio.
+🟣	PY	   58310	  1503	2026-01-12	OpenBB-finance/OpenBB	Financial data platform for analysts, quants and AI agents.
+🟣	PY	    5260	   694	2026-01-12	VectifyAI/PageIndex	📑 PageIndex: Document Index for Reasoning-based RAG
+🟣	PY	    2424	   758	2026-01-12	HKUDS/VideoRAG	[KDD'2026] "VideoRAG: Chat with Your Videos"
+🟣	PY	    2583	   474	2026-01-12	gyoridavid/ai_agents_az
+🟣	PY	    4553	   701	2026-01-12	EveryInc/compound-engineering-plugin	Official Claude Code compound engineering plugin
+🟣	PY	   42568	   361	2026-01-12	crewAIInc/crewAI	Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
+🟣	PY	   10541	   999	2026-01-12	icloud-photos-downloader/icloud_photos_downloader	A command-line tool to download photos from iCloud
+🟣	PY	   18723	   167	2026-01-12	camel-ai/owl	🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation
+🟣	TS	   23093	  2212	2026-01-12	bytedance/UI-TARS-desktop	The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra
+🟣	TS	    5056	   482	2026-01-12	anthropics/claude-code-action
+🟣	TS	    5147	    24	2026-01-12	home-assistant/frontend	🍭 Frontend for Home Assistant
+🟣	TS	    9789	    82	2026-01-12	elie222/inbox-zero	The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.
+🟢	TS	   64192	 13823	2026-01-12	anomalyco/opencode	The open source coding agent.
+🟣	TS	    1382	   326	2026-01-12	numman-ali/opencode-openai-codex-auth	OAuth authentication plugin for personal coding assistance with ChatGPT Plus/Pro subscriptions - uses OpenAI's official authentication method
+🟣	TS	     739	    97	2026-01-12	vladmeer/polymarket-copy-trading-bot	Polymarket Copy Trading Bot. Polymarket trading bot. Polymarket Copy Trading Bot. Polymarket trading bot. Polymarket Copy Trading Bot. Polymarket trading bot. Polymarket Copy Trading Bot. Polymarket trading bot
+🟢	TS	   92771	   944	2026-01-12	tailwindlabs/tailwindcss	A utility-first CSS framework for rapid UI development.
+🟣	TS	   29460	  2268	2026-01-12	Lissy93/web-check	🕵️‍♂️ All-in-one OSINT tool for analysing any website
+🟣	JS	    2575	   336	2026-01-12	justlovemaki/AIClient-2-API	Simulates Gemini CLI, Antigravity, Qwen Code, and Kiro client requests, compatible with the OpenAI API. It supports thousands of Gemini model requests per day and offers free use of the built-in Claude model in Kiro. Easily connect to any client via the API, making AI development more efficient!
+🟣	JS	    5444	   155	2026-01-12	siteboon/claudecodeui	Use Claude Code, Cursor CLI or Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Code session and projects remotely
+🟣	JS	    1422	   342	2026-01-12	heyitsnoah/claudesidian
+🟣	JS	    7302	   353	2026-01-12	viarotel-org/escrcpy	📱 Display and control your Android device graphically with scrcpy.
+🟣	JS	   27219	   201	2026-01-12	fanmingming/live	✯ 可直连访问的电视/广播图标库与相关工具项目 ✯ 🔕 永久免费 直连访问 完整开源 不断完善的台标 支持IPv4/IPv6双栈访问 🔕
+🟣	JS	    5221	   569	2026-01-12	hotheadhacker/no-as-a-service	No-as-a-Service (NaaS) is a simple API that returns a random rejection reason. Use it when you need a realistic excuse, a fun “no,” or want to simulate being turned down in style.
+🟣	JS	    7577	  1106	2026-01-12	marcelscruz/public-apis	A collaborative list of public APIs for developers
+🟣	SH	    7934	   163	2026-01-12	HariSekhon/DevOps-Bash-tools	1000+ DevOps Bash Scripts - AWS, GCP, Kubernetes, Docker, CI/CD, APIs, SQL, PostgreSQL, MySQL, Hive, Impala, Kafka, Hadoop, Jenkins, GitHub, GitLab, BitBucket, Azure DevOps, TeamCity, Spotify, MP3, LDAP, Code/Build Linting, pkg mgmt for Linux, Mac, Python, Perl, Ruby, NodeJS, Golang, Advanced dotfiles: .bashrc, .vimrc, .gitconfig, .screenrc, tmux..
+🟢	SH	    6492	   189	2026-01-12	github/copilot-cli	GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal.
+🟣	SH	    4249	    48	2026-01-12	mylinuxforwork/dotfiles	The ML4W Dotfiles for Hyprland - An advanced and full-featured configuration for the dynamic tiling window manager Hyprland. Ready to install with the Dotfiles Installer app with setup scripts for Arch Linux (Fedora and openSuse with limitations).
+🟣	SH	    2010	   925	2026-01-12	frankbria/ralph-claude-code	Autonomous AI development loop for Claude Code with intelligent exit detection
+🟣	SH	   18250	  2878	2026-01-12	obra/superpowers	Claude Code superpowers: core skills library
 🔴	TS	  123809	  1608	2025-12-28	langgenius/dify	Production-ready platform for agentic workflow development.	Too heavy
 🟣	TS	   99636	  1340	2025-11-12	iptv-org/iptv	Collection of publicly available IPTV channels from all over the world
 🟣	TS	   87792	    83	2025-09-23	storybookjs/storybook	Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation
