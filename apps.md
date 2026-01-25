@@ -4,11 +4,14 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 
 ## Jan 2025
 
-- [ ] 16 Jan 2026. Predict price movement based on ticket sales data (e.g. TicketMasters)
+- [ ] 23 Jan 2026. Show how cheap local image generation (e.g. Flux 2 Klein) cna be used. Images for blog archives. Large scale style edits. Product variations (e.g. different angle). Large scale redaction of faces, names, etc. Visual feedback for student homework in bulk.
+- [ ] 22 Jan 2026. Create an animated scrollytelling map biography of a person in an Amar Chitra Katha-like visual style. Pick personal story + locally famous person + globally famous person, visits of a leader, migrations of people, spread of crops / disease / trojans, ...
+- [ ] 22 Jan 2026. Open Food Facts: How are ingredients of Nutella (or anything else) different across countries?
+- [x] 16 Jan 2026. Predict price movement based on ticket sales data (e.g. TicketMasters)
 - [ ] 16 Jan 2026. Understand how students taking a Python course submit solutions and how to teach them better
 - [x] 16 Jan 2026. Explore OlmoEarth correlations and similarities of phrases grid by grid and how that varies by city
 - [ ] 15 Jan 2026. Use a local model to transcribe all Dilbert strips - along with who said what by panel and who's in each panel
-- [ ] 14 Jan 2026. Build an interactive text adventure game that can teach a concept
+- 14 Jan 2026. Build an interactive text adventure game that can teach a concept
 - [ ] 14 Jan 2026. Use GemmaScope to explore the neural activations on various inputs
 - [ ] 12 Jan 2026. Analyze the [Metaculus](https://www.metaculus.com/api/) feeds for context-specific insights and generate feeds. And/or [Manifold Markets](https://docs.manifold.markets/api)
 - [ ] 07 Jan 2025. Live transcription and Q&A for meetings
@@ -16,10 +19,10 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 
 ## Dec 2025
 
-- [ ] 24 Dec 2025. OlmoEarth insights. Which region in Bangalore became urbanized fastest?
+- [x] 24 Dec 2025. OlmoEarth insights. Which region in Bangalore became urbanized fastest? https://ritesh17rb.github.io/olmo-earth/
 - [x] 14 Dec 2025. Better SVG to doodle animation library. Convert to paths. Realistic speed.
 - [ ] 12 Dec 2025. Use SAM for game video analytics, e.g. football. Is a quarterback a mobile quarterback? Is a receiver running a deep route? Is a defender in man coverage? Use video segmentation to identify players, track them, and classify their roles and actions.
-- 01 Dec 2025. Write a script to use a vision model to evaluate (with reasons) the SVGs rendered by the [LLM SVG Generation Benchmark](https://gally.net/temp/20251107pelican-alternatives/index.html) and identify (a) which LLM-as-a-judge vision most aligns with humans and (b) which LLM generates the best SVGs. This requires a human to critically evaluate the SVGs, which is best done over a call, like an interview, with an eloquent, critical artist.
+- [ ] 01 Dec 2025. Write a script to use a vision model to evaluate (with reasons) the SVGs rendered by the [LLM SVG Generation Benchmark](https://gally.net/temp/20251107pelican-alternatives/index.html) and identify (a) which LLM-as-a-judge vision most aligns with humans and (b) which LLM generates the best SVGs. This requires a human to critically evaluate the SVGs, which is best done over a call, like an interview, with an eloquent, critical artist.
 
 ## Oct 2025
 

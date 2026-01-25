@@ -2,6 +2,9 @@
 
 ## Jan 2026
 
+- 25 Jan 2026. DeepSeek created an external memory system for LLMs that lets them look up (instead of computing to remember) knowledge. That means CPU RAM can be used instead of GPU, models can become smaller, and training can become faster. This looks like an example of how algorithms/ideas can continue the scaling laws. [Gemini](https://gemini.google.com/share/a94760cc5e2e) via [Jeremy Howard](https://bsky.app/profile/eugenevinitsky.bsky.social/post/3mcap4nt5ms2g)
+- 24 Jan 2026. We are starting to talk like LLMs. [Empirical evidence of Large Language Model's influence on human spoken communication](https://gemini.google.com/share/fa763d406046)
+- 20 Jan 2026. [Portkey Models](https://github.com/portkey-ai/models) is a repo of model related data (e.g. price, max tokens, capabilities, etc.) for a large number of models. Somewhat similar to Simon Willison's [LLM Prices](https://github.com/simonw/llm-prices).
 - 09 Jan 2025. [CLIProxyAPI](https://help.router-for.me/) seems a good way to allow any CLI coding agent (Codex, Claude Code, etc.) to work with any provider (e.g. Gemini, OpenRouter, etc.) The documentation needs a few more examples, but it's usable.
   - `mise x ubi:router-for-me/CLIProxyAPI -- cli-proxy-api` starts a local server that proxies requests.
   - Create a [`config.yaml`](https://help.router-for.me/configuration/basic.html), update the keys, and configure your coding agent, e.g. [Codex](https://help.router-for.me/agent-client/codex.html) to use it.

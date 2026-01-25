@@ -1,5 +1,13 @@
 # TDS Jan 2026
 
+## Instrumentation
+
+- Track "Ask AI" clicks. GoatCounter?
+- Track engagement + performance
+  - Identify concept gaps
+- Ask AI: Add a data-prompt="longer detailed prompt" that's sent
+- Project Milestones! #TODO
+
 ## Prompt patterns
 
 - What problem does this solve?

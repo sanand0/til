@@ -1,3 +1,33 @@
+🟣	RS	    5171	  1313	2026-01-25	datahaven-xyz/datahaven	An EVM compatible Substrate chain, powered by StorageHub and secured by EigenLayer
+🟣	RS	    9588	   331	2026-01-25	Automattic/harper	Offline, privacy-first grammar checker. Fast, open-source, Rust-powered
+🟣	RS	    6659	   104	2026-01-25	jtroo/kanata	Improve keyboard comfort and usability with advanced customization
+🟣	RS	   37961	   159	2026-01-25	lapce/lapce	Lightning-fast and Powerful Code Editor written in Rust
+🟣	RS	   12426	    40	2026-01-25	web-infra-dev/rspack	The fast Rust-based JavaScript bundler with webpack-compatible API 🦀️
+🟣	RS	    1553	   341	2026-01-25	max-sixty/worktrunk	Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows
+🟣	GO	     784	    80	2026-01-25	kubernetes-sigs/agent-sandbox	agent-sandbox enables easy management of isolated, stateful, singleton workloads, ideal for use cases like AI agent runtimes.
+🟣	GO	    4588	    57	2026-01-25	vllm-project/aibrix	Cost-efficient and pluggable Infrastructure components for GenAI inference
+🟣	GO	   26263	   270	2026-01-25	github/github-mcp-server	GitHub's official MCP Server
+🟣	GO	   27788	   112	2026-01-25	micro-editor/micro	A modern and intuitive terminal-based text editor
+🟣	GO	    9233	    28	2026-01-25	gruntwork-io/terragrunt	Terragrunt is a flexible orchestration tool that allows Infrastructure as Code written in OpenTofu/Terraform to scale.
+🟣	GO	   39643	    47	2026-01-25	pingcap/tidb	TiDB - the open-source, cloud-native, distributed SQL database designed for modern applications.
+🟣	PY	    3489	   912	2026-01-25	OpenBMB/UltraRAG	UltraRAG v3: A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines
+🟣	PY	    5498	  1763	2026-01-25	OpenBMB/VoxCPM	VoxCPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning
+🟣	PY	   21722	   961	2026-01-25	hesreallyhim/awesome-claude-code	A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic
+🟣	PY	    1342	   571	2026-01-25	alirezarezvani/claude-skills	A Collection of Skills for Claude Code and Claude AI for real-world Usage. Including Claude Code Subagents, Claude Code Commnads
+🟣	PY	   51381	   838	2026-01-25	xai-org/grok-1	Grok open release
+🟣	PY	   36400	   163	2026-01-25	ManimCommunity/manim	A community-maintained Python framework for creating mathematical animations.
+🟣	TS	   43368	  1041	2026-01-25	upstash/context7	Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors
+🟣	TS	   29653	  3712	2026-01-25	remotion-dev/remotion	🎥 Make videos programmatically with React
+🟣	TS	    5020	  3005	2026-01-25	tambo-ai/tambo	Generative UI SDK for React
+🟣	JS	    4698	  1042	2026-01-25	liyupi/ai-guide	程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享大模型选择指南（DeepSeek / GPT / Gemini / Claude）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（RAG / MCP / A2A）、AI 编程技巧、AI 工具用法（Cursor / Claude Code / TRAE / Lovable / Agent Skills）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档版本，已升级为鱼皮 AI 导航网站
+🟣	JS	   59808	   130	2026-01-25	jquery/jquery	jQuery JavaScript Library
+🟣	JS	   46950	    21	2026-01-25	serverless/serverless	⚡ Serverless Framework – Effortlessly build apps that auto-scale, incur zero costs when idle, and require minimal maintenance using AWS Lambda and other managed cloud services.
+🟣	JS	    1124	    75	2026-01-25	kagisearch/smallweb	Kagi Small Web
+🟣	SH	    1744	    55	2026-01-25	xiv3r/Burpsuite-Professional	Burpsuite Professional Latest Version 2026
+🟣	SH	    3920	    72	2026-01-25	wnlen/clash-for-linux	🐧 在 Linux 上提供一套完整的 Clash / Mihomo（Clash Meta） 代理与管理面板
+🟣	SH	    2323	    32	2026-01-25	alexbelgium/hassio-addons	My homeassistant addons
+🟣	SH	    4716	    34	2026-01-25	ChrisTitusTech/linutil	Chris Titus Tech's Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
+🟣	SH	    3286	   683	2026-01-25	tobi/try	fresh directories for every vibe
 🟣	RS	    5793	    38	2026-01-18	ai-dynamo/dynamo	A Datacenter Scale Distributed Inference Serving Framework
 🟣	RS	     780	   284	2026-01-18	mikeyobrien/ralph-orchestrator	An improved implementation of the Ralph Wiggum technique for autonomous AI agent orchestration
 🟣	GO	    1741	   101	2026-01-18	maximhq/bifrost	Fastest LLM gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.

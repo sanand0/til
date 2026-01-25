@@ -2,6 +2,35 @@
 
 ## Jan 2026
 
+- 25 Jan 2026. [Bollywood Falls Out Of Love](https://kontinentalist.com/stories/bollywood-falls-out-of-love) is a great visual data story on [The Kontinentalist](https://kontinentalist.com/) by [Surbhi](https://www.linkedin.com/in/surbhi-bhatia/) about the decline of romance and growth of nationalism on bollywood genres.
+- 25 Jan 2026. [Recharts](https://recharts.github.io/) is a React charting library with some [slick capabilities](https://recharts.github.io/en-US/examples/) like [brushing](https://recharts.github.io/en-US/storybook/), [customizable tooltips](https://recharts.github.io/en-US/storybook/), and [bar chart races](https://www.dataforindia.com/population-growth/). Via [Rukmini](https://www.linkedin.com/in/rukmini-s-553483b9/) - [Data for India](https://www.dataforindia.com/)
+- 24 Jan 2026. [POSSE](https://indieweb.org/POSSE) - "Publish (on your) Own Site, Share Everywhere" - is a self-explanatory content sharing approach. [1 minute video introduction](https://www.youtube.com/watch?v=X3SrZuH00GQ&t=835s). Alternatives are:
+  - [COPE](https://web.archive.org/web/20140517203502/http://www.programmableweb.com/news/cope-create-once-publish-everywhere/2009/10/13): Create once, publish everywhere.
+  - [POSE](https://indieweb.org/POSE): Publish once, syndicate everywhere.
+  - [PESOS](https://indieweb.org/PESOS): Publish elsewhere, syndicate to own site.
+  - [PESETAS](https://indieweb.org/PESETAS): Publish elsewhere, syndicate everything to a silo (one of the "elsewhere"s).
+- 24 Jan 2026. Cory Doctorow's essay on [how Google will use AI against shoppers](https://pluralistic.net/2026/01/21/cod-marxism/) is a great lesson on several lessons in behavioral economics. Fighting it is hard, but here is generally good advice: [ChatGPT](https://chatgpt.com/share/69746734-a770-8003-ae4a-3168fd4428ae)
+  - Never buy when rushed.
+  - Set a max price.
+  - Compare 2+ options (TOTAL price) early.
+  - Shop logged-out for big purchases.
+- 24 Jan 2025. We reject opposite world views. It's too much effort. But exposure reduces effort and can let us see things from other points of view. So expose yourself to difficult alternative perspectives. [Gemini](https://gemini.google.com/share/0a567488cc7a)
+- 24 Jan 2026. [Vortex](https://github.com/vortex-data/vortex) is supported by [DuckDB](https://duckdb.org/2026/01/23/duckdb-vortex-extension). It's a better format than parquet for analysis and querying remotely. [Gemini](https://gemini.google.com/share/f83ec3ef584a)
+- 24 Jan 2026. Research suggests that insight emerges when we struggle with a problem, get stuck, then DISENGAGE (to inhibit distractions). EEGs can predict insight ~8 seconds before it happens using this pattern. [Gemini](https://www.s-anand.net/blog/notes/gemini-neuroscience-of-aha-moments/)
+  - Books that have suggested this are:
+    - [The Art of Thought (1926)](https://www.goodreads.com/book/show/17226604-the-art-of-thought)
+    - [The Act of Creation (1964)](https://www.goodreads.com/book/show/30676.The_Act_of_Creation)
+    - [The Inner Game of Tennis (1974)](https://www.goodreads.com/book/show/905.The_Inner_Game_of_Tennis)
+    - [Hare Brain, Toroise Mind (1997)](https://www.goodreads.com/book/show/599317.Hare_Brain_Tortoise_Mind)
+    - [Taoism's Wu Wei](https://en.wikipedia.org/wiki/Wu_wei): "muddy water, let stand, becomes clear"
+    - [Zen Koans](https://en.wikipedia.org/wiki/Koan): giving students impossible riddles
+  - Books that have argued (probably incorrectly) that an impasse is a signal to push harder, not step back, are:
+    - [The Protestant Ethic and the Spirit of Capitalism (1905)](https://www.goodreads.com/book/show/74176.The_Protestant_Ethic_and_the_Spirit_of_Capitalism) by Max Weber, [Edison's 99% perspiration quote](https://quoteinvestigator.com/2012/12/14/genius-ratio/)
+    - [The 10X Rule (2011)](https://www.goodreads.com/book/show/10339170-the-10x-rule)
+    - [Grit (2016)](https://www.goodreads.com/book/show/27213329-grit)
+    - [Can't Hurt Me (2018)](https://www.goodreads.com/book/show/41721428-can-t-hurt-me)
+- 22 Jan 2026. [Email support for animated AVIF is limited](https://www.caniemail.com/features/image-avif/). Though it's perhaps the best compression format, and Apple Mail supports it well, Outlook on Windows does not support it. GMail converts it to GIF. Also, Google Groups does not yet support it. When I sent an [animated AVIF](https://files.s-anand.net/images/2026-01-20-gemini-scraper-add-bookmarklet.avif) in a Google Group email, it was replaced by the content proxy to [this nonexistent URL](https://ci5.googleusercontent.com/proxy/IczfXXBzWZpSMU4zGPAy7i2QIiloAnCy9P2rvA4PX6CZU8m1-ZZP_2CBDN9oySrlTgm4lsNEKDbFsSwIDMcPm-C9k2iLSYTaPQnedmoaglIGOgI9R9l-AjGd_Ms7taUaerE=s0-d-e1-ft#https://files.s-anand.net/images/2026-01-20-gemini-scraper-add-bookmarklet.avif).
+- 18 Jan 2026. [git-filter-repo](https://github.com/newren/git-filter-repo) is a _surprisingly_ easy way to rewrite your git history to remove specific files (e.g. large files, sensitive files). It can preserve timestamps, messages, etc. It just filters out specific files as if they were never committed. This can reduce the size of repos dramatically.
 - 17 Jan 2026. [Vulture](https://pypi.org/project/vulture) is a neat library that funds unused Python code. `uvx vulture script.py` works fairly well, out-of-box. This helps when cleaning up AI-edited scripts that often have left-over code or imports.
 - 13 Jan 2026. One of the lightest alternatives to Google Analytics is [GoatCounter](https://goatcounter.com/). If you just want page views, referrers, browsers, OSes, countries, and devices, it's great. It's privacy-friendly (no cookies), open source, easy to self-host, free for small sites, and the data is exportable.
 - 13 Jan 2026. The number of countries that allow visa-free entries to Indian passports is gently growing in Asia (Kazakhstan, Thailand, Sri Lanka, Malaysia, Iran, and Philippines).
@@ -572,7 +601,7 @@
   - Acknowledge luck, good or bad. Leverage serendipity
 - 25 Dec 2025. Notes from [awesome-npm](https://github.com/sindresorhus/awesome-npm) [#](https://chatgpt.com/c/694cb4a1-786c-8321-b8e0-2fd58d545480)
   - `npm run command --silent` suppresses npm output, only shows script output.
-  - `npm start` and `npm test` are the conventions to run the app / server and test. Use more.
+  - `npm start` and `npm test` are the conventions to run the app / server and test. Use these more.
   - `npx --package=node-bin@6.2.0 -- node --version` lets you run any node version without nvm, etc.
   - `npm link` installs package in the current directory as a global. You can link to it from any other package via `npm link <dirname>`.
   - `npm install owner/repo` installs directly from GitHub.
@@ -1001,7 +1030,7 @@
 - 04 Sep 2025. [gitingest](http://gitingest.com/) has a [CLI](https://github.com/coderamp-labs/gitingest). `uvx gitingest https://github.com/owner/repo` fetches the code in the Git repo suitable for passing to an LLM.
 - 03 Sep 2025. You can use the `<script>` tag in XML to render RSS, as an alternative to XSLT. [Jake Archibald](https://jakearchibald.com/2025/making-xml-human-readable-without-xslt/)
 - 03 Sep 2025. [`browser-fs-access`](https://www.npmjs.com/package/browser-fs-access) is a ponyfill for the [File System Access API](https://wicg.github.io/file-system-access/) and should be the go-to approach for reading and saving files via the browser.
-- 01 Sep 2025. To run a Python project directly from GitHub, use `uvx --from "git+https://github.com/owner/repo.git@branch" script-name`
+- 01 Sep 2025. ⭐ To run a Python project directly from GitHub, use `uvx --from "git+https://github.com/owner/repo.git@branch" script-name`
 - 01 Sep 2025. [Github1s](https://github.com/conwnet/github1s) is a cool tool. Replace `github.com` with `github1s.com` to get a VS Code page that opens that repo. It's fast and very useful to browser repos. For example, <https://github1s.com/sanand0/tools-in-data-science-public> is my TDS course repo.
 
 ## Aug 2025
