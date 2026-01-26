@@ -2,6 +2,11 @@
 
 ## Jan 2026
 
+- 25 Jan 2026. [Qwen3 TTS](https://github.com/QwenLM/Qwen3-TTS) is impressive. It voice-clones, streams, and the tone/style can be controlled via prompts. The model is small. I ran it locally without `flash-attn` (which I couldn't get to work) and took ~14 seconds to generate an audio file for 10 words on my GPU machine. Environment setup:
+  ```bash
+  uv venv --python 3.12
+  UV_TORCH_BACKEND=auto uv pip install -U qwen-tts
+  ```
 - 25 Jan 2026. DeepSeek created an external memory system for LLMs that lets them look up (instead of computing to remember) knowledge. That means CPU RAM can be used instead of GPU, models can become smaller, and training can become faster. This looks like an example of how algorithms/ideas can continue the scaling laws. [Gemini](https://gemini.google.com/share/a94760cc5e2e) via [Jeremy Howard](https://bsky.app/profile/eugenevinitsky.bsky.social/post/3mcap4nt5ms2g)
 - 24 Jan 2026. We are starting to talk like LLMs. [Empirical evidence of Large Language Model's influence on human spoken communication](https://gemini.google.com/share/fa763d406046)
 - 20 Jan 2026. [Portkey Models](https://github.com/portkey-ai/models) is a repo of model related data (e.g. price, max tokens, capabilities, etc.) for a large number of models. Somewhat similar to Simon Willison's [LLM Prices](https://github.com/simonw/llm-prices).

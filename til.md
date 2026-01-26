@@ -2,6 +2,19 @@
 
 ## Jan 2026
 
+- 25 Jan 2026. After 30 years of learning (and teaching) statistics, I finally found a good explanation of R². R²=80% means that ~80% of the change is because of the other variable. [Gemini](https://gemini.google.com/share/f3dfa6cfaf89)
+- 25 Jan 2026. ⭐ People think numbers create trust; often they create attack surfaces.
+  - Goodhart's Law: "When a measure becomes a target, it ceases to be a good measure." By providing a number, you invite people to "game" the system or find the flaws in how that number was manufactured.
+  - The Precision Trap: While precise numbers can increase _perceived_ credibility initially, they also lead to "anchoring." If the number is even slightly off, the entire foundation of trust collapses more violently than it would for a general estimate.
+  - Statistical Literacy Gap: Most people don't argue with "vibes," but many will argue with "averages" if their personal experience represents an outlier. The number creates a surface for anecdotal rebuttal.
+- 25 Jan 2026. [Eraser.io](https://www.eraser.io/) offers an [AI architecture diagram generator](https://www.eraser.io/ai/architecture-diagram-generator) that creates reasonable architectures. It uses its own [diagram-as-code DSL](https://www.eraser.io/guides/best-diagram-as-code-tools-in-2025), competing with [D2](https://d2lang.com/), [PlantUML](https://plantuml.com/), [Mermaid](https://mermaid-js.github.io/),
+- 25 Jan 2026. Exposing your workflow as a software interface productizes services businesses. For example, my auditors and immigration lawyers have portals where I can fill out forms, upload documents, see my status, etc. This standardizes their delivery, and creates a "product" moat.
+- 25 Jan 2026. ⭐ Your "villains" or enemies are often alternatives/backups that have a role in the ecosystem, offering diversity/resilience when you're wrong. Create roles and incentives for them rather than eliminating them. For example:
+  - Don't make LLMs do all the work. Create a role for the clunky SQL whose resilience saves the day when LLMs hallucinate.
+  - Make the person who hates your prototype the Red Team Lead - to catch the flaws you miss.
+  - Make the people who reject your product the scouts / innovators - to find alternatives you miss.
+- 25 Jan 2026. [Neon.com](https://neon.com) is like Supabase but without auth, functions, etc. It's just Postgres as a service. An alternative for prototypes (that I haven't tried yet.) [ChatGPT](https://chatgpt.com/share/69763727-0628-8003-9a99-896a055a8b6e)
+- 25 Jan 2026. [SuperTokens](https://supertokens.com/) is an open-source self-hosted auth service that I'm hearing about more often, but haven't tested. Seems to be ahead of alternatives like [Auth.js](https://authjs.dev/) / [Better Auth](https://www.better-auth.com/). [ChatGPT](https://chatgpt.com/share/69763779-9150-8003-bb9f-081685c99dc2)
 - 25 Jan 2026. [Bollywood Falls Out Of Love](https://kontinentalist.com/stories/bollywood-falls-out-of-love) is a great visual data story on [The Kontinentalist](https://kontinentalist.com/) by [Surbhi](https://www.linkedin.com/in/surbhi-bhatia/) about the decline of romance and growth of nationalism on bollywood genres.
 - 25 Jan 2026. [Recharts](https://recharts.github.io/) is a React charting library with some [slick capabilities](https://recharts.github.io/en-US/examples/) like [brushing](https://recharts.github.io/en-US/storybook/), [customizable tooltips](https://recharts.github.io/en-US/storybook/), and [bar chart races](https://www.dataforindia.com/population-growth/). Via [Rukmini](https://www.linkedin.com/in/rukmini-s-553483b9/) - [Data for India](https://www.dataforindia.com/)
 - 24 Jan 2026. [POSSE](https://indieweb.org/POSSE) - "Publish (on your) Own Site, Share Everywhere" - is a self-explanatory content sharing approach. [1 minute video introduction](https://www.youtube.com/watch?v=X3SrZuH00GQ&t=835s). Alternatives are:
