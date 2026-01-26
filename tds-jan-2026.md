@@ -2,11 +2,26 @@
 
 ## Instrumentation
 
-- Track "Ask AI" clicks. GoatCounter?
+- [x] Add Ask AI button to each question
+- [x] `/score` shows each student's exam-wise score
+- Ask AI: Add a data-prompt="longer detailed prompt" that's sent
+- Track "Ask AI" clicks. sendBeacon preferred
 - Track engagement + performance
   - Identify concept gaps
-- Ask AI: Add a data-prompt="longer detailed prompt" that's sent
 - Project Milestones! #TODO
+- Content
+  - Use a bookmarklet for chatbot verification or Codex Web verification?
+  - Add prompt engineering.
+  - Add Business communication, e.g. tool evaluation.
+  - Drop notebooks
+- Project ideas: Teach them to automate boring stuff (real life decisions). Maybe have a portfolio of these as part of the project.
+  - Analyse Discourse to find the most helpful students in each course, tricky questions in exams, etc.
+  - Research salaries of different companies across professions. Give a proxy for convenience
+  - Optimize resumes. Get selected by my resume filter.
+  - Find the most helpful LinkedIn connect on your network.
+  - Predict interview questions via Glassdoor and Ambitionbox etc.
+  - Research companies to join and what jobs they might have to offer.
+  - Negotiate for a higher salary.
 
 ## Prompt patterns
 
