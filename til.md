@@ -2,6 +2,8 @@
 
 ## Jan 2026
 
+- 28 Jan 2026. Quotes from [Isles of the Emberdark](https://www.goodreads.com/book/show/210300489-isles-of-the-emberdark):
+  - Really, he should have known better than to punch a senator. Important people had underlings you punched on their behalf, and he should have found one of those.
 - 27 Jan 2026. [Greeking Out](https://www.nationalgeographic.com/podcasts/greeking-out) is a kid-friednly National Geographic podcast about ancient Greece and its influence on modern life.
 - 26 Jan 2026. [fly.io containers](https://fly.io/blog/code-and-let-live/) at [sprites.dev](https://sprites.dev/) seem imppressive. You can SSH into them. They have public & private HTTPS URLs. It auto-sleeps after 30s. You can checkpoint any time and restore the ENTIRE system. It's FAST! This is great for agents. Just install Claude Code / Codex and other tools. Checkpoint it. Then `ssh` into it and use as required. The cost is typically ~12c/hour - which is expensive to run forever but great for bursts. [Simon Willison](https://simonwillison.net/2026/Jan/9/sprites-dev/)
 - 26 Jan 2026. I'm seeing the Collider Bias in action (on a small sample). The developers who can communicate well don't code as well, and vice versa. Not because there's a negative correlation - but because I'm eliminating people who can _neither_ code nor communicate. But interestingly, over a 1-3 month horizon, the ones who code start communicating much better but the ones who communicate well don't start coding much better. My theory is that the developers I work are communication-bottlenecked (e.g. lack of confidence) than unskilled (e.g. poor communicators).
