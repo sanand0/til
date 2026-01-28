@@ -4,6 +4,7 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 
 ## Jan 2025
 
+- 26 Jan 2026. "Memic". Scan news for previous day. Create a RK Laxman / Amul style cartoon with a funny take on the news. Add a 1-para explanation and link to source. Run historically. Schedule daily. Share browseable archives. Segment by World, India, Tech, Business, Sports, Entertainment. Document how to add new segments.
 - 26 Jan 2026. Have an AI coding agent attack different bots and find different strategies to make it say "Yes" (or break any other TDS Project datastories/promptfight/ defenses.) Assume that it knows the other's prompt.
 - 26 Jan 2026. Aman created an embroidered style using ImageMagick. Can Claude Code discover more such new styles? https://aman.bh/blog/2025/creating-embroidered-charts-with-r-and-imagemagick
 - 26 Jan 2026. Modify topicmodel.py to use community partitioning (e.g. Liedenalg).
