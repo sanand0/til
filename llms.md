@@ -2,6 +2,7 @@
 
 ## Jan 2026
 
+- 28 Jan 2026. [ChatGPT Canvas](https://help.openai.com/en/articles/9930697-what-is-the-canvas-feature-in-chatgpt-and-how-do-i-use-it) has a cool feature for editing documents or code. Just select a portion, ask for changes, and it edits it. Importantly, it's very fast.
 - 26 Jan 2026. ⭐ Notes from [LLM poetry and the "greatness" question](https://hollisrobbinsanecdotal.substack.com/p/llm-poetry-and-the-greatness-question):
   - Gwern follows this process to create good poetry. It's a good structure for ANY kind of expert workflow with LLMs today:
     1. **Analyze** the style, content, and intent of the original.
