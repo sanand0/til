@@ -9,7 +9,7 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 - 26 Jan 2026. Aman created an embroidered style using ImageMagick. Can Claude Code discover more such new styles? https://aman.bh/blog/2025/creating-embroidered-charts-with-r-and-imagemagick
 - 26 Jan 2026. Modify topicmodel.py to use community partitioning (e.g. Liedenalg).
 - 26 Jan 2026. Use HAR captures to automate actions.
-- 25 Jan 2026. Scrape NCRB.
+- [ ] 25 Jan 2026. Scrape NCRB.
 - 23 Jan 2026. Show how cheap local image generation (e.g. Flux 2 Klein) cna be used. Images for blog archives. Large scale style edits. Product variations (e.g. different angle). Large scale redaction of faces, names, etc. Visual feedback for student homework in bulk.
 - 22 Jan 2026. Create an animated scrollytelling map biography of a person in an Amar Chitra Katha-like visual style. Pick personal story + locally famous person + globally famous person, visits of a leader, migrations of people, spread of crops / disease / trojans, ...
 - [ ] 22 Jan 2026. Open Food Facts: How are ingredients of Nutella (or anything else) different across countries?
