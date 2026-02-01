@@ -1,7 +1,37 @@
 # Things I learned
 
+## Feb 2026
+
+- 01 Feb 2026. Microsoft's [docfind](https://github.com/microsoft/docfind) generates a WASM search index for documents, building a dependency free browser based compact and fast search.
+- 01 Feb 2026. [diffs](https://diffs.com/docs) seems a promising library for rendering diffs in the browser.
+
 ## Jan 2026
 
+- 30 Jan 2026. Android screen recorder is the easiest way to record phone and WhatsApp calls. But that won't work for Google Meet, Teams, Zoom, etc. [Gemini](https://gemini.google.com/share/1aee78cf4e15)
+- 30 Jan 2026. [exiftool](https://exiftool.org/) remains the best media metadata extractor (music, images, ...) though it's old, slow, and Perl-based. `exiftool -csv -r ~/Music/` exports all metadata as CSV. Installing the source via <https://sourceforge.net/projects/exiftool/files/latest/download> seems best. [ChatGPT](https://chatgpt.com/share/697c398a-5dac-8003-93a2-fabcd15d6b2e) [Gemini](https://gemini.google.com/share/4e95924dfac4)
+- 30 Jan 2026. ⭐ Some questions are for us to learn. Some are Socratic, and meant for the answerer to learn. When working with AI agents and interns, I find myself asking them several questions that I don't want to know the answer for, but is important for them along their journey. Roughly the equivalent of "Think step by step" converted into the Socratic method. For example:
+  - Instead of "Build a demo for this client", ask "Who is the audience? What's their objective?" and THEN ask for a demo.
+  - Instead of "Generate a dummy dataset for X", ask "What interesting insights would we want when analyzing X?" and THEN ask for a dataset.
+  - Instead of "Write this code", ask "What's the best architecture for this?" and THEN ask for code.
+- 28 Jan 2026. Quotes from [Isles of the Emberdark](https://www.goodreads.com/book/show/210300489-isles-of-the-emberdark):
+  - Really, he should have known better than to punch a senator. Important people had underlings you punched on their behalf, and he should have found one of those.
+- 27 Jan 2026. [Greeking Out](https://www.nationalgeographic.com/podcasts/greeking-out) is a kid-friednly National Geographic podcast about ancient Greece and its influence on modern life.
+- 26 Jan 2026. [fly.io containers](https://fly.io/blog/code-and-let-live/) at [sprites.dev](https://sprites.dev/) seem imppressive. You can SSH into them. They have public & private HTTPS URLs. It auto-sleeps after 30s. You can checkpoint any time and restore the ENTIRE system. It's FAST! This is great for agents. Just install Claude Code / Codex and other tools. Checkpoint it. Then `ssh` into it and use as required. The cost is typically ~12c/hour - which is expensive to run forever but great for bursts. [Simon Willison](https://simonwillison.net/2026/Jan/9/sprites-dev/)
+- 26 Jan 2026. I'm seeing the Collider Bias in action (on a small sample). The developers who can communicate well don't code as well, and vice versa. Not because there's a negative correlation - but because I'm eliminating people who can _neither_ code nor communicate. But interestingly, over a 1-3 month horizon, the ones who code start communicating much better but the ones who communicate well don't start coding much better. My theory is that the developers I work are communication-bottlenecked (e.g. lack of confidence) than unskilled (e.g. poor communicators).
+- 26 Jan 2026. Prefer [Zod](https://zod.dev/) for TypeScript validation and [Ajv](https://ajv.js.org/) for schema validation. Typing has a lot of value, but don't overdo it. It's best used at fragile _boundaries_. [ChatGPT](https://chatgpt.com/share/69770709-c238-8003-899a-b8286a0e5474)
+- 25 Jan 2026. After 30 years of learning (and teaching) statistics, I finally found a good explanation of R². R²=80% means that ~80% of the change is because of the other variable. [Gemini](https://gemini.google.com/share/f3dfa6cfaf89)
+- 25 Jan 2026. ⭐ People think numbers create trust; often they create attack surfaces.
+  - Goodhart's Law: "When a measure becomes a target, it ceases to be a good measure." By providing a number, you invite people to "game" the system or find the flaws in how that number was manufactured.
+  - The Precision Trap: While precise numbers can increase _perceived_ credibility initially, they also lead to "anchoring." If the number is even slightly off, the entire foundation of trust collapses more violently than it would for a general estimate.
+  - Statistical Literacy Gap: Most people don't argue with "vibes," but many will argue with "averages" if their personal experience represents an outlier. The number creates a surface for anecdotal rebuttal.
+- 25 Jan 2026. [Eraser.io](https://www.eraser.io/) offers an [AI architecture diagram generator](https://www.eraser.io/ai/architecture-diagram-generator) that creates reasonable architectures. It uses its own [diagram-as-code DSL](https://www.eraser.io/guides/best-diagram-as-code-tools-in-2025), competing with [D2](https://d2lang.com/), [PlantUML](https://plantuml.com/), [Mermaid](https://mermaid-js.github.io/),
+- 25 Jan 2026. Exposing your workflow as a software interface productizes services businesses. For example, my auditors and immigration lawyers have portals where I can fill out forms, upload documents, see my status, etc. This standardizes their delivery, and creates a "product" moat.
+- 25 Jan 2026. ⭐ Your "villains" or enemies are often alternatives/backups that have a role in the ecosystem, offering diversity/resilience when you're wrong. Create roles and incentives for them rather than eliminating them. For example:
+  - Don't make LLMs do all the work. Create a role for the clunky SQL whose resilience saves the day when LLMs hallucinate.
+  - Make the person who hates your prototype the Red Team Lead - to catch the flaws you miss.
+  - Make the people who reject your product the scouts / innovators - to find alternatives you miss.
+- 25 Jan 2026. [Neon.com](https://neon.com) is like Supabase but without auth, functions, etc. It's just Postgres as a service. An alternative for prototypes (that I haven't tried yet.) [ChatGPT](https://chatgpt.com/share/69763727-0628-8003-9a99-896a055a8b6e)
+- 25 Jan 2026. [SuperTokens](https://supertokens.com/) is an open-source self-hosted auth service that I'm hearing about more often, but haven't tested. Seems to be ahead of alternatives like [Auth.js](https://authjs.dev/) / [Better Auth](https://www.better-auth.com/). [ChatGPT](https://chatgpt.com/share/69763779-9150-8003-bb9f-081685c99dc2)
 - 25 Jan 2026. [Bollywood Falls Out Of Love](https://kontinentalist.com/stories/bollywood-falls-out-of-love) is a great visual data story on [The Kontinentalist](https://kontinentalist.com/) by [Surbhi](https://www.linkedin.com/in/surbhi-bhatia/) about the decline of romance and growth of nationalism on bollywood genres.
 - 25 Jan 2026. [Recharts](https://recharts.github.io/) is a React charting library with some [slick capabilities](https://recharts.github.io/en-US/examples/) like [brushing](https://recharts.github.io/en-US/storybook/), [customizable tooltips](https://recharts.github.io/en-US/storybook/), and [bar chart races](https://www.dataforindia.com/population-growth/). Via [Rukmini](https://www.linkedin.com/in/rukmini-s-553483b9/) - [Data for India](https://www.dataforindia.com/)
 - 24 Jan 2026. [POSSE](https://indieweb.org/POSSE) - "Publish (on your) Own Site, Share Everywhere" - is a self-explanatory content sharing approach. [1 minute video introduction](https://www.youtube.com/watch?v=X3SrZuH00GQ&t=835s). Alternatives are:
@@ -682,7 +712,13 @@
     - Skip meetings where a memo will suffice.
 - 05 Dec 2025. Apparantly, nudges are not as effective as the book Nudge suggests. In fact, there seems to be no evidence for it if we adjust for publication bias (i.e. only publication-worthy stuff gets published.) [The Behavioral Scientist](https://www.thebehavioralscientist.com/articles/bad-news-for-nudges) [#](https://claude.ai/chat/2dfca86e-e304-48ec-bdbb-41c32ea7bbe2)
 - 04 Dec 2025. 71% of HTTP DDoS and 89% of network-layer—end in under 10 minutes. That's too fast for any human or on-demand service to react. Legacy DDoS defenses have become obsolete. The most popular botnet, Aisuru, is pivoting to content scraping for AI projects. The vectors are cheap, insecure routers, e.g. from Indonesia. ([Claude](https://claude.ai/share/0d868126-01fd-4840-813c-88888fd9d209))
-- 02 Dec 2025. Julia Evans shares an ultra-clear explanation of the [Git data model](https://github.com/git/git/blob/master/Documentation/gitdatamodel.adoc)
+- 02 Dec 2025. [Julia Evans shares](https://jvns.ca/blog/2026/01/08/a-data-model-for-git/) an ultra-clear explanation of the [Git data model](https://github.com/git/git/blob/master/Documentation/gitdatamodel.adoc). What I learnt is that:
+  - Gathering feedback on docs ("What's confusing? Any questions? What's missing? Or wrong?") for evidence-based updates. [Julia Evans](https://jvns.ca/blog/2026/01/08/a-data-model-for-git/#getting-test-readers-to-identify-problems)
+  - Git stores entire files each version, not diffs. Diffs are computed on the fly.
+  - Each commit has an author (who writes the code) and a committer (who checks it in). #TODO Why two fields?
+  - Branches and tags are both references to a commit. But branches are updated on commit, tags are not.
+  - The staging area is a separate data structure, [the index](https://github.com/git/git/blob/master/Documentation/gitdatamodel.adoc#the-index). #TODO Why a different data structure?
+  - The [reflog](https://github.com/git/git/blob/master/Documentation/gitdatamodel.adoc#reflogs) tracks all local "activity". E.g. `git reflog --date=iso`
 - 02 Dec 2025. To fuzzy-match 2 columns of text (e.g. customer names, product names, ...) you need 2 things:
   - A text matching algorithm ([rapidfuzz](https://github.com/rapidfuzz/RapidFuzz), [fuzzball](https://npmjs.com/package/fuzzball), ...) and/or semantic matching (e.g. embedding similarity) for pairwise similarity
   - An assignment algorithm (e.g. Jonker-Volgenant, Hungarian, ...) for 1-to-1 matches in [JS](https://www.npmjs.com/package/linear-sum-assignment) or [Python](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.linear_sum_assignment.html),

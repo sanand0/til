@@ -1,7 +1,56 @@
 # LLM learnings
 
+## Feb 2026
+
+- 01 Feb 2026. [Genie 3 seems pretty good](https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu/post/3mdlhstvnjc2r). We should expect to see World Models becoming usable in a few months.
+
 ## Jan 2026
 
+- 29 Jan 2026. [Executable Markdown files with Unix pipes](https://news.ycombinator.com/item?id=46549444) sounds like a clever idea. Prefix Markdown files with `#!/usr/bin/env codex` (or `claude -p`). Then, just write programs by describing them.
+- 28 Jan 2026. [ChatGPT Canvas](https://help.openai.com/en/articles/9930697-what-is-the-canvas-feature-in-chatgpt-and-how-do-i-use-it) has a cool feature for editing documents or code. Just select a portion, ask for changes, and it edits it. Importantly, it's very fast.
+- 26 Jan 2026. ⭐ Notes from [LLM poetry and the "greatness" question](https://hollisrobbinsanecdotal.substack.com/p/llm-poetry-and-the-greatness-question):
+  - Gwern follows this process to create good poetry. It's a good structure for ANY kind of expert workflow with LLMs today:
+    1. **Analyze** the style, content, and intent of the original.
+    2. **Brainstorm 10+ different directions** the poem could go. Emphasize diversity.
+    3. **Critique each** direction. Rate 1-5 stars.
+    4. **Write the best** one.
+    5. **Critique and edit line by line**.
+    6. **Generate a new clean draft**.
+    7. **Repeat** at least twice.
+    8. Print final version.
+  - "As a poet and scholar of poetry I feel comfortable arguing that Gwern’s work engineering prompts is, in effect, writing poetry."
+  - Mercor uses expert poets to creates rubric. Models generate poem that experts grades, which refines the rubric, which trains the model.
+  - But models tend to the mean and need nudges (from humans?) to surface outliers and ascribe meaning (uniquely human?), which is where greatness lies.
+- 26 Jan 2026. [Ethan Mollick](https://bsky.app/profile/emollick.bsky.social/post/3m5abr5vs5s23): "I keep warning that so many of our systems are still built around the assumption that quality writing and analysis are costly and therefore meaningful signals. Our systems are very much not ready for the revelation that this is no longer true, as this planning objection AI shows."
+  Basically, AI lowers the cost of Government and Corporate interactions. It'd be a cool hack to agent-ify these to death, i.e. do all kinds of Government / Corporate interactions that were painful earlier, but now are much easier.
+- 26 Jan 2026. I just realized: "Will AI take my job?" is a variant of "Will immigrants take my job?" or "Will affirmative action take my job?" _Any_ increase in labor capacity is a threat.
+  But then, the **only** way to get promoted is if someone takes your job. So, maybe we should ask: "How do I become their boss?" Better yet, tell your boss "I created a 4-agent team and got 2X done. Give me a new title."
+- 26 Jan 2026. Some simple yet powerful AI adoption principles from [Will Larson](https://lethain.com/company-ai-adoption/) - that I've seen work rather well:
+  - Make tools accessible
+  - Document tips & tricks
+  - Highlight how people (especially senior leaders) are using it
+- 26 Jan 2026. An [analysis of 1,250 Claude user interviews](https://www.playbookatlas.com/research/ai-adoption-explorer) indicates that:
+  - Adoption of Creatives > Workforce > Scientists. Interestingly, the identity threat and guilt of Creatives > Workforce > Scientists!
+  - Creatives they feel they're cheating, lazy, or not adding value! Scientists use it less, but it's more a tool and THEY verify.
+  - **Sceptical verification** is the strongest thread.
+- 26 Jan 2026. Mintlify is [proposing `.well-known/skills/`](https://www.mintlify.com/blog/skill-md) as the directory to store LLM skills sites want to publish. This could be an extension of the `llms.txt` mechanism.
+- 26 Jan 2026. [Open Responses](https://www.openresponses.org/) is the open version of OpenAI's Responses API. [OpenRouter](https://openrouter.ai/docs/api/reference/responses/overview) and [HuggingFace](https://huggingface.co/blog/open-responses) support is a big deal, and though Google, Anthropic, Meta etc. don't yet support it, they might.
+- 26 Jan 2025. When using AI coding agents, CLI beats APIs. Simpler models are able to use the CLI more reliably than APIs. [Simon Willison](https://simonwillison.net/2026/Jan/17/jeremy-daer/)
+- 26 Jan 2026. [Restish](https://rest.sh/) converts OpenAPI specs into CLI tools - with shell completion. Combined with an OAuth CLI like [oauth2c](https://github.com/SecureAuthCorp/oauth2c) this is a great way to conert APIs to CLI commands. [Via](https://walters.app/blog/composing-apis-clis)
+- 26 Jan 2026. Vercel's [agent-browser](https://github.com/vercel-labs/agent-browser) seems a good CLI choice for browser automation, alongside [playwright-cli](https://github.com/microsoft/playwrite-cli). It may be work switching from direct Playwright coding (on CDP). [ChatGPT](https://chatgpt.com/share/69770999-5d50-8003-8795-d297a1bb0c09)
+- 26 Jan 2026. Capturing actions using HAR and passing it to LLMs seems like another clever way of using AI coding agents for browser automation. [Via](https://walters.app/blog/composing-apis-clis)
+  - Open a browser.
+  - Open Devtools > Network and filter to HTML, XHR, WS, Other.
+  - Do what you want to automate, i.e. load LinkedIn, search, scroll, fetch next pages, etc.
+  - Devtools > Network > right click > “Save All As HAR”.
+  - Run the file through a HAR-sanitizer
+  - Prompt: “Create a Python client to automate the actions I captured in file.har".
+- 26 Jan 2026. When any AI coding agent can build apps, value will probably migrate away from software to data, network (distribution and users), trust, taste, and physical goods. Owning these controls value. Also, infrastructure to run vibe-coded apps (e.g. auth, hosting, DB, LLM APIs, etc. bundled) will likely lead to Medium / WordPress like platforms.
+- 25 Jan 2026. [Qwen3 TTS](https://github.com/QwenLM/Qwen3-TTS) is impressive. It voice-clones, streams, and the tone/style can be controlled via prompts. The model is small. I ran it locally without `flash-attn` (which I couldn't get to work) and took ~14 seconds to generate an audio file for 10 words on my GPU machine. Environment setup:
+  ```bash
+  uv venv --python 3.12
+  UV_TORCH_BACKEND=auto uv pip install -U qwen-tts
+  ```
 - 25 Jan 2026. DeepSeek created an external memory system for LLMs that lets them look up (instead of computing to remember) knowledge. That means CPU RAM can be used instead of GPU, models can become smaller, and training can become faster. This looks like an example of how algorithms/ideas can continue the scaling laws. [Gemini](https://gemini.google.com/share/a94760cc5e2e) via [Jeremy Howard](https://bsky.app/profile/eugenevinitsky.bsky.social/post/3mcap4nt5ms2g)
 - 24 Jan 2026. We are starting to talk like LLMs. [Empirical evidence of Large Language Model's influence on human spoken communication](https://gemini.google.com/share/fa763d406046)
 - 20 Jan 2026. [Portkey Models](https://github.com/portkey-ai/models) is a repo of model related data (e.g. price, max tokens, capabilities, etc.) for a large number of models. Somewhat similar to Simon Willison's [LLM Prices](https://github.com/simonw/llm-prices).
@@ -187,6 +236,8 @@
   - **Brand Compliance Checks**: Ensure all content meets brand guidelines automatically
   - **Autonomous Blog Squads**: AI agents identify trending topics / internal content, create data stories ready for review
 - 24 Nov 2025. New skill unlocked: creating tutorials from talk proposals. I asked Claude to `Write a Malcolm Gladwell article based on this talk description to teach me the topic` and passed it this talk proposal: [Your Causal Parrot might be lying to you](https://hasgeek.com/fifthelephant/2025-winter/sub/your-causal-parrot-might-be-lying-to-you-FhpB6kWkM4AAkYqdYQSCpJ). The [story it wrote](https://claude.ai/share/56b9bf17-927b-43a4-9af6-9b14a8cb1944) is very engaging and informative!
+  - LLMs "understand" causality because of training, but lack a world model to extrapolate to new situations.
+  - Giving them tools to reason (e.g. causal models, sub-agents to explore root causes) will help.
 - 23 Nov 2025. A cool Gemini 3 Pro hack: convert satellite imagery into stylized maps! [Bilawal Sidhu](https://x.com/bilawalsidhu/status/1991635734546284703)
 - 23 Nov 2025. Running sub-agents in `tmux` helps avoid timeout cancellation, and hence allowing resuming [Peter Steinberger](https://github.com/steipete/agent-scripts/blob/main/docs%2Fsubagent.md)
 - 22 Nov 2025. Models read pretty fast, consuming input tokens at ~4K-20K words per second. It's the "speaking" (output token rate) that is the bottleneck. So shortening input doesn't matter as much as shortening output for latence. [ChatGPT](https://chatgpt.com/share/6922cde4-4d40-800c-9524-8e35d68039f3)
