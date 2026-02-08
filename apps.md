@@ -6,13 +6,13 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 
 - [ ] 30 Jan 2026. Pavan. SQL query analysis.
 - [ ] 26 Jan 2026. Nitin. "Memic". Scan news for previous day. Create a RK Laxman / Amul style cartoon with a funny take on the news. Add a 1-para explanation and link to source. Run historically. Schedule daily. Share browseable archives. Segment by World, India, Tech, Business, Sports, Entertainment. Document how to add new segments.
-- 26 Jan 2026. Nitin. Have an AI coding agent attack different bots and find different strategies to make it say "Yes" (or break any other TDS Project datastories/promptfight/ defenses.) Assume that it knows the other's prompt.
+- [ ] 26 Jan 2026. Nitin. Have an AI coding agent attack different bots and find different strategies to make it say "Yes" (or break any other TDS Project datastories/promptfight/ defenses.) Assume that it knows the other's prompt.
 - [ ] 26 Jan 2026. Pavan. Aman created an embroidered style using ImageMagick. Can Claude Code discover more such new styles? https://aman.bh/blog/2025/creating-embroidered-charts-with-r-and-imagemagick
 - [ ] 26 Jan 2026. Ritesh. Modify topicmodel.py to use community partitioning (e.g. Liedenalg).
 - [ ] 26 Jan 2026. Pavan. Use HAR captures to automate actions.
 - 25 Jan 2026. Scrape NCRB.
-- 23 Jan 2026. Show how cheap local image generation (e.g. Flux 2 Klein) cna be used. Images for blog archives. Large scale style edits. Product variations (e.g. different angle). Large scale redaction of faces, names, etc. Visual feedback for student homework in bulk.
-- 22 Jan 2026. Create an animated scrollytelling map biography of a person in an Amar Chitra Katha-like visual style. Pick personal story + locally famous person + globally famous person, visits of a leader, migrations of people, spread of crops / disease / trojans, ...
+- 23 Jan 2026. Show how cheap local image generation (e.g. Flux 2 Klein) can be used. Images for blog archives. Large scale style edits. Product variations (e.g. different angle). Large scale redaction of faces, names, etc. Visual feedback for student homework in bulk.
+- [ ] 22 Jan 2026. Create an animated scrollytelling map biography of a person in an Amar Chitra Katha-like visual style. Pick personal story + locally famous person + globally famous person, visits of a leader, migrations of people, spread of crops / disease / trojans, ...
 - [ ] 22 Jan 2026. Open Food Facts: How are ingredients of Nutella (or anything else) different across countries?
 - [x] 16 Jan 2026. Predict price movement based on ticket sales data (e.g. TicketMasters)
 - [ ] 16 Jan 2026. Understand how students taking a Python course submit solutions and how to teach them better

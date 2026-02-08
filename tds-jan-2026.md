@@ -5,10 +5,10 @@
 - [x] Add Ask AI button to each question
 - [x] `/score` shows each student's exam-wise score
 - Ask AI: Add a data-prompt="longer detailed prompt" that's sent
-- Track "Ask AI" clicks. sendBeacon preferred
+- [x] Track "Ask AI" clicks
 - Track engagement + performance
   - Identify concept gaps
-- Project Milestones! #TODO
+- Project Milestones!
 - Content
   - Use a bookmarklet for chatbot verification or Codex Web verification?
   - Add prompt engineering.
@@ -34,13 +34,24 @@
 - How would I validate this if I couldn't run the code?
 - What would a skeptical reviewer question?
 
+---
+
+I'd like prompts that students can paste into an AI agent to learn a topic.
+I'll give you a topic.
+Think about what they REALLY need to know (in the AI age) about it.
+Think about what prompts will align with the questions in their mind AND teach them the most of what they need to know.
+Then suggest the 3 best prompts to teach this concept/tool/technique.
+Write them in the form of a SHORT question or instruction that a student can paste into an AI agent.
+
+Topic: ...
+
 ## Proposed curriculum
 
 Owners:
 
-- Tools: Sujal
-- Deploy: Mayank
-- Source: Hritik, Jivraj
+- [ ] Tools: Sujal
+- [ ] Deploy: Mayank
+- [ ] Source: Hritik, Jivraj
 
 ---
 
@@ -49,35 +60,37 @@ Owners:
 - [Marks Dashboard](marks-dashboard.md)
 - [Tools](https://exam.sanand.workers.dev/tds-2026-01-ga1-tools)
   - **AI**
-  - [Prompt engineering](prompt-engineering.md)
+  - [x] [Prompt engineering](prompt-engineering.md)
   - [TDS TA Instructions](tds-ta-instructions.md)
   - [TDS GPT Reviewer](tds-gpt-reviewer.md)
-  - [AI coding in the CLI](ai-coding-cli.md)
+  - [x] [AI coding in the CLI](ai-coding-cli.md)
   - **AI coding**
-  - [Vibe coding](vibe-coding.md)
-  - [AI coding online](ai-coding-online.md)
-  - [AI coding in IDEs](ai-coding-ide.md)
+  - [x] [Vibe coding](vibe-coding.md)
+  - [x] [AI coding online](ai-coding-online.md)
+  - [x] [AI coding in IDEs](ai-coding-ide.md)
+  - [x] AI debugging
+  - [x] AI tool evaluation
   - **Core tools**
-  - [Editor: VS Code](vscode.md)
-  - [Terminals](bash.md)
-  - [Python tools: uv](uv.md)
-  - [JavaScript tools: npx](npx.md)
+  - [x] [Editor: VS Code](vscode.md)
+  - [x] [Terminals](bash.md)
+  - [x] [Python tools: uv](uv.md)
+  - [x] [JavaScript tools: npx](npx.md)
   - [Spreadsheet: Excel, Google Sheets](spreadsheets.md)
-  - [Database: SQLite](sqlite.md)
-  - [Vector databases](vector-databases.md)
+  - [x] [Database: SQLite](sqlite.md)
+  - [x] [Vector databases](vector-databases.md)
   - **Supporting tools**
-  - [Browser: DevTools](devtools.md)
+  - [x] [Browser: DevTools](devtools.md)
   - [AI Terminal Tools: llm](llm.md)
-  - [Version Control: Git, GitHub](git.md)
+  - [x] [Version Control: Git, GitHub](git.md)
   - [HTTP Requests: Curl, Postman](http-requests)
   - Utilities: PDF, ImageMagick, FFMpeg, ...
   - **Supporting formats**
-  - [Unicode](unicode.md)
-  - [CSS Selectors](css-selectors.md)
-  - [JSON](json.md)
-  - [Markdown](markdown.md)
-  - [REST APIs](rest-apis.md)
-  - [Base 64 Encoding](base64-encoding.md)
+  - [x] [Unicode](unicode.md)
+  - [x] [CSS Selectors](css-selectors.md)
+  - [x] [JSON](json.md)
+  - [x] [Markdown](markdown.md)
+  - [x] [REST APIs](rest-apis.md)
+  - [x] [Base 64 Encoding](base64-encoding.md)
 - [Deploy](deployment-tools.md)
   - **Hosting services**
   - [Static hosting: GitHub Pages](github-pages.md)
