@@ -2,6 +2,7 @@
 
 ## Feb 2026
 
+- 09 Feb 2026. There is a psychological phenomenon where we "overlay" old images of people we haven't seen in decades onto their current selves, making it hard to distinguish between someone who is 30 and someone who is 70. [Gemini]()
 - 08 Feb 2026. Most modern `ls` tools like [`eza --icons`](https://github.com/eza-community/eza) or [`lsd`](https://github.com/lsd-rs/lsd) support icons if the terminal font supports icons, like [Nerd Fonts](https://www.nerdfonts.com/). For example, this: `` shows up as a GitHub icon and `󰌻` as a LinkedIn icon. The [Nerd Fonts Cheat Sheet](https://www.nerdfonts.com/cheat-sheet) is a good place to search for these. You may need to download a [supporting font](https://www.nerdfonts.com/font-downloads).
 - 08 Feb 2026. I just replaced [Fira Code](https://github.com/tonsky/FiraCode) with [Maple Mono](https://font.subf.dev/en/) as my default font on VS Code. Like Fira Code, the ligatures are great, but there are extra ligatures like [TODO] or [ERROR], *connected italics*, nerd font support, variable font weights, and more. Via [lobste.rs](https://lobste.rs/s/ahca9t/maple_mono_open_source_monospace_font). (**Update**: Maple Mono is _much_ harder to read than Fira Code, so I switched back. But it's a nice idea.)
 - 03 Feb 2026. [The Disconnected Git Workflow](https://ploum.net/2026-01-31-offline-git-send-email.html) explains how to use the [`git send-email`](https://git-send-email.io/) workflow. That's like using email instead of GitHub as the collaboration mechanism - decentralizing and reducing dependencies.
