@@ -11,9 +11,9 @@
 - Project Milestones!
 - Content
   - Use a bookmarklet for chatbot verification or Codex Web verification?
-  - Add prompt engineering.
+  - [x] Add prompt engineering.
   - Add Business communication, e.g. tool evaluation.
-  - Drop notebooks
+  - [x] Drop notebooks
 - Project ideas: Teach them to automate boring stuff (real life decisions). Maybe have a portfolio of these as part of the project.
   - Get a PR solving an existing issue accepted by any open source data science repo with 1,000+ stars?
   - Analyse Discourse to find the most helpful students in each course, tricky questions in exams, etc.
