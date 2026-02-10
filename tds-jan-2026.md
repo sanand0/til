@@ -15,13 +15,19 @@
   - Add Business communication, e.g. tool evaluation.
   - [x] Drop notebooks
 - Project ideas: Teach them to automate boring stuff (real life decisions). Maybe have a portfolio of these as part of the project.
-  - Submit and have a PR merged into a GitHub repo with 1,000+ stars (e.g., a data science project). (Hackable if students create and star a single repo.)
+  - Get a PR merged into a GitHub repo with 1,000+ stars (e.g., a data science project). (Hackable if students create and star a single repo.)
   - Analyse Discourse to find the most helpful students in each course, tricky questions in exams, etc.
   - Assignments force students to build a small dataset from their own campus lives (e.g. drinking fountains, sunny days) plus write full documentation and reflections on what that reveals.
   - Research salaries of different companies across professions. Give a proxy for convenience
   - Simulate bash (or Rust or something moderately complex) in browser.
   - Write JS code to draw a special purpose chart. Evaluator will feed data, pass to an LLM vision model for verification.
+  - Write JS classifier for 30 images.
+  - Create a HTTP Auth endpoint with a password of your choice protecting a secret, both of which we give you. Publish your endpoint. Hack everyone else's. Share your endpoint and password and we will test if it works. Then share as many other people's secrets. Grading is highly scaled, so you must get at least half to even get zero.
   - Win board game.
+  - Given this dataset, write a Python or DuckDB script that analyses it for insight. Run it in the browser and generate insights. Three agents, like Agents4Science, will evaluate your code.
+  - Different students are emailed 2-4 different simple problems, each to write a 1 line JS function with a signature. Gather as many of these functions as possible and submit. We will evaluate on the server and see how many people you have been able to collaborate with. There is benefit to withholding too.
+  - Break up large quotations into parts. Distribute randomly. Each person gets parts of 2 chains. Find your entire chain.
+- Maybe:
   - Optimize resumes. Get selected by my resume filter.
   - Find the most helpful LinkedIn connect on your network.
   - Predict interview questions via Glassdoor and Ambitionbox etc.
