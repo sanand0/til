@@ -20,6 +20,13 @@
   - Assignments force students to build a small dataset from their own campus lives (e.g. drinking fountains, sunny days) plus write full documentation and reflections on what that reveals.
   - Research salaries of different companies across professions. Give a proxy for convenience
   - Build a bash (or Rust or something moderately complex) interpreter using Python. Evaluate using [sandbox SDK](https://developers.cloudflare.com/sandbox/).
+  - Write a Python SQL, HTML, CSS, RegEx, CSV, etc. parser in Python and test in the browser.
+  - Write a SERIES of prompts that will ensure a certain output, e.g. generate data, write code to analyze, validate, etc. effectively creating an agent workflow. Have it solve things a single prompt cannot.
+  - Write a prompt that will exactly reproduce a fragment of text.
+  - Write a data cleanser script that will fix any of a class of data errors that will NOT be revealed upfront. Your function will get a dataset and the output compared against the clean one with good errors reported.
+  - The code has a bug. Don't mention what it is. No helpful error messages. Just fix it.
+  - Add a problem where the task is to find the problem. Don't tell them the question. They have to write a program that passes, just using the error messages as a guide.
+  - Write a problem in a foreign language.
   - Write JS code to draw a special purpose chart. Evaluator will feed data, pass to an LLM vision model for verification.
   - Write JS classifier for 30 images.
   - Create a HTTP Auth endpoint with a password of your choice protecting a secret, both of which we give you. Publish your endpoint. Hack everyone else's. Share your endpoint and password and we will test if it works. Then share as many other people's secrets. Grading is highly scaled, so you must get at least half to even get zero.
@@ -237,3 +244,5 @@ Random ideas for the TDS Jan 2026 course iteration, collected Dec 2025.
   - Have students create content. Most valuable addition gets marks.
   - ⭐ LLM continuous evaluation of the niceness of Discourse posts - social policing score. Helpfulness, etc.
   - Bootcamp: Basic Linux command, FastApi + httpx, Git, Docker/Podman, Basic App HuggingFace Deployment
+- TDS GA1 problems
+  - Make error messages a TEACHING device. When passed to an LLM, it should guide the LLM to explain a concept. Include the error message in the Ask AI prompt. But this is hard since it needs to be dynamic.
