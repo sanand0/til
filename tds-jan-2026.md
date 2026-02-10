@@ -15,6 +15,7 @@
   - Add Business communication, e.g. tool evaluation.
   - [x] Drop notebooks
 - Project ideas:
+  -
   - Get a PR merged into a GitHub repo with 1,000+ stars (e.g., a data science project). (Hackable if students create and star a single repo.)
   - Build a bash (or Rust or something moderately complex) interpreter using Python. Evaluate using [sandbox SDK](https://developers.cloudflare.com/sandbox/).
   - Write a Python SQL, HTML, CSS, RegEx, CSV, etc. parser in Python and test in the browser.
