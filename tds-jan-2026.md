@@ -16,6 +16,7 @@
   - Drop notebooks
 - Project ideas: Teach them to automate boring stuff (real life decisions). Maybe have a portfolio of these as part of the project.
   - Analyse Discourse to find the most helpful students in each course, tricky questions in exams, etc.
+  - Assignments force students to build a small dataset from their own campus lives (e.g. drinking fountains, sunny days) plus write full documentation and reflections on what that reveals.
   - Research salaries of different companies across professions. Give a proxy for convenience
   - Optimize resumes. Get selected by my resume filter.
   - Find the most helpful LinkedIn connect on your network.
@@ -33,17 +34,6 @@
 - What sanity checks did I run?
 - How would I validate this if I couldn't run the code?
 - What would a skeptical reviewer question?
-
----
-
-I'd like prompts that students can paste into an AI agent to learn a topic.
-I'll give you a topic.
-Think about what they REALLY need to know (in the AI age) about it.
-Think about what prompts will align with the questions in their mind AND teach them the most of what they need to know.
-Then suggest the 3 best prompts to teach this concept/tool/technique.
-Write them in the form of a SHORT question or instruction that a student can paste into an AI agent.
-
-Topic: ...
 
 ## Proposed curriculum
 
