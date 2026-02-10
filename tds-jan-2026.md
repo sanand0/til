@@ -15,7 +15,7 @@
   - Add Business communication, e.g. tool evaluation.
   - [x] Drop notebooks
 - Project ideas: Teach them to automate boring stuff (real life decisions). Maybe have a portfolio of these as part of the project.
-  - Get a PR solving an existing issue accepted by any open source data science repo with 1,000+ stars?
+  - Submit and have a PR merged into a GitHub repo with 1,000+ stars (e.g., a data science project). (Hackable if students create and star a single repo.)
   - Analyse Discourse to find the most helpful students in each course, tricky questions in exams, etc.
   - Assignments force students to build a small dataset from their own campus lives (e.g. drinking fountains, sunny days) plus write full documentation and reflections on what that reveals.
   - Research salaries of different companies across professions. Give a proxy for convenience
