@@ -15,7 +15,15 @@
   - Add Business communication, e.g. tool evaluation.
   - [x] Drop notebooks
 - Project ideas:
-  -
+  - Generate and add `src/q-generate-linked-excel.js` to create a useful, realistic Excel workbook with multiple sheets, several links across sheets, etc. The kind that AI can generate via code easily but a human would take too much time. Provide them seed-randomized data. Verify the uploaded Excel file in the browser. Create a realistic case study.
+  - Generate and add `q-share-secret-server`. Each student is shown their Secret Agent ID (unique seed-random number from 1-99 based on email, e.g. call them "Secret Agent 007" if their ID was 7) and a Secret Agent Password (unique seed-random value of ~16 characters created on the server side). Give them three other seed-randomized Secret Agent IDs (other than theirs), e.g. if their ID is "007" they might be asked for "020", "085", "033" - seed-randomized. Their task is to find the password of the students with those IDs. You can choose to reveal yours or keep yours secret.
+  - Generate and add `src/q-google-sheets-app.js` that exposes an Apps Script. Also see [this](https://www.google.com/search?sca_esv=9cf1df91a9197cf6&sxsrf=ANbL-n4OK0ljT5OXhUtjhQg3eoNcu6cRUg%3A1770117166724&ei=LtiBaabmK-egseMPkfDQ8Aw&biw=1526&bih=1084&aic=0&ved=2ahUKEwj82uSUmb2SAxWg6jgGHfZlA6UQoo4PegYIAQgAEAA&uact=5&sclient=gws-wiz-serp&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6YKj3ieLLpE5n_AQ7knvnyHmq2hxoqmS0Tx38rbtTMokFhXJqkP-xp8s0xvogTypU-RwwsG491GWtllNZUGq-RuiUvyNadpmBGK_MvfUtLNmeU1HmgngxYd3S_5Yvs3Jofp8MNzCcBDDi6TEP5Jlge0u8D0w&aep=10&ntc=1&q=How+can+I+use+an+API+to+test+what+the+formula+in+a+particular+cell+of+a+Google+Sheet+is%3F+A+student+will+submit+the+sheet+in+any+format+I+choose.+But+I+need+to+validate+it+using+a+CORS-enabled+auth-less+fetch&mstk=AUtExfDbyM9Yz4U6lkuGh6I7PWUj_PmSmHFBspaY5wTl5etCg5aCWUzCp8GZKCi-Kv9-WBeY-Q2FAp2N_Qm3l9A8daET62Rtdau2z-LT3pqoh-59lSvr37lkGUD24bwMDm0xx4RTqZiSd97mfOCd_4patc5Spw4eRGtu8o0u9zwtB-8Xq8ZZKodB_mLnSfbBcVeZiSGEXzheNgaAqJ0c4fc9v_QKRTee7uBeZ4nf7deZtLJxW_q58R2MKlERY-w-1Y2XJw5FyIFqbatEssBDNGQOYMw-rKxdPKFDAKigrHs4SdKkK9NaGpdacmxSvQSXGq7LLUNasiRSvJa_ZHXAf1k5tO6FLBmW3pW1GC5ya2Iv0Kuy4HhYE-V9AFik8jxf30zIWe2ghnP1BOMuX90jwdFVjvPKqUpI45WRQg&csuir=1&mtid=H9mBadvhMpCQ4-EP3-avqQk)
+  - Generate and add `q-morse-code-audio`. Generate a short seed-random phrase. Play it as audio morse code. Have the student submit the phrase (case insensitive, etc.)
+  - Question with just sparse audio!
+  - Question with Morse code audio.
+  - Question without a question!
+  - Question with just a cartoon!
+  - Question is a game!
   - Get a PR merged into a GitHub repo with 1,000+ stars (e.g., a data science project). (Hackable if students create and star a single repo.)
   - Build a bash (or Rust or something moderately complex) interpreter using Python. Evaluate using [sandbox SDK](https://developers.cloudflare.com/sandbox/).
   - Write a Python SQL, HTML, CSS, RegEx, CSV, etc. parser in Python and test in the browser.
