@@ -8,6 +8,9 @@
 - [x] Track "Ask AI" clicks
 - Track engagement + performance
   - Identify concept gaps
+  - How many unique students used Ask AI in a period?
+  - Which Ask AI buttons did they press overall? Per student?
+  - What model are students using currently? What's more popular? Who're switching models and experimenting?
 - Project Milestones!
 - Content
   - Use a bookmarklet for chatbot verification or Codex Web verification?
