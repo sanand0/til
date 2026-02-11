@@ -1,3 +1,40 @@
+🟣	RS	    9095	   381	2026-02-11	mainmatter/100-exercises-to-learn-rust	A self-paced course to learn Rust, one exercise at a time.
+🟣	RS	    8281	   581	2026-02-11	reacherhq/check-if-email-exists	Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.
+🟣	RS	   26095	    74	2026-02-11	cloudflare/pingora	A library for building fast, reliable and evolvable network services.
+🟣	RS	    5074	   138	2026-02-11	katanemo/plano	Delivery infrastructure for agentic apps - Plano is an AI-native proxy and data plane that offloads plumbing work, so you stay focused on your agent's core logic (via any AI framework).
+🟣	GO	    1824	   157	2026-02-11	looplj/axonhub	⚡️ Open-source AI Gateway — Use any SDK to call 100+ LLMs. Built-in failover, load balancing, cost control & end-to-end tracing.
+🟣	GO	    2639	    24	2026-02-11	kubernetes-sigs/gateway-api	Repository for the next iteration of composite service (e.g. Ingress) and load balancing APIs.
+🟣	GO	    1413	   811	2026-02-11	github/gh-aw	GitHub Agentic Workflows
+🟣	GO	    5105	    50	2026-02-11	ankitpokhrel/jira-cli	🔥 Feature-rich interactive Jira command line.
+🟣	GO	   32152	   105	2026-02-11	k3s-io/k3s	Lightweight Kubernetes
+🟣	GO	   11936	    20	2026-02-11	kubernetes-sigs/kustomize	Customization of kubernetes YAML configurations
+🟣	GO	    2803	   214	2026-02-11	5rahim/seanime	Open-source media server with a web interface and desktop app for anime and manga.
+🟣	GO	   13054	    66	2026-02-11	projectdiscovery/subfinder	Fast passive subdomain enumeration tool.
+🟣	PY	    9491	   320	2026-02-11	bytedance/UI-TARS	Pioneering Automated GUI Interaction with Native Agents
+🟣	PY	    2897	   611	2026-02-11	disler/claude-code-hooks-mastery	Master Claude Code Hooks
+🟣	PY	     930	   350	2026-02-11	Jeffallan/claude-skills	66 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.
+🟣	PY	    1345	    61	2026-02-11	taylorwilsdon/google_workspace_mcp	Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace / G Suite MCP Server & CLI Tool
+🟣	PY	    4993	   583	2026-02-11	p-e-w/heretic	Fully automatic censorship removal for language models
+🟣	PY	   42847	   915	2026-02-11	karpathy/nanochat	The best ChatGPT that $100 can buy.
+🟣	PY	     610	   362	2026-02-11	masoncl/review-prompts	AI review prompts
+🟣	PY	    7867	  5111	2026-02-11	openai/skills	Skills Catalog for Codex
+🟣	TS	    1800	   360	2026-02-11	KuekHaoYang/KVideo	一个基于 Next.js 16 构建的现代化视频聚合播放平台。采用独特的 "Liquid Glass" 设计语言，提供流畅的视觉体验和强大的视频搜索功能。
+🟣	TS	    2119	   681	2026-02-11	pedramamini/Maestro	Agent Orchestration Command Center
+🟣	TS	  183416	 26527	2026-02-11	openclaw/openclaw	Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
+🟣	TS	   20603	  1512	2026-02-11	linshenkx/prompt-optimizer	一款提示词优化器，助力于编写高质量的提示词
+🟣	TS	    7829	  1836	2026-02-11	tobi/qmd	mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local
+🟣	TS	   19966	 14952	2026-02-11	KeygraphHQ/shannon	Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.
+🟣	TS	   24513	   224	2026-02-11	wg-easy/wg-easy	The easiest way to run WireGuard VPN + Web-based Admin UI.
+🟣	JS	     652	    56	2026-02-11	koosoli/ESPHomeDesigner	A visual drag-and-drop editor for ESPHome displays (E-Ink, OLED, LCD, Touch), running as a Home Assistant integration or a standalone web app.
+🟣	JS	     488	   135	2026-02-11	maxandrews/Epstein-doc-explorer	a graph explorer of the Epstein emails
+🟣	JS	   44193	   155	2026-02-11	GitSquared/edex-ui	A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.
+🟣	JS	    3051	   837	2026-02-11	microsoft/playwright-cli	CLI for common Playwright actions. Record and generate Playwright code, inspect selectors and take screenshots.
+🟣	JS	    6735	   221	2026-02-11	poloclub/transformer-explainer	Transformer Explained Visually: Learn How LLM Transformer Models Work with Interactive Visualization
+🟣	JS	    7946	   159	2026-02-11	qist/tvbox	OK影视、tvbox配置文件，如果喜欢，请Fork自用。使用前请仔细阅读仓库说明，一旦使用将被视为你已了解。
+🟣	SH	    2081	   211	2026-02-11	home-assistant/addons	➕ Docker add-ons for Home Assistant
+🟣	SH	    7184	   504	2026-02-11	automazeio/ccpm	Project management system for Claude Code using GitHub Issues and Git worktrees for parallel agent execution.
+🟣	SH	    2659	   224	2026-02-11	czlonkowski/n8n-skills	n8n skillset for Claude Code to build flawless n8n workflows
+🟣	SH	   14165	   348	2026-02-11	quickemu-project/quickemu	Quickly create and run optimised Windows, macOS and Linux virtual machines
 🟣	RS	    5171	  1313	2026-01-25	datahaven-xyz/datahaven	An EVM compatible Substrate chain, powered by StorageHub and secured by EigenLayer
 🟣	RS	    9588	   331	2026-01-25	Automattic/harper	Offline, privacy-first grammar checker. Fast, open-source, Rust-powered
 🟣	RS	    6659	   104	2026-01-25	jtroo/kanata	Improve keyboard comfort and usability with advanced customization
