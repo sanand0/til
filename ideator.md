@@ -1,5 +1,6 @@
 # Ideator
 
+- 13 Feb 2026. [IDEA ]
 - 03 Dec 2025. [IDEA Context-Switch Telemetry](https://gemini.google.com/u/2/app/ed51b220fd58c0e7). Log every time you context switch: timestamp, trigger, action, tag. Review later
 - 03 Dec 2025. [IDEA Delete to Improve](https://chatgpt.com/c/693002b8-8ea0-8320-9237-a8c1c2c1481e). Each week, remove one step from a recurring workflow (meetings, code reviews, PR templates, status reports) while protecting quality with a simple guardrail. Subtraction is a faster way to de-bottleneck than stacking more habits.
 - 03 Dec 2025. [IDEA Habit Rollback Buffer](https://claude.ai/chat/0a3dbed5-3b11-4e9e-ae25-54d676d24055). Don't quit habits cold. Reduce to 20% intensity for 90 days with calendar checkpoints asking "do you miss this?" Preserve useful behavioral assets. Also [Cryogenic Offboarding](https://gemini.google.com/u/2/app/7218fce1f215fcea)
