@@ -8,14 +8,49 @@
 - [x] Track "Ask AI" clicks
 - Track engagement + performance
   - Identify concept gaps
+  - How many unique students used Ask AI in a period?
+  - Which Ask AI buttons did they press overall? Per student?
+  - What model are students using currently? What's more popular? Who're switching models and experimenting?
 - Project Milestones!
 - Content
   - Use a bookmarklet for chatbot verification or Codex Web verification?
-  - Add prompt engineering.
+  - [x] Add prompt engineering.
   - Add Business communication, e.g. tool evaluation.
-  - Drop notebooks
-- Project ideas: Teach them to automate boring stuff (real life decisions). Maybe have a portfolio of these as part of the project.
+  - [x] Drop notebooks
+- Project ideas:
+  - [x] Generate and add `src/q-pr-merge-server.js` that asks students to submit a PR to an open source GitHub repo with 1,000+ stars (e.g., a data science project) and get it merged. The PR can be a simple documentation fix or a minor code change - but it's important to keep is small, genuinely useful, and easy for the author to review. Be respectful of their time, ensure that you don't spam them. The student should provide the link to the merged PR as proof of completion. The verification will check if (a) the repo has 1,000+ stars, and (b) the email address of the PR author matches the student's email address. (Note: this is hackable if students decide to create their own repo, collectively give it 1,000 stars, and submit PRs. This is an acceptable solution. Mention it.)
+  - [x] Generate and add `src/q-share-secret-server.js`. Each student is shown their Secret Agent ID (unique seed-random number from 0-99 based on email, e.g. call them "Secret Agent 007" if their ID was 7) and a Secret Agent Password (unique secret-salted hash value of ~16 characters created on the server side). Give them three other seed-randomized Secret Agent IDs (other than theirs), e.g. if their ID is "007" they might be asked for the passwords of "020", "085", "033" - seed-randomized. Their task is to find the password of the students with those IDs and share a JSON with a list of 3 {agent ID, email ID, and password}. This is validated on the server by checking if the students have provided the correct agent IDs, that each email ID does, in fact, map to the corresponding agent ID, and the emails's salted hash matches the password. Students can strategize by choosing to reveal their passwords or keeping theirs secret.
+  - [x] Generate and add `src/q-transcribe-numbers-server.js`. On each payload, serve a truly random (different each load) 60-digit number as 60-second .wav file by concatenating .wav files of digits from on the server. Students should transcribe the number from the audio file and submit it. The answer should be hash-validated on both client and server side with no possibility of students getting the answer from client-side code.
+  - Write a parser for:
+    - Apache logs
+    - HTTP headers
+    - Email headers
+    - Messy CSV
+    - Markdown
+  - Write a data cleanser script that will fix any of a class of data errors that will NOT be revealed upfront. Your function will get a dataset and the output compared against the clean one with good errors reported.
+  - Build a JS interpreter using Python. Evaluate using Pyodide and [sandbox SDK](https://developers.cloudflare.com/sandbox/).
+  - Write a SERIES of prompts that will ensure a certain output, e.g. generate data, write code to analyze, validate, etc. effectively creating an agent workflow. Have it solve things a single prompt cannot.
+  - Write a prompt that will exactly reproduce a fragment of text.
+  - Write a Python classifier for 30 seed-random images. Half contain cats, half contain dogs.
+  - Write JS code to draw a special purpose chart. Evaluator will feed data, pass to an LLM vision model for verification.
+  - Generate and add `src/q-google-sheets-app.js` that exposes an Apps Script. Also see [this](https://www.google.com/search?sca_esv=9cf1df91a9197cf6&sxsrf=ANbL-n4OK0ljT5OXhUtjhQg3eoNcu6cRUg%3A1770117166724&ei=LtiBaabmK-egseMPkfDQ8Aw&biw=1526&bih=1084&aic=0&ved=2ahUKEwj82uSUmb2SAxWg6jgGHfZlA6UQoo4PegYIAQgAEAA&uact=5&sclient=gws-wiz-serp&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6YKj3ieLLpE5n_AQ7knvnyHmq2hxoqmS0Tx38rbtTMokFhXJqkP-xp8s0xvogTypU-RwwsG491GWtllNZUGq-RuiUvyNadpmBGK_MvfUtLNmeU1HmgngxYd3S_5Yvs3Jofp8MNzCcBDDi6TEP5Jlge0u8D0w&aep=10&ntc=1&q=How+can+I+use+an+API+to+test+what+the+formula+in+a+particular+cell+of+a+Google+Sheet+is%3F+A+student+will+submit+the+sheet+in+any+format+I+choose.+But+I+need+to+validate+it+using+a+CORS-enabled+auth-less+fetch&mstk=AUtExfDbyM9Yz4U6lkuGh6I7PWUj_PmSmHFBspaY5wTl5etCg5aCWUzCp8GZKCi-Kv9-WBeY-Q2FAp2N_Qm3l9A8daET62Rtdau2z-LT3pqoh-59lSvr37lkGUD24bwMDm0xx4RTqZiSd97mfOCd_4patc5Spw4eRGtu8o0u9zwtB-8Xq8ZZKodB_mLnSfbBcVeZiSGEXzheNgaAqJ0c4fc9v_QKRTee7uBeZ4nf7deZtLJxW_q58R2MKlERY-w-1Y2XJw5FyIFqbatEssBDNGQOYMw-rKxdPKFDAKigrHs4SdKkK9NaGpdacmxSvQSXGq7LLUNasiRSvJa_ZHXAf1k5tO6FLBmW3pW1GC5ya2Iv0Kuy4HhYE-V9AFik8jxf30zIWe2ghnP1BOMuX90jwdFVjvPKqUpI45WRQg&csuir=1&mtid=H9mBadvhMpCQ4-EP3-avqQk)
+  - Generate and add `q-morse-code-audio`. Generate a short seed-random phrase. Play it as audio morse code. Have the student submit the phrase (case insensitive, etc.)
+  - Modeling questions
+  - Question without a question!
+  - Question with just a cartoon!
+  - Generate and add `src/q-generate-linked-excel.js` to create a useful, realistic Excel workbook with multiple sheets, several links across sheets, etc. The kind that AI can generate via code easily but a human would take too much time. Provide them seed-randomized data. Verify the uploaded Excel file in the browser. Create a realistic case study.
+  - Write a Python SQL, HTML, CSS, RegEx, CSV, etc. parser in Python and test in the browser.
+  - The code has a bug. Don't mention what it is. No helpful error messages. Just fix it.
+  - Add a problem where the task is to find the problem. Don't tell them the question. They have to write a program that passes, just using the error messages as a guide.
+  - Write a problem in a foreign language.
+  - Create a HTTP Auth endpoint with a password of your choice protecting a secret, both of which we give you. Publish your endpoint. Hack everyone else's. Share your endpoint and password and we will test if it works. Then share as many other people's secrets. Grading is highly scaled, so you must get at least half to even get zero.
+  - Given this dataset, write a Python or DuckDB script that analyses it for insight. Run it in the browser and generate insights. Three agents, like Agents4Science, will evaluate your code.
+  - Different students are emailed 2-4 different simple problems, each to write a 1 line JS function with a signature. Gather as many of these functions as possible and submit. We will evaluate on the server and see how many people you have been able to collaborate with. There is benefit to withholding too.
+  - Break up large quotations into parts. Distribute randomly. Each person gets parts of 2 chains. Find your entire chain.
+  - Win a board game.
   - Analyse Discourse to find the most helpful students in each course, tricky questions in exams, etc.
+- Maybe: Teach them to automate boring stuff (real life decisions). Maybe have a portfolio of these as part of the project.
+  - Assignments force students to build a small dataset from their own campus lives (e.g. drinking fountains, sunny days) plus write full documentation and reflections on what that reveals.
   - Research salaries of different companies across professions. Give a proxy for convenience
   - Optimize resumes. Get selected by my resume filter.
   - Find the most helpful LinkedIn connect on your network.
@@ -33,17 +68,6 @@
 - What sanity checks did I run?
 - How would I validate this if I couldn't run the code?
 - What would a skeptical reviewer question?
-
----
-
-I'd like prompts that students can paste into an AI agent to learn a topic.
-I'll give you a topic.
-Think about what they REALLY need to know (in the AI age) about it.
-Think about what prompts will align with the questions in their mind AND teach them the most of what they need to know.
-Then suggest the 3 best prompts to teach this concept/tool/technique.
-Write them in the form of a SHORT question or instruction that a student can paste into an AI agent.
-
-Topic: ...
 
 ## Proposed curriculum
 
@@ -93,17 +117,17 @@ Owners:
   - [x] [Base 64 Encoding](base64-encoding.md)
 - [Deploy](deployment-tools.md)
   - **Hosting services**
-  - [Static hosting: GitHub Pages](github-pages.md)
+  - [x] [Static hosting: GitHub Pages](github-pages.md)
   - 🔴 [Notebooks: Google Colab](colab.md)
-  - [Serverless hosting: Vercel](vercel.md)
-  - [HuggingFace Spaces](huggingface-spaces.md)
-  - [Local LLMs: Ollama](ollama.md)
+  - [x] [Serverless hosting: Vercel](vercel.md)
+  - [x] [HuggingFace Spaces](huggingface-spaces.md)
+  - [x] [Local LLMs: Ollama](ollama.md)
   - **Deployment techniques**
-  - [CORS](cors.md)
-  - [Tunneling: ngrok](ngrok.md)
-  - [CI/CD: GitHub Actions](github-actions.md)
-  - [DevContainers: GitHub Codespaces](github-codespaces.md)
-  - [Web Framework: FastAPI](fastapi.md)
+  - [x] [CORS](cors.md)
+  - [x] [Tunneling: ngrok](ngrok.md)
+  - [x] [CI/CD: GitHub Actions](github-actions.md)
+  - [x] [DevContainers: GitHub Codespaces](github-codespaces.md)
+  - [x] [Web Framework: FastAPI](fastapi.md)
 - [Source](data-sourcing.md)
   - **AI Scraping**
   - [Function Calling](function-calling.md)
@@ -213,23 +237,22 @@ Random ideas for the TDS Jan 2026 course iteration, collected Dec 2025.
 
 - TDS. https://chatgpt.com/c/693a9ab6-2cb8-8330-9327-97c890be0e65
   - Add Instructor insight pages (on teamwork, localizing data, misconceptions about storytelling) are basically meta-pedagogy docs you could adapt as pre-reads for TAs or co-instructors.
-  - Assignments force students to build a small dataset from their own campus lives (e.g. drinking fountains, sunny days) plus write full documentation and reflections on what that reveals.
+  - [ ] Assignments force students to build a small dataset from their own campus lives (e.g. drinking fountains, sunny days) plus write full documentation and reflections on what that reveals.
   - “Data visceralization”: students must invent a physical or otherwise visceral representation of their data – very stealable for geospatial, networks, or RAG explanations.
   - debugging/profiling → metaprogramming → security
-  - Test with bash in browser!
+  - [ ] Test with bash in browser!
   - Rewrite course in your style and update
   - Course synchronized with a live conference: students attend / intersect with the Cooperative AI Conference, with conference participants appearing as guest speakers. That’s a powerful pattern for you: run a TDS “conference-shadow” module keyed to PyCon, data science meetups, or your own AI clinics.
   - Share prompts rather than content. Suggest styles to write, points to learn, questions or alternative tools to evaluate and compare, etc. E.g. When would I use Cloudflare and not AWS? Which is easier to learn?
 - TDS Strand. https://chatgpt.com/c/683bfefd-7100-800c-95e4-0780b3f4c2f5
   - Teach intuition via GAs.
   - ⭐ The GAs are your blog and podcast and video!! Connect theory to real-world applications from day one. Live code solution scaffolding! Embed the question in AV!
-  - Strang "acts like a student himself encountering it for the first time." Add a Simplicio style FAQ to each question! Concrete mathematics style asides. Share failure stories and bloopers.
+  - [x] Strang "acts like a student himself encountering it for the first time." Add a Simplicio style FAQ to each question! Concrete mathematics style asides. Share failure stories and bloopers.
   - Use constant, low-stakes questioning to keep attention. Click to reveal answer to non evaluated, simple, questions. Use xkcd style titles
   - Add a termwise changelog at the top of each README.
-  - Write JS code to draw histogram. LLM vision verification.
   - Code understanding from a public repo. Find the line that does X.
-  - Win board game.
-  - You have the answer to another student's question: email SHA. Another email SHA has yours.
+  - [ ] Win board game.
+  - [ ] You have the answer to another student's question: email SHA. Another email SHA has yours.
   - ⭐ TDS. Run playwright script in students machine. Test their personalized app. Crypto secure.
   - Incorporate logging & observability in the curriculum.
   - Incorporate robustness, reliability, try except, etc.
@@ -238,4 +261,5 @@ Random ideas for the TDS Jan 2026 course iteration, collected Dec 2025.
   - Have students create content. Most valuable addition gets marks.
   - ⭐ LLM continuous evaluation of the niceness of Discourse posts - social policing score. Helpfulness, etc.
   - Bootcamp: Basic Linux command, FastApi + httpx, Git, Docker/Podman, Basic App HuggingFace Deployment
-- Bonus Mark: Get a PR solving an existing issue accepted by any open source data science repo with 1,000+ stars?
+- TDS GA1 problems
+  - Make error messages a TEACHING device. When passed to an LLM, it should guide the LLM to explain a concept. Include the error message in the Ask AI prompt. But this is hard since it needs to be dynamic.
