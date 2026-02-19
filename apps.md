@@ -2,6 +2,11 @@
 
 Descriptions of apps I felt would be interesting or useful to build (or find).
 
+## Feb 2026
+
+- [ ] 19 Feb 2026. Video (of business user testing an app) to test cases. By 26 Feb.
+- [ ] 19 Feb 2026. Social network of Enron emails (for IIMB Org Design with Sourav).
+
 ## Jan 2025
 
 - [x] 30 Jan 2026. Pavan. SQL query analysis. https://pavankumart18.github.io/sql-analysis/
