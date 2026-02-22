@@ -2,12 +2,18 @@
 
 Descriptions of apps I felt would be interesting or useful to build (or find).
 
+## Feb 2026
+
+- [ ] 20 Feb 2026. Generate blender 3D from image.
+- [ ] 19 Feb 2026. Ritesh. Video (of business user testing an app) to test cases. By 26 Feb.
+- [ ] 19 Feb 2026. Mayank. Social network of Enron emails (for IIMB Org Design with Sourav).
+
 ## Jan 2025
 
 - [x] 30 Jan 2026. Pavan. SQL query analysis. https://pavankumart18.github.io/sql-analysis/
 - [ ] 26 Jan 2026. Nitin. "Memic". Scan news for previous day. Create a RK Laxman / Amul style cartoon with a funny take on the news. Add a 1-para explanation and link to source. Run historically. Schedule daily. Share browseable archives. Segment by World, India, Tech, Business, Sports, Entertainment. Document how to add new segments. https://nitin399-maker.github.io/comicgen/
 - [ ] 26 Jan 2026. Nitin. Have an AI coding agent attack different bots and find different strategies to make it say "Yes" (or break any other TDS Project datastories/promptfight/ defenses.) Assume that it knows the other's prompt.
-- [ ] 26 Jan 2026. Pavan. Aman created an embroidered style using ImageMagick. Can Claude Code discover more such new styles? https://aman.bh/blog/2025/creating-embroidered-charts-with-r-and-imagemagick
+- [ ] 26 Jan 2026. Ritesh. Aman created an embroidered style using ImageMagick. Can Claude Code discover more such new styles? https://aman.bh/blog/2025/creating-embroidered-charts-with-r-and-imagemagick
 - [ ] 26 Jan 2026. Ritesh. Modify topicmodel.py to use community partitioning (e.g. Liedenalg). https://ritesh17rb.github.io/topicmodel/
 - [ ] 26 Jan 2026. Pavan. Use HAR captures to automate actions.
 - [ ] 25 Jan 2026. Pavan. Scrape NCRB.

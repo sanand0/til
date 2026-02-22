@@ -1,3 +1,39 @@
+🟣	RS	   16200	   137	2026-02-22	clap-rs/clap	A full featured, fast Command Line Argument Parser for Rust
+🟣	RS	     592	   123	2026-02-22	raphaelmansuy/edgequake	High-performance GraphRAG inspired from LightRag written in Rust
+🟣	RS	    5509	   112	2026-02-22	pimalaya/himalaya	CLI to manage emails
+🟣	RS	    2654	    30	2026-02-22	Priler/jarvis	Offline voice assistant that respects your privacy. Forged in Rust. WIP.
+🟣	RS	    5478	    59	2026-02-22	signalapp/libsignal	Home to the Signal Protocol as well as other cryptographic primitives which make Signal possible.
+🟣	RS	     425	   102	2026-02-22	ruvnet/ruvector	A distributed vector database that learns. Store embeddings, query with Cypher, scale horizontally with Raft consensus, and let the index improve itself through Graph Neural Networks.
+🟣	RS	    1497	   119	2026-02-22	matrix-construct/tuwunel	Official successor to conduwuit
+🟣	RS	    5958	   120	2026-02-22	Universal-Debloater-Alliance/universal-android-debloater-next-generation	Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.
+🟣	GO	     976	   182	2026-02-22	asheshgoplani/agent-deck	Terminal session manager for AI coding agents. One TUI for Claude, Gemini, OpenCode, Codex, and more.
+🟣	GO	   17102	   173	2026-02-22	TecharoHQ/anubis	Weighs the soul of incoming HTTP requests to stop AI crawlers
+🟣	GO	   19935	   153	2026-02-22	dolthub/dolt	Dolt – Git for Data
+🟣	GO	    4517	  2360	2026-02-22	steipete/gogcli	Google Suite CLI: Gmail, GCal, GDrive, GContacts.
+🟣	GO	    3208	   293	2026-02-22	gosom/google-maps-scraper	scrape data data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place
+🟣	GO	    1974	    75	2026-02-22	icereed/paperless-gpt	Use LLMs and LLM Vision (OCR) to handle paperless-ngx - Document Digitalization powered by AI
+🟣	GO	     508	   115	2026-02-22	steipete/wacli	WhatsApp CLI
+🟣	PY	   17211	  1299	2026-02-22	AstrBotDevs/AstrBot	Agentic IM Chatbot infrastructure that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨
+🟣	PY	    1740	   202	2026-02-22	GodsScion/Auto_job_applier_linkedIn	Make your job hunt easy by automating your application process with this Auto Applier
+🟣	PY	     610	   325	2026-02-22	databricks-solutions/ai-dev-kit	Databricks Toolkit for Coding Agents provided by Field Engineering
+🟣	PY	   84976	   179	2026-02-22	home-assistant/core	🏡 Open source home automation that puts local control and privacy first.
+🟣	PY	   11779	   841	2026-02-22	cheahjs/free-llm-api-resources	A list of free LLM inference resources accessible via API.
+🟣	PY	    5679	  1097	2026-02-22	freemocap/freemocap	Free Motion Capture for Everyone 💀✨
+🟣	PY	   17373	  1515	2026-02-22	hummingbot/hummingbot	Open source software that helps you create and deploy high-frequency crypto trading bots
+🟣	PY	   31700	   475	2026-02-22	PostHog/posthog	🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.
+🟣	PY	    7220	  1201	2026-02-22	ruvnet/wifi-densepose	Production-ready implementation of InvisPose - a revolutionary WiFi-based dense human pose estimation system that enables real-time full-body tracking through walls using commodity mesh routers
+🟣	TS	    3214	   217	2026-02-22	cinnyapp/cinny	Yet another matrix client
+🟣	TS	   27106	   566	2026-02-22	ComposioHQ/composio	Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.
+🟣	TS	    1620	   508	2026-02-22	letta-ai/letta-code	The memory-first coding agent
+🟣	TS	    8841	   633	2026-02-22	OpenCTI-Platform/opencti	Open Cyber Threat Intelligence Platform
+🟣	TS	    8138	  2449	2026-02-22	rowboatlabs/rowboat	Open-source AI coworker, with memory
+🟣	TS	    3984	  1995	2026-02-22	steipete/summarize	Point at any URL/YouTube/Podcast or file. Get the gist. CLI and Chrome Extension.
+🟣	JS	    1601	  1046	2026-02-22	SynkraAI/aios-core	Synkra AIOS: AI-Orchestrated System for Full Stack Development - Core Framework v4.0
+🟣	JS	   17095	  3044	2026-02-22	gsd-build/get-shit-done	A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code and OpenCode.
+🟣	JS	    1098	   205	2026-02-22	yctimlin/mcp_excalidraw	
+🟣	JS	    5296	   412	2026-02-22	pshenok/server-survival	Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling.
+🟣	SH	    2119	    34	2026-02-22	FiorenMas/Revanced-And-Revanced-Extended-Non-Root	Real-time repository build Revanced and Revanced Extended about 10 minutes after patch release
+🟣	SH	     645	    75	2026-02-22	StressOzz/Zapret-Manager	Скрипт для установки и настройки Zapret на OpenWRT.
 🟣	RS	    9095	   381	2026-02-11	mainmatter/100-exercises-to-learn-rust	A self-paced course to learn Rust, one exercise at a time.
 🟣	RS	    8281	   581	2026-02-11	reacherhq/check-if-email-exists	Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.
 🟣	RS	   26095	    74	2026-02-11	cloudflare/pingora	A library for building fast, reliable and evolvable network services.
