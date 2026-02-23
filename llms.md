@@ -2,6 +2,7 @@
 
 ## Feb 2026
 
+- 23 Feb 2026. Coding agents have introduced a "Usage" page to check your usage: [Claude usage](https://claude.ai/settings/usage) and [ChatGPT usage](https://chatgpt.com/codex/settings/usage). Both have weekly limits and shorter limits (5h for Codex, "session" for Claude, )
 - 01 Feb 2026. [Genie 3 seems pretty good](https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu/post/3mdlhstvnjc2r). We should expect to see World Models becoming usable in a few months.
 
 ## Jan 2026
