@@ -4,6 +4,7 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 
 ## Feb 2026
 
+- [ ] 23 Feb 2026.
 - [ ] 20 Feb 2026. Generate blender 3D from image.
 - [ ] 19 Feb 2026. Ritesh. Video (of business user testing an app) to test cases. By 26 Feb.
 - [ ] 19 Feb 2026. Mayank. Social network of Enron emails (for IIMB Org Design with Sourav).
