@@ -2,7 +2,7 @@
 
 ## Feb 2026
 
-- 23 Feb 2026. Coding agents have introduced a "Usage" page to check your usage: [Claude usage](https://claude.ai/settings/usage) and [ChatGPT usage](https://chatgpt.com/codex/settings/usage). Both have weekly limits and 5 hour rolling limits - with Codex's being more generous. This aggregates usage across the coding agents as well.
+- 23 Feb 2026. Coding agents have introduced a "Usage" page to check your usage: [Claude usage](https://claude.ai/settings/usage) and [ChatGPT usage](https://chatgpt.com/codex/settings/usage). Both have weekly limits and 5 hour rolling limits - with Codex's being more generous. This aggregates usage across the coding agents as well. Codex has a separate [GitHub Code Review](https://developers.openai.com/codex/integrations/github/) quota separate from this, however.
 - 01 Feb 2026. [Genie 3 seems pretty good](https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu/post/3mdlhstvnjc2r). We should expect to see World Models becoming usable in a few months.
 
 ## Jan 2026
