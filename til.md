@@ -2,6 +2,8 @@
 
 ## Feb 2026
 
+- 25 Feb 2026. [codespelunker](https://lobste.rs/s/nddlyy/codespelunker_cli_code_search_tool) is a fast CLI code search tool. Just run `cs` for an interactive search. It feels light and fast, like `ug`. [lobste.rs](https://lobste.rs/s/nddlyy/codespelunker_cli_code_search_tool)
+- 24 Feb 2026. Shadow IT is unpaid R&D, not a security threat. When frustrated marketing or sales teams secretly buy their own software tools and bypass the IT department, traditional companies try to ban them. Transformed companies study them. "Shadow IT" is a highly accurate heat map pointing exactly to where your current systems are failing and where the immediate business value lies. **Source:** [CIO.com](https://www.cio.com/article/222428/shadow-it-the-cio-s-perspective.html), [Gartner: Business-Led IT](https://thepisa.org/wp-content/uploads/2025/06/BizLedIT-GARTNER-Executive-Summary-Business-Feb2021.pdf)
 - 21 Feb 2026. [tree-sitter](https://github.com/tree-sitter/tree-sitter) is a fast incremental parser generator. That means you can use it to create a parser for _any_ language that works even if there are errors, e.g. malformed JSON, Python, etc. It's used by most editors. For example, [tree-sitter-python](https://github.com/tree-sitter/tree-sitter-python) is a fast forgiving Python parser. There are [official parsers](https://github.com/tree-sitter/tree-sitter/wiki/List-of-parsers) and [community parsers](https://github.com/tree-sitter-grammars)
   - **Programming Languages:** All popular ones, less popular ones like Ada, Fortran, Lua, Zig, ... and even niche / domain-specific languages (Gleam, TLA⁺).
   - **Markup & Data Formats:** HTML, XML, Markdown, JSON, YAML, TOML, CSV, ...
