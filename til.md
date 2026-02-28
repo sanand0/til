@@ -2,6 +2,7 @@
 
 ## Feb 2026
 
+- 28 Feb 2026. 3 years into Nestle, Sangeeta Talwar (who was selling Maggi soup cubes) took the "Maggi Instant Noodles" (popular in Malaysia), changed it to "2-minutes", realized that noodles are fun for kids to play with, invented the masala flavor, positioned it as easy for moms, distributed hanging baskets (rodent-safe, brand visibility) at stores, [marketed on TV](https://www.youtube.com/watch?v=8_D-nQSTn-E) and in stores, etc.
 - 25 Feb 2026. [codespelunker](https://lobste.rs/s/nddlyy/codespelunker_cli_code_search_tool) is a fast CLI code search tool. Just run `cs` for an interactive search. It feels light and fast, like `ug`. [lobste.rs](https://lobste.rs/s/nddlyy/codespelunker_cli_code_search_tool)
 - 24 Feb 2026. Shadow IT is unpaid R&D, not a security threat. When frustrated marketing or sales teams secretly buy their own software tools and bypass the IT department, traditional companies try to ban them. Transformed companies study them. "Shadow IT" is a highly accurate heat map pointing exactly to where your current systems are failing and where the immediate business value lies. **Source:** [CIO.com](https://www.cio.com/article/222428/shadow-it-the-cio-s-perspective.html), [Gartner: Business-Led IT](https://thepisa.org/wp-content/uploads/2025/06/BizLedIT-GARTNER-Executive-Summary-Business-Feb2021.pdf)
 - 21 Feb 2026. [tree-sitter](https://github.com/tree-sitter/tree-sitter) is a fast incremental parser generator. That means you can use it to create a parser for _any_ language that works even if there are errors, e.g. malformed JSON, Python, etc. It's used by most editors. For example, [tree-sitter-python](https://github.com/tree-sitter/tree-sitter-python) is a fast forgiving Python parser. There are [official parsers](https://github.com/tree-sitter/tree-sitter/wiki/List-of-parsers) and [community parsers](https://github.com/tree-sitter-grammars)
@@ -18,7 +19,7 @@
 - 10 Feb 2026. `ffmpeg` lets you concatenate files without needing a separate input file. `ffmpeg -i "concat:input1.ext|input2.ext|input3.ext" -c copy output.ext` works as long as the files use the same codecs and parameters.
 - 09 Feb 2026. There is a psychological phenomenon where we "overlay" old images of people we haven't seen in decades onto their current selves, making it hard to distinguish between someone who is 30 and someone who is 70. [Gemini](https://gemini.google.com/share/1348ea514d1e)
 - 08 Feb 2026. Most modern `ls` tools like [`eza --icons`](https://github.com/eza-community/eza) or [`lsd`](https://github.com/lsd-rs/lsd) support icons if the terminal font supports icons, like [Nerd Fonts](https://www.nerdfonts.com/). For example, this: `` shows up as a GitHub icon and `󰌻` as a LinkedIn icon. The [Nerd Fonts Cheat Sheet](https://www.nerdfonts.com/cheat-sheet) is a good place to search for these. You may need to download a [supporting font](https://www.nerdfonts.com/font-downloads).
-- 08 Feb 2026. I just replaced [Fira Code](https://github.com/tonsky/FiraCode) with [Maple Mono](https://font.subf.dev/en/) as my default font on VS Code. Like Fira Code, the ligatures are great, but there are extra ligatures like [TODO] or [ERROR], *connected italics*, nerd font support, variable font weights, and more. Via [lobste.rs](https://lobste.rs/s/ahca9t/maple_mono_open_source_monospace_font). (**Update**: Maple Mono is _much_ harder to read than Fira Code, so I switched back. But it's a nice idea.)
+- 08 Feb 2026. I just replaced [Fira Code](https://github.com/tonsky/FiraCode) with [Maple Mono](https://font.subf.dev/en/) as my default font on VS Code. Like Fira Code, the ligatures are great, but there are extra ligatures like [TODO] or [ERROR], _connected italics_, nerd font support, variable font weights, and more. Via [lobste.rs](https://lobste.rs/s/ahca9t/maple_mono_open_source_monospace_font). (**Update**: Maple Mono is _much_ harder to read than Fira Code, so I switched back. But it's a nice idea.)
 - 03 Feb 2026. [The Disconnected Git Workflow](https://ploum.net/2026-01-31-offline-git-send-email.html) explains how to use the [`git send-email`](https://git-send-email.io/) workflow. That's like using email instead of GitHub as the collaboration mechanism - decentralizing and reducing dependencies.
 - 03 Feb 2026. [Grok](https://grok.com/) throws a [HTTP 431](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/431) when you pass it a query over 6,890 characters in the URL. Here's [an example with 6,900 characters](https://grok.com/?q=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx).
 - 03 Feb 2026. As of now, there's no way to tell `uv` to use the cache and install only missing repos ([#15454](https://github.com/astral-sh/uv/issues/15454)). But this is [Deno's default behavior](https://docs.deno.com/runtime/fundamentals/modules/#reloading-modules), making Deno a slightly better choice in this regard.
@@ -129,15 +130,15 @@
   - Childhood trauma persists.
   - Relationships (connection & compassion) help more than therapy
 - 11 Jan 2026. What constitutes tax residency in India? For an Indian citizen, as I understand it (after 2 hours of research):
-  - If you were in India >= 182 days: Resident*
+  - If you were in India >= 182 days: Resident\*
   - Else, if you left India _this year_ for employment: NRI.
   - Else, if you are an Indian Citizen living abroad (visiting or not):
     - If Indian Income <= ₹15 Lakhs: NRI.
     - Else if you were in India >= 120 days AND >= 365 days in the last 4 years: RNOR.
     - Else if you are not liable to tax in any other country: RNOR.
-  - Else, if you left India for non-employment (students, tourism) and were in India >= 60 days AND >= 365 days in the last 4 years: Resident*
+  - Else, if you left India for non-employment (students, tourism) and were in India >= 60 days AND >= 365 days in the last 4 years: Resident\*
   - Else: NRI.
-  - If you ended up as a Resident*
+  - If you ended up as a Resident\*
     - If you were NRI in 9 of the last 10 years OR in India <= 729 days in the last 7 years: RNOR
     - Else: ROR (Resident & Ordinarily Resident).
   - For all practical purposes, RNOR is like an NRI. You pay tax only on Indian income, not global income. It's like a transition status for returning NRIs.
@@ -404,7 +405,7 @@
   - In 2017, FDA approved a CAR-T therapy for children with acute blood cancer. We extract a patient's T-cells, insert a gene with a receptor that recognizes specific tumor cells, grow them by the billions, and infuse them back. But there are severe side effects and it doesn't yet work for solid tumors.
   - In 2024, FDA approved a cellular therapy for skin cancer. We extract the T-cells INSIDE the tumor (that recognized the cancer but were overwhelmed), grow them by the billions, and re-infuse them.
   - In 2024, we're exploring AI-powered analysis of blood tests to find DNA fragments of several types of cancer - "liquid biopsy". It's early stages.
-  ![Sketchnote](https://files.s-anand.net/images/2025-12-28-cancer.webp)
+    ![Sketchnote](https://files.s-anand.net/images/2025-12-28-cancer.webp)
 - 28 Dec 2025. [The Song of the Cell: An Exploration of Medicine and the New Human](https://www.goodreads.com/book/show/60321392-the-song-of-the-cell) by Siddhartha Mukherjee. [Claude](https://claude.ai/share/2430eea3-7580-4e87-8750-24cadc908acb)
   - Metaphor: Cells as autonomous "citizens". Cancer is a rogue cell rebellion. Immune system is law enforcement. Type 1 diabetes is friendly fire.
   - We're growing from fixing organs (surgery) to chemistry (drugs) to cells (e.g. bone marrow transplant, IVF - we're in the early stages).
@@ -503,7 +504,7 @@
     - Nazi Germany industrialized this. Deaf, blind, mentally ill, then eliminate gene pools.
     - CRISPR and gene editing lets us design babies - another form of eugenics.
     - Iceland and Denmark have eliminated Down syndrome births through screening and selective termination. It's a bit controversial.
-  ![Sketch note](https://files.s-anand.net/images/2025-12-27-genetics.webp)
+      ![Sketch note](https://files.s-anand.net/images/2025-12-27-genetics.webp)
 - 27 Dec 2025. [Immune: A Journey Into the Mysterious System That Keeps You Alive](https://www.goodreads.com/book/show/57517317-immune) by Philipp Dettmer explains the war our immune system wages daily. [Claude](https://claude.ai/share/71db0b01-f112-4209-a163-793781eb159e)
   - Immunology is, as science writer Ed Yong memorably put it, "where intuition goes to die." It's the kind of subject that makes medical students weep and practicing physicians throw up their hands.
   - We have an **innate immune system**. Genetically programmed for common pathogens. Fast, but limited. Like:
@@ -528,7 +529,7 @@
   - "Immune boosting" is a misnomer. We really want balance, and diet, fruit, vitamins, antioxidants, probiotics, sleep, exercise, stress reduction, social connection, etc. help. But vaccines are the best way to train the immune system.
   - Every breath and meal draws in invaders. They're catalogued and tolerated or destroyed. It's incredible!
   - Measles reduces immune memory 11-73%, wiping out years of immunity to other diseases. So, when I had measles in 2009 _after_ my splenectomy in 2004, I had a double whammy. Damn! Didn't know that.
-  ![Sketch note](https://files.s-anand.net/images/2025-12-27-immune-system.webp)
+    ![Sketch note](https://files.s-anand.net/images/2025-12-27-immune-system.webp)
 - 26 Dec 2025. Some books, like [The Choice](https://www.goodreads.com/book/show/30753738-the-choice), aren't meant to be summarized. I can't even summarize the [summary](https://claude.ai/share/a972c2a2-ab27-4470-b2b2-74c4d7a92eea).
 - 26 Dec 2025. [The Origin of Consciousness in the Breakdown of the Bicameral Mind](https://www.goodreads.com/book/show/22478.The_Origin_of_Consciousness_in_the_Breakdown_of_the_Bicameral_Mind) by Julian Jaynes proposes that introspective consciousness emerged ~3,000 years ago. Unproven but unfalsified. [Claude](https://claude.ai/share/b2cea7b2-97b4-4d16-98dd-4359b0965ba9)
   - He theorizes that until ~3,000 years ago, the right part of the brain generated "voices" the left part obeyed. The Iliad heard voices. The Odyssey has a self-aware hero.
@@ -952,8 +953,8 @@
 - 27 Oct 2025. [parse-sse](https://github.com/sindresorhus/parse-sse) from Sindre Sorhus is a more standards-compliant, more likely-to-be-maintained alternative to my [async-sse](https://github.com/sanand0/async-sse) package.
 - 27 Oct 2025. Which is better: Comment A: 1 upvote, 0 downvotes (100% positive) or Comment B: 99 upvotes, 1 downvote (99% positive)? Use **Wilson's Lower Bound** which measures "What % positive am I 95% confident of?" [Claude](https://claude.ai/share/0f69e7f8-6ca7-4fee-b3ec-8b580556bc9a)
   - Using this, we can measure metrics for tweets, like below. [ChatGPT](https://chatgpt.com/share/68fef88f-7b18-800c-835f-38a3fe470f34)
-  - Popularity = (5 * WLB(reposts / views) + 2 * WLB(likes / views)) * Decay(half-life of 72 h)
-  - Memorability = (5 * WLB(bookmarks / views) + 4 * WLB(replies / views)) * Decay(half-life of 36 hours)
+  - Popularity = (5 _ WLB(reposts / views) + 2 _ WLB(likes / views)) \* Decay(half-life of 72 h)
+  - Memorability = (5 _ WLB(bookmarks / views) + 4 _ WLB(replies / views)) \* Decay(half-life of 36 hours)
 - 25 Oct 2025. Before founding a place to do good, work in a place that does good and learn. [Ben Werdmuller](https://werd.io/using-technology-skills-for-positive-change/)
 - 24 Oct 2025. [HubFS](https://github.com/winfsp/hubfs) mounts GitHub repos on the file system. Every file system action directly works on GitHub via a REST API. Useful for some scenarios but less useful for note-taking than something like [GitDoc](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc) which offers a delayed sync.
 - 23 Oct 2025. `python -m pdb -c continue script.py` or `uv run -m pdb -c continue script.py` runs a script and drops into pdb on unhandled exceptions (post-mortem). [ChatGPT](https://chatgpt.com/share/68f9b890-ba0c-800c-8a29-48245a41ca5e)
@@ -1084,7 +1085,7 @@
 - 10 Sep 2025. The [npm phishing email was a great one](https://xeiaso.net/notes/2025/we-dodged-a-bullet/). It [compromised chalk](https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised) which is used in most npm packages. This may be one of the best supply chain attacks in recent times and makes me want to pin versions instead of using `npx -y`. Also makes me glad that I'm sponsoring [@isaacs](https://github.com/isaacs) and [@sindresorhus](https://github.com/sindresorhus) - two _critical_ open source maintainers.
 - 10 Sep 2025. "I pay for YouTube Premium. For my money, it’s the best bang-for-the-buck subscription service on the market". - [Gavin Andregg](https://anderegg.ca/2025/09/08/youtube-is-a-mysterious-monopoly)
 - 09 Sep 2025. You can create an [infinite leaflet map with nano banana](https://github.com/seezatnap/nano-banana-infinimap).
-- 08 Sep 2025. The [Reod](https://coppermind.net/wiki/Reod) on [Elantris](https://coppermind.net/wiki/Elantris_(city)) might have been triggered by [Jaddeth](https://coppermind.net/wiki/Jaddeth) who might be an [Autonomy](https://coppermind.net/wiki/Autonomy) avatar. [ChatGPT](https://chatgpt.com/share/68be4c74-afa8-800c-b004-7a1565cb2487)
+- 08 Sep 2025. The [Reod](https://coppermind.net/wiki/Reod) on [Elantris](<https://coppermind.net/wiki/Elantris_(city)>) might have been triggered by [Jaddeth](https://coppermind.net/wiki/Jaddeth) who might be an [Autonomy](https://coppermind.net/wiki/Autonomy) avatar. [ChatGPT](https://chatgpt.com/share/68be4c74-afa8-800c-b004-7a1565cb2487)
 - 06 Sep 2025. A quick way to get the docs for an npm package is `npm view package-name readme`. For PyPi, it's `curl -s https://pypi.org/pypi/package-name/json | jq -r .info.description`
 - 04 Sep 2025. [gitingest](http://gitingest.com/) has a [CLI](https://github.com/coderamp-labs/gitingest). `uvx gitingest https://github.com/owner/repo` fetches the code in the Git repo suitable for passing to an LLM.
 - 03 Sep 2025. You can use the `<script>` tag in XML to render RSS, as an alternative to XSLT. [Jake Archibald](https://jakearchibald.com/2025/making-xml-human-readable-without-xslt/)
@@ -1474,7 +1475,6 @@
   ```
 
   Based on this, here are the top services I'm not using:
-
   - Editors: vim, emacs, neovim
   - Hardware: All Apple products, Blue yeti mic
   - Services: Slack, Spotify, Notion, Figma, Todoist
@@ -1511,18 +1511,15 @@
 - 30 Jun 2025. Here's a JS snippet you can paste in the DevTools console of an npm package version page ([example](https://www.npmjs.com/package/d3?activeTab=versions)) to get a Markdown list showing the versions and dates
   ```js
   copy(
-    $$("table[aria-labelledby=\"version-history\"] tbody tr")
+    $$('table[aria-labelledby="version-history"] tbody tr')
       .map((tr) => {
         const a = tr.querySelector("a");
-        const date = new Date(tr.querySelector("time").getAttribute("datetime"))
-          .toLocaleDateString("en-GB", {
-            day: "numeric",
-            month: "short",
-            year: "numeric",
-          });
-        return `- [${a.textContent.trim()}](https://npmjs.com${
-          a.getAttribute("href")
-        }): ${date}.`;
+        const date = new Date(tr.querySelector("time").getAttribute("datetime")).toLocaleDateString("en-GB", {
+          day: "numeric",
+          month: "short",
+          year: "numeric",
+        });
+        return `- [${a.textContent.trim()}](https://npmjs.com${a.getAttribute("href")}): ${date}.`;
       })
       .join("\n"),
   );
@@ -1606,7 +1603,6 @@
 - 28 Jun 2025. [Perfect Cursors](https://github.com/steveruizok/perfect-cursors) makes periodic cursor positions animate smoothly by interpolating on a spline\*\*
 - 27 Jun 2025. CloudFlare _and_ Vercel now support sandboxes where you can execute code. The price is not so low that we can execute for free in bulk but works well infrequent or batched code execution. [Simon Willison](https://simonwillison.net/2025/Jun/26/sandboxes/)
 - 27 Jun 2025. Here's how I'm using ffmpeg for video recording & editing.
-
   - To record screen at 5 frames per second, I run an abbreviation `screenrecord` which maps to:
 
     ```bash
@@ -2308,7 +2304,6 @@
   - Defining a minimal set of principles that we want to teach helps us measure if we've helped the bottom half at least meet those objectives.
   - Teaching is hard. Even after explanations, students, even ENGAGED students, tend to make basic mistakes
 - 02 Feb 2025. The data catalog space is led by proprietary solutions:
-
   - [Alation Data Catalog](https://www.alation.com/data-catalog/): Market leader; growing steadily in enterprise use
   - [Collibra Data Catalog](https://www.collibra.com/data-catalog): Widely adopted with steady growth
   - [AWS Glue Data Catalog](https://aws.amazon.com/glue/features/data-catalog/): Growing rapidly as AWS expands its data services
@@ -2317,7 +2312,6 @@
   - [Atlan Data Catalog](https://www.atlan.com/data-catalog): Relatively new but gaining fast traction among tech-forward organizations
 
   But open source alternatives are also gaining traction:
-
   - [DataHub](https://datahubproject.io/): Rapidly growing and embraced by modern data teams. Update: 6 Jun 2025. Not updated since Nov 2023 [Ref](https://github.com/Zjh-819/LLMDataHub/)
   - [Amundsen](https://www.getamundsen.io/): Growing steadily, popular in tech companies for its simplicity
   - [OpenMetadata](https://openmetadata.org/): Fast-growing with a strong emerging community
