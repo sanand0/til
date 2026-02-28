@@ -7,8 +7,8 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 - [ ] 26 Feb 2026. Mayank. Spawn an instance to run DBT rules other code from SchemaForge, or other examples. The point is spawning.
 - [ ] 26 Feb 2026. Worforce: AI-Driven Curriculum Mapping and Hyper-Responsive Curriculum Alignment services.
 - [ ] 26 Feb 2026. Org design...
-- [ ] 26 Feb 2026. Agentic chatbot: actually complete tasks (like filing financial aid forms)
-- [ ] 20 Feb 2026. Generate blender 3D from image.
+- [ ] 26 Feb 2026. Pavan. Agentic chatbot: actually complete tasks (like filing financial aid forms)
+- [ ] 20 Feb 2026. Pavan. Generate blender 3D from image.
 - [ ] 19 Feb 2026. Ritesh. Video (of business user testing an app) to test cases. By 26 Feb.
 - [ ] 19 Feb 2026. Mayank. Social network of Enron emails (for IIMB Org Design with Sourav).
 
