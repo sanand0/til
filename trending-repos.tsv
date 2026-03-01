@@ -1,3 +1,40 @@
+🟣	RS	    1177	   140	2026-03-01	OlaProeis/Ferrite	A fast, lightweight text editor for Markdown, JSON, YAML, and TOML files. Built with Rust and egui for a native, responsive experience.
+🟣	RS	    1375	   163	2026-03-01	claration/Impactor	WIP feature rich iOS/tvOS sideloading application written in Rust.
+🟣	RS	     972	   220	2026-03-01	storytold/artcraft	ArtCraft is an intentional crafting engine for artists, designers, and filmmakers
+🟣	RS	    4033	   666	2026-03-01	pgdogdev/pgdog	PostgreSQL connection pooler, load balancer and database sharder.
+🟣	RS	     373	    52	2026-03-01	Roblox/studio-rust-mcp-server	Standalone Roblox Studio MCP Server
+🟣	GO	   21471	   112	2026-03-01	FiloSottile/age	A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.
+🟣	GO	   13635	    56	2026-03-01	cert-manager/cert-manager	Automatically provision and manage TLS certificates in Kubernetes
+🟣	GO	    7464	    56	2026-03-01	k8sgpt-ai/k8sgpt	Giving Kubernetes Superpowers to everyone
+🟣	GO	   10744	   222	2026-03-01	NoFxAiOS/nofx	AI Trading OS: Multi-AI, multi-exchange trading infrastructure with Strategy Studio.
+🟣	GO	    4462	    41	2026-03-01	open-telemetry/opentelemetry-collector-contrib	Contrib repository for the OpenTelemetry Collector
+🟣	GO	    3478	   101	2026-03-01	go-vikunja/vikunja	The to-do app to organize your life.
+🟣	GO	   20829	    32	2026-03-01	vitessio/vitess	Vitess is a database clustering system for horizontal scaling of MySQL.
+🟣	GO	    9566	   606	2026-03-01	xpzouying/xiaohongshu-mcp	MCP for xiaohongshu.com
+🟣	PY	   12755	  4318	2026-03-01	muratcankoylan/Agent-Skills-for-Context-Engineering	A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.
+🟣	PY	    7821	  1058	2026-03-01	HunxByts/GhostTrack	Useful tool to track location or mobile number
+🟣	PY	    2341	   701	2026-03-01	GVCLab/PersonaLive	[CVPR 2026] PersonaLive! : Expressive Portrait Image Animation for Live Streaming
+🟣	PY	    3439	   378	2026-03-01	anthropics/claude-code-security-review	An AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities.
+🟣	PY	    1791	   491	2026-03-01	RichardAtCT/claude-code-telegram	A powerful Telegram bot that provides remote access to Claude Code, enabling developers to interact with their projects from anywhere with full AI assistance and session persistence.
+🟣	PY	    9873	    89	2026-03-01	Netflix/metaflow	Build, Manage and Deploy AI/ML Systems
+🟣	PY	    2603	   676	2026-03-01	mihail911/modern-software-dev-assignments	Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2025)
+🟣	PY	    7535	  5940	2026-03-01	huggingface/skills	
+🟣	PY	    9566	    44	2026-03-01	sktime/sktime	A unified framework for machine learning with time series
+🟣	PY	   14430	    35	2026-03-01	sympy/sympy	A computer algebra system written in pure Python
+🟣	TS	    6768	  5747	2026-03-01	abhigyanpatwari/GitNexus	GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration
+🟣	TS	   19342	  1660	2026-03-01	moeru-ai/airi	💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.
+🟣	TS	    1434	    95	2026-03-01	semperai/amica	Amica is an open source interface for interactive communication with 3D characters with voice synthesis and speech recognition.
+🟣	TS	   12592	    66	2026-03-01	juice-shop/juice-shop	OWASP Juice Shop: Probably the most modern and sophisticated insecure web application
+🟣	TS	   15029	    21	2026-03-01	jupyterlab/jupyterlab	JupyterLab computational environment.
+🟣	TS	   16560	  2037	2026-03-01	ruvnet/ruflo	🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration
+🟣	JS	     533	    46	2026-03-01	jasonjmcghee/WebMCP	Early WebMCP proposal / implementation - since evolved and worked on by much more capable folks that develop the web: https://github.com/webmachinelearning/webmcp
+🟣	JS	   55202	   396	2026-03-01	Mintplex-Labs/anything-llm	The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility, and more.
+🟣	JS	     359	    24	2026-03-01	atlassian/atlassian-mcp-server	Remote MCP Server that securely connects Jira and Confluence with your LLM, IDE, or agent platform of choice.
+🟣	JS	   11376	    73	2026-03-01	mozilla-firefox/firefox	The official repository of Mozilla's Firefox web browser.
+🟣	JS	    7212	    60	2026-03-01	gaotianliuyun/gao	FongMi影视和tvbox配置文件，如果喜欢，请Fork自用。使用前请仔细阅读仓库说明，一旦使用将被视为你已了解。
+🟣	JS	     670	   117	2026-03-01	badlogic/pi-skills	Skills for pi coding agent (compatible with Claude Code and Codex CLI)
+🟣	SH	   11845	   936	2026-03-01	VoltAgent/awesome-claude-code-subagents	A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases
+🟣	SH	     435	   130	2026-03-01	eugr/spark-vllm-docker	Docker configuration for running VLLM on dual DGX Sparks
 🟣	RS	   16200	   137	2026-02-22	clap-rs/clap	A full featured, fast Command Line Argument Parser for Rust
 🟣	RS	     592	   123	2026-02-22	raphaelmansuy/edgequake	High-performance GraphRAG inspired from LightRag written in Rust
 🟣	RS	    5509	   112	2026-02-22	pimalaya/himalaya	CLI to manage emails
