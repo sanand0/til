@@ -1,215 +1,46 @@
-🟣	RS	    1177	   140	2026-03-01	OlaProeis/Ferrite	A fast, lightweight text editor for Markdown, JSON, YAML, and TOML files. Built with Rust and egui for a native, responsive experience.
-🟣	RS	    1375	   163	2026-03-01	claration/Impactor	WIP feature rich iOS/tvOS sideloading application written in Rust.
-🟣	RS	     972	   220	2026-03-01	storytold/artcraft	ArtCraft is an intentional crafting engine for artists, designers, and filmmakers
-🟣	RS	    4033	   666	2026-03-01	pgdogdev/pgdog	PostgreSQL connection pooler, load balancer and database sharder.
-🟣	RS	     373	    52	2026-03-01	Roblox/studio-rust-mcp-server	Standalone Roblox Studio MCP Server
-🟣	GO	   21471	   112	2026-03-01	FiloSottile/age	A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.
-🟣	GO	   13635	    56	2026-03-01	cert-manager/cert-manager	Automatically provision and manage TLS certificates in Kubernetes
-🟣	GO	    7464	    56	2026-03-01	k8sgpt-ai/k8sgpt	Giving Kubernetes Superpowers to everyone
-🟣	GO	   10744	   222	2026-03-01	NoFxAiOS/nofx	AI Trading OS: Multi-AI, multi-exchange trading infrastructure with Strategy Studio.
-🟣	GO	    4462	    41	2026-03-01	open-telemetry/opentelemetry-collector-contrib	Contrib repository for the OpenTelemetry Collector
-🟣	GO	    3478	   101	2026-03-01	go-vikunja/vikunja	The to-do app to organize your life.
-🟣	GO	   20829	    32	2026-03-01	vitessio/vitess	Vitess is a database clustering system for horizontal scaling of MySQL.
-🟣	GO	    9566	   606	2026-03-01	xpzouying/xiaohongshu-mcp	MCP for xiaohongshu.com
-🟣	PY	   12755	  4318	2026-03-01	muratcankoylan/Agent-Skills-for-Context-Engineering	A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.
-🟣	PY	    7821	  1058	2026-03-01	HunxByts/GhostTrack	Useful tool to track location or mobile number
-🟣	PY	    2341	   701	2026-03-01	GVCLab/PersonaLive	[CVPR 2026] PersonaLive! : Expressive Portrait Image Animation for Live Streaming
-🟣	PY	    3439	   378	2026-03-01	anthropics/claude-code-security-review	An AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities.
-🟣	PY	    1791	   491	2026-03-01	RichardAtCT/claude-code-telegram	A powerful Telegram bot that provides remote access to Claude Code, enabling developers to interact with their projects from anywhere with full AI assistance and session persistence.
-🟣	PY	    9873	    89	2026-03-01	Netflix/metaflow	Build, Manage and Deploy AI/ML Systems
-🟣	PY	    2603	   676	2026-03-01	mihail911/modern-software-dev-assignments	Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2025)
-🟣	PY	    7535	  5940	2026-03-01	huggingface/skills	
-🟣	PY	    9566	    44	2026-03-01	sktime/sktime	A unified framework for machine learning with time series
-🟣	PY	   14430	    35	2026-03-01	sympy/sympy	A computer algebra system written in pure Python
-🟣	TS	    6768	  5747	2026-03-01	abhigyanpatwari/GitNexus	GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration
-🟣	TS	   19342	  1660	2026-03-01	moeru-ai/airi	💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.
-🟣	TS	    1434	    95	2026-03-01	semperai/amica	Amica is an open source interface for interactive communication with 3D characters with voice synthesis and speech recognition.
-🟣	TS	   12592	    66	2026-03-01	juice-shop/juice-shop	OWASP Juice Shop: Probably the most modern and sophisticated insecure web application
-🟣	TS	   15029	    21	2026-03-01	jupyterlab/jupyterlab	JupyterLab computational environment.
-🟣	TS	   16560	  2037	2026-03-01	ruvnet/ruflo	🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration
-🟣	JS	     533	    46	2026-03-01	jasonjmcghee/WebMCP	Early WebMCP proposal / implementation - since evolved and worked on by much more capable folks that develop the web: https://github.com/webmachinelearning/webmcp
-🟣	JS	   55202	   396	2026-03-01	Mintplex-Labs/anything-llm	The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility, and more.
-🟣	JS	     359	    24	2026-03-01	atlassian/atlassian-mcp-server	Remote MCP Server that securely connects Jira and Confluence with your LLM, IDE, or agent platform of choice.
-🟣	JS	   11376	    73	2026-03-01	mozilla-firefox/firefox	The official repository of Mozilla's Firefox web browser.
-🟣	JS	    7212	    60	2026-03-01	gaotianliuyun/gao	FongMi影视和tvbox配置文件，如果喜欢，请Fork自用。使用前请仔细阅读仓库说明，一旦使用将被视为你已了解。
-🟣	JS	     670	   117	2026-03-01	badlogic/pi-skills	Skills for pi coding agent (compatible with Claude Code and Codex CLI)
-🟣	SH	   11845	   936	2026-03-01	VoltAgent/awesome-claude-code-subagents	A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases
-🟣	SH	     435	   130	2026-03-01	eugr/spark-vllm-docker	Docker configuration for running VLLM on dual DGX Sparks
-🟣	RS	   16200	   137	2026-02-22	clap-rs/clap	A full featured, fast Command Line Argument Parser for Rust
-🟣	RS	     592	   123	2026-02-22	raphaelmansuy/edgequake	High-performance GraphRAG inspired from LightRag written in Rust
-🟣	RS	    5509	   112	2026-02-22	pimalaya/himalaya	CLI to manage emails
-🟣	RS	    2654	    30	2026-02-22	Priler/jarvis	Offline voice assistant that respects your privacy. Forged in Rust. WIP.
-🟣	RS	    5478	    59	2026-02-22	signalapp/libsignal	Home to the Signal Protocol as well as other cryptographic primitives which make Signal possible.
-🟣	RS	     425	   102	2026-02-22	ruvnet/ruvector	A distributed vector database that learns. Store embeddings, query with Cypher, scale horizontally with Raft consensus, and let the index improve itself through Graph Neural Networks.
-🟣	RS	    1497	   119	2026-02-22	matrix-construct/tuwunel	Official successor to conduwuit
-🟣	RS	    5958	   120	2026-02-22	Universal-Debloater-Alliance/universal-android-debloater-next-generation	Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.
-🟣	GO	     976	   182	2026-02-22	asheshgoplani/agent-deck	Terminal session manager for AI coding agents. One TUI for Claude, Gemini, OpenCode, Codex, and more.
-🟣	GO	   17102	   173	2026-02-22	TecharoHQ/anubis	Weighs the soul of incoming HTTP requests to stop AI crawlers
-🟣	GO	   19935	   153	2026-02-22	dolthub/dolt	Dolt – Git for Data
-🟣	GO	    4517	  2360	2026-02-22	steipete/gogcli	Google Suite CLI: Gmail, GCal, GDrive, GContacts.
-🟣	GO	    3208	   293	2026-02-22	gosom/google-maps-scraper	scrape data data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place
-🟣	GO	    1974	    75	2026-02-22	icereed/paperless-gpt	Use LLMs and LLM Vision (OCR) to handle paperless-ngx - Document Digitalization powered by AI
-🟣	GO	     508	   115	2026-02-22	steipete/wacli	WhatsApp CLI
-🟣	PY	   17211	  1299	2026-02-22	AstrBotDevs/AstrBot	Agentic IM Chatbot infrastructure that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨
-🟣	PY	    1740	   202	2026-02-22	GodsScion/Auto_job_applier_linkedIn	Make your job hunt easy by automating your application process with this Auto Applier
-🟣	PY	     610	   325	2026-02-22	databricks-solutions/ai-dev-kit	Databricks Toolkit for Coding Agents provided by Field Engineering
-🟣	PY	   84976	   179	2026-02-22	home-assistant/core	🏡 Open source home automation that puts local control and privacy first.
-🟣	PY	   11779	   841	2026-02-22	cheahjs/free-llm-api-resources	A list of free LLM inference resources accessible via API.
-🟣	PY	    5679	  1097	2026-02-22	freemocap/freemocap	Free Motion Capture for Everyone 💀✨
-🟣	PY	   17373	  1515	2026-02-22	hummingbot/hummingbot	Open source software that helps you create and deploy high-frequency crypto trading bots
-🟣	PY	   31700	   475	2026-02-22	PostHog/posthog	🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.
-🟣	PY	    7220	  1201	2026-02-22	ruvnet/wifi-densepose	Production-ready implementation of InvisPose - a revolutionary WiFi-based dense human pose estimation system that enables real-time full-body tracking through walls using commodity mesh routers
-🟣	TS	    3214	   217	2026-02-22	cinnyapp/cinny	Yet another matrix client
-🟣	TS	   27106	   566	2026-02-22	ComposioHQ/composio	Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.
-🟣	TS	    1620	   508	2026-02-22	letta-ai/letta-code	The memory-first coding agent
-🟣	TS	    8841	   633	2026-02-22	OpenCTI-Platform/opencti	Open Cyber Threat Intelligence Platform
-🟣	TS	    8138	  2449	2026-02-22	rowboatlabs/rowboat	Open-source AI coworker, with memory
-🟣	TS	    3984	  1995	2026-02-22	steipete/summarize	Point at any URL/YouTube/Podcast or file. Get the gist. CLI and Chrome Extension.
-🟣	JS	    1601	  1046	2026-02-22	SynkraAI/aios-core	Synkra AIOS: AI-Orchestrated System for Full Stack Development - Core Framework v4.0
-🟣	JS	   17095	  3044	2026-02-22	gsd-build/get-shit-done	A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code and OpenCode.
-🟣	JS	    1098	   205	2026-02-22	yctimlin/mcp_excalidraw	
-🟣	JS	    5296	   412	2026-02-22	pshenok/server-survival	Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling.
-🟣	SH	    2119	    34	2026-02-22	FiorenMas/Revanced-And-Revanced-Extended-Non-Root	Real-time repository build Revanced and Revanced Extended about 10 minutes after patch release
-🟣	SH	     645	    75	2026-02-22	StressOzz/Zapret-Manager	Скрипт для установки и настройки Zapret на OpenWRT.
-🟣	RS	    9095	   381	2026-02-11	mainmatter/100-exercises-to-learn-rust	A self-paced course to learn Rust, one exercise at a time.
-🟣	RS	    8281	   581	2026-02-11	reacherhq/check-if-email-exists	Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.
-🟣	RS	   26095	    74	2026-02-11	cloudflare/pingora	A library for building fast, reliable and evolvable network services.
-🟣	RS	    5074	   138	2026-02-11	katanemo/plano	Delivery infrastructure for agentic apps - Plano is an AI-native proxy and data plane that offloads plumbing work, so you stay focused on your agent's core logic (via any AI framework).
-🟣	GO	    1824	   157	2026-02-11	looplj/axonhub	⚡️ Open-source AI Gateway — Use any SDK to call 100+ LLMs. Built-in failover, load balancing, cost control & end-to-end tracing.
-🟣	GO	    2639	    24	2026-02-11	kubernetes-sigs/gateway-api	Repository for the next iteration of composite service (e.g. Ingress) and load balancing APIs.
-🟣	GO	    1413	   811	2026-02-11	github/gh-aw	GitHub Agentic Workflows
-🟣	GO	    5105	    50	2026-02-11	ankitpokhrel/jira-cli	🔥 Feature-rich interactive Jira command line.
-🟣	GO	   32152	   105	2026-02-11	k3s-io/k3s	Lightweight Kubernetes
-🟣	GO	   11936	    20	2026-02-11	kubernetes-sigs/kustomize	Customization of kubernetes YAML configurations
-🟣	GO	    2803	   214	2026-02-11	5rahim/seanime	Open-source media server with a web interface and desktop app for anime and manga.
-🟣	GO	   13054	    66	2026-02-11	projectdiscovery/subfinder	Fast passive subdomain enumeration tool.
-🟣	PY	    9491	   320	2026-02-11	bytedance/UI-TARS	Pioneering Automated GUI Interaction with Native Agents
-🟣	PY	    2897	   611	2026-02-11	disler/claude-code-hooks-mastery	Master Claude Code Hooks
-🟣	PY	     930	   350	2026-02-11	Jeffallan/claude-skills	66 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.
-🟣	PY	    1345	    61	2026-02-11	taylorwilsdon/google_workspace_mcp	Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace / G Suite MCP Server & CLI Tool
-🟣	PY	    4993	   583	2026-02-11	p-e-w/heretic	Fully automatic censorship removal for language models
-🟣	PY	   42847	   915	2026-02-11	karpathy/nanochat	The best ChatGPT that $100 can buy.
-🟣	PY	     610	   362	2026-02-11	masoncl/review-prompts	AI review prompts
-🟣	PY	    7867	  5111	2026-02-11	openai/skills	Skills Catalog for Codex
-🟣	TS	    1800	   360	2026-02-11	KuekHaoYang/KVideo	一个基于 Next.js 16 构建的现代化视频聚合播放平台。采用独特的 "Liquid Glass" 设计语言，提供流畅的视觉体验和强大的视频搜索功能。
-🟣	TS	    2119	   681	2026-02-11	pedramamini/Maestro	Agent Orchestration Command Center
+🟣	RS	   36121	  7898	2026-03-13	ruvnet/RuView	π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.
+🟣	RS	   21630	  2332	2026-03-13	vercel-labs/agent-browser	Browser automation CLI for AI agents
+🟣	RS	    8737	   328	2026-03-13	louis-e/arnis	Generate any location from the real world in Minecraft with a high level of detail.
+🟣	RS	    3039	    59	2026-03-13	dora-rs/dora	DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines.
+🟣	RS	    4839	   184	2026-03-13	antinomyhq/forge	AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models
+🟣	GO	    2808	  1477	2026-03-13	Ed1s0nZ/CyberStrikeAI	CyberStrikeAI is an AI-native security testing platform built in Go. It integrates 100+ security tools, an intelligent orchestration engine, role-based testing with predefined security roles, a skills system with specialized testing skills, and comprehensive lifecycle management capabilities.
+🟣	GO	    3364	    63	2026-03-13	FxPool/FXMinerProxy	🔥minerproxy,minerproxy,minerproxy,minerproxy,minerproxy,minerproxy,minerproxy,minerproxy,minerproxy,minerproxy,矿池抽水,矿池中转,矿场运维专用
+🟣	GO	    5654	  3130	2026-03-13	canopy-network/canopy	The official go implementation of the Canopy Network protocol
+🟣	GO	    3444	   463	2026-03-13	fengshao1227/ccg-workflow	多模型协作开发系统 - Claude 编排 + Codex 后端 + Gemini 前端，28 个命令覆盖开发全流程，一键安装零配置
+🟣	GO	    2431	   334	2026-03-13	docker/docker-agent	AI Agent Builder and Runtime by Docker Engineering
+🟣	GO	   23263	   390	2026-03-13	GopeedLab/gopeed	A modern download manager that supports all platforms. Built with Golang and Flutter.
+🟣	GO	   15896	   235	2026-03-13	projectdiscovery/katana	A next-generation crawling and spidering framework.
+🟣	GO	    2778	   213	2026-03-13	mostlygeek/llama-swap	Reliable model swapping for any local OpenAI/Anthropic compatible server - llama.cpp, vllm, etc
+🟣	GO	   15823	   116	2026-03-13	openimsdk/open-im-server	IM Chat OpenClaw
+🟣	GO	    5135	  1920	2026-03-13	Wei-Shaw/sub2api	Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。
+🟣	PY	    4775	   773	2026-03-13	inclusionAI/AReaL	Lightning-Fast RL for LLM Reasoning and Agents. Made Simple & Flexible.
+🟣	PY	   21318	 13400	2026-03-13	666ghj/MiroFish	A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物
+🟣	PY	   15578	  1930	2026-03-13	QwenLM/Qwen-Agent	Agent framework and applications built upon Qwen>=3.0, featuring Function Calling, MCP, Code Interpreter, RAG, Chrome extension, etc.
+🟣	PY	   30185	  5125	2026-03-13	bytedance/deer-flow	An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.
+🟣	PY	    6630	  4144	2026-03-13	NousResearch/hermes-agent	The agent that grows with you
+🟣	PY	    5469	  2283	2026-03-13	teng-lin/notebooklm-py	Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.
+🟣	PY	    2680	  1288	2026-03-13	TheCraigHewitt/seomachine	A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience.
+🟣	PY	    1371	   731	2026-03-13	lingfengQAQ/webnovel-writer	基于 Claude Code 的长篇网文辅助创作系统，解决 AI 写作中的「遗忘」和「幻觉」问题，支持 200 万字量级 连载创作。
+🟣	TS	   11423	   756	2026-03-13	yikart/AiToEarn	Let's use AI to Earn!
+🟣	TS	   32891	  1679	2026-03-13	ItzCrazyKns/Vane	Vane is an AI-powered answering engine.
+🟣	TS	    8787	  1877	2026-03-13	JimLiu/baoyu-skills	
+🟣	TS	    1377	   864	2026-03-13	FlorianBruniaux/claude-code-ultimate-guide	A tremendous feat of documentation, this guide covers Claude Code from beginner to power user, with production-ready templates for Claude Code features, guides on agentic workflows, and a lot of great learning materials, including quizzes and a handy "cheatsheet". Whether it's the "ultimate" guide to Claude Code will be up to the reader :)
+🟣	TS	    5787	  1365	2026-03-13	openclaw/clawhub	Skill Directory for OpenClaw
+🟣	TS	   25988	  3861	2026-03-13	shareAI-lab/learn-claude-code	Bash is all you need - A nano Claude Code–like agent, built from 0 to 1
+🟣	TS	   12144	   173	2026-03-13	web-infra-dev/midscene	AI-powered, vision-driven UI automation for every platform.
+🟣	TS	   14942	  2034	2026-03-13	promptfoo/promptfoo	Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.
+🟣	TS	    6513	  1193	2026-03-13	aidenybai/react-grab	Select context for coding agents directly from your website
+🟣	TS	  109430	  1748	2026-03-13	shadcn-ui/ui	A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.
+🟣	JS	    1609	   711	2026-03-13	apify/agent-skills	Collection of Apify Agent Skills
+🟣	JS	    3790	   403	2026-03-13	datawhalechina/easy-vibe	easy vibe 👋 一起 vibe ! Learn Vibe Coding From 0 to 1 ｜ Vibe Coding 零基础教程 ｜ 产品原型、AI 能力集成、前后端开发、多平台应用开发教程 ｜ Tutorial on Product Prototype, AI Capability Integration, Frontend and Backend Development, and Multi-platform Application Development
+🟣	JS	   54422	   287	2026-03-13	marktext/marktext	📝A simple and elegant markdown editor, available for Linux, macOS and Windows.
+🟣	JS	   30475	   340	2026-03-13	songquanpeng/one-api	LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management & key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI.
+🟣	SH	     872	    79	2026-03-13	liuzq2002/Adguard-Home-For-Magisk-Mod	
+🟣	SH	   39103	 26046	2026-03-13	msitarzewski/agency-agents	A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
+🟣	SH	     391	    20	2026-03-13	lcdyk0517/arkos4clone	ArkOS for Unofficial Devices
+🟣	SH	     952	    51	2026-03-13	anthropics/claude-agent-sdk-typescript	
+🟣	SH	   30497	   152	2026-03-13	VSCodium/vscodium	binary releases of VS Code without MS branding/telemetry/licensing
 🟣	TS	  183416	 26527	2026-02-11	openclaw/openclaw	Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
-🟣	TS	   20603	  1512	2026-02-11	linshenkx/prompt-optimizer	一款提示词优化器，助力于编写高质量的提示词
-🟣	TS	    7829	  1836	2026-02-11	tobi/qmd	mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local
-🟣	TS	   19966	 14952	2026-02-11	KeygraphHQ/shannon	Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.
-🟣	TS	   24513	   224	2026-02-11	wg-easy/wg-easy	The easiest way to run WireGuard VPN + Web-based Admin UI.
-🟣	JS	     652	    56	2026-02-11	koosoli/ESPHomeDesigner	A visual drag-and-drop editor for ESPHome displays (E-Ink, OLED, LCD, Touch), running as a Home Assistant integration or a standalone web app.
-🟣	JS	     488	   135	2026-02-11	maxandrews/Epstein-doc-explorer	a graph explorer of the Epstein emails
-🟣	JS	   44193	   155	2026-02-11	GitSquared/edex-ui	A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.
-🟣	JS	    3051	   837	2026-02-11	microsoft/playwright-cli	CLI for common Playwright actions. Record and generate Playwright code, inspect selectors and take screenshots.
-🟣	JS	    6735	   221	2026-02-11	poloclub/transformer-explainer	Transformer Explained Visually: Learn How LLM Transformer Models Work with Interactive Visualization
-🟣	JS	    7946	   159	2026-02-11	qist/tvbox	OK影视、tvbox配置文件，如果喜欢，请Fork自用。使用前请仔细阅读仓库说明，一旦使用将被视为你已了解。
-🟣	SH	    2081	   211	2026-02-11	home-assistant/addons	➕ Docker add-ons for Home Assistant
-🟣	SH	    7184	   504	2026-02-11	automazeio/ccpm	Project management system for Claude Code using GitHub Issues and Git worktrees for parallel agent execution.
-🟣	SH	    2659	   224	2026-02-11	czlonkowski/n8n-skills	n8n skillset for Claude Code to build flawless n8n workflows
-🟣	SH	   14165	   348	2026-02-11	quickemu-project/quickemu	Quickly create and run optimised Windows, macOS and Linux virtual machines
-🟣	RS	    5171	  1313	2026-01-25	datahaven-xyz/datahaven	An EVM compatible Substrate chain, powered by StorageHub and secured by EigenLayer
-🟣	RS	    9588	   331	2026-01-25	Automattic/harper	Offline, privacy-first grammar checker. Fast, open-source, Rust-powered
-🟣	RS	    6659	   104	2026-01-25	jtroo/kanata	Improve keyboard comfort and usability with advanced customization
-🟣	RS	   37961	   159	2026-01-25	lapce/lapce	Lightning-fast and Powerful Code Editor written in Rust
-🟣	RS	   12426	    40	2026-01-25	web-infra-dev/rspack	The fast Rust-based JavaScript bundler with webpack-compatible API 🦀️
-🟣	RS	    1553	   341	2026-01-25	max-sixty/worktrunk	Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows
-🟣	GO	     784	    80	2026-01-25	kubernetes-sigs/agent-sandbox	agent-sandbox enables easy management of isolated, stateful, singleton workloads, ideal for use cases like AI agent runtimes.
-🟣	GO	    4588	    57	2026-01-25	vllm-project/aibrix	Cost-efficient and pluggable Infrastructure components for GenAI inference
-🟣	GO	   26263	   270	2026-01-25	github/github-mcp-server	GitHub's official MCP Server
-🟣	GO	   27788	   112	2026-01-25	micro-editor/micro	A modern and intuitive terminal-based text editor
-🟣	GO	    9233	    28	2026-01-25	gruntwork-io/terragrunt	Terragrunt is a flexible orchestration tool that allows Infrastructure as Code written in OpenTofu/Terraform to scale.
-🟣	GO	   39643	    47	2026-01-25	pingcap/tidb	TiDB - the open-source, cloud-native, distributed SQL database designed for modern applications.
-🟣	PY	    3489	   912	2026-01-25	OpenBMB/UltraRAG	UltraRAG v3: A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines
-🟣	PY	    5498	  1763	2026-01-25	OpenBMB/VoxCPM	VoxCPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning
-🟣	PY	   21722	   961	2026-01-25	hesreallyhim/awesome-claude-code	A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic
-🟣	PY	    1342	   571	2026-01-25	alirezarezvani/claude-skills	A Collection of Skills for Claude Code and Claude AI for real-world Usage. Including Claude Code Subagents, Claude Code Commnads
-🟣	PY	   51381	   838	2026-01-25	xai-org/grok-1	Grok open release
-🟣	PY	   36400	   163	2026-01-25	ManimCommunity/manim	A community-maintained Python framework for creating mathematical animations.
-🟣	TS	   43368	  1041	2026-01-25	upstash/context7	Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors
-🟣	TS	   29653	  3712	2026-01-25	remotion-dev/remotion	🎥 Make videos programmatically with React
-🟣	TS	    5020	  3005	2026-01-25	tambo-ai/tambo	Generative UI SDK for React
-🟣	JS	    4698	  1042	2026-01-25	liyupi/ai-guide	程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享大模型选择指南（DeepSeek / GPT / Gemini / Claude）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（RAG / MCP / A2A）、AI 编程技巧、AI 工具用法（Cursor / Claude Code / TRAE / Lovable / Agent Skills）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档版本，已升级为鱼皮 AI 导航网站
-🟣	JS	   59808	   130	2026-01-25	jquery/jquery	jQuery JavaScript Library
-🟣	JS	   46950	    21	2026-01-25	serverless/serverless	⚡ Serverless Framework – Effortlessly build apps that auto-scale, incur zero costs when idle, and require minimal maintenance using AWS Lambda and other managed cloud services.
-🟣	JS	    1124	    75	2026-01-25	kagisearch/smallweb	Kagi Small Web
-🟣	SH	    1744	    55	2026-01-25	xiv3r/Burpsuite-Professional	Burpsuite Professional Latest Version 2026
-🟣	SH	    3920	    72	2026-01-25	wnlen/clash-for-linux	🐧 在 Linux 上提供一套完整的 Clash / Mihomo（Clash Meta） 代理与管理面板
-🟣	SH	    2323	    32	2026-01-25	alexbelgium/hassio-addons	My homeassistant addons
-🟣	SH	    4716	    34	2026-01-25	ChrisTitusTech/linutil	Chris Titus Tech's Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
-🟣	SH	    3286	   683	2026-01-25	tobi/try	fresh directories for every vibe
-🟣	RS	    5793	    38	2026-01-18	ai-dynamo/dynamo	A Datacenter Scale Distributed Inference Serving Framework
-🟣	RS	     780	   284	2026-01-18	mikeyobrien/ralph-orchestrator	An improved implementation of the Ralph Wiggum technique for autonomous AI agent orchestration
-🟣	GO	    1741	   101	2026-01-18	maximhq/bifrost	Fastest LLM gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.
-🟣	GO	   23453	   214	2026-01-18	cilium/cilium	eBPF-based Networking, Security, and Observability
-🟣	GO	   11997	    74	2026-01-18	coder/coder	Secure environments for developers and their agents
-🟣	GO	   10976	   132	2026-01-18	gotenberg/gotenberg	A developer-friendly API for converting numerous document formats into PDF files, and more!
-🟣	GO	    2861	   150	2026-01-18	vllm-project/semantic-router	System Level Intelligent Router for Mixture-of-Models at Cloud, Data Center and Edge
-🟣	PY	    2685	    60	2026-01-18	google-agentic-commerce/AP2	Building a Secure and Interoperable Future for AI-Driven Payments.
-🟣	PY	    2962	   133	2026-01-18	Lightricks/ComfyUI-LTXVideo	LTX-Video Support for ComfyUI
-🟣	PY	   11002	  1794	2026-01-18	Free-TV/IPTV	M3U Playlist for free TV channels
-🟣	PY	    5235	  1098	2026-01-18	MiroMindAI/MiroThinker	MiroThinker is an open source deep research agent optimized for research and prediction. It achieves a 60.2% Avg@8 score on the challenging GAIA benchmark.
-🟣	PY	   20788	  3447	2026-01-18	ComposioHQ/awesome-claude-skills	A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
-🟣	PY	    4812	   669	2026-01-18	NevaMind-AI/memU	Memory infrastructure for LLMs and AI agents
-🟣	PY	    4543	   216	2026-01-18	neuphonic/neutts	On-device TTS model by Neuphonic
-🟣	TS	    4965	  1281	2026-01-18	iOfficeAI/AionUi	Free, local, open-source Cowork for Gemini CLI, Claude Code, Codex, Opencode, Qwen Code, Goose Cli, Auggie, and more | 🌟 Star if you like it!
-🟣	TS	    7241	   836	2026-01-18	virattt/dexter	An autonomous agent for deep financial research
-🟣	TS	    8748	  5547	2026-01-18	eigent-ai/eigent	Eigent: The Open Source Cowork Desktop to Unlock Your Exceptional Productivity.
-🟣	TS	   17349	    60	2026-01-18	elizaOS/eliza	Autonomous agents for everyone
-🟣	TS	   14173	   267	2026-01-18	Kilo-Org/kilocode	Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent. #1 on OpenRouter. 750k+ Kilo Coders. 6.1 trillion tokens/month.
-🟣	TS	   24423	   695	2026-01-18	onlook-dev/onlook	The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI
-🟣	TS	   11422	   960	2026-01-18	puckeditor/puck	The visual editor for React with AI superpowers
-🟣	JS	     168	    31	2026-01-18	anomalyco/opencode-anthropic-auth	
-🟣	SH	    1220	   184	2026-01-18	Gentleman-Programming/Gentleman.Dots	My personal configuration for LazyVim !
-🟣	SH	    2660	    24	2026-01-18	ophub/amlogic-s9xxx-openwrt	Supports running OpenWrt on Amlogic, Allwinner, and Rockchip devices. Support a311d, s922x, s905x3, s905x2, s912, s905d, s905x, s905w, s905, s905l, rk3588, rk3568, rk3399, rk3328, h6, etc.
-🟣	RS	    1039	    45	2026-01-12	nekename/OpenDeck	Linux software for the Stream Deck with support for original Elgato Stream Deck plugins
-🟣	RS	    9115	   235	2026-01-12	get-convex/convex-backend	The open-source reactive database for app developers
-🟣	RS	    8577	   539	2026-01-12	embassy-rs/embassy	Modern embedded framework, using Rust and async.
-🟣	RS	   12201	  1587	2026-01-12	memvid/memvid	Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.
-🟢	RS	   22948	   238	2026-01-12	jdx/mise	dev tools, env vars, task runner
-🟣	RS	   29495	    87	2026-01-12	vercel/turborepo	Build system optimized for JavaScript and TypeScript, written in Rust
-🟣	RS	   21086	    61	2026-01-12	vectordotdev/vector	A high-performance observability data pipeline.
-🟣	RS	   23374	   181	2026-01-12	wezterm/wezterm	A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust
-🟣	GO	    2884	    49	2026-01-12	Project-HAMi/HAMi	Heterogeneous AI Computing Virtualization Middleware(Project under CNCF)
-🟣	GO	    9761	  1579	2026-01-12	steveyegge/beads	Beads - A memory upgrade for your coding agent
-🟣	GO	   13727	    17	2026-01-12	coredns/coredns	CoreDNS is a DNS server that chains plugins
-🟣	GO	   17664	   905	2026-01-12	charmbracelet/crush	The glamourous AI coding agent for your favourite terminal 💘
-🟣	GO	   25419	    32	2026-01-12	dapr/dapr	Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration.
-🟣	GO	   11164	    94	2026-01-12	AlexxIT/go2rtc	Ultimate camera streaming application with support RTSP, RTMP, HTTP-FLV, WebRTC, MSE, HLS, MP4, MJPEG, HomeKit, FFmpeg, etc.
-🟣	GO	   62171	   150	2026-01-12	prometheus/prometheus	The Prometheus monitoring system and time series database.
-🟣	PY	   25666	  1187	2026-01-12	microsoft/BitNet	Official inference framework for 1-bit LLMs
-🟣	PY	   28270	   191	2026-01-12	OpenBMB/ChatDev	ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration
-🟣	PY	    7247	   384	2026-01-12	LuckyOne7777/ChatGPT-Micro-Cap-Experiment	This repo powers my experiment where ChatGPT manages a real-money micro-cap stock portfolio.
-🟣	PY	   58310	  1503	2026-01-12	OpenBB-finance/OpenBB	Financial data platform for analysts, quants and AI agents.
-🟣	PY	    5260	   694	2026-01-12	VectifyAI/PageIndex	📑 PageIndex: Document Index for Reasoning-based RAG
-🟣	PY	    2424	   758	2026-01-12	HKUDS/VideoRAG	[KDD'2026] "VideoRAG: Chat with Your Videos"
-🟣	PY	    2583	   474	2026-01-12	gyoridavid/ai_agents_az
-🟣	PY	    4553	   701	2026-01-12	EveryInc/compound-engineering-plugin	Official Claude Code compound engineering plugin
-🟣	PY	   42568	   361	2026-01-12	crewAIInc/crewAI	Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
-🟣	PY	   10541	   999	2026-01-12	icloud-photos-downloader/icloud_photos_downloader	A command-line tool to download photos from iCloud
-🟣	PY	   18723	   167	2026-01-12	camel-ai/owl	🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation
-🟣	TS	   23093	  2212	2026-01-12	bytedance/UI-TARS-desktop	The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra
-🟣	TS	    5056	   482	2026-01-12	anthropics/claude-code-action
-🟣	TS	    5147	    24	2026-01-12	home-assistant/frontend	🍭 Frontend for Home Assistant
-🟣	TS	    9789	    82	2026-01-12	elie222/inbox-zero	The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.
-🟢	TS	   64192	 13823	2026-01-12	anomalyco/opencode	The open source coding agent.
-🟣	TS	    1382	   326	2026-01-12	numman-ali/opencode-openai-codex-auth	OAuth authentication plugin for personal coding assistance with ChatGPT Plus/Pro subscriptions - uses OpenAI's official authentication method
-🟣	TS	     739	    97	2026-01-12	vladmeer/polymarket-copy-trading-bot	Polymarket Copy Trading Bot. Polymarket trading bot. Polymarket Copy Trading Bot. Polymarket trading bot. Polymarket Copy Trading Bot. Polymarket trading bot. Polymarket Copy Trading Bot. Polymarket trading bot
-🟢	TS	   92771	   944	2026-01-12	tailwindlabs/tailwindcss	A utility-first CSS framework for rapid UI development.
-🟣	TS	   29460	  2268	2026-01-12	Lissy93/web-check	🕵️‍♂️ All-in-one OSINT tool for analysing any website
-🟣	JS	    2575	   336	2026-01-12	justlovemaki/AIClient-2-API	Simulates Gemini CLI, Antigravity, Qwen Code, and Kiro client requests, compatible with the OpenAI API. It supports thousands of Gemini model requests per day and offers free use of the built-in Claude model in Kiro. Easily connect to any client via the API, making AI development more efficient!
-🟣	JS	    5444	   155	2026-01-12	siteboon/claudecodeui	Use Claude Code, Cursor CLI or Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Code session and projects remotely
-🟣	JS	    1422	   342	2026-01-12	heyitsnoah/claudesidian
-🟣	JS	    7302	   353	2026-01-12	viarotel-org/escrcpy	📱 Display and control your Android device graphically with scrcpy.
-🟣	JS	   27219	   201	2026-01-12	fanmingming/live	✯ 可直连访问的电视/广播图标库与相关工具项目 ✯ 🔕 永久免费 直连访问 完整开源 不断完善的台标 支持IPv4/IPv6双栈访问 🔕
-🟣	JS	    5221	   569	2026-01-12	hotheadhacker/no-as-a-service	No-as-a-Service (NaaS) is a simple API that returns a random rejection reason. Use it when you need a realistic excuse, a fun “no,” or want to simulate being turned down in style.
-🟣	JS	    7577	  1106	2026-01-12	marcelscruz/public-apis	A collaborative list of public APIs for developers
-🟣	SH	    7934	   163	2026-01-12	HariSekhon/DevOps-Bash-tools	1000+ DevOps Bash Scripts - AWS, GCP, Kubernetes, Docker, CI/CD, APIs, SQL, PostgreSQL, MySQL, Hive, Impala, Kafka, Hadoop, Jenkins, GitHub, GitLab, BitBucket, Azure DevOps, TeamCity, Spotify, MP3, LDAP, Code/Build Linting, pkg mgmt for Linux, Mac, Python, Perl, Ruby, NodeJS, Golang, Advanced dotfiles: .bashrc, .vimrc, .gitconfig, .screenrc, tmux..
-🟢	SH	    6492	   189	2026-01-12	github/copilot-cli	GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal.
-🟣	SH	    4249	    48	2026-01-12	mylinuxforwork/dotfiles	The ML4W Dotfiles for Hyprland - An advanced and full-featured configuration for the dynamic tiling window manager Hyprland. Ready to install with the Dotfiles Installer app with setup scripts for Arch Linux (Fedora and openSuse with limitations).
-🟣	SH	    2010	   925	2026-01-12	frankbria/ralph-claude-code	Autonomous AI development loop for Claude Code with intelligent exit detection
-🟣	SH	   18250	  2878	2026-01-12	obra/superpowers	Claude Code superpowers: core skills library
-🔴	TS	  123809	  1608	2025-12-28	langgenius/dify	Production-ready platform for agentic workflow development.	Too heavy
 🟣	TS	   99636	  1340	2025-11-12	iptv-org/iptv	Collection of publicly available IPTV channels from all over the world
 🟣	TS	   87792	    83	2025-09-23	storybookjs/storybook	Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation
 🟣	TS	   81548	  1046	2025-11-12	clash-verge-rev/clash-verge-rev	A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience
@@ -218,6 +49,7 @@
 🟣	TS	   57675	   742	2025-09-23	nocodb/nocodb	🔥 🔥 🔥 Open Source Airtable Alternative
 🟣	TS	   55687	   374	2025-10-05	toeverything/AFFiNE	There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.
 🟣	TS	   43712	    71	2025-10-26	RocketChat/Rocket.Chat	The communications platform that puts data protection first.
+🟣	TS	   43368	  1041	2026-01-25	upstash/context7	Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors
 🟣	TS	   42639	   725	2025-09-23	tldraw/tldraw	very good whiteboard SDK / infinite canvas SDK
 🟣	TS	   42062	  1380	2025-12-28	makeplane/plane	🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.
 🟣	TS	   41845	   344	2025-10-05	AykutSarac/jsoncrack.com	✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs.
@@ -231,78 +63,114 @@
 🟣	TS	   34379	   256	2025-11-02	mifi/lossless-cut	The swiss army knife of lossless video/audio editing
 🟣	TS	   31840	   125	2025-10-19	remix-run/remix	Build Better Websites. Create modern, resilient user experiences with web fundamentals.
 🟣	TS	   31729	   366	2025-09-27	TriliumNext/Trilium	Build your personal knowledge base with Trilium Notes
+🟣	TS	   29653	  3712	2026-01-25	remotion-dev/remotion	🎥 Make videos programmatically with React
 🟣	TS	   29462	   277	2025-11-12	NginxProxyManager/nginx-proxy-manager	Docker container for managing Nginx proxy hosts with a simple, powerful interface
+🟣	TS	   29460	  2268	2026-01-12	Lissy93/web-check	🕵️‍♂️ All-in-one OSINT tool for analysing any website
 🟣	TS	   27614	    85	2025-10-05	nextauthjs/next-auth	Authentication for the Web.
+🟣	TS	   27106	   566	2026-02-22	ComposioHQ/composio	Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.
 🟣	TS	   26855	   135	2025-10-26	honojs/hono	Web framework built on Web Standards
 🟣	TS	   26579	   129	2025-10-26	blakeblackshear/frigate	NVR with realtime local object detection for IP cameras
+🟣	TS	   24513	   224	2026-02-11	wg-easy/wg-easy	The easiest way to run WireGuard VPN + Web-based Admin UI.
+🟣	TS	   24423	   695	2026-01-18	onlook-dev/onlook	The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI
 🟣	TS	   24055	  1674	2025-10-19	daytonaio/daytona	Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code
 🟣	TS	   24003	   258	2025-10-26	gitroomhq/postiz-app	📨 The ultimate social media scheduling tool, with a bunch of AI 🤖
+🟣	TS	   23093	  2212	2026-01-12	bytedance/UI-TARS-desktop	The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra
 🟣	TS	   21415	   420	2025-10-05	better-auth/better-auth	The most comprehensive authentication framework for TypeScript
+🟣	TS	   20603	  1512	2026-02-11	linshenkx/prompt-optimizer	一款提示词优化器，助力于编写高质量的提示词
 🟣	TS	   20076	    85	2025-11-12	renovatebot/renovate	Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io
 🟣	TS	   20065	   601	2025-11-02	chartdb/chartdb	Database diagrams editor that allows you to visualize and design your DB with a single query.
+🟣	TS	   19966	 14952	2026-02-11	KeygraphHQ/shannon	Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.
 🟣	TS	   19741	   203	2025-09-23	teableio/teable	✨ The Next Gen Airtable Alternative: No-Code Postgres
 🟣	TS	   19657	   300	2025-12-10	activepieces/activepieces	AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents
 🟣	TS	   19360	  1838	2025-11-12	nocobase/nocobase	NocoBase is the most extensible AI-powered no-code/low-code platform for building business applications and enterprise solutions.
+🟣	TS	   19342	  1660	2026-03-01	moeru-ai/airi	💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.
 🟣	TS	   18013	   627	2025-12-28	ChromeDevTools/chrome-devtools-mcp	Chrome DevTools for coding agents
 🟣	TS	   17978	   352	2025-10-19	coze-dev/coze-studio	An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. Coze your way to AI Agent creation.
 🟣	TS	   17936	   477	2025-11-12	simstudioai/sim	Open-source platform to build and deploy AI agent workflows.
+🟣	TS	   17349	    60	2026-01-18	elizaOS/eliza	Autonomous agents for everyone
 🟣	TS	   17212	   961	2025-10-26	dyad-sh/dyad	Free, local, open-source AI app builder ✨ v0 / lovable / Bolt alternative 🌟 Star if you like it!
 🟣	TS	   16783	   219	2025-12-28	QwenLM/qwen-code	An open-source AI agent that lives in your terminal.
+🟣	TS	   16560	  2037	2026-03-01	ruvnet/ruflo	🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration
 🟣	TS	   15702	    83	2025-09-27	mediar-ai/screenpipe	AI app store powered by 24/7 desktop history. open source | 100% local | dev friendly | 24/7 screen, mic recording
 🟣	TS	   15356	  1599	2025-12-28	stan-smith/FossFLOW	Make beautiful isometric infrastructure diagrams
 🟣	TS	   14468	   390	2025-09-17	humanlayer/12-factor-agents	What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?
+🟣	TS	   14173	   267	2026-01-18	Kilo-Org/kilocode	Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent. #1 on OpenRouter. 750k+ Kilo Coders. 6.1 trillion tokens/month.
 🟣	TS	   13904	   210	2025-09-23	elysiajs/elysia	Ergonomic Framework for Humans
 🟣	TS	   13760	  5695	2025-10-26	mountain-loop/yaak	The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC 🦬
+🟣	TS	   12592	    66	2026-03-01	juice-shop/juice-shop	OWASP Juice Shop: Probably the most modern and sophisticated insecure web application
 🟣	TS	   12475	   186	2025-10-26	Canner/WrenAI	⚡️ GenBI (Generative BI) queries any database in natural language, generates accurate SQL (Text-to-SQL), charts (Text-to-Chart), and AI-powered business intelligence in seconds.
 🟣	TS	   12286	   665	2025-10-19	supermemoryai/supermemory	Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.
 🟣	TS	   11837	   189	2025-09-27	CapSoftware/Cap	Open source Loom alternative. Beautiful, shareable screen recordings.
 🟣	TS	   11652	   246	2025-10-26	browserless/browserless	Deploy headless browsers in Docker. Run on our cloud or bring your own. Free for non-commercial uses.
+🟣	TS	   11422	   960	2026-01-18	puckeditor/puck	The visual editor for React with AI superpowers
 🟣	TS	   10745	    44	2025-10-05	actions/starter-workflows	Accelerating new GitHub Actions workflows
 🟣	TS	   10100	   844	2025-10-26	huggingface/chat-ui	Open source codebase powering the HuggingChat app
+🟣	TS	    9789	    82	2026-01-12	elie222/inbox-zero	The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.
 🟣	TS	    9749	   667	2025-09-23	nanobrowser/nanobrowser	Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator.
 🟣	TS	    9108	  1292	2025-10-19	nitrojs/nitro	Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer.
+🟣	TS	    8841	   633	2026-02-22	OpenCTI-Platform/opencti	Open Cyber Threat Intelligence Platform
+🟣	TS	    8748	  5547	2026-01-18	eigent-ai/eigent	Eigent: The Open Source Cowork Desktop to Unlock Your Exceptional Productivity.
+🟣	TS	    8138	  2449	2026-02-22	rowboatlabs/rowboat	Open-source AI coworker, with memory
 🟣	TS	    8083	  2726	2025-10-26	lfnovo/open-notebook	An Open Source implementation of Notebook LM with more flexibility and features
 🟣	TS	    7860	   475	2025-09-17	ruvnet/claude-flow	🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code support via MCP protocol. Ranked #1 in agent-based frameworks.
+🟣	TS	    7829	  1836	2026-02-11	tobi/qmd	mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local
 🟣	TS	    7782	  1272	2025-10-19	evershopcommerce/evershop	🛍️ Typescript E-commerce Platform
 🟣	TS	    7764	  2106	2025-12-28	google/A2UI
 🟣	TS	    7694	   768	2025-12-28	vendure-ecommerce/vendure	The most customizable commerce platform built with TypeScript, NestJS and GraphQL.
+🟣	TS	    7241	   836	2026-01-18	virattt/dexter	An autonomous agent for deep financial research
 🟣	TS	    7029	    87	2025-10-19	bytedance/flowgram.ai	FlowGram is a node-based flow building engine that helps developers quickly create workflows in either fixed layout or free connection layout modes
+🟣	TS	    6768	  5747	2026-03-01	abhigyanpatwari/GitNexus	GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration
 🟣	TS	    6677	   208	2025-10-19	seerr-team/seerr	Open-source media request and discovery manager for Jellyfin, Plex, and Emby.
 🟣	TS	    6232	  3800	2025-12-10	DayuanJiang/next-ai-draw-io	A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.
 🟣	TS	    6181	   408	2025-09-27	chaitin/PandaWiki	PandaWiki 是一款 AI 大模型驱动的开源知识库搭建系统，帮助你快速构建智能化的 产品文档、技术文档、FAQ、博客系统，借助大模型的力量为你提供 AI 创作、AI 问答、AI 搜索等能力。
 🟣	TS	    5897	   234	2025-10-19	EvolutionAPI/evolution-api	Evolution API is an open-source WhatsApp integration API
 🟣	TS	    5177	  1084	2025-10-19	devlikeapro/waha	WAHA - WhatsApp HTTP API (REST API) that you can configure in a click! 3 engines: WEBJS (browser based), NOWEB (websocket nodejs), GOWS (websocket go)
 🟣	TS	    5159	  2031	2025-11-02	cjpais/Handy	A free, open source, and extensible speech-to-text application that works completely offline.
+🟣	TS	    5147	    24	2026-01-12	home-assistant/frontend	🍭 Frontend for Home Assistant
+🟣	TS	    5056	   482	2026-01-12	anthropics/claude-code-action
+🟣	TS	    5020	  3005	2026-01-25	tambo-ai/tambo	Generative UI SDK for React
 🟣	TS	    4967	  1269	2025-11-12	sst/opentui	OpenTUI is a library for building terminal user interfaces (TUIs)
+🟣	TS	    4965	  1281	2026-01-18	iOfficeAI/AionUi	Free, local, open-source Cowork for Gemini CLI, Claude Code, Codex, Opencode, Qwen Code, Goose Cli, Auggie, and more | 🌟 Star if you like it!
 🟣	TS	    4634	  1229	2025-09-17	11cafe/jaaz	The world's first open-source multimodal creative assistant This is a substitute for Canva and Manus that prioritizes privacy and is usable locally.
 🟣	TS	    4356	   177	2025-10-19	ThinkInAIXYZ/deepchat	🐬DeepChat - A smart assistant that connects powerful AI to your personal world
 🟣	TS	    4056	   873	2025-11-12	farion1231/cc-switch	A cross-platform desktop app for managing and switching provider configurations & MCP servers for Claude Code and Codex.
 🟣	TS	    4046	   482	2025-11-02	lingodotdev/lingo.dev	⚡ Lingo.dev - open-source, AI-powered i18n toolkit for instant localization with LLMs. Bring your own LLM or use Lingo.dev Localization Engine. Join discord:
+🟣	TS	    3984	  1995	2026-02-22	steipete/summarize	Point at any URL/YouTube/Podcast or file. Get the gist. CLI and Chrome Extension.
 🟣	TS	    3614	   799	2025-09-17	firebase/genkit	Open-source framework for building AI-powered apps in JavaScript, Go, and Python, built and used in production by Google
 🟣	TS	    3385	   798	2025-09-27	humanlayer/humanlayer	The best way to get AI to solve hard problems in complex codebases.
 🟣	TS	    3248	    74	2025-11-30	cloudflare/vibesdk	An open-source vibe coding platform that helps you build your own vibe-coding platform, built entirely on Cloudflare stack
+🟣	TS	    3214	   217	2026-02-22	cinnyapp/cinny	Yet another matrix client
 🟣	TS	    3198	   882	2025-09-17	Vanilagy/mediabunny	Pure TypeScript media toolkit for reading, writing, and converting video and audio files, directly in the browser.
 🟣	TS	    3076	   358	2025-09-23	OvidijusParsiunas/deep-chat	Fully customizable AI chatbot component for your website
 🟣	TS	    2961	   288	2025-09-17	AIDC-AI/ComfyUI-Copilot	An AI-powered custom node for ComfyUI designed to enhance workflow automation and provide intelligent assistance
 🟣	TS	    2344	   155	2025-09-17	JOYCEQL/magic-resume	free online AI resume editor
 🟣	TS	    2287	   666	2025-12-28	danielmiessler/Personal_AI_Infrastructure	Personal AI Infrastructure for upgrading humans.
+🟣	TS	    2119	   681	2026-02-11	pedramamini/Maestro	Agent Orchestration Command Center
 🟣	TS	    1880	   792	2025-11-02	linagora/twake-drive	The open-source alternative to Google Drive.
 🟣	TS	    1864	   775	2025-09-27	get-convex/chef	The only AI app builder that knows backend
+🟣	TS	    1800	   360	2026-02-11	KuekHaoYang/KVideo	一个基于 Next.js 16 构建的现代化视频聚合播放平台。采用独特的 "Liquid Glass" 设计语言，提供流畅的视觉体验和强大的视频搜索功能。
+🟣	TS	    1620	   508	2026-02-22	letta-ai/letta-code	The memory-first coding agent
+🟣	TS	    1434	    95	2026-03-01	semperai/amica	Amica is an open source interface for interactive communication with 3D characters with voice synthesis and speech recognition.
+🟣	TS	    1382	   326	2026-01-12	numman-ali/opencode-openai-codex-auth	OAuth authentication plugin for personal coding assistance with ChatGPT Plus/Pro subscriptions - uses OpenAI's official authentication method
 🟣	TS	    1352	   217	2025-12-10	LOG1997/log-lottery	🎈🎈🎈🎈年会抽奖程序，threejs+vue3 3D球体动态抽奖应用。
 🟣	TS	     915	   215	2025-09-23	SmythOS/sre	The Operating System for Agents
 🟣	TS	     790	   253	2025-09-23	allweonedev/presentation-ai	Open source AI presentation generator. Create professional slides with customizable themes and AI-generated content in minutes.
 🟣	TS	     770	   186	2025-12-28	badlogic/pi-mono	AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods
+🟣	TS	     739	    97	2026-01-12	vladmeer/polymarket-copy-trading-bot	Polymarket Copy Trading Bot. Polymarket trading bot. Polymarket Copy Trading Bot. Polymarket trading bot. Polymarket Copy Trading Bot. Polymarket trading bot. Polymarket Copy Trading Bot. Polymarket trading bot
 🟣	TS	     570	    93	2025-12-28	google/adk-js	An open-source, code-first Typescript toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
 🟣	TS	     568	    87	2025-12-10	afkarxyz/SpotiFLAC	Get Spotify tracks in true FLAC from Tidal, Deezer, Qobuz & Amazon Music — no account required.
 🟣	SH	   51631	    76	2025-10-26	sickcodes/Docker-OSX	Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers.
 🟣	SH	   27157	    74	2025-10-19	233boy/v2ray	最好用的 V2Ray 一键安装脚本 & 管理脚本
 🟣	SH	   22426	    63	2025-11-12	kholia/OSX-KVM	Run macOS on QEMU/KVM. With OpenCore + Monterey + Ventura + Sonoma support now! Only commercial (paid) support is available now to avoid spammy issues. No Mac system is required.
+🟣	SH	   18250	  2878	2026-01-12	obra/superpowers	Claude Code superpowers: core skills library
 🟣	SH	   17615	   109	2025-10-26	dockur/macos	MacOS inside a Docker container.
 🟣	SH	   17513	    54	2025-11-02	mack-a/v2ray-agent	Xray、Tuic、hysteria2、sing-box 八合一一键脚本
 🟣	SH	   15343	    36	2025-12-10	angristan/openvpn-install	Set up your own OpenVPN server on Debian, Ubuntu, Fedora, CentOS, Arch Linux and more
 🟣	SH	   15138	    84	2025-09-23	thibmaek/awesome-raspberry-pi	📝 A curated list of awesome Raspberry Pi tools, projects, images and resources
+🟣	SH	   14165	   348	2026-02-11	quickemu-project/quickemu	Quickly create and run optimised Windows, macOS and Linux virtual machines
 🟣	SH	   13394	   754	2025-12-10	winapps-org/winapps	Run Windows apps such as Microsoft Office/Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration. Hard fork of https://github.com/Fmstrat/winapps/
 🟣	SH	   12263	    66	2025-10-27	itzg/docker-minecraft-server	Docker image that provides a Minecraft Server for Java Edition that automatically downloads selected version at startup
+🟣	SH	   11845	   936	2026-03-01	VoltAgent/awesome-claude-code-subagents	A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases
 🟣	SH	   11663	    62	2025-09-23	DaoCloud/public-image-mirror	很多镜像都在国外。比如 gcr 。国内下载很慢，需要加速。致力于提供连接全世界的稳定可靠安全的容器镜像服务。
 🟣	SH	   11438	    46	2025-12-10	juewuy/ShellCrash	Run sing-box/mihomo as client in shell
 🟣	SH	   11317	    15	2025-09-17	google/oss-fuzz	OSS-Fuzz - continuous fuzzing for open source software.
@@ -314,8 +182,10 @@
 🟣	SH	    8931	    22	2025-11-02	getsentry/self-hosted	Sentry, feature-complete and packaged up for low-volume deployments and proofs-of-concept
 🟣	SH	    8602	    19	2025-09-27	testssl/testssl.sh	Testing TLS/SSL encryption anywhere on any port
 🟣	SH	    8361	    48	2025-12-28	ophub/amlogic-s9xxx-armbian	Support for Armbian in Amlogic, Rockchip and Allwinner boxes. Support a311d, s922x, s905x3, s905x2, s912, s905d, s905x, s905w, s905, s905l, rk3588, rk3568, rk3399, rk3328, h6, etc.
+🟣	SH	    7934	   163	2026-01-12	HariSekhon/DevOps-Bash-tools	1000+ DevOps Bash Scripts - AWS, GCP, Kubernetes, Docker, CI/CD, APIs, SQL, PostgreSQL, MySQL, Hive, Impala, Kafka, Hadoop, Jenkins, GitHub, GitLab, BitBucket, Azure DevOps, TeamCity, Spotify, MP3, LDAP, Code/Build Linting, pkg mgmt for Linux, Mac, Python, Perl, Ruby, NodeJS, Golang, Advanced dotfiles: .bashrc, .vimrc, .gitconfig, .screenrc, tmux..
 🟣	SH	    7727	   308	2025-09-17	bin456789/reinstall	一键DD/重装脚本 (One-click reinstall OS on VPS)
 🟣	SH	    7259	    42	2025-09-17	RROrg/rr	Redpill Recovery (arpl-i18n)
+🟣	SH	    7184	   504	2026-02-11	automazeio/ccpm	Project management system for Claude Code using GitHub Issues and Git worktrees for parallel agent execution.
 🟣	SH	    6830	     8	2025-11-12	docker-library/official-images	Primary source of truth for the Docker "Official Images" program
 🟣	SH	    6385	    50	2025-10-05	ublue-os/bazzite	Bazzite makes gaming and everyday use smoother and simpler across desktop PCs, handhelds, tablets, and home theater PCs.
 🟣	SH	    6350	    56	2025-10-19	linux-surface/linux-surface	Linux Kernel for Surface Devices
@@ -327,79 +197,135 @@
 🟣	SH	    5378	    24	2025-10-26	tensorchord/Awesome-LLMOps	An awesome & curated list of best LLMOps tools for developers
 🟣	SH	    4908	    23	2025-10-26	armbian/build	Armbian Linux build framework generates custom Debian or Ubuntu image for x86, aarch64, riscv64 & armhf
 🟣	SH	    4769	    41	2025-11-12	kserve/kserve	Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes
+🟣	SH	    4716	    34	2026-01-25	ChrisTitusTech/linutil	Chris Titus Tech's Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 🟣	SH	    4677	    46	2025-09-17	007revad/Synology_HDD_db	Add your HDD, SSD and NVMe drives to your Synology's compatible drive database and a lot more
+🟣	SH	    4249	    48	2026-01-12	mylinuxforwork/dotfiles	The ML4W Dotfiles for Hyprland - An advanced and full-featured configuration for the dynamic tiling window manager Hyprland. Ready to install with the Dotfiles Installer app with setup scripts for Arch Linux (Fedora and openSuse with limitations).
 🟣	SH	    4230	   179	2025-09-17	nelvko/clash-for-linux-install	😼 优雅地使用基于 clash/mihomo 的代理环境
 🟣	SH	    4149	    88	2025-09-23	bitnami/containers	Bitnami container images
 🟣	SH	    4053	    40	2025-10-05	JamesTurland/JimsGarage	Homelab Goodies
+🟣	SH	    3920	    72	2026-01-25	wnlen/clash-for-linux	🐧 在 Linux 上提供一套完整的 Clash / Mihomo（Clash Meta） 代理与管理面板
 🟣	SH	    3704	    50	2025-09-27	InfinityLoop1308/PipePipe	An open-source Android app to let you browse YouTube, NicoNico and BiliBili freely.
 🟣	SH	    3677	    21	2025-11-02	Joshua-Riek/ubuntu-rockchip	Ubuntu for Rockchip RK35XX Devices
 🟣	SH	    3600	    14	2025-10-05	htr-tech/nexphisher	Advanced Phishing tool
+🟣	SH	    3286	   683	2026-01-25	tobi/try	fresh directories for every vibe
 🟣	SH	    2914	    12	2025-11-02	void-linux/void-packages	The Void source packages collection
 🟣	SH	    2791	    21	2025-11-02	hcengineering/huly-selfhost	Huly for Self Hosting
+🟣	SH	    2660	    24	2026-01-18	ophub/amlogic-s9xxx-openwrt	Supports running OpenWrt on Amlogic, Allwinner, and Rockchip devices. Support a311d, s922x, s905x3, s905x2, s912, s905d, s905x, s905w, s905, s905l, rk3588, rk3568, rk3399, rk3328, h6, etc.
+🟣	SH	    2659	   224	2026-02-11	czlonkowski/n8n-skills	n8n skillset for Claude Code to build flawless n8n workflows
 🟣	SH	    2576	    30	2025-10-19	XTLS/Xray-install	Easiest way to install & upgrade Xray
+🟣	SH	    2323	    32	2026-01-25	alexbelgium/hassio-addons	My homeassistant addons
 🟣	SH	    2208	    21	2025-10-05	bluesky-social/pds	Bluesky PDS (Personal Data Server) container image, compose file, and documentation
 🟣	SH	    2169	    72	2025-11-12	233boy/sing-box	最好用的 sing-box 一键安装脚本 & 管理脚本，自动创建 REALITY 协议；支持 TUIC，Trojan，Hysteria2 等所有常见的协议
 🟣	SH	    2122	    32	2025-12-28	233boy/Xray	最好用的 Xray 一键安装脚本 & 管理脚本
+🟣	SH	    2119	    34	2026-02-22	FiorenMas/Revanced-And-Revanced-Extended-Non-Root	Real-time repository build Revanced and Revanced Extended about 10 minutes after patch release
+🟣	SH	    2081	   211	2026-02-11	home-assistant/addons	➕ Docker add-ons for Home Assistant
+🟣	SH	    2010	   925	2026-01-12	frankbria/ralph-claude-code	Autonomous AI development loop for Claude Code with intelligent exit detection
 🟣	SH	    1954	    14	2025-12-28	linkease/istore	一个 Openwrt 标准的软件中心，纯脚本实现，只依赖Openwrt标准组件。支持其它固件开发者集成到自己的固件里面。更方便入门用户搜索安装插件。The iStore is a app store for OpenWRT
 🟣	SH	    1910	    18	2025-09-23	ublue-os/bluefin	The next generation Linux workstation, designed for reliability, performance, and sustainability.
 🟣	SH	    1869	    46	2025-09-27	IceWhaleTech/ZimaOS	A Simplified, Focused and Open NAS OS_
 🟣	SH	    1854	    70	2025-10-05	caido/caido	🚀 Caido releases, wiki and roadmap
+🟣	SH	    1744	    55	2026-01-25	xiv3r/Burpsuite-Professional	Burpsuite Professional Latest Version 2026
 🟣	SH	    1514	    55	2025-09-23	deevus/zed-windows-builds
 🟣	SH	    1404	    29	2025-12-28	themactep/thingino-firmware	Open-source firmware for Ingenic SoC IP cameras
 🟣	SH	    1380	   231	2025-11-12	MacRimi/ProxMenux	ProxMenux An Interactive Menu for Proxmox VE Management
 🟣	SH	    1335	    57	2025-12-28	cisagov/LME	Logging Made Easy (LME) is a no cost, open source platform that centralizes log collection, enhances threat detection, and enables real-time alerting, helping small to medium-sized organizations secure their infrastructure. LME Docs can be found at https://cisagov.github.io/lme-docs/docs/
+🟣	SH	    1220	   184	2026-01-18	Gentleman-Programming/Gentleman.Dots	My personal configuration for LazyVim !
 🟣	SH	    1152	    26	2025-09-23	geekau/mediastack	The ultimate Docker Compose files and configs to build your desired media stack, quickly and easily, with secure outbound network traffic and secure remote access using multifactor authentication.
 🟣	SH	    1126	    31	2025-09-17	Meliox/PVE-mods	Proxmox modifications
 🟣	SH	     977	    41	2025-09-23	sabamdarif/termux-desktop	Install a full Linux desktop environment on your Android device with Termux X11 ( VNC optional) and also enable hardware acceleration
 🟣	SH	     733	   114	2025-09-17	Olsro/ipodclickwheelgamespreservationproject	Preservation of iPod Clickwheel Games for iPod Nanos 3g to 5g and iPod Classics 5g to 7g
 🟣	SH	     679	    29	2025-10-27	Sergeydigl3/zapret-discord-youtube-linux	(NOW ONLY FOR NFTABLES) Port zapret-discord-youtube from Flowseal and bol-van for easy to use on linux
+🟣	SH	     645	    75	2026-02-22	StressOzz/Zapret-Manager	Скрипт для установки и настройки Zapret на OpenWRT.
 🟣	SH	     554	    79	2025-12-10	backslashxx/mountify	Globally mounted modules via OverlayFS.
 🟣	SH	     446	    24	2025-10-27	Snowy-Fluffy/zapret.installer
+🟣	SH	     435	   130	2026-03-01	eugr/spark-vllm-docker	Docker configuration for running VLLM on dual DGX Sparks
 🟣	SH	     357	    66	2025-10-27	pflyly/eden-nightly	Unofficial nightly release of Eden Emulator. This repository is not affiliated with the official Eden development team. It exists solely to provide an easy way for users to try out the latest features from recent commits.
 🟣	SH	     308	     0	2025-10-19	openshift/release	Release tooling for OpenShift
 🟣	SH	     264	    90	2025-10-19	InferenceMAX/InferenceMAX
-⏺️	RS	   20737	   100	2025-10-26	slint-ui/slint	Slint is an open-source declarative GUI toolkit to build native user interfaces for Rust, C++, JavaScript, or Python apps.
+🔴	RS	   37961	   159	2026-01-25	lapce/lapce	Lightning-fast and Powerful Code Editor written in Rust	I prefer VS Code
+🟣	RS	   29495	    87	2026-01-12	vercel/turborepo	Build system optimized for JavaScript and TypeScript, written in Rust
+🟣	RS	   26095	    74	2026-02-11	cloudflare/pingora	A library for building fast, reliable and evolvable network services.
+🟣	RS	   23374	   181	2026-01-12	wezterm/wezterm	A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust
+🟣	RS	   21086	    61	2026-01-12	vectordotdev/vector	A high-performance observability data pipeline.
+🟣	RS	   12426	    40	2026-01-25	web-infra-dev/rspack	The fast Rust-based JavaScript bundler with webpack-compatible API 🦀️
+🟣	RS	   12201	  1587	2026-01-12	memvid/memvid	Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.
+🟣	RS	    9588	   331	2026-01-25	Automattic/harper	Offline, privacy-first grammar checker. Fast, open-source, Rust-powered
+🟣	RS	    9115	   235	2026-01-12	get-convex/convex-backend	The open-source reactive database for app developers
+🟣	RS	    9095	   381	2026-02-11	mainmatter/100-exercises-to-learn-rust	A self-paced course to learn Rust, one exercise at a time.
+🟣	RS	    8577	   539	2026-01-12	embassy-rs/embassy	Modern embedded framework, using Rust and async.
+🟣	RS	    8281	   581	2026-02-11	reacherhq/check-if-email-exists	Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.
 🟣	RS	    8036	   204	2025-11-02	Zackriya-Solutions/meeting-minutes	A free and open source, self hosted Ai based live meeting note taker and minutes summary generator that can completely run in your Local device (Mac OS and windows OS Support added. Working on adding linux support soon) https://meetily.zackriya.com/ is meetly ai
+🟣	RS	    6659	   104	2026-01-25	jtroo/kanata	Improve keyboard comfort and usability with advanced customization
+🟣	RS	    5958	   120	2026-02-22	Universal-Debloater-Alliance/universal-android-debloater-next-generation	Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.
+🟣	RS	    5793	    38	2026-01-18	ai-dynamo/dynamo	A Datacenter Scale Distributed Inference Serving Framework
 🟣	RS	    5549	    85	2025-11-02	prefix-dev/pixi	Package management made easy
+🟣	RS	    5509	   112	2026-02-22	pimalaya/himalaya	CLI to manage emails
+🟣	RS	    5478	    59	2026-02-22	signalapp/libsignal	Home to the Signal Protocol as well as other cryptographic primitives which make Signal possible.
+🟣	RS	    5171	  1313	2026-01-25	datahaven-xyz/datahaven	An EVM compatible Substrate chain, powered by StorageHub and secured by EigenLayer
+🟣	RS	    5074	   138	2026-02-11	katanemo/plano	Delivery infrastructure for agentic apps - Plano is an AI-native proxy and data plane that offloads plumbing work, so you stay focused on your agent's core logic (via any AI framework).
 🟣	RS	    4764	    31	2025-11-02	solana-foundation/anchor	⚓ Solana Program Framework
+🟣	RS	    4033	   666	2026-03-01	pgdogdev/pgdog	PostgreSQL connection pooler, load balancer and database sharder.
 🟣	RS	    3446	   133	2025-12-10	apache/iggy	Apache Iggy: Hyper-Efficient Message Streaming at Laser Speed
 🟣	RS	    3094	    45	2025-10-05	witnessmenow/ESP32-Cheap-Yellow-Display	Building a community around a cheap ESP32 Display with a touch screen
 🟣	RS	    2883	    27	2025-12-10	redlib-org/redlib	Private front-end for Reddit
+🟣	RS	    2654	    30	2026-02-22	Priler/jarvis	Offline voice assistant that respects your privacy. Forged in Rust. WIP.
 🟣	RS	    2229	   221	2025-11-02	Fredolx/open-tv	Ultra-fast, simple and powerful cross-platform IPTV app
 🟣	RS	    1939	   167	2025-10-26	abenz1267/walker	Multi-Purpose Launcher with a lot of features. Highly Customizable and fast.
 🟣	RS	    1924	    55	2025-10-27	vortex-data/vortex	An extensible, state of the art columnar file format. Formerly at @spiraldb, now an Incubation Stage project at LFAI&Data, part of the Linux Foundation.
 🟣	RS	    1735	   342	2025-11-12	supabase/etl	Stream your Postgres data anywhere in real-time. Simple Rust building blocks for change data capture (CDC) pipelines.
+🟣	RS	    1497	   119	2026-02-22	matrix-construct/tuwunel	Official successor to conduwuit
+🟣	RS	    1375	   163	2026-03-01	claration/Impactor	WIP feature rich iOS/tvOS sideloading application written in Rust.
+🟣	RS	    1039	    45	2026-01-12	nekename/OpenDeck	Linux software for the Stream Deck with support for original Elgato Stream Deck plugins
+🟣	RS	     972	   220	2026-03-01	storytold/artcraft	ArtCraft is an intentional crafting engine for artists, designers, and filmmakers
 🟣	RS	     850	   151	2025-11-02	meta-pytorch/monarch	PyTorch Single Controller
+🟣	RS	     780	   284	2026-01-18	mikeyobrien/ralph-orchestrator	An improved implementation of the Ralph Wiggum technique for autonomous AI agent orchestration
+🟣	RS	     592	   123	2026-02-22	raphaelmansuy/edgequake	High-performance GraphRAG inspired from LightRag written in Rust
+🟣	RS	     425	   102	2026-02-22	ruvnet/ruvector	A distributed vector database that learns. Store embeddings, query with Cypher, scale horizontally with Raft consensus, and let the index improve itself through Graph Neural Networks.
 🟣	RS	     418	    20	2025-10-26	zorp-corp/nockchain	Nockchain protocol monorepo
 🟣	RS	     403	   217	2025-10-26	OpenDevicePartnership/patina	Patina Firmware
+🟣	RS	     373	    52	2026-03-01	Roblox/studio-rust-mcp-server	Standalone Roblox Studio MCP Server
 🟣	PY	  159379	   322	2025-12-28	AUTOMATIC1111/stable-diffusion-webui	Stable Diffusion web UI
 🟣	PY	   96407	  1060	2025-12-10	comfyanonymous/ComfyUI	The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
+🟣	PY	   84976	   179	2026-02-22	home-assistant/core	🏡 Open source home automation that puts local control and privacy first.
 🟣	PY	   74438	  1593	2025-11-02	Shubhamsaboo/awesome-llm-apps	Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.
 🟣	PY	   73933	  1198	2025-12-28	swisskyrepo/PayloadsAllTheThings	A list of useful payloads and bypass for Web Application Security and Pentest/CTF
 🟣	PY	   62870	  1767	2025-11-12	localstack/localstack	💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline
+🟣	PY	   58310	  1503	2026-01-12	OpenBB-finance/OpenBB	Financial data platform for analysts, quants and AI agents.
 🟣	PY	   53409	  1100	2025-09-17	unclecode/crawl4ai	🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN
+🟣	PY	   51381	   838	2026-01-25	xai-org/grok-1	Grok open release
 🟣	PY	   46892	   393	2025-10-05	ultralytics/ultralytics	Ultralytics YOLO 🚀
 🟣	PY	   46801	  1171	2025-10-19	opendatalab/MinerU	Transforms complex documents like PDFs into LLM-ready markdown/JSON for your Agentic workflows.
+🟣	PY	   42847	   915	2026-02-11	karpathy/nanochat	The best ChatGPT that $100 can buy.
+🟣	PY	   42568	   361	2026-01-12	crewAIInc/crewAI	Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
 🟣	PY	   42455	   736	2025-11-02	mem0ai/mem0	Universal memory layer for AI Agents; Announcing OpenMemory MCP - local and secure memory management.
 🟣	PY	   41022	   644	2025-12-28	NanmiCoder/MediaCrawler	小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫
 🟣	PY	   38554	  4624	2025-12-28	exo-explore/exo	Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚
 🟣	PY	   38547	  2137	2025-10-27	yeongpin/cursor-free-vip	[Support 0.49.x]（Reset Cursor AI MachineID & Bypass Higher Token Limit） Cursor Ai ，自动重置机器ID ， 免费升级使用Pro功能: You've reached your trial request limit. / Too many free trial accounts used on this machine. Please upgrade to pro. We have this limit in place to prevent abuse. Please let us know if you believe this is a mistake.
 🟣	PY	   37465	   719	2025-09-17	hiroi-sora/Umi-OCR	OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。
+🟣	PY	   36400	   163	2026-01-25	ManimCommunity/manim	A community-maintained Python framework for creating mathematical animations.
 🟣	PY	   33809	   696	2025-10-27	paperless-ngx/paperless-ngx	A community-supported supercharged document management system: scan, index and archive all your documents
 🟣	PY	   33791	   739	2025-10-27	chatanywhere/GPT_API_free	Free ChatGPT&DeepSeek API Key，免费ChatGPT&DeepSeek API。免费接入DeepSeek API和GPT4 API，支持 gpt | deepseek | claude | gemini | grok 等排名靠前的常用大模型。
 🟣	PY	   33356	   621	2025-09-23	facebookresearch/detectron2	Detectron2 is a platform for object detection, segmentation and other visual recognition tasks.
+🟣	PY	   31700	   475	2026-02-22	PostHog/posthog	🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.
 🟣	PY	   30412	    91	2025-10-26	tinygrad/tinygrad	You like pytorch? You like micrograd? You love tinygrad! ❤️
+🟣	PY	   28270	   191	2026-01-12	OpenBMB/ChatDev	ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration
 🟣	PY	   27890	  5152	2025-12-28	anthropics/skills	Public repository for Agent Skills
 🟣	PY	   26764	   805	2025-10-19	reflex-dev/reflex	🕸️ Web apps in pure Python 🐍
 🟣	PY	   26600	   414	2025-11-12	AtsushiSakai/PythonRobotics	Python sample codes and textbook for robotics algorithms.
+🟣	PY	   25666	  1187	2026-01-12	microsoft/BitNet	Official inference framework for 1-bit LLMs
 🟣	PY	   24518	   195	2025-12-10	srbhr/Resume-Matcher	Improve your resumes with Resume Matcher. Get insights, keyword suggestions and tune your resumes to job descriptions.
 🟣	PY	   24260	   682	2025-09-17	Cinnamon/kotaemon	An open-source RAG-based tool for chatting with your documents.
 🟣	PY	   22590	   390	2025-09-17	deepset-ai/haystack	AI orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.
+🟣	PY	   21722	   961	2026-01-25	hesreallyhim/awesome-claude-code	A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic
 🟣	PY	   21182	   318	2025-10-27	vanna-ai/vanna	🤖 Chat with your SQL database 📊. Accurate Text-to-SQL Generation via LLMs using RAG 🔄.
+🟣	PY	   20788	  3447	2026-01-18	ComposioHQ/awesome-claude-skills	A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
 🟣	PY	   19497	  1824	2025-12-28	google/langextract	A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.
+🟣	PY	   18723	   167	2026-01-12	camel-ai/owl	🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation
 🟣	PY	   18695	   169	2025-10-19	1Panel-dev/MaxKB	🔥 MaxKB is an open-source platform for building enterprise-grade agents. MaxKB 是强大易用的开源企业级智能体平台。
 🟣	PY	   18141	  1622	2025-12-28	resemble-ai/chatterbox	SoTA open-source TTS
 🟣	PY	   17831	   948	2025-09-17	mxrch/GHunt	🕵️‍♂️ Offensive Google framework.
+🟣	PY	   17373	  1515	2026-02-22	hummingbot/hummingbot	Open source software that helps you create and deploy high-frequency crypto trading bots
+🟣	PY	   17211	  1299	2026-02-22	AstrBotDevs/AstrBot	Agentic IM Chatbot infrastructure that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨
 🟣	PY	   15763	   467	2025-10-05	lukas-blecher/LaTeX-OCR	pix2tex: Using a ViT to convert images of equations into LaTeX code.
 🟣	PY	   15616	   306	2025-11-12	kvcache-ai/ktransformers	A Flexible Framework for Experiencing Cutting-edge LLM Inference Optimizations
 🟣	PY	   15610	  1011	2025-11-02	allenai/olmocr	Toolkit for linearizing PDFs for LLM datasets/training
@@ -407,41 +333,62 @@
 🟣	PY	   14885	   555	2025-11-12	google/adk-python	An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
 🟣	PY	   14751	  1010	2025-10-26	emcie-co/parlant	LLM agents built for control. Designed for real-world use. Deployed in minutes.
 🟣	PY	   14736	   278	2025-10-26	volcengine/verl	verl: Volcano Engine Reinforcement Learning for LLMs
+🟣	PY	   14430	    35	2026-03-01	sympy/sympy	A computer algebra system written in pure Python
 🟣	PY	   14194	   697	2025-09-27	onyx-dot-app/onyx	Open Source AI Platform - AI Chat with advanced features that works with every LLM
 🟣	PY	   13713	  1961	2025-10-26	DrewThomasson/ebook2audiobook	Generate audiobooks from e-books, voice cloning & 1107+ languages!
 🟣	PY	   13512	   834	2025-12-10	trustedsec/social-engineer-toolkit	The Social-Engineer Toolkit (SET) repository from TrustedSec - All new versions of SET will be deployed here.
 🟣	PY	   12881	   383	2025-10-19	coleam00/Archon	Beta release of Archon OS - the knowledge and task management backbone for AI coding assistants.
+🟣	PY	   12755	  4318	2026-03-01	muratcankoylan/Agent-Skills-for-Context-Engineering	A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.
 🟣	PY	   11785	  1158	2025-12-10	anthropics/claude-quickstarts	A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API
+🟣	PY	   11779	   841	2026-02-22	cheahjs/free-llm-api-resources	A list of free LLM inference resources accessible via API.
 🟣	PY	   11333	   405	2025-10-19	sapientinc/HRM	Hierarchical Reasoning Model Official Release
 🟣	PY	   11313	   356	2025-12-10	MODSetter/SurfSense	Open source alternative to NotebookLM, Perplexity, and Glean. Connects to search engines, Slack, Linear, Jira, ClickUp, Notion, YouTube, GitHub, Discord, and more. Join our Discord: https://discord.gg/ejRNvftDp9
 🟣	PY	   11279	   400	2025-09-27	confident-ai/deepeval	The LLM Evaluation Framework
+🟣	PY	   11002	  1794	2026-01-18	Free-TV/IPTV	M3U Playlist for free TV channels
 🟣	PY	   10629	   890	2025-12-28	GreyDGL/PentestGPT	A GPT-empowered penetration testing tool
+🟣	PY	   10541	   999	2026-01-12	icloud-photos-downloader/icloud_photos_downloader	A command-line tool to download photos from iCloud
 🟣	PY	   10391	   495	2025-12-10	BeehiveInnovations/pal-mcp-server	The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one.
 🟣	PY	   10139	  1054	2025-11-12	HKUDS/DeepCode	"DeepCode: Open Agentic Coding (Paper2Code & Text2Web & Text2Backend)"
 🟣	PY	   10065	  7194	2025-11-12	usestrix/strix	✨ Open-source AI hackers for your apps
+🟣	PY	    9873	    89	2026-03-01	Netflix/metaflow	Build, Manage and Deploy AI/ML Systems
+🟣	PY	    9566	    44	2026-03-01	sktime/sktime	A unified framework for machine learning with time series
+🟣	PY	    9491	   320	2026-02-11	bytedance/UI-TARS	Pioneering Automated GUI Interaction with Native Agents
 🟣	PY	    8957	   518	2025-12-10	microsoft/magentic-ui	A research prototype of a human-centered web agent
 🟣	PY	    8811	   445	2025-10-05	jsvine/pdfplumber	Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extract text and tables.
 🟣	PY	    8728	   303	2025-10-19	microsoft/RD-Agent	Research and development (R&D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&D are mainly focused on data and models. We are committed to automating these high-value generic R&D processes through R&D-Agent, which lets AI drive data-driven AI. 🔗https://aka.ms/RD-Agent-Tech-Report
 🟣	PY	    8701	   547	2025-11-12	GeeeekExplorer/nano-vllm	Nano vLLM
 🟣	PY	    8088	   178	2025-09-23	Lightricks/LTX-Video	Official repository for LTX-Video
 🟣	PY	    7969	   516	2025-12-10	ostris/ai-toolkit	The ultimate training toolkit for finetuning diffusion models
+🟣	PY	    7867	  5111	2026-02-11	openai/skills	Skills Catalog for Codex
+🟣	PY	    7821	  1058	2026-03-01	HunxByts/GhostTrack	Useful tool to track location or mobile number
 🟣	PY	    7585	   349	2025-10-19	stamparm/maltrail	Malicious traffic detection system
 🟣	PY	    7572	  2755	2025-09-17	Physical-Intelligence/openpi
+🟣	PY	    7535	  5940	2026-03-01	huggingface/skills
 🟣	PY	    7332	   183	2025-12-10	CVHub520/X-AnyLabeling	Effortless data labeling with AI support from Segment Anything and other awesome models.
 🟣	PY	    7276	   318	2025-11-02	Project-MONAI/MONAI	AI Toolkit for Healthcare Imaging
 🟣	PY	    7268	   305	2025-09-17	OpenPipe/ART	Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen2.5, Qwen3, Llama, and more!
+🟣	PY	    7247	   384	2026-01-12	LuckyOne7777/ChatGPT-Micro-Cap-Experiment	This repo powers my experiment where ChatGPT manages a real-money micro-cap stock portfolio.
+🟣	PY	    7220	  1201	2026-02-22	ruvnet/wifi-densepose	Production-ready implementation of InvisPose - a revolutionary WiFi-based dense human pose estimation system that enables real-time full-body tracking through walls using commodity mesh routers
 🟣	PY	    6879	   955	2025-09-27	bytedance/Dolphin	The official repo for “Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting”, ACL, 2025.
 🟣	PY	    6512	  1141	2025-09-27	HKUDS/RAG-Anything	"RAG-Anything: All-in-One RAG Framework"
 🟣	PY	    5885	   504	2025-11-12	droidrun/droidrun	Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖
 🟣	PY	    5832	   679	2025-09-17	NVIDIA/garak	the LLM vulnerability scanner
+🟣	PY	    5679	  1097	2026-02-22	freemocap/freemocap	Free Motion Capture for Everyone 💀✨
+🟣	PY	    5498	  1763	2026-01-25	OpenBMB/VoxCPM	VoxCPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning
 🟣	PY	    5485	   170	2025-10-19	jiji262/douyin-downloader	抖音批量下载工具，去水印，支持视频、图集、合集、音乐(原声)。免费！免费！免费！
 🟣	PY	    5349	   346	2025-09-27	google/adk-samples	A collection of sample agents built with Agent Development (ADK)
 🟣	PY	    5321	   291	2025-09-17	Azure/azure-sdk-for-python	This repository is for active development of the Azure SDK for Python. For consumers of the SDK we recommend visiting our public developer docs at https://learn.microsoft.com/python/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-python.
 🟣	PY	    5265	  1722	2025-10-26	harvard-edge/cs249r_book	Introduction to Machine Learning Systems
+🟣	PY	    5260	   694	2026-01-12	VectifyAI/PageIndex	📑 PageIndex: Document Index for Reasoning-based RAG
+🟣	PY	    5235	  1098	2026-01-18	MiroMindAI/MiroThinker	MiroThinker is an open source deep research agent optimized for research and prediction. It achieves a 60.2% Avg@8 score on the challenging GAIA benchmark.
 🟣	PY	    5127	   777	2025-11-12	airweave-ai/airweave	Context retrieval for AI agents across apps and databases
 🟣	PY	    5084	   401	2025-11-02	langchain-ai/deepagents
+🟣	PY	    4993	   583	2026-02-11	p-e-w/heretic	Fully automatic censorship removal for language models
 🟣	PY	    4936	   244	2025-10-19	p1ngul1n0/blackbird	An OSINT tool to search for accounts by username and email in social networks.
 🟣	PY	    4849	   198	2025-11-12	coleam00/ottomator-agents	All the open source AI Agents hosted on the oTTomator Live Agent Studio platform!
+🟣	PY	    4812	   669	2026-01-18	NevaMind-AI/memU	Memory infrastructure for LLMs and AI agents
+🟣	PY	    4553	   701	2026-01-12	EveryInc/compound-engineering-plugin	Official Claude Code compound engineering plugin
+🟣	PY	    4543	   216	2026-01-18	neuphonic/neutts	On-device TTS model by Neuphonic
 🟣	PY	    4480	   513	2025-09-27	aliasrobotics/cai	Cybersecurity AI (CAI), the framework for AI Security
 🟣	PY	    4417	   166	2025-09-23	net4people/bbs	Forum for discussing Internet censorship circumvention
 🟣	PY	    4310	   558	2025-10-19	sansan0/TrendRadar	🎯 告别信息过载，只看真正关心的新闻 - 多平台热点聚合工具，趋势分析工具，一键监控抖音、知乎、哔哩哔哩、今日头条、百度热搜、贴吧、微博、华尔街见闻、财联社等35个平台，智能关键词筛选，自动生成热点分析报告。支持企业微信、飞书、钉钉、Telegram、邮件、ntfy推送，30秒网页部署，1分钟手机通知，无需编程基础。也支持docker私人部署⭐ 让算法为你服务，而非被算法绑架
@@ -451,27 +398,43 @@
 🟣	PY	    3661	   267	2025-09-17	NEKOparapa/AiNiee	一款专注于Ai翻译的工具，一键自动翻译RPG SLG游戏，Epub TXT小说，Srt Vtt Lrc字幕，Word MD文档等等复杂长文本。
 🟣	PY	    3564	   389	2025-10-19	KellerJordan/modded-nanogpt	NanoGPT (124M) in 3 minutes
 🟣	PY	    3518	  1398	2025-09-27	WECENG/ticket-purchase	大麦自动抢票，支持人员、城市、日期场次、价格选择
+🟣	PY	    3489	   912	2026-01-25	OpenBMB/UltraRAG	UltraRAG v3: A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines
+🟣	PY	    3439	   378	2026-03-01	anthropics/claude-code-security-review	An AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities.
 🟣	PY	    3435	  1429	2025-11-02	666ghj/BettaFish	微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。
 🟣	PY	    3375	   926	2025-09-23	sentient-agi/ROMA	Recursive-Open-Meta-Agent v0.1 (Beta). A meta-agent framework to build high-performance multi-agent systems.
 🟣	PY	    3342	   636	2025-09-17	Vector-Wangel/XLeRobot	XLeRobot: Practical Dual-Arm Mobile Home Robot for $660
 🟣	PY	    3175	   718	2025-09-27	HKUDS/AI-Researcher	"[NeurIPS2025] ""AI-Researcher: Autonomous Scientific Innovation"" -- A production-ready version: https://novix.science/chat"
+🟣	PY	    2962	   133	2026-01-18	Lightricks/ComfyUI-LTXVideo	LTX-Video Support for ComfyUI
 🟣	PY	    2942	   979	2025-12-28	lintsinghua/DeepAudit	DeepAudit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。国内首个开源的代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计 + 自动化沙箱 PoC 验证。支持 Ollama 私有部署 ，一键生成报告。支持中转站。​让安全不再昂贵，让审计不再复杂。
+🟣	PY	    2897	   611	2026-02-11	disler/claude-code-hooks-mastery	Master Claude Code Hooks
 🟣	PY	    2773	  1127	2025-09-23	dataease/SQLBot	🔥 基于大模型和 RAG 的智能问数系统。Text-to-SQL Generation via LLMs using RAG.
 🟣	PY	    2703	    69	2025-10-19	huangjunsen0406/py-xiaozhi	python版本的小智ai，主要帮助那些没有硬件却想体验小智功能的人,如果可以请点个小星星！
+🟣	PY	    2685	    60	2026-01-18	google-agentic-commerce/AP2	Building a Secure and Interoperable Future for AI-Driven Payments.
 🟣	PY	    2672	   814	2025-10-27	microsoft/agent-lightning	The absolute trainer to light up AI agents.
+🟣	PY	    2603	   676	2026-03-01	mihail911/modern-software-dev-assignments	Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2025)
+🟣	PY	    2583	   474	2026-01-12	gyoridavid/ai_agents_az
 🟣	PY	    2524	   875	2025-12-28	sgl-project/mini-sglang	A compact implementation of SGLang, designed to demystify the complexities of modern LLM serving systems.
+🟣	PY	    2424	   758	2026-01-12	HKUDS/VideoRAG	[KDD'2026] "VideoRAG: Chat with Your Videos"
 🟣	PY	    2384	   330	2025-09-27	knownsec/aipyapp	AI-Powered Python & Python-Powered AI (Python-Use)
 🟣	PY	    2378	   394	2025-11-12	lzhoang2801/OpCore-Simplify	A tool designed to simplify the creation of OpenCore EFI
 🟣	PY	    2361	   563	2025-10-05	YILING0013/AI_NovelGenerator	使用ai生成多章节的长篇小说，自动衔接上下文、伏笔
+🟣	PY	    2341	   701	2026-03-01	GVCLab/PersonaLive	[CVPR 2026] PersonaLive! : Expressive Portrait Image Animation for Live Streaming
 🟣	PY	    2211	   676	2025-11-02	moondevonyt/moon-dev-ai-agents	autonomous ai agents for trading in python
 🟣	PY	    2177	  1123	2025-11-12	microsoft/call-center-ai	Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!
 🟣	PY	    2089	  1491	2025-10-19	volcengine/MineContext	MineContext is your proactive context-aware AI partner（Context-Engineering+ChatGPT Pulse）
 🟣	PY	    1819	   389	2025-11-12	thinking-machines-lab/tinker-cookbook	Post-training with Tinker
+🟣	PY	    1791	   491	2026-03-01	RichardAtCT/claude-code-telegram	A powerful Telegram bot that provides remote access to Claude Code, enabling developers to interact with their projects from anywhere with full AI assistance and session persistence.
+🟣	PY	    1740	   202	2026-02-22	GodsScion/Auto_job_applier_linkedIn	Make your job hunt easy by automating your application process with this Auto Applier
 🟣	PY	    1507	   499	2025-10-19	google/computer-use-preview
 🟣	PY	    1503	   147	2025-09-17	opengeos/geoai	GeoAI: Artificial Intelligence for Geospatial Data
 🟣	PY	    1349	   328	2025-09-23	kaixxx/noScribe	Cutting edge AI technology for automated audio transcription. A nice GUI for OpenAIs Whisper and pyannote (speaker identification)
+🟣	PY	    1345	    61	2026-02-11	taylorwilsdon/google_workspace_mcp	Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace / G Suite MCP Server & CLI Tool
+🟣	PY	    1342	   571	2026-01-25	alirezarezvani/claude-skills	A Collection of Skills for Claude Code and Claude AI for real-world Usage. Including Claude Code Subagents, Claude Code Commnads
 🟣	PY	    1166	    63	2025-10-27	hyperliquid-dex/hyperliquid-python-sdk	SDK for Hyperliquid API trading with Python.
+🟣	PY	     930	   350	2026-02-11	Jeffallan/claude-skills	66 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.
 🟣	PY	     778	   174	2025-09-27	apecloud/ApeRAG	ApeRAG: Production-ready GraphRAG with multi-modal indexing, AI agents, MCP support, and scalable K8s deployment
+🟣	PY	     610	   362	2026-02-11	masoncl/review-prompts	AI review prompts
+🟣	PY	     610	   325	2026-02-22	databricks-solutions/ai-dev-kit	Databricks Toolkit for Coding Agents provided by Field Engineering
 🟣	PY	     610	   195	2025-12-28	pollen-robotics/reachy_mini	Reachy Mini's SDK
 🟣	PY	     567	   250	2025-09-23	OpenMind/OM1	Modular AI runtime for robots
 🟣	PY	     239	    79	2025-09-27	google-agentic-commerce/a2a-x402	"The A2A x402 Extension brings cryptocurrency payments to the Agent-to-Agent (A2A) protocol, enabling agents to monetize their services through on-chain payments. This extension revives the spirit of HTTP 402 ""Payment Required"" for the decentralized agent ecosystem."
@@ -480,8 +443,12 @@
 🟣	JS	   77394	   193	2025-12-10	anuraghazra/github-readme-stats	⚡ Dynamically generated stats for your github readmes
 🟣	JS	   77191	  1122	2025-10-26	louislam/uptime-kuma	A fancy self-hosted monitoring tool
 🟣	JS	   68438	   101	2025-12-28	expressjs/express	Fast, unopinionated, minimalist web framework for node.
+🟣	JS	   59808	   130	2026-01-25	jquery/jquery	jQuery JavaScript Library
 🟣	JS	   59744	   230	2025-11-12	gorhill/uBlock	uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.
+🟣	JS	   55202	   396	2026-03-01	Mintplex-Labs/anything-llm	The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility, and more.
 🟣	JS	   50671	   141	2025-12-28	chinese-poetry/chinese-poetry	The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库, 唐宋两朝近一万四千古诗人, 接近5.5万首唐诗加26万宋诗. 两宋时期1564位词人，21050首词。
+🟣	JS	   46950	    21	2026-01-25	serverless/serverless	⚡ Serverless Framework – Effortlessly build apps that auto-scale, incur zero costs when idle, and require minimal maintenance using AWS Lambda and other managed cloud services.
+🟣	JS	   44193	   155	2026-02-11	GitSquared/edex-ui	A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.
 🟣	JS	   42521	   293	2025-09-17	NaiboWang/EasySpider	A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/爬虫软件，可以无代码图形化的设计和执行爬虫任务。别名：ServiceWrapper面向Web应用的智能化服务封装系统。
 🟣	JS	   41166	    36	2025-10-19	dcloudio/uni-app	A cross-platform framework using Vue.js
 🟣	JS	   39175	   145	2025-10-05	remoteintech/remote-jobs	A list of semi to fully remote-friendly companies (jobs) in tech.
@@ -490,6 +457,7 @@
 🟣	JS	   34638	    95	2025-09-23	fastify/fastify	Fast and low overhead web framework, for Node.js
 🟣	JS	   34312	  1104	2025-10-26	drawdb-io/drawdb	Free, simple, and intuitive online database diagram editor and SQL generator.
 🟣	JS	   33705	   127	2025-10-05	danielmiessler/Fabric	Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.
+🟣	JS	   27219	   201	2026-01-12	fanmingming/live	✯ 可直连访问的电视/广播图标库与相关工具项目 ✯ 🔕 永久免费 直连访问 完整开源 不断完善的台标 支持IPv4/IPv6双栈访问 🔕
 🟣	JS	   24287	   122	2025-10-26	koodo-reader/koodo-reader	A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web
 🟣	JS	   23670	   242	2025-12-28	zhaoolee/ChromeAppHeroes	🌈谷粒-Chrome插件英雄榜, 为优秀的Chrome插件写一本中文说明书, 让Chrome插件英雄们造福人类~ ChromePluginHeroes, Write a Chinese manual for the excellent Chrome plugin, let the Chrome plugin heroes benefit the human~ 公众号「0加1」同步更新
 🟣	JS	   23654	    28	2025-10-26	validatorjs/validator.js	String validation
@@ -505,6 +473,7 @@
 🟣	JS	   19387	    84	2025-10-27	gildas-lormeau/SingleFile	Web Extension for saving a faithful copy of a complete web page in a single HTML file
 🟣	JS	   19243	   219	2025-10-19	SillyTavern/SillyTavern	LLM Frontend for Power Users.
 🟣	JS	   18796	    32	2025-09-23	bgstaal/multipleWindow3dScene	"A quick example of how one can ""synchronize"" a 3d scene across multiple windows using three.js and localStorage"
+🟣	JS	   17095	  3044	2026-02-22	gsd-build/get-shit-done	A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code and OpenCode.
 🟣	JS	   16692	    76	2025-09-17	Foundry376/Mailspring	💌 A beautiful, fast and fully open source mail client for Mac, Windows and Linux.
 🟣	JS	   16610	   187	2025-09-23	4ian/GDevelop	🎮 Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone.
 🟣	JS	   15631	   117	2025-10-26	pot-app/pot-desktop	🌈一个跨平台的划词翻译和OCR软件 | A cross-platform software for text translation and recognition.
@@ -522,12 +491,21 @@
 🟣	JS	    8670	   253	2025-09-27	rastapasta/mapscii	🗺 MapSCII is a Braille & ASCII world map renderer for your console - enter => telnet mapscii.me <= on Mac (brew install telnet) and Linux, connect with PuTTY on Windows
 🟣	JS	    8441	   154	2025-10-05	meshery/meshery	Meshery, the cloud native manager
 🟣	JS	    8183	   425	2025-09-23	WebGoat/WebGoat	WebGoat is a deliberately insecure application
+🟣	JS	    7946	   159	2026-02-11	qist/tvbox	OK影视、tvbox配置文件，如果喜欢，请Fork自用。使用前请仔细阅读仓库说明，一旦使用将被视为你已了解。
 🟣	JS	    7864	   584	2025-09-27	is-a-dev/register	Grab your own sweet-looking '.is-a.dev' subdomain.
 🟣	JS	    7762	   115	2025-10-26	fishjar/kiss-translator	A simple, open source bilingual translation extension & Greasemonkey script (一个简约、开源的 双语对照翻译扩展 & 油猴脚本)
+🟣	JS	    7577	  1106	2026-01-12	marcelscruz/public-apis	A collaborative list of public APIs for developers
 🟣	JS	    7463	   494	2025-09-17	github/awesome-copilot	Community-contributed instructions, prompts, and configurations to help you make the most of GitHub Copilot.
+🟣	JS	    7302	   353	2026-01-12	viarotel-org/escrcpy	📱 Display and control your Android device graphically with scrcpy.
+🟣	JS	    7212	    60	2026-03-01	gaotianliuyun/gao	FongMi影视和tvbox配置文件，如果喜欢，请Fork自用。使用前请仔细阅读仓库说明，一旦使用将被视为你已了解。
 🟣	JS	    6887	   125	2025-12-28	aandrew-me/ytDownloader	Desktop App for downloading Videos and Audios from hundreds of sites
 🟣	JS	    6879	   340	2025-10-19	hmjz100/LinkSwift	一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘
+🟣	JS	    6735	   221	2026-02-11	poloclub/transformer-explainer	Transformer Explained Visually: Learn How LLM Transformer Models Work with Interactive Visualization
+🟣	JS	    5444	   155	2026-01-12	siteboon/claudecodeui	Use Claude Code, Cursor CLI or Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Code session and projects remotely
+🟣	JS	    5296	   412	2026-02-22	pshenok/server-survival	Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling.
+🟣	JS	    5221	   569	2026-01-12	hotheadhacker/no-as-a-service	No-as-a-Service (NaaS) is a simple API that returns a random rejection reason. Use it when you need a realistic excuse, a fun “no,” or want to simulate being turned down in style.
 🟣	JS	    4927	    53	2025-10-26	jokob-sk/NetAlertX	Network intruder and presence detector. Scans for devices connected to your network and alerts you if new and unknown devices are found.
+🟣	JS	    4698	  1042	2026-01-25	liyupi/ai-guide	程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享大模型选择指南（DeepSeek / GPT / Gemini / Claude）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（RAG / MCP / A2A）、AI 编程技巧、AI 工具用法（Cursor / Claude Code / TRAE / Lovable / Agent Skills）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档版本，已升级为鱼皮 AI 导航网站
 🟣	JS	    4592	    16	2025-10-19	fchollet/ARC-AGI	The Abstraction and Reasoning Corpus
 🟣	JS	    4561	   118	2025-10-19	JannisX11/blockbench	Blockbench - A low poly 3D model editor
 🟣	JS	    4407	    72	2025-10-19	clusterzx/paperless-ai	An automated document analyzer for Paperless-ngx using OpenAI API, Ollama, Deepseek-r1, Azure and all OpenAI API compatible Services to automatically analyze and tag your documents.
@@ -537,6 +515,8 @@
 🟣	JS	    3429	   132	2025-09-23	songquanpeng/message-pusher	搭建专属于你的消息推送服务，支持多种消息推送方式，支持 Markdown，基于 Golang 仅单可执行文件，开箱即用
 🟣	JS	    3098	    35	2025-10-26	jellyfin/jellyfin-web	The Free Software Media System - Official Web Client
 🟣	JS	    3055	    61	2025-11-12	cv-cat/Spider_XHS	小红书爬虫数据采集，小红书全域运营解决方案
+🟣	JS	    3051	   837	2026-02-11	microsoft/playwright-cli	CLI for common Playwright actions. Record and generate Playwright code, inspect selectors and take screenshots.
+🟣	JS	    2575	   336	2026-01-12	justlovemaki/AIClient-2-API	Simulates Gemini CLI, Antigravity, Qwen Code, and Kiro client requests, compatible with the OpenAI API. It supports thousands of Gemini model requests per day and offers free use of the built-in Claude model in Kiro. Easily connect to any client via the API, making AI development more efficient!
 🟣	JS	    2394	    67	2025-09-17	jgraph/drawio	draw.io is a JavaScript, client-side editor for general diagramming.
 🟣	JS	    2374	   720	2025-09-17	SkyworkAI/DeepResearchAgent	DeepResearchAgent is a hierarchical multi-agent system designed not only for deep research tasks but also for general-purpose task solving. The framework leverages a top-level planning agent to coordinate multiple specialized lower-level agents, enabling automated task decomposition and efficient execution across diverse and complex domains.
 🟣	JS	    2206	    20	2025-09-17	therealgliz/blooket-hacks	Multiple game hacks to use so the game become easier to play!
@@ -544,39 +524,60 @@
 🟣	JS	    1929	   910	2025-12-10	thedotmack/claude-mem	A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.
 🟣	JS	    1691	   111	2025-10-27	0xCUB3/wBlock	The next-generation ad blocker for Safari.
 🟣	JS	    1655	    26	2025-09-17	UseInterstellar/Interstellar	One of the most popular modern web proxies with blazing fast speeds and a variety of games.
+🟣	JS	    1601	  1046	2026-02-22	SynkraAI/aios-core	Synkra AIOS: AI-Orchestrated System for Full Stack Development - Core Framework v4.0
+🟣	JS	    1422	   342	2026-01-12	heyitsnoah/claudesidian
 🟣	JS	    1281	    20	2025-10-26	zed-industries/extensions	Extensions for the Zed editor
+🟣	JS	    1124	    75	2026-01-25	kagisearch/smallweb	Kagi Small Web
+🟣	JS	    1098	   205	2026-02-22	yctimlin/mcp_excalidraw
 🟣	JS	     861	    25	2025-12-10	basecamp/lexxy
 🟣	JS	     826	    36	2025-09-17	met4citizen/TalkingHead	Talking Head (3D): A JavaScript class for real-time lip-sync using Ready Player Me full-body 3D avatars.
 🟣	JS	     780	    69	2025-11-12	leukipp/touchkio	Home Assistant Touch Panel Kiosk application for a Linux device (e.g. Raspberry Pi) with Touch Display.
+🟣	JS	     670	   117	2026-03-01	badlogic/pi-skills	Skills for pi coding agent (compatible with Claude Code and Codex CLI)
+🟣	JS	     652	    56	2026-02-11	koosoli/ESPHomeDesigner	A visual drag-and-drop editor for ESPHome displays (E-Ink, OLED, LCD, Touch), running as a Home Assistant integration or a standalone web app.
 🟣	JS	     616	    53	2025-12-10	AikidoSec/safe-chain	Protect against malicious code installed via npm, yarn, pnpm, npx, and pnpx with Aikido Safe Chain. Free to use, no tokens required.
 🟣	JS	     559	    74	2025-12-28	parcoil/sparkle	A Windows app to debloat and optimize your PC
+🟣	JS	     533	    46	2026-03-01	jasonjmcghee/WebMCP	Early WebMCP proposal / implementation - since evolved and worked on by much more capable folks that develop the web: https://github.com/webmachinelearning/webmcp
+🟣	JS	     488	   135	2026-02-11	maxandrews/Epstein-doc-explorer	a graph explorer of the Epstein emails
 🟣	JS	     427	    82	2025-10-27	vanzan01/claude-code-sub-agent-collective	🧠 Context Engineering Research - Not just another agent collection, but using research and context engineering to function as a collective. Hub-and-spoke coordination through Claude Code.
 🟣	JS	     374	    44	2025-12-10	hillelkingqt/GeminiDesk	A powerful unofficial Gemini Desktop Application built with Electron. Fast, clean, and always accessible on Windows, Linux, and macOS. The perfect desktop app for seamless Google Gemini AI chatting and productivity.
+🟣	JS	     359	    24	2026-03-01	atlassian/atlassian-mcp-server	Remote MCP Server that securely connects Jira and Confluence with your LLM, IDE, or agent platform of choice.
+🟣	JS	     168	    31	2026-01-18	anomalyco/opencode-anthropic-auth
 🟣	GO	   71057	   112	2025-11-12	moby/moby	The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems
+🟣	GO	   62171	   150	2026-01-12	prometheus/prometheus	The Prometheus monitoring system and time series database.
 🟣	GO	   51750	   425	2025-11-02	go-gitea/gitea	Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
 🟣	GO	   51186	   172	2025-12-28	etcd-io/etcd	Distributed reliable key-value store for the most critical data of a distributed system
 🟣	GO	   45242	   213	2025-10-26	usememos/memos	An open-source, self-hosted alternative to cloud note-taking services. No tracking, no ads, no subscription fees — just a clean, fast way to capture and organize your ideas.
+🟣	GO	   39643	    47	2026-01-25	pingcap/tidb	TiDB - the open-source, cloud-native, distributed SQL database designed for modern applications.
 🟣	GO	   38262	  1428	2025-11-12	mudler/LocalAI	🤖 The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI, running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference
 🟣	GO	   33364	    61	2025-10-27	hashicorp/vault	A tool for secrets management, encryption as a service, and privileged access management
 🟣	GO	   32411	   463	2025-11-02	juanfont/headscale	An open source, self-hosted implementation of the Tailscale control server
+🟣	GO	   32152	   105	2026-02-11	k3s-io/k3s	Lightweight Kubernetes
 🟣	GO	   31833	   178	2025-10-19	XTLS/Xray-core	Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.
 🟣	GO	   31308	    61	2025-12-28	kubernetes/minikube	Run Kubernetes locally
 🟣	GO	   30610	   116	2025-10-26	wailsapp/wails	Create beautiful applications using Go
 🟣	GO	   29596	    34	2025-12-10	hashicorp/consul	Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.
 🟣	GO	   29573	   439	2025-11-12	glanceapp/glance	A self-hosted dashboard that puts all your feeds in one place
+🟣	GO	   27788	   112	2026-01-25	micro-editor/micro	A modern and intuitive terminal-based text editor
 🟣	GO	   27572	   357	2025-10-26	SagerNet/sing-box	The universal proxy platform
 🟣	GO	   26524	   432	2025-10-26	seaweedfs/seaweedfs	SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files! Blob store has O(1) disk seek, cloud tiering. Filer supports Cloud Drive, xDC replication, Kubernetes, POSIX FUSE mount, S3 API, S3 Gateway, Hadoop, WebDAV, encryption, Erasure Coding. Enterprise version is at seaweedfs.com.
+🟣	GO	   26263	   270	2026-01-25	github/github-mcp-server	GitHub's official MCP Server
 🟣	GO	   25953	   194	2025-12-10	projectdiscovery/nuclei	Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.
+🟣	GO	   25419	    32	2026-01-12	dapr/dapr	Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration.
 🟣	GO	   24800	    26	2025-10-26	rancher/rancher	Complete container management platform
 🟣	GO	   23810	    39	2025-10-27	uber-go/zap	Blazing fast, structured, leveled logging in Go.
+🟣	GO	   23453	   214	2026-01-18	cilium/cilium	eBPF-based Networking, Security, and Observability
 🟣	GO	   23247	   248	2025-12-10	microsoft/typescript-go	Staging repo for development of native port of TypeScript
+🟣	GO	   21471	   112	2026-03-01	FiloSottile/age	A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.
+🟣	GO	   19935	   153	2026-02-22	dolthub/dolt	Dolt – Git for Data
 🟣	GO	   19685	   148	2025-10-27	charmbracelet/glow	Render markdown on the CLI, with pizzazz! 💅🏻
 🟣	GO	   19569	    48	2025-11-12	containerd/containerd	An open and reliable container runtime
 🟣	GO	   19101	   143	2025-10-19	netbirdio/netbird	Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.
 🟣	GO	   18969	   599	2025-11-12	lima-vm/lima	Linux virtual machines, with a focus on running containers
 🟣	GO	   18759	    75	2025-12-10	nats-io/nats-server	High-Performance server for NATS.io, the cloud and edge native messaging system.
+🟣	GO	   17664	   905	2026-01-12	charmbracelet/crush	The glamourous AI coding agent for your favourite terminal 💘
 🟣	GO	   17441	    69	2025-10-05	apernet/hysteria	Hysteria is a powerful, lightning fast and censorship resistant proxy.
 🟣	GO	   17380	   142	2025-11-12	navidrome/navidrome	🎧☁️ Your Personal Streaming Service
+🟣	GO	   17102	   173	2026-02-22	TecharoHQ/anubis	Weighs the soul of incoming HTTP requests to stop AI crawlers
 🟣	GO	   17012	   147	2025-12-10	temporalio/temporal	Temporal service
 🟣	GO	   16258	    57	2025-10-05	slackhq/nebula	A scalable overlay networking tool with a focus on performance, simplicity and security
 🟣	GO	   16227	    25	2025-09-17	influxdata/telegraf	Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.
@@ -584,24 +585,34 @@
 🟣	GO	   16130	   310	2025-10-26	henrygd/beszel	Lightweight server monitoring hub with historical data, docker stats, and alerts.
 🟣	GO	   15793	    38	2025-09-17	hashicorp/nomad	Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations.
 🟣	GO	   14819	   319	2025-09-17	livekit/livekit	End-to-end realtime stack for connecting humans and AI
+🟣	GO	   13727	    17	2026-01-12	coredns/coredns	CoreDNS is a DNS server that chains plugins
+🟣	GO	   13635	    56	2026-03-01	cert-manager/cert-manager	Automatically provision and manage TLS certificates in Kubernetes
+🟣	GO	   13054	    66	2026-02-11	projectdiscovery/subfinder	Fast passive subdomain enumeration tool.
 🟣	GO	   12781	    45	2025-11-12	opencontainers/runc	CLI tool for spawning and running containers according to the OCI specification
 🟣	GO	   12701	    36	2025-10-27	prometheus/node_exporter	Exporter for machine metrics
 🟣	GO	   12442	    40	2025-10-26	ory/kratos	Headless cloud-native authentication and identity management written in Go. Scales to a billion+ users. Replace Homegrown, Auth0, Okta, Firebase with better UX and DX. Passkeys, Social Sign In, OIDC, Magic Link, Multi-Factor Auth, SMS, SAML, TOTP, and more. Runs everywhere, runs best on Ory Network.
 🟣	GO	   12351	    71	2025-11-02	juicedata/juicefs	JuiceFS is a distributed POSIX file system built on top of Redis and S3.
 🟣	GO	   12226	   825	2025-09-17	ccfos/nightingale	Nightingale for monitoring and alerting, just as Grafana for visualization.
+🟣	GO	   11997	    74	2026-01-18	coder/coder	Secure environments for developers and their agents
+🟣	GO	   11936	    20	2026-02-11	kubernetes-sigs/kustomize	Customization of kubernetes YAML configurations
 🟣	GO	   11840	   376	2025-10-19	wavetermdev/waveterm	An open-source, cross-platform terminal for seamless workflows
 🟣	GO	   11819	    78	2025-09-27	zitadel/zitadel	ZITADEL - Identity infrastructure, simplified for you.
 🟣	GO	   11252	   161	2025-12-10	safing/portmaster	🏔 Love Freedom - ❌ Block Mass Surveillance
+🟣	GO	   11164	    94	2026-01-12	AlexxIT/go2rtc	Ultimate camera streaming application with support RTSP, RTMP, HTTP-FLV, WebRTC, MSE, HLS, MP4, MJPEG, HomeKit, FFmpeg, etc.
 🟣	GO	   11038	    53	2025-11-12	crossplane/crossplane	The Cloud Native Control Plane
+🟣	GO	   10976	   132	2026-01-18	gotenberg/gotenberg	A developer-friendly API for converting numerous document formats into PDF files, and more!
 🟣	GO	    9784	    60	2025-09-23	containers/skopeo	Work with remote images registries - retrieving information, images, signing content
+🟣	GO	    9761	  1579	2026-01-12	steveyegge/beads	Beads - A memory upgrade for your coding agent
 🟣	GO	    9577	    35	2025-12-10	moby/buildkit	concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit
+🟣	GO	    9566	   606	2026-03-01	xpzouying/xiaohongshu-mcp	MCP for xiaohongshu.com
 🟣	GO	    9511	    71	2025-12-28	siderolabs/talos	Talos Linux is a modern Linux distribution built for Kubernetes.
-🟣	GO	    9166	   138	2025-11-02	dlvhdr/gh-dash	A rich terminal UI for GitHub that doesn't break your flow.
+🟣	GO	    9233	    28	2026-01-25	gruntwork-io/terragrunt	Terragrunt is a flexible orchestration tool that allows Infrastructure as Code written in OpenTofu/Terraform to scale.
 🟣	GO	    9047	   283	2025-10-19	sjzar/chatlog	chat log tool, easily use your own chat data. 聊天记录工具，轻松使用自己的聊天数据
 🟣	GO	    8872	   575	2025-10-26	dstotijn/hetty	An HTTP toolkit for security research.
 🟣	GO	    8549	   270	2025-09-23	TwiN/gatus	⛑ Automated developer-oriented status page
 🟣	GO	    7759	   228	2025-09-27	smartcontractkit/chainlink	node of the decentralized oracle network, bridging on and off-chain computation
 🟣	GO	    7682	    76	2025-10-19	majd/ipatool	Command-line tool that allows searching and downloading app packages (known as ipa files) from the iOS App Store
+🟣	GO	    7464	    56	2026-03-01	k8sgpt-ai/k8sgpt	Giving Kubernetes Superpowers to everyone
 🟣	GO	    7254	    16	2025-10-19	prometheus/alertmanager	Prometheus Alertmanager
 🟣	GO	    7243	    20	2025-11-12	cilium/ebpf	ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach them to various hooks in the Linux kernel.
 🟣	GO	    7207	   544	2025-11-02	Tencent/WeKnora	LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm.
@@ -612,40 +623,61 @@
 🟣	GO	    6092	    79	2025-11-12	external-secrets/external-secrets	External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets.
 🟣	GO	    5845	   114	2025-11-12	alireza0/s-ui	An advanced Web Panel • Built for SagerNet/Sing-Box
 🟣	GO	    5325	    40	2025-09-27	evcc-io/evcc	solar charging ☀️🚘
+🟣	GO	    5105	    50	2026-02-11	ankitpokhrel/jira-cli	🔥 Feature-rich interactive Jira command line.
 🟣	GO	    4889	    35	2025-09-27	kgateway-dev/kgateway	The Cloud-Native API Gateway and AI Gateway
 🟣	GO	    4883	  1158	2025-10-05	Done-0/fuck-u-code	Legacy-Mess Detector – assess the “legacy-mess level” of your code and output a beautiful report | 屎山代码检测器，评估代码的“屎山等级”并输出美观的报告
+🟣	GO	    4588	    57	2026-01-25	vllm-project/aibrix	Cost-efficient and pluggable Infrastructure components for GenAI inference
 🟣	GO	    4576	   159	2025-12-28	sysadminsmedia/homebox	A continuation of HomeBox the inventory and organization system built for the Home User
+🟣	GO	    4517	  2360	2026-02-22	steipete/gogcli	Google Suite CLI: Gmail, GCal, GDrive, GContacts.
+🟣	GO	    4462	    41	2026-03-01	open-telemetry/opentelemetry-collector-contrib	Contrib repository for the OpenTelemetry Collector
 🟣	GO	    4120	    49	2025-09-17	openfga/openfga	A high performance and flexible authorization/permission engine built for developers and inspired by Google Zanzibar
 🟣	GO	    4107	  1236	2025-12-10	psviderski/uncloud	A lightweight tool for deploying and managing containerised applications across a network of Docker hosts. Bridging the gap between Docker and Kubernetes ✨
 🟣	GO	    3767	   468	2025-11-12	ayn2op/discordo	A lightweight, secure, and feature-rich Discord terminal (TUI) client.
 🟣	GO	    3641	  1073	2025-11-12	opencloud-eu/opencloud	🌤️This is the main repository of the OpenCloud server. It contains the golang codebase for the backend services.
 🟣	GO	    3538	   114	2025-09-27	gtsteffaniak/filebrowser	📂 Web File Browser
+🟣	GO	    3478	   101	2026-03-01	go-vikunja/vikunja	The to-do app to organize your life.
 🟣	GO	    3256	    11	2025-09-27	DataDog/datadog-agent	Main repository for Datadog Agent
+🟣	GO	    3208	   293	2026-02-22	gosom/google-maps-scraper	scrape data data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place
+🟣	GO	    2884	    49	2026-01-12	Project-HAMi/HAMi	Heterogeneous AI Computing Virtualization Middleware(Project under CNCF)
+🟣	GO	    2861	   150	2026-01-18	vllm-project/semantic-router	System Level Intelligent Router for Mixture-of-Models at Cloud, Data Center and Edge
+🟣	GO	    2803	   214	2026-02-11	5rahim/seanime	Open-source media server with a web interface and desktop app for anime and manga.
 🟣	GO	    2793	   366	2025-10-19	timelinize/timelinize	Store your data from all your accounts and devices in a single cohesive timeline on your own computer
 🟣	GO	    2646	   104	2025-10-19	beclab/Olares	Olares: An Open-Source Personal Cloud to Reclaim Your Data
+🟣	GO	    2639	    24	2026-02-11	kubernetes-sigs/gateway-api	Repository for the next iteration of composite service (e.g. Ingress) and load balancing APIs.
 🟣	GO	    2635	    78	2025-09-23	ArvinLovegood/go-stock	🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。
 🟣	GO	    2580	    18	2025-10-26	publicsuffix/list	The Public Suffix List
 🟣	GO	    2576	    27	2025-11-02	grafana/alloy	OpenTelemetry Collector distribution with programmable pipelines
 🟣	GO	    2326	    31	2025-12-28	YouROK/TorrServer	Torrent stream server
 🟣	GO	    2287	    26	2025-09-23	ava-labs/avalanchego	Go implementation of an Avalanche node.
 🟣	GO	    1981	   172	2025-10-19	rcourtman/Pulse	A responsive monitoring platform for Proxmox VE, PBS, and Docker with real-time metrics across nodes and containers
+🟣	GO	    1974	    75	2026-02-22	icereed/paperless-gpt	Use LLMs and LLM Vision (OCR) to handle paperless-ngx - Document Digitalization powered by AI
+🟣	GO	    1824	   157	2026-02-11	looplj/axonhub	⚡️ Open-source AI Gateway — Use any SDK to call 100+ LLMs. Built-in failover, load balancing, cost control & end-to-end tracing.
+🟣	GO	    1741	   101	2026-01-18	maximhq/bifrost	Fastest LLM gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.
 🟣	GO	    1719	   324	2025-11-12	mudler/edgevpn	⛵ The immutable, decentralized, statically built p2p VPN without any central server and automatic discovery! Create decentralized introspectable tunnels over p2p with shared tokens
 🟣	GO	    1550	    53	2025-09-23	kagent-dev/kagent	Cloud Native Agentic AI | Discord: https://bit.ly/kagentdiscord
+🟣	GO	    1413	   811	2026-02-11	github/gh-aw	GitHub Agentic Workflows
 🟣	GO	    1377	   212	2025-11-12	OpenCSGs/csghub-server	csghub-server is the backend server for CSGHub which helps user to manage datasets, modes, and also run Model Inference, Finetune and Application Spaces.
 🟣	GO	    1326	    54	2025-09-27	hteen/apple-store-helper	Apple Store iPhone预约助手
 🟣	GO	    1133	   283	2025-12-10	autobrr/qui	Modern alternative webUI for qBittorrent, with multi-instance support. Written in Go/React.
+🟣	GO	     976	   182	2026-02-22	asheshgoplani/agent-deck	Terminal session manager for AI coding agents. One TUI for Claude, Gemini, OpenCode, Codex, and more.
 🟣	GO	     884	   412	2025-10-26	Notifuse/notifuse	Notifuse is an open-source & modern emailing platform
+🟣	GO	     784	    80	2026-01-25	kubernetes-sigs/agent-sandbox	agent-sandbox enables easy management of isolated, stateful, singleton workloads, ideal for use cases like AI agent runtimes.
 🟣	GO	     604	    44	2025-10-05	vxcontrol/pentagi	✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks
+🟣	GO	     508	   115	2026-02-22	steipete/wacli	WhatsApp CLI
 🟣	GO	     440	   242	2025-10-05	dbos-inc/dbos-transact-golang	Durable Workflow Orchestration with Golang and Postgres
 🟢	TS	  428710	  1018	2025-09-23	freeCodeCamp/freeCodeCamp	freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.
+🟢	TS	   92771	   944	2026-01-12	tailwindlabs/tailwindcss	A utility-first CSS framework for rapid UI development.
 🟢	TS	   88693	   564	2025-09-17	supabase/supabase	The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.
+🟢	TS	   64192	 13823	2026-01-12	anomalyco/opencode	The open source coding agent.
 🟢	TS	   35488	  1135	2025-10-05	anthropics/claude-code	Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
+🟢	TS	   15029	    21	2026-03-01	jupyterlab/jupyterlab	JupyterLab computational environment.
 🟢	TS	   10150	    85	2025-09-27	alexta69/metube	Self-hosted YouTube downloader (web UI for youtube-dl / yt-dlp)
 🟢	TS	    9215	   428	2025-12-10	agentsmd/agents.md	AGENTS.md — a simple, open format for guiding coding agents
 🟢	SH	   40300	    90	2025-09-17	dylanaraps/pure-bash-bible	📖 A collection of pure bash alternatives to external processes.	Learnt techniques
 🟢	SH	   17792	    66	2025-10-26	agarrharr/awesome-cli-apps	🖥 📊 🕹 🛠 A curated list of command line apps
 🟢	SH	    8805	    45	2025-11-12	conda-forge/miniforge	A conda-forge distribution.
 🟢	SH	    7486	    42	2025-09-17	basecamp/omakub	Opinionated Ubuntu Setup	I use it for ideas, not as-is
+🟢	SH	    6492	   189	2026-01-12	github/copilot-cli	GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal.
 🟢	RS	  104596	   165	2025-10-05	denoland/deno	A modern runtime for JavaScript and TypeScript.
 🟢	RS	   70286	   635	2025-10-19	astral-sh/uv	An extremely fast Python package and project manager, written in Rust.
 🟢	RS	   56786	   590	2025-10-26	BurntSushi/ripgrep	ripgrep recursively searches directories for a regex pattern while respecting your gitignore
@@ -657,7 +689,9 @@
 🟢	RS	   31114	   121	2025-10-05	fish-shell/fish-shell	The user-friendly command line shell.
 🟢	RS	   30507	   185	2025-09-17	GyulyVGC/sniffnet	Comfortably monitor your Internet traffic 🕵️‍♂️	Easy-to-install/run network traffic monitor
 🟢	RS	   30164	   493	2025-09-27	ajeetdsouza/zoxide	A smarter cd command. Supports all major shells.
+🟢	RS	   28528	   182	2025-09-27	sxyazi/yazi	💥 Blazing fast terminal file manager written in Rust, based on async I/O.
 🟢	RS	   24367	   172	2025-11-12	chroma-core/chroma	Open-source search and retrieval database for AI applications.
+🟢	RS	   22948	   238	2026-01-12	jdx/mise	dev tools, env vars, task runner
 🟢	RS	   17531	   160	2025-09-27	eza-community/eza	A modern alternative to ls
 🟢	RS	   12208	    66	2025-09-27	espanso/espanso	A Privacy-first, Cross-platform Text Expander written in Rust
 🟢	RS	    3503	   904	2025-12-28	sinelaw/fresh	Text editor for your terminal: easy, powerful and fast
@@ -683,6 +717,7 @@
 🟢	JS	   26016	    27	2025-09-27	rollup/rollup	Next-generation ES module bundler
 🟢	JS	   22945	  1048	2025-10-19	asgeirtj/system_prompts_leaks	Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini
 🟢	JS	   20269	    91	2025-09-27	brave/brave-browser	Brave browser for Android, iOS, Linux, macOS, Windows.
+🟢	JS	   11376	    73	2026-03-01	mozilla-firefox/firefox	The official repository of Mozilla's Firefox web browser.
 🟢	JS	    9145	    22	2025-09-23	npm/cli	the package manager for JavaScript
 🟢	GO	  153140	   566	2025-09-27	ollama/ollama	Get up and running with OpenAI gpt-oss, DeepSeek-R1, Gemma 3 and other models.
 🟢	GO	   74523	   213	2025-10-19	junegunn/fzf	🌸 A command-line fuzzy finder
@@ -721,9 +756,9 @@
 🔵	GO	   55820	   174	2025-10-19	minio/minio	MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.	Maybe to self-host S3
 🔵	GO	   26602	   144	2025-09-27	grafana/loki	Like Prometheus, but for logs.	I don't self-host logs
 🔵	GO	   19248	    43	2025-10-19	gravitational/teleport	The easiest, and most secure way to access and protect all of your infrastructure.	I don't manage infra
-🔵	GO	   13757	   225	2025-09-23	go-task/task	A task runner / simpler Make alternative written in Go	No need yet
 🔴	TS	  336554	   939	2025-09-17	kamranahmedse/developer-roadmap	Interactive roadmaps, guides and other educational content to help developers grow in their careers.	Skip educational
 🔴	TS	  130516	   762	2025-09-27	yangshun/tech-interview-handbook	💯 Curated coding interview preparation materials for busy software engineers	Skip educational
+🔴	TS	  123809	  1608	2025-12-28	langgenius/dify	Production-ready platform for agentic workflow development.	Too heavy
 🔴	TS	   98887	   121	2025-09-23	angular/angular	Deliver web apps with confidence 🚀	Prefer lit-html
 🔴	TS	   75917	   840	2025-10-26	hoppscotch/hoppscotch	Open source API development ecosystem - https://hoppscotch.io (open-source alternative to Postman, Insomnia)	Prefer VS Code plugin
 🔴	TS	   58229	    71	2025-09-23	nuxt/nuxt	The Intuitive Vue Framework.	I prefer docsify / eleventy
@@ -800,6 +835,7 @@
 🔴	RS	   17512	    73	2025-09-27	clockworklabs/SpacetimeDB	Multiplayer at the speed of light	Unclear benefit
 🔴	RS	   16883	    40	2025-09-17	bytecodealliance/wasmtime	A lightweight WebAssembly runtime that is fast, secure, and standards-compliant	I don't code Rust
 🔴	RS	   16498	   214	2025-09-17	gitbutlerapp/gitbutler	The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte	I don't like local web apps. Prefer CLI, VS Code plugin
+🔴	RS	   16200	   137	2026-02-22	clap-rs/clap	A full featured, fast Command Line Argument Parser for Rust	I don't code Rust
 🔴	RS	   16025	   170	2025-11-02	nautechsystems/nautilus_trader	A high-performance algorithmic trading platform and event-driven backtester	I don't do finance
 🔴	RS	   15989	   254	2025-11-12	ratatui/ratatui	A Rust crate for cooking up terminal user interfaces (TUIs) 👨‍🍳🐀 https://ratatui.rs	I don't code Rust
 🔴	RS	   14673	    54	2025-10-26	PyO3/pyo3	Rust bindings for the Python interpreter	I don't code Rust
@@ -846,7 +882,9 @@
 🔴	RS	    2603	    50	2025-12-10	paritytech/polkadot-sdk	The Parity Polkadot Blockchain SDK	I don't do blockchain
 🔴	RS	    1935	    60	2025-12-28	eclipse-iceoryx/iceoryx2	Eclipse iceoryx2™ - true zero-copy inter-process-communication with a Rust core	I don't code Rust
 🔴	RS	    1647	   431	2025-09-17	carthage-software/mago	Mago is a toolchain for PHP that aims to provide a set of tools to help developers write better code	I don't code PHP
+🔴	RS	    1553	   341	2026-01-25	max-sixty/worktrunk	Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows	Worktrees are trouble
 🔴	RS	    1551	    26	2025-10-19	a2x/cs2-dumper	Counter-Strike: 2 Offset Dumper	I don't play Counter-Strike
+🔴	RS	    1177	   140	2026-03-01	OlaProeis/Ferrite	A fast, lightweight text editor for Markdown, JSON, YAML, and TOML files. Built with Rust and egui for a native, responsive experience.	I prefer one editor - VS Code
 🔴	RS	     990	    33	2025-09-17	nexus-xyz/nexus-cli	Command line interface for supplying proofs to the Nexus network.	I don't use Nexus
 🔴	RS	     292	    32	2025-09-17	category-labs/monad-bft	No idea what this is
 🔴	PY	  369955	  1501	2025-09-23	EbookFoundation/free-programming-books	📚 Freely available programming books	Skip educational
@@ -903,7 +941,7 @@
 🔴	GO	  117711	   167	2025-09-27	kubernetes/kubernetes	Production-Grade Container Scheduling and Management	I don't code Kubernetes
 🔴	GO	   85922	  1832	2025-09-27	gin-gonic/gin	Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.	I don't code Go
 🔴	GO	   83576	   212	2025-09-17	gohugoio/hugo	The world’s fastest framework for building websites.	Prefer eleventy
-🔴	GO	   49874	   101	2025-09-27	ethereum/go-ethereum	Go implementation of the Ethereum protocol	I don't do Finance
+🔴	GO	   49874	   101	2025-09-27	ethereum/go-ethereum	Go implementation of the Ethereum protocol	I don't do finance
 🔴	GO	   38994	    46	2025-10-19	go-gorm/gorm	The fantastic ORM library for Golang, aims to be developer friendly	I don't code Go
 🔴	GO	   37961	   285	2025-09-27	gofiber/fiber	⚡️ Express inspired web framework written in Go	I don't code Go
 🔴	GO	   37738	   233	2025-12-28	charmbracelet/bubbletea	A powerful little TUI framework 🏗	I don't code Go
@@ -919,16 +957,20 @@
 🔴	GO	   22332	   167	2025-09-17	grpc/grpc-go	The Go language implementation of gRPC. HTTP/2 based RPC	I don't code Go
 🔴	GO	   21606	    25	2025-10-26	redis/go-redis	Redis Go client	I don't code Go
 🔴	GO	   21055	    93	2025-10-27	argoproj/argo-cd	Declarative Continuous Deployment for Kubernetes	I don't code Kubernetes
+🔴	GO	   20829	    32	2026-03-01	vitessio/vitess	Vitess is a database clustering system for horizontal scaling of MySQL.	I don't deploy MySQL
 🔴	GO	   20730	    54	2025-10-26	go-chi/chi	lightweight, idiomatic and composable router for building Go HTTP services	I don't code Go
 🔴	GO	   20077	    99	2025-09-17	JanDeDobbeleer/oh-my-posh	The most customisable and low-latency cross platform/shell prompt renderer	I don't use PowerShell
 🔴	GO	   19778	    74	2025-10-19	qax-os/excelize	Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets	I don't code Go
 🔴	GO	   17983	   270	2025-09-27	chaitin/SafeLine	SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.	Prefer hosted services
 🔴	GO	   17831	    80	2025-09-17	knadh/listmonk	High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.	Prefer hosted services
+🔴	GO	   13757	   225	2025-09-23	go-task/task	A task runner / simpler Make alternative written in Go	No need yet
 🔴	GO	   13086	    23	2025-10-05	rook/rook	Storage Orchestration for Kubernetes	I don't code Kubernetes
 🔴	GO	   12574	    52	2025-10-05	jackc/pgx	PostgreSQL driver and toolkit for Go	I don't code Go
 🔴	GO	   11082	    31	2025-10-19	quic-go/quic-go	A production-ready QUIC implementation in pure Go	I don't code Go
 🔴	GO	   10882	  1198	2025-09-17	aaPanel/BillionMail	BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr	I don't run mail campaigns
+🔴	GO	   10744	   222	2026-03-01	NoFxAiOS/nofx	AI Trading OS: Multi-AI, multi-exchange trading infrastructure with Strategy Studio.	I don't do finance
 🔴	GO	   10190	   170	2025-09-17	putyy/res-downloader	视频号、小程序、抖音、快手、小红书、直播流、m3u8、酷狗、QQ音乐等常见网络资源下载!
+🔴	GO	    9166	   138	2025-11-02	dlvhdr/gh-dash	A rich terminal UI for GitHub that doesn't break your flow.	GitHub UI is good enough
 🔴	GO	    7938	    21	2025-12-10	metallb/metallb	A network load-balancer implementation for Kubernetes using standard routing protocols	I don't code Kubernetes
 🔴	GO	    7100	   113	2025-10-19	cloudnative-pg/cloudnative-pg	CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance	I don't code Kubernetes
 🔴	GO	    6866	    23	2025-09-27	go-git/go-git	A highly extensible Git implementation in pure Go.	I'm don't code Go
@@ -956,8 +998,8 @@
 ⏺️	TS	    2418	    38	2025-09-17	cloudflare/agents	Build and deploy AI Agents on Cloudflare
 ⏺️	SH	    1199	    36	2025-09-23	aaddrick/claude-desktop-debian	Claude Desktop for Debian-based Linux distributions
 ⏺️	RS	   36050	   118	2025-11-12	pola-rs/polars	Extremely fast Query Engine for DataFrames, written in Rust
-🟢	RS	   28528	   182	2025-09-27	sxyazi/yazi	💥 Blazing fast terminal file manager written in Rust, based on async I/O.
 ⏺️	RS	   21336	   118	2025-10-05	biomejs/biome	A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.
+⏺️	RS	   20737	   100	2025-10-26	slint-ui/slint	Slint is an open-source declarative GUI toolkit to build native user interfaces for Rust, C++, JavaScript, or Python apps.
 ⏺️	RS	   16381	   107	2025-09-17	oxc-project/oxc	⚓ A collection of JavaScript tools written in Rust.
 ⏺️	RS	   10453	   322	2025-09-17	ast-grep/ast-grep	⚡A CLI tool for code structural search, lint and rewriting. Written in Rust
 ⏺️	RS	    5724	    58	2025-09-23	cachix/devenv	Fast, Declarative, Reproducible, and Composable Developer Environments using Nix

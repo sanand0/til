@@ -2,12 +2,22 @@
 
 Descriptions of apps I felt would be interesting or useful to build (or find).
 
+## Mar 2026
+
+- [ ] 15 Mar 2026. Use [SamGeo](https://samgeo.gishub.org/) to polygonize Bangalore lakes over time, etc.
+- [ ] 15 Mar 2026. Can I _clean_ code? Download unclean data from Kaggle context. Use coding agents to write code to clean the data. What techniques are robust?
+- [ ] 14 Mar 2026. Explore PCA of data visualizations: NYT, Pudding, Bloomberg vs generic dashboards / Excel vs AI generated charts, different chart types. Is there a "taste" score? Where do AI generated images lie? Use [Gemini Embedding 2](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2/).
+- [ ] 12 Mar 2026. Create an intuitive data visualization + narrative story from OpenAI's Frontier Science eval. [Paper](https://cdn.openai.com/pdf/2fcd284c-b468-4c21-8ee0-7a783933efcc/frontierscience-paper.pdf) | [Data](https://huggingface.co/datasets/openai/frontierscience)
+- [ ] 09 Mar 2026. Pavan. Use AI coding agents to create video tutorials explaining how to use a website. Automate video creation using browserless. Include captions + audio. The output is (a) sample videos + supporting material for a few popular web apps, and (b) a reusable framework for doing this for any web app.
+- [ ] 06 Mar 2026. Pavan. Manufacturing / Robotic world environment MCPs.
+- [ ] 06 Mar 2026. Ritesh. Create a video (HTML slideshow + audio overlay) explaining the org structure of a company, people, roles, etc. based on public data. Create versions for sales briefings (guesses are OK) as well as internal training (only proven facts).
+
 ## Feb 2026
 
-- [ ] 26 Feb 2026. Mayank. Spawn an instance to run DBT rules other code from SchemaForge, or other examples. The point is spawning.
+- [x] 26 Feb 2026. Mayank. Spawn an instance to run DBT rules other code from SchemaForge, or other examples. The point is spawning.
 - [ ] 26 Feb 2026. Worforce: AI-Driven Curriculum Mapping and Hyper-Responsive Curriculum Alignment services.
 - [ ] 26 Feb 2026. Org design...
-- [ ] 26 Feb 2026. Pavan. Agentic chatbot: actually complete tasks (like filing financial aid forms)
+- [x] 26 Feb 2026. Anand. Agentic chatbot: actually complete tasks (like filing financial aid forms)
 - [ ] 20 Feb 2026. Pavan. Generate blender 3D from image.
 - [ ] 19 Feb 2026. Ritesh. Video (of business user testing an app) to test cases. By 26 Feb.
 - [ ] 19 Feb 2026. Mayank. Social network of Enron emails (for IIMB Org Design with Sourav).

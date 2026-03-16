@@ -2,6 +2,26 @@
 
 ## Mar 2026
 
+- 15 Mar 2026. I keep forgetting that QR codes need a white border for them to work.
+- 15 Mar 2026. [TerraDraw](https://github.com/JamesLMilner/terra-draw) provides a unified API across multiple mapping libraries. (In the vibe-coding era, this is not as useful.)
+- 15 Mar 2026. To create desktop apps declaratively on Linux, Slint, Flutter, QML(Qt) and GTK4 are options. Slint and Flutter seem to be cross platform. Slint is newer, less mature but compiles to small fast binaries and might be a good option to explore. Flutter seems more mature and fairly popular. [Claude](https://claude.ai/share/183cd28a-be7e-4857-a6ff-6c919e3a9c15)
+- 15 Mar 2026. [PyTorch Tracing](https://pytorch.org/blog/automated-trace-collection/) watches one forward pass and freezes the path into a portable recipe. But it silently ignores branches your example didn't take. [Claude](https://claude.ai/share/7d970eff-56a5-4502-9afd-3fcf8648df2a)
+- 14 Mar 2026. [Timsort](https://en.wikipedia.org/wiki/Timsort) is one of the [fastest sorting algorithms](https://simonwillison.net/2026/Mar/11/sorting-algorithms/).
+- 13 Mar 2026. Switching from [`bat`](https://github.com/sharkdp/bat) to [`moor`](https://github.com/walles/moor) as a pager, since `bat` doesn't support wrapping via keyboard shortcuts. [Gemini](https://gemini.google.com/share/812da811d636)
+- 11 Mar 2026. How can an innovator learn accountability? "I'm wired to start fires. Should I learn to also run the fire department, hire someone who does, or just stay a fire-starter and let others deal with the mess?" ANS: First, accountability is high value, so **do it**! Second, prefer a partner over building muscle. Build muscle only if output is checkable, has value, and customers will pay. [Claude](https://claude.ai/share/d2c6a479-3aaf-402d-a2b9-318532158a92) | [ChatGPT](https://chatgpt.com/share/69b0e234-64b8-8003-93b5-f244b05a7545) | [Gemini](https://gemini.google.com/share/38f8bab88751)
+  - Commit publicly. Put your name on the output.
+  - Commit to process (or narrowly defined output) rather than outcome.
+  - Optimize with data, code, checklists, workflows, culture, etc.
+- 09 Mar 2026. The "Effort" setting for AVIF files on [Squoosh](https://squoosh.app/) doesn't reduce file size - it increases quality slightly (for a tiny _increase_ in file size). So, set the quality to whatever file size you need and increase the effort for a slightly better quality.
+- 09 Mar 2026. [Polya](https://en.wikipedia.org/wiki/George_P%C3%B3lya) believed in teaching problem-solving rather than solutions, i.e. teach [How to Solve It](https://en.wikipedia.org/wiki/How_to_Solve_It), not just _what_ you get at the end. To me, this includes:
+  - Understand the problem (from different perspectives)
+  - Plan (with different mental models)
+  - Execute (the easy bit)
+  - Look back (post-mortem, retrospectives, etc.)
+- 09 Mar 2026. [Browserless](https://github.com/browserless/browserless) lets you run browsers via an API. Useful when you don't want the overhead of setting up a browser infrastructure, or for multiple browsers in parallel. Scraping, testing, web app automation, PDF/screenshot/video generation, etc. are all possible. [Gemini](https://gemini.google.com/share/3c547e57030b)
+- 07 Mar 2026. IITM has launched a [4 year degree in management & data science](https://study.iitm.ac.in/mg/).
+- 05 Mar 2026. I've been using `mise use -g ubi:owner/repo` to install GitHub packages. The [`ubi` backend](https://mise.jdx.dev/dev-tools/backends/ubi.html) is now [deprecated](https://github.com/jdx/mise/discussions/7727) in favor of the new [`github` backend](https://mise.jdx.dev/dev-tools/backends/github.html). This works fine for most repos, with edge cases like [jtroo/kanata](https://github.com/jtroo/kanata/) which still require `ubi:jtroo/kanata` as of now.
+- 03 Mar 2026. On the margin, I'll likely switch to [`just`](https://github.com/casey/just) as my task runner. [Claude](https://claude.ai/share/9ec242a3-e0e8-4d82-b80b-fa8bac036ed4)
 - 01 Mar 2026. Salt is the duct tape of food ingredients. Lemon juice, vinegar, butter/oil, onion/garlic, etc. are runners-up. [Claude](https://claude.ai/share/8a783928-e726-439c-8415-3bc673ff4645)
 
 ## Feb 2026
@@ -772,7 +792,7 @@
 - 26 Nov 2025. The first name, alphabetically (at least among Straive employees) is "Aabida" and the last is "Zyrene". Something I would never have discovered working in a smaller company.
 - 26 Nov 2025. [chokidar-cli](https://github.com/open-cli-tools/chokidar-cli) is an easy way to run commands when files change, e.g. `npx -y chokidar-cli '**/*.js' -c 'npm run build'`
 - 26 Nov 2025. [`npx -y mapscii`](https://github.com/rastapasta/mapscii) shows a map on the terminal. Not too useful, not maintained, but very interesting.
-- 26 Nov 2025. [termsvg](https://github.com/MrMarble/termsvg) converts asciinema `.cast` files to animated SVG suitable for embedding in GitHub (e.g. via `mise x ubi:MrMarble/termsvg -- termsvg export file.cast --minify`). The animated SVG is ~10X larger than the .cast file. The GZipped size is fine but saving it as `.svgz` is not recognized by GitHub. In contrast, [agg](https://github.com/asciinema/agg), the official asciinema-to-GIF converter, creates .GIF files that are only 5X larger. The most efficient seems to be embedding via [asciinema.org](https://asciinema.org/)
+- 26 Nov 2025. [termsvg](https://github.com/MrMarble/termsvg) converts asciinema `.cast` files to animated SVG suitable for embedding in GitHub (e.g. via `mise x github:MrMarble/termsvg -- termsvg export file.cast --minify`). The animated SVG is ~10X larger than the .cast file. The GZipped size is fine but saving it as `.svgz` is not recognized by GitHub. In contrast, [agg](https://github.com/asciinema/agg), the official asciinema-to-GIF converter, creates .GIF files that are only 5X larger. The most efficient seems to be embedding via [asciinema.org](https://asciinema.org/)
 - 25 Nov 2025. [`usql`](https://github.com/xo/usql) queries MySQL, Postgres, SQLite, MSSQL, Oracle, etc via a single interface. For example, `usql 'mysql://rfamro:@mysql-rfam-public.ebi.ac.uk:4497/Rfam' -c "SELECT * FROM clan limit 3;"`. But DuckDB is more versatile, IMHO.
   ```sql
   INSTALL mysql; LOAD mysql;

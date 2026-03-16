@@ -1,5 +1,29 @@
 # LLM learnings
 
+## Mar 2026
+
+- 15 Mar 2026. The Internet is forking into a human internet vs an agent web [LinkedIn](https://www.linkedin.com/posts/saamnaghshineh_automate-faster-activity-7431817567536627712-vkLz/)
+- 15 Mar 2026. [SamGeo](https://samgeo.gishub.org/) is a Python Package for geospatial image processing. While [OlmoEarth](https://allenai.org/olmoearth) provides geospatial embeddings, SamGeo can convert geospatial data to vector data! So you can do things like:
+  - Create the outer boundary of all apartments with swimming pools in a city
+  - Extract the shape of all lakes across the years to find out how they're changing.
+- 15 Mar 2026. Terence started Foundation for Science and AI Research (SAIR) to use AI in science research. Verifiable proofs (e.g. [LEAN](https://lean-lang.org/)) are a big part of this.
+- 15 Mar 2026. Since AI needs to run on phones and that needs GPUs, a lot of phones might need replacement in the next few years.
+- 13 Mar 2026. "Use `(some-command) --help` to ..." is an efficient prompt prefix that tells agents to read the docs and use a CLI tool to solve a problem. For example, "Use `uvx rodney --help` and `ffmpeg` for a demo video of GitHub PRs".
+- 13 Mar 2026. As agents improve, we'll have more mediorce output (e.g. dashboards) since people won't know to ask for better, or validate the result. They'll hire experts who know to ask better and verify better.
+- 13 Mar 2026. Claude Opus 4.6 solved a problem Knuth was working on! [Knuth](https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf)
+- 13 Mar 2026. [Cognitive debt](https://simonwillison.net/tags/cognitive-debt/) is what Simon Willison calls it when we build (or, in my case, say/write) stuff we don't understand. The debt framing is apt. One solution is to generate a version intended for AI to read, and another for us. [#](https://simonwillison.net/2026/Feb/17/release-notes-webcomic/)
+- 10 Mar 2026. OpenAI released [gpt-realtime-1.5](https://developers.openai.com/api/docs/models/gpt-realtime-1.5) and [gpt-audio-1.5](https://developers.openai.com/api/docs/models/gpt-audio-1.5). Buth are ~20% cheaper than the 4o versions, but 6.7x more expensive than [gpt-realtime-mini](https://developers.openai.com/api/docs/models/gpt-realtime-mini). 1 second is about 10 tokens, so an hour of audio input at $32/MTok is about $1.15.
+- 09 Mar 2026. [GitHub Agentic Workflows](https://github.github.com/gh-aw/setup/creating-workflows/) lets you "compile" a Markdown file into an agentic GitHub action. Useful as a sceptical reviewer, issue-to-prototype builder, data to story generator, automated code migrator, etc. [Gemini](https://gemini.google.com/share/d604275d42d7) [Claude](https://claude.ai/share/e4beeed2-e49e-49be-99bd-d6ce5678a7a7)
+- 07 Mar 2026. "Use AI to replace early-career mentorship: use AI-driven synthetic practice when traditional apprenticeship pathways collapse. AI can generate personalized coaching, replacing the missing junior loop with training environments." [Jack Clark](https://jack-clark.net/about/)
+- 07 Mar 2026. Observability is more than logging. It's agents watching feeds and signalling insights!
+- 07 Mar 2026. The [GPT 5.4 prompt guidance](https://developers.openai.com/api/docs/guides/prompt-guidance) is a bit complex, but here's what it's broadly saying: ([Gemini](https://gemini.google.com/share/b359f1e5fb50))
+  - It'll over-complicate answers and front-end design unless you tell it exactly how you want it
+  - It'll keep checking with you or give up (e.g. on errors) unless you tell it otherwise, e.g. with checklists or rules
+- 06 Mar 2026. Claude Code supports [32K output tokens](https://code.claude.com/docs/en/settings) by default. Since I generate large data stories, I usually hit this limit and lose an entire session. Setting the environment variable `CLAUDE_CODE_MAX_OUTPUT_TOKENS=64000` (which is the maximum) reduces this problem.
+- 06 Mar 2026. [Google Workspace CLI](https://github.com/googleworkspace/cli) lets you run `npx -y @googleworkspace/cli` as a single unified service for all Google Workspace APIs. It follows [agent-friendly CLI practices](https://justin.poehnelt.com/posts/rewrite-your-cli-for-ai-agents/) which I turned into a [SKILL.md](https://github.com/sanand0/scripts/blob/live/agents/agent-friendly-cli/SKILL.md).
+- 03 Mar 2026. With AI now writing almost all of my code, I don't see much need to format it. Code formatters like `ruff`, `dprint`, `biome`, etc. are not relevant when AI will be reading and writing the code, not humans. I just format the prompts in Markdown.
+- 01 Mar 2026. Claude's [prompt to import memory](https://claude.com/import-memory) from other AI providers doesn't seem to work with Claude's free account: ["No memories or stored context found."](https://claude.ai/share/fc8b9173-b47c-4ebd-a8f7-b87b03433706)
+
 ## Feb 2026
 
 - 27 Feb 2026. [Nano Banana Pro 2](https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/) is out. Better text, better instruction following.
@@ -57,7 +81,7 @@
 - 24 Jan 2026. We are starting to talk like LLMs. [Empirical evidence of Large Language Model's influence on human spoken communication](https://gemini.google.com/share/fa763d406046)
 - 20 Jan 2026. [Portkey Models](https://github.com/portkey-ai/models) is a repo of model related data (e.g. price, max tokens, capabilities, etc.) for a large number of models. Somewhat similar to Simon Willison's [LLM Prices](https://github.com/simonw/llm-prices).
 - 09 Jan 2025. [CLIProxyAPI](https://help.router-for.me/) seems a good way to allow any CLI coding agent (Codex, Claude Code, etc.) to work with any provider (e.g. Gemini, OpenRouter, etc.) The documentation needs a few more examples, but it's usable.
-  - `mise x ubi:router-for-me/CLIProxyAPI -- cli-proxy-api` starts a local server that proxies requests.
+  - `mise x github:router-for-me/CLIProxyAPI -- cli-proxy-api` starts a local server that proxies requests.
   - Create a [`config.yaml`](https://help.router-for.me/configuration/basic.html), update the keys, and configure your coding agent, e.g. [Codex](https://help.router-for.me/agent-client/codex.html) to use it.
   - It's also a good way to see what prompts are being sent by the various harnesses.
 - 02 Jan 2026. LLM evals rarely pass all the time or fail all the time. Either would be a good signal, but results are usually mid-way, which can make evals a bit frustrating. [Will Larsen](https://lethain.com/agents-evals/)
