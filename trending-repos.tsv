@@ -1,3 +1,33 @@
+🟣	RS	    5074	   198	2026-03-22	antinomyhq/forgecode	AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models
+🟣	RS	     889	    57	2026-03-22	tempoxyz/tempo	the blockchain for payments
+🟣	RS	    3186	  1981	2026-03-22	voidzero-dev/vite-plus	Vite+ is the unified toolchain and entry point for web development. It manages your runtime, package manager, and frontend toolchain in one place.
+🟣	RS	   30260	   384	2026-03-22	zellij-org/zellij	A terminal workspace with batteries included
+🟣	GO	   19367	  2907	2026-03-22	gofr-dev/gofr	An opinionated GoLang framework for accelerated microservice development. Built in support for databases and observability.
+🟣	GO	    2733	   334	2026-03-22	9seconds/mtg	Highly opinionated MTPROTO proxy for Telegram
+🟣	PY	   17926	  2177	2026-03-22	FujiwaraChoki/MoneyPrinterV2	Automate the process of making money online.
+🟣	PY	   17543	  7647	2026-03-22	volcengine/OpenViking	OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.
+🟣	PY	   13972	  2775	2026-03-22	anthropics/claude-plugins-official	Official, Anthropic-managed directory of high quality Claude Code Plugins.
+🟣	PY	   24155	  4104	2026-03-22	ZhuLinsen/daily_stock_analysis	LLM驱动的 A/H/美股智能分析器：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送，零成本定时运行，纯白嫖. LLM-powered stock analysis system for A/H/US markets.
+🟣	PY	    2011	  1203	2026-03-22	dimensionalOS/dimos	Dimensional is the agentic operating system for physical space. Vibecode humanoids, quadrupeds, drones, and other hardware platforms in natural language and build multi-agent systems that work seamlessly with physical input (cameras, lidar, actuators).
+🟣	PY	    5609	  1685	2026-03-22	vectorize-io/hindsight	Hindsight: Agent Memory That Learns
+🟣	PY	   17625	   247	2026-03-22	state-spaces/mamba	Mamba SSM architecture
+🟣	PY	    3485	   912	2026-03-22	langflow-ai/openrag	OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch.
+🟣	PY	    3533	   391	2026-03-22	vllm-project/vllm-omni	A framework for efficient model inference with omni-modality models
+🟣	TS	    4980	  1035	2026-03-22	InsForge/InsForge	Give agents everything they need to ship fullstack apps. The backend built for agentic development.
+🟣	TS	    2099	   951	2026-03-22	DaKheera47/job-ops	job-ops: DevOps principles applied to job hunting. A self-hosted pipeline to track, analyze, and assist your application process
+🟣	TS	   13089	  4726	2026-03-22	alibaba/page-agent	JavaScript in-page GUI agent. Control web interfaces with natural language.
+🟣	TS	    3434	   382	2026-03-22	backnotprop/plannotator	Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.
+🟣	TS	    6972	  5363	2026-03-22	Crosstalk-Solutions/project-nomad	Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.
+🟣	TS	    2926	   502	2026-03-22	google-labs-code/stitch-skills	
+🟣	JS	    1210	    65	2026-03-22	ComposioHQ/awesome-claude-plugins	A curated list of Plugins that let you extend Claude Code with custom commands, agents, hooks, and MCP servers through the plugin system.
+🟣	JS	   10529	  5653	2026-03-22	jarrodwatts/claude-hud	A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress
+🟣	JS	   13739	   454	2026-03-22	cockpit-project/cockpit	Cockpit is a web-based graphical interface for servers.
+🟣	JS	   11340	  5224	2026-03-22	andrewyng/context-hub	
+🟣	JS	   94590	 17462	2026-03-22	affaan-m/everything-claude-code	The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+🟣	JS	    3096	  2471	2026-03-22	sgoudelis/ground-station	Ground Station is all-in-one satellite monitoring suite
+🟣	JS	   11974	  3859	2026-03-22	pbakaus/impeccable	The design language that makes your AI harness better at design.
+🟣	JS	   15333	  1853	2026-03-22	coreyhaines31/marketingskills	Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
+🟣	SH	   43109	  3275	2026-03-22	tw93/Mole	🐹 Deep clean and optimize your Mac.
 🟣	RS	   36121	  7898	2026-03-13	ruvnet/RuView	π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.
 🟣	RS	   21630	  2332	2026-03-13	vercel-labs/agent-browser	Browser automation CLI for AI agents
 🟣	RS	    8737	   328	2026-03-13	louis-e/arnis	Generate any location from the real world in Minecraft with a high level of detail.

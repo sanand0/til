@@ -2,6 +2,9 @@
 
 ## Mar 2026
 
+- 22 Mar 2026. As of now, avoid using Claude.ai to create (large) visualizations. It runs forever and exhausts credits without generating anything. Claude Code works much better for this.
+- 18 Mar 2026. New skill unlocked: how to demo without knowing what you're demo-ing. STEP 1: Copy-paste all demo pages as Markdown. STEP 2: Tell AI "Here is a demo I'll be showing. (Add context.) Tell me how I should explain this and what I should point out as specific examples. Use concise bullets."
+- 18 Mar 2026. We've learnt not to do things we don't know how to (until we learn it). When AI is doing things, this is a bottleneck. Get out of the way. Stop filtering for what YOU can do. Stop learning what IT can do. Ask for it. That's faster. Learning can come later.
 - 15 Mar 2026. The Internet is forking into a human internet vs an agent web [LinkedIn](https://www.linkedin.com/posts/saamnaghshineh_automate-faster-activity-7431817567536627712-vkLz/)
 - 15 Mar 2026. [SamGeo](https://samgeo.gishub.org/) is a Python Package for geospatial image processing. While [OlmoEarth](https://allenai.org/olmoearth) provides geospatial embeddings, SamGeo can convert geospatial data to vector data! So you can do things like:
   - Create the outer boundary of all apartments with swimming pools in a city

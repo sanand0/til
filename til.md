@@ -2,6 +2,20 @@
 
 ## Mar 2026
 
+- 22 Mar 2026. [EARS (Easy Approach to Requirements Syntax)](https://www.google.com/search?q=EARS+(Easy+Approach+to+Requirements+Syntax)&oq=EARS+(Easy+Approach+to+Requirements+Syntax)) is a simple structure for requirements. For [example](https://github.com/github/spec-kit/issues/1356), "Users should be able to drag tasks between columns. The app needs to work offline too. Handle errors gracefully." becomes the following - which AI can convert to and is easier to spot errors in. State machines and decision tables are useful alternatives, too.
+  - **REQ-001** (Event): When the user drags a task card to a different column, the system shall update the task status to match the destination column.
+  - **REQ-002** (State): While the application is offline, the system shall store task updates in local storage.
+  - **REQ-003** (Event): When the application reconnects, the system shall synchronize locally stored updates with the server.
+  - **REQ-004** (Unwanted): If synchronization conflicts occur, then the system shall display a resolution dialog to the user.
+- 21 Mar 2026. Psychological operations in design by [Narendra Ghate](https://www.linkedin.com/in/narendraghate/)
+  - When lights are dimmed people speak softer. So, dimming lights reduces sound levels in noisy offices.
+  - Rather than reduce the size of shampoo sachets (which customers and business both hate), include 2 shampoos in one sachet, tearable in the middle.
+  - Price saches at 95p with a 5p deposit for the sachet - which rag-pickers can collect and return to the retailer.
+  - People think of stains like wounds on cloth. So a "stain band-aid" where you stick a strip, and remove it after 5 min to remove the stain, is catchy.
+  - A mechanical wind-up fish that stirs the water in the bucket while clothes are soaking speeds up the process.
+- 21 Mar 2026. Senthil & Amutha, founders of [Payir](https://www.payir.org/) demonstrated a [re-usable fabric calendar](https://thinaistore.myinstamojo.com/product/fabric-calendar-hanging-model-reusable) that converts into a bag for re-use. Pretty clever! Their message at the [Chennai Design Festival](https://www.chennaidesignfestival.com/) was that good design can be _for_ the masses and _by_ the masses to reclaim their time, energy, and joy.
+- 20 Mar 2026. The urinary bladder works based on _involuntary_ muscular contractions towards the end, to clear out the last bits of fluid. It's not fluid flow, it's muscle contractions. (Oh, the things I learn!) [Gemini](https://gemini.google.com/share/87351b16e4b6)
+- 18 Mar 2026. Indigo bans ghee in cabin baggage. Also coconuts, pickles, oily foods, gooey cakes, spices (masala, powders), strong-smelling food. [ChatGPT](https://chatgpt.com/share/69bc0652-bdbc-8003-9326-b48a91d5bd2c)
 - 15 Mar 2026. I keep forgetting that QR codes need a white border for them to work.
 - 15 Mar 2026. [TerraDraw](https://github.com/JamesLMilner/terra-draw) provides a unified API across multiple mapping libraries. (In the vibe-coding era, this is not as useful.)
 - 15 Mar 2026. To create desktop apps declaratively on Linux, Slint, Flutter, QML(Qt) and GTK4 are options. Slint and Flutter seem to be cross platform. Slint is newer, less mature but compiles to small fast binaries and might be a good option to explore. Flutter seems more mature and fairly popular. [Claude](https://claude.ai/share/183cd28a-be7e-4857-a6ff-6c919e3a9c15)
