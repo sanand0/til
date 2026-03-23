@@ -4,6 +4,7 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 
 ## Mar 2026
 
+- [ ] 23 Mar 2026. Ritesh. Create a generalized UMAP app. Apply it to abstracts.
 - [x] 22 Mar 2026. Create an interactive JS datasauraus based on datasaurust. https://sanand0.github.io/datazoo/
 - [ ] 21 Mar 2026. Generate and run simulink files in Matlab
 - [ ] 18 Mar 2026. Jivraj. Compare AI policies across universities
