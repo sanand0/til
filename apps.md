@@ -6,6 +6,7 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 
 - [x] 22 Mar 2026. Create an interactive JS datasauraus based on datasaurust. https://sanand0.github.io/datazoo/
 - [ ] 21 Mar 2026. Generate and run simulink files in Matlab
+- [ ] 18 Mar 2026. Mayank. Compare AI policies across universities
 - [ ] 15 Mar 2026. Mayank. Use [SamGeo](https://samgeo.gishub.org/) to polygonize Bangalore lakes over time, etc.
 - [ ] 15 Mar 2026. Can I _clean_ code? Download unclean data from Kaggle context. Use coding agents to write code to clean the data. What techniques are robust?
 - [ ] 14 Mar 2026. Ritesh. Explore PCA of data visualizations: NYT, Pudding, Bloomberg vs generic dashboards / Excel vs AI generated charts, different chart types. Is there a "taste" score? Where do AI generated images lie? Use [Gemini Embedding 2](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2/).
