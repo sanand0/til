@@ -2,6 +2,27 @@
 
 ## Mar 2026
 
+- 23 Mar 2026. [LLMs are able post-train LLMs on new topics](https://posttrainbench.thoughtfullab.com/). They're improving fast. [Jack Clark](https://jack-clark.net/2026/03/16/importai-449-llms-training-other-llms-72b-distributed-training-run-computer-vision-is-harder-than-generative-text/)
+- 23 Mar 2026. [Vibe Coding Fixer](https://www.linkedin.com/search/results/people/?keywords=vibe+coding+fixer) and [AI Slop Cleaner](https://www.linkedin.com/search/results/people/?keywords=ai+slop+cleaner) are real job descriptions - which are morphing into enterprise offerings. But I still seem to be the only official [LLM Psychologist](https://www.linkedin.com/search/results/people/?keywords=llm+psychologist)
+- 23 Mar 2026. Notes from [AI Services - Wrong Mental Models, Right Moment](https://mtrajan.substack.com/p/ai-services-wrong-mental-models-right):
+  - AI services has 3 markets. Automatable work: vanishes in 2 years. Human-in-the-loop work: sustains. Judgement-driven: grows in importance.
+  - YC: don’t sell access to a tool for $50 a month, use the AI yourself and sell the finished work for $5,000.
+  - Sell output. Price on outcome. Sell to business, not IT.
+  - Sell accountability: proven success, with your guarantee.
+  - Sell authenticity: a brand story representing uniqueness, character, ... or whatever... something people respect.
+- 23 Mar 2026. Data transfer between GPU and memory is a bottleck and three approaches are emerging. [#](https://mtrajan.substack.com/p/inference-blindness)
+  - [Taalas](https://taalas.com/the-path-to-ubiquitous-ai/) is etching LLMs into the chip. Llama 8b runs at 17,000 tok/s (H200 is at 230 tok/s).
+  - [d-Matrix](https://www.d-matrix.ai/announcements/d-matrix-unveils-corsair-the-worlds-most-efficient-ai-computing-platform-for-inference-in-datacenters/) is moving compute into SRAM memory chips. 30,000 tok/s for Llama 70b. Cerebras and MatX are similar: memory-oriented.
+  - [FuriosaAI](https://furiosa.ai/blog/lg-ai-research-taps-furiosaai-to-achieve-2-25x-better-llm-inference-in-production-vs-gpus) minimizes data movement. Groq and Sambanova are similar.
+  - But in the long run, commodity technology usually beats integrated stacks.
+- 23 Mar 2026. [GPT 5.4 Nano ($0.2/MTok) and Mini ($0.75/MTok)](https://openai.com/index/introducing-gpt-5-4-mini-and-nano/) are good options for bulk OCR, transcription, etc. as cost and quality comparable alternatives to Gemini Flash Lite and Gemini Flash. [They can describe 75K photos for $50](https://simonwillison.net/2026/Mar/17/mini-and-nano/). Both models are better than GPT-5 Mini on most benchmarks.
+- 23 Mar 2026. Cool [AI coding agent git prompt fragments](https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/):
+  - Use git bisect to find when this bug was introduced: ...
+  - Find and recover my code that does ...
+  - Sort out this git mess for me.
+  - Rewrite history removing ...
+  - Split the last commit into multiple commits grouped logically.
+  - Start a new repo at ... and build just this module ... based on ... with a similar commit history copying the author and commit dates.
 - 23 Mar 2026. [Campaigns Are Knowledge Workers and the Tools Just Caught Up](https://matthodges.com/posts/2026-01-07-ai-agents-campaigns/). A powerful framing. I saw this in action a few days ago when a friend was able to automate an outbound campaign with Claude Code.
 - 22 Mar 2026. As of now, avoid using Claude.ai to create (large) visualizations. It runs forever and exhausts credits without generating anything. Claude Code works much better for this.
 - 18 Mar 2026. New skill unlocked: how to demo without knowing what you're demo-ing. STEP 1: Copy-paste all demo pages as Markdown. STEP 2: Tell AI "Here is a demo I'll be showing. (Add context.) Tell me how I should explain this and what I should point out as specific examples. Use concise bullets."
@@ -95,7 +116,7 @@
 ## Dec 2025
 
 - 26 Dec 2025. My most used GitHub Copilot feature is [tab completion](https://docs.github.com/en/copilot/how-tos/get-code-suggestions/get-ide-code-suggestions). It's surprisingly effective for note-taking (which I do more than code-writing ever since coding agents arrived.) `Tab` completes the suggestion and `Esc` cancels it. I'm beginning to use `Alt + ]` and `Alt + [` to cycle through multiple suggestions. I'm amazed that it can act as a:
-  - Calculator/convertor. E.g. "9 * 86400 =", "5 miles in km is" or "3 days ago, i.e. on"
+  - Calculator/convertor. E.g. "9 \* 86400 =", "5 miles in km is" or "3 days ago, i.e. on"
   - Referrer. E.g. "The Attention Is All You Need paper at https://" or "The Pulitzer winning book Ants by"
   - Educator. E.g. "The top 3 causes of cancer are"
   - Ideator. E.g. "5 wild ideas for sneakily improving productivity are"
@@ -135,7 +156,7 @@
 - 14 Dec 2025. Sources of model data: https://models.dev/, https://openrouter.ai/, llm-pricing
 - 13 Dec 2025. **Zillow Offers**, the company’s "iBuying" arm, which was shut down in November 2021 after losing hundreds of millions of dollars. The core failure was not just an algorithmic error, but a fundamental misunderstanding of the limits of machine learning in high-stakes, low-frequency trading environments like real estate. Zillow relied on its "Zestimate" algorithm to predict future home prices and make instant cash offers, but the model failed to accurately account for real-time market volatility and "adverse selection"—savvy homeowners sold their properties to Zillow when the algorithm overvalued them, but kept them when the algorithm undervalued them. This left Zillow holding thousands of homes it had overpaid for and could not profitably resell, forcing a $304 million write-down and the layoff of 25% of its workforce. [Zillow Q3 2021 Shareholder Letter (PDF)](https://s24.q4cdn.com/723050407/files/doc%5Ffinancials/2021/q3/Zillow-Group-Q3'21-Shareholder-Letter.pdf) [#](https://gemini.google.com/u/2/app/99eac64fd1a42065)
 - 13 Dec 2025. There're a good number of AI insurance products in the market. [#](https://chatgpt.com/c/693d1d22-8260-8322-9994-58e7bcfeebe7)
-  - [Munich Re aiSure](https://www.munichre.com/en/solutions/for-industry-clients/insure-ai.html) - for AI vendors *and* companies deploying AI; can cover business losses (like lost revenue / business interruption) and legal damages when AI performance errors (incl. hallucinations) cause harm.
+  - [Munich Re aiSure](https://www.munichre.com/en/solutions/for-industry-clients/insure-ai.html) - for AI vendors _and_ companies deploying AI; can cover business losses (like lost revenue / business interruption) and legal damages when AI performance errors (incl. hallucinations) cause harm.
   - [Munich Re aiSelf](https://www.munichre.com/en/solutions/for-industry-clients/insure-ai/ai-self.html) - for teams using self-built or bought ML models; helps cover the financial downside when models underperform or drift over time.
   - [Munich Re aiSure - General Liability](https://www.munichre.com/en/solutions/for-industry-clients/insure-ai/faq.html) - covers damages and financial losses from lawsuits (e.g., claims that AI decisions were biased/discriminatory).
   - [Armilla Insured (AI Liability Insurance)](https://www.armilla.ai/ai-insurance) - affirmative AI liability cover (Lloyd's coverholder; partners include Chaucer) that can cover legal defense costs, settlements, and third-party claims when an AI model underperforms.
@@ -143,7 +164,7 @@
   - [AXA XL GenAI Endorsement for CyberRiskConnect](https://axaxl.com/press-releases/axa-xl-unveils-new-cyber-insurance-extending-coverage-to-help-businesses-manage-emerging-gen-ai-risks) - add-on to cyber insurance for companies building their own GenAI; covers things like data poisoning, copyright/usage-rights mistakes, and AI-regulatory violations.
   - [Coalition Affirmative AI Endorsement](https://www.coalitioninc.com/announcements/coalition-adds-new-affirmative-ai-endorsement-to-cyber-policies) - clarifies cyber coverage applies when AI causes a security failure, and extends funds-transfer-fraud triggers to deepfake-based instructions.
   - [Coalition Deepfake Response Endorsement](https://www.coalitioninc.com/au/announcements/au-coalition-adds-deepfake-response-endorsement) - adds response support for deepfake incidents (technical analysis + legal + reputational help), not just "classic hacking."
-  - [Tokio Marine Kiln Technology Errors & Omissions](https://www.tmkiln.com/our-products/technology-errors-omissions/) - tech E&O with *generative AI coverage available by endorsement* (aimed at software/SaaS/tech services).
+  - [Tokio Marine Kiln Technology Errors & Omissions](https://www.tmkiln.com/our-products/technology-errors-omissions/) - tech E&O with _generative AI coverage available by endorsement_ (aimed at software/SaaS/tech services).
   - [Tokio Marine Kiln Cyber Ctrl suite](https://www.tmkiln.com/news-insights/news/tmk-launches-next-generation-cyber-ctrl-suite/) - cyber/tech cover where AI-related add-ons can include AI regulatory proceedings, data contamination, and "LLM hijacking."
   - [Hiscox Technology PI (UK) - AI clause](https://www.hiscox.co.uk/sites/default/files/documents/2025-06/PIC%20Combined%20summary%20of%20change%20-%20technology%20-%200525.pdf) - explicitly covers client claims arising from your use of AI (incl. genAI) as part of the services you deliver.
 - 13 Dec 2025. A key lesson from [Who Validates the Validators](https://arxiv.org/abs/2404.12272) is that we learn our preferences as we evaluate. So make it cheap to evaluate (create outputs) AND **cheap to revise criteria**.
@@ -1075,7 +1096,6 @@
   >    Format everything as YAML. ≤120 words per section.
 
   Here are the top learnings from these retrospectives: [ChatGPT](https://chatgpt.com/share/688ef480-6a68-800c-9a9e-442754b6a707)
-
   - 🔴 Poor UI specs increases iterations.
   - 🔴 Incomplete API specs increase interations.
   - 🔴 Bad environment setup increase iterations
@@ -1670,13 +1690,11 @@ Claude Code notes
   - Google Workspace Flows
 - 22 Apr 2025. Ollama limits MAX_TOKENS to 2K by default.
 - 22 Apr 2025. AI assisted search helps wherever I would have used Google, e.g.
-
   - Debugging. "Fix CUDA initialization: CUDA unknown error"
   - Tool search. "Find an online word counter tool."
   - Library search. "Find a JS micro library to render Markdown."
 
   But here are some things where AI assisted search takes me beyond Google:
-
   - Code snippets. "Bash snippet to convert clipboard Markdown to HTML"
   - Benchmarking. "Compare LangChain and LlamaIndex on performance, ease of use, and documentation."
   - Repo scans:
@@ -2280,7 +2298,6 @@ Claude Code notes
 - 08 Jan 2025. [Switchboard-1](https://catalog.ldc.upenn.edu/LDC97S62) is a labelled audio corpus with ~260 hours of speech. It has ~2,400 calls among 500+ speakers in the US.
 - 07 Jan 2024. [Voyage AI Embeddings](https://docs.voyageai.com/docs/embeddings) have a [higher quality, similar price](https://blog.voyageai.com/2025/01/07/voyage-3-large/) compared to OpenAI embeddings. There's a clear benefit to replacing `text-embedding-3-large` with `voyage-3-lite`. There's a 200 MTok free tier currently.
 - 05 Jan 2025. [TheAgentCompany](https://github.com/TheAgentCompany/TheAgentCompany) is a benchmark of real-world [tasks](https://github.com/TheAgentCompany/TheAgentCompany/tree/main/workspaces/tasks) like:
-
   - [Arranging a meeting room](https://github.com/TheAgentCompany/TheAgentCompany/blob/main/workspaces/tasks/admin-arrange-meeting-rooms/task.md)
   - [Analyze a spreadsheet](https://github.com/TheAgentCompany/TheAgentCompany/blob/main/workspaces/tasks/ds-answer-spreadsheet-questions/task.md)
   - [Add a Gitlab wiki page](https://github.com/TheAgentCompany/TheAgentCompany/blob/main/workspaces/tasks/sde-add-wiki-page/task.md)

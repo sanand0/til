@@ -6,7 +6,7 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 
 - [ ] 23 Mar 2026. Ritesh. Create a generalized UMAP app. Apply it to abstracts.
 - [x] 22 Mar 2026. Create an interactive JS datasauraus based on datasaurust. https://sanand0.github.io/datazoo/
-- [ ] 21 Mar 2026. Generate and run simulink files in Matlab
+- [ ] 21 Mar 2026. Pavan. Generate and run simulink files in Matlab
 - [ ] 18 Mar 2026. Jivraj. Compare AI policies across universities
 - [ ] 15 Mar 2026. Mayank. Use [SamGeo](https://samgeo.gishub.org/) to polygonize Bangalore lakes over time, etc.
 - [ ] 15 Mar 2026. Can I _clean_ code? Download unclean data from Kaggle context. Use coding agents to write code to clean the data. What techniques are robust?

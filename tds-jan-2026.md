@@ -27,6 +27,7 @@
   - [ ] Vulnerability exercises: [OWASP PromptMe](https://github.com/R3dShad0w7/PromptMe), [Vuln-Bank](https://github.com/Commando-X/vuln-bank), [Recruitment](https://github.com/ReversecLabs/llm-vulnerable-recruitment-app), etc. <!-- https://gemini.google.com/app/9e07f8f94d8076da -->
   - [ ] Rank high on the agent web (test via Vane) for specific keywords. Make sure you're the 3rd, not first
   - [ ] Scrape a dark web .onion site
+  - [ ] Build something good enough to get acqui-hired!
   - Write a parser for:
     - Apache logs
     - HTTP headers
