@@ -2,6 +2,16 @@
 
 ## Mar 2026
 
+- 24 Mar 2026. As of today, a [LinkedIn search for "llm psychologist"](https://www.linkedin.com/search/results/people/?keywords=%22llm%20psychologist%22) lists 9 people. I'm not alone!
+  - [Anand S](https://www.linkedin.com/in/sanand0/), LLM Psychologist, Singapore, Singapore
+  - [Anshul Saxena, PhD](https://www.linkedin.com/in/analyticsanshul/), AI Advisor & Trainer | Technology Strategist | LLM Psychologist | Currently teaching humans, machines & business to work smarter through Generative AI and Quantum Computing | 15+ Years Experience, Pune, Maharashtra, India
+  - [Charitarth (Chad) Sindhu](https://www.linkedin.com/in/chadofficial/), LLM Psychologist / Fractional Business & AI Workflow Consultant/ Digital Nomad, Tokyo, Japan
+  - [Lancelot Salavert](https://www.linkedin.com/in/lancelotsalavert/), LLM Psychologist, Barcelona, Catalonia, Spain
+  - [Lior Dor(Durahly)](https://www.linkedin.com/in/lior-durahly/), Team Lead | Bug Banisher | Ex 8200, Tel Aviv District, Israel. Past: R&D Team Lead and **LLM** **Psychologist** at Superwise | A Blattner Tech Company
+  - [maxime bodereau](https://www.linkedin.com/in/maximebodereau/), Lead Creative Art Director | UX Forensics | Ai LLM Psychologist | Visual Alchemist | Codesmith | Brandologist | Full Stack Designer, Nantes, Pays de la Loire, France
+  - [Mei Chen 🦋](https://www.linkedin.com/in/chenml/), LLM Psychologist | Lead Product Engineer | Delivering Agentic Experiences, Toronto, Ontario, Canada
+  - [Shoshannah Tekofsky](https://www.linkedin.com/in/shoshannahtekofsky/), LLM Psychologist at AI Digest, Zwolle, Overijssel, Netherlands
+  - LinkedIn Member, LLM, psychologist, mediator, Prague, Czechia
 - 23 Mar 2026. [LLMs are able post-train LLMs on new topics](https://posttrainbench.thoughtfullab.com/). They're improving fast. [Jack Clark](https://jack-clark.net/2026/03/16/importai-449-llms-training-other-llms-72b-distributed-training-run-computer-vision-is-harder-than-generative-text/)
 - 23 Mar 2026. [Vibe Coding Fixer](https://www.linkedin.com/search/results/people/?keywords=vibe+coding+fixer) and [AI Slop Cleaner](https://www.linkedin.com/search/results/people/?keywords=ai+slop+cleaner) are real job descriptions - which are morphing into enterprise offerings. But I still seem to be the only official [LLM Psychologist](https://www.linkedin.com/search/results/people/?keywords=llm+psychologist)
 - 23 Mar 2026. Notes from [AI Services - Wrong Mental Models, Right Moment](https://mtrajan.substack.com/p/ai-services-wrong-mental-models-right):
