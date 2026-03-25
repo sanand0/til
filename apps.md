@@ -4,6 +4,7 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 
 ## Mar 2026
 
+- [ ] 25 Mar 2026. Create a UMAP embedding of a music library using Gemini 2 embeddings. How does this compare with our notion of music similarities?
 - [ ] 24 Mar 2026. Use coding agents to drive or prove something BEAUTIFUL (not necessarily original) using [Lean](https://lean-lang.org/)
 - [ ] 23 Mar 2026. Ritesh. Create a generalized UMAP app. Apply it to abstracts.
 - [x] 22 Mar 2026. Create an interactive JS datasauraus based on datasaurust. https://sanand0.github.io/datazoo/
