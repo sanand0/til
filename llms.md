@@ -2,6 +2,7 @@
 
 ## Mar 2026
 
+- 25 Mar 2026. "I think AI-type tools will actually revolutionize the experimental side of math, where you don’t care so much about individual problems and the process of solving them, but you want to gather large-scale data about what things work and what things don’t." [Terence Tao](https://www.dwarkesh.com/p/terence-tao#:~:text=gather%20large%2Dscale%20data)
 - 24 Mar 2026. As of today, a [LinkedIn search for "llm psychologist"](https://www.linkedin.com/search/results/people/?keywords=%22llm%20psychologist%22) lists 9 people. I'm not alone!
   - [Anand S](https://www.linkedin.com/in/sanand0/), LLM Psychologist, Singapore, Singapore
   - [Anshul Saxena, PhD](https://www.linkedin.com/in/analyticsanshul/), AI Advisor & Trainer | Technology Strategist | LLM Psychologist | Currently teaching humans, machines & business to work smarter through Generative AI and Quantum Computing | 15+ Years Experience, Pune, Maharashtra, India
