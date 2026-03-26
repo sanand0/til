@@ -2,7 +2,7 @@
 
 ## Instrumentation
 
-- [ ] Allow "Ask AI" in in any language!
+- [ ] Allow "Ask AI" in in any language! Make this easily visible as part of the Ask AI button - a dropdown next to the button. Allow choice of AI in the dropdown as well.
 - [x] Add Ask AI button to each question
 - [x] `/score` shows each student's exam-wise score
 - Ask AI: Add a data-prompt="longer detailed prompt" that's sent
