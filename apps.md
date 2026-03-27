@@ -4,6 +4,7 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 
 ## Mar 2026
 
+- [ ] 27 Mar 2026. #TODO Pavan. Video-ize the demos. Decks as well!
 - [ ] 25 Mar 2026. Mayank. Create a UMAP embedding of a music library using Gemini 2 embeddings (max 80 seconds, mp3/wav), at 25 tok/s, 1 min costs 0.03 cents, so 1K 1-min clips cost 30 cents. How does this compare with our notion of music similarities?
 - [ ] 24 Mar 2026. Pavan. Use coding agents to drive or prove something BEAUTIFUL (not necessarily original) using [Lean](https://lean-lang.org/)
 - [ ] 23 Mar 2026. Ritesh. Create a generalized UMAP app. Apply it to abstracts.
