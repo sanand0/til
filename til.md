@@ -2,6 +2,7 @@
 
 ## Mar 2026
 
+- 26 Mar 2026. [The Kids Should See This](https://thekidshouldseethis.com/) - great collection of videos for curious people. [Thej](https://thejeshgn.com/2026/03/27/weekly-notes-13-2026/)
 - 25 Mar 2026. A jury fined Meta and YouTube $4.2m and $1.8m for building addictive features in their products. That's a first. [NY Times](https://www.nytimes.com/2026/03/25/technology/social-media-trial-verdict.html)
 - 24 Mar 2026. The [hedonic treadmill](https://en.wikipedia.org/wiki/Hedonic_treadmill) (which roughly quantifies a Buddhist principle) says that we revert to a [happiness set point](https://en.wikipedia.org/wiki/Hedonic_treadmill#Happiness_set_point) (which varies by individual). Worse, those who experience a high kick (e.g. a lottery) don't get enough kick from normal wins (contrast effect) -- [Interactive explainer](https://gemini.google.com/share/9e8a904b34bb). <!-- https://gemini.google.com/app/b676e7571e5cbc85 --> The happiness neutral
 - 23 Mar 2026. [OpenAI acquired Astral!](https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/). This will likely slow down the new wonderful tools accelerating the Python ecosystem. Like with [PromptFoo](https://openai.com/index/openai-to-acquire-promptfoo/) and [OpenClaw](https://steipete.me/posts/2026/openclaw), this seems to be about talent. The "acqui-hire" mode seems a _clear_ niche career path now, and an alternative to getting hired (you get a much higher salary) or getting acquired (you take on much higher risk).
