@@ -1,3 +1,28 @@
+🟣	RS	    1223	   387	2026-03-29	mayocream/koharu	ML-powered manga translator, written in Rust.
+🟣	RS	   17622	   275	2026-03-29	screenpipe/screenpipe	run agents that work for you in the background based on what you do
+🟣	RS	    5360	   536	2026-03-29	alexpasmantier/television	A very fast, portable and hackable fuzzy finder.
+🟣	GO	    1187	   131	2026-03-29	Agent-Field/agentfield	Framework for AI Backend. Build and run AI agents like microservices - scalable, observable, and identity-aware from day one.
+🟣	GO	    6688	   234	2026-03-29	smtg-ai/claude-squad	Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp.
+🟣	GO	     606	   206	2026-03-29	riba2534/feishu-cli	
+🟣	GO	   34169	   221	2026-03-29	harness/harness	Harness Open Source is an end-to-end developer platform with Source Control Management, CI/CD Pipelines, Hosted Developer Environments, and Artifact Registries.
+🟣	GO	   19596	    39	2026-03-29	ahmetb/kubectx	Faster way to switch between clusters and namespaces in kubectl
+🟣	GO	   23563	  1293	2026-03-29	QuantumNous/new-api	A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥
+🟣	PY	    3458	   855	2026-03-29	SakanaAI/AI-Scientist-v2	The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search
+🟣	PY	   43372	  8220	2026-03-29	TauricResearch/TradingAgents	TradingAgents: Multi-Agents LLM Financial Trading Framework
+🟣	PY	   84857	  3204	2026-03-29	browser-use/browser-use	🌐 Make websites accessible for AI agents. Automate tasks online with ease.
+🟣	PY	    1236	   516	2026-03-29	plastic-labs/honcho	Memory library for building stateful agents
+🟣	PY	   14098	  9091	2026-03-29	mvanhorn/last30days-skill	AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
+🟣	PY	    9418	   481	2026-03-29	dreammis/social-auto-upload	自动化上传视频到社交媒体：抖音、小红书、视频号、tiktok、youtube、bilibili
+🟣	TS	   10165	   363	2026-03-29	Open-Dev-Society/OpenStock	OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.
+🟣	TS	    2128	  1112	2026-03-29	letta-ai/claude-subconscious	Give Claude Code a subconscious
+🟣	TS	    1437	   390	2026-03-29	7836246/cursor2api	将 Cursor Web Docs 免费 API 转换为 OpenAI/Anthropic 兼容格式的代理服务。提供 Claude Code工具及图片支持。
+🟣	JS	    1355	   221	2026-03-29	decolua/9router	Connect All AI Code Tools (Claude Code, Cursor, Antigravity, Copilot, Codex, Gemini, OpenCode, Cline, OpenClaw...) to 40+ AI Providers & 100+ Models
+🟣	JS	   20711	    62	2026-03-29	MobSF/Mobile-Security-Framework-MobSF	Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.
+🟣	JS	   36750	    76	2026-03-29	markedjs/marked	A markdown parser and compiler. Built for speed.
+🟣	JS	     729	   282	2026-03-29	figma/mcp-server-guide	A guide on how to use the Figma MCP server
+🟣	JS	   24782	   116	2026-03-29	simple-icons/simple-icons	SVG icons for popular brands
+🟣	SH	    2153	   369	2026-03-29	nyldn/claude-octopus	Multi-LLM orchestration plugin for Claude Code — 8 providers (Codex, Gemini, Claude, Perplexity, OpenRouter, Copilot, Qwen, Ollama), 47 commands, 50 skills, Double Diamond workflows
+🟣	SH	     308	   122	2026-03-29	kweaver-ai/kweaver	KWeaver Core is a harness-first foundation for enterprise decision agents. It turns fragmented data, knowledge, tools, and policies into governed context, safe execution, and verifiable feedback loops. With semantic modeling, real-time access, runtime control, and TraceAI, it helps AI systems reason, adapt, and act reliable in complex enterprises.
 🟣	RS	    5074	   198	2026-03-22	antinomyhq/forgecode	AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models
 🟣	RS	     889	    57	2026-03-22	tempoxyz/tempo	the blockchain for payments
 🟣	RS	    3186	  1981	2026-03-22	voidzero-dev/vite-plus	Vite+ is the unified toolchain and entry point for web development. It manages your runtime, package manager, and frontend toolchain in one place.
