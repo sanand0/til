@@ -1,3 +1,31 @@
+🟣	RS	   18104	   835	2026-04-05	fathyb/carbonyl	Chromium running inside your terminal
+🟣	RS	    3463	  2025	2026-04-05	dmtrKovalenko/fff.nvim	The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS
+🟣	RS	   37660	   180	2026-04-05	spacedriveapp/spacedrive	Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.
+🟣	RS	   33294	   186	2026-04-05	TabbyML/tabby	Self-hosted AI coding assistant
+🟣	RS	    1586	   196	2026-04-05	junhoyeo/tokscale	🛰️ A CLI tool for tracking token usage from OpenCode, Claude Code, 🦞OpenClaw (Clawdbot/Moltbot), Pi, Codex, Gemini, Cursor, AmpCode, Factory Droid, Kimi, and more! • 🏅Global Leaderboard + 2D/3D Contributions Graph
+🟣	GO	     484	   271	2026-04-05	masterking32/MasterDnsVPN	Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, SOCKS5 multiplexing, resolver load balancing, and high packet-loss stability.
+🟣	GO	    2054	   234	2026-04-05	supabase/cli	Supabase CLI. Manage postgres migrations, run Supabase locally, deploy edge functions. Postgres backups. Generating types from your database schema.
+🟣	GO	   13716	   137	2026-04-05	googleapis/genai-toolbox	MCP Toolbox for Databases is an open source MCP server for databases.
+🟣	PY	   18973	 14763	2026-04-05	luongnv89/claude-howto	A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.
+🟣	PY	    1149	   240	2026-04-05	chopratejas/headroom	The Context Optimization Layer for LLM Applications
+🟣	PY	   79370	  4835	2026-04-05	sherlock-project/sherlock	Hunt down social media accounts by username across social networks
+🟣	PY	   37629	   862	2026-04-05	roboflow/supervision	We write your reusable computer vision tools. 💜
+🟣	TS	    4925	   305	2026-04-05	smol-ai/GodMode	AI Chat Browser: Fast, Full webapp access to ChatGPT / Claude / Bard / Bing / Llama2! I use this 20 times a day.
+🟣	TS	    4554	  2054	2026-04-05	vas3k/TaxHacker	Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories
+🟣	TS	    8007	   606	2026-04-05	dreamhunter2333/cloudflare_temp_email	CloudFlare free temp domain email 免费收发 临时域名邮箱 支持附件 IMAP SMTP TelegramBot
+🟣	TS	   37159	  1342	2026-04-05	vadimdemedes/ink	🌈 React for interactive command-line apps
+🟣	TS	    2875	  1113	2026-04-05	HenryNdubuaku/maths-cs-ai-compendium	Become a cracked AI/ML Research Engineer
+🟣	TS	   23864	  9232	2026-04-05	Yeachan-Heo/oh-my-claudecode	Teams-first Multi-agent orchestration for Claude Code
+🟣	TS	   15641	 12108	2026-04-05	Yeachan-Heo/oh-my-codex	OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.
+🟣	TS	   19843	  9913	2026-04-05	siddharthvaddem/openscreen	Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.
+🟣	TS	   23038	   348	2026-04-05	yamadashy/repomix	📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.
+🟣	JS	   11172	    62	2026-04-05	CodeWithHarry/Sigma-Web-Dev-Course	Source Code for Sigma Web Development Course
+🟣	JS	    1062	   126	2026-04-05	rohitg00/awesome-claude-code-toolkit	The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills (+400,000 via SkillKit), 42 commands, 150+ plugins, 19 hooks, 15 rules, 7 templates, 8 MCP configs, and more.
+🟣	JS	    5712	   119	2026-04-05	ChrisWiles/claude-code-showcase	Comprehensive Claude Code project configuration example with hooks, skills, agents, commands, and GitHub Actions workflows
+🟣	JS	    3574	   398	2026-04-05	ComposioHQ/open-claude-cowork	Open Source version of Claude Cowork with 500+ SaaS app integrations
+🟣	SH	    3150	   780	2026-04-05	Dimillian/Skills	My Codex Skills
+🟣	SH	   13423	    30	2026-04-05	hq450/fancyss	fancyss is a project providing tools to across the GFW on asuswrt/merlin based router.
+🟣	SH	   18806	   129	2026-04-05	githubnext/monaspace	An innovative superfamily of fonts for code
 🟣	RS	    1223	   387	2026-03-29	mayocream/koharu	ML-powered manga translator, written in Rust.
 🟣	RS	   17622	   275	2026-03-29	screenpipe/screenpipe	run agents that work for you in the background based on what you do
 🟣	RS	    5360	   536	2026-03-29	alexpasmantier/television	A very fast, portable and hackable fuzzy finder.

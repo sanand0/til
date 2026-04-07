@@ -1,14 +1,46 @@
 # Things I learned
 
+## Apr 2026
+
+- 07 Apr 2026. Linux optimization settings I noted from a [deleted post](https://blog.fsck.com/2026/03/30/linux-power-tuning-meteor-lake/)
+  ```bash
+  gsettings set org.gnome.desktop.interface enable-animations false
+  gsettings set org.gnome.desktop.interface cursor-blink false
+  gsettings set org.gnome.settings-daemon.plugins.power idle-dim true
+  gsettings set org.gnome.desktop.notifications show-in-lock-screen false
+  gsettings set org.gnome.desktop.session idle-delay 300
+  gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-timeout 900
+  # gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-timeout 1200
+  ```cd ~
+- 07 Apr 2026. [git-restore-mtime](https://github.com/MestreLion/git-tools) is part of the git-tools package and sets the modified time of files to their last committed time. Useful when cloning repos.
+- 06 Apr 2026. UNIX has a `script` command that runs a shell and logs it. For example:
+  - `script -c fish session.log` starts a new `fish` shell and logs it to `session.log`.
+  - `script -c "uv run app.py" -q -a app.log` will append to app.log, suppressing "Script started..." and "Script done..." messages.
+  - `script --timing=time.txt session.log` logs the timing, which you can replay with `scriptreplay --timing=time.txt session.log`. Similar to asciinema.
+  - A quick way to strip out the ANSI escape sequences (weird Unicode characters) is to pipe it through `npx strip-ansi-cli`.
+- 03 Apr 2026. It's pretty convenient (on Ubuntu) to be able to move windows around desktops. Apart from the usual Super + Arrow keys to manage windows within a desktop, you can use:
+  - Ctrl + Alt + Left/Right Arrow: Move desktops
+  - Ctrl + Alt + Shift + Left/Right Arrow: Move window to desktop
+  - Super + Shift + Arrow: Move window to another monitor
+  - Super + Drag: Drag window from anywhere
+- 03 Apr 2026. `jq . file.json` is an efficient way to pretty-print JSON files in the terminal. (Or `jaq . file.json`, which is ~30% faster.)
+
 ## Mar 2026
 
+- 29 Mar 2026. [How Diffie Hellman Key Exchange Works](https://social.jvns.ca/@b0rk/116297197345549083) by Julia Evans is an _excellent_ explanation. Share a random number. A multiplies it by their private key and shares S*A. B multiplies it by their private key and shares S*B. They multiply the others' key with their secret key and they get S*A*B = S*B*A. Now _both_ of them have the same _new_ secret they can encrypt/decrypt with, but no one else knows, even though they shared everything publicly! This may be one of the **best** cool uses of math I've seen in a long time.
+- 29 Mar 2026. [Shell tricks](https://blog.hofstede.it/shell-tricks-that-actually-make-life-easier-and-save-your-sanity/) I didn't know:
+  ```bash
+  # ALT + . cycles through the last arguments typed
+  mv file.{txt,md}    # Move file.txt to file.md
+  ls |& tee file.txt  # Pipe both stdout and stderr to tee
+  ```
 - 26 Mar 2026. [The Kids Should See This](https://thekidshouldseethis.com/) - great collection of videos for curious people. [Thej](https://thejeshgn.com/2026/03/27/weekly-notes-13-2026/)
 - 25 Mar 2026. A jury fined Meta and YouTube $4.2m and $1.8m for building addictive features in their products. That's a first. [NY Times](https://www.nytimes.com/2026/03/25/technology/social-media-trial-verdict.html)
 - 24 Mar 2026. The [hedonic treadmill](https://en.wikipedia.org/wiki/Hedonic_treadmill) (which roughly quantifies a Buddhist principle) says that we revert to a [happiness set point](https://en.wikipedia.org/wiki/Hedonic_treadmill#Happiness_set_point) (which varies by individual). Worse, those who experience a high kick (e.g. a lottery) don't get enough kick from normal wins (contrast effect) -- [Interactive explainer](https://gemini.google.com/share/9e8a904b34bb). <!-- https://gemini.google.com/app/b676e7571e5cbc85 --> The happiness neutral
 - 23 Mar 2026. [OpenAI acquired Astral!](https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/). This will likely slow down the new wonderful tools accelerating the Python ecosystem. Like with [PromptFoo](https://openai.com/index/openai-to-acquire-promptfoo/) and [OpenClaw](https://steipete.me/posts/2026/openclaw), this seems to be about talent. The "acqui-hire" mode seems a _clear_ niche career path now, and an alternative to getting hired (you get a much higher salary) or getting acquired (you take on much higher risk).
 - 23 Mar 2026. [quickjs-emscripten](https://www.npmjs.com/package/quickjs-emscripten) lets you run isolated JS code securely in the browser, CloudFlare workers, NodeJS, and Deno. It compiles to WASM. @sebastianwessel/quickjs is a higher-level TS wrapper. [Simon Willison](https://github.com/simonw/research/tree/main/javascript-sandboxing-research)
 - 23 Mar 2026. [Manyana](https://bramcohen.com/p/manyana) is a CRDT based version control system. It sounds like a good idea but I'm sceptical because merge conflicts are a "what should I do" problem more than "how". With [agents doing more merge conflict management](https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/), I am not sure this will offer a concrete benefit - but probably no harm either.
-- 22 Mar 2026. [EARS (Easy Approach to Requirements Syntax)](https://www.google.com/search?q=EARS+(Easy+Approach+to+Requirements+Syntax)&oq=EARS+(Easy+Approach+to+Requirements+Syntax)) is a simple structure for requirements. For [example](https://github.com/github/spec-kit/issues/1356), "Users should be able to drag tasks between columns. The app needs to work offline too. Handle errors gracefully." becomes the following - which AI can convert to and is easier to spot errors in. State machines and decision tables are useful alternatives, too.
+- 22 Mar 2026. [EARS (Easy Approach to Requirements Syntax)](<https://www.google.com/search?q=EARS+(Easy+Approach+to+Requirements+Syntax)&oq=EARS+(Easy+Approach+to+Requirements+Syntax)>) is a simple structure for requirements. For [example](https://github.com/github/spec-kit/issues/1356), "Users should be able to drag tasks between columns. The app needs to work offline too. Handle errors gracefully." becomes the following - which AI can convert to and is easier to spot errors in. State machines and decision tables are useful alternatives, too.
   - **REQ-001** (Event): When the user drags a task card to a different column, the system shall update the task status to match the destination column.
   - **REQ-002** (State): While the application is offline, the system shall store task updates in local storage.
   - **REQ-003** (Event): When the application reconnects, the system shall synchronize locally stored updates with the server.

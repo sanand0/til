@@ -1,5 +1,10 @@
 # LLM learnings
 
+## Apr 2026
+
+- 06 Apr 2026. Google has an [Edge Gallery](https://github.com/google-ai-edge/gallery) app that runs Gemma 4 on mobile. The main advantage is that you can use it on a flight. It's not too bad as a model either. Transcription quality is average. It doesn't run in the background, only one chat at a time, etc. So, it's useful only as a last resort.
+- 01 Apr 2026. GitHub Copilot monthly premium requests were _not_ reset at 12 am UTC
+
 ## Mar 2026
 
 - 25 Mar 2026. "I think AI-type tools will actually revolutionize the experimental side of math, where you don’t care so much about individual problems and the process of solving them, but you want to gather large-scale data about what things work and what things don’t." [Terence Tao](https://www.dwarkesh.com/p/terence-tao#:~:text=gather%20large%2Dscale%20data)

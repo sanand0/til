@@ -2,9 +2,15 @@
 
 Descriptions of apps I felt would be interesting or useful to build (or find).
 
+## Apr 2026
+
+- [ ] 06 Apr 2026. Pavan: Benchmark GLM OCR (9B) on financial PDF documents
+- [ ] 01 Apr 2026. Mayank: TDS Discourse sentiment analysis. https://claude.ai/chat/757aa093-34d1-4485-972b-e8fdd24f7f8b | https://gemini.google.com/app/ec1f9077ac179410
+
 ## Mar 2026
 
-- [ ] 27 Mar 2026. #TODO Pavan. Video-ize the demos. Decks as well!
+- [ ] 30 Mar 2026. Ritesh. Patent + SN Research UMAP
+- [ ] 27 Mar 2026. Pavan. Video-ize the demos. Decks as well! https://pavankumart18.github.io/automated-form-filling/
 - [ ] 25 Mar 2026. Mayank. Create a UMAP embedding of a music library using Gemini 2 embeddings (max 80 seconds, mp3/wav), at 25 tok/s, 1 min costs 0.03 cents, so 1K 1-min clips cost 30 cents. How does this compare with our notion of music similarities?
 - [ ] 24 Mar 2026. Pavan. Use coding agents to drive or prove something BEAUTIFUL (not necessarily original) using [Lean](https://lean-lang.org/)
 - [ ] 23 Mar 2026. Ritesh. Create a generalized UMAP app. Apply it to abstracts.
@@ -39,7 +45,7 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 - [ ] 26 Jan 2026. Pavan. Use HAR captures to automate actions.
 - [ ] 25 Jan 2026. Pavan. Scrape NCRB.
 - [ ] 23 Jan 2026. Nitin. Show how cheap local image generation (e.g. Flux 2 Klein) can be used. Images for blog archives. Large scale style edits. Product variations (e.g. different angle). Large scale redaction of faces, names, etc. Visual feedback for student homework in bulk.
-- [ ] 22 Jan 2026. Create an animated scrollytelling map biography of a person in an Amar Chitra Katha-like visual style. Pick personal story + locally famous person + globally famous person, visits of a leader, migrations of people, spread of crops / disease / trojans, ... https://pavankumart18.github.io/visual-biography/
+- [ ] 22 Jan 2026. Pavan. Create an animated scrollytelling map biography of a person in an Amar Chitra Katha-like visual style. Pick personal story + locally famous person + globally famous person, visits of a leader, migrations of people, spread of crops / disease / trojans, ... https://pavankumart18.github.io/visual-biography/
 - [ ] 22 Jan 2026. Open Food Facts: How are ingredients of Nutella (or anything else) different across countries? https://nitin399-maker.github.io/nutella/
 - [x] 16 Jan 2026. Predict price movement based on ticket sales data (e.g. TicketMasters)
 - [ ] 16 Jan 2026. Understand how students taking a Python course submit solutions and how to teach them better
