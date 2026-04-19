@@ -1,3 +1,73 @@
+🟣	RS	    5556	   227	2026-04-19	superradcompany/microsandbox	🧱 secure, local, cross-platform and programmable sandboxes for AI agents
+🟣	GO	   25934	   232	2026-04-19	XIU2/CloudflareSpeedTest	🌩「自选优选 IP」测试 Cloudflare CDN 延迟和速度，获取最快 IP ！当然也支持其他 CDN / 多个解析 IP 的网站 ~
+🟣	GO	   16811	    75	2026-04-19	VictoriaMetrics/VictoriaMetrics	VictoriaMetrics: fast, cost-effective monitoring solution and time series database
+🟣	GO	    7637	    41	2026-04-19	kyverno/kyverno	Unified Policy as Code
+🟣	GO	   31265	   248	2026-04-19	iawia002/lux	👾 Fast and simple video download library and CLI tool written in Go
+🟣	GO	    8756	    64	2026-04-19	anchore/syft	CLI tool and library for generating a Software Bill of Materials from container images and filesystems
+🟣	GO	    2066	   599	2026-04-19	versity/versitygw	A simple to deploy but feature rich S3 object storage server for your filesystem
+🟣	GO	     538	    51	2026-04-19	rapidaai/voice-ai	Rapida is an open-source, end-to-end voice AI orchestration platform for building real-time conversational voice agents with audio streaming, STT, TTS, VAD, multi-channel integration, agent state management, and observability.
+🟣	PY	   43504	   543	2026-04-19	zhayujie/CowAgent	CowAgent (chatgpt-on-wechat) 是基于大模型的超级AI助理，能主动思考和任务规划、访问操作系统和外部资源、创造和执行Skills、通过长期记忆和知识库不断成长，比OpenClaw更轻量和便捷。同时支持微信、飞书、钉钉、企微、QQ、公众号、网页等接入，可选择OpenAI/Claude/Gemini/DeepSeek/ Qwen/GLM/Kimi/LinkAI，能处理文本、语音、图片和文件，可快速搭建个人AI助理和企业数字员工。
+🟣	PY	    4385	  3218	2026-04-19	lsdefine/GenericAgent	Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption
+🟣	PY	   19475	  6026	2026-04-19	shiyu-coder/Kronos	Kronos: A Foundation Model for the Language of Financial Markets
+🟣	PY	    1557	   330	2026-04-19	OpenMOSS/MOSS-TTS	MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team. It is designed for high‑fidelity, high‑expressiveness, and complex real‑world scenarios, covering stable long‑form speech, multi‑speaker dialogue, voice/character design, environmental sound effects, and real‑time streaming TTS.
+🟣	PY	    1878	   863	2026-04-19	z-lab/dflash	DFlash: Block Diffusion for Flash Speculative Decoding
+🟣	PY	   22802	  1472	2026-04-19	openai/openai-agents-python	A lightweight, powerful framework for multi-agent workflows
+🟣	PY	    6378	  1651	2026-04-19	hugohe3/ppt-master	AI generates natively editable PPTX from any document — real PowerPoint shapes, not images — no design skills needed
+🟣	TS	    3145	   725	2026-04-19	diegosouzapw/OmniRoute	OmniRoute is an AI gateway for multi-provider LLMs: an OpenAI-compatible endpoint with smart routing, load balancing, retries, and fallbacks. Add policies, rate limits, caching, and observability for reliable, cost-aware inference.
+🟣	TS	    3479	   413	2026-04-19	codeforreal1/compressO	Convert any video/image into a tiny size. 100% free & open-source. Available for Mac, Windows & Linux.
+🟣	TS	    4388	   665	2026-04-19	lukilabs/craft-agents-oss	
+🟣	TS	   17311	  1965	2026-04-19	snarktank/ralph	Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.
+🟣	TS	    2589	   512	2026-04-19	sparkjsdev/spark	✨ An advanced 3D Gaussian Splatting renderer for THREE.js
+🟣	TS	   20815	  5589	2026-04-19	jamiepine/voicebox	The open-source voice synthesis studio
+🟣	JS	    5191	   810	2026-04-19	Anil-matcha/Open-Generative-AI	Uncensored, open-source alternative to Higgsfield AI, Freepik, Krea, Openart AI — Free, unrestricted AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.
+🟣	JS	   19036	   165	2026-04-19	xifangczy/cat-catch	猫抓 浏览器资源嗅探扩展 / cat-catch Browser Resource Sniffing Extension
+🟣	JS	    5264	  2964	2026-04-19	EvoMap/evolver	The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai
+🟣	JS	   10973	    52	2026-04-19	facebook/hermes	A JavaScript engine optimized for running React Native.
+🟣	JS	     173	    36	2026-04-19	microsoft/power-platform-skills	A plugin marketplace for Claude Code/GitHub Copilot that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.
+🟣	JS	   38492	   643	2026-04-19	DavidHDev/react-bits	An open source collection of animated, interactive & fully customizable React components for building memorable websites.
+🟣	SH	   12956	  3996	2026-04-19	Donchitos/Claude-Code-Game-Studios	Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.
+🟣	SH	   17728	  4910	2026-04-19	addyosmani/agent-skills	Production-grade engineering skills for AI coding agents.
+🟣	SH	    3410	  1634	2026-04-19	SimoneAvogadro/android-reverse-engineering-skill	Claude Code skill to support Android app's reverse engineering
+🟣	SH	     391	    27	2026-04-19	techjarves/termux-hacklab	Turn your Android into a GPU-accelerated Linux hacking lab with one command! XFCE Desktop + Nmap, SQLMap, Hydra, Wine & more. No root required.
+🟣	RS	    1564	   141	2026-04-12	njbrake/agent-of-empires	Claude Code, OpenCode agent session manager via terminal or web app. Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding. Uses tmux and git worktrees.
+🟣	RS	    2662	   865	2026-04-12	rivet-dev/agent-os	A portable open-source operating system for agents. ~6 ms coldstarts, 32x cheaper than sandboxes. Powered by WebAssembly and V8 isolates.
+🟣	RS	   30080	   177	2026-04-12	dandavison/delta	A syntax-highlighting pager for git, diff, grep, rg --json, and blame output
+🟣	RS	    6473	   640	2026-04-12	tailcallhq/forgecode	AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models
+🟣	RS	    1564	   372	2026-04-12	Ataraxy-Labs/sem	Semantic version control CLI. Entity-level diff, blame, graph, and impact analysis for code. 23 languages via tree-sitter.
+🟣	RS	     718	   106	2026-04-12	qufei1993/skills-hub	A cross-platform desktop app to manage Agent Skills in one place and sync them to multiple AI coding tools’ global skills directories — “Install once, sync everywhere”.
+🟣	GO	   28242	   363	2026-04-12	goharbor/harbor	An open source trusted cloud native registry project that stores, signs, and scans content.
+🟣	GO	   76260	   692	2026-04-12	jesseduffield/lazygit	simple terminal UI for git commands
+🟣	GO	   14452	   683	2026-04-12	googleapis/mcp-toolbox	MCP Toolbox for Databases is an open source MCP server for databases.
+🟣	PY	   13217	   956	2026-04-12	HKUDS/AI-Trader	"AI-Trader: 100% Fully-Automated Agent-Native Trading"
+🟣	PY	    1797	    47	2026-04-12	bytedance/Protenix	Toward High-Accuracy Open-Source Biomolecular Structure Prediction.
+🟣	PY	    4796	   423	2026-04-12	google-deepmind/gemma	Gemma open-weight LLM library, from Google DeepMind
+🟣	PY	    4296	   863	2026-04-12	Blaizzy/mlx-vlm	MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.
+🟣	PY	    9058	  2905	2026-04-12	NVIDIA/personaplex	PersonaPlex code.
+🟣	TS	   10293	   567	2026-04-12	open-metadata/OpenMetadata	OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.
+🟣	TS	    4431	   316	2026-04-12	campfirein/byterover-cli	ByteRover CLI (brv) - The portable memory layer for autonomous coding agents (formerly Cipher)
+🟣	TS	    7544	  1566	2026-04-12	YishenTu/claudian	An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault
+🟣	TS	    8989	  5362	2026-04-12	multica-ai/multica	The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
+🟣	TS	    3714	   227	2026-04-12	obsidianmd/obsidian-clipper	Highlight and capture the web in your favorite browser. The official Web Clipper extension for Obsidian.
+🟣	JS	   24369	   149	2026-04-12	greensock/GSAP	GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web
+🟣	JS	    4510	  1595	2026-04-12	Anil-matcha/Open-Higgsfield-AI	Open-source alternative to Higgsfield AI — Free AI image generation & cinema studio with 20+ models (Flux, SDXL, Midjourney, Ideogram). Self-hosted, customizable, MIT licensed.
+🟣	JS	    9227	   112	2026-04-12	sub-store-org/Sub-Store	Advanced Subscription Manager for QX, Loon, Surge, Stash, Egern and Shadowrocket!
+🟣	JS	    1967	   683	2026-04-12	jo-inc/camofox-browser	Headless browser automation server for AI agents to visit sites that are usually blocked
+🟣	JS	   61325	    20	2026-04-12	lodash/lodash	A modern JavaScript utility library delivering modularity, performance, & extras.
+🟣	JS	   39346	    65	2026-04-12	phaserjs/phaser	Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.
+🟣	JS	    1661	   236	2026-04-12	stephengpope/thepopebot	The Pope Bot is an autonomous AI agent that you can configure and build to do just about anything you want, all day, everyday, 24/7.
+🟣	SH	    1729	   174	2026-04-12	addyosmani/web-quality-skills	Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals.
+🟣	RS	   38464	  4148	2026-04-07	aaif-goose/goose	an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
+🟣	RS	    6888	   130	2026-04-07	EricLBuehler/mistral.rs	Fast, flexible LLM inference
+🟣	RS	    6519	    72	2026-04-07	aome510/spotify-player	A Spotify player in the terminal with full feature parity
+🟣	RS	    6531	   122	2026-04-07	agrinman/tunnelto	Expose your local web server to the internet with a public URL.
+🟣	GO	    7460	   155	2026-04-07	google/adk-go	An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
+🟣	PY	   11608	   617	2026-04-07	HKUDS/DeepTutor	"DeepTutor: Agent-Native Personalized Learning Assistant"
+🟣	PY	   32490	  1298	2026-04-07	HKUDS/LightRAG	[EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation"
+🟣	PY	    9052	   707	2026-04-07	microsoft/agent-framework	A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.
+🟣	TS	   10532	   594	2026-04-07	accomplish-ai/accomplish	Accomplish™ is the open source Al coworker that lives on your desktop
+🟣	TS	   49042	  4025	2026-04-07	code-yeongyu/oh-my-openagent	omo; the best agent harness - previously oh-my-opencode
+🟣	JS	   14698	    96	2026-04-07	playcanvas/engine	Powerful web graphics runtime built on WebGL, WebGPU, WebXR and glTF
+🟣	SH	   13212	  1405	2026-04-07	zarazhangrui/frontend-slides	Create beautiful slides on the web using Claude's frontend skills
 🟣	RS	   18104	   835	2026-04-05	fathyb/carbonyl	Chromium running inside your terminal
 🟣	RS	    3463	  2025	2026-04-05	dmtrKovalenko/fff.nvim	The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS
 🟣	RS	   37660	   180	2026-04-05	spacedriveapp/spacedrive	Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.

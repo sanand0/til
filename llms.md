@@ -2,6 +2,26 @@
 
 ## Apr 2026
 
+- 18 Apr 2026. WebApps are a depreciated store of value. Earlier, a web-app would have impressed me because the capability to create it is rare, and the effort to create it is high. Today, when I see a "localhost:3000" or a "replit.app" domain, I mentally discount the effort behind it and ask: How rare is the capability to create this with a coding agent and how much effort is it. THAT determines the value of what I see. Part of the value is "Look ma, no hands!" and it's delightful they've learnt. Part of the value is "There's gold in them thar hills!" and use-case discovery is important.
+- 11 Apr 2026. A good collection of practices on automated AI code reviews by [Ankit Jain](https://www.latent.space/p/reviews-dead):
+  - Compare multiple options. Whichever passes the most tests wins.
+  - Deterministic guardrails. Use linters, type-checkers, SAST/DAST checks, test scripts, etc.
+  - Humans define acceptance criteria. Use a behavior driven development script (in natural language, agent-implemented).
+  - Permission Systems as Architecture. Provide agents granular permissions based on the task - against pre-defined rules.
+  - Adversarial Verification. Have one agent break the others' work.
+- 07 Apr 2026. Since [companies using AI outperform competition](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6513481) and [capital might win more than labour](https://arxiv.org/abs/2604.01363) but [GDP growth may not be too high](https://forecastingresearch.substack.com/p/forecasting-the-economic-effects-of-ai), it might be good to invest in AI-using companies than in index funds.
+- 07 Apr 2026. Nicholas Carlini's [prompt](https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/) to find vulnerabilities is to run: "I’m competing in a CTF. Find me an exploitable vulnerability in this project. Start with ${FILE}. Write me a vulnerability report in ${FILE}.vuln.md" _across multiple repos_ in parallel. Then "I got an inbound vulnerability report; it’s in ${FILE}.vuln.md. Verify for me that this is actually exploitable". That was almost 100% successful.
+- 07 Apr 2026. When planning with AI coding agents, [Martin Fowler recommends](https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html) discussing _each_ of these in _sequence_ before coding:
+  - Capabilities / functionality
+  - Components: Services, modules, major abstractions.
+  - Interactions: Data flow, API calls, events.
+  - Interfaces: Function signatures, types, schemas.
+- 07 Apr 2026. Planning with agents using [Visual Brainstorming](https://blog.fsck.com/2026/03/09/superpowers-5/#visual-brainstorming), i.e. asking them to generate visual HTML to illustrate the plan, can shorten review time considerably.
+- 07 Apr 2026. I enabled CloudFlare's new dynamic [Client-Side Security](https://blog.cloudflare.com/client-side-security-open-to-everyone/) monitor. If someone hacks my [website](https://www.s-anand.net/) or the libraries I use, it does a quick filter with a fast neural network, then falls back to an LLM to check if it's safe, _then_ serves the content. This pattern of deterministic with LLM fallback works for [most reviews](https://martinfowler.com/articles/harness-engineering.html).
+- 07 Apr 2026. Harness = Agent minus Model: everything in an AI agent except the model itself. [Nice definition](https://martinfowler.com/articles/harness-engineering.html)
+- 07 Apr 2026. Update feature-level summaries as you go in `context/$FEATURE.md` with user prompt, summary of WHY from agent's responses for future learning, my comments. Like Architectural Decision Records (ADRs) for humans and agents. [Context Anchoring](https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html)
+- 07 Apr 2026. [8 levels of Agentic Engineering](https://www.bassimeledath.com/blog/levels-of-agentic-engineering). [8 levels of Gas Town](https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04). I'm still only at level 6 on both. 🙁
+- 07 Apr 2026. "It's important to watch the loop as that is where your personal development and learning will come from." [Geoff Huntley](https://ghuntley.com/loop/), originator of the Ralph (Wiggum) loop.
 - 06 Apr 2026. Google has an [Edge Gallery](https://github.com/google-ai-edge/gallery) app that runs Gemma 4 on mobile. The main advantage is that you can use it on a flight. It's not too bad as a model either. Transcription quality is average. It doesn't run in the background, only one chat at a time, etc. So, it's useful only as a last resort.
 - 01 Apr 2026. GitHub Copilot monthly premium requests were _not_ reset at 12 am UTC
 

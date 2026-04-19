@@ -4,25 +4,33 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 
 ## Apr 2026
 
-- [ ] 06 Apr 2026. Pavan: Benchmark GLM OCR (9B) on financial PDF documents
-- [ ] 01 Apr 2026. Mayank: TDS Discourse sentiment analysis. https://claude.ai/chat/757aa093-34d1-4485-972b-e8fdd24f7f8b | https://gemini.google.com/app/ec1f9077ac179410
+- [ ] 13 Apr 2026. Pavan: Try NemoClaw with Google Groups for auto-responding
+- [ ] 13 Apr 2026. #EDU Ritesh: What's the difference between papers of a University vs OpenAlex / arXiv?
+- [x] 11 Apr 2026. #EDU Ritesh: ERIC dataset EmbedUMAP. Done. #SKIP Not relevant now
+- [x] 11 Apr 2026. #EDU Pavan: Video knowledge mining. Take a public video library. Create auto-transcript → semantic search → "ask the video" chatbot → auto-generate quiz -> chaptered replay. A dead archive becomes a live knowledge base. https://pavankumart18.github.io/learn-with-ai/
+- [x] 11 Apr 2026. #EDU Mayank: Create a student advisor support portal. https://mynkpdr.github.io/datamind-synthetic-demo/
+- [ ] 07 Apr 2026. Mayank: Compile data science package to Rust / WASM: difftastic, jaq, typst (to generate PDFs), sqlparser-rs, grex (generate regex from examples) <!-- https://gemini.google.com/app/18c9512432449699 -->
+- [ ] 07 Apr 2026. Jivraj: Auto-summarize Discourse
+- [ ] 07 Apr 2026. Jivraj: Create a Bootstrap icons icon font. #SKIP in favor of https://icomoon.io/app or npmjs.com/package/fantasticon
+- [x] 06 Apr 2026. Pavan: Benchmark GLM OCR (9B) on financial PDF documents. https://pavankumart18.github.io/ocr-benchmark-analysis/
+- [ ] 01 Apr 2026. #EDU Mayank: TDS Discourse sentiment analysis. https://claude.ai/chat/757aa093-34d1-4485-972b-e8fdd24f7f8b | https://gemini.google.com/app/ec1f9077ac179410
 
 ## Mar 2026
 
 - [ ] 30 Mar 2026. Ritesh. Patent + SN Research UMAP
 - [ ] 27 Mar 2026. Pavan. Video-ize the demos. Decks as well! https://pavankumart18.github.io/automated-form-filling/
-- [ ] 25 Mar 2026. Mayank. Create a UMAP embedding of a music library using Gemini 2 embeddings (max 80 seconds, mp3/wav), at 25 tok/s, 1 min costs 0.03 cents, so 1K 1-min clips cost 30 cents. How does this compare with our notion of music similarities?
+- [x] 25 Mar 2026. Mayank. Create a UMAP embedding of a music library using Gemini 2 embeddings (max 80 seconds, mp3/wav), at 25 tok/s, 1 min costs 0.03 cents, so 1K 1-min clips cost 30 cents. How does this compare with our notion of music similarities?
 - [ ] 24 Mar 2026. Pavan. Use coding agents to drive or prove something BEAUTIFUL (not necessarily original) using [Lean](https://lean-lang.org/)
-- [ ] 23 Mar 2026. Ritesh. Create a generalized UMAP app. Apply it to abstracts.
+- [x] 23 Mar 2026. Ritesh. Create a generalized UMAP app. Apply it to abstracts.
 - [x] 22 Mar 2026. Create an interactive JS datasauraus based on datasaurust. https://sanand0.github.io/datazoo/
 - [ ] 21 Mar 2026. Pavan. Generate and run simulink files in Matlab
-- [ ] 18 Mar 2026. Jivraj. Compare AI policies across universities
-- [ ] 15 Mar 2026. Mayank. Use [SamGeo](https://samgeo.gishub.org/) to polygonize Bangalore lakes over time, etc.
-- [ ] 15 Mar 2026. Can I _clean_ code? Download unclean data from Kaggle context. Use coding agents to write code to clean the data. What techniques are robust?
+- [x] 18 Mar 2026. #EDU Jivraj. Compare AI policies across universities. https://sanand0.github.io/datastories/ai-policies/
+- [x] 15 Mar 2026. Mayank. Use [SamGeo](https://samgeo.gishub.org/) to polygonize Bangalore lakes over time, etc.
+- [ ] 15 Mar 2026. #TODO Can I _clean_ code? Download unclean data from Kaggle context. Use coding agents to write code to clean the data. What techniques are robust?
 - [ ] 14 Mar 2026. Ritesh. Explore PCA of data visualizations: NYT, Pudding, Bloomberg vs generic dashboards / Excel vs AI generated charts, different chart types. Is there a "taste" score? Where do AI generated images lie? Use [Gemini Embedding 2](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2/).
-- [ ] 12 Mar 2026. Create an intuitive data visualization + narrative story from OpenAI's Frontier Science eval. [Paper](https://cdn.openai.com/pdf/2fcd284c-b468-4c21-8ee0-7a783933efcc/frontierscience-paper.pdf) | [Data](https://huggingface.co/datasets/openai/frontierscience)
+- [ ] 12 Mar 2026. #TODO Create an intuitive data visualization + narrative story from OpenAI's Frontier Science eval. [Paper](https://cdn.openai.com/pdf/2fcd284c-b468-4c21-8ee0-7a783933efcc/frontierscience-paper.pdf) | [Data](https://huggingface.co/datasets/openai/frontierscience)
 - [ ] 09 Mar 2026. Pavan. Use AI coding agents to create video tutorials explaining how to use a website. Automate video creation using browserless. Include captions + audio. The output is (a) sample videos + supporting material for a few popular web apps, and (b) a reusable framework for doing this for any web app.
-- [ ] 06 Mar 2026. Pavan. Manufacturing / Robotic world environment MCPs.
+- [x] 06 Mar 2026. Pavan. Manufacturing / Robotic world environment MCPs. https://pavankumart18.github.io/ai-ros/
 - [ ] 06 Mar 2026. Ritesh. Create a video (HTML slideshow + audio overlay) explaining the org structure of a company, people, roles, etc. based on public data. Create versions for sales briefings (guesses are OK) as well as internal training (only proven facts).
 
 ## Feb 2026

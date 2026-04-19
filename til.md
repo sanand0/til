@@ -2,6 +2,19 @@
 
 ## Apr 2026
 
+- 16 Aug 2026. Pain is good. Struggle is good. Stretch is good. Not new. But worth reminding, worth seeking.
+- 15 Apr 2026. [WaveCity](https://wavacity.com/) is a WASM build of Audacity, i.e. Audacity running in the browser! [Audiomass](https://audiomass.co/) is a similar but simpler audio editor - again, WASM-based. [Gemini](https://gemini.google.com/share/54d4778ed7bd)
+- 11 Apr 2026. [Resend](https://resend.com/) is a simple way to send emails via an API.
+- 11 Apr 2026. [Principles of Mechanical Sympathy](https://martinfowler.com/articles/mechanical-sympathy-principles.html) has some practical hardware-driven optimization tips.
+  - Prefer accessing memory sequentially. CPU access to RAM and cache is optimized for this.
+  - Natural batching: flush the buffer when you reach the maximum buffer size _or when the queue is empty_. This avoids buffers waiting unnecessarily.
+- 11 Apr 2026. The core argument in [Capital in the Twenty-First Century (Thomas Piketty, 2013/2014)](https://www.goodreads.com/book/show/18736925-capital-in-the-twenty-first-century) is `r > g`. The interest on capital (`r`) is always greater than the economic growth (`g`). Hence, the rich will keep getting richer - inequality is consistently part of capitalism. (Not surprising, but well supported by data.)
+- 07 Apr 2026. Based on a quick exploration of the AT protocol ([via Jake Lazaroff](https://jakelazaroff.com/words/building-more-resilient-local-first-software-with-atproto/)), I am yet to see a viable use for it. It's a decentralized distributed data network. OK... what will **I** use it for?
+- 07 Apr 2026. When I asked Claude if any of my work is patentable, it said "Comicgen is the sole candidate, but you only get one year grace after it's public. But why do _you_ want to patent? Your edge is prototyping speed, taste, and knowledge. Patents don't protect those. Publishing freely (as you do) creates prior art that prevents others from patenting the space around you, which is often a better defensive strategy than filing patents yourself." Oh! Ah! <!-- https://claude.ai/chat/539996da-f0a2-48d9-99dc-c3fac929199f -->
+- 07 Apr 2026. [pretex](https://github.com/chenglou/pretext) is a fast (currently browser-only) library that computes the width and height of any text in any font in the browser. Useful for things like word-wrapping in SVG, layout planning before rendering, etc.
+- 07 Apr 2026. Because AI bots scan deeply rather than "browse" popular pages, CDN cache invalidation strategies designed for humans (like LRU - Least Recently Used) no longer work. They're exploring new caching algorithms like [SIEVE](https://cachemon.github.io/SIEVE-website/) and [FIFO](https://s3fifo.com/) [CloudFlare](https://blog.cloudflare.com/rethinking-cache-ai-humans/)
+- 07 Apr 2026. I enabled CloudFlare's new dynamic [Client-Side Security](https://blog.cloudflare.com/client-side-security-open-to-everyone/) monitor. If someone hacks my [website](https://www.s-anand.net/) or the libraries I use, it does a quick filter with a fast neural network, then falls back to an LLM to check if it's safe, _then_ serves the content.
+- 07 Apr 2026. CloudFlare practically rewrote WordPress into a new Astro-based CMS: [EmDash](https://blog.cloudflare.com/emdash-wordpress/)! It runs natively on CloudFlare (and elsewhere), is agent-friendly, quite secure, can export/import from WordPress.
 - 07 Apr 2026. Linux optimization settings I noted from a [deleted post](https://blog.fsck.com/2026/03/30/linux-power-tuning-meteor-lake/)
   ```bash
   gsettings set org.gnome.desktop.interface enable-animations false
@@ -2083,7 +2096,7 @@
   - ShellSage is a `tmux` based LLM tool for the command line. It screen-grabs from tmux, which is powerful.
   - Some MCPs that have proven useful: [vega-lite](https://github.com/isaacwasserman/mcp-vegalite-server), [SQLite](https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite), [sequential thinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking), [memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory)
   - `make` sucks but is hard to beat. [`just`](https://github.com/casey/just) comes closest.
-  - CRDTs are more powerful than for just collaborative editing. It can power a peer-to-peer Internet (beginning with office tools). Versioning schema is still problematic. [`yjs`](https://github.com/yjs/yjs) is a good start but [`automerge`](https://github.com/automerge/automerge) (Rust, WASM) is faster and may be better.
+  - CRDTs are more powerful than for just collaborative editing. It can power a peer-to-peer Internet (beginning with office tools). Versioning schema is still problematic. [`yjs`](https://github.com/yjs/yjs) is a good start but [`automerge`](https://github.com/automerge/automerge) (Rust, WASM) is faster and may be better. [Loro](https://loro.dev/) is another.
   - [Fermyon](https://www.fermyon.com/) hosts WASM serverless functions.
 - 28 Mar 2025. [13 things I would have told myself before building an autorouter](https://blog.autorouting.com/p/13-things-i-would-have-told-myself) has a few interesting points:
   - The [A\* algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm) finds the shortest path in a graph _much_ quicker than others like Dijkstra's algorithm by preferring nodes closer to the goal.
