@@ -2,6 +2,26 @@
 
 ## Apr 2026
 
+- 25 Apr 2026. `mdq` is pretty useful to extract Markdown sections. For example `cat *.md | mdq '# Title'` extracts all sections where the header contains 'Title' (case-insensitive).
+- 24 Apr 2026. [CloudFlare Browser Run](https://developers.cloudflare.com/browser-run/) is, roughly, a browser as a service. [Pricing](https://developers.cloudflare.com/browser-run/pricing/): 10 hours free per month, then 9c per hour. I had Codex run a small [research](https://github.com/sanand0/research/tree/main/cloudflare-browser-run) to explore it, and it seems simple to set it up and use it.
+- 22 Apr 2026. World leaders do keep us entertained. <!-- https://gemini.google.com/app/240186d320b283d8 -->
+  - Saparmurat Niyazov (Turkmenistan) renamed the months of the year and days of the week after himself and his mother. He built a towering, gold-plated statue of himself in the capital that rotated so it would always face the sun. He also banned lip-syncing at concerts, outlawed gold teeth, and banished dogs from the capital because he found their smell unappealing.
+  - Idi Amin (Uganda) declared himself the "Uncrowned King of Scotland" and sent baffling, unsolicited telegrams to world leaders - advising Richard Nixon to recover from Watergate, or offering food aid to a struggling Britain.
+  - François "Papa Doc" Duvalier (Haiti) reportedly ordered all black dogs in Haiti to be put to death and claimed his personal Vodou curse was responsible for the assassination of John F. Kennedy.
+  - Francisco Macías Nguema (Equatorial Guinea) banned the word "intellectual", banned the use of lubricants in the power plant (claiming his magic would keep it running, which promptly broke the generators), and stored the nation's remaining foreign currency under his bed.
+  - Kim Jong-il (North Korea) claimed he invented the hamburger (calling it "double bread with meat") and shot 11 holes-in-one his first time playing golf.
+  - Donald Trump (United States) used late-night tweets to announce major policy shifts and fire his own cabinet members. He altered an official government hurricane map with a Sharpie to match a previous erroneous statement, and publicly mused during a press briefing about the injection of household disinfectants as a medical treatment.
+- 22 Apr 2026. Git repositories inside git repositories (without using sub-modules) don't seem to work well. I need this because I have mono-repos for research and I want to use git in a sub-folder to iterate, then commit just the final version to the parent folder. Looks like I need to remove the child `.git/` (e.g. rename to `.git.bak/`, which I've added to my `~/.config/git/ignore`) for this to work. [Gemini](https://gemini.google.com/share/1a89ad8cf6da)
+- 22 Apr 2026. To run a script in the background (without logs) and detach / disown it, use `nohup your-script >/dev/null 2>&1 & disown`
+- 20 Apr 2026. Pandoc Markdown to Word DOCX supports sidebar comments. You can use this Markdown: Here is `[comment in sidebar]{.comment-start id="c1" author="Anand" date="2026-01-01T12:00:00Z"}commented text[]{.comment-end id="c1"} inline.` [Gemini](https://gemini.google.com/share/430e7556ad69). In fact, Pandoc supports lots of other things, like: <!-- https://gemini.google.com/app/0fe9e7b12650f7f2 -->
+  - Custom styles via block `::: {custom-style="Custom Style Name"}`
+  - Track changes via `[inserted text]{.insertion author="Name" date="2026-04-20T12:00:00Z"}` and `[deleted text]{.deletion author="Name"}`
+  - Page breaks via `\newpage` (a LaTeX command that Pandoc supports in Markdown)
+  - CSS styles via `![Alt Text](image.png){width="5.5in" height="3in"}`
+- 20 Apr 2026. [Offpunk](https://offpunk.net/) is a CLI offline-first browser. Interesting idea, but installation is a problem.
+  After `sudo apt uninstall offpunk` running `offpunk` failed with `ImportError: lxml.html.clean module is now a separate project lxml_html_clean.`
+  After a `git clone` it reported `HTML document detected. Please install python-bs4 and python-readability`.
+  These are easy to fix, but I wasn't inclined.
 - 16 Aug 2026. Pain is good. Struggle is good. Stretch is good. Not new. But worth reminding, worth seeking.
 - 15 Apr 2026. [WaveCity](https://wavacity.com/) is a WASM build of Audacity, i.e. Audacity running in the browser! [Audiomass](https://audiomass.co/) is a similar but simpler audio editor - again, WASM-based. [Gemini](https://gemini.google.com/share/54d4778ed7bd)
 - 11 Apr 2026. [Resend](https://resend.com/) is a simple way to send emails via an API.

@@ -1,3 +1,31 @@
+🟣	RS	     664	    50	2026-04-26	zed-industries/codex-acp	
+🟣	RS	    8368	   130	2026-04-26	n0-computer/iroh	IP addresses break, dial keys instead. Modular networking stack in Rust.
+🟣	RS	    7001	   139	2026-04-26	pydantic/monty	A minimal, secure Python interpreter written in Rust for use by AI
+🟣	RS	   35834	  6437	2026-04-26	rtk-ai/rtk	CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
+🟣	GO	    9030	    27	2026-04-26	runatlantis/atlantis	Terraform Pull Request Automation
+🟣	GO	   13488	    91	2026-04-26	casdoor/casdoor	An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth server with web UI supporting OpenClaw, MCP, OAuth, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, Google Workspace, Azure AD
+🟣	GO	    1577	   207	2026-04-26	CJackHwang/ds2api	Deepseek to API: A lightweight, high-performance full-stack middleware converting client protocols to universal APIs. Supports multi-account rotation, compiled binaries, Vercel Serverless, and Docker. Compatible with Google, Claude, and OpenAI API formats.
+🟣	GO	     436	   127	2026-04-26	gastownhall/gascity	Orchestration-builder SDK for multi-agent coding workflows
+🟣	GO	    9791	   986	2026-04-26	google/osv-scanner	Vulnerability scanner written in Go which uses the data provided by https://osv.dev
+🟣	GO	   83142	  1272	2026-04-26	syncthing/syncthing	Open Source Continuous File Synchronization
+🟣	PY	   15214	 10185	2026-04-26	Fincept-Corporation/FinceptTerminal	FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.
+🟣	PY	   12387	  8668	2026-04-26	Alishahryar1/free-claude-code	Use claude-code for free in the terminal, VSCode extension or via discord like openclaw
+🟣	PY	   64689	  4799	2026-04-26	Z4nzu/hackingtool	ALL IN ONE Hacking Tool For Hackers
+🟣	PY	    3251	  1385	2026-04-26	Tracer-Cloud/opensre	Build your own AI SRE agents. The open source toolkit for the AI era ✨
+🟣	PY	    3922	   494	2026-04-26	alexzhang13/rlm	General plug-and-play inference library for Recursive Language Models (RLMs), supporting various sandboxes.
+🟣	PY	   26469	   543	2026-04-26	sgl-project/sglang	SGLang is a high-performance serving framework for large language models and multimodal models.
+🟣	TS	   44427	   657	2026-04-26	CherryHQ/cherry-studio	AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
+🟣	TS	    9504	  3301	2026-04-26	zilliztech/claude-context	Code search MCP for Claude Code. Make entire codebase the context for any coding agent.
+🟣	TS	   26094	   979	2026-04-26	langfuse/langfuse	🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23
+🟣	TS	    5682	  1246	2026-04-26	mnfst/manifest	Smart Model Routing for Personal AI Agents. Cut Costs up to 70% 🦞👧🦚
+🟣	TS	    4795	   332	2026-04-26	playcanvas/supersplat	3D Gaussian Splat Editor
+🟣	TS	    4112	  2799	2026-04-26	thunderbird/thunderbolt	AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.
+🟣	TS	   52673	  3747	2026-04-26	koala73/worldmonitor	Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
+🟣	JS	   13402	    73	2026-04-26	LibreSpark/LibreTV	一分钟搭建影视站，支持Vercel/Docker等部署方式
+🟣	JS	     665	    81	2026-04-26	a5c-ai/babysitter	Babysitter enforces obedience on agentic workforces and enables them to manage extremely complex tasks and workflows through deterministic, hallucination-free self-orchestration
+🟣	SH	    3388	    82	2026-04-26	CachyOS/linux-cachyos	Archlinux Kernel based on different schedulers and some other performance improvements.
+🟣	SH	   21503	  3731	2026-04-26	mattpocock/skills	My personal directory of skills, straight from my .claude directory.
+🟣	SH	   13047	  3022	2026-04-26	Leonxlnx/taste-skill	Taste-Skill (High-Agency Frontend) - gives your AI good taste. stops the AI from generating boring, generic, "slop"
 🟣	RS	    5556	   227	2026-04-19	superradcompany/microsandbox	🧱 secure, local, cross-platform and programmable sandboxes for AI agents
 🟣	GO	   25934	   232	2026-04-19	XIU2/CloudflareSpeedTest	🌩「自选优选 IP」测试 Cloudflare CDN 延迟和速度，获取最快 IP ！当然也支持其他 CDN / 多个解析 IP 的网站 ~
 🟣	GO	   16811	    75	2026-04-19	VictoriaMetrics/VictoriaMetrics	VictoriaMetrics: fast, cost-effective monitoring solution and time series database

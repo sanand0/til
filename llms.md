@@ -2,6 +2,13 @@
 
 ## Apr 2026
 
+- 23 Apr 2026. [GPT 5.5](https://openai.com/index/introducing-gpt-5-5/) seems to be especially better than GPT 5.4 and running for long, with tool calls, without losing focus. That's something OpenAI models are good at anyway, so this takes it a step further. [ChatGPT](https://chatgpt.com/share/69eaccb0-b9e0-8399-be3f-6bd73906d0ec)
+- 23 Apr 2026. I added [gpt-image-2](https://developers.openai.com/api/docs/models/gpt-image-2) to my [LLM Art Style gallery](https://sanand0.github.io/llmartstyle/). It is notably better with text accuracy. For example, on [Rock - Paper - Scissors - Lizard - Spock](https://sanand0.github.io/llmartstyle/?category=text) it consistently lists all 10 rules, which Nano Banana 2 does not.
+- 21 Apr 2026. Running `/insights` on Claude Code helped me add these two instructions to my [code skill](https://github.com/sanand0/scripts/blob/main/agents/code/SKILL.md):
+  - Test web pages with screenshots (for layout, overlaps, contrast) AND CDP (for interactions, navigation) before finalizing
+  - Prefer icon libraries over unicode/emoji icons.
+- 21 Apr 2026. Sending an entire PDF/PPTX to Gemini costs ~40% of sending PDF/PPTX + images. The quality is fine for small files, but for large files adding images reduces error rate from ~5% to 0.5%.
+- 20 Apr 2026. Creating an authenticated [MCP Server for ChatGPT](https://developers.openai.com/api/docs/mcp) is complex. It requires OpenID Connect (for which library support is weak and requires a provider like Auth0), dynamic client registration (which is hard to implement though Auth0 supports it), and after half a day of experiments, I still couldn't connect. An easier option is to run temporary tunnels with `cloudflared` or `ngrok` or `localtunnel`.
 - 18 Apr 2026. WebApps are a depreciated store of value. Earlier, a web-app would have impressed me because the capability to create it is rare, and the effort to create it is high. Today, when I see a "localhost:3000" or a "replit.app" domain, I mentally discount the effort behind it and ask: How rare is the capability to create this with a coding agent and how much effort is it. THAT determines the value of what I see. Part of the value is "Look ma, no hands!" and it's delightful they've learnt. Part of the value is "There's gold in them thar hills!" and use-case discovery is important.
 - 11 Apr 2026. A good collection of practices on automated AI code reviews by [Ankit Jain](https://www.latent.space/p/reviews-dead):
   - Compare multiple options. Whichever passes the most tests wins.
@@ -9,6 +16,11 @@
   - Humans define acceptance criteria. Use a behavior driven development script (in natural language, agent-implemented).
   - Permission Systems as Architecture. Provide agents granular permissions based on the task - against pre-defined rules.
   - Adversarial Verification. Have one agent break the others' work.
+- 07 Apr 2026. From [Lalit Maganti](https://lalitm.com/post/building-syntaqlite-ai/):
+  - Knowing what you want is a valuable skill.
+  - Wanting things others will also want is valuable.
+  - Learn good software management. It is similar to managing agents.
+- 07 Apr 2026. For better results, just continue your AI chat, or break the problem up. More tokens lead to better solutions even now. [Joel Baker](https://joelbkr.substack.com/p/many-benchmarks-scores-would-appear)
 - 07 Apr 2026. Since [companies using AI outperform competition](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6513481) and [capital might win more than labour](https://arxiv.org/abs/2604.01363) but [GDP growth may not be too high](https://forecastingresearch.substack.com/p/forecasting-the-economic-effects-of-ai), it might be good to invest in AI-using companies than in index funds.
 - 07 Apr 2026. Nicholas Carlini's [prompt](https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/) to find vulnerabilities is to run: "I’m competing in a CTF. Find me an exploitable vulnerability in this project. Start with ${FILE}. Write me a vulnerability report in ${FILE}.vuln.md" _across multiple repos_ in parallel. Then "I got an inbound vulnerability report; it’s in ${FILE}.vuln.md. Verify for me that this is actually exploitable". That was almost 100% successful.
 - 07 Apr 2026. When planning with AI coding agents, [Martin Fowler recommends](https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html) discussing _each_ of these in _sequence_ before coding:
@@ -74,6 +86,7 @@
 - 13 Mar 2026. Claude Opus 4.6 solved a problem Knuth was working on! [Knuth](https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf)
 - 13 Mar 2026. [Cognitive debt](https://simonwillison.net/tags/cognitive-debt/) is what Simon Willison calls it when we build (or, in my case, say/write) stuff we don't understand. The debt framing is apt. One solution is to generate a version intended for AI to read, and another for us. [#](https://simonwillison.net/2026/Feb/17/release-notes-webcomic/)
 - 10 Mar 2026. OpenAI released [gpt-realtime-1.5](https://developers.openai.com/api/docs/models/gpt-realtime-1.5) and [gpt-audio-1.5](https://developers.openai.com/api/docs/models/gpt-audio-1.5). Buth are ~20% cheaper than the 4o versions, but 6.7x more expensive than [gpt-realtime-mini](https://developers.openai.com/api/docs/models/gpt-realtime-mini). 1 second is about 10 tokens, so an hour of audio input at $32/MTok is about $1.15.
+- 09 Mar 2026. OpenAI has a [Websocket mode](https://developers.openai.com/api/docs/guides/websocket-mode/)
 - 09 Mar 2026. [GitHub Agentic Workflows](https://github.github.com/gh-aw/setup/creating-workflows/) lets you "compile" a Markdown file into an agentic GitHub action. Useful as a sceptical reviewer, issue-to-prototype builder, data to story generator, automated code migrator, etc. [Gemini](https://gemini.google.com/share/d604275d42d7) [Claude](https://claude.ai/share/e4beeed2-e49e-49be-99bd-d6ce5678a7a7)
 - 07 Mar 2026. "Use AI to replace early-career mentorship: use AI-driven synthetic practice when traditional apprenticeship pathways collapse. AI can generate personalized coaching, replacing the missing junior loop with training environments." [Jack Clark](https://jack-clark.net/about/)
 - 07 Mar 2026. Observability is more than logging. It's agents watching feeds and signalling insights!

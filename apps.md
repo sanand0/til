@@ -4,7 +4,18 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 
 ## Apr 2026
 
-- [ ] 13 Apr 2026. Pavan: Try NemoClaw with Google Groups for auto-responding
+- Write comprehensive tests for a spec and build it in Rust.
+- Find missing tests in an open source package and add it.
+- [ ] 21 Apr 2026. Explore Gemma 4 for transcription. Create a transcription benchmark from my transcripts
+- [ ] 17 Apr 2026. Jivraj: Use Browser Run to scrape something https://blog.cloudflare.com/browser-run-for-ai-agents/
+- [ ] 23 Apr 2026. Varun: OlmoEarth data stories
+- [ ] 22 Apr 2026. Mayank: Create a Claude Managed Agents demo that streams the responses
+- [x] 22 Apr 2026. Jivraj: Compare transcription tools. OpenWhispr #DROP
+- [ ] 20 Apr 2026. Modernize nicolaskruchten/pivottable
+- [ ] 20 Apr 2026. Mayank: Modernize https://github.com/jasondavies/d3-cloud
+- [x] 20 Apr 2026. Pavan: Explore LeWorldModel.
+- [ ] 19 Apr 2026. Pavan: Karpathy Wiki for Straive Google Drive
+- [ ] 13 Apr 2026. Pavan: Try NemoClaw with Google Groups for auto-responding #SKIP
 - [ ] 13 Apr 2026. #EDU Ritesh: What's the difference between papers of a University vs OpenAlex / arXiv?
 - [x] 11 Apr 2026. #EDU Ritesh: ERIC dataset EmbedUMAP. Done. #SKIP Not relevant now
 - [x] 11 Apr 2026. #EDU Pavan: Video knowledge mining. Take a public video library. Create auto-transcript → semantic search → "ask the video" chatbot → auto-generate quiz -> chaptered replay. A dead archive becomes a live knowledge base. https://pavankumart18.github.io/learn-with-ai/
