@@ -1,7 +1,15 @@
 # Things I learned
 
+## May 2026
+
+- 03 May 2026. [LocalSend](https://github.com/localsend/localsend) is a pretty quick way to share files between phone and laptop even if you don't have a network - if you connect the laptop to the phone hotspot.
+- 03 May 2026. [GNOME Network Displays](https://flathub.org/en/apps/org.gnome.NetworkDisplays) works pretty well if you want to screencast your screen to a network display - e.g. a Smart TV with Miracast or Chromecast support.
+- 02 May 2026. [LiteParse](https://github.com/run-llama/liteparse) is a PDF to text library that you can run via `npx --package=@llamaindex/liteparse lit parse document.pdf`. [Simon Willison](https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/)
+
 ## Apr 2026
 
+- 29 Apr 2026. "... the eigenquestion is the question where, if answered, it likely answers the subsequent questions as well." [Shishir Mehrotra & Matt Hudson](https://coda.io/@shishir/eigenquestions-the-art-of-framing-problems/eigenquestions-3)
+- 27 Apr 2026. There are several industries / markets that MBA case studies rarely cover ([ChatGPT](https://chatgpt.com/share/69efcf7a-6bf0-83ea-86dd-36e115e7540c)): Kirana stores; Care (child care, elder care, domestic work); Faith (finance, food, media, education); Remittances; Gambling (lottery, sports betting, gacha); Scams & organized fraud; Counterfeiting; ... <!-- https://chatgpt.com/c/69efa7bb-f918-83ea-9bc5-e3f7231c75da + https://gemini.google.com/app/dc5ac9f4a4f44cf0 -->
 - 25 Apr 2026. `mdq` is pretty useful to extract Markdown sections. For example `cat *.md | mdq '# Title'` extracts all sections where the header contains 'Title' (case-insensitive).
 - 24 Apr 2026. [CloudFlare Browser Run](https://developers.cloudflare.com/browser-run/) is, roughly, a browser as a service. [Pricing](https://developers.cloudflare.com/browser-run/pricing/): 10 hours free per month, then 9c per hour. I had Codex run a small [research](https://github.com/sanand0/research/tree/main/cloudflare-browser-run) to explore it, and it seems simple to set it up and use it.
 - 22 Apr 2026. World leaders do keep us entertained. <!-- https://gemini.google.com/app/240186d320b283d8 -->

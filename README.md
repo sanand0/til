@@ -1,6 +1,6 @@
 # Things I learned
 
-This repo publishes my notes / learnings on Sundays at [til.s-anand.net](https://til.s-anand.net).
+My notes / learnings, published on Sundays at [til.s-anand.net](https://til.s-anand.net).
 
 The [live branch](https://github.com/sanand0/til/tree/live) is updated real-time via the [GitDoc VS Code extension](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc).
 
@@ -55,7 +55,7 @@ OPENAI_API_KEY=... bash update.sh
 
 ## Related
 
-These notes are read from GitHub by these tools:
+The tools below read these notes from GitHub:
 
 - [Recall](https://tools.s-anand.net/recall/): Helps me remember things I learned by randomly showing recent learnings.
 - [Ideator](https://tools.s-anand.net/ideator/). Generates new ideas by combining 2 random notes via ChatGPT.

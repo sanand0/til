@@ -1,5 +1,6 @@
 # Ideator
 
+- 30 Apr 2026. [Research: Does making an emotional decision before learning create a stronger cross-domain knowledge transfer than making a rational one?](https://claude.ai/share/91688f52-e31b-4d74-a4fc-00478f88d8fa) <!-- https://claude.ai/chat/42bfa8f6-6beb-4581-8a0b-3757b0ae7e6e -->
 - 25 Mar 2026. [Confessional AI training for honest model behaviour](https://claude.ai/share/08b1e235-0073-4de1-bdb6-27307ef3174f). Research probing for "absence", i.e. what the model is NOT saying <!-- https://claude.ai/chat/d5a4e1e9-595d-4062-ab95-817d57bfdf9d -->
 - 18 Mar 2026. [The Human-Verified Match Campaign](https://claude.ai/share/087a929c-c8bf-4231-9dcc-3c13c9b93591). Unique physical QR codes in events to prove to corporate matching program sponsors that the human donors were actually present at the event, and fund-match only human donors from the event. <!-- https://claude.ai/chat/1ceac89c-ae06-4430-990e-697a731683e0 -->
 - 11 Mar 2026. [Visual Fasting: Train Web-Scraping Models on Deliberately Starved Screenshots](https://claude.ai/share/ac98afe8-3fb7-47c2-bf4a-0aaf8ec50dea). Train the OCR model on screenshots where 70% of the page is randomly blacked out, and force it to reconstruct meaning from the scraps it _can_ see. <!-- https://claude.ai/chat/7ada353c-1ede-4767-a28a-934fa01c8ceb -->

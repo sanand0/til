@@ -1,3 +1,20 @@
+🟣	RS	     527	   172	2026-05-03	ilysenko/codex-desktop-linux	Run OpenAI Codex Desktop on Linux - automated installer
+🟣	RS	   11289	    78	2026-05-03	GitoxideLabs/gitoxide	An idiomatic, lean, fast & safe pure Rust implementation of Git
+🟣	RS	   11530	   210	2026-05-03	Zackriya-Solutions/meetily	Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows.
+🟣	RS	    3215	   970	2026-05-03	tonhowtf/omniget	Open source desktop app for studying online courses and books on your computer. Watch Hotmart, Udemy, Kiwify courses with timestamped notes, spaced repetition flashcards and a focus timer. Read PDFs and EPUBs with highlights, bookmarks and a focus mode. Also downloads YouTube, Instagram, TikTok and torrents.
+🟣	RS	    1011	   143	2026-05-03	xingkongliang/skills-manager	A lightweight desktop app to manage, sync, and organize AI agent skills across 15+ coding tools — Cursor, Claude Code, Codex, Copilot, and more.
+🟣	RS	   52769	 26208	2026-05-03	warpdotdev/warp	Warp is an agentic development environment, born out of the terminal.
+🟣	GO	   23005	  1702	2026-05-03	gastownhall/beads	Beads - A memory upgrade for your coding agent
+🟣	GO	    7028	   952	2026-05-03	chenhg5/cc-connect	Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms.
+🟣	GO	    7052	    74	2026-05-03	hatchet-dev/hatchet	🪓 An orchestration engine for background tasks, AI agents, and durable workflows
+🟣	PY	    9181	  2315	2026-05-03	AIDC-AI/Pixelle-Video	🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine
+🟣	PY	   22710	  2678	2026-05-03	soxoj/maigret	🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites
+🟣	PY	    8126	  2091	2026-05-03	huggingface/ml-intern	🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models
+🟣	TS	    2123	  1244	2026-05-03	caamer20/Telegram-Drive	Turn your Telegram account into an unlimited, secure cloud storage drive. an Open-source desktop app built with Tauri, Rust, and React.
+🟣	TS	  354040	   576	2026-05-03	nilbuild/developer-roadmap	Interactive roadmaps, guides and other educational content to help developers grow in their careers.
+🟣	JS	    2267	  1274	2026-05-03	fspecii/ace-step-ui	🎵 The Ultimate Open Source Suno Alternative - Professional UI for ACE-Step 1.5 AI Music Generation. Free, local, unlimited. Stop paying for Suno!
+🟣	JS	    2214	   178	2026-05-03	robinebers/openusage	Burning through your subscriptions too fast? Paying for stuff you never use? Stop guessing. OpenUsage is free and open source.
+🟣	JS	   22843	   280	2026-05-03	copy/v86	x86 PC emulator and x86-to-wasm JIT, running in the browser
 🟣	RS	     664	    50	2026-04-26	zed-industries/codex-acp	
 🟣	RS	    8368	   130	2026-04-26	n0-computer/iroh	IP addresses break, dial keys instead. Modular networking stack in Rust.
 🟣	RS	    7001	   139	2026-04-26	pydantic/monty	A minimal, secure Python interpreter written in Rust for use by AI

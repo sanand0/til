@@ -2,21 +2,35 @@
 
 Descriptions of apps I felt would be interesting or useful to build (or find).
 
+Themes:
+
+- Interact with legacy apps: ERPs, LMSs, CAD, ...
+- Source from legacy data: PDFs, logs, ...
+- Orchestrate multiple agents dynamically: Claws, Managed agents, Sub-agents, etc.
+
+## May 2026
+
+- [ ] 14 Jan 2026. Use GemmaScope to explore the neural activations on various inputs, e.g. publishing-specific concepts — "peer review," "retraction," "open access," "reproducibility." The question: does the model have coherent internal representations of these, or are they diffuse? Novel mechanistic interpretability work that Straive could publish and that no one in academic publishing has done yet.
+- [ ] 02 May 2026. (Repeat of unassigned 12 Mar 2026 task.) Create an intuitive data visualization + narrative story from OpenAI's Frontier Science eval. [Paper](https://cdn.openai.com/pdf/2fcd284c-b468-4c21-8ee0-7a783933efcc/frontierscience-paper.pdf) | [Data](https://huggingface.co/datasets/openai/frontierscience)
+- [ ] 02 May 2026. Create a TDS discourse auto-answerer skill + knowledge base that we update regularly. Running a single prompt on a coding agent from that repo automatically answer pending questions where clear, ask the user for specific inputs where unclear, and auto-update the knowledge base on each run.
+- [ ] 02 May 2026. Live embedumap of a Google Form saved on a Google Sheet, auto-refreshed as new answers arrive, run via a single shell/Python script.
+
 ## Apr 2026
 
 - Write comprehensive tests for a spec and build it in Rust.
 - Find missing tests in an open source package and add it.
-- [ ] 21 Apr 2026. Explore Gemma 4 for transcription. Create a transcription benchmark from my transcripts
-- [ ] 17 Apr 2026. Jivraj: Use Browser Run to scrape something https://blog.cloudflare.com/browser-run-for-ai-agents/
-- [ ] 23 Apr 2026. Varun: OlmoEarth data stories
-- [ ] 22 Apr 2026. Mayank: Create a Claude Managed Agents demo that streams the responses
+- [ ] 13 Apr 2026. ~~Ritesh~~: Mayank (30 Apr 2026): What's the difference between papers of a University vs OpenAlex / arXiv? Create an embedumap + strategy similar to https://files.s-anand.net/blog/nie-research/ for any University
+- [ ] 30 Apr 2026. Pavan: Create a Claude Managed Agents demo that streams the responses #DROP
+- [ ] 27 Apr 2026. Jivraj: Explore Gemma 4 for transcription. Create a transcription benchmark from my transcripts
+- [ ] 17 Apr 2026. Jivraj: Use Browser Run to scrape something https://blog.cloudflare.com/browser-run-for-ai-agents/ #DROP
+- [ ] 23 Apr 2026. Varun: OlmoEarth data stories #SKIP Not enough data
+- [ ] 22 Apr 2026. Mayank: Create a Claude Managed Agents demo that streams the responses #DROP
 - [x] 22 Apr 2026. Jivraj: Compare transcription tools. OpenWhispr #DROP
 - [ ] 20 Apr 2026. Modernize nicolaskruchten/pivottable
 - [ ] 20 Apr 2026. Mayank: Modernize https://github.com/jasondavies/d3-cloud
 - [x] 20 Apr 2026. Pavan: Explore LeWorldModel.
 - [ ] 19 Apr 2026. Pavan: Karpathy Wiki for Straive Google Drive
 - [ ] 13 Apr 2026. Pavan: Try NemoClaw with Google Groups for auto-responding #SKIP
-- [ ] 13 Apr 2026. #EDU Ritesh: What's the difference between papers of a University vs OpenAlex / arXiv?
 - [x] 11 Apr 2026. #EDU Ritesh: ERIC dataset EmbedUMAP. Done. #SKIP Not relevant now
 - [x] 11 Apr 2026. #EDU Pavan: Video knowledge mining. Take a public video library. Create auto-transcript → semantic search → "ask the video" chatbot → auto-generate quiz -> chaptered replay. A dead archive becomes a live knowledge base. https://pavankumart18.github.io/learn-with-ai/
 - [x] 11 Apr 2026. #EDU Mayank: Create a student advisor support portal. https://mynkpdr.github.io/datamind-synthetic-demo/
@@ -38,7 +52,7 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 - [x] 18 Mar 2026. #EDU Jivraj. Compare AI policies across universities. https://sanand0.github.io/datastories/ai-policies/
 - [x] 15 Mar 2026. Mayank. Use [SamGeo](https://samgeo.gishub.org/) to polygonize Bangalore lakes over time, etc.
 - [ ] 15 Mar 2026. #TODO Can I _clean_ code? Download unclean data from Kaggle context. Use coding agents to write code to clean the data. What techniques are robust?
-- [ ] 14 Mar 2026. Ritesh. Explore PCA of data visualizations: NYT, Pudding, Bloomberg vs generic dashboards / Excel vs AI generated charts, different chart types. Is there a "taste" score? Where do AI generated images lie? Use [Gemini Embedding 2](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2/).
+- [x] 14 Mar 2026. Ritesh. Explore PCA of data visualizations: NYT, Pudding, Bloomberg vs generic dashboards / Excel vs AI generated charts, different chart types. Is there a "taste" score? Where do AI generated images lie? Use [Gemini Embedding 2](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2/). https://ritesh17rb.github.io/chart-map/
 - [ ] 12 Mar 2026. #TODO Create an intuitive data visualization + narrative story from OpenAI's Frontier Science eval. [Paper](https://cdn.openai.com/pdf/2fcd284c-b468-4c21-8ee0-7a783933efcc/frontierscience-paper.pdf) | [Data](https://huggingface.co/datasets/openai/frontierscience)
 - [ ] 09 Mar 2026. Pavan. Use AI coding agents to create video tutorials explaining how to use a website. Automate video creation using browserless. Include captions + audio. The output is (a) sample videos + supporting material for a few popular web apps, and (b) a reusable framework for doing this for any web app.
 - [x] 06 Mar 2026. Pavan. Manufacturing / Robotic world environment MCPs. https://pavankumart18.github.io/ai-ros/
@@ -71,7 +85,6 @@ Descriptions of apps I felt would be interesting or useful to build (or find).
 - [x] 16 Jan 2026. Explore OlmoEarth correlations and similarities of phrases grid by grid and how that varies by city. https://ritesh17rb.github.io/olmo-earth/
 - [x] 15 Jan 2026. Pavan. Use a local model to transcribe all Dilbert strips - along with who said what by panel and who's in each panel. https://pavankumart18.github.io/comic-transcriptions/
 - 14 Jan 2026. Build an interactive text adventure game that can teach a concept
-- [ ] 14 Jan 2026. Use GemmaScope to explore the neural activations on various inputs
 - [ ] 12 Jan 2026. Analyze the [Metaculus](https://www.metaculus.com/api/) feeds for context-specific insights and generate feeds. And/or [Manifold Markets](https://docs.manifold.markets/api)
 - [ ] 07 Jan 2025. Live transcription and Q&A for meetings
 - [x] 05 Jan 2025. When asked to reproduce an image, how well do Nano Banana, GPT Image 1, etc. reproduce the original image? Evaluate the difference using multiple metrics (e.g. MS-SSIM, SSIMULACRA2, Butteraugli, FLIP, LPIPS, etc.) Identify which metric best aligns with human perception and which model performs best against each metric.

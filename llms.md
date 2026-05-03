@@ -1,7 +1,20 @@
 # LLM learnings
 
+## May 2026
+
+- 02 May 2026. Always add indecisiveness, inaction, "other", "not applicable", etc. as an option to LLMs. They are trained for decisive responses and pattern matching, so we need to guide the the other way. [Martin Fowler](https://martinfowler.com/fragments/2026-04-14.html)
+- 02 May 2026. GPT 5.5 is priced _twice_ that of GPT 5.4. No wonder my Codex usage is much higher than last month. [Simon Willison](https://simonwillison.net/2026/Apr/23/gpt-5-5/#a-few-more-notes-on-gpt-5-5). I am better off sticking to `medium` effort instead of the `xhigh` I usually use - it may not be required. [OpenAI](https://developers.openai.com/api/docs/guides/latest-model)
+
 ## Apr 2026
 
+- 29 Apr 2026. Claude Code stores the logged in OAuth token at `~/.claude/.credentials.json`. We can use that to fetch `https://api.anthropic.com/api/oauth/usage` and retrieve Claude usage and reset times. `uvx ccusage` does this automatically, but I prefer my own script.
+- 29 Apr 2026. Ontology matters in the AI era. But some stuff matters more, and some less. <!-- https://claude.ai/chat/2f6fdf7e-9d32-4c45-ac8d-603d029aed5b -->
+  - 🟢 MORE: Definitions: what "customer" means
+  - 🟢 MORE: Constraints: e.g. "don't reclassify loans"
+  - 🟢 MORE: Interactions: how to verify, coordinate, delegate, ...
+  - 🔴 LESS: Creating ontologies: agents can do that.
+  - 🔴 LESS: Completeness and rigor: agents tolerate uncertainty.
+  - 🔴 LESS: Proprietary: agents can reverse-engineer.
 - 23 Apr 2026. [GPT 5.5](https://openai.com/index/introducing-gpt-5-5/) seems to be especially better than GPT 5.4 and running for long, with tool calls, without losing focus. That's something OpenAI models are good at anyway, so this takes it a step further. [ChatGPT](https://chatgpt.com/share/69eaccb0-b9e0-8399-be3f-6bd73906d0ec)
 - 23 Apr 2026. I added [gpt-image-2](https://developers.openai.com/api/docs/models/gpt-image-2) to my [LLM Art Style gallery](https://sanand0.github.io/llmartstyle/). It is notably better with text accuracy. For example, on [Rock - Paper - Scissors - Lizard - Spock](https://sanand0.github.io/llmartstyle/?category=text) it consistently lists all 10 rules, which Nano Banana 2 does not.
 - 21 Apr 2026. Running `/insights` on Claude Code helped me add these two instructions to my [code skill](https://github.com/sanand0/scripts/blob/main/agents/code/SKILL.md):
