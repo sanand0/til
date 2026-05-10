@@ -2,6 +2,23 @@
 
 ## May 2026
 
+- 08 May 2026. Notes from [Simon Willison's notes from the Claude Code event](https://simonwillison.net/2026/May/6/code-w-claude-2026/):
+  - "Design for the next model". Build things that don't quite work today on the assumption that they'll start working with a model upgrade in the future.
+  - "The advisor strategy". Instead of using a smarter model to plan, use smaller models to ask Opus for advice-on-demand.
+  - Dreaming looks really interesting. You can run a task over night which examines previous sessions and creates new memories.
+  - A [routine](https://code.claude.com/docs/en/routines) is a saved Claude Code configuration: a prompt, one or more repositories, and a set of connectors, packaged once and run automatically. Routines execute on Anthropic-managed cloud infrastructure, so they keep working when your laptop is closed.
+- 04 May 2026. I added `approvals_reviewer = "auto_review"` to my `~/.codex/config.toml`. This enables [auto review](https://alignment.openai.com/auto-review) which uses an LLM to figure out whether to ask a human to approve or not. It's a lot less intrusive than asking every time. Not perfectly safe, though.
+- 04 May 2026. Copilot supports a [`/chronicle`](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli/chronicle) command that suggest tips and improvements when using Copilot. It's like `/insights` on Claude Code and
+- 03 May 2026. I'm evaluating [rtk](https://github.com/rtk-ai/rtk) - a CLI proxy to reduce tokens. For example `rtk ls` or `rtk git status` shows agent-friendly compact output. I just added one like to my AGENTS.md: "Always prefix shell commands with `rtk`. Examples: `rtk git status`, `rtk pytest -q`, etc." instead of using `rtk init -g`. I am testing it out, so I don't know the impact, but it seems harmless. (Based on 2 days' usage, across 216 commands, it saved ~50% of 37K tokens. Not much, but harmless.)
+- 03 May 2026. The emerging convention to mark a section of HTML / Markdown as AI generated content is to wrap it in:
+  - `<section ai-disclosure="ai-generated" data-ai-model="claude-sonnet-4.6" data-ai-provider="Anthropic">` ([W3C AI Content Disclosure Community Group](https://www.w3.org/community/ai-content-disclosure/)).
+
+  The `ai-disclosure` values can be `none`, `ai-assisted`, `ai-generated`, `autonomous`.
+
+  To stop the entire page for AI training, use one or more of these:
+    - [`AI-Disclosure: mode=ai-originated` HTTP header](https://www.ietf.org/archive/id/draft-abaris-aicdh-00.html) which CloudFlare supports
+    - [`content-signal: ai-train=no` HTTP header](https://contentsignals.org/) from IETF
+    - `<meta name="noai" content="noai, noimageai">` which is an emerging convention
 - 02 May 2026. Always add indecisiveness, inaction, "other", "not applicable", etc. as an option to LLMs. They are trained for decisive responses and pattern matching, so we need to guide the the other way. [Martin Fowler](https://martinfowler.com/fragments/2026-04-14.html)
 - 02 May 2026. GPT 5.5 is priced _twice_ that of GPT 5.4. No wonder my Codex usage is much higher than last month. [Simon Willison](https://simonwillison.net/2026/Apr/23/gpt-5-5/#a-few-more-notes-on-gpt-5-5). I am better off sticking to `medium` effort instead of the `xhigh` I usually use - it may not be required. [OpenAI](https://developers.openai.com/api/docs/guides/latest-model)
 

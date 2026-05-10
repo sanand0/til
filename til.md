@@ -2,6 +2,13 @@
 
 ## May 2026
 
+- 09 May 2026. I'm experimenting with [Tauon MusicBox](https://tauonmusicbox.rocks/) as an alternative to VLC as a music player.
+- 09 May 2026. `xz` is pretty slow by default. `xz -T0` uses all available threads and speeds it up ~3X. Enabling "Performance mode" (over a power-saver mode) produces a further speed-up of ~2X for me. For a 200MB file, that reduces the time from ~1 minute to 10 seconds.
+- 06 May 2026. Overheard: "VCs say, 'OpenAI wants to get into commerce, so why are you getting into commerce?' A few weeks later, 'OpenAI no longer wants to get into commerce, so why are you?"
+- 06 May 2026. Delightful discovery of the day: Super + Shift + Arrow keys to move windows between monitors on Ubuntu.
+- 05 May 2026. [television](https://github.com/alexpasmantier/television) is a fast, portable fuzzy finder. Like `fzf` but faster, useful for files, text, git repos, docker images, etc.
+- 03 May 2026. [Carbonyl](https://github.com/fathyb/carbonyl/releases) is a CLI Chromium browser. Sort of like Lynx, but supports audio/video, JavaScript, even WASM, etc. This was the [author's first Rust project](https://fathy.fr/carbonyl).
+- 03 May 2026. I tried [Zed](https://zed.dev/) as an alternative to VS Code. It's fast and lightweight, but lacks the ecosystem of VS Code. Plugins are harder to build and Markdown support is weak. I would use it on a flight to save power, not otherwise. This is similar to others' experience. [ChatGPT](https://chatgpt.com/share/69f703b4-409c-83ea-a9fd-0c601de973f3) <!-- https://chatgpt.com/c/69f6cf11-f870-83ea-b9bb-e35402db3226 -->
 - 03 May 2026. [LocalSend](https://github.com/localsend/localsend) is a pretty quick way to share files between phone and laptop even if you don't have a network - if you connect the laptop to the phone hotspot.
 - 03 May 2026. [GNOME Network Displays](https://flathub.org/en/apps/org.gnome.NetworkDisplays) works pretty well if you want to screencast your screen to a network display - e.g. a Smart TV with Miracast or Chromecast support.
 - 02 May 2026. [LiteParse](https://github.com/run-llama/liteparse) is a PDF to text library that you can run via `npx --package=@llamaindex/liteparse lit parse document.pdf`. [Simon Willison](https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/)
