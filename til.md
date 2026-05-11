@@ -2,7 +2,7 @@
 
 ## May 2026
 
-- 11 May 2026. When I charge my Thinkpad (P1 Gen 7) with a 65W
+- 11 May 2026. When I charge my Lenovo Thinkpad (P1 Gen 7) with the 170W charger that came with the laptop, it delivers ~60W of power to the battery, charging the laptop in about an hour. A 65W laptop delivers half the power and takes twice
 - 09 May 2026. I'm experimenting with [Tauon MusicBox](https://tauonmusicbox.rocks/) as an alternative to VLC as a music player.
 - 09 May 2026. `xz` is pretty slow by default. `xz -T0` uses all available threads and speeds it up ~3X. Enabling "Performance mode" (over a power-saver mode) produces a further speed-up of ~2X for me. For a 200MB file, that reduces the time from ~1 minute to 10 seconds.
 - 06 May 2026. Overheard: "VCs say, 'OpenAI wants to get into commerce, so why are you getting into commerce?' A few weeks later, 'OpenAI no longer wants to get into commerce, so why are you?"
