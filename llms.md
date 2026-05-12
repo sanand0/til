@@ -2,6 +2,7 @@
 
 ## May 2026
 
+- 12 May 2026. [flipbook.page](https://flipbook.page/) is a fascinating generative UI exploration. It's a visual browser, i.e. it generates an image based on text, you click anywhere, it generates an image interpreting based on where you clicked, and so on. A very different style of exploration!
 - 12 May 2026. Vercel's [`deepsec`](https://github.com/vercel-labs/deepsec/) uses Codex / Claude to search for vulnerabilities, but "scans can cost thousands or even tens-of-thousands of dollars for large codebases".
 - 08 May 2026. Notes from [Simon Willison's notes from the Claude Code event](https://simonwillison.net/2026/May/6/code-w-claude-2026/):
   - "Design for the next model". Build things that don't quite work today on the assumption that they'll start working with a model upgrade in the future.
