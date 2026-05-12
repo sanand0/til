@@ -2,6 +2,7 @@
 
 ## May 2026
 
+- 12 May 2026. Vercel's [`deepsec`](https://github.com/vercel-labs/deepsec/) uses Codex / Claude to search for vulnerabilities, but "scans can cost thousands or even tens-of-thousands of dollars for large codebases".
 - 08 May 2026. Notes from [Simon Willison's notes from the Claude Code event](https://simonwillison.net/2026/May/6/code-w-claude-2026/):
   - "Design for the next model". Build things that don't quite work today on the assumption that they'll start working with a model upgrade in the future.
   - "The advisor strategy". Instead of using a smarter model to plan, use smaller models to ask Opus for advice-on-demand.
