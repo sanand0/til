@@ -2,6 +2,7 @@
 
 ## May 2026
 
+- 13 May 2026. BitWarden supports a [`bw` CLI](https://bitwarden.com/help/cli/) that seems handy for quick CLI access to passwords. It's a step towards me moving away from saving passwords unencrypted on my local file system.
 - 12 May 2026. Singapore has banned prediction markets like Polymarket and Kalshi. Pity. I was hoping to use AI coding agents to play them. [Yahoo](https://sg.news.yahoo.com/why-people-betting-thousands-dollars-023000224.html)
 - 11 May 2026. When I charge my Lenovo Thinkpad (P1 Gen 7) with the 170W charger that came with the laptop, it delivers ~60W of power to the battery, charging the laptop in about an hour. A 65W laptop delivers half the power and takes twice
 - 09 May 2026. I'm experimenting with [Tauon MusicBox](https://tauonmusicbox.rocks/) as an alternative to VLC as a music player.
