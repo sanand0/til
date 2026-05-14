@@ -11,7 +11,16 @@ NEW_TSVDATA="$(mktemp)"
 FETCH_DIR="$(mktemp -d)"
 trap 'rm -rf "$FETCH_DIR"; rm -f "$NEW_TSVDATA" "${TMP_OUT:-}"' EXIT
 
-if ! command -v gtrending >/dev/null 2>&1; then
+GTRENDING="${GTRENDING:-}"
+if [[ -z "$GTRENDING" ]]; then
+  if command -v gtrending >/dev/null 2>&1; then
+    GTRENDING="$(command -v gtrending)"
+  elif [[ -x "$HOME/.local/share/uv/tools/gtrending/bin/gtrending" ]]; then
+    GTRENDING="$HOME/.local/share/uv/tools/gtrending/bin/gtrending"
+  fi
+fi
+
+if [[ -z "$GTRENDING" || ! -x "$GTRENDING" ]]; then
   echo "gtrending is not installed. Install it outside the timer, e.g. uv tool install gtrending" >&2
   exit 127
 fi
@@ -25,7 +34,7 @@ languages=(rust go python typescript javascript shell)
 
 for language in "${languages[@]}"; do
   out_json="$FETCH_DIR/$language.json"
-  if ! gtrending repos --language "$language" --since weekly --json > "$out_json"; then
+  if ! "$GTRENDING" repos --language "$language" --since weekly --json > "$out_json"; then
     echo "Failed to fetch weekly trending repos for language: $language" >&2
     exit 1
   fi
