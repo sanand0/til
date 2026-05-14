@@ -7,7 +7,7 @@ eval "$(mise env -s bash)"
 
 SCRIPT_DIR="$(dirname "$(realpath "$0")")"
 OUT="$SCRIPT_DIR/trending-repos.tsv"
-NEW_TSVDATA="$(mktemp)"
+NEW_TSVDATA="$(mktemp "$SCRIPT_DIR/.trending-repos.new.XXXXXX")"
 FETCH_DIR="$(mktemp -d)"
 trap 'rm -rf "$FETCH_DIR"; rm -f "$NEW_TSVDATA" "${TMP_OUT:-}"' EXIT
 
@@ -69,7 +69,7 @@ cat "$NEW_TSVDATA"
 
 # Prepend only new repos. Keep old content unchanged at bottom.
 if [[ -f "$OUT" ]]; then
-  TMP_OUT="$(mktemp)"
+  TMP_OUT="$(mktemp "$SCRIPT_DIR/.trending-repos.out.XXXXXX")"
   awk -F'\t' 'FNR==NR{seen[$6]=1; old[NR]=$0; n=NR; next}
               !($6 in seen){print}
               END{for(i=1;i<=n;i++) print old[i]}' \
