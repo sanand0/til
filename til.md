@@ -2,6 +2,7 @@
 
 ## May 2026
 
+- 16 May 2026. I had GPT-5.5 and Opus 4.7 analyze a few of my conversations and learnt that I need to ask myself: "What must they do?" in my conversations. That lets me speak with intention rather than instict. (Instinct has its place. I happen to over-use it.) <!-- Based on Ankor Disagreement on Outcome Pricing: https://chatgpt.com/c/6a07db43-8b68-83ec-8aa6-da51ebca2c86 | https://claude.ai/chat/3e2ccaae-e6a0-473c-9f81-8d5787e689ad -->
 - 13 May 2026. Turns out there are several well-established taxonomies. It makes sense to align with these. Linked data is powerful and AI makes linkage easy.
   - **General Knowledge**: Wikidata, DBpedia, YAGO.
   - **People**: VIAF, ISNI, ORCID, LC Name Authority, GND.
