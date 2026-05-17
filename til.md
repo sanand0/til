@@ -2,6 +2,19 @@
 
 ## May 2026
 
+- 17 May 2026. Google Maps typically shows me a cycling time of 30 minutes when it take me 40 minutes and a walking time of 40 minutes when it take me 30 minutes. Either I walk much faster and cycle much lower than the typical person or Google Maps is not well calibrated to Singapore and India.
+- 16 May 2026. I had GPT-5.5 and Opus 4.7 analyze a few of my conversations and learnt that I need to ask myself: "What must they take away? What must you take away?" in my conversations. That lets me speak with intention rather than instict. (Instinct has its place. I happen to over-use it.) <!-- Based on Ankor Disagreement on Outcome Pricing: https://chatgpt.com/c/6a07db43-8b68-83ec-8aa6-da51ebca2c86 | https://claude.ai/chat/3e2ccaae-e6a0-473c-9f81-8d5787e689ad -->
+- 13 May 2026. Turns out there are several well-established taxonomies. It makes sense to align with these. Linked data is powerful and AI makes linkage easy.
+  - **General Knowledge**: Wikidata, DBpedia, YAGO.
+  - **People**: VIAF, ISNI, ORCID, LC Name Authority, GND.
+  - **Places**: GeoNames, Getty TGN, ISO 3166.
+  - **Organizations**: LEI, ROR, Wikidata.
+  - **Books/Media**: Open Library, WorldCat, MusicBrainz, IMDB.
+  - **Chemicals/Biology**: PubChem, ChEBI, GBIF, ITIS.
+  - **Legal/Units/Math/Events**: EuroVoc, QUDT, OEIS, PeriodO, etc.
+- 13 May 2026. BitWarden supports a [`bw` CLI](https://bitwarden.com/help/cli/) that seems handy for quick CLI access to passwords. It's a step towards me moving away from saving passwords unencrypted on my local file system.
+- 12 May 2026. Singapore has banned prediction markets like Polymarket and Kalshi. Pity. I was hoping to use AI coding agents to play them. [Yahoo](https://sg.news.yahoo.com/why-people-betting-thousands-dollars-023000224.html)
+- 11 May 2026. When I charge my Lenovo Thinkpad (P1 Gen 7) with the 170W charger that came with the laptop, it delivers ~60W of power to the battery, charging the laptop in about an hour. A 65W laptop delivers half the power and takes twice as long.
 - 09 May 2026. I'm experimenting with [Tauon MusicBox](https://tauonmusicbox.rocks/) as an alternative to VLC as a music player.
 - 09 May 2026. `xz` is pretty slow by default. `xz -T0` uses all available threads and speeds it up ~3X. Enabling "Performance mode" (over a power-saver mode) produces a further speed-up of ~2X for me. For a 200MB file, that reduces the time from ~1 minute to 10 seconds.
 - 06 May 2026. Overheard: "VCs say, 'OpenAI wants to get into commerce, so why are you getting into commerce?' A few weeks later, 'OpenAI no longer wants to get into commerce, so why are you?"
