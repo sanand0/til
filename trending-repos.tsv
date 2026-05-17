@@ -1,3 +1,47 @@
+🟣	GO	     689	   103	2026-05-17	m5stack/StackChan	StackChan open source!
+🟣	GO	   72508	   265	2026-05-17	caddyserver/caddy	Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
+🟣	GO	    7703	    39	2026-05-17	chaos-mesh/chaos-mesh	A Chaos Engineering Platform for Kubernetes.
+🟣	GO	   24063	    40	2026-05-17	urfave/cli	A declarative, simple, fast, and fun package for building command line tools in Go
+🟣	GO	    4886	   116	2026-05-17	mayswind/ezbookkeeping	A lightweight, self-hosted personal finance app with a user-friendly interface and powerful bookkeeping features.
+🟣	GO	   27018	   325	2026-05-17	gitleaks/gitleaks	Find secrets with Gitleaks 🔑
+🟣	GO	   22805	    33	2026-05-17	jaegertracing/jaeger	CNCF Jaeger, a Distributed Tracing Platform
+🟣	GO	    1982	   166	2026-05-17	enfein/mieru	mieru is a socks5 / HTTP / HTTPS proxy to bypass censorship. 見える是一款 socks5 / HTTP / HTTPS 网络代理翻墙工具。
+🟣	JS	    7867	   259	2026-05-17	justlovemaki/AIClient2API	Simulates Gemini CLI, Antigravity, Codex, Grok, and Kiro client requests, compatible with the OpenAI API. It supports thousands of Gemini model requests per day and offers free use of the built-in Claude model in Kiro. Easily connect to any client via the API, making AI development more efficient!
+🟣	JS	    1828	   243	2026-05-17	Haleclipse/CodexDesktop-Rebuild	Codex Desktop App - Cross-platform Rebuild
+🟣	JS	   21247	  1779	2026-05-17	jackwener/OpenCLI	Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to discover, learn, and execute tools seamlessly via a unified AGENT.md integration.
+🟣	JS	    4396	   487	2026-05-17	zarazhangrui/follow-builders	AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.
+🟣	JS	    4306	   616	2026-05-17	outsourc-e/hermes-workspace	Native web workspace for Hermes Agent — chat, terminal, memory, skills, inspector.
+🟣	JS	     574	    77	2026-05-17	oracle/skills	Oracle DB Skills is a curated library of 100+ practical, documentation-backed guides for working with Oracle Database, organized by domain
+🟣	JS	    2275	    39	2026-05-17	heshengtao/super-agent-party	⭐ All-in-one AI companion! Super Agent Party = Self hosted neuro sama + openclaw! ⭐ 全能AI伴侣！超级智能体派对 = 自托管neuro sama + openclaw!
+🟣	PY	   12651	  8618	2026-05-17	CloakHQ/CloakBrowser	Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.
+🟣	PY	   24952	   429	2026-05-17	OpenBMB/MiniCPM-V	A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone
+🟣	PY	    7779	   694	2026-05-17	MervinPraison/PraisonAI	PraisonAI 🦞 — Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving agents that research, plan, code, and execute tasks. Deployed in 5 lines of code with built-in memory, RAG, and support for 100+ LLMs.
+🟣	PY	    8098	  2769	2026-05-17	Imbad0202/academic-research-skills	Academic Research Skills for Claude Code: research → write → review → revise → finalize
+🟣	PY	    1509	   303	2026-05-17	maziggy/bambuddy	Your Bambu Lab. No Cloud. Your Rules. Self-hosted command center for Bambu Lab — from one A1 to a 40-printer farm.
+🟣	PY	   23817	  6935	2026-05-17	anthropics/financial-services	
+🟣	PY	   50137	  4606	2026-05-17	datawhalechina/hello-agents	📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程
+🟣	PY	    1620	   442	2026-05-17	jwadow/kiro-gateway	👻 Proxy API gateway for Kiro IDE & CLI (Amazon Q Developer / AWS CodeWhisperer). Use free Claude models with any client.
+🟣	PY	   14315	  1362	2026-05-17	jundot/omlx	LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar
+🟣	PY	    1796	   471	2026-05-17	romainsimon/paperasse	🇫🇷 Skills pour agents IA spécialisés dans la bureaucratie française : Comptable, Notaire, ...
+🟣	PY	    1140	    74	2026-05-17	openai/plugins	OpenAI Plugins
+🟣	PY	  100955	  6728	2026-05-17	github/spec-kit	💫 Toolkit to help you get started with Spec-Driven Development
+🟣	RS	   30544	  7543	2026-05-17	Hmbown/DeepSeek-TUI	Coding agent for DeepSeek models that runs in your terminal
+🟣	RS	   91231	  1328	2026-05-17	oven-sh/bun	Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one
+🟣	RS	    4526	   211	2026-05-17	HelixDB/helix-db	HelixDB is an open-source graph-vector database built from scratch in Rust.
+🟣	RS	    1380	   259	2026-05-17	hank9999/kiro.rs	A Kiro Client in Rust
+🟣	RS	    1816	   217	2026-05-17	dnakov/litter	
+🟣	RS	   10740	  9878	2026-05-17	tinyhumansai/openhuman	Your Personal AI super intelligence. Private, Simple and extremely powerful.
+🟣	RS	    4936	   438	2026-05-17	zizmorcore/zizmor	Static analysis for GitHub Actions
+🟣	SH	    1289	   311	2026-05-17	Owl-Listener/designer-skills	Designer Skills Collection: agentic skills, commands, and plugins for design — from research to systems, UI, interaction, and delivery.
+🟣	SH	    3138	    64	2026-05-17	Steam-Headless/docker-steam-headless	A Headless Steam Docker image supporting NVIDIA GPU and accessible via Web UI
+🟣	TS	   10332	  6907	2026-05-17	rohitg00/agentmemory	#1 Persistent memory for AI coding agents based on real-world benchmarks
+🟣	TS	    5353	   636	2026-05-17	CodebuffAI/codebuff	Generate code from the terminal!
+🟣	TS	    2530	  1099	2026-05-17	colbymchenry/codegraph	Pre-indexed code knowledge graph for Claude Code — fewer tokens, fewer tool calls, 100% local
+🟣	TS	    1746	   264	2026-05-17	RhysSullivan/executor	The missing integration layer for AI agents. Let them call any OpenAPI / MCP / GraphQL / custom js functions in secure environment.
+🟣	TS	     501	    88	2026-05-17	nimbalyst/nimbalyst	Nimbalyst - visual workspace for building with Codex, Claude Code, and more
+🟣	TS	    5795	  1267	2026-05-17	thesysdev/openui	The Open Standard for Generative UI
+🟣	TS	   35091	   212	2026-05-17	pnpm/pnpm	Fast, disk space efficient package manager
+🟣	TS	    9772	  2643	2026-05-17	millionco/react-doctor	Your agent writes bad React. This catches it
 🟣	TS	  109430	  1748	2026-03-13	shadcn-ui/ui	A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.
 🟣	TS	   99636	  1340	2025-11-12	iptv-org/iptv	Collection of publicly available IPTV channels from all over the world
 🟣	TS	   87792	    83	2025-09-23	storybookjs/storybook	Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation
