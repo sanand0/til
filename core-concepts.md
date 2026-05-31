@@ -1,7 +1,5 @@
 # Core Concepts
 
-[ChatGPT](https://chatgpt.com/c/6875cfba-e7e0-800c-b61f-400b21a12546)
-
 [Scott Adams coined "The Rule of Twelve"](https://web.archive.org/web/20090322195653/http://dilbert.com/blog/entry/rule_of_twelve/).
 
 > ... seemingly impenetrable topics are less intimidating if you know there are only a dozen concepts to learn.
@@ -9,6 +7,7 @@
 
 This is true for many subjects. But avoid overconfidence. Expert pattern libraries are huge (~100K). Execution discipline matters.
 
+- 31 May 2026. Core concepts of [evaluating code submissions](https://chatgpt.com/share/6a1ba95e-a1f0-83ec-b85c-282ea8321f0e) <!-- https://chatgpt.com/c/6a1ba2e3-e044-83ec-945b-246085844d53 -->
 - 24 Feb 2026. Core concepts of [Digital Transformation](https://gemini.google.com/app/1a550764d3101600)
   1. Conway's Law: Org Charts Dictate Architecture. You cannot change your IT systems without first changing how your teams communicate. Software naturally copies the communication structures of the organization that builds it. If you have three isolated corporate departments working on a project, you will inevitably build a system with three disconnected databases. Reorganizing the code requires reorganizing the company. **Source:** Melvin Conway (1967), widely foundational in modern DevOps and microservices literature (e.g., _Accelerate_ by Nicole Forsgren).
   2. The "Paved Cow Path" Fallacy: Do Not Automate Bad Processes. Slapping new technology onto a broken, inefficient manual process just makes bad things happen much faster. Transformation requires heavily auditing and redesigning the process before writing a single line of code. Otherwise, you are just funding high-tech bureaucracy. **Source:** Bill Gates' First and Second Rules of Automation; heavily cited in MIT Sloan Management Review.

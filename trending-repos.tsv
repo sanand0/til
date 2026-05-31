@@ -1,3 +1,43 @@
+🟣	GO	    1322	   480	2026-05-31	google/ax	Google's open source distributed agent runtime
+🟣	GO	    2668	  1147	2026-05-31	BenedictKing/ccx	Claude / Codex / Gemini API Proxy - CCX
+🟣	GO	   13643	   228	2026-05-31	crowdsecurity/crowdsec	CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs and access to the most advanced real-world CTI.
+🟣	GO	    8523	    70	2026-05-31	higress-group/higress	🤖 AI Gateway | AI Native API Gateway
+🟣	GO	   30484	   158	2026-05-31	binwiederhier/ntfy	Send push notifications to your phone or desktop using PUT/POST
+🟣	GO	   39713	    76	2026-05-31	photoprism/photoprism	AI-Powered Photos App for the Decentralized Web 🌈💎✨
+🟣	GO	    2069	   178	2026-05-31	runkids/skillshare	📚 Sync skills across all AI CLI tools with one command and simplify team sharing. Supporting Codex, Claude Code, OpenClaw & more
+🟣	GO	    1328	   207	2026-05-31	kulikov0/whitelist-bypass	
+🟣	JS	  199305	 10802	2026-05-31	affaan-m/ECC	The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+🟣	JS	   11498	    42	2026-05-31	notionnext-org/NotionNext	使用 NextJS + Notion API 实现的，支持多种部署方案的静态博客，无需服务器、零门槛搭建网站，为Notion和所有创作者设计。 (A static blog built with NextJS and Notion API, supporting multiple deployment options. No server required, zero threshold to set up a website. Designed for Notion and all creators.)
+🟣	JS	    6368	  2488	2026-05-31	Axorax/awesome-free-apps	Curated list of the best free apps for PC and mobile
+🟣	JS	   20464	  2093	2026-05-31	manaflow-ai/cmux	Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents
+🟣	PY	   12581	  5417	2026-05-31	mukul975/Anthropic-Cybersecurity-Skills	754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0
+🟣	PY	    2143	   414	2026-05-31	NVlabs/LongLive	LongLive 2.0: Infra - Long Video Gen
+🟣	PY	    8368	  1508	2026-05-31	HKUDS/ViMax	"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)"
+🟣	PY	    3463	  1553	2026-05-31	microsoft/agent-governance-toolkit	AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.
+🟣	PY	   25877	   396	2026-05-31	agentscope-ai/agentscope	Build and run agents you can see, understand and trust.
+🟣	PY	   25167	 12082	2026-05-31	rohitg00/ai-engineering-from-scratch	Learn it. Build it. Ship it for others.
+🟣	PY	    3866	  1236	2026-05-31	dograh-hq/dograh	Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On Prem, BYOK across Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony support.
+🟣	PY	   29099	   288	2026-05-31	Genesis-Embodied-AI/genesis-world	Simulation platform for general-purpose robotics & embodied AI learning.
+🟣	PY	   18248	  5538	2026-05-31	anthropics/knowledge-work-plugins	Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork
+🟣	PY	    3838	  1642	2026-05-31	st-tech/ppf-contact-solver	A contact solver for physics-based simulations involving 👚 shells, 🪵 solids and 🪢 rods.
+🟣	RS	   15242	   673	2026-05-31	ryoppippi/ccusage	Analyze coding (agent) CLI token usage and costs from local data.
+🟣	RS	   12205	   109	2026-05-31	grpc/grpc-rust	A native gRPC client & server implementation with async/await support.
+🟣	RS	    3208	   923	2026-05-31	ogulcancelik/herdr	agent multiplexer that lives in your terminal.
+🟣	RS	   17296	  1362	2026-05-31	iii-hq/iii	Effortlessly compose, extend, and observe every service in real-time for the first time ever.
+🟣	RS	    7906	  2586	2026-05-31	run-llama/liteparse	A fast, helpful, and open-source document parser
+🟣	RS	     860	   257	2026-05-31	mmalmi/nostr-vpn	
+🟣	RS	    1358	   214	2026-05-31	firecrawl/pdf-inspector	Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.
+🟣	SH	    1207	    46	2026-05-31	open-saas-directory/awesome-native-macosx-apps	The best Mac apps — fast, lightweight, and bloat-free. No Electron. Curated for Mac power users who care about performance.
+🟣	SH	    2286	  1034	2026-05-31	Chachamaru127/claude-code-harness	Claude Code Dedicated Development Harness - Achieving High-Quality Development Through an Autonomous Plan→Work→Review Cycle
+🟣	SH	     944	   156	2026-05-31	PolyArch/humanize	From Automated Idea Factory to Realization
+🟣	SH	    1158	    85	2026-05-31	wondelai/skills	Agent skills for Claude Code and other agentskills.io-compatible agents. See https://developertoolkit.ai for more information about skills in general.
+🟣	TS	   45949	 25612	2026-05-31	Lum1104/Understand-Anything	Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
+🟣	TS	    8729	  1963	2026-05-31	can1357/oh-my-pi	⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more
+🟣	TS	    3770	   641	2026-05-31	stablyai/orca	Orca is the next-gen IDE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.
+🟣	TS	   57800	  4528	2026-05-31	earendil-works/pi	AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods
+🟣	TS	    1458	   738	2026-05-31	cursor/plugins	Cursor plugin specification and official plugins
+🟣	TS	    7587	  1422	2026-05-31	presenton/presenton	Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)
+🟣	TS	    1606	   370	2026-05-31	phodal/routa	Workspace-first multi-agent coordination platform for AI development, with shared Specs, Kanban orchestration, and MCP/ACP/ A2A support across web and desktop.
 🟣	GO	     689	   103	2026-05-17	m5stack/StackChan	StackChan open source!
 🟣	GO	   72508	   265	2026-05-17	caddyserver/caddy	Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
 🟣	GO	    7703	    39	2026-05-17	chaos-mesh/chaos-mesh	A Chaos Engineering Platform for Kubernetes.

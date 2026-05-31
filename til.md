@@ -2,6 +2,19 @@
 
 ## May 2026
 
+- 31 May 2026. How to learn a new field fast:
+  - Yes, it's possible to learn 50% of a field in 20 hours. [Josh Kaufman, "The First 20 Hours"](https://www.youtube.com/watch?v=5MgBikgcWnY) popularized it. The next 30% takes months and the last 20% takes years.
+  - [Threshold concepts](https://en.wikipedia.org/wiki/Threshold_knowledge) are those that change your perspective and open up new ways of thinking.
+  - Experts' knowledge is hard-wired and they can't identify nor teach threshold concepts naturally. Don't assume they can.
+- 31 May 2026. ["We know more than we can tell."](https://www.google.com/search?q=Polanyi+%22we+know+more+than+we+can+tell%22) Polanyi's 1966 book "The Tacit Dimension" says that there's some knowledge that can't be verbalized. This [tacit knowledge](https://en.wikipedia.org/wiki/Tacit_knowledge), therefore, will be harder for humans and AI to learn.
+- 29 May 2026. [cosign](https://github.com/sigstore/cosign) is a CLI that lets you sign and verify any piece of text with a Google, GitHub or Microsoft account. `cosign sign-blob FILE --bundle sign.json` opens a login window and creates a `sign.json` signature. Anyone who has `FILE` and `sign.json` and the email ID can verify via a Google account with `cosign verify-blob FILE --bundle sign.json --certificate-identity $EMAIL --certificate-oidc-issuer https://accounts.google.com`. <!-- https://chatgpt.com/c/6a197375-fd5c-83ec-9f21-43b084a3830a -->
+- 29 May 2026. [arxiv2md.org](https://arxiv2md.org/) converts arXiv papers to Markdown. [Source](https://github.com/timf34/arxiv2md). [markxiv.org](https://markxiv.org/) claims the same - by just changing the URL - but it ended up reporting an error when I tried this link: <https://markxiv.org/abs/2604.08649>.
+- 27 May 2026. Codex uses the <kbd>Alt + Up Arrow</kbd> key to edit queued commands, but on the VS Code terminal, this key binding is not sent to the terminal. Enable the `terminal.integrated.sendKeybindingsToShell` setting to send it to the terminal, hence Codex.
+- 27 May 2026. Based on this [catalog](https://chatgpt.com/share/6a16dfd6-bd70-83ec-807a-646366ba9a99) on "universal foods", here's what I 🟢 like, am 🟡 neutral, 🔴 dislike, 🟣 must try, and will ⚫ skip. <!-- https://chatgpt.com/c/6a165e95-5100-83ec-8b90-c41fd2876fdf -->
+  - Universal favorites: 🟢 pizza, 🟢 fried potatoes/chicken, 🟡 dumplings, 🟢 ice cream.
+  - Universal comfort foods: 🟢 khichdi, 🟡 congee, 🟡 dal-rice, 🟡 risotto, 🟡 ramen, 🟢 pho, ⚫ chicken noodle soup, 🔴 rice porridge, 🟡 mac-and-cheese, 🔴 mashed potato, 🟣 polenta, 🟢 oatmeal, 🟣 Japanese curry rice.
+  - Acquired tastes that convert most: 🟡 coffee, 🟢 tea, 🟡 dark chocolate, 🟢 mild fermented dairy, 🟢 pickles, 🟢 olives, 🟣 kimchi, 🟣 miso, 🟢 mild chili dishes.
+  - Acquired tastes that have cult devotion: 🟣 durian, 🟣 natto, 🟣 stinky tofu, ⚫ fermented fish, ⚫ hákarl, 🟢 very funky blue cheese, ⚫ offal.
 - 24 May 2026. [OceanoPDF](https://oceanofpdf.com/) seems like a good place to download ePubs of books.
 - 24 May 2026. The entire Wikipedia is available as a [Parquet file](https://huggingface.co/datasets/wikimedia/structured-wikipedia). You can query it like `duckdb -c "FROM 'hf://datasets/wikimedia/structured-wikipedia/enwiki/data/*.parquet' LIMIT 5"`. The English version has 35 GB, 7.6 million articles, and you're better off downloading it rather than running analyses remotely.
 - 24 May 2026. When you receive a Calendly link of the form `https://cal.com/USER/EVENT` you can fetch the available slots via `curl -H 'cal-api-version: 2024-09-04' 'https://api.cal.com/v2/slots?eventTypeSlug=EVENT&username=USER&start=2026-05-25&end=2026-06-01&timeZone=Asia/Singapore&format=range'`. Useful to automate good meeting-slot selection. <!-- https://chatgpt.com/c/6a126d5e-b9c8-83ec-a88b-f230d04434e9 -->
