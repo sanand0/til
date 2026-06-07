@@ -1,5 +1,19 @@
 # LLM learnings
 
+## Jun 2026
+
+- 06 Jun 2026. Making something easy to verify makes it _much_ faster to train models on it. Arithmetic verification is easy - calculators can be deterministically verified. Chess verification is easy - Stockfish became easy to train. Code verification is easy - LLMs improved coding ability rapidly. Therefore:
+  - Wherever we have environments that are easy to verify, AI will improve faster there.
+  - To make AI improve faster in an area, build environments that are easy to verify.
+- 06 Jun 2026. [MCP is getting simpler](https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/). A stateless HTTP protocol. Simpler OAuth. Plugins. No idea when it will land in Claude or ChatGPT, though. Worth checking after 28 Jun 2026 - after it is finalized.
+- 06 Jun 2026. [Microsoft Scout](https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/) is Microsoft's version of OpenClaw or [Gemini Spark](https://gemini.google/overview/agent/spark/).
+- 05 Jun 2026. [Gemma 4 12B is released](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/) and seems almost as good as the 26B version. This is the class of models that makes it practical to run edge AI on phones. It's multimodal and reasonably smart (like frontier models were 12-18 months ago).
+- 03 Jun 2026. I don't use Claude/ChatGPT Projects much. It offers 3 advantages: custom instructions, memory, files, and chats. Files aren't useful - I use my entire laptop as a file system via MCP. Instructions aren't useful - I can paste commonly used prompts with a click. Chats aren't useful - I have chat references enabled, so all past chats are accessible anyway. Memory isn't useful - I have memory enabled globally anyway. In short, I haven't discovered the power of projects that everyone's raving about. SKILL.md is more useful for me. <!-- https://claude.ai/chat/eb3bcf3e-f1f0-4d33-b5a2-14b09cbda189 -->
+- 01 Jun 2026. One of the advantages of multiple agent (rather than a single agent loop) is: it's easier to change directions when wrong. Single loops get stuck. [Build Agents That Run for Hours](https://www.youtube.com/watch?v=mR-WAvEPRwE)
+- 01 Jun 2026. Claude Code also supports [agent teams](https://code.claude.com/docs/en/agent-teams) where sub-agents can talk to each other rather than rely on the main agent to coordinate. Useful for parallel exploration. Anthropic lets Claude define "organizational policies" for agent teams best suited for the task (AI-native workflows). It also lets agents to push back on their scope, e.g. "This is too hard." [Build Agents That Run for Hours](https://www.youtube.com/watch?v=mR-WAvEPRwE)
+- 01 Jun 2026. Claude Code has a `/background [prompt]` (or `/bg`) command that runs the current session the background. You can run `claude agents` as a separate command to [monitor agents](https://code.claude.com/docs/en/agent-view). (There's no equivalent in Codex yet.) This seems to be the future of agentic operations: a bunch of agents running that you monitor and steer through an agent view dashboard.
+- 01 Jun 2026. Models are evolving. Therefore prompts evolved. Now harnesses also need to evolve. The workflows will also evolve. As a result, evaluations might be the (relatively) more stable assets. Datasets are likely to be the most stable ground truth.
+
 ## May 2026
 
 - 30 May 2026. [D-ID](https://www.d-id.com/) is an avatar generator platform like [HeyGen](https://heygen.com/). [Creatify](https://creatify.ai/) and [Synthesia](https://www.synthesia.io/) are a couple of others I heard of. This space seems to be growing.

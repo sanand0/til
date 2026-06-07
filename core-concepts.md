@@ -7,6 +7,7 @@
 
 This is true for many subjects. But avoid overconfidence. Expert pattern libraries are huge (~100K). Execution discipline matters.
 
+- 07 Jun 2026. Core concepts of [understanding people over the phone](https://claude.ai/share/86a5fa59-790e-4f7f-9d5f-3dbd5f041ad5) <!-- https://claude.ai/chat/e74ddaf1-6d04-4c4a-8eac-b01b356b4d0d + https://chatgpt.com/c/6a24d627-64e4-83ec-b5c6-802845a31e07 -->
 - 31 May 2026. Core concepts of [evaluating code submissions](https://chatgpt.com/share/6a1ba95e-a1f0-83ec-b85c-282ea8321f0e) <!-- https://chatgpt.com/c/6a1ba2e3-e044-83ec-945b-246085844d53 -->
 - 24 Feb 2026. Core concepts of [Digital Transformation](https://gemini.google.com/app/1a550764d3101600)
   1. Conway's Law: Org Charts Dictate Architecture. You cannot change your IT systems without first changing how your teams communicate. Software naturally copies the communication structures of the organization that builds it. If you have three isolated corporate departments working on a project, you will inevitably build a system with three disconnected databases. Reorganizing the code requires reorganizing the company. **Source:** Melvin Conway (1967), widely foundational in modern DevOps and microservices literature (e.g., _Accelerate_ by Nicole Forsgren).

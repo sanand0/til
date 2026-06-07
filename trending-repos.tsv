@@ -1,3 +1,27 @@
+🟣	GO	    1697	   400	2026-06-06	Armur-Ai/Pentest-Swarm-AI	Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go, Claude API, and 7+ native security tools.
+🟣	GO	    4171	   294	2026-06-06	Gentleman-Programming/engram	Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.
+🟣	GO	    3693	   251	2026-06-06	Gentleman-Programming/gentle-ai	
+🟣	GO	   10262	    32	2026-06-06	kedacore/keda	KEDA is a Kubernetes-based Event Driven Autoscaling component. It provides event driven scale for any container running in Kubernetes
+🟣	GO	    6414	    14	2026-06-06	open-telemetry/opentelemetry-go	OpenTelemetry Go API and SDK
+🟣	JS	     585	   130	2026-06-06	xuanyustudio/LocalMiniDrama	🎬 seedance2接入 开源本地 AI 短剧 & 漫剧生成工具 —— 从故事到成片一站式完成，数据不出本机，短剧工作流管理平台，高灵活度，AI真人剧，AI漫剧本地搞定。 Open-source local AI short drama maker: story → storyboard → video, fully offline, your data stays yours. 纳米流水线
+🟣	JS	    4852	   219	2026-06-06	mnfst/awesome-free-llm-apis	List of Permanent Free LLM API (API Keys)
+🟣	JS	   10765	   649	2026-06-06	maillab/cloud-mail	A Cloudflare-based email service | 基于 Cloudflare 的邮箱服务 | Cloudflare Email 邮箱 Mail
+🟣	JS	   10778	   147	2026-06-06	wangrongding/wechat-bot	🤖一个基于 WeChaty 结合 ChatGPT / Claude / Kimi / DeepSeek / Ollama等Ai服务实现的微信机器人 ，可以用来帮助你自动回复微信消息，或者社群分析/好友管理，检测僵尸粉等...
+🟣	PY	    2127	   674	2026-06-06	NVlabs/Eagle	Eagle: Frontier Vision-Language Models with Data-Centric Strategies
+🟣	PY	   17294	   727	2026-06-06	modelscope/FunASR	Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API.
+🟣	PY	   10039	  2073	2026-06-06	Open-LLM-VTuber/Open-LLM-VTuber	Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms
+🟣	PY	    4417	   325	2026-06-06	calesthio/OpenMontage	World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.
+🟣	PY	   61302	  6436	2026-06-06	D4Vinci/Scrapling	🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!
+🟣	PY	   13549	  4424	2026-06-06	nesquena/hermes-webui	Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!
+🟣	RS	    6842	   500	2026-06-06	NVIDIA/OpenShell	OpenShell is the safe, private runtime for autonomous AI agents.
+🟣	RS	    3079	   159	2026-06-06	agentgateway/agentgateway	Next Generation Agentic Proxy for AI Agents and MCP servers
+🟣	RS	    7608	  1185	2026-06-06	dmtrKovalenko/fff	The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS
+🟣	RS	   27470	   620	2026-06-06	AlexsJones/llmfit	Hundreds of models & providers. One command to find what runs on your hardware.
+🟣	SH	    1280	   129	2026-06-06	Euro-Office/DocumentServer	
+🟣	SH	     414	    40	2026-06-06	microsoft/skills-for-fabric	A collection of skills and MCP systems to enable users of CLI, VSCode, Claude to operate over Microsoft Fabric
+🟣	TS	   39675	  1022	2026-06-06	MHSanaei/3x-ui	Xray panel supporting multi-protocol multi-user expire day & traffic & IP limit (Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun)
+🟣	TS	   11468	   873	2026-06-06	bia-pain-bache/BPB-Worker-Panel	A GUI Panel providing Worker subscriptions for VLESS, Trojan and Warp configs alongside a private DoH server and chain proxies, offering full DNS, clean IP, Fragment, Warp, Warp pro and routing settings for cross-platform clients using Amnezia, Wireguard, Sing-box, Clash/Mihomo and Xray cores.
+🟣	TS	    2089	   488	2026-06-06	nicobailon/pi-subagents	Pi extension for async subagent delegation with truncation, artifacts, and session sharing
 🟣	GO	    1322	   480	2026-05-31	google/ax	Google's open source distributed agent runtime
 🟣	GO	    2668	  1147	2026-05-31	BenedictKing/ccx	Claude / Codex / Gemini API Proxy - CCX
 🟣	GO	   13643	   228	2026-05-31	crowdsecurity/crowdsec	CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs and access to the most advanced real-world CTI.
