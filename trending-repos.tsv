@@ -1,3 +1,34 @@
+🟣	GO	    2395	  1027	2026-06-14	kenn-io/agentsview	Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!
+🟣	GO	   19080	   114	2026-06-14	bluenviron/mediamtx	Ready-to-use Media-over-QUIC / SRT / WebRTC / RTSP / RTMP / LL-HLS / MPEG-TS / RTP live media server and media proxy that allows to read, publish, proxy, record and playback real-time video and audio streams.
+🟣	GO	   34383	   500	2026-06-14	restic/restic	Fast, secure, efficient backup program
+🟣	GO	    6413	    89	2026-06-14	tulir/whatsmeow	Go library for the WhatsApp web multidevice API
+🟣	JS	   53553	  4499	2026-06-14	santifer/career-ops	AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.
+🟣	JS	  245821	   310	2026-06-14	react/react	The library for web and native user interfaces.
+🟣	JS	   26791	    54	2026-06-14	badges/shields	Concise, consistent, and legible badges in SVG and raster format
+🟣	JS	   65813	    61	2026-06-14	webpack/webpack	A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through "loaders", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.
+🟣	PY	    2175	   235	2026-06-14	huggingface/OpenEnv	An interface library for RL post training with environments.
+🟣	PY	    4528	  2799	2026-06-14	NVIDIA/SkillSpector	Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.
+🟣	PY	   55539	  1462	2026-06-14	MemPalace/mempalace	The best-benchmarked open-source AI memory system. And it's free.
+🟣	PY	    3403	  2014	2026-06-14	maziyarpanahi/openmed	open-source healthcare ai
+🟣	PY	   11413	  6535	2026-06-14	RyanCodrai/turbovec	A vector index built on TurboQuant, written in Rust with Python bindings
+🟣	PY	    4702	  1794	2026-06-14	Andyyyy64/whichllm	Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.
+🟣	RS	    4655	   140	2026-06-14	asterinas/asterinas	Asterinas aims to be a production-grade Linux alternative—memory safe, high-performance, and more.
+🟣	RS	   20165	    62	2026-06-14	cube-js/cube	📊 Cube Core is open-source semantic layer for AI, BI and embedded analytics
+🟣	RS	     925	   429	2026-06-14	microsoft/mxc	Policy-driven, layered isolation and containment
+🟣	RS	   33652	   103	2026-06-14	swc-project/swc	Rust-based platform for the Web
+🟣	TS	   10027	   133	2026-06-14	bluewave-labs/Checkmate	Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join here: https://discord.com/invite/NAb6H3UTjK :)
+🟣	TS	   39067	   792	2026-06-14	danny-avila/LibreChat	Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active
+🟣	TS	   80805	   480	2026-06-14	Stirling-Tools/Stirling-PDF	#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere
+🟣	TS	   60133	   265	2026-06-14	withastro/astro	The web framework for content-driven websites. ⭐️ Star to support our work!
+🟣	TS	    6598	   966	2026-06-14	reconurge/flowsint	A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.
+🟣	TS	    8999	   275	2026-06-14	fluxerapp/fluxer	A free and open source instant messaging and VoIP platform built for friends, groups, and communities. Self-hosting and more activity in this repository is coming very soon! See the README.
+🟣	TS	   37757	   754	2026-06-14	mattermost/mattermost	Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..
+🟣	TS	   16104	  3708	2026-06-14	refactoringhq/tolaria	Desktop app to manage markdown knowledge bases
+🟣	GO	   10094	    46	2026-06-07	nezhahq/nezha	Self-hosted, lightweight server and website monitoring and O&M tool
+🟣	GO	   28970	   153	2026-06-07	opentofu/opentofu	OpenTofu lets you declaratively manage your cloud infrastructure.
+🟣	PY	   22446	  1513	2026-06-07	Panniantong/Agent-Reach	Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
+🟣	PY	    4339	  2275	2026-06-07	FareedKhan-dev/train-llm-from-scratch	A straightforward method for training your LLM, from downloading data to generating text.
+🟣	TS	    4329	   145	2026-06-07	anthropic-experimental/sandbox-runtime	A lightweight sandboxing tool for enforcing filesystem and network restrictions on arbitrary processes at the OS level, without requiring a container.
 🟣	GO	    1697	   400	2026-06-06	Armur-Ai/Pentest-Swarm-AI	Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go, Claude API, and 7+ native security tools.
 🟣	GO	    4171	   294	2026-06-06	Gentleman-Programming/engram	Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.
 🟣	GO	    3693	   251	2026-06-06	Gentleman-Programming/gentle-ai	

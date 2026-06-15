@@ -2,6 +2,10 @@
 
 ## Jun 2026
 
+- 13 Jun 2026. Overheard a journalist saying: "I can tell when humans are lying. There are no tell tale signs of AI lying. At least _I_ don't have any."
+- 12 Jun 2026. Currently, a $20 Claude Pro gives you ~$400 and a $100 Claude Max gives you ~$2,000 of API usage. For ChatGPT, the numbers are ~$700 and $3,500. [SemiAnalysis](https://x.com/SemiAnalysis_/status/2064815044085318040)
+- 12 Jun 2026. When Fable 5 refuses to answer questions, here's the message that appears: "Fable 5 has safety measures that flag messages on most cybersecurity or biology topics. They may flag safe, normal content as well. These measures let us bring you Mythos-level capability in other areas sooner, and we're working to refine them. Send feedback or [learn more](https://support.claude.com/en/articles/15363606)." I managed to trigger this once while researching an M&A acquisition target. Clicking on "Edit and retry with Fable 5" triggered Opus 5 again, twice.
+- 10 Jun 2026. ChatGPT now shows a "Check in" button when it's thinking. Clicking on that gives you a work-in-progress answer while it continues thinking. When done, it _replaces_ the WIP answer with the final answer. A useful feature!
 - 06 Jun 2026. Making something easy to verify makes it _much_ faster to train models on it. Arithmetic verification is easy - calculators can be deterministically verified. Chess verification is easy - Stockfish became easy to train. Code verification is easy - LLMs improved coding ability rapidly. Therefore:
   - Wherever we have environments that are easy to verify, AI will improve faster there.
   - To make AI improve faster in an area, build environments that are easy to verify.
