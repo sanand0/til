@@ -1100,6 +1100,7 @@
 🟢	GO	   36324	    67	2025-10-19	docker/compose	Define and run multi-container applications with Docker
 🟢	GO	   31393	   168	2025-09-23	1Panel-dev/1Panel	🔥 1Panel provides an intuitive web interface and MCP Server to manage websites, files, containers, databases, and LLMs on a Linux server.	Easy-to-run monitor for Linux servers. Install and run 1pctl --help.
 🟢	GO	   30372	   301	2025-12-10	aquasecurity/trivy	Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
+🟢	GO	   19612	   135	2025-10-05	getsops/sops	Simple and flexible tool for managing secrets
 🟢	GO	   14205	   205	2025-09-27	muesli/duf	Disk Usage/Free Utility - a better 'df' alternative
 🟢	GO	    5551	    68	2025-11-12	docker/cli	The Docker CLI
 🔵	TS	  183416	 26527	2026-02-11	openclaw/openclaw	Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞	Still exploring...
@@ -1351,6 +1352,7 @@
 🔴	GO	   17831	    80	2025-09-17	knadh/listmonk	High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.	Prefer hosted services
 🔴	GO	   13757	   225	2025-09-23	go-task/task	A task runner / simpler Make alternative written in Go	No need yet
 🔴	GO	   13086	    23	2025-10-05	rook/rook	Storage Orchestration for Kubernetes	I don't code Kubernetes
+🔴	GO	   12810	   662	2025-10-05	oauth2-proxy/oauth2-proxy	A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.	Could be useful. Integrates with Caddy. But I suspect the server-side stack is disintegrating into Tailscale / Cloudflare tunnels vs Cloud services. So the substrate is vanishing.
 🔴	GO	   12574	    52	2025-10-05	jackc/pgx	PostgreSQL driver and toolkit for Go	I don't code Go
 🔴	GO	   11082	    31	2025-10-19	quic-go/quic-go	A production-ready QUIC implementation in pure Go	I don't code Go
 🔴	GO	   10882	  1198	2025-09-17	aaPanel/BillionMail	BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr	I don't run mail campaigns
@@ -1404,6 +1406,4 @@
 ⏺️	GO	   24962	   193	2025-09-23	tailscale/tailscale	The easiest, most secure way to use WireGuard and 2FA.
 ⏺️	GO	   23909	    70	2025-10-05	pulumi/pulumi	Pulumi - Infrastructure as Code in any programming language 🚀
 ⏺️	GO	   21876	   510	2025-09-17	trufflesecurity/trufflehog	Find, verify, and analyze leaked credentials
-🟢	GO	   19612	   135	2025-10-05	getsops/sops	Simple and flexible tool for managing secrets
-⏺️	GO	   12810	   662	2025-10-05	oauth2-proxy/oauth2-proxy	A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.	Could be useful. Integrates with Caddy.
 ⏺️	GO	   10851	   458	2025-09-17	keploy/keploy	API, Integration, E2E Testing Agent for Developers that actually work. Generate tests, mocks/stubs for your APIs!
