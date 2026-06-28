@@ -2,6 +2,7 @@
 
 ## Jun 2026
 
+- 28 Jun 2026. A useful rule of thumb: Cloudflare tunnels are for links to share with others. Taiscale is for services (even non-HTTP) only your devices should see. [ChatGPT](https://chatgpt.com/share/6a40b186-9654-83ec-8b1d-e8f5614a9a87) <!-- https://chatgpt.com/c/6a40aea9-b774-83ec-b382-d922267730b2 -->
 - 28 Jun 2026. `date -d (date +-%wday) +%F` is the most compact way to round down to the nearest Sunday. Avoid `date -d "last sunday" +%F` which, on a Sunday, returns the _previous_ Sunday, not today. [ChatGPT](https://chatgpt.com/share/6a40788f-c904-83ec-8750-6f507e37b9bc) <!-- https://chatgpt.com/c/6a407687-43b4-83ec-8307-1935ea28182a -->
 - 27 Jun 2026. Every Substack feed has an RSS feed at `https://your.substack.com/feed`. [Substack help](https://support.substack.com/hc/en-us/articles/360038239391-Is-there-an-RSS-feed-for-my-publication). I used this to scan my browsing history to identify Substacks I visit - and subscribed to [Marcus on AI](https://garymarcus.substack.com/) - an AI sceptic AI asked me to read about.
 - 27 Jun 2026. Cloudflare let's agents create [temporary accounts](https://blog.cloudflare.com/temporary-accounts/) so that they can deploy and test. Enables trial and error - a powerful capability.
