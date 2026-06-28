@@ -54,7 +54,6 @@
 🟣	TS	   23864	  9232	2026-04-05	Yeachan-Heo/oh-my-claudecode	Teams-first Multi-agent orchestration for Claude Code
 🟣	TS	   23093	  2212	2026-01-12	bytedance/UI-TARS-desktop	The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra
 🟣	TS	   23038	   348	2026-04-05	yamadashy/repomix	📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.
-🔴	TS	   22341	  6014	2026-06-28	google-labs-code/design.md	A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.	I'm not very convinced this is the format to use.
 🟣	TS	   22122	  4565	2026-06-28	JCodesMore/ai-website-cloner-template	Clone any website with one command using AI coding agents
 🟣	TS	   21415	   420	2025-10-05	better-auth/better-auth	The most comprehensive authentication framework for TypeScript
 🟣	TS	   20815	  5589	2026-04-19	jamiepine/voicebox	The open-source voice synthesis studio
@@ -992,7 +991,6 @@
 🟣	GO	    2580	    18	2025-10-26	publicsuffix/list	The Public Suffix List
 🟣	GO	    2576	    27	2025-11-02	grafana/alloy	OpenTelemetry Collector distribution with programmable pipelines
 🟣	GO	    2431	   334	2026-03-13	docker/docker-agent	AI Agent Builder and Runtime by Docker Engineering
-🟣	GO	    2395	  1027	2026-06-14	kenn-io/agentsview	Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!
 🟣	GO	    2326	    31	2025-12-28	YouROK/TorrServer	Torrent stream server
 🟣	GO	    2287	    26	2025-09-23	ava-labs/avalanchego	Go implementation of an Avalanche node.
 🟣	GO	    2069	   178	2026-05-31	runkids/skillshare	📚 Sync skills across all AI CLI tools with one command and simplify team sharing. Supporting Codex, Claude Code, OpenClaw & more
@@ -1103,6 +1101,7 @@
 🟢	GO	   19612	   135	2025-10-05	getsops/sops	Simple and flexible tool for managing secrets
 🟢	GO	   14205	   205	2025-09-27	muesli/duf	Disk Usage/Free Utility - a better 'df' alternative
 🟢	GO	    5551	    68	2025-11-12	docker/cli	The Docker CLI
+🟢	GO	    2395	  1027	2026-06-14	kenn-io/agentsview	Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!
 🔵	TS	  183416	 26527	2026-02-11	openclaw/openclaw	Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞	Still exploring...
 🔵	TS	   76987	   952	2025-09-17	immich-app/immich	High performance self-hosted photo and video management solution.
 🔵	TS	   70201	   132	2025-10-05	grafana/grafana	The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.	I prefer custom visuals
@@ -1147,6 +1146,7 @@
 🔴	TS	   24994	   851	2025-09-17	ItzCrazyKns/Perplexica	Perplexica is an AI-powered search engine. It is an Open source alternative to Perplexity AI	Too heavy
 🔴	TS	   24192	   328	2025-12-10	microsoft/playwright-mcp	Playwright MCP server	Prefer CDP
 🔴	TS	   23906	   985	2025-09-23	CopilotKit/CopilotKit	React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic last-mile 🪁	I don't code React
+🔴	TS	   22341	  6014	2026-06-28	google-labs-code/design.md	A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.	I'm not very convinced this is the format to use.
 🔴	TS	   17177	   141	2025-11-12	resend/react-email	💌 Build and send emails using React	I don't code React
 🔴	TS	   16105	   112	2025-09-17	sindresorhus/type-fest	A collection of essential TypeScript types	I don't code TypeScript
 🔴	TS	   11365	   245	2025-09-27	TanStack/router	🤖 Fully typesafe Router for React (and friends) w/ built-in caching, 1st class search-param APIs, client-side cache integration and isomorphic rendering.	I don't code React
