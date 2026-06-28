@@ -1305,6 +1305,7 @@
 🔴	JS	   97263	   393	2025-11-12	mui/material-ui	Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.	I don't code React
 🔴	JS	   93757	  1206	2025-11-02	microsoft/Web-Dev-For-Beginners	24 Lessons, 12 Weeks, Get Started as a Web Developer	Skip educational
 🔴	JS	   89255	   384	2025-10-05	jaywcjlove/awesome-mac	 Now we have become very big, Different from the original idea. Collect premium software in various categories.	I don't use Mac
+🔴	JS	   84299	   100	2025-10-05	sveltejs/svelte	web development for the rest of us	AI agents can pick their own frameworks
 🔴	JS	   65712	    73	2025-10-05	leonardomso/33-js-concepts	📜 33 JavaScript concepts every developer should know.	Skip educational
 🔴	JS	   60717	    46	2025-09-23	atom/atom	The hackable text editor	Prefer VS Code
 🔴	JS	   50671	   141	2025-12-28	chinese-poetry/chinese-poetry	The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库, 唐宋两朝近一万四千古诗人, 接近5.5万首唐诗加26万宋诗. 两宋时期1564位词人，21050首词。	I don't read poetry
@@ -1395,7 +1396,6 @@
 ⏺️	PY	   16725	  5875	2025-12-10	microsoft/VibeVoice	Open-Source Frontier Voice AI
 ⏺️	PY	   13490	   319	2025-09-17	ahujasid/blender-mcp
 ⏺️	PY	    2143	   968	2025-10-05	anthropics/claude-agent-sdk-python
-⏺️	JS	   84299	   100	2025-10-05	sveltejs/svelte	web development for the rest of us
 ⏺️	JS	   18943	    85	2025-09-27	FreeTubeApp/FreeTube	An Open Source YouTube app for privacy
 ⏺️	GO	   52055	   443	2025-10-26	pocketbase/pocketbase	Open Source realtime backend in 1 file
 ⏺️	GO	   31926	   170	2025-10-05	IceWhaleTech/CasaOS	CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.	Might be heavy but ...
@@ -1404,6 +1404,6 @@
 ⏺️	GO	   24962	   193	2025-09-23	tailscale/tailscale	The easiest, most secure way to use WireGuard and 2FA.
 ⏺️	GO	   23909	    70	2025-10-05	pulumi/pulumi	Pulumi - Infrastructure as Code in any programming language 🚀
 ⏺️	GO	   21876	   510	2025-09-17	trufflesecurity/trufflehog	Find, verify, and analyze leaked credentials
-⏺️	GO	   19612	   135	2025-10-05	getsops/sops	Simple and flexible tool for managing secrets
+🟢	GO	   19612	   135	2025-10-05	getsops/sops	Simple and flexible tool for managing secrets
 ⏺️	GO	   12810	   662	2025-10-05	oauth2-proxy/oauth2-proxy	A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.	Could be useful. Integrates with Caddy.
 ⏺️	GO	   10851	   458	2025-09-17	keploy/keploy	API, Integration, E2E Testing Agent for Developers that actually work. Generate tests, mocks/stubs for your APIs!
