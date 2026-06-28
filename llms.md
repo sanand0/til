@@ -2,6 +2,7 @@
 
 ## Jun 2026
 
+- 28 Jun 2026. A useful way of controlling AI verbosity is word count. One page of paragraph text on ChatGPT
 - 28 Jun 2026. Google Labs launched a [DESIGN.md](https://github.com/google-labs-code/design.md) spec to guide agents on a consistent design. The good part is that it aligns with the proposed [W3C design tokens spec](https://www.designtokens.org/). But beyond that, I'm not convinced of the benefit. Atlassian's [DESIGN.md](https://atlassian.design/DESIGN.md) had [mixed results](https://www.atlassian.com/blog/how-we-build/atlassians-design-md-is-here-what-we-learned-testing-portable-design-context-in-practice).  [Claude](https://claude.ai/share/2a64a7fe-1939-46b4-af32-e5efdc03fb70) feels it could go either way. I'll give this a miss for now.
 - 27 Jun 2026. "They're on mobile but this is substantiative enough to warrant length." I spotted this in Claude's thinking when prompting on mobile. So, if I ask Claude something on mobile, it will give me shorter responses by default. Clever design - but something to keep in mind. If I want some heavy thinking done by Claude, better to do it on desktop than try to give it conflicting instructions.
 - 27 Jun 2026. [Giant Permissive Image Corpus (GPIC)](https://gpic.stanford.edu/) has 100 million Qwen tagged public images. Even as a simple searchable image catalog this has value. [Jeff Clark - Import AI](https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/)
