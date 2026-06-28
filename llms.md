@@ -2,6 +2,39 @@
 
 ## Jun 2026
 
+- 27 Jun 2026. "They're on mobile but this is substantiative enough to warrant length." I spotted this in Claude's thinking when prompting on mobile. So, if I ask Claude something on mobile, it will give me shorter responses by default. Clever design - but something to keep in mind. If I want some heavy thinking done by Claude, better to do it on desktop than try to give it conflicting instructions.
+- 27 Jun 2026. [Giant Permissive Image Corpus (GPIC)](https://gpic.stanford.edu/) has 100 million Qwen tagged public images. Even as a simple searchable image catalog this has value. [Jeff Clark - Import AI](https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/)
+- 27 Jun 2026. [Ethan Mollick](https://www.oneusefulthing.org/p/co-existence-and-the-end-of-co-intelligence) had an agent test his book summary against multiple LLMs as readers to find out how they would recommend it - and optimized. This is a great practical use of agents as consumers, and material for my [When Data is for Agents, Not Humans](https://hasgeek.com/fifthelephant/fifthelephant-2026-call-for-submissions/sub/when-data-is-for-agents-not-humans-RPJ3syxmspKua6ADd44mD6) workshop.
+- 26 Jun 2026. To me, the clearest [sign of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) from the [Wikipedia:AI or not quiz](https://en.wikipedia.org/wiki/Wikipedia:AI_or_not_quiz) was consistent paragraph lengths. I got the first 3/3 wrong, but once I used this heuristic, I got 6/7 right. Updated my [LLM Smells](https://github.com/sanand0/blog/commit/1f0535fef1bd6434b0b28804ef8fbb41ae1d8d91).
+- 23 Jun 2026. Codex reported that `You have 2 usage limit resets available. Run /usage to use one.` [This thread](https://community.openai.com/t/flexible-rate-limit-resets-for-codex-and-a-method-to-get-a-reset/1383470) has context. After resetting, the next reset might be 7 days _after_ the reset, though [(source)](https://community.openai.com/t/flexible-rate-limit-resets-for-codex-and-a-method-to-get-a-reset/1383470/25).
+- 21 Jun 2026. On the one hand, AI is writing code, so there's no point learning Python. On the other hand, AI is writing code mostly in Python - so THAT's what you need to learn more. I think we should teach Python _using_ AI, that is, teach how to write and debug Python code _using_ AI. That'll end up teaching skills people will _really_ need. <!-- https://chatgpt.com/c/6a38968d-0194-83e9-9228-23b586e556d3 -->
+- 21 Jun 2026. Computational thinking = Decomposition + Abstraction + Algorithm design + Pattern recognition.
+  In AI, that translates to = Framing + Context engineering + Orchestration (harness engineering?) + Verification design. Maybe I'd add Assetization / Systems.
+  <!-- https://claude.ai/chat/a4beee77-d7a3-4ee5-9b57-cea2a85f1e6d + https://chatgpt.com/c/6a38a93b-6f98-83ee-b61a-e74d427c405f -->
+- 20 Jun 2026. The bottleneck to quality of AI output has shifted from model quality to harness quality (and this is not obvious to many people). It is important, therefore, to optimize harness usage rather than prompts usage, i.e. harness engineering over context engineering.
+- 19 Jun 2026. Using AI for health seems to have reached a tipping point. Three people have pitched an idea in this space to me in the last three days.
+  One is a managed personal health provider who wants to tie-up with hospitals to gather data to improve AI health advice.
+  Second is an enterpreneur who wants to enable the Indian Govt to use AI to improve public health - given the low proportion of trained doctors in public hospitals.
+  The third is a colleague who is uploading personal health reports, fitness data, DNA data, wearable data, etc. and suggest daily habits such as fitness, nutrition, sleep, medication, etc. to optimize health.
+- 18 Jun 2026. bolt.diy seems like a browser-embeddable coding agent. That is, you can add bolt.diy to your web page and have it build apps. That might be a pretty powerful upgrade to generative UI - where pages build themselves based on the user input. <!-- https://chatgpt.com/c/6a215c52-4cb4-83ec-aeac-f937e3aab34a -->
+- 18 Jun 2026. Codex has a few new features in the last few months.
+  - Codex can generate images and have voice conversations.
+  - `/goal` sets an overall session goal to avoid getting side-tracked.
+  - `/side` is like Claude Code's `/btw` - for a side task while the main task continues.
+  - `/resume` lets you switch to any previous session.
+  - `/keymap debug` lets you edit the keymap and inspect what keystrokes the terminal sends.
+  - `@` lets you mention files, directories, skills, _and_ plugins.
+  - `Ctrl+R` works, lets you pick a previous prompt.
+  - `Ctrl+O` copies the last answer as Markdown.
+  - Hooks are stable. `PreToolUse` lets you log every tool, `SessionStart` lets you inject repo-specific rules.
+  - MCPs with `readOnlyHint` can run in parallel.
+  - `codex doctor` diagnoses environment issues.
+  - `codex remote-control` lets you remotely control Codex, making it a server.
+  - Codex Python SDK is better and you can have Codex run as a back-end more smoothly.
+- 17 Jun 2026. Forward Deployed Engineers are the next evolution of data scientists, IMHO. AI can do data science. Data scientists will likely act as the "Human As An Interface" (HaaI) to business, proactively identifying and solving problems - a space business analysts traditionally occupied. Of course, business analysts will likely do the same without needing data scientists to help. But since AI replaces data scientists more than business analysis, I expect that the % of data scientists who become FDEs will be higher than business analysts.
+- 17 Jun 2026. The value of data exported from software is high. For example, your email, social posts, CRM / HRMS / ERP dumps, service tickets, purchases, notes etc. These let you create a personal / organizational digital brain. Hence proprietary solutions will make exports harder and open solutions will emerge.
+- 15 Jun 2026. The Codex app can now use the browser much better and faster since last week if you enable "Dev mode" [OpenAI](https://x.com/OpenAIDevs/status/2065226355495895521). THis uses CDP - which is more efficient than screenshots - and is something Codex CLI has been doing for many months.
+- 15 Jun 2026. In Codex, Claude Code, etc. you can submit a prompt _while_ the agent is working to _steer_ it, i.e. after it completes a turn (e.g. a tool call) it will factor in the prompt. You can also queue it. Neither of these is available on ChatGPT or Claude.ai, though it's such an important feature. On ChatGPT, submitting another prompt stops the previous run and the agent continues with the new prompt.
 - 13 Jun 2026. Overheard a journalist saying: "I can tell when humans are lying. There are no tell tale signs of AI lying. At least _I_ don't have any."
 - 12 Jun 2026. Currently, a $20 Claude Pro gives you ~$400 and a $100 Claude Max gives you ~$2,000 of API usage. For ChatGPT, the numbers are ~$700 and $3,500. [SemiAnalysis](https://x.com/SemiAnalysis_/status/2064815044085318040)
 - 12 Jun 2026. When Fable 5 refuses to answer questions, here's the message that appears: "Fable 5 has safety measures that flag messages on most cybersecurity or biology topics. They may flag safe, normal content as well. These measures let us bring you Mythos-level capability in other areas sooner, and we're working to refine them. Send feedback or [learn more](https://support.claude.com/en/articles/15363606)." I managed to trigger this once while researching an M&A acquisition target. Clicking on "Edit and retry with Fable 5" triggered Opus 5 again, twice.

@@ -1,3 +1,49 @@
+🟣	GO	   13908	    14	2026-06-28	ethereum/EIPs	The Ethereum Improvement Proposal repository
+🟣	GO	    5902	    84	2026-06-28	getarcaneapp/arcane	Modern Docker Management, Designed for Everyone
+🟣	GO	   19239	    33	2026-06-28	google/cadvisor	Analyzes resource usage and performance characteristics of running containers.
+🟣	GO	    3380	   126	2026-06-28	guohuiyuan/go-music-dl	一个基于 Go 语言的全网音乐搜索与下载工具。支持 CLI 命令行与 Web 服务双模式，内置网易云、QQ、酷狗、Bilibili、汽水音乐等 10+ 个主流平台，支持多源并发搜索与无损音质解析。music-dl交流群：1074285005
+🟣	GO	    3813	  2229	2026-06-28	kunchenguid/no-mistakes	git push no-mistakes
+🟣	GO	   16449	    76	2026-06-28	weaviate/weaviate	Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.
+🟣	JS	    1124	   186	2026-06-28	FB208/OpenBidKit_Yibiao	开箱即用的AI标书编写工具，标书AI生成工具，投标工具箱、知识库、标书查重、废标项检查，完全开源免费，欢迎使用
+🟣	JS	    4005	   229	2026-06-28	tradesdontlie/tradingview-mcp	AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation
+🟣	PY	    1482	   524	2026-06-28	aws/agent-toolkit-for-aws	Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS
+🟣	PY	    3940	   306	2026-06-28	mikumifa/biliTickerBuy	b站会员购购票辅助工具
+🟣	PY	    3049	  1836	2026-06-28	interviewstreet/hiring-agent	AI agent to evaluate and score resumes.
+🟣	PY	    7244	    41	2026-06-28	home-assistant/operating-system	🔰 Home Assistant Operating System
+🟣	PY	   19954	   256	2026-06-28	comet-ml/opik	Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.
+🟣	PY	   11853	   160	2026-06-28	The-PR-Agent/pr-agent	🚀 PR Agent: The Original Open-Source PR Reviewer. This project It is not the Qodo free tier.
+🟣	PY	    1972	   583	2026-06-28	NVIDIA/skills	AI agent skills published by NVIDIA
+🟣	PY	    6979	   439	2026-06-28	THUDM/slime	slime is an LLM post-training framework for RL Scaling.
+🟣	PY	   19157	   795	2026-06-28	smicallef/spiderfoot	SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.
+🟣	PY	   29525	   631	2026-06-28	stanford-oval/storm	An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.
+🟣	RS	   58163	  3933	2026-06-28	tw93/Pake	🤱🏻 Turn any webpage into a desktop app with one command.
+🟣	RS	   28990	  1848	2026-06-28	googleworkspace/cli	Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.
+🟣	RS	   16166	    32	2026-06-28	hyperium/hyper	An HTTP library for Rust
+🟣	RS	   31591	    47	2026-06-28	influxdata/influxdb	Scalable datastore for metrics, events, and real-time analytics
+🟣	RS	    7810	   451	2026-06-28	1jehuang/jcode	Coding Agent Harness
+🟣	RS	     630	    63	2026-06-28	tontinton/maki	An efficient AI coding agent
+🟣	RS	   16956	   124	2026-06-28	windmill-labs/windmill	Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal.
+🟣	SH	    3572	   119	2026-06-28	Astrosp/Awesome-OSINT-List	📡 Comprehensive collection of OSINT tools for cybersecurity professionals, researchers, and bug bounty hunters. Topics: information gathering, reverse search, red team, trust & safety, AI.
+🟣	SH	    2300	   197	2026-06-28	Light-Heart-Labs/DreamServer	Turn your PC, Mac, or Linux box into an AI server. LLM inference, chat UI, voice, agents, workflows, RAG, and image generation.
+🟣	SH	     903	   135	2026-06-28	fujibee/agmsg	Cross-vendor messaging for CLI AI coding agents — let Claude Code, Codex, Gemini & Copilot talk to each other in one team. Bash + SQLite, no daemon, no framework.
+🟣	SH	    1295	    76	2026-06-28	jqssun/android-helium-browser	Secure open-source Android browser with support for extensions
+🟣	SH	     993	   144	2026-06-28	rawfilejson/awesome-osint-arsenal	🔍 Curated OSINT & recon toolkit for Kali Linux — 100+ tools, one-command installer, covering SOCMINT, GEOINT, network recon, dark web, forensics & more.
+🟣	SH	    1851	    55	2026-06-28	assafdori/bypass-mdm	Bypass MDM Setup for MacOS, up to MacOS Tahoe 26.3
+🟣	SH	    6822	   855	2026-06-28	HQarroum/docker-android	🤖 A minimal and customizable Docker image running the Android emulator as a service.
+🟣	SH	    2411	     5	2026-06-28	gentoo/gentoo	[MIRROR] Official Gentoo ebuild repository
+🟣	SH	     240	    52	2026-06-28	n8n-io/skills	
+🟣	TS	    8071	  2291	2026-06-28	mauriceboe/TREK	A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.
+🟣	TS	    2727	  1474	2026-06-28	BuilderIO/agent-native	A framework for building agent-native applications.
+🟣	TS	   22122	  4565	2026-06-28	JCodesMore/ai-website-cloner-template	Clone any website with one command using AI coding agents
+🟣	TS	    8054	    42	2026-06-28	actions/checkout	Action for checking out a repo
+🟣	TS	   34525	   360	2026-06-28	continuedev/continue	open-source coding agent
+🟣	TS	   22341	  6014	2026-06-28	google-labs-code/design.md	A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.
+🟣	TS	  117252	  5427	2026-06-28	garrytan/gstack	Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA
+🟣	TS	    5734	   556	2026-06-28	modem-dev/hunk	Review-first terminal diff viewer for agentic coders
+🟣	TS	   31774	  2727	2026-06-28	heygen-com/hyperframes	Write HTML. Render video. Built for agents.
+🟣	TS	   39808	   622	2026-06-28	Kong/insomnia	The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.
+🟣	TS	   32557	   129	2026-06-28	motiondivision/motion	A modern animation library for React and JavaScript
+🟣	TS	    3401	  1031	2026-06-28	every-app/open-seo	Open source alternative to Semrush and Ahrefs
 🟣	GO	    2395	  1027	2026-06-14	kenn-io/agentsview	Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!
 🟣	GO	   19080	   114	2026-06-14	bluenviron/mediamtx	Ready-to-use Media-over-QUIC / SRT / WebRTC / RTSP / RTMP / LL-HLS / MPEG-TS / RTP live media server and media proxy that allows to read, publish, proxy, record and playback real-time video and audio streams.
 🟣	GO	   34383	   500	2026-06-14	restic/restic	Fast, secure, efficient backup program
