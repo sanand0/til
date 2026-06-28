@@ -54,7 +54,7 @@
 🟣	TS	   23864	  9232	2026-04-05	Yeachan-Heo/oh-my-claudecode	Teams-first Multi-agent orchestration for Claude Code
 🟣	TS	   23093	  2212	2026-01-12	bytedance/UI-TARS-desktop	The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra
 🟣	TS	   23038	   348	2026-04-05	yamadashy/repomix	📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.
-🟣	TS	   22341	  6014	2026-06-28	google-labs-code/design.md	A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.
+🔴	TS	   22341	  6014	2026-06-28	google-labs-code/design.md	A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.	I'm not very convinced this is the format to use.
 🟣	TS	   22122	  4565	2026-06-28	JCodesMore/ai-website-cloner-template	Clone any website with one command using AI coding agents
 🟣	TS	   21415	   420	2025-10-05	better-auth/better-auth	The most comprehensive authentication framework for TypeScript
 🟣	TS	   20815	  5589	2026-04-19	jamiepine/voicebox	The open-source voice synthesis studio
