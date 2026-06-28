@@ -1066,7 +1066,6 @@
 🟢	PY	   58428	    96	2025-10-05	scrapy/scrapy	Scrapy, a fast high-level web crawling & scraping framework for Python.
 🟢	PY	    9842	    93	2025-10-05	simonw/llm	Access large language models from the command-line
 🟢	PY	    7454	    21	2025-10-26	sphinx-doc/sphinx	The Sphinx documentation generator
-🟢	PY	    4702	  1794	2026-06-14	Andyyyy64/whichllm	Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.
 🟢	JS	  113458	   183	2025-09-27	nodejs/node	Node.js JavaScript runtime ✨🐢🚀✨
 🟢	JS	  111531	    78	2025-09-23	d3/d3	Bring data to life with SVG, Canvas and HTML. 📊📈🎉
 🟢	JS	  110100	   761	2025-09-17	open-webui/open-webui	User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
@@ -1294,6 +1293,7 @@
 🔴	PY	    6995	   844	2025-09-17	HKUDS/AutoAgent	AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework	Prefer OpenAI / Pydantic
 🔴	PY	    6292	   744	2025-09-23	google-research/timesfm	TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.	Requires BigQuery
 🔴	PY	    5264	   602	2025-10-19	Klavis-AI/klavis	Klavis AI (YC X25): MCP integration platforms that let AI agents use tools reliably at any scale	Prefer Claude Skills
+🔴	PY	    4702	  1794	2026-06-14	Andyyyy64/whichllm	Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.	Good project, picks best local LLM, but dependencies are too complex right now and local LLMs are not yet worth it
 🔴	PY	    2276	   337	2025-09-17	ml-explore/mlx-lm	Run LLMs with MLX	I don't use Apple
 🔴	PY	     147	    25	2025-10-05	elliottech/lighter-python	Public Python SDK for Lighter	I don't do finance
 🔴	JS	  239169	   290	2025-09-23	facebook/react	The library for web and native user interfaces.	Prefer lit-html
