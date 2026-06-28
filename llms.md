@@ -2,6 +2,7 @@
 
 ## Jun 2026
 
+- 28 Jun 2026. https://claude.ai/share/2a64a7fe-1939-46b4-af32-e5efdc03fb70
 - 27 Jun 2026. "They're on mobile but this is substantiative enough to warrant length." I spotted this in Claude's thinking when prompting on mobile. So, if I ask Claude something on mobile, it will give me shorter responses by default. Clever design - but something to keep in mind. If I want some heavy thinking done by Claude, better to do it on desktop than try to give it conflicting instructions.
 - 27 Jun 2026. [Giant Permissive Image Corpus (GPIC)](https://gpic.stanford.edu/) has 100 million Qwen tagged public images. Even as a simple searchable image catalog this has value. [Jeff Clark - Import AI](https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/)
 - 27 Jun 2026. [Ethan Mollick](https://www.oneusefulthing.org/p/co-existence-and-the-end-of-co-intelligence) had an agent test his book summary against multiple LLMs as readers to find out how they would recommend it - and optimized. This is a great practical use of agents as consumers, and material for my [When Data is for Agents, Not Humans](https://hasgeek.com/fifthelephant/fifthelephant-2026-call-for-submissions/sub/when-data-is-for-agents-not-humans-RPJ3syxmspKua6ADd44mD6) workshop.
