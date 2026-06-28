@@ -965,7 +965,7 @@
 🟣	GO	    4171	   294	2026-06-06	Gentleman-Programming/engram	Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.
 🟣	GO	    4120	    49	2025-09-17	openfga/openfga	A high performance and flexible authorization/permission engine built for developers and inspired by Google Zanzibar
 🟣	GO	    4107	  1236	2025-12-10	psviderski/uncloud	A lightweight tool for deploying and managing containerised applications across a network of Docker hosts. Bridging the gap between Docker and Kubernetes ✨
-🟣	GO	    3813	  2229	2026-06-28	kunchenguid/no-mistakes	git push no-mistakes
+🔴	GO	    3813	  2229	2026-06-28	kunchenguid/no-mistakes	git push no-mistakes	Clever but I don't think I'll need it
 🟣	GO	    3767	   468	2025-11-12	ayn2op/discordo	A lightweight, secure, and feature-rich Discord terminal (TUI) client.
 🟣	GO	    3693	   251	2026-06-06	Gentleman-Programming/gentle-ai
 🟣	GO	    3641	  1073	2025-11-12	opencloud-eu/opencloud	🌤️This is the main repository of the OpenCloud server. It contains the golang codebase for the backend services.
