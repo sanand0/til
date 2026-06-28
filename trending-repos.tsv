@@ -587,7 +587,6 @@
 🟣	PY	    4812	   669	2026-01-18	NevaMind-AI/memU	Memory infrastructure for LLMs and AI agents
 🟣	PY	    4796	   423	2026-04-12	google-deepmind/gemma	Gemma open-weight LLM library, from Google DeepMind
 🟣	PY	    4775	   773	2026-03-13	inclusionAI/AReaL	Lightning-Fast RL for LLM Reasoning and Agents. Made Simple & Flexible.
-🟣	PY	    4702	  1794	2026-06-14	Andyyyy64/whichllm	Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.
 🟣	PY	    4553	   701	2026-01-12	EveryInc/compound-engineering-plugin	Official Claude Code compound engineering plugin
 🟣	PY	    4543	   216	2026-01-18	neuphonic/neutts	On-device TTS model by Neuphonic
 🟣	PY	    4528	  2799	2026-06-14	NVIDIA/SkillSpector	Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.
@@ -1067,6 +1066,7 @@
 🟢	PY	   58428	    96	2025-10-05	scrapy/scrapy	Scrapy, a fast high-level web crawling & scraping framework for Python.
 🟢	PY	    9842	    93	2025-10-05	simonw/llm	Access large language models from the command-line
 🟢	PY	    7454	    21	2025-10-26	sphinx-doc/sphinx	The Sphinx documentation generator
+🟢	PY	    4702	  1794	2026-06-14	Andyyyy64/whichllm	Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.
 🟢	JS	  113458	   183	2025-09-27	nodejs/node	Node.js JavaScript runtime ✨🐢🚀✨
 🟢	JS	  111531	    78	2025-09-23	d3/d3	Bring data to life with SVG, Canvas and HTML. 📊📈🎉
 🟢	JS	  110100	   761	2025-09-17	open-webui/open-webui	User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
