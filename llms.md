@@ -2,7 +2,7 @@
 
 ## Jul 2026
 
-- 01 Jul 2026. [Claude Code Artifacts](https://claude.com/blog/artifacts-in-claude-code)
+- 01 Jul 2026. [Claude Code Artifacts](https://claude.com/blog/artifacts-in-claude-code) lets you
 - 01 Jul 2026. [Tau](https://twotimespi.dev/), like [Pi](https://pi.dev/), is a minimal coding agent. τ = 2*π. It shows what it does very transparently, making it easy to learn how agents work. `uvx --from tau-ai tau` works seamlessly. Configs, logs, and sessions are stored in `~/.tau` and you can log in via your Codex/ChatGPT subscription.
 - 01 Jul 2026. [Skills for Design Engineers](https://github.com/emilkowalski/skills) has a useful [animation vocabulary](https://github.com/emilkowalski/skills/blob/main/skills/animation-vocabulary/SKILL.md) skill that converts vague animation prompts to precise animation terminology.
 - 01 Jul 2026. [X has an MCP Server](https://docs.x.com/tools/mcp) but it's meant for development/coding than general users. Setting it up for ChatGPT / Claude requires creating tunnels.
