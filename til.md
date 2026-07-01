@@ -2,7 +2,7 @@
 
 ## Jul 2026
 
-- 01 Jul 2026. [ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) lets you view pages / RSS feeds offline. `uvx --from git+https://github.com/ArchiveBox/ArchiveBox.git@dev archivebox` works, and config / tools are stored in `~/.abx/`. The installation didn't go very smoothly and the whole thing felt bloated, though.
+- 01 Jul 2026. [ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) lets you view pages / RSS feeds offline. `uvx --from git+https://github.com/ArchiveBox/ArchiveBox.git@dev archivebox` works, and config / tools are stored in `~/.config/abx/`. The installation didn't go very smoothly and the whole thing felt bloated, so I abandoned it.
 
 ## Jun 2026
 
