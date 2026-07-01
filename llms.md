@@ -2,6 +2,7 @@
 
 ## Jul 2026
 
+- 01 Jul 2026. [X has an MCP Server](https://docs.x.com/tools/mcp) but it's meant for development/coding than general users. Setting it up for ChatGPT / Claude requires creating tunnels.
 - 01 Jul 2026. OpenAI supports [Secure MCP Tunnels](https://developers.openai.com/api/docs/guides/secure-mcp-tunnels) that let ChatGPT connect to your machine securely. A very powerful feature. Unfortunately, this seems to need an organization - and even though personal accounts can still access it, it's proven a bit more messy than I'd like to use.
 
 ## Jun 2026
