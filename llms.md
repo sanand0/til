@@ -2,6 +2,7 @@
 
 ## Jul 2026
 
+- 01 Jul 2026. Codex has a [Record and Replay](https://developers.openai.com/codex/record-and-replay) feature for Mac that lets you do something, records it, and learns from it. Very useful for non-developers. It's like recording Excel macros, which unleashed a lot of power for me when I didn't know Visual Basic.
 - 01 Jul 2026. [Claude Code Artifacts](https://claude.com/blog/artifacts-in-claude-code) lets Claude Code live-publish a web page and share it securely. The "live-publish" part is the interesting thing. Claude in a `/loop` can now become the app that updates a "dashboard", a live feed/story, a self-evolving app, ... and so much more. (This feature is only available for Team/Enterprise but the idea is universal.)
 - 01 Jul 2026. [Tau](https://twotimespi.dev/), like [Pi](https://pi.dev/), is a minimal coding agent. τ = 2*π. It shows what it does very transparently, making it easy to learn how agents work. `uvx --from tau-ai tau` works seamlessly. Configs, logs, and sessions are stored in `~/.tau` and you can log in via your Codex/ChatGPT subscription.
 - 01 Jul 2026. [Skills for Design Engineers](https://github.com/emilkowalski/skills) has a useful [animation vocabulary](https://github.com/emilkowalski/skills/blob/main/skills/animation-vocabulary/SKILL.md) skill that converts vague animation prompts to precise animation terminology.
