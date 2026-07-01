@@ -1,5 +1,9 @@
 # Things I learned
 
+## Jul 2026
+
+- 01 Jul 2026. [ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) lets you view pages / RSS feeds offline. `uvx --from git+https://github.com/ArchiveBox/ArchiveBox.git@dev archivebox` works, and config / tools are stored in `~/.abx/`. The installation didn't go very smoothly and the whole thing felt bloated, though.
+
 ## Jun 2026
 
 - 30 Jun 2026. [notebooklm-py](https://github.com/teng-lin/notebooklm-py) is a CLI for NotebookLM. Unofficial and potentially unsupported, but it's amazing how AI makes reverse-engineering APIs so easy.
