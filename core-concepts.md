@@ -1,5 +1,7 @@
 # Core Concepts
 
+See `~/code/blog/pages/prompts/core-concepts.md`
+
 [Scott Adams coined "The Rule of Twelve"](https://web.archive.org/web/20090322195653/http://dilbert.com/blog/entry/rule_of_twelve/).
 
 > ... seemingly impenetrable topics are less intimidating if you know there are only a dozen concepts to learn.
@@ -7,7 +9,16 @@
 
 This is true for many subjects. But avoid overconfidence. Expert pattern libraries are huge (~100K). Execution discipline matters.
 
+- 10 Jul 2026. Core concepts of Styleography (authorship detection) <!-- https://claude.ai/chat/0d521b96-e87b-40a0-988b-36f62c8f383e -->
+  - **Check topic leakage.** Strip content words and re-test cross-topic. The match may be the content, not style.
+  - **For text < 500 words, don't run frequency stats.** Get more data or find rare tells (odd idioms, punctuation).
+  - **Test prediction strength.** if your suspect only barely beats random same-genre writers, you've found nothing.
+  - **Compare within genre.** Compare emails to emails, novels to novels. Style varies a lot by channel.
+  - **AI can disguise style.** Boring low-attention features (function words, comma habits) are better signals of human writing.
 - 07 Jun 2026. Core concepts of [understanding people over the phone](https://claude.ai/share/86a5fa59-790e-4f7f-9d5f-3dbd5f041ad5) <!-- https://claude.ai/chat/e74ddaf1-6d04-4c4a-8eac-b01b356b4d0d + https://chatgpt.com/c/6a24d627-64e4-83ec-b5c6-802845a31e07 -->
+  - **Be silence**. Maybe ask one OPEN question, then wait. Let them fill in the silence.
+  - **Read the politics** and emotions. Who here loses if this succeeds? Have they shown me their real reaction yet?
+  - **Verify**. Every read is a hypothesis. Write and test it in the room. "I'm sensing X - is that right?" or "What's the smallest step you'd commit to right now?"
 - 31 May 2026. Core concepts of [evaluating code submissions](https://chatgpt.com/share/6a1ba95e-a1f0-83ec-b85c-282ea8321f0e) <!-- https://chatgpt.com/c/6a1ba2e3-e044-83ec-945b-246085844d53 -->
 - 24 Feb 2026. Core concepts of [Digital Transformation](https://gemini.google.com/app/1a550764d3101600)
   1. Conway's Law: Org Charts Dictate Architecture. You cannot change your IT systems without first changing how your teams communicate. Software naturally copies the communication structures of the organization that builds it. If you have three isolated corporate departments working on a project, you will inevitably build a system with three disconnected databases. Reorganizing the code requires reorganizing the company. **Source:** Melvin Conway (1967), widely foundational in modern DevOps and microservices literature (e.g., _Accelerate_ by Nicole Forsgren).
