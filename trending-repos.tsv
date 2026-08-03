@@ -1,3 +1,40 @@
+🟣	GO	     585	    46	2026-08-03	evolution-foundation/evolution-go	Evolution API / Evolution Go is an open-source WhatsApp integration API
+🟣	GO	     515	    37	2026-08-03	grafana/gcx	A CLI for managing Grafana and Grafana Cloud resources. Optimized for agentic usage.
+🟣	GO	     926	   353	2026-08-03	github/gh-stack	GitHub Stacked PRs
+🟣	GO	   14166	   191	2026-08-03	benbjohnson/litestream	Streaming replication for SQLite.
+🟣	GO	    1261	    17	2026-08-03	getprobo/probo	Open source solutions for SOC2, GDPR, and ISO27001
+🟣	GO	   86671	   635	2026-08-03	infiniflow/ragflow	RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
+🟣	GO	     958	    74	2026-08-03	agent-substrate/substrate	Agent Substrate: the core system
+🟣	JS	    6317	   136	2026-08-03	Acode-Foundation/Acode	Acode - powerful text/code editor for android
+🟣	JS	   10563	   298	2026-08-03	WhiskeySockets/Baileys	Socket-based TS/JavaScript API for WhatsApp Web
+🟣	JS	   11120	   437	2026-08-03	calesthio/Crucix	Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.
+🟣	JS	     711	   214	2026-08-03	TechyCSR/OpenCluely	OpenCluely is a free, open source Cluely (alternative), built for technical interviews like DSA, OAs, and CP. It offers an invisible overlay, real-time AI help, Smart Image Processing for question capture, and multi-language support : 100% customizable and private.
+🟣	JS	    6935	   437	2026-08-03	NomaDamas/k-skill	한국인을 위한 스킬 모음집 - 에이전트를 한국인으로
+🟣	JS	    7572	   156	2026-08-03	pdone/lx-music-source	洛雪音乐源
+🟣	JS	   56859	   468	2026-08-03	byoungd/up	An advanced guide which might benefit you a lot 🎉 . 人生进阶指南 离谱的人生 离谱的英语学习指南/英语学习教程/英语学习/学英语
+🟣	PY	   32768	   108	2026-08-03	OWASP/CheatSheetSeries	The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.
+🟣	PY	    7245	   263	2026-08-03	HKUDS/OpenSpace	"OpenSpace: The Skill Management Layer for AI Agents" -- https://open-space.cloud/
+🟣	PY	   10206	  1106	2026-08-03	microsoft/TRELLIS.2	Native and Compact Structured Latents for 3D Generation
+🟣	PY	   15924	   576	2026-08-03	andrewyng/aisuite	Simple, unified interface to multiple Generative AI providers
+🟣	PY	   15557	  5223	2026-08-03	virgiliojr94/book-to-skill	Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
+🟣	PY	   15853	  5225	2026-08-03	ayghri/i-have-adhd	A skill to stop your coding agent from burying the answer. ADHD-friendly output.
+🟣	PY	    2482	   251	2026-08-03	jgravelle/jcodemunch-mcp	Cut AI token costs 95%+ on code exploration. The leading MCP server for precise, symbol-level GitHub code retrieval via tree-sitter AST. Works with Claude Code, Cursor & any MCP client. 313B+ tokens saved.
+🟣	PY	   23852	   138	2026-08-03	modelcontextprotocol/python-sdk	The official Python SDK for Model Context Protocol servers and clients
+🟣	RS	    8782	   169	2026-08-03	BoundaryML/baml	The programming language for agents
+🟣	RS	     786	   164	2026-08-03	ovexro/dockpanel	Modern server management panel built with Rust and React. Sites, databases, Docker apps, Git deploy, mail, DNS, monitoring, backups, and security — all in one panel.
+🟣	RS	    1485	    72	2026-08-03	Dicklesworthstone/pi_agent_rust	High-performance AI coding agent CLI written in Rust with zero unsafe code
+🟣	RS	    4160	   931	2026-08-03	tokio-rs/topcoat	A batteries-included framework for building web apps
+🟣	SH	    6211	   227	2026-08-03	deanpeters/Product-Manager-Skills	Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agents.
+🟣	TS	    5042	  2933	2026-08-03	opengeos/GeoLibre	A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.
+🟣	TS	    7345	  1716	2026-08-03	CoreBunch/Instatic	The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.
+🟣	TS	    3126	   746	2026-08-03	UditAkhourii/adhd	ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude & Codex Agent SDK. Fans out parallel divergent thoughts under different cognitive frames, scores, prunes traps, deepens the survivors. The no-brainer skill for creative and interdisciplinary work.
+🟣	TS	    1936	    27	2026-08-03	microsoft/azure-devops-mcp	The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.
+🟣	TS	   54095	    86	2026-08-03	vuejs/core	🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
+🟣	TS	   20799	  3163	2026-08-03	pascalorg/editor	Create and share 3D architectural projects.
+🟣	TS	   15136	   136	2026-08-03	Effect-TS/effect	Build production-ready applications in TypeScript
+🟣	TS	    8837	   151	2026-08-03	modelcontextprotocol/modelcontextprotocol	Specification and documentation for the Model Context Protocol
+🟣	TS	   20489	  2925	2026-08-03	different-ai/openwork	The open-source alternative to Claude Cowork (powered by opencode)
+🟣	TS	   15470	   139	2026-08-03	Koenkk/zigbee2mqtt	Zigbee 🐝 to MQTT bridge 🌉, get rid of your proprietary Zigbee bridges 🔨
 🔴	TS	  109430	  1748	2026-03-13	shadcn-ui/ui	A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.	Agents code, I don't, so I'll let them pick.
 🟣	TS	   99636	  1340	2025-11-12	iptv-org/iptv	Collection of publicly available IPTV channels from all over the world
 🔴	TS	   87792	    83	2025-09-23	storybookjs/storybook	Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation	I no longer code libraries / UI components. Agents build them on the fly.
