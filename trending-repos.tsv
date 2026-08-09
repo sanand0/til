@@ -1,3 +1,41 @@
+🟣	GO	   33199	  4704	2026-08-09	esengine/DeepSeek-Reasonix	DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.
+🟣	GO	   19752	   180	2026-08-09	bettercap/bettercap	The Swiss Army knife for 802.11, BLE, HID, CAN-bus, IPv4 and IPv6 networks reconnaissance and MITM attacks.
+🟣	GO	   15450	    55	2026-08-09	kgretzky/evilginx2	Standalone man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication
+🟣	GO	   15122	    87	2026-08-09	passteque/gluetun	VPN client in a thin Docker container for multiple VPN providers, written in Go, and using OpenVPN or Wireguard, DNS over TLS, with a few proxy servers built-in.
+🟣	GO	    1112	   113	2026-08-09	zzet/gortex	High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - expose only needed information, cutting token usage up to 50x. 100% local. Discord: https://discord.gg/39MFHu3J5d
+🟣	GO	   11579	    25	2026-08-09	kubescape/kubescape	Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It includes risk analysis, security, compliance, and misconfiguration scanning, saving Kubernetes users and administrators precious time, effort, and resources.
+🟣	GO	     437	   117	2026-08-09	alibaba/skill-up	An evaluation and evolution tool for Agent Skills.
+🟣	GO	    4910	   541	2026-08-09	superplanehq/superplane	The open source control plane for agentic engineering.
+🟣	GO	   20150	  1657	2026-08-09	pranshuparmar/witr	Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.
+🟣	JS	    9915	   893	2026-08-09	freestylefly/awesome-gpt-image-2	Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中
+🟣	JS	  103304	    31	2026-08-09	react/create-react-app	Set up a modern web app by running one command.
+🟣	JS	    1098	   208	2026-08-09	WorldFlowAI/everything-claude-code	Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development
+🟣	PY	  186441	   787	2026-08-09	Significant-Gravitas/AutoGPT	AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
+🟣	PY	  124941	  1778	2026-08-09	Comfy-Org/ComfyUI	The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
+🟣	PY	   46131	   512	2026-08-09	SimplifyJobs/Summer2027-Internships	Summer 2026 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC.
+🟣	PY	   23805	   214	2026-08-09	SuperClaude-Org/SuperClaude_Framework	A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies.
+🟣	PY	   12763	  1170	2026-08-09	livekit/agents	A framework for building realtime voice AI agents 🤖🎙️📹
+🟣	PY	   24005	  1334	2026-08-09	goauthentik/authentik	The authentication glue you need.
+🟣	PY	   13053	   981	2026-08-09	paperswithbacktest/awesome-systematic-trading	A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.
+🟣	PY	    2629	   237	2026-08-09	vitali87/code-graph-rag	The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs
+🟣	PY	    3597	  3398	2026-08-09	huangruiteng/loopx	Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.
+🟣	PY	    1014	   156	2026-08-09	razzant/ouroboros	Ouroboros — self-creating AI agent. Born Feb 16, 2026.
+🟣	PY	   16798	  1143	2026-08-09	google/skills	Agent Skills for Google products and technologies
+🟣	PY	    6637	   201	2026-08-09	android/skills	
+🟣	PY	   12138	   517	2026-08-09	abus-aikorea/voice-pro	Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, CosyVoice), with Whisper audio processing, YouTube download, Demucs vocal isolation, and multilingual translation.
+🟣	PY	     752	    84	2026-08-09	Comfy-Org/workflow_templates	ComfyUI template workflows
+🟣	RS	    5441	   578	2026-08-09	FalkorDB/FalkorDB	A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal is to provide the best Knowledge Graph for LLM (GraphRAG).
+🟣	RS	   11874	   113	2026-08-09	moghtech/komodo	🦎 a tool to build and deploy software on many servers 🦎
+🟣	RS	    7273	   159	2026-08-09	raphamorim/rio	A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.
+🟣	RS	    9230	    32	2026-08-09	risingwavelabs/risingwave	Event streaming platform for agentic AI. Continuously ingest, transform, and serve event streams in real time, at scale.
+🟣	RS	   18400	    36	2026-08-09	ruffle-rs/ruffle	A Flash Player emulator written in Rust
+🟣	RS	    3774	    42	2026-08-09	modelcontextprotocol/rust-sdk	The official Rust SDK for the Model Context Protocol
+🟣	RS	    2582	   337	2026-08-09	agavra/tuicr	a code review TUI with vim keybindings
+🟣	RS	    7514	    78	2026-08-09	warp-tech/warpgate	Fully transparent SSH, HTTPS, Kubernetes, MySQL and Postgres bastion/PAM that doesn't need additional client-side software
+🟣	SH	    1073	    53	2026-08-09	tracelabs/tlosint-vm	Trace Labs OSINT VM
+🟣	TS	    9256	   200	2026-08-09	CyberTimon/RapidRAW	A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.
+🟣	TS	    8684	   499	2026-08-09	CodebuffAI/freebuff	The free coding agent
+🟣	TS	    7764	  2259	2026-08-09	usekaneo/kaneo	🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.
 🟣	GO	     585	    46	2026-08-03	evolution-foundation/evolution-go	Evolution API / Evolution Go is an open-source WhatsApp integration API
 🟣	GO	     515	    37	2026-08-03	grafana/gcx	A CLI for managing Grafana and Grafana Cloud resources. Optimized for agentic usage.
 🟣	GO	     926	   353	2026-08-03	github/gh-stack	GitHub Stacked PRs

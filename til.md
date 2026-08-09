@@ -2,6 +2,11 @@
 
 ## Aug 2026
 
+- 08 Aug 2026. Kamakoti: "Entry (to the course) is relatively easy but the exit is extremely hard". Generalizing, quality is determined by the exit criteria; loosening entry criteria is just openness / diversity. [The Hindu](https://www.thehindu.com/news/national/tamil-nadu/iit-madras-launches-online-bs-course-on-management-and-data-science/article70659825.ece) <!-- https://gemini.google.com/app/b5c95aa16c056bb9 -->
+- 05 Aug 2026. Some people blab. Interrupting with a question is a good diversion mechanism. Some blab even after that. Exiting politely is both wise and surprisingly un-rude.
+- 05 Aug 2026. To control your mental state, breathe slowly. 5–6 times/min for five minutes (that's longer than I thought was needed), exhaling slower than you inhale. [PubMed](https://pubmed.ncbi.nlm.nih.gov/35623448/)
+- 04 Aug 2026. I assumed inflammation was mostly a bio/chemical process. Looks like neural signals are involved, too, and electrical simulation can control inflammation. This leads us to a new territory: bio-electrical medicine.
+- 03 Aug 2026. The geometric mean is always less than or equal to the arithmetic mean. This is why a "smooth" 8% return is worth much more than a "wild" 8% return. [@lumenxbt](https://x.com/i/status/2082101954206130402)
 - 01 Aug 2026. I continue to be amazed at how efficient video codecs are compared with animated image formats. When compressing 38 PNGs, the final WEBM was smaller than many of the _individual_ PNGs!
   - 2343k: `magick -delay 50 -loop 0 file-*.png file.gif`
   - 398k: `magick -delay 50 -loop 0 file-*.png file.avif` (slow)
@@ -1312,7 +1317,7 @@
 - 24 Sep 2025. [`wrkflw`](https://github.com/bahdotsh/wrkflw) is a quick and light way to test GitHub actions before publishing. It runs GitHub actions locally.
 - 23 Sep 2025. ⭐ I'm habit engineering, i.e. discovering and stacking habits on to existing ones. For example:
   - ChatGPT suggested increasing observability based on code reviews. I'm including it in my [weekly codecast](https://github.com/sanand0/sanand0/tree/main/week).
-  - ChatGPT suggested defining closures inmeetings. I'mn now discussing objectives at meeting starts and effectiveness at the end.
+  - ChatGPT suggested defining closures in meetings. I'mn now discussing objectives at meeting starts and effectiveness at the end.
 - 23 Sep 2025. Since Anaconda [cannot be used for free](https://www.anaconda.com/pricing) by organizations with 200+ people, Straive's received legal notices from Anaconda. Since laptops are under central IT administration, they went ahead and deleted all Anaconda instances. Installing [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main) for use with [conda-forge](https://conda-forge.org/) requires admin access that most developers do not have, however. That leads to an interesting "No Python" situation. This is where [`uv`](https://github.com/astral-sh/uv) becomes the knight in shining armor.
 - 22 Sep 2025. Gall's "law" says that complex systems that work evolved from simple systems that worked. But a complex system designed from scratch won't ever work. This holds in uncertain environments. But where formal theory or regulations exists, it doesn't. [ChatGPT](https://chatgpt.com/share/68d2c367-d674-800c-9c1c-51fcacfa5c6d)
 - 22 Sep 2025. [`uvx --with visidata vd`](https://www.visidata.org/) gives you a command-line Excel editor to edit / convert CSV, Excel, JSON, SQLite, directories, etc.
