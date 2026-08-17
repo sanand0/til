@@ -1,3 +1,40 @@
+🟣	GO	   11057	   404	2026-08-16	krillinai/KrillinAI	AI video translation & dubbing tool for humans and AI Agents, powered by LLMs. Full pipeline: download, transcribe, translate, TTS dub, reformat, cover generation. 100+ languages, optimized for YouTube, TikTok, Bilibili, Douyin, and more.AI视频翻译配音工具，面向人类与AI Agent，100+语言全链路，CLI分阶段调用，适配抖音、小红书、哔哩哔哩、视频号、TikTok、YouTube
+🟣	GO	   24130	   196	2026-08-16	OpenListTeam/OpenList	A new AList Fork to Anti Trust Crisis
+🟣	GO	     637	    76	2026-08-16	kdlbs/kandev	AI Kanban & Development Environment. Orchestrate multiple agents, review changes, open PRs. Multi-provider, self-hostable, no telemetry.
+🟣	GO	   47358	   121	2026-08-16	coreybutler/nvm-windows	A node.js version management utility for Windows. Ironically written in Go.
+🟣	GO	     549	   111	2026-08-16	Agent-Field/pr-af	#1 open-source code reviewer on Code-Review-Bench
+🟣	JS	  157782	   241	2026-08-16	Snailclimb/JavaGuide	Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
+🟣	JS	    1006	   278	2026-08-16	amElnagdy/delegate-skills	Delegate a coding task to a separate coding agent CLI, review the diff, land the commit yourself — one per implementer.
+🟣	JS	  103410	  4652	2026-08-16	DietrichGebert/ponytail	Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
+🟣	JS	    2062	   278	2026-08-16	darkzOGx/youtube-automation-agent	🎬 Fully automated YouTube channel management with AI agents. Creates, optimizes & publishes videos 24/7. Works with FREE Gemini API or OpenAI. No coding required!
+🟣	PY	    9025	   484	2026-08-16	Lightricks/LTX-2	Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.
+🟣	PY	    1214	   567	2026-08-16	harveyai/harvey-labs	A benchmark built to evaluate and improve agent capabilities for supporting legal work.
+🟣	PY	   13141	  1059	2026-08-16	megadose/holehe	holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.
+🟣	PY	   91244	  2008	2026-08-16	3b1b/manim	Animation engine for explanatory math videos
+🟣	PY	    6102	  2488	2026-08-16	cactus-compute/needle	14MB foundation model for tiny devices; phones, wearables, smart home, and robots.
+🟣	PY	    7957	  5339	2026-08-16	semantica-agi/semantica	Graph-Native Infrastructure for Context and Accountable AI Systems
+🟣	PY	    7524	   670	2026-08-16	google-deepmind/weathernext	
+🟣	RS	     857	   317	2026-08-16	HakanSeven12/OpenCADStudio	A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering
+🟣	RS	    1591	  1326	2026-08-16	NVIDIA-NeMo/Switchyard	Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.
+🟣	RS	    6043	    96	2026-08-16	rivet-dev/actors	Rivet Actors are the primitive for stateful workloads. Built for AI agents, collaborative apps, and durable execution.
+🟣	RS	    3674	  1249	2026-08-16	denoland/celld	self-hosted, distributed Durable Objects
+🟣	RS	    5838	   143	2026-08-16	waditu/czsc	缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易
+🟣	RS	    5005	   223	2026-08-16	ZSeven-W/openpencil	The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.
+🟣	RS	   73861	    44	2026-08-16	unionlabs/union	The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.
+🟣	SH	    3455	    79	2026-08-16	gnekt/My-Brain-Is-Full-Crew	Built by a PhD whose memory was failing, whose diet was a mess, and whose anxiety had its own agenda. Most second brain tools ignore the fact that your brain doesn't work in isolation: your body and your mental health are part of the system too. This crew handles all three: knowledge, nutrition, and mental wellness.
+🟣	SH	   19481	   496	2026-08-16	jnMetaCode/agency-agents-zh	🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉等）。搭配编排器 agency-orchestrator，一句话即可让多位专家按 DAG 自动协作。
+🟣	SH	    1120	    54	2026-08-16	bivlked/amneziawg-installer	One-command AmneziaWG 2.0 / 3.0 installer for a self-hosted VPN server on Ubuntu and Debian: DPI bypass, traffic obfuscation, split tunneling, auto-hardening, client management. Includes a VPN cascade guide.
+🟣	SH	    3592	   548	2026-08-16	kunchenguid/firstmate	Talk to one agent. Ship with a crew.
+🟣	SH	    4474	    22	2026-08-16	hestiacp/hestiacp	Hestia Control Panel | A lightweight and powerful control panel for the modern web.
+🟣	TS	    6118	   246	2026-08-16	KunAgent/Kun	Local-first AI agent workspace for coding, writing, design, research, and automation — one runtime for desktop GUI and TUI.
+🟣	TS	   18536	  1282	2026-08-16	danielmiessler/LifeOS	⛰️ The Life Operating System — an intent engineering platform that moves you from your current state to your ideal state, in life and work.
+🟣	TS	   78858	   201	2026-08-16	coder/code-server	VS Code in the browser
+🟣	TS	    8266	  1966	2026-08-16	cloudflare/computer	Give your agent a computer 👾
+🟣	TS	   10137	  2864	2026-08-16	corsairdev/corsair	Your Agent's Integration Layer
+🟣	TS	   24417	   165	2026-08-16	dubinc/dub	The modern link attribution platform. Loved by world-class marketing teams like Framer, Perplexity, Superhuman, Twilio, Buffer and more.
+🟣	TS	    6122	  1236	2026-08-16	lightningpixel/modly	Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU
+🟣	TS	   78330	  2430	2026-08-16	paperclipai/paperclip	The open-source app everyone uses to manage agents at work
+🟣	TS	   16316	  8488	2026-08-16	PrimeIntellect-ai/prime-agent	A self-improving RLM agent for coding workflows and long-running autonomous tasks.
 🟣	GO	   33199	  4704	2026-08-09	esengine/DeepSeek-Reasonix	DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.
 🟣	GO	   19752	   180	2026-08-09	bettercap/bettercap	The Swiss Army knife for 802.11, BLE, HID, CAN-bus, IPv4 and IPv6 networks reconnaissance and MITM attacks.
 🟣	GO	   15450	    55	2026-08-09	kgretzky/evilginx2	Standalone man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication
@@ -6,9 +43,9 @@
 🟣	GO	   11579	    25	2026-08-09	kubescape/kubescape	Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It includes risk analysis, security, compliance, and misconfiguration scanning, saving Kubernetes users and administrators precious time, effort, and resources.
 🟣	GO	     437	   117	2026-08-09	alibaba/skill-up	An evaluation and evolution tool for Agent Skills.
 🟣	GO	    4910	   541	2026-08-09	superplanehq/superplane	The open source control plane for agentic engineering.
-🟣	GO	   20150	  1657	2026-08-09	pranshuparmar/witr	Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.
+🟢	GO	   20150	  1657	2026-08-09	pranshuparmar/witr	Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.
 🟣	JS	    9915	   893	2026-08-09	freestylefly/awesome-gpt-image-2	Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中
-🟣	JS	  103304	    31	2026-08-09	react/create-react-app	Set up a modern web app by running one command.
+🔴	JS	  103304	    31	2026-08-09	react/create-react-app	Set up a modern web app by running one command.	I don't use React
 🟣	JS	    1098	   208	2026-08-09	WorldFlowAI/everything-claude-code	Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development
 🟣	PY	  186441	   787	2026-08-09	Significant-Gravitas/AutoGPT	AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 🟣	PY	  124941	  1778	2026-08-09	Comfy-Org/ComfyUI	The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
@@ -21,7 +58,7 @@
 🟣	PY	    3597	  3398	2026-08-09	huangruiteng/loopx	Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.
 🟣	PY	    1014	   156	2026-08-09	razzant/ouroboros	Ouroboros — self-creating AI agent. Born Feb 16, 2026.
 🟣	PY	   16798	  1143	2026-08-09	google/skills	Agent Skills for Google products and technologies
-🟣	PY	    6637	   201	2026-08-09	android/skills	
+🟣	PY	    6637	   201	2026-08-09	android/skills
 🟣	PY	   12138	   517	2026-08-09	abus-aikorea/voice-pro	Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, CosyVoice), with Whisper audio processing, YouTube download, Demucs vocal isolation, and multilingual translation.
 🟣	PY	     752	    84	2026-08-09	Comfy-Org/workflow_templates	ComfyUI template workflows
 🟣	RS	    5441	   578	2026-08-09	FalkorDB/FalkorDB	A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal is to provide the best Knowledge Graph for LLM (GraphRAG).
@@ -38,7 +75,7 @@
 🟣	TS	    7764	  2259	2026-08-09	usekaneo/kaneo	🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.
 🟣	GO	     585	    46	2026-08-03	evolution-foundation/evolution-go	Evolution API / Evolution Go is an open-source WhatsApp integration API
 🟣	GO	     515	    37	2026-08-03	grafana/gcx	A CLI for managing Grafana and Grafana Cloud resources. Optimized for agentic usage.
-🟣	GO	     926	   353	2026-08-03	github/gh-stack	GitHub Stacked PRs
+🔵	GO	     926	   353	2026-08-03	github/gh-stack	GitHub Stacked PRs	Might be useful for agents for large scale PRs. Not currently useful for me.
 🟣	GO	   14166	   191	2026-08-03	benbjohnson/litestream	Streaming replication for SQLite.
 🟣	GO	    1261	    17	2026-08-03	getprobo/probo	Open source solutions for SOC2, GDPR, and ISO27001
 🟣	GO	   86671	   635	2026-08-03	infiniflow/ragflow	RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
@@ -63,7 +100,7 @@
 🟣	RS	    1485	    72	2026-08-03	Dicklesworthstone/pi_agent_rust	High-performance AI coding agent CLI written in Rust with zero unsafe code
 🟣	RS	    4160	   931	2026-08-03	tokio-rs/topcoat	A batteries-included framework for building web apps
 🟣	SH	    6211	   227	2026-08-03	deanpeters/Product-Manager-Skills	Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agents.
-🟣	TS	    5042	  2933	2026-08-03	opengeos/GeoLibre	A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.
+🟢	TS	    5042	  2933	2026-08-03	opengeos/GeoLibre	A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.	Just use https://web.geolibre.app/ instead of any GIS tools.
 🟣	TS	    7345	  1716	2026-08-03	CoreBunch/Instatic	The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.
 🟣	TS	    3126	   746	2026-08-03	UditAkhourii/adhd	ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude & Codex Agent SDK. Fans out parallel divergent thoughts under different cognitive frames, scores, prunes traps, deepens the survivors. The no-brainer skill for creative and interdisciplinary work.
 🟣	TS	    1936	    27	2026-08-03	microsoft/azure-devops-mcp	The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.
