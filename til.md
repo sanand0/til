@@ -2,6 +2,17 @@
 
 ## Aug 2026
 
+- 22 Aug 2026. [DuckDB 2.0](https://duckdb.org/2026/08/17/duckdb-20-highlights) adds a `CONNECT` command that can connect to databases like MySQL, PostgreSQL, etc. making DuckDB the only DB client I need.
+- 17 Aug 2026. When my train neighbor started talking to me (asking personal questions but was self-aware, rambling but was partly interesting), I asked if he was an extrovert. He said "No". People who talk a lot can still be introverts if they're: <!-- http://localhost:8080/sessions/pi%3A01a00f16-9425-7f0c-9952-9c3f7e7cab9d -->
+  - socially competent (like me at work)
+  - in "performance mode" (like me when I'm on stage)
+  - are high energy and engaged by topics (maybe him - or me when, like now, when I just HAVE to tell the flight attendant Ollama + Gemma 4 + Pi answering a psychology question is a delight!)
+  - ambiverts (maybe him)
+  - not self-aware and are mistaken (maybe him)
+- 17 Aug 2026. `ffmpeg` can embed subtitles. `ffmpeg -i video.webm -i subtitles.srt -map 0:v -map 0:a? -map 1:0 -c:v copy -c:a copy -c:s srt -metadata:s:s:0 language=eng -metadata:s:s:0 title="English" -disposition:s:0 default output.mkv` adds `subtitles.srt` to `video.webm` and creates `output.mkv` with embedded subtitles. Note: On VLC, MKV works better than WEBM if you want to embed subtitles. On the browser, you need to use the `<video>` tag with a `<track>` tag to display subtitles. <!-- https://chatgpt.com/c/6a8294f9-59c4-83ee-8a80-cee9b33beaae -->
+- 17 Aug 2026. `ffmpeg` can _burn_ subtitles. `ffmpeg -i video.webm -vf "subtitles=subtitles.srt" -c:v libvpx-vp9 -crf 30 -b:v 0 -c:a copy output.webm` re-encodes the video with subtitles added to the video.
+- 17 Aug 2026. `ffmpeg` can offset subtitles. For example: `ffmpeg -itsoffset 10 -i input.srt -c copy output.srt` creates `output.srt` with subtitles starting 10 seconds later than `input.srt`.
+- 17 Aug 2026. When I hear my father's tales from his childhood, I'm struck by how much India moved forward in half a century on child mortality, consumerism, and communication (mobiles). Also surprising are what feels the same: legal system, travel (trains made it easy), food (tasted better, then), entertainment (theatres made it easy), gardening, education (scholarships made international study more accessible than I thought),
 - 14 Aug 2026. [psub](https://fishshell.com/docs/current/cmds/psub.html) is a neat `fish` option to treat command outputs like file inputs. E.g. `diff (sort a.txt | psub) (sort b.txt | psub)`
 - 13 Aug 2026. I usually log things in a single file rather than split things into yearly, monthly, etc. A single file is more portable, scannable, and, for human logs, gives a feeling of accomplishment. I split when the file gets so unwieldy that it actually hurts - which is a good thing because it means I'm actually using it (maybe?) - and splitting beforehand may be good planning but is also premature optimization, adding friction to a nascent, fragile process. (This idea is pretty generalizable.)
 - 10 Aug 2026. [VS Code has built-in dictation](https://code.visualstudio.com/docs/configure/accessibility/voice#_dictate-in-an-editor). It uses `nemotron-3.5-asr-streaming-0.6b` by default #ForNow, and it's pretty good. I expect I'll use it a lot more, since most of my typing is in VS Code anyway. <kbd>Ctrl + Alt + V</kbd> toggles dictation. Dictation is also supported in the terminal and is trained to recogni

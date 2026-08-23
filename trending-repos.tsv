@@ -1,3 +1,29 @@
+🟣	GO	    6032	   173	2026-08-23	rorkai/App-Store-Connect-CLI	Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more
+🟣	GO	    2654	    80	2026-08-23	compozy/compozy	An operating system for AI agents. Plug in the agent CLIs you already use (Claude Code, Codex, Gemini CLI, Cursor) and they become a team: they split the work, hand tasks to each other, run automated on jobs and loops, and share one project memory. You steer everything from the browser.
+🟣	GO	   14425	   178	2026-08-23	shadow1ng/fscan	一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。(An intranet comprehensive scanning tool, enabling one-click automated, all-round vulnerability scanning)
+🟣	GO	   19298	    50	2026-08-23	golangci/golangci-lint	Fast linters runner for Go
+🟣	GO	    1619	   233	2026-08-23	Gitlawb/zero	The coding agent that answers to you, your model, your machine, your rules.
+🟣	JS	    1376	   111	2026-08-23	Darkatse/TauriTavern	The classic Sillytavern, now has been rewritten in Tauri/Rust.
+🟣	JS	    1610	   222	2026-08-23	Javis603/token-monitor	Local-first desktop widget for tracking token usage, costs, and limits across 32+ AI coding tools—including Claude Code, Codex, Cursor, OpenCode, and OpenClaw—with multi-device sync.
+🟣	PY	    5496	   906	2026-08-23	Tencent/AI-Infra-Guard	A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.
+🟣	PY	    1573	   370	2026-08-23	youssofal/MTPLX	3x faster speeds on MLX | Qwen 3.8 27B | Native MTP Speculative Decoding On Apple Silicon With No External Drafter.
+🟣	PY	    2760	  1224	2026-08-23	MakazhanAlpamys/Soup	Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.
+🟣	PY	    2062	    96	2026-08-23	noonghunna/club-3090	Community recipes for serving LLMs on RTX 3090/4090/5090 CUDA gpus. Multi-engine (vLLM, llama.cpp, ik_llama) and model-agnostic. Currently shipping Qwen3.6-27B Qwen3.6 35B Gemma 4 26B Gemma 4 31B configs for 1× and 2× cards.
+🟣	PY	   23355	   436	2026-08-23	index-tts/index-tts	An Industrial-Level Controllable and Efficient Zero-Shot Text-To-Speech System
+🟣	PY	    3458	   606	2026-08-23	shy3130/tickflow-stock-panel	TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 | 基于 TickFlow 数据源 | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源 ,非TickFlow官方项目
+🟣	RS	   30608	   264	2026-08-23	lbjlaq/Antigravity-Manager	Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。
+🟣	RS	   13946	  4993	2026-08-23	AprilNEA/OpenLogi	⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.
+🟣	RS	    4088	  2575	2026-08-23	akitaonrails/ai-memory	Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors
+🟣	RS	   15962	   273	2026-08-23	quickwit-oss/tantivy	Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust
+🟣	SH	    2053	    32	2026-08-23	aditya-shri/VPN	Personal VPN using Shadowsocks and v2ray
+🟣	SH	    1407	    28	2026-08-23	microsoft/azure-skills	Official agent plugin providing skills and MCP server configurations for Azure scenarios.
+🟣	SH	     635	    41	2026-08-23	conversun/fnos-apps	飞牛 fnOS NAS 第三方应用商店 — 115 款自托管应用的 .fpk 安装包 | Plex, Emby, Jellyfin, qBittorrent, Immich, Sonarr, Radarr, Vaultwarden, ZeroClaw AI, OpenClaw 等 | 每日自动同步上游版本
+🟣	SH	     264	    51	2026-08-23	pwnerblu/surrealra1n	Tether downgrade tool (iOS 7.0-17.6.1) for some checkm8/usbliter8 64bit devices. Some restores may utilize seprmvr64 by Mineek.
+🟣	TS	   54329	  1927	2026-08-23	agalwood/Motrix	A full-featured download manager.
+🟣	TS	    7107	  3364	2026-08-23	cordiverse/cordis	Meta-Framework of Spatiotemporal Composability
+🟣	TS	    2170	   810	2026-08-23	apache/maka	Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.
+🟣	TS	    1051	   424	2026-08-23	eneskirca/nodeterm	Node-based terminal manager for AI coding agents — tmux-backed terminals and parallel agent sessions as draggable nodes on an infinite pan/zoom canvas. macOS, Linux, and a browser Server Edition.
+🟣	TS	   41521	  1174	2026-08-23	amruthpillai/reactive-resume	A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!
 🟣	GO	   11057	   404	2026-08-16	krillinai/KrillinAI	AI video translation & dubbing tool for humans and AI Agents, powered by LLMs. Full pipeline: download, transcribe, translate, TTS dub, reformat, cover generation. 100+ languages, optimized for YouTube, TikTok, Bilibili, Douyin, and more.AI视频翻译配音工具，面向人类与AI Agent，100+语言全链路，CLI分阶段调用，适配抖音、小红书、哔哩哔哩、视频号、TikTok、YouTube
 🟣	GO	   24130	   196	2026-08-16	OpenListTeam/OpenList	A new AList Fork to Anti Trust Crisis
 🟣	GO	     637	    76	2026-08-16	kdlbs/kandev	AI Kanban & Development Environment. Orchestrate multiple agents, review changes, open PRs. Multi-provider, self-hostable, no telemetry.
