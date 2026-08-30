@@ -2,7 +2,12 @@
 
 ## Aug 2026
 
-- 22 Aug 2026. [DuckDB 2.0](https://duckdb.org/2026/08/17/duckdb-20-highlights) adds a `CONNECT` command that can connect to databases like MySQL, PostgreSQL, etc. making DuckDB the only DB client I need.
+- 28 Aug 2026. [rofi](https://github.com/davatorium/rofi) - a Linux menu app I use for all kinds of things - makes it hard to take screenshots because it takes over focus and I can't send the `PrtSc` or other keys to the screenshot apps. So I use [`flameshot full --delay 3000 --path ~/Downloads/screenshot.png`](https://flameshot.org/) to take a screenshot (of the last region it used) 3 seconds later, and quickly activate `rofi` in-between. (The [docs](https://flameshot.org/docs/advanced/commandline-options/) say `flameshot full` captures the full screen. For me, it captured my last region.)
+- 27 Aug 2026. [AWS to acquire DuckDB](https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws). DuckDB is one of my favorite tools today and is improving at a rapid pace. I guess that will continue in the short run - hope it lasts long enough for a worthy successor.
+- 26 Aug 2026. I use [GoatCounter](https://goatcounter.com/) to track my website traffic. It doesn't capture domains (only paths), so I just use a [code snippet](https://github.com/sanand0/imdb/commit/9c235b25d80c92ec23d0939689ced889a0a8b142) to log `https://sanand0.github.io/SITE/...` as `/@SITE/...` - the `@` makes it easy for me to see that it's from a GitHub page.
+- 24 Aug 2026. I switched from [anydoc](https://github.com/firecrawl/anydoc) to [docling](https://github.com/chronicle/docling) as my default PDF to Markdown converter. Docling is even better than AnyDoc #ForNow.
+- 23 Aug 2026. I switched from [markitdown](https://github.com/microsoft/markitdown) to [anydoc](https://github.com/firecrawl/anydoc) as my default PDF to Markdown converter. AnyDoc handles tables and other kinds of structures in PDF _much_ better #ForNow.
+- 22 Aug 2026. [DuckDB 2.0](https://duckdb.org/2026/08/17/duckdb-20-highlights) adds a `CONNECT` command that can connect to databases like MySQL, PostgreSQL, etc. making DuckDB the only DB client I need #ForNow.
 - 17 Aug 2026. When my train neighbor started talking to me (asking personal questions but was self-aware, rambling but was partly interesting), I asked if he was an extrovert. He said "No". People who talk a lot can still be introverts if they're: <!-- http://localhost:8080/sessions/pi%3A01a00f16-9425-7f0c-9952-9c3f7e7cab9d -->
   - socially competent (like me at work)
   - in "performance mode" (like me when I'm on stage)
