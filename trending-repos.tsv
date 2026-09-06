@@ -1,3 +1,35 @@
+🟣	GO	    3223	   280	2026-09-06	seakee/CPA-Manager-Plus	A self-hosted CPA / CLIProxyAPI management panel and AI gateway observability dashboard for requests, usage, cost, quota, failures, and account health.
+🟣	GO	   15527	   101	2026-09-06	cloudflare/cloudflared	Cloudflare Tunnel client
+🟣	GO	    3248	   436	2026-09-06	JetBrains/go-modern-guidelines	Help AI coding agents write modern Go
+🟣	GO	   14053	    66	2026-09-06	kopia/kopia	Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.
+🟣	GO	    3971	  1378	2026-09-06	weave-os/router	Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.
+🟣	GO	    6440	  3187	2026-09-06	tailscale/tailcat	like netcat, but over Tailscale's data plane, without Tailscale's control plane
+🟣	JS	   67681	    27	2026-09-06	chartjs/Chart.js	Simple HTML5 Charts using the <canvas> tag
+🟣	JS	    8057	  1591	2026-09-06	laoma2053/awesome-zhuiju-free	免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。
+🟣	JS	   15242	   299	2026-09-06	alam00000/bentopdf	The Privacy First PDF Toolkit
+🟣	JS	   18233	  5926	2026-09-06	bilawalsidhu/gods-eye-view	A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.
+🟣	JS	   10163	   175	2026-09-06	facebook/stylex	StyleX is the styling system for ambitious user interfaces.
+🟣	PY	   27828	   367	2026-09-06	ATH-MaaS/Pixelle-Video	🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine
+🟣	PY	    6776	  1135	2026-09-06	sngyai/Sequoia-X	A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书
+🟣	PY	   19354	  6761	2026-09-06	debpalash/VoiceStudio	VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
+🟣	PY	   37146	   383	2026-09-06	khoj-ai/khoj	Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.
+🟣	PY	    1789	  1247	2026-09-06	pollen-robotics/microduck_rl	RL training environments for Microduck (mjlab)
+🟣	PY	    7549	  1996	2026-09-06	handsomestWei/patent-disclosure-skill	中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。
+🟣	PY	    4687	  1273	2026-09-06	kaifcodec/user-scanner	🕵️‍♂️ (2-in-1) Email & Username OSINT suite featuring native MCP support for deep data extraction just from a single Email/Username. Analyzes 465+ actively maintained scan vectors (175+ email / 290+ username) for security research, investigations, and digital footprinting.
+🟣	RS	    3016	  1180	2026-09-06	martin-olivier/airgorah	A WiFi security auditing software mainly based on aircrack-ng tools suite
+🟣	RS	     721	   193	2026-09-06	RizRiyz/luvus	Mission control for your AI agents
+🟣	SH	   32122	    14	2026-09-06	dokku/dokku	A docker-powered PaaS that helps you build and manage the lifecycle of applications
+🟣	TS	   32192	 10109	2026-09-06	THU-MAIC/OpenMAIC	Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
+🟣	TS	   13817	   499	2026-09-06	rmyndharis/OpenWA	Free, Open Source, Self-Hosted WhatsApp API Gateway
+🟣	TS	    4381	   149	2026-09-06	awslabs/aidlc-workflows	AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents
+🟣	TS	   17463	   406	2026-09-06	nashsu/llm_wiki	LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。
+🟣	TS	    3404	  1396	2026-09-06	magnitudedev/magnitude	Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.
+🟣	TS	   32760	  1839	2026-09-06	Gitlawb/openclaude	runs anywhere. uses anything
+🟣	TS	   12176	   832	2026-09-06	vercel-labs/portless	Replace port numbers with stable, named local URLs. For humans and agents.
+🟣	TS	   32130	   289	2026-09-06	pmndrs/react-three-fiber	🇨🇭 A React renderer for Three.js
+🟣	TS	    2908	  1990	2026-09-06	humanlayer/skills	
+🟣	TS	   19000	   392	2026-09-06	mlc-ai/web-llm	High-performance In-browser LLM Inference Engine
+🟣	TS	   43850	   304	2026-09-06	colinhacks/zod	TypeScript-first schema validation with static type inference
 🟣	GO	    3853	   450	2026-08-30	bjarneo/cliamp	cliamp - Terminal music player inspired by winamp
 🟣	GO	    3281	  1279	2026-08-30	asciimoo/hister	Your own search engine
 🟣	GO	    9646	    21	2026-08-30	tmc/langchaingo	LangChain for Go, the easiest way to write LLM-based programs in Go
