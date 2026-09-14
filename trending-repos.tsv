@@ -1,10 +1,30 @@
+🟣	PY	    6028	  1680	2026-09-13	The-Swarm-Corporation/AutoHedge	Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.
+🟣	PY	    3478	   316	2026-09-13	Sumanth077/Hands-On-AI-Engineering	A curated collection of practical AI projects implementing OCR systems, RAG, AI agents, and other AI use cases.
+🟣	PY	    7298	   713	2026-09-13	multimodal-art-projection/YuE	YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.
+🟣	PY	    9219	   483	2026-09-13	AgriciDaniel/claude-ads	Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X): source-grounded audits, deterministic scoring, versioned JSON reports, and capability-gated account changes.
+🟣	PY	    5098	   472	2026-09-13	bikini/exploitarium	A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz. Please do not abuse these. I do this so to allure people into the field, and I've always found this is the most efficient way.
+🟣	PY	   47329	  4069	2026-09-13	blader/humanizer	Agent skill that removes signs of AI-generated writing from text
+🟣	PY	    3035	  1112	2026-09-13	jordan-gibbs/hyperresearch	Agent-driven research knowledge base. Agents collect, search, and synthesize web research into a persistent, searchable wiki.
+🟣	PY	    8670	  1307	2026-09-13	petergyang/no-ai-slop	Removes 20+ patterns of AI slop from any piece of writing.
+🟣	RS	   54518	    71	2026-09-13	lencx/ChatGPT	❄️ ChatGPT Desktop Application (Mac, Windows and Linux)
+🟣	RS	     634	   216	2026-09-13	mixelpixx/Konnect	AI-assisted PCB design for KiCAD 10. Native KiCAD plugin — a single Rust binary exposing 217 schematic, layout, routing, placement, design-review, and manufacturing tools to Claude, or the LLM of your choosing
+🟣	RS	   17547	   479	2026-09-13	jlcodes99/cockpit-tools	🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta
+🟣	RS	   19268	  1203	2026-09-13	t8y2/dbx	20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。
+🟣	SH	   45100	    33	2026-09-13	pyenv/pyenv	Simple Python version management
+🟣	TS	    2508	  1515	2026-09-13	alsk1992/CloddsBot	Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.
+🟣	TS	    1813	   850	2026-09-13	melgarafael/DeskcommCRM	Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.
+🟣	TS	    4210	  1488	2026-09-13	BraveOPotato/FckSignups	A list of tools that are open-source, in-browser, and require no-signups!
+🟣	TS	   10420	  1059	2026-09-13	MoonTechLab/LunaTV	本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同协议开源
+🟣	TS	   87688	  1442	2026-09-13	OpenHands/OpenHands	🙌 OpenHands: AI-Driven Development
+🟣	TS	   22371	  1936	2026-09-13	mksglu/context-mode	Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.
+🟣	TS	    3082	   346	2026-09-13	nab138/iloader	User friendly sideloader
 🟣	GO	    3223	   280	2026-09-06	seakee/CPA-Manager-Plus	A self-hosted CPA / CLIProxyAPI management panel and AI gateway observability dashboard for requests, usage, cost, quota, failures, and account health.
-🟣	GO	   15527	   101	2026-09-06	cloudflare/cloudflared	Cloudflare Tunnel client
-🟣	GO	    3248	   436	2026-09-06	JetBrains/go-modern-guidelines	Help AI coding agents write modern Go
+🟢	GO	   15527	   101	2026-09-06	cloudflare/cloudflared	Cloudflare Tunnel client
+🔴	GO	    3248	   436	2026-09-06	JetBrains/go-modern-guidelines	Help AI coding agents write modern Go	I don't code Go
 🟣	GO	   14053	    66	2026-09-06	kopia/kopia	Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.
 🟣	GO	    3971	  1378	2026-09-06	weave-os/router	Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.
 🟣	GO	    6440	  3187	2026-09-06	tailscale/tailcat	like netcat, but over Tailscale's data plane, without Tailscale's control plane
-🟣	JS	   67681	    27	2026-09-06	chartjs/Chart.js	Simple HTML5 Charts using the <canvas> tag
+🟢	JS	   67681	    27	2026-09-06	chartjs/Chart.js	Simple HTML5 Charts using the <canvas> tag
 🟣	JS	    8057	  1591	2026-09-06	laoma2053/awesome-zhuiju-free	免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。
 🟣	JS	   15242	   299	2026-09-06	alam00000/bentopdf	The Privacy First PDF Toolkit
 🟣	JS	   18233	  5926	2026-09-06	bilawalsidhu/gods-eye-view	A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.
@@ -20,14 +40,14 @@
 🟣	RS	     721	   193	2026-09-06	RizRiyz/luvus	Mission control for your AI agents
 🟣	SH	   32122	    14	2026-09-06	dokku/dokku	A docker-powered PaaS that helps you build and manage the lifecycle of applications
 🟣	TS	   32192	 10109	2026-09-06	THU-MAIC/OpenMAIC	Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
-🟣	TS	   13817	   499	2026-09-06	rmyndharis/OpenWA	Free, Open Source, Self-Hosted WhatsApp API Gateway
+⏺️	TS	   13817	   499	2026-09-06	rmyndharis/OpenWA	Free, Open Source, Self-Hosted WhatsApp API Gateway
 🟣	TS	    4381	   149	2026-09-06	awslabs/aidlc-workflows	AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents
 🟣	TS	   17463	   406	2026-09-06	nashsu/llm_wiki	LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。
 🟣	TS	    3404	  1396	2026-09-06	magnitudedev/magnitude	Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.
 🟣	TS	   32760	  1839	2026-09-06	Gitlawb/openclaude	runs anywhere. uses anything
 🟣	TS	   12176	   832	2026-09-06	vercel-labs/portless	Replace port numbers with stable, named local URLs. For humans and agents.
 🟣	TS	   32130	   289	2026-09-06	pmndrs/react-three-fiber	🇨🇭 A React renderer for Three.js
-🟣	TS	    2908	  1990	2026-09-06	humanlayer/skills	
+🟣	TS	    2908	  1990	2026-09-06	humanlayer/skills
 🟣	TS	   19000	   392	2026-09-06	mlc-ai/web-llm	High-performance In-browser LLM Inference Engine
 🟣	TS	   43850	   304	2026-09-06	colinhacks/zod	TypeScript-first schema validation with static type inference
 🟣	GO	    3853	   450	2026-08-30	bjarneo/cliamp	cliamp - Terminal music player inspired by winamp

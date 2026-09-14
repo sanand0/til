@@ -1,5 +1,21 @@
 # Things I learned
 
+## Sep 2026
+
+- 12 Sep 2026. [Everything I own, owned](https://schlarp.com/posts/everything-i-own-owned/) suggests that agentic reverse-engineering of firmware helps us learn:
+  - Features the devices expose
+  - Hidden functionalities, e.g. Shure MV7 microphone has a command shell.
+  - Dependencies, supply chains and attack surfaces
+  - Interesting components, e.g. RTOS webcam has small face tracking and gesture detection models
+  - Change behavior, e.g. don't turn on indicator while recording
+  - So, it's possible (even likely) that my TV, phone, laptop, camera, fridge, car, vacuum cleaning robot, bluetooth headphone, ... can be hacked by a rogue AI-assisted firmware update.
+- 12 Sep 2026. "Leaving things alone is an underrated engineering skill." From [Software drives people insane](https://graybeard.ing/software-drives-people-insane/).
+- 11 Sep 2026. Meeting people who have a target AND who control scarce resources is a great exercise in humility. Principals of elite private schools, partner managers of top software companies, any officer with a quota (police, income tax, bank loan, IT compliance), etc. You learn to grin while bearing the pain of being with them.
+- 11 Sep 2026. Thanks to agents, it's easy enough to maintain an Android and iOS mobile application separately #ForNow, rather than incur the overhead of React-Native (or other cross-platform frameworks). [Shopify](https://shopify.engineering/back-to-native) is making testing easy by "... designing our app architecture to work for both humans and agents."
+- 11 Sep 2026. [Use `re.prefixmatch()` instead of `re.match()` in Python 3.15+](https://discuss.python.org/t/add-re-prefixmatch-deprecate-re-match/105927/7). This [article](https://hugovk.dev/blog/2026/soft-deprecating-re.match/) captures the reason well. (I failed the quiz at the start despite almost 2 decades of Python programming - and LLM atrophy).
+- 10 Sep 2026. You can run Linux distributions in the browser. For example, this is a simple, embeddable [buildroot distribution](https://copy.sh/v86/?profile=buildroot) that runs purely in the browser. There's [Nix](https://trynix.dev/). There's [Alpine Linux](https://bellard.org/jslinux/vm.html?cpu=x86_64&mem=256&url=alpine-x86_64.cfg). Interestingly, `curl https://example.com/` works on Alpine Linux, unconstrained by same-origin policies. It is relayed by the host (bellard.org in this case) via WebSockets, so it can even `ssh` into other servers. [ChatGPT](https://chatgpt.com/share/6aa2ba6e-ee84-83ec-b406-834846bd636a) <!-- https://chatgpt.com/c/6aa2b566-28e0-83ec-a4a4-034688295f5b -->
+- 07 Sep 2026. Several top-level domains have over 50% of new registrations in 2025 blocklisted. Scammers use new domains extensively. But policing new domains also stops genuine protesters, so it's not clear what the right approach is. [The purpose of DNS is to spread scams](https://shkspr.mobi/blog/2026/09/the-purpose-of-dns-is-to-spread-scams/).
+
 ## Aug 2026
 
 - 28 Aug 2026. [rofi](https://github.com/davatorium/rofi) - a Linux menu app I use for all kinds of things - makes it hard to take screenshots because it takes over focus and I can't send the `PrtSc` or other keys to the screenshot apps. So I use [`flameshot full --delay 3000 --path ~/Downloads/screenshot.png`](https://flameshot.org/) to take a screenshot (of the last region it used) 3 seconds later, and quickly activate `rofi` in-between. (The [docs](https://flameshot.org/docs/advanced/commandline-options/) say `flameshot full` captures the full screen. For me, it captured my last region.)
