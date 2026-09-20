@@ -1,3 +1,31 @@
+🟣	GO	    1747	   408	2026-09-20	p1neappleXpress/OpenFlux	Network stack research tool. TCP tunnel with pluggable transports.
+🟣	GO	    1583	   318	2026-09-20	e2b-dev/runtime	The runtime behind every E2B stack: Cloud, Enterprise, and your own machine.
+🟣	JS	   16142	   359	2026-09-20	JoeanAmier/TikTokDownloader	抖音 / TikTok 平台作品下载/数据采集工具
+🟣	JS	    5087	   964	2026-09-20	Mathieu2301/TradingView-API	📈 Get real-time stocks from TradingView
+🟣	JS	    3733	   429	2026-09-20	duolahypercho/codex-router	External-model router for Codex with guided Kimi OAuth/API, DeepSeek, safe migration, and rollback.
+🟣	JS	    3780	  1399	2026-09-20	fleetbase/fleetbase	Modular logistics and supply chain operating system (LSOS)
+🟣	JS	    4208	   217	2026-09-20	mekos2772/ios-location-spoofer	Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.
+🟣	JS	   16603	 13286	2026-09-20	cloudflare/security-audit-skill	A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings
+🟣	JS	    1420	   371	2026-09-20	plugin87/ux-ui-agent-skills	Turn Claude into a senior design architect: DTCG tokens, 50 components, WCAG 2.2 AA-AAA, 138 design systems, any-framework code, and 43 objective gates that fail the build instead of faking success.
+🟣	PY	    6348	  2930	2026-09-20	SnailSploit/Claude-Red	claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.
+🟣	PY	    2804	  1136	2026-09-20	rlaope/oh-my-hermes	All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages
+🟣	PY	   15199	  1285	2026-09-20	bobeff/open-source-games	A list of open source games.
+🟣	PY	  166412	  1290	2026-09-20	huggingface/transformers	🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.
+🟣	RS	    1927	   153	2026-09-20	CluvexStudio/Aether	A Rust userspace WARP core for censored networks, built around MASQUE over HTTP/3 and HTTP/2.
+🟣	RS	    2090	   189	2026-09-20	mesamirh/MovieBox-Tui	Terminal interface to find, download, and stream movies, TV shows, and live TV using local media players.
+🟣	RS	    5397	  4068	2026-09-20	alphaXiv/OpenResearch	Turn your coding agents into research agents
+🟣	RS	    3523	   228	2026-09-20	NVlabs/cuda-oxide	cuda-oxide is a Rust-to-CUDA compiler that lets you write (SIMT) GPU kernels in safe(ish), idiomatic Rust. It compiles standard Rust code directly to PTX — no DSLs, no foreign language bindings, just Rust.
+🟣	RS	   17169	   177	2026-09-20	rui314/mold	mold 🦠: A Modern Linker in Rust 🦀
+🟣	RS	    4564	    49	2026-09-20	topgrade-rs/topgrade	Upgrade all the things
+🟣	RS	    1436	   716	2026-09-20	yyjeqhc/webcodex	Give cloud AI agents a real development environment on your own machines.
+🟣	RS	    2663	   154	2026-09-20	raine/workmux	git worktrees + tmux windows for zero-friction parallel dev
+🟣	SH	     552	    55	2026-09-20	higgsfield-ai/cli	Higgsfield CLI
+🟣	SH	     301	    76	2026-09-20	akitaonrails/distrobox-gaming	Script to create a gaming focused Distrobox with all emulators pre-configured
+🟣	TS	   69589	  1537	2026-09-20	Fission-AI/OpenSpec	Spec-driven development (SDD) for AI coding assistants.
+🟣	TS	    4538	  1478	2026-09-20	vastsa/PI-Desktop	Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins
+🟣	TS	   68804	  1118	2026-09-20	cline/cline	Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
+🟣	TS	    7786	  3530	2026-09-20	ever-co/ever-gauzy	Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co
+🟣	TS	   12259	   479	2026-09-20	NangoHQ/nango	Build product integrations with AI.
 🟣	PY	    6028	  1680	2026-09-13	The-Swarm-Corporation/AutoHedge	Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.
 🟣	PY	    3478	   316	2026-09-13	Sumanth077/Hands-On-AI-Engineering	A curated collection of practical AI projects implementing OCR systems, RAG, AI agents, and other AI use cases.
 🟣	PY	    7298	   713	2026-09-13	multimodal-art-projection/YuE	YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.

@@ -2,6 +2,7 @@
 
 ## Sep 2026
 
+- 19 Sep 2026. `cloudflared tunnel --url http://localhost:8000` now lets you create a [quick tunnel](https://try.cloudflare.com/) - i.e. expose a port via a public URL, like `ngrok`. No account or login required.
 - 12 Sep 2026. [Everything I own, owned](https://schlarp.com/posts/everything-i-own-owned/) suggests that agentic reverse-engineering of firmware helps us learn:
   - Features the devices expose
   - Hidden functionalities, e.g. Shure MV7 microphone has a command shell.
