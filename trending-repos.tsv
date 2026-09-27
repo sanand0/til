@@ -1,3 +1,35 @@
+🟣	GO	   10627	    11	2026-09-27	distribution/distribution	The toolkit to pack, ship, store, and deliver container content
+🟣	GO	    1430	   322	2026-09-27	elvisun/newsjack	The open-source skills that turn your agent into a full PR team.
+🟣	GO	     498	    75	2026-09-27	openai/tunnel-client	Customer-run client for Secure MCP Tunnel: connect private or localhost MCP servers to ChatGPT, Codex, the Responses API, and AgentKit without exposing them to the public internet.
+🟣	GO	   15618	    59	2026-09-27	v2rayA/v2rayA	A web client for its own Xray-based core with global transparent proxy on Linux, Windows and macOS.
+🟣	JS	     104	    49	2026-09-27	rafaelbressan/masterzap	Visualizador das conversas vazadas do WhatsApp do Daniel Vorcaro (Banco Master) com a Martha Graeff.
+🟣	JS	    1431	   414	2026-09-27	DuarteSantos8/openGym	Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.
+🟣	JS	     627	   517	2026-09-27	androoAGI/starnet	A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.
+🟣	PY	   50643	  1055	2026-09-27	HKUDS/CLI-Anything	"CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/
+🟣	PY	    4756	   844	2026-09-27	NVIDIA/Model-Optimizer	A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.
+🟣	PY	    5120	   951	2026-09-27	TencentCloud/Octop	A smarter, self-hosted AI assistant — multi-user, multi-agent.
+🟣	PY	    8960	  1541	2026-09-27	zhouxiaoka/autoclip	AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具
+🟣	PY	    8459	  1097	2026-09-27	strands-agents/harness-sdk	Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.
+🟣	PY	   59676	   553	2026-09-27	BerriAI/litellm	The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]
+🟣	PY	   14869	  1769	2026-09-27	mvt-project/mvt	MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.
+🟣	PY	  103376	   295	2026-09-27	pytorch/pytorch	Tensors and Dynamic neural networks in Python with strong GPU acceleration
+🟣	PY	    3501	  1773	2026-09-27	superdesigndev/treg	OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn
+🟣	RS	    3954	   623	2026-09-27	yynxxxxx/Codex-X	OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。
+🟣	RS	     681	   423	2026-09-27	trailofbits/coop	Isolated VM environment for running Claude Code and Codex
+🟣	RS	   14841	   327	2026-09-27	longbridge/gpui-kit	Rust GUI components for building fantastic cross-platform desktop application by using GPUI.
+🟣	RS	    8015	  4415	2026-09-27	hydra-db/hydradb	HydraDB - fast graph database on object storage
+🟣	RS	    8932	  2342	2026-09-27	Nasiko-Labs/nasiko	Developer Control Plane for your AI Agents
+🟣	RS	   11120	    76	2026-09-27	huggingface/tokenizers	💥 Fast State-of-the-Art Tokenizers optimized for Research and Production
+🟣	RS	    2241	   594	2026-09-27	zeronsh/zeron	A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.
+🟣	TS	    7374	  1716	2026-09-27	Tencent/BrowserSkill	Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.
+🟣	TS	    5473	   417	2026-09-27	FxEmbed/FxEmbed	Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others
+🟣	TS	   12415	   780	2026-09-27	krillinai/OpenCreator	Formerly KrillinAI. Open-source AI workspace for creators, powered by Codex. Create videos, images, voice, avatars, video translation, and edits with Agents in one place.
+🟣	TS	   22945	  1361	2026-09-27	bendlang/bend	Bend 2: a fast language that blocks AI mistakes via proof. Install: curl -fsSL https://bend-lang.com/install.sh | sh
+🟣	TS	   17193	   569	2026-09-27	ahmedkhaleel2004/gitdiagram	Free, simple, fast interactive diagrams and videos for any GitHub repository
+🟣	TS	   18315	  1561	2026-09-27	vercel-labs/json-render	The Generative UI framework
+🟣	TS	    2134	    96	2026-09-27	atomicstrata/llm-wiki-compiler	The knowledge compiler. Raw sources in, interlinked wiki out. Inspired by Karpathy's LLM Wiki pattern.
+🟣	TS	   19232	  4660	2026-09-27	dream-num/univer	The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.
+🟣	TS	   49927	   594	2026-09-27	upscayl/upscayl	🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.
 🟣	GO	    1747	   408	2026-09-20	p1neappleXpress/OpenFlux	Network stack research tool. TCP tunnel with pluggable transports.
 🟣	GO	    1583	   318	2026-09-20	e2b-dev/runtime	The runtime behind every E2B stack: Cloud, Enterprise, and your own machine.
 🟣	JS	   16142	   359	2026-09-20	JoeanAmier/TikTokDownloader	抖音 / TikTok 平台作品下载/数据采集工具
