@@ -1,7 +1,19 @@
 # LLM learnings
 
+## Oct 2026
+
+- 03 Oct 2026. "Platform exodus": Lots of people are posting about leaving popular platforms (WordPress, Reddit, GitHub, ...) and software (Photoshop) - [Everyone's packing up](https://widdershins.verja.net/everyones-packing-up/). Looks like technically capably users are migrating to disposable systems #ForNow. [ChatGPT](https://chatgpt.com/share/6ac0b6a7-7f58-83ec-9732-f53b678fafea) <!-- https://chatgpt.com/c/6ac0ab1d-5944-83ec-b49a-19b4a181da4c -->
+- 02 Oct 2026. Despite the incredible cost & quality advantage of GPT 6 Luna, I'm still not using it for transcription. Gemini remains ahead #ForNow. It can process up to [9.5 hours of audio per prompt](https://ai.google.dev/gemini-api/docs/audio?hl=en#:~:text=9.5%20hours%20of%20audio%20per%20prompt) and seems to have a pretty good error rate. [ChatGPT](https://chatgpt.com/share/6abf827c-81e4-83ec-98cf-f98e4eb35130)
+- 02 Oct 2026. [Pi 1.0 supports MCP](https://earendil.com/posts/you-said-no-mcp/). But some features they still choose not to support are: permissions (use containers), sub-agents (invoke pi), plan mode (extension), TODOs (use TODO.md), background shell jobs (use tmux). [Pi Durable](https://earendil.com/posts/pi-durable/) feels like it covers `/goal`. <!-- https://chatgpt.com/c/6abf2dab-25b4-83ec-9c53-7d42797b3f03 -->
+  A good use for Pi Durable (or any long-running harness) is work you incrementally build on over days: maintenance, research, experiments, ... [HN](https://news.ycombinator.com/item?id=49926069)
+- 01 Oct 2026. [GPT 6 Astra beat Nethack](https://x.com/emollick/status/2103308028552343946)!
+- 01 Oct 2026. Donald has an entire facility that he can control via prompts. I'd love just one device! [Donald](https://x.com/donaldjewkes/status/2103214063832694819)
+
 ## Sep 2026
 
+- 28 Sep 2026. "I have a class of agents in my Wheelhouse factory that act just like TPMs. They have external email and Slack, and talk to my accountant, lawyers, players. Each one has a project lane and drives it. They use Progress By Nagging, which... works." [Steve Yegge](https://x.com/Steve_Yegge/status/2102268319919423606)
+- 28 Sep 2026. Roughly: "It's interesting when things scale beyond what people expect. Find such areas. See where they break and find emergent properties or new approaches that let it scale further." [Sam Altman](https://youtu.be/VeizK1M7V7E) with Alex Heath.
+- 28 Sep 2026. [Google managed to accidentally hack some websites and entered the FelonyBench](https://www.felonybench.com/). Finally!
 - 26 Sep 2026. [trafilatura](https://github.com/adbar/trafilatura) is a Python library that extracts the main content as Markdown from a web page. A useful alternative to [Jina Reader](https://jina.ai/reader) for text. It's better at main content extraction but can't handle non-HTML / JS generated / bot-protected URLs. <!-- https://chatgpt.com/c/6ab73d10-ea04-83ec-931d-ff7b9aa356bd -->
 - 26 Sep 2026. The [Remote Desktop Commander](https://chatgpt.com/settings/plugins-settings/plugin_asdk_app_6a057d268ebc81919918d37eec718425) ChatGPT plugin is a good alternative to my [mcpserver.py](https://github.com/sanand0/scripts/blob/539caf05d481ee4e80686b8f83ab362695c06c7e/mcpserver.py). Both let you expose bash on your laptop to ChatGPT - which is ultra-powerful. Here're the where RDC is 🟢 better and 🔴 worse. I would recommend it to everyone (but I'll stick to my own code).
   - 🟢 More features: session/process search, reads PDF/DOCX/XLSX, better file metadata, editing, reading, etc.

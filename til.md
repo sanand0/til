@@ -1,7 +1,17 @@
 # Things I learned
 
+## Oct 2026
+
+- 03 Oct 2026. Harvard authored a [paper](https://link.springer.com/article/10.1186/s12940-025-01248-6): living near nuclear power plants associated with more cancer. Several other papers published similar findings. The trouble is, there'll always be SOME places near which cancer rates are higher - and there are enough causes that you can [p-hack](https://en.wikipedia.org/wiki/Data_dredging). But, it's not easy to think of this upfront and very easy to fool ourselves. [Things that Apparently Cause Cancer](https://www.breakthroughjournal.org/p/things-that-apparently-cause-cancer)
+- 03 Oct 2026. [Supabase is acquiring Turso](https://supabase.com/blog/supabase-is-acquiring-turso). Turso is a Rust SQLite-compatible DB. Supabase was already popular for agentic software. This would add fast SQLite, which looks even more attractive.
+- 03 Oct 2026. "We don’t always have the time or budget, or even the legal right, to do multiple versions. Fans don’t have those restrictions. They can do as many variations as they want, and that’s fine." - [Pirating the Pirates on Notebook](https://mubi.com/en/notebook/posts/pirating-the-pirates)
+- 03 Oct 2026. "As rich people feel like their downtime is scarce—as each non-working hour practically shouts, “excuse me! you could be making money, right now!” —the experience of leisure time speeds up. We multitask and pack various downtime activities into short periods. Firing up a Netflix show at 9pm that you can half-ignore while you answer email is a perfect activity for people who need their leisure time to feel like half-productive box-checking." From [The Death of the American Host](https://www.derekthompson.org/p/the-death-of-the-american-host)
+- 03 Oct 2026. [Hacker News Best](https://news.ycombinator.com/best) has a [weekly best](https://news.ycombinator.com/best?h=168) or [daily best](https://news.ycombinator.com/best?h=24) (or any other) view you can control by adding a `?h=...` parameter. That makes it a useful alternative to [HNTopLinks](https://hntoplinks.com/) ([source](https://github.com/eguller/hntoplinks)) which goes down occasionally. I am using the [Redirector extension](https://chromewebstore.google.com/detail/redirector/lioaeidejmlpffbndjhaameocfldlhin) to re-map the URLs.
+
 ## Sep 2026
 
+- 30 Sep 2026. There are a number of sites that let you record your screen, video, or audio and download it. No installation / software required. Like for video, [Videoradius](https://www.videoradius.com/tools/online-screen-recorder), [recordscreen.io](https://recordscreen.io), [Browserkit](https://browserskit.com/en/screen-recorder/), [Screencord.me](https://screenrecord.me/), etc. Or for audio, [SayRec](https://sayrec.com/), [SpeakPipe](https://www.speakpipe.com/voice-recorder), [Vocaroo](https://vocaroo.com/), [Whyp](https://whyp.it/), etc. #ForNow
+- 27 Sep 2026. The list of columns you can see in VLC Media Player is [hard-coded](https://raw.githubusercontent.com/videolan/vlc/3.0.x/modules/gui/qt/components/playlist/sorting.h) and there's _no easy way_ to add something - like the composer or album artist - into this list. <!-- https://chatgpt.com/c/6ab91842-db18-83ec-bcf4-10648e8cc085 -->
 - 25 Sep 2026. From [Arun's lecture to IHRD, Kerala, Jan 2026](https://youtu.be/WSU_wt4HoXc), here's what I noted as the impact of Gen AI (and Ed Tech, broadly) on students, and how I address this.
   - Defers learning. My approach: teach how to learn on demand.
   - Reduces attention spans. I don't yet have an approach for this.

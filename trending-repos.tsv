@@ -1,3 +1,29 @@
+🟣	GO	    1466	   228	2026-10-04	Autumn-27/ARTEX	AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目
+🟣	GO	     437	    60	2026-10-04	AminMGMT/BackPack	High Performance reverse tunnel engine in Go, built for edge ⇄ origin server setups
+🟣	GO	   15831	   198	2026-10-04	Billionmail/BillionMail	BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr
+🟣	GO	    7751	   334	2026-10-04	CarterPerez-dev/Cybersecurity-Projects	Building 70 Projects ranging from beginner to advanced so anyone can — learn from, build upon, use as a reference, or even copy directly. Gamified Cybersecurity learning 👇
+🟣	GO	   32540	    41	2026-10-04	cockroachdb/cockroach	CockroachDB — the cloud native, distributed SQL database designed for high availability, effortless scale, and control over data placement.
+🟣	GO	    6283	    52	2026-10-04	daeuniverse/dae	eBPF-based Linux high-performance transparent proxy solution.
+🟣	GO	   10710	   162	2026-10-04	git-bug/git-bug	Distributed, offline-first bug tracker integrated in git
+🟣	GO	   20625	   350	2026-10-04	rakyll/hey	HTTP load generator, ApacheBench (ab) replacement
+🟣	GO	    8291	   372	2026-10-04	openbao/openbao	OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.
+🟣	JS	    5967	   414	2026-10-04	Neet-Nestor/Telegram-Media-Downloader	A script allowing you to download images and videos from Telegram web even if the group restricts downloading.
+🟣	PY	    8292	   800	2026-10-04	tile-ai/tilelang	Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels
+🟣	RS	    8945	  1645	2026-10-04	pacifio/atlas	Source control for agents. Use multiple coding agents, track their changes and query them in one place
+🟣	RS	    1145	   259	2026-10-04	JayWebtech/autoshorts	AutoShorts is a local-first desktop application for turning long-form video or audio recordings into high-impact, vertical short-form clip candidates (9:16 portrait) with AI-powered viral moment ranking.
+🟣	RS	   27937	  1409	2026-10-04	trycua/cua	Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.
+🟣	RS	    1129	   378	2026-10-04	timhartmann7/omnyssh	Fast, open-source SSH client and server manager for macOS, Windows and Linux. Desktop GUI and terminal TUI with a live metrics dashboard, tabbed terminal, SFTP file manager, port forwarding, one-click SSH keys and snippets. Built in Rust.
+🟣	RS	    3967	    37	2026-10-04	touchHLE/touchHLE	High-level emulator for early iOS apps. This repo is used for issues, releases and CI. Submit patches at: https://review.gerrithub.io/admin/repos/touchHLE/touchHLE
+🟣	SH	    4382	    14	2026-10-04	PaperMC/Folia	Fork of Paper which adds regionised multithreading to the dedicated server.
+🟣	SH	     961	    16	2026-10-04	CosmicScale/PSBBN-Definitive-Project	The ultimate setup for the PlayStation 2's internal drive.
+🟣	SH	    3520	    10	2026-10-04	BlackArch/blackarch	An ArchLinux based distribution for penetration testers and security researchers.
+🟣	SH	    1656	    40	2026-10-04	espressif/esp-csi	Applications based on Wi-Fi CSI (Channel state information), such as indoor positioning, human detection
+🟣	TS	     886	   439	2026-10-04	LuxAlgo/Vela	Fast, extensible financial charts for the web. The open-source core of Vela by LuxAlgo.
+🟣	TS	     352	   110	2026-10-04	adewaskar/jarvis	J.A.R.V.I.S for automating your daily tasks using Claude Code
+🟣	TS	    8607	  1388	2026-10-04	mobile-next/mobile-mcp	Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)
+🟣	TS	   14447	  1947	2026-10-04	oblien/openship	Self-hosted deployment platform
+🟣	TS	    5909	   792	2026-10-04	vercel-labs/scriptc	TypeScript-to-Native Compiler
+🟣	TS	    3863	  1917	2026-10-04	pablostanley/yoinks	yoink any video from your terminal. no shady ads.
 🟣	GO	   10627	    11	2026-09-27	distribution/distribution	The toolkit to pack, ship, store, and deliver container content
 🟣	GO	    1430	   322	2026-09-27	elvisun/newsjack	The open-source skills that turn your agent into a full PR team.
 🟣	GO	     498	    75	2026-09-27	openai/tunnel-client	Customer-run client for Secure MCP Tunnel: connect private or localhost MCP servers to ChatGPT, Codex, the Responses API, and AgentKit without exposing them to the public internet.
