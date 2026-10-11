@@ -1,3 +1,28 @@
+🟣	GO	     387	   120	2026-10-11	Agent-Field/CodeAF	Open-Source Software factory for Open Models
+🟣	GO	   19628	   145	2026-10-11	google/gvisor	Application Kernel for Containers
+🟣	GO	    5969	   669	2026-10-11	NdoleStudio/httpsms	Send and receive SMS messages using your Android phone programmatically via a simple HTTP API
+🟣	GO	     393	    20	2026-10-11	llm-d/llm-d-router	llm-d Router: The intelligent entry point for inference requests
+🟣	GO	     514	   128	2026-10-11	eugenioenko/ttt	TTT Editor (Terminal Text Tool): A real alternative to VS Code, Zed, and Sublime that runs in your terminal. A TUI that feels like GUI. Single binary, zero config.
+🟣	GO	    5118	   510	2026-10-11	Gaurav-Gosain/tuios	A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent.
+🟣	GO	     812	   158	2026-10-11	ys-ll/uniterm	All-in-one terminal covering 30+ protocols — SSH, RDP, SFTP, databases, Kubernetes and more. With a built-in AI Agent that runs multi-turn shell commands autonomously.
+🟣	JS	    3356	    53	2026-10-11	IRNova/Nova-Proxy	یک پنل گرافیکی کاربردی برای ارائه اشتراک‌های Worker با پروکسی‌های ، Trojan و Warp به همراه زنجیره پروکسی، ارائه دهنده تنظیمات کامل DNS، IP تمیز و روتینگ پیشرفته برای کاربران تمامی پلتفرم‌ها با استفاده از هسته‌های Amnezia، Wireguard، Sing-box، Clash/Mihomo و Xray.
+🟣	JS	    4782	   198	2026-10-11	withmarbleapp/os-taxonomy	
+🟣	JS	   22194	   302	2026-10-11	tabler/tabler-icons	A set of over 6200 free MIT-licensed high-quality SVG icons for you to use in your web projects.
+🟣	PY	   18546	   187	2026-10-11	dortania/OpenCore-Legacy-Patcher	Experience macOS just like before
+🟣	RS	    4223	   716	2026-10-11	zerx-lab/FluxDown	Rust 驱动的多协议下载管理器，支持 HTTP/FTP/BitTorrent 磁力链接及 HLS/DASH 流媒体，智能多线程加速与浏览器无缝集成。精美界面，极致性能，永久免费，零广告。
+🟣	RS	   29057	   125	2026-10-11	sharkdp/hyperfine	A command-line benchmarking tool
+🟣	RS	   15641	  9973	2026-10-11	lexmount/moli	Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust
+🟣	RS	    1046	   711	2026-10-11	eolix/photosuite	A desktop image editor, faithful to classic Adobe Photoshop, with native PSD/PSB compatibility
+🟣	RS	     432	    62	2026-10-11	rubys/roundhouse	Rails as a specification; the deployment target is a build flag
+🟣	RS	    2153	   321	2026-10-11	trymirai/uzu	A high-performance inference engine for AI models
+🟣	SH	     615	   130	2026-10-11	GitHubSecurityLab/gh-secure	A GitHub CLI extension to enable security features on repositories following best practices from GitHub Security Lab.
+🟣	TS	    2902	  1071	2026-10-11	DmNote-App/DmNote	Make it yours. A customizable key viewer for DJMAX RESPECT V and any game.
+🟣	TS	   14929	   268	2026-10-11	hicccc77/WeFlow	WeFlow - 一个本地的微信聊天记录导出和年度报告应用
+🟣	TS	    3229	   606	2026-10-11	AtomicBot-ai/atomic-agent	Atomic Agent is a local-first AI agent. Runs open-weight models on your own machine via llama.cpp.
+🟣	TS	     784	   259	2026-10-11	ranxianglei/billion-context	A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need
+🟣	TS	   11336	   862	2026-10-11	cloudflare/cloudflare-os	Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.
+🟣	TS	    8731	  6564	2026-10-11	tester-army/e2e	Next generation e2e testing framework for web and mobile apps.
+🟣	TS	    6735	  2068	2026-10-11	mvschwarz/openrig	Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.
 🟣	GO	    1466	   228	2026-10-04	Autumn-27/ARTEX	AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目
 🟣	GO	     437	    60	2026-10-04	AminMGMT/BackPack	High Performance reverse tunnel engine in Go, built for edge ⇄ origin server setups
 🟣	GO	   15831	   198	2026-10-04	Billionmail/BillionMail	BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr
