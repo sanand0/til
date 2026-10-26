@@ -1,3 +1,24 @@
+🟣	GO	    3502	    80	2026-10-25	PatchMon/PatchMon	Linux Patch Management & Automation Platform
+🟣	GO	    2771	   920	2026-10-25	Asymptote-Labs/agent-beacon	The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu
+🟣	GO	    2658	   193	2026-10-25	slavakurilyak/awesome-ai-agents	Awesome list of 300+ agentic AI resources
+🟣	GO	    1266	   294	2026-10-25	jasonxu114514/opencode2api	A Go-based OpenCode Zen / Zen Go API proxy with OpenAI & Anthropic API compatibility, key/proxy pooling, automatic routing, and WebUI.
+🟣	GO	     392	    28	2026-10-25	pearl-research-labs/pearl	Monorepo for the Pearl network 🐚
+🟣	JS	    2432	   357	2026-10-25	xmanrui/dsh-im	通过扫码或机器人凭据把IM机器人接入DeepSeek Harness（支持飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord和WhatsApp）。 Connect IM bots to DeepSeek Harness via QR code or credentials (9 channels).
+🟣	JS	    3438	   471	2026-10-25	Minglink/dsh-infinite-gen-5	DeepSeek v4.1 flash 逆向工具（无限五代） 求 Star 收藏 ⭐欢迎大家提交项目的改进
+🟣	PY	   41643	   703	2026-10-25	wshobson/agents	Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi
+🟣	PY	  104099	  1012	2026-10-25	fastapi/fastapi	FastAPI framework, high performance, easy to learn, fast to code, ready for production
+🟣	PY	    2453	  1249	2026-10-25	ethanplusai/harvey	Autonomous AI sales agent powered by Claude Code or Codex. Finds prospects, writes cold emails, sends campaigns, handles replies, books meetings. No API keys needed — runs on your Claude or Codex subscriptions.
+🟣	PY	    3587	  1476	2026-10-25	Kruk2/jasna	Video restoration tool
+🟣	PY	    1841	   341	2026-10-25	FujiwaraChoki/supoclip	An open-source OpusClip alternative
+🟣	RS	     794	   304	2026-10-25	leepokai/Codync	Bring your own agent and subscription: message Claude Code, Codex, Gemini CLI, Cursor, Copilot and 40+ AI agents as bots on your own computer, from iPhone, Mac, Windows, Linux or terminal. Agent-agnostic, free, open source. The Grok Bot, Muse and Dots alternative. Built in Rust.
+🟣	RS	   10997	  1263	2026-10-25	pollen-robotics/microduck	A Tiny biped duck robot 🦆
+🟣	RS	   15301	  8080	2026-10-25	xerj-org/xerj	Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.
+🟣	SH	     712	   155	2026-10-25	auscaster/frantic-board	HELP WANTED: AI AGENTS. Real bounties, real money, every payout sealed to a public ledger. The notice board for gofrantic.com
+🟣	SH	    1645	  1098	2026-10-25	EpicGames/unreal-engine-skills-for-claude-code-plugin	
+🟣	TS	    4106	   756	2026-10-25	makecindy/cindy	Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。
+🟣	TS	    5600	  1166	2026-10-25	elie222/rakazo	Open-source Grok Bot alternative. Choose your own model and sandbox.
+🟣	TS	  378817	 78562	2026-10-25	morluto/rea	Reverse engineer anything with agents, from app behavior down to native binaries.
+🟣	TS	    7261	  2209	2026-10-25	Renhuai123/ziwei-doushu	紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据
 🟣	GO	     387	   120	2026-10-11	Agent-Field/CodeAF	Open-Source Software factory for Open Models
 🟣	GO	   19628	   145	2026-10-11	google/gvisor	Application Kernel for Containers
 🟣	GO	    5969	   669	2026-10-11	NdoleStudio/httpsms	Send and receive SMS messages using your Android phone programmatically via a simple HTTP API

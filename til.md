@@ -2,6 +2,19 @@
 
 ## Oct 2026
 
+- 25 Oct 2026. [PixelBoard](https://github.com/Akshayykadam/PixelBoard) has pretty impressive cvoice typing. Google has a Gemini-powered "Rambler" voice recognition system (based on Gemini 3.5 Translate, with offline fallback) on Android phones, but not available via GBoard. PixelBoard enables that. [ChatGPT](https://chatgpt.com/share/6ade1a28-faf0-83ec-a3b5-35d20b35a3ee)
+- 21 Oct 2026. ArtCraft extended their [open source tools](https://github.com/orgs/storytold/repositories?q=sort%3Astars) to cover MS Office, Adobe, and Autodesk #ForNow. Others are following suite. The [Remade Wiki](https://remade.wiki/) has includes OneNote, QuickBooks, Power BI, Outlook, MS Project, Visio, Discord, Jira, Linear, Monday, Corel, ... #ForNow
+- 21 Oct 2026. [Cloudflare ported the TypeScript compiler to Rust](https://blog.cloudflare.com/typescript-rust-port/). Increasingly, language choice is becoming fluid.
+- 20 Oct 2026. [Tiny Little Office](https://tinylittleoffice.com/) uses a number of [interesting tricks](https://chatgpt.com/share/6ad6f3ad-dbc4-83ec-9a0e-77b1d7194dfc): <!-- https://chatgpt.com/c/6ad6dc01-57f8-83ec-8a64-ead2f63b0ee7 -->
+  - The _entire_ document is in the URL fragment, which is as much as 2 MB for Chrome!
+  - That means the _entire_ document can be shared as a single QR code (if it's not too large).
+  - Docs, spreadsheets, presentations, diagrams are _all_ [Markdown-based](https://github.com/aboard-io/tinylittleoffice/blob/main/docs/tlo.md) #ForNow and [agent-friendly](https://github.com/aboard-io/tinylittleoffice/blob/main/packages/doc/README.md). They can be embedded as code fences inside each other.
+  - It uses [domain-specific compression](https://github.com/aboard-io/tinylittleoffice/blob/main/src/kit/core/codec.ts) tailored to its language. It also uses `~` instead of `-` for base64 - to avoid wrapping issues with mail clients.
+  - It uses [directives for agents](https://github.com/aboard-io/tinylittleoffice/blob/main/docs/history/directives/README.md). The way it is organized is interesting!
+- 19 Oct 2026. `document.currentScript.replaceWith(...)` can be used as a nifty way to dynamically replace content, effectively creating a mini-templating language. Via [Simon Willison](https://simonwillison.net/2026/Oct/17/document-currentscript/).
+- 19 Oct 2026. Standardization and personalization are independent axis. In fact, standardization can make personalization easier. [ChatGPT](https://chatgpt.com/c/6ad0b90f-ade0-83ec-a872-674d38307bdc)
+- 19 Oct 2026. Before the printing press, people used to spell words differently. Shakespeare, for example, had different spellings of his name. With the printing press and distribution of publication, spelling became standardized. But interestingly, it standardized by freezing the current conventions. So some oddities of the spellings people used are now a formal part of the language definition.
+- 19 Oct 2026. In pharmacies, we call them "compounders" because they actually used to compound, i.e. mix, medicines - personalizing them to each individual. That faded away as standardized tablets became more common.
 - 18 Oct 2026. Fonts are becoming more sophisticated. [Some features in newer fonts are](https://chatgpt.com/share/6ad492e2-8fb4-83ec-8e55-eab31a60d6b1): <!-- https://chatgpt.com/c/6ad468b8-3048-83ec-bf41-5795d9499337 -->
   - Icons: [NerdFonts](https://www.nerdfonts.com/) is an example of a font class with 10K+ icons embedded - like 󰊢 GitHub, 󰈙 files, or 󰀨 terminals.
   - Opt-in Ligatures: Display multiple characters as one symbol, e.g. => as ⇒, != as ≠, or >= as ≥, letting users pick what to enable.
