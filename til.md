@@ -2,6 +2,38 @@
 
 ## Oct 2026
 
+- 28 Oct 2026. [Ruby chocolate](https://en.wikipedia.org/wiki/Ruby_chocolate) is the fourth variety of chocolate - alongside dark, milk, and white. (Might be a marketing claim than verified.) I tasted it. It's fruity, slightly sour, not bad. My order of preference among the melted chocolates I tasted in a spoon at [Chocolate Nation, Antwerp](https://chocolatenation.be/en):
+  1. **Gold**. Caramel toffee butter cream . Delightful!
+  2. **White W2**. White chocolate. Something I usually enjoy. I was surprised I liked Gold more.
+  3. **823**. Milk cocoa caramel chocolate. Slightly darker.
+  4. **Power 41**. 41% cocoa Caramel with less sugar.
+  5. **Ruby**. Fruity sour taste.
+  6. **Arriba**. Strong cocoa flavor.
+  7. **811**. Bitter.
+  8. The rest were too bitter
+- 28 Oct 2026. I had no idea there was so much innovation in chocolates. Most of the ones I like are a century old. Good to see some revival in the last decade. [ChatGPT](https://chatgpt.com/share/6ae37d51-a0e8-83ec-8cba-b5d2e891d719) <!-- https://chatgpt.com/c/6ae371ee-72b4-83ec-9ed2-b7e11a835350 -->
+  - 1880s: Truffles. chocolate that melts immediately in the mouth.
+  - 1907: Hershey's Kisses.
+  - 1908: Toblerone.
+  - 1912: Pralines. chocolate shell with creamy filling.
+  - 1920: Chocolate-coated ice cream (like Magnum).
+  - 1923: Filled chocolate bars.
+  - 1923: Nougat-caramel chocolate bars (like Five Star, Mars).
+  - 1923: White chocolate.
+  - 1926: Chocolate syrup (Hershey's).
+  - 1928: Peanut butter cups : Combined sweet chocolate with salty, savory peanut butter for a striking flavor and texture contrast.
+  - 1932: Chocolate oranges.
+  - 1935: Aerated chocolate with tiny air bubbles.
+  - 1935: Chocolate-coated wafers (KitKat).
+  - 1936: Malted chocolate balls (Maltesers)
+  - 1949: Soft-melting chocolate centers (Lindor)
+  - 1951: Chocolate-hazelnut spread (eventually Nutella)
+  - 1969: Spherical filled chocolates (Lindor)
+  - 1971: Chocolate eggs (Cadbury Creme Egg)
+  - 2012: Blond chocolate: white chocolate with biscuit and toffee notes.
+  - 2017: Ruby chocolate: pink, fruity, sour.
+  - 2021: Dubai chocolate: Pistachio cream, cruncy.
+- 26 Oct 2026. On one hand, [modern CSS has several new features](https://www.joshwcomeau.com/css/interop-2027/). On the other hand, I've stopped writing code and delegated it to agents, so this is of no use to me. Instead, what I should be thinking about is: what new patterns does this enable, and what should I be asking for in prompts?
 - 25 Oct 2026. [PixelBoard](https://github.com/Akshayykadam/PixelBoard) has pretty impressive cvoice typing. Google has a Gemini-powered "Rambler" voice recognition system (based on Gemini 3.5 Translate, with offline fallback) on Android phones, but not available via GBoard. PixelBoard enables that. [ChatGPT](https://chatgpt.com/share/6ade1a28-faf0-83ec-a3b5-35d20b35a3ee)
 - 21 Oct 2026. ArtCraft extended their [open source tools](https://github.com/orgs/storytold/repositories?q=sort%3Astars) to cover MS Office, Adobe, and Autodesk #ForNow. Others are following suite. The [Remade Wiki](https://remade.wiki/) has includes OneNote, QuickBooks, Power BI, Outlook, MS Project, Visio, Discord, Jira, Linear, Monday, Corel, ... #ForNow
 - 21 Oct 2026. [Cloudflare ported the TypeScript compiler to Rust](https://blog.cloudflare.com/typescript-rust-port/). Increasingly, language choice is becoming fluid.

@@ -1,3 +1,23 @@
+🟣	GO	   57173	  1045	2026-11-01	router-for-me/CLIProxyAPI	Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API
+🟣	GO	   17875	    31	2026-11-01	tinygo-org/tinygo	Go compiler for small places. Microcontrollers, WebAssembly (WASM/WASI), and command-line tools. Based on LLVM.
+🟣	JS	    1708	   135	2026-11-01	techjarves/Portable-Local-Studio	Portable local AI studio for Windows, Linux, and macOS. Zero-setup GUI for Image Generation, GGUF LLMs, Text to Speech & Speech to Text
+🟣	JS	   15161	  6641	2026-11-01	YuJunZhiXue/dsh-purge	DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分
+🟣	PY	    5942	  2364	2026-11-01	beenuar/AiSOC	Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.
+🟣	PY	    1840	   459	2026-11-01	higgsfield-ai/skills	
+🟣	PY	   25860	  1025	2026-11-01	guillaumemeyer/watermarks-remover	A privacy-first app that strips AI watermarks from content you own.
+🟣	RS	    3931	   134	2026-11-01	NVIDIA/cuda-rust	NVIDIA's CUDA platform for Rust. Host runtime crates plus Tile (cutile-rs) and SIMT (cuda-oxide) kernel programming models in idiomatic Rust.
+🟣	RS	   47250	  1524	2026-11-01	herdrdev/herdr	the runtime your coding agents live on
+🟣	RS	    3737	   149	2026-11-01	Mesh-LLM/mesh-llm	Distributed AI/LLM for the people. Share compute privately or publicly to power your agents and chat.
+🟣	RS	    2671	  1297	2026-11-01	fabio-rovai/open-ontologies	Plan, apply and roll back changes to a production ontology, with a blast radius report and a proof an auditor can re-check.
+🟣	RS	   34001	   243	2026-11-01	xai-org/x-algorithm	Algorithm powering the For You feed on X
+🟣	SH	    5962	    87	2026-11-01	fscarmen/sing-box	Sing-box 全家桶 --- 一键多协议脚本。支持 Reality、Hysteria2 、TUIC 、Trojan 、Shadowsocks 、 AnyTLS 、ShadowTLS 、 Vmess 、 VLESS 、NaiveProxy，搭配 Argo 隧道等，多客户端订阅（Clash / V2rayN / Throne / ShadowRocket / SFA ），无须域名、功能强大、配置灵活。
+🟣	TS	    9295	  2086	2026-11-01	CopilotKit/OpenBot	Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.
+🟣	TS	   10233	  3842	2026-11-01	milind-soni/OpenMausBot	Open-source Grok Bot alternative with a virtual machine that bots can use
+🟣	TS	   15072	    85	2026-11-01	google/brotli	Brotli compression format
+🟣	TS	  108649	   997	2026-11-01	google-gemini/gemini-cli	An open-source AI agent that brings the power of Gemini directly into your terminal.
+🟣	TS	    4468	  3533	2026-11-01	nightly-labs/openbot	A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.
+🟣	TS	    5615	  1235	2026-11-01	microsoft/skill-recorder	Desktop app that records your on-screen work session and uses the GitHub Copilot SDK to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Autopilots like Scout, Microsoft Copilot Cowork, or Copilot Studio.
+🟣	TS	    6903	  5738	2026-11-01	JetBrains/thinkrail	Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need
 🟣	GO	    3502	    80	2026-10-25	PatchMon/PatchMon	Linux Patch Management & Automation Platform
 🟣	GO	    2771	   920	2026-10-25	Asymptote-Labs/agent-beacon	The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu
 🟣	GO	    2658	   193	2026-10-25	slavakurilyak/awesome-ai-agents	Awesome list of 300+ agentic AI resources

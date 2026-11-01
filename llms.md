@@ -2,6 +2,27 @@
 
 ## Oct 2026
 
+- 31 Oct 2026. Enterprise software migration seems a massive medium term opportunity - [Ethan Mollick](https://x.com/emollick/status/2116526543346483419). On the other hand, [liquid software](https://x.com/patrickc/status/2116636967517798672) where anyone can tweak their own softare is emerging.
+- 30 Oct 2026. "But I’m not working for my agent, it works for me. It’s a computer. It’s not a person I have to keep busy and keep managing (and checking it’s managing it’s own agents)." - [Ben Tossell](https://www.bensbites.com/p/ai-is-overwhelming-and-im-doing-it)
+- 30 Oct 2026. OpenAI [announced](https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits) that ChatGPT Chat (except Instant) will start getting metered from December 2026. This is a big deal for me because:
+  - I prefer ChatGPT Chat / Work to Codex because it can access my past conversations. <!-- https://chatgpt.com/c/6ae47a43-2824-83ec-b334-74293aca74a0 -->
+  - Chat (in my ChatGPT $20 Plus) isn't metered visibly and feels unlimited.
+  - By giving ChatGPT a plugin to control my computer, I get most of the benefits of Codex.
+  - But this free use will last only a month. I need to see how well [GPT 6.1 Terra](https://developers.openai.com/api/docs/models/gpt-6.1-terra) fills that gap - i.e. is it good enough to beat GPT 6 Sol and cheap enough that I can run my chats without worrying about exhausting limits?
+- 30 Oct 2026. [Clairic](https://blog.cloudflare.com/clairic-extraction-model/) is an extraction model from Cloudflare. It's a Decision model (or System One model) like Jev: fast and lightweight. But this focuses on _extraction_ of text, numbers, dates, even forecasts. It provides the confidence as well as input position of the text for reference.
+- 29 Oct 2026. Anthropic recommends [using the main agent rather than subagents](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop). Single agents on smart models work well unless you need independence #ForNow.
+- 28 Oct 2026. Looks like [GPT 6.1 Terra](https://openai.com/index/introducing-gpt-6-1-terra/) is mostly as good as Sol but cheaper. I haven't tested it yet.
+- 26 Oct 2026. [Ethan Mollick](https://x.com/emollick/status/2114503849826549842): "Ask yourself: "how do I make what I am doing even more ambitious?" Something to practice actively, given the growing abilities of agents.
+- 26 Oct 2026. Anthropic is comfortable that no single person has an architectural view of Claude Code. I guess architecture is also being taken over by agents. [Addy Osmani](https://x.com/addyosmani/status/2114604912520921136): "No member of the team has a full mental model of Claude Code in their head, nor do we think anyone needs to. Rather, when anyone wants to learn about a piece of the codebase, they ask Claude to generate an explainer about that exact slice. It only takes a few minutes and the explainer is always up to date."
+- 26 Oct 2026. Good advice from [Thornton Bell](https://x.com/thorstenball/status/2114386050638336082)
+  - Humans write for humans. Agents for agents.
+  - Be more ambitious.
+  - Give it more eyes - logs, observability, ...
+  - Code on remote machines.
+  - Ask for 5 variations. (I'm not doing enough of this yet.)
+  - Use schedules and triggers. (I'm not doing this at all, so far.)
+- 26 Oct 2026. Codex introduced an experimental #ForNow `--enable instant_interrupt` flag that looks promising. It's still steering, i.e. not instantly stopping any existing requests or tasks (hence wasting effort), but doesn't wait for the entire response either. Not sure how it works but I just enabled it and will evaluate it. [Code-mode yielding PR](https://github.com/openai/codex/pull/48135), [model-response preemption PR](https://github.com/openai/codex/pull/48141).
+- 26 Oct 2026. In Codex you can `@`-mention another Codex session. That'll give it access to an earlier session's context. In the past, I copy-pasted session transcripts, saved them in files, or pointed Codex at the session directory. This is more convenient.
 - 24 Oct 2026. [Neural Networks Are Already Clean](https://already-clean.goodfire.com/) argues that in modern LLMs, most neurons have one function, not arbitrary overlapping functions (like we thought earlier). This becomes clearer when you see the learning steps, e.g. the "iy" neuron -> "diy" -> "do it yourself". Without the "diy" in the middle, it's confusing what "iy" has to do with "do it yourself". Models probably learn by generalizing concepts repeatedly. Interpreting models has the bitter lesson, too: just tell a powerful agent to interpret it.
 - 24 Oct 2026. Modern LLMs have switched from [ReLU](https://en.wikipedia.org/wiki/Rectified_linear_unit) to [SwiGLU](https://github.com/raiyanyahya/how-to-train-your-gpt/blob/master/explanations%20and%20examples%20WIP/swiglu.md). Why? ReLU is on-off and communicates no information when off. SwiGLU is a smooth function that whispers less relevant information - and that gives smarter models more context.
 - 22 Oct 2026. Gemini 3.8 Flash is SLIGHTLY cheaper than Gemini 3 Flash Preview when transcribing 1 min of audio - #ForNow until Dec 31. After that, a higher pricing kicks in. [ChatGPT](https://chatgpt.com/share/6ad9ad5f-77a4-83ec-9c68-93e6d9c5d09d)
