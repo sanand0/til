@@ -1,5 +1,18 @@
 # LLM learnings
 
+## Nov 2026
+
+- 06 Nov 2026. Looks like you can use Codex via an API, since the [OpenAI Agents 0.22.0-alpha.1](https://github.com/openai/openai-agents-js/releases/tag/v0.22.0-alpha.1) release is available. "This alpha introduces the embedded Codex harness in the OpenAI Agents SDK for JavaScript and TypeScript." Via [Daniel](https://x.com/dani_avila7/status/2118029110282698803)
+- 06 Nov 2026. The amount I'm delegating to agents is small but growing. In Aug-Sep, a median session took Codex 3.3 minutes and only 4% of my prompts took 20+ minutes. In October, the median session took 7.5 minutes and 13% of my prompts ran 20+ minutes. <!-- https://chatgpt.com/c/6aed535a-42dc-83e8-be4d-41b16fad0a90 -->
+- 06 Nov 2026. ChatGPT image generation will be a [separate quota from Codex](https://x.com/TokenGremlin/status/2117974085313401330) #ForNow.
+- 06 Nov 2026. Armin used [Qwen3-TTS to detect voices](https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/). I ran a quick benchmark to see how well it did on my transcripts. Answer: Not very good. 32% precision, 84% recall. <!-- https://github.com/sanand0/private-research/tree/main/qwen-diarization -->
+- 05 Nov 2026. Voice remixing is now available in [Gemini 3.8 Flash](https://aistudio.google.com/generate-speech?model=gemini-3.8-flash-tts) and it did a pretty good job of replicating my voice as well as creating new voices based on a prompt. [via X](https://x.com/Google/status/2118027058794148099). [Qwen3-TTS supports custom voices too](https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/) and can run on your laptop with just 1.7B parameters.
+- 05 Nov 2026. This (interestingly summarized) [Machines of Loving Grace](https://tareqistyping.com/prototypes/reading-long-form/) suggests factors that bottleneck intelligence (like in clinical trials, ) - and hence become the focus:
+  1. **People** move slowly or impose constraints.
+  2. **Data** isn't available.
+  3. **Nature** (biology, chemistry, engineering) works only so far.
+- 05 Nov 2026. [Nathan Baschez sees agents factories as the next step](https://www.gettheleverage.com/p/against-the-personal-agents-theory) beyond "All employees use agents". These are shared workflows maintained centrally that the organization can get work done with. That packages context (skills, prompts, docs, data) along with environment (tools, permissions). The main advantages are centralization (few experts/owners enable everyone) and execution (acting in the real world).
+
 ## Oct 2026
 
 - 31 Oct 2026. Enterprise software migration seems a massive medium term opportunity - [Ethan Mollick](https://x.com/emollick/status/2116526543346483419). On the other hand, [liquid software](https://x.com/patrickc/status/2116636967517798672) where anyone can tweak their own softare is emerging.

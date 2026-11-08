@@ -1,5 +1,21 @@
 # Things I learned
 
+## Nov 2026
+
+- 07 Nov 2026. [Facemorph.me](https://facemorph.me/) implements face morphing via [StyleGAN2](https://github.com/NVlabs/stylegan2) (among the best face morphing implementations I've seen) and exposes it via a free public site #ForNow.
+- 06 Nov 2026. My reading from [The Sequoia of Tomorrow](https://www.linkedin.com/pulse/sequoia-tomorrow-sequoia-jcide): <!-- https://claude.ai/chat/b4b7af3a-32b2-4b84-a921-e67332eb97eb -->
+  - Money's in **the Bay Area**. People, move there.
+  - Money’s in **a few big winners**. Maybe they can find them easy and don't need to scout?
+  - Money's in **speed and fewer deciders**. Partners don't need to wait for and convince each other every Monday. Risky, but faster.
+- 05 Nov 2026. "Professors nowadays seem to have become professional fundraisers who do a little research on the side." Also, "Turning the other cheek turns out to have selfish advantages." [Paul Graham](https://paulgraham.com/top.html)
+- 05 Nov 2026. Looks like we've learnt how to get a neuron to fire by shining a light on it. It's called [Optogenetics](https://en.wikipedia.org/wiki/Optogenetics).
+- 04 Nov 2026. [WACZ](https://specs.webrecorder.net/wacz/1.1.1/) seems to be the modern way to archive websites. Unlike MHTML, it can handle multiple pages.
+- 03 Nov 2026. In the last 10 months (Jan-Oct 2026), I prompted Claude, Claude Code, ChatGPT, and Codex about 12,000 times. On average, I talk to AI ~40 times a day. That's 80% of my "Talk to AI 50 times a day" recommendation. I still have some way to go.
+- 02 Nov 2026. Phone spam marketing has reached an elevated level of obnoxiousness. I get calls from automated recordings often. But today, Airtel Black call me and put **me** on hold for two minutes. Wow! Then the music stopped and the line just hung. So, they put me on hold _and_ ghosted me. And the reason I picked up the call was because their Internet was down - so a triple whammy!
+- 02 Nov 2026. Not only have I started [enjoying tea](https://www.s-anand.net/blog/a-tea-perspective/) a lot, I quite look forward to it. Even to the point where a high point of my day is when someone serves me tea, unasked. As my daughter commented, I'm getting old.
+- 01 Nov 2026. [`wacli`](https://github.com/steipete/wacli) is a CLI interface for WhatsApp. Unofficial, and works well #ForNow.
+- 01 Nov 2026. There's no clear, good, ChatGPT search / export CLI that I am comfortable with #ForNow. [ChatGPT](https://chatgpt.com/share/6ae751be-44a0-83ec-9597-6a1fe7d38542)
+
 ## Oct 2026
 
 - 28 Oct 2026. [Ruby chocolate](https://en.wikipedia.org/wiki/Ruby_chocolate) is the fourth variety of chocolate - alongside dark, milk, and white. (Might be a marketing claim than verified.) I tasted it. It's fruity, slightly sour, not bad. My order of preference among the melted chocolates I tasted in a spoon at [Chocolate Nation, Antwerp](https://chocolatenation.be/en):

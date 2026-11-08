@@ -1,3 +1,18 @@
+🟣	GO	   72582	   122	2026-11-08	nektos/act	Run your GitHub Actions locally 🚀
+🟣	GO	    7157	    73	2026-11-08	fleetdm/fleet	Open device management
+🟣	GO	    1838	   104	2026-11-08	openchoreo/openchoreo	OpenChoreo is an internal developer platform for Kubernetes
+🟣	JS	   14628	  1197	2026-11-08	ConardLi/garden-skills	ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.
+🟣	JS	     546	   128	2026-11-08	ericrisco/rsc-harness	Your agent invents things because it has no memory, and can't touch your database because it has no arms. rsc is the meta-harness that gives it both, plus the trade to know the job and the reflexes to not break your repo. For Claude Code, Codex and 15 more.
+🟣	PY	    9844	  9044	2026-11-08	NVIDIA/auto-ontology	Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.
+🟣	PY	   50525	   417	2026-11-08	pandas-dev/pandas	Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more
+🟣	PY	   34432	   237	2026-11-08	python-poetry/poetry	Python packaging and dependency management made easy
+🟣	PY	    4819	  1129	2026-11-08	ethanplusai/sellbird	Sellbird (formerly Harvey): the open-source outreach platform that runs on your Claude or ChatGPT plan. Finds companies and decision makers, verifies emails, writes personal cold email, sends it and handles the replies.
+🟣	PY	    3512	  2151	2026-11-08	scenario-labs/skills	Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.
+🟣	RS	    1901	   383	2026-11-08	SimoHypers/limusic	Feature rich, native desktop, YouTube Music client.
+🟣	RS	    3389	  1018	2026-11-08	crmne/zapfast	ZapFast: a fast, native WhatsApp client in Rust and egui
+🟣	TS	    2201	  1049	2026-11-08	liguobao/ds-harness-remote	基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)
+🟣	TS	   17672	  2260	2026-11-08	Vincentwei1021/video-shotcraft	AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.
+🟣	TS	   83866	   406	2026-11-08	vitejs/vite	Next generation frontend tooling. It's fast!
 🟣	GO	   57173	  1045	2026-11-01	router-for-me/CLIProxyAPI	Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API
 🟣	GO	   17875	    31	2026-11-01	tinygo-org/tinygo	Go compiler for small places. Microcontrollers, WebAssembly (WASM/WASI), and command-line tools. Based on LLVM.
 🟣	JS	    1708	   135	2026-11-01	techjarves/Portable-Local-Studio	Portable local AI studio for Windows, Linux, and macOS. Zero-setup GUI for Image Generation, GGUF LLMs, Text to Speech & Speech to Text
