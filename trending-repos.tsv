@@ -1,3 +1,15 @@
+🟣	GO	   17303	   814	2026-11-15	opensandbox-group/OpenSandbox	Secure, Fast, and Extensible Sandbox runtime for AI agents.
+🟣	GO	    1227	   799	2026-11-15	dsx-ai-factory/nvke	NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.
+🟣	PY	    5844	   342	2026-11-15	elementalsouls/Claude-BugHunter	A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.
+🟣	PY	    4824	   878	2026-11-15	tradermonty/claude-trading-skills	Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.
+🟣	PY	   19204	  5539	2026-11-15	google/elephant-goldfish-model	Open-source plugin for designing and reviewing software with agents
+🟣	PY	    7833	  2348	2026-11-15	homeassistant-ai/ha-mcp	Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.
+🟣	RS	   23756	  5171	2026-11-15	vercel-labs/agent-desktop	Computer use CLI for AI agents
+🟣	TS	   28162	 13660	2026-11-15	meta/astryx	An open source design system that's fully customizable and agent ready
+🟣	TS	   13544	  2176	2026-11-15	openai/codex-security	OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security
+🟣	TS	   33014	  1351	2026-11-15	garrytan/gbrain	Garry's Opinionated OpenClaw/Hermes Agent Brain
+🟣	TS	   85530	  1258	2026-11-15	lobehub/lobehub	🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.
+🟣	TS	    6064	  4363	2026-11-15	GoogleChrome/modern-web-guidance-src	Keep your coding agent up to date with the latest web best practices
 🟣	GO	   72582	   122	2026-11-08	nektos/act	Run your GitHub Actions locally 🚀
 🟣	GO	    7157	    73	2026-11-08	fleetdm/fleet	Open device management
 🟣	GO	    1838	   104	2026-11-08	openchoreo/openchoreo	OpenChoreo is an internal developer platform for Kubernetes

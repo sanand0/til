@@ -2,6 +2,7 @@
 
 ## Nov 2026
 
+- 13 Nov 2026. I think Indigo serves Girnar Masala Chai, which I quite liked! [ChatGPT](https://chatgpt.com/share/6af6b90d-20f4-83ec-9ad8-669ffb40e85e) <!-- https://chatgpt.com/c/6af6ae16-3158-83ec-b2f2-103381f70f23 -->
 - 07 Nov 2026. [Facemorph.me](https://facemorph.me/) implements face morphing via [StyleGAN2](https://github.com/NVlabs/stylegan2) (among the best face morphing implementations I've seen) and exposes it via a free public site #ForNow.
 - 06 Nov 2026. My reading from [The Sequoia of Tomorrow](https://www.linkedin.com/pulse/sequoia-tomorrow-sequoia-jcide): <!-- https://claude.ai/chat/b4b7af3a-32b2-4b84-a921-e67332eb97eb -->
   - Money's in **the Bay Area**. People, move there.
