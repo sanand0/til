@@ -1,3 +1,18 @@
+🟣	GO	    5521	  4716	2026-11-22	Tencent/LoopForge	Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.
+🟣	GO	   47969	    45	2026-11-22	gogs/gogs	The painless way to host your own Git service
+🟣	JS	   42927	   111	2026-11-22	saadeghi/daisyui	🌼 🌼 🌼 🌼 🌼  The most popular, free and open-source Tailwind CSS component library
+🟣	JS	    8660	  2805	2026-11-22	DeanChensj/jiangshan-map	江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes
+🟣	JS	   31180	   108	2026-11-22	GoogleChrome/lighthouse	Automated auditing, performance metrics, and best practices for the web.
+🟣	PY	    5016	   182	2026-11-22	microsoft/PyRIT	Open-source AI red teaming toolkit from Microsoft. Test generative AI systems with automated scans, adaptive multi-turn attacks, and a web UI.
+🟣	PY	    9297	  3598	2026-11-22	kajisho5/ffmpeg-skill	Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.
+🟣	PY	   19530	   351	2026-11-22	andrewyng/openworker	
+🟣	RS	    1686	   371	2026-11-22	ViceVerse-cz/Serein	Tiny, Performant & 100% Native client for Discord made in Rust
+🟣	SH	     739	    59	2026-11-22	itsnotkubrick/3X-UI_KIT	
+🟣	SH	    2843	   131	2026-11-22	liandu2024/Open-Box	Open-Box 一体化透明代理：OpenWrt / Debian / Ubuntu / Docker；自有程序闭源，第三方组件遵守原许可。
+🟣	TS	    3296	   135	2026-11-22	Viren070/AIOStreams	AIOStreams brings your Stremio addons, debrid services and Usenet together into one list, filtered, sorted and formatted your way, and plays it in Stremio or in its own apps for every screen.
+🟣	TS	   17780	   383	2026-11-22	a2ui-project/a2ui	Open-source generative UI framework: agents stream layout data, and apps render it with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose.
+🟣	TS	   21023	  3792	2026-11-22	ag-ui-protocol/ag-ui	AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.
+🟣	TS	    7418	  1236	2026-11-22	hieunc229/mailflare	Email for professionals and teams
 🟣	GO	   17303	   814	2026-11-15	opensandbox-group/OpenSandbox	Secure, Fast, and Extensible Sandbox runtime for AI agents.
 🟣	GO	    1227	   799	2026-11-15	dsx-ai-factory/nvke	NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.
 🟣	PY	    5844	   342	2026-11-15	elementalsouls/Claude-BugHunter	A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.
@@ -30,7 +45,7 @@
 🟣	JS	    1708	   135	2026-11-01	techjarves/Portable-Local-Studio	Portable local AI studio for Windows, Linux, and macOS. Zero-setup GUI for Image Generation, GGUF LLMs, Text to Speech & Speech to Text
 🟣	JS	   15161	  6641	2026-11-01	YuJunZhiXue/dsh-purge	DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分
 🟣	PY	    5942	  2364	2026-11-01	beenuar/AiSOC	Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.
-🟣	PY	    1840	   459	2026-11-01	higgsfield-ai/skills	
+🟣	PY	    1840	   459	2026-11-01	higgsfield-ai/skills
 🟣	PY	   25860	  1025	2026-11-01	guillaumemeyer/watermarks-remover	A privacy-first app that strips AI watermarks from content you own.
 🟣	RS	    3931	   134	2026-11-01	NVIDIA/cuda-rust	NVIDIA's CUDA platform for Rust. Host runtime crates plus Tile (cutile-rs) and SIMT (cuda-oxide) kernel programming models in idiomatic Rust.
 🟣	RS	   47250	  1524	2026-11-01	herdrdev/herdr	the runtime your coding agents live on
@@ -61,7 +76,7 @@
 🟣	RS	   10997	  1263	2026-10-25	pollen-robotics/microduck	A Tiny biped duck robot 🦆
 🟣	RS	   15301	  8080	2026-10-25	xerj-org/xerj	Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.
 🟣	SH	     712	   155	2026-10-25	auscaster/frantic-board	HELP WANTED: AI AGENTS. Real bounties, real money, every payout sealed to a public ledger. The notice board for gofrantic.com
-🟣	SH	    1645	  1098	2026-10-25	EpicGames/unreal-engine-skills-for-claude-code-plugin	
+🟣	SH	    1645	  1098	2026-10-25	EpicGames/unreal-engine-skills-for-claude-code-plugin
 🟣	TS	    4106	   756	2026-10-25	makecindy/cindy	Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。
 🟣	TS	    5600	  1166	2026-10-25	elie222/rakazo	Open-source Grok Bot alternative. Choose your own model and sandbox.
 🟣	TS	  378817	 78562	2026-10-25	morluto/rea	Reverse engineer anything with agents, from app behavior down to native binaries.
@@ -74,11 +89,11 @@
 🟣	GO	    5118	   510	2026-10-11	Gaurav-Gosain/tuios	A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent.
 🟣	GO	     812	   158	2026-10-11	ys-ll/uniterm	All-in-one terminal covering 30+ protocols — SSH, RDP, SFTP, databases, Kubernetes and more. With a built-in AI Agent that runs multi-turn shell commands autonomously.
 🟣	JS	    3356	    53	2026-10-11	IRNova/Nova-Proxy	یک پنل گرافیکی کاربردی برای ارائه اشتراک‌های Worker با پروکسی‌های ، Trojan و Warp به همراه زنجیره پروکسی، ارائه دهنده تنظیمات کامل DNS، IP تمیز و روتینگ پیشرفته برای کاربران تمامی پلتفرم‌ها با استفاده از هسته‌های Amnezia، Wireguard، Sing-box، Clash/Mihomo و Xray.
-🟣	JS	    4782	   198	2026-10-11	withmarbleapp/os-taxonomy	
+🟣	JS	    4782	   198	2026-10-11	withmarbleapp/os-taxonomy
 🟣	JS	   22194	   302	2026-10-11	tabler/tabler-icons	A set of over 6200 free MIT-licensed high-quality SVG icons for you to use in your web projects.
 🟣	PY	   18546	   187	2026-10-11	dortania/OpenCore-Legacy-Patcher	Experience macOS just like before
 🟣	RS	    4223	   716	2026-10-11	zerx-lab/FluxDown	Rust 驱动的多协议下载管理器，支持 HTTP/FTP/BitTorrent 磁力链接及 HLS/DASH 流媒体，智能多线程加速与浏览器无缝集成。精美界面，极致性能，永久免费，零广告。
-🟣	RS	   29057	   125	2026-10-11	sharkdp/hyperfine	A command-line benchmarking tool
+🔴	RS	   29057	   125	2026-10-11	sharkdp/hyperfine	A command-line benchmarking tool	Tried it, but I don't benchmark much.
 🟣	RS	   15641	  9973	2026-10-11	lexmount/moli	Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust
 🟣	RS	    1046	   711	2026-10-11	eolix/photosuite	A desktop image editor, faithful to classic Adobe Photoshop, with native PSD/PSB compatibility
 🟣	RS	     432	    62	2026-10-11	rubys/roundhouse	Rails as a specification; the deployment target is a build flag
@@ -166,7 +181,7 @@
 🟣	RS	    2090	   189	2026-09-20	mesamirh/MovieBox-Tui	Terminal interface to find, download, and stream movies, TV shows, and live TV using local media players.
 🟣	RS	    5397	  4068	2026-09-20	alphaXiv/OpenResearch	Turn your coding agents into research agents
 🟣	RS	    3523	   228	2026-09-20	NVlabs/cuda-oxide	cuda-oxide is a Rust-to-CUDA compiler that lets you write (SIMT) GPU kernels in safe(ish), idiomatic Rust. It compiles standard Rust code directly to PTX — no DSLs, no foreign language bindings, just Rust.
-🟣	RS	   17169	   177	2026-09-20	rui314/mold	mold 🦠: A Modern Linker in Rust 🦀
+🔴	RS	   17169	   177	2026-09-20	rui314/mold	mold 🦠: A Modern Linker in Rust 🦀	I don't code Rust
 🟣	RS	    4564	    49	2026-09-20	topgrade-rs/topgrade	Upgrade all the things
 🟣	RS	    1436	   716	2026-09-20	yyjeqhc/webcodex	Give cloud AI agents a real development environment on your own machines.
 🟣	RS	    2663	   154	2026-09-20	raine/workmux	git worktrees + tmux windows for zero-friction parallel dev
@@ -185,7 +200,7 @@
 🟣	PY	   47329	  4069	2026-09-13	blader/humanizer	Agent skill that removes signs of AI-generated writing from text
 🟣	PY	    3035	  1112	2026-09-13	jordan-gibbs/hyperresearch	Agent-driven research knowledge base. Agents collect, search, and synthesize web research into a persistent, searchable wiki.
 🟣	PY	    8670	  1307	2026-09-13	petergyang/no-ai-slop	Removes 20+ patterns of AI slop from any piece of writing.
-🟣	RS	   54518	    71	2026-09-13	lencx/ChatGPT	❄️ ChatGPT Desktop Application (Mac, Windows and Linux)
+🔴	RS	   54518	    71	2026-09-13	lencx/ChatGPT	❄️ ChatGPT Desktop Application (Mac, Windows and Linux)	I use the official ChatGPT app
 🟣	RS	     634	   216	2026-09-13	mixelpixx/Konnect	AI-assisted PCB design for KiCAD 10. Native KiCAD plugin — a single Rust binary exposing 217 schematic, layout, routing, placement, design-review, and manufacturing tools to Claude, or the LLM of your choosing
 🟣	RS	   17547	   479	2026-09-13	jlcodes99/cockpit-tools	🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta
 🟣	RS	   19268	  1203	2026-09-13	t8y2/dbx	20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。
@@ -202,7 +217,7 @@
 🔴	GO	    3248	   436	2026-09-06	JetBrains/go-modern-guidelines	Help AI coding agents write modern Go	I don't code Go
 🟣	GO	   14053	    66	2026-09-06	kopia/kopia	Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.
 🟣	GO	    3971	  1378	2026-09-06	weave-os/router	Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.
-🟣	GO	    6440	  3187	2026-09-06	tailscale/tailcat	like netcat, but over Tailscale's data plane, without Tailscale's control plane
+🟢	GO	    6440	  3187	2026-09-06	tailscale/tailcat	like netcat, but over Tailscale's data plane, without Tailscale's control plane
 🟢	JS	   67681	    27	2026-09-06	chartjs/Chart.js	Simple HTML5 Charts using the <canvas> tag
 🟣	JS	    8057	  1591	2026-09-06	laoma2053/awesome-zhuiju-free	免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。
 🟣	JS	   15242	   299	2026-09-06	alam00000/bentopdf	The Privacy First PDF Toolkit
@@ -353,7 +368,7 @@
 🟣	RS	   11874	   113	2026-08-09	moghtech/komodo	🦎 a tool to build and deploy software on many servers 🦎
 🟣	RS	    7273	   159	2026-08-09	raphamorim/rio	A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.
 🟣	RS	    9230	    32	2026-08-09	risingwavelabs/risingwave	Event streaming platform for agentic AI. Continuously ingest, transform, and serve event streams in real time, at scale.
-🟣	RS	   18400	    36	2026-08-09	ruffle-rs/ruffle	A Flash Player emulator written in Rust
+🔴	RS	   18400	    36	2026-08-09	ruffle-rs/ruffle	A Flash Player emulator written in Rust	I don't need Flash players
 🟣	RS	    3774	    42	2026-08-09	modelcontextprotocol/rust-sdk	The official Rust SDK for the Model Context Protocol
 🟣	RS	    2582	   337	2026-08-09	agavra/tuicr	a code review TUI with vim keybindings
 🟣	RS	    7514	    78	2026-08-09	warp-tech/warpgate	Fully transparent SSH, HTTPS, Kubernetes, MySQL and Postgres bastion/PAM that doesn't need additional client-side software
@@ -767,23 +782,23 @@
 🟣	RS	   36121	  7898	2026-03-13	ruvnet/RuView	π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.
 🟣	RS	   33652	   103	2026-06-14	swc-project/swc	Rust-based platform for the Web
 🟣	RS	   33294	   186	2026-04-05	TabbyML/tabby	Self-hosted AI coding assistant
-🟣	RS	   33206	   128	2026-07-03	google/comprehensive-rust	This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust.
+🔴	RS	   33206	   128	2026-07-03	google/comprehensive-rust	This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust.	I don't code Rust
 🟣	RS	   31591	    47	2026-06-28	influxdata/influxdb	Scalable datastore for metrics, events, and real-time analytics
 🟣	RS	   30544	  7543	2026-05-17	Hmbown/DeepSeek-TUI	Coding agent for DeepSeek models that runs in your terminal
-🟣	RS	   30260	   384	2026-03-22	zellij-org/zellij	A terminal workspace with batteries included
-🟣	RS	   30080	   177	2026-04-12	dandavison/delta	A syntax-highlighting pager for git, diff, grep, rg --json, and blame output
-🟣	RS	   29741	   130	2026-07-19	emilk/egui	egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native
+🔴	RS	   30260	   384	2026-03-22	zellij-org/zellij	A terminal workspace with batteries included	Don't see a need for tmux given VS Code
+🟢	RS	   30080	   177	2026-04-12	dandavison/delta	A syntax-highlighting pager for git, diff, grep, rg --json, and blame output
+🔴	RS	   29741	   130	2026-07-19	emilk/egui	egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native	I don't code Rust
 🟣	RS	   29495	    87	2026-01-12	vercel/turborepo	Build system optimized for JavaScript and TypeScript, written in Rust
 🟣	RS	   27470	   620	2026-06-06	AlexsJones/llmfit	Hundreds of models & providers. One command to find what runs on your hardware.
 🟣	RS	   26095	    74	2026-02-11	cloudflare/pingora	A library for building fast, reliable and evolvable network services.
 🟣	RS	   23374	   181	2026-01-12	wezterm/wezterm	A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust
 🟣	RS	   21086	    61	2026-01-12	vectordotdev/vector	A high-performance observability data pipeline.
 🟣	RS	   20165	    62	2026-06-14	cube-js/cube	📊 Cube Core is open-source semantic layer for AI, BI and embedded analytics
-🟣	RS	   18104	   835	2026-04-05	fathyb/carbonyl	Chromium running inside your terminal
+🔴	RS	   18104	   835	2026-04-05	fathyb/carbonyl	Chromium running inside your terminal	 I don't see the point. A text browser? OK. This tried to render graphics
 🟣	RS	   17622	   275	2026-03-29	screenpipe/screenpipe	run agents that work for you in the background based on what you do
 🟣	RS	   17296	  1362	2026-05-31	iii-hq/iii	Effortlessly compose, extend, and observe every service in real-time for the first time ever.
 🟣	RS	   16956	   124	2026-06-28	windmill-labs/windmill	Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal.
-🟣	RS	   16166	    32	2026-06-28	hyperium/hyper	An HTTP library for Rust
+🔴	RS	   16166	    32	2026-06-28	hyperium/hyper	An HTTP library for Rust	 I don't code Rust
 🟣	RS	   15242	   673	2026-05-31	ryoppippi/ccusage	Analyze coding (agent) CLI token usage and costs from local data.
 🟣	RS	   13346	   290	2026-07-03	dbt-labs/dbt-core	dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.
 🟣	RS	   12426	    40	2026-01-25	web-infra-dev/rspack	The fast Rust-based JavaScript bundler with webpack-compatible API 🦀️
@@ -1145,7 +1160,7 @@
 🟣	PY	     610	   195	2025-12-28	pollen-robotics/reachy_mini	Reachy Mini's SDK
 🟣	PY	     567	   250	2025-09-23	OpenMind/OM1	Modular AI runtime for robots
 🟣	PY	     239	    79	2025-09-27	google-agentic-commerce/a2a-x402	"The A2A x402 Extension brings cryptocurrency payments to the Agent-to-Agent (A2A) protocol, enabling agents to monetize their services through on-chain payments. This extension revives the spirit of HTTP 402 ""Payment Required"" for the decentralized agent ecosystem."
-🟣	JS	  245821	   310	2026-06-14	react/react	The library for web and native user interfaces.
+🔴	JS	  245821	   310	2026-06-14	react/react	The library for web and native user interfaces.	I don't use React
 🟣	JS	  199305	 10802	2026-05-31	affaan-m/ECC	The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 🟣	JS	   94590	 17462	2026-03-22	affaan-m/everything-claude-code	The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 🟣	JS	   88190	  4696	2026-07-12	JuliusBrussee/caveman	🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman

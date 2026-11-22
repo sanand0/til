@@ -2,6 +2,10 @@
 
 ## Nov 2026
 
+- 19 Nov 2026. Interesting thoughts from Sidu's [After AI, There Is No Average](https://sidu.in/essays/after-ai-there-is-no-average.html)
+  - "... because if you and your agent do a month’s worth of work in a day, you now have to make a month’s worth of decisions in a day."
+- 19 Nov 2026. GPT 6.2 Astra seems to have enough spatial ability to figure out player positions from videos. [X](https://x.com/skalskip92/status/2122783085531979799)
+- 19 Nov 2026. Gemini and Antigravity plugin for robotics let you use MuJoCo and control a robotic arm. [X](https://x.com/GoogleDeepMind/status/2122767521925230896)
 - 13 Nov 2026. [LLMs found an archeological site](https://x.com/PietroMiotti/status/2120219922307711354)! Unfortunately, it had already been discovered in 2025, so it wasn't a totally new one, but close.
 - 13 Nov 2026. [Link lets agents control your wallet](https://link.com/en-sg/agents). `npx @stripe/link-cli@latest`. Not available in Singapore yet #ForNow. I expect banks, retailers, and government services will soon start offering this, too. PS: I learnt this from an "Updates to Link’s Terms of Service and Privacy Policy" email. First time such an email led to such a useful discovery!
 - 13 Nov 2026. [Claude's interactive connectors](https://claude.com/resources/articles/interactive-connectors-full-tool) and [OpenAI plugin extensions](https://developers.openai.com/plugins/build/extensions) operate on the same [MCP Apps protocol](https://modelcontextprotocol.io/extensions/apps/overview). Good to see there's a common standard, but I've yet to build an extension to see how similar they really are. [ChatGPT](https://chatgpt.com/share/6af6569f-b1b4-83ec-8263-fe74305e3aa6) <!-- https://chatgpt.com/c/6af3bbd8-6290-83ee-82ad-1812a8d2dcd7 -->
